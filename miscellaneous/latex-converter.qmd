@@ -1,21 +1,241 @@
 ---
-title: "Latex Reference Converter"
-subtitle: "Converting References Between Different Formats"
+title: "LaTeX Reference Converter"
+subtitle: "Transform Manual Figure and Table References into Proper LaTeX Citations Using Regex in Overleaf"
 author: "Dr. Md Abdus Samad"
 date: "2025-05-30"
 toc: true
+toc-depth: 3
+code-copy: true
 ---
 
-## Overview
+## Why This Matters
 
-Add your content about LaTeX reference converter here...
+::: {.callout-note}
+## Introduction
+When writing academic papers, reports, or theses in LaTeX, you often reference figures and tables throughout your document. Converting manual references like "figure 1" or "table 2" into proper LaTeX references (`\ref{fig:1}`, `\ref{tab:2}`) ensures:
 
-## Conversion Tools
+- **Automatic numbering:** LaTeX handles figure/table numbering automatically
+- **Clickable links:** References become clickable in PDFs
+- **Easy maintenance:** No need to renumber when adding/removing figures
+- **Professional formatting:** Consistent with LaTeX best practices
 
-## Supported Formats
-
-## How to Use
+This tutorial will save you hours of manual editing using Overleaf's powerful regex search and replace feature.
+:::
 
 ---
 
-*Last updated: 2025*
+## Step 1: Setting Up Regex Search in Overleaf
+
+1. Open your LaTeX project in **Overleaf**
+2. Press `Ctrl + F` (Windows/Linux) or `Cmd + F` (Mac) to open the Find/Replace panel
+3. Click the `.*` button to enable **regex search mode**
+4. Ensure the search panel shows "Regular expressions enabled"
+
+::: {.callout-warning}
+## Important Tips
+**Always backup your document** before running global replacements. Use Overleaf's version history or download a copy of your project.
+:::
+
+---
+
+## Step 2: Converting Figure References
+
+Let us convert all instances of "figure X" to proper LaTeX references:
+
+### Search Pattern
+
+```regex
+figure\s+(\d+)
+```
+
+::: {.callout-note}
+## Pattern Breakdown
+
+- `figure` - matches the literal word "figure"
+- `\s+` - matches one or more whitespace characters (spaces, tabs)
+- `(\d+)` - captures one or more digits in group 1
+:::
+
+### Replace Pattern
+
+```latex
+\ref{fig:\1}
+```
+
+Click **Replace All** to apply the changes.
+
+::: {.callout-tip}
+## Examples
+
+**Before:** "As shown in figure 3, the results indicate..."
+**After:** "As shown in `Figure~\ref{fig:3}`, the results indicate..."
+
+**Before:** "Figure 12 demonstrates the effectiveness of..."
+**After:** "`Figure~\ref{fig:12}` demonstrates the effectiveness of..."
+:::
+
+---
+
+## Step 3: Converting Table References
+
+Now let us handle table references using the same approach:
+
+### Search Pattern
+
+```regex
+table\s+(\d+)
+```
+
+### Replace Pattern
+
+```latex
+\ref{tab:\1}
+```
+
+Click **Replace All** to convert all table references.
+
+::: {.callout-tip}
+## Example
+
+**Before:** "The data in table 5 shows significant improvement..."
+**After:** "The data in `\ref{tab:5}` shows significant improvement..."
+:::
+
+---
+
+## Step 4: Advanced - Case-Insensitive Matching
+
+To handle variations like "Figure", "FIGURE", "Table", "TABLE", use these enhanced patterns:
+
+### For Figures (case-insensitive)
+
+```regex
+(?i)figure\s+(\d+)
+```
+
+### For Tables (case-insensitive)
+
+```regex
+(?i)table\s+(\d+)
+```
+
+::: {.callout-note}
+## Pattern Addition
+
+- `(?i)` - enables case-insensitive matching for the entire pattern
+:::
+
+---
+
+## Step 5: One-Pass Solution
+
+::: {.callout-note}
+## Alternative Approach
+If you prefer to handle both figures and tables in a single operation:
+:::
+
+### Search Pattern
+
+```regex
+(?i)(figure|table)\s+(\d+)
+```
+
+### Replace Pattern
+
+```latex
+\ref{\L\1:\2}
+```
+
+::: {.callout-note}
+## Advanced Pattern Breakdown
+
+- `(figure|table)` - captures either "figure" or "table" in group 1
+- `\L\1` - converts the captured word to lowercase
+- `\2` - inserts the captured number
+:::
+
+::: {.callout-tip}
+## Example
+
+**Before:** "Figure 3 and Table 7 show..."
+**After:** "`\ref{figure:3}` and `\ref{table:7}` show..."
+
+**Note:** This produces `\ref{figure:3}` instead of `\ref{fig:3}`. For standard LaTeX conventions, it is recommended to use separate passes as shown in steps 2-3.
+:::
+
+---
+
+## Step 6: Handling Edge Cases
+
+### Preserving Sentence Capitalization
+
+For references at the beginning of sentences, you might want to preserve capitalization:
+
+**Search:**
+
+```regex
+^Figure\s+(\d+)
+```
+
+**Replace:**
+
+```latex
+Figure~\ref{fig:\1}
+```
+
+::: {.callout-tip}
+## Example
+
+**Before:** "Figure 2 illustrates the concept."
+**After:** "`Figure~\ref{fig:2}` illustrates the concept."
+:::
+
+### Handling Plural Forms
+
+**Search:**
+
+```regex
+figures\s+(\d+)\s+and\s+(\d+)
+```
+
+**Replace:**
+
+```latex
+\ref{fig:\1} and \ref{fig:\2}
+```
+
+---
+
+## Pro Tips for Success
+
+- **Test first:** Try your regex pattern on a small section before applying to the entire document
+- **Use Find Next:** Use "Find" to preview matches before clicking "Replace All"
+- **Check your labels:** Ensure your figure and table environments have corresponding `\label{fig:X}` and `\label{tab:X}`
+- **Consider spacing:** Use `~` (non-breaking space) before references to prevent line breaks: `Figure~\ref{fig:1}`
+- **Compile often:** Run your LaTeX document after each major change to catch any issues early
+- **Version control:** Save versions of your work regularly in Overleaf's history
+
+---
+
+## Next Steps
+
+After converting your references, remember to:
+
+1. **Compile your document** to ensure all references work correctly
+2. **Check for any missed references** that might have unusual formatting
+3. **Add appropriate labels** to any figures/tables that do not have them
+4. **Consider using cleveref package** for even more sophisticated referencing
+
+```latex
+% Add to your preamble for enhanced referencing
+\usepackage{cleveref}
+
+% Then use \cref{fig:1} instead of Figure~\ref{fig:1}
+```
+
+---
+
+::: {.callout-note}
+## Summary
+Using regex search and replace in Overleaf transforms the tedious task of converting manual references into an efficient, automated process. This technique not only saves time but also ensures consistency and professionalism in your LaTeX documents. Master these patterns, and you will be able to quickly convert any academic document to use proper LaTeX referencing conventions.
+:::

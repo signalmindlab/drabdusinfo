@@ -177,9 +177,9 @@
   {
     "objectID": "miscellaneous/section-labels.html",
     "href": "miscellaneous/section-labels.html",
-    "title": "Sequential Section Labels",
+    "title": "Automatically Add Sequential Section Labels in Overleaf",
     "section": "",
-    "text": "Add your content about sequential section labels here…"
+    "text": "NoteThe Problem\n\n\n\nWhen writing academic papers in LaTeX, using \\ref{sec:sectionname} for cross-references is essential for professional documentation. However, manually adding \\label{sec:sectionname} to every \\section{} command becomes tedious and error-prone in long documents.\n\n\n\n\n\nAutomatic numbering: LaTeX handles section numbering dynamically\nDynamic references: Section numbers update automatically when you reorganize content\nProfessional formatting: Ensures consistent reference style throughout your document\nEasy maintenance: No need to manually update references when adding or removing sections"
   },
   {
     "objectID": "miscellaneous/section-labels.html#overview",
@@ -646,9 +646,9 @@
   {
     "objectID": "miscellaneous/latex-reference.html",
     "href": "miscellaneous/latex-reference.html",
-    "title": "LaTeX Reference and Label Management",
+    "title": "Professional LaTeX Document Conversion",
     "section": "",
-    "text": "Add your content about LaTeX reference and label management here…"
+    "text": "WarningImportant\n\n\n\nBefore starting any replacements, ensure you have proper backups!\n\n\n\n\n\nCreate a backup of your entire project\nUse version control (git commit before changes)\nTest compile to ensure document builds correctly\nDocument your current numbering scheme"
   },
   {
     "objectID": "miscellaneous/latex-reference.html#overview",
@@ -683,7 +683,7 @@
     "href": "miscellaneous/indexing.html",
     "title": "Verifying Journal Indexing",
     "section": "",
-    "text": "Add your content about verifying journal indexing here…"
+    "text": "In an increasingly complex academic publishing environment, it is essential for researchers to make informed decisions regarding where and how they disseminate their work. This resource page provides a curated collection of tools, platforms, and references to support various stages of the research publication process—including journal selection, impact factor verification, conference evaluation, manuscript preparation, and adherence to ethical standards. These resources are intended to assist researchers in avoiding predatory publishing practices, ensuring academic integrity, and improving the overall quality and visibility of their scholarly output."
   },
   {
     "objectID": "miscellaneous/indexing.html#overview",
@@ -723,9 +723,9 @@
   {
     "objectID": "miscellaneous/docx-latex.html",
     "href": "miscellaneous/docx-latex.html",
-    "title": "DOCX to LaTeX Convert",
+    "title": "DOCX to LaTeX Conversion Guide",
     "section": "",
-    "text": "Add your content about DOCX to LaTeX conversion here…"
+    "text": "NoteOverview\n\n\n\nThis guide provides a systematic approach to converting DOCX files to LaTeX format, specifically tailored for academic papers using the elsarticle document class. The process involves proper preparation, image handling, and automated conversion using Pandoc."
   },
   {
     "objectID": "miscellaneous/docx-latex.html#overview",
@@ -760,7 +760,7 @@
     "href": "miscellaneous/author-services.html",
     "title": "Author Services by Major Publishers",
     "section": "",
-    "text": "Add your content about author services here…"
+    "text": "Comprehensive directory of author services and manuscript preparation resources from leading academic publishers worldwide."
   },
   {
     "objectID": "miscellaneous/author-services.html#overview",
@@ -800,9 +800,9 @@
   {
     "objectID": "miscellaneous/anonymization.html",
     "href": "miscellaneous/anonymization.html",
-    "title": "Manuscript Anonymization",
+    "title": "LaTeX Manuscript Anonymization Guide",
     "section": "",
-    "text": "Add your content about manuscript anonymization here…"
+    "text": "Master the art of creating anonymized manuscripts for peer review using LaTeX conditional statements. One source file, two versions — streamline your academic submission workflow with elegant toggle mechanisms."
   },
   {
     "objectID": "miscellaneous/anonymization.html#overview",
@@ -872,7 +872,7 @@
     "href": "miscellaneous/elsevier.html",
     "title": "Switching Elsevier LaTeX Templates",
     "section": "",
-    "text": "Add your content about switching Elsevier LaTeX templates here…"
+    "text": "Learn how to switch citation and bibliography styles without rewriting your entire manuscript."
   },
   {
     "objectID": "miscellaneous/elsevier.html#overview",
@@ -905,9 +905,9 @@
   {
     "objectID": "miscellaneous/latex-converter.html",
     "href": "miscellaneous/latex-converter.html",
-    "title": "Latex Reference Converter",
+    "title": "LaTeX Reference Converter",
     "section": "",
-    "text": "Add your content about LaTeX reference converter here…"
+    "text": "NoteIntroduction\n\n\n\nWhen writing academic papers, reports, or theses in LaTeX, you often reference figures and tables throughout your document. Converting manual references like “figure 1” or “table 2” into proper LaTeX references (\\ref{fig:1}, \\ref{tab:2}) ensures:\n\nAutomatic numbering: LaTeX handles figure/table numbering automatically\nClickable links: References become clickable in PDFs\nEasy maintenance: No need to renumber when adding/removing figures\nProfessional formatting: Consistent with LaTeX best practices\n\nThis tutorial will save you hours of manual editing using Overleaf’s powerful regex search and replace feature."
   },
   {
     "objectID": "miscellaneous/latex-converter.html#overview",
@@ -982,9 +982,9 @@
   {
     "objectID": "miscellaneous/open-access.html",
     "href": "miscellaneous/open-access.html",
-    "title": "Open Access Journals having Discount Policy",
+    "title": "Open Access Journals Having Discount Policy",
     "section": "",
-    "text": "Add your content about open access journals with discount policies here…"
+    "text": "A carefully selected list of open-access journals with SCIE/SCI/SSCI indexes for researchers in developing nations. This resource includes topics such as public health, IT, electrical engineering, electronics, data science, and computer science. Top publishers such as Elsevier, Springer, BMJ, IEEE, MDPI, SAGE, Frontiers, IOP, and Bentham Open are included, along with APCs, waiver/discount policies, and submission links."
   },
   {
     "objectID": "miscellaneous/open-access.html#overview",
@@ -1054,7 +1054,7 @@
     "href": "miscellaneous/reference.html",
     "title": "Reference, Image Quality, and Detexify",
     "section": "",
-    "text": "Add your content here…"
+    "text": "Transform your research workflow with AI-powered BibTeX generation. Perfect for researchers, students, and academic editors working with incomplete or inconsistent citations."
   },
   {
     "objectID": "miscellaneous/reference.html#overview",
@@ -1089,7 +1089,7 @@
     "href": "miscellaneous/templates.html",
     "title": "Journal Templates",
     "section": "",
-    "text": "Add your content about journal templates here…"
+    "text": "This comprehensive guide provides LaTeX templates for major academic journals across various disciplines. Each template is designed to meet specific journal formatting requirements and ensure smooth submission processes."
   },
   {
     "objectID": "miscellaneous/templates.html#overview",
@@ -1524,5 +1524,782 @@
     "title": "Overleaf Git Sync Guide",
     "section": "Additional Resources",
     "text": "Additional Resources\n\nGit Documentation: https://git-scm.com/doc\nOverleaf Git Guide: https://www.overleaf.com/learn/how-to/Using_Git_and_GitHub\nInteractive Git Tutorial: https://learngitbranching.js.org/\n\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/open-access.html#what-is-included",
+    "href": "miscellaneous/open-access.html#what-is-included",
+    "title": "Open Access Journals Having Discount Policy",
+    "section": "What is Included",
+    "text": "What is Included\nThe spreadsheet contains information on:\n\nJournal Names - Open access journals indexed in SCIE/SCI/SSCI\nPublishers - Elsevier, Springer, BMJ, IEEE, MDPI, SAGE, Frontiers, IOP, Bentham Open, and more\nSubject Areas - Public health, IT, electrical engineering, electronics, data science, computer science\nAPC (Article Processing Charges) - Current fees for each journal\nWaiver/Discount Policies - Available discounts for researchers from developing countries\nSubmission Links - Direct links to journal submission portals"
+  },
+  {
+    "objectID": "miscellaneous/open-access.html#why-this-resource",
+    "href": "miscellaneous/open-access.html#why-this-resource",
+    "title": "Open Access Journals Having Discount Policy",
+    "section": "Why This Resource?",
+    "text": "Why This Resource?\nMany researchers in developing nations face financial barriers when publishing in high-quality open access journals. This curated list helps identify journals that offer:\n\nFull APC waivers for low-income countries\nPartial discounts based on author country\nInstitutional agreements and memberships\nSpecial funding programs for researchers\n\n\nFor questions or suggestions about this list, please contact the maintainer."
+  },
+  {
+    "objectID": "miscellaneous/section-labels.html#introduction-and-why-section-labels-matter",
+    "href": "miscellaneous/section-labels.html#introduction-and-why-section-labels-matter",
+    "title": "Automatically Add Sequential Section Labels in Overleaf",
+    "section": "",
+    "text": "NoteThe Problem\n\n\n\nWhen writing academic papers in LaTeX, using \\ref{sec:sectionname} for cross-references is essential for professional documentation. However, manually adding \\label{sec:sectionname} to every \\section{} command becomes tedious and error-prone in long documents.\n\n\n\n\n\nAutomatic numbering: LaTeX handles section numbering dynamically\nDynamic references: Section numbers update automatically when you reorganize content\nProfessional formatting: Ensures consistent reference style throughout your document\nEasy maintenance: No need to manually update references when adding or removing sections"
+  },
+  {
+    "objectID": "miscellaneous/section-labels.html#method-1-basic-regex-search-and-replace-in-overleaf",
+    "href": "miscellaneous/section-labels.html#method-1-basic-regex-search-and-replace-in-overleaf",
+    "title": "Automatically Add Sequential Section Labels in Overleaf",
+    "section": "Method 1: Basic Regex Search and Replace in Overleaf",
+    "text": "Method 1: Basic Regex Search and Replace in Overleaf\n\nStep 1: Open your LaTeX project in Overleaf\nNavigate to the file containing your sections that need labels.\n\n\nStep 2: Access Find/Replace\nPress Ctrl + F (Windows/Linux) or Cmd + F (Mac)\n\n\nStep 3: Enable Regex mode\nClick the .* (regex) button in the search panel\n\n\nStep 4: Enter the search pattern\n\\\\section\\{([^}]*)\\}\nThis pattern captures any text within section braces, including spaces and special characters\n\n\nStep 5: Enter the replacement pattern\n\\\\section{$1}\\\\label{sec:$1}\nThe $1 placeholder maintains your original section title in both the section command and label\n\n\nStep 6: Execute the replacement\nClick Replace All to apply changes to your entire document\n\n\nExample Results\n\n\n\n\n\n\nWarningBefore\n\n\n\n\\section{Introduction}\n\\section{Literature Review}\n\\section{Methodology}\n\n\n\n\n\n\n\n\nTipAfter\n\n\n\n\\section{Introduction}\\label{sec:Introduction}\n\\section{Literature Review}\\label{sec:Literature Review}\n\\section{Methodology}\\label{sec:Methodology}"
+  },
+  {
+    "objectID": "miscellaneous/section-labels.html#method-2-advanced-pattern-for-clean-label-names",
+    "href": "miscellaneous/section-labels.html#method-2-advanced-pattern-for-clean-label-names",
+    "title": "Automatically Add Sequential Section Labels in Overleaf",
+    "section": "Method 2: Advanced Pattern for Clean Label Names",
+    "text": "Method 2: Advanced Pattern for Clean Label Names\nFor more professional label names without spaces or special characters, you can use a modified approach:\n\nSearch Pattern\n\\\\section\\{([^}]*)\\}\n\n\nReplace Pattern\n\\\\section{$1}\\\\label{sec:\\L$1\\E}\n\n\n\n\n\n\nTipPro Tip\n\n\n\nThe \\L and \\E modifiers convert text to lowercase (availability depends on your regex engine). If this does not work in Overleaf, use the manual approach below.\n\n\n\n\nManual Alternative Approach\n\nUse the basic method first to add all labels\nManually clean up labels by replacing spaces with underscores or hyphens\nConvert to lowercase for consistency"
+  },
+  {
+    "objectID": "miscellaneous/section-labels.html#method-3-handling-subsections-and-subsubsections",
+    "href": "miscellaneous/section-labels.html#method-3-handling-subsections-and-subsubsections",
+    "title": "Automatically Add Sequential Section Labels in Overleaf",
+    "section": "Method 3: Handling Subsections and Subsubsections",
+    "text": "Method 3: Handling Subsections and Subsubsections\n\nFor Subsections\nSearch:\n\\\\subsection\\{([^}]*)\\}\nReplace:\n\\\\subsection{$1}\\\\label{subsec:$1}\n\n\nFor Subsubsections\nSearch:\n\\\\subsubsection\\{([^}]*)\\}\nReplace:\n\\\\subsubsection{$1}\\\\label{subsubsec:$1}"
+  },
+  {
+    "objectID": "miscellaneous/section-labels.html#best-practices-and-tips",
+    "href": "miscellaneous/section-labels.html#best-practices-and-tips",
+    "title": "Automatically Add Sequential Section Labels in Overleaf",
+    "section": "Best Practices and Tips",
+    "text": "Best Practices and Tips\n\nLabel Naming Conventions\n\nUse descriptive prefixes: sec:, subsec:, subsubsec:\nKeep labels concise but meaningful\nUse underscores instead of spaces: sec:literature_review\nAvoid special characters and numbers at the beginning\n\n\n\n\n\n\n\nWarningBefore You Begin\n\n\n\n\nCreate a backup of your project or commit changes to Git\nTest on a small section first to ensure the regex works as expected\nReview all replacements before finalizing"
+  },
+  {
+    "objectID": "miscellaneous/section-labels.html#troubleshooting-common-issues",
+    "href": "miscellaneous/section-labels.html#troubleshooting-common-issues",
+    "title": "Automatically Add Sequential Section Labels in Overleaf",
+    "section": "Troubleshooting Common Issues",
+    "text": "Troubleshooting Common Issues\n\nProblem: Labels with spaces do not work well\nSolution: Manually replace spaces with underscores in labels after regex replacement\n\n\nProblem: Special characters in section titles cause issues\nSolution: Use a more restrictive search pattern or clean labels manually\n\n\nProblem: Nested braces in section titles\nSolution: Handle complex cases individually rather than with bulk regex"
+  },
+  {
+    "objectID": "miscellaneous/section-labels.html#using-your-new-labels",
+    "href": "miscellaneous/section-labels.html#using-your-new-labels",
+    "title": "Automatically Add Sequential Section Labels in Overleaf",
+    "section": "Using Your New Labels",
+    "text": "Using Your New Labels\nOnce labels are added, reference them in your text:\nAs discussed in Section \\ref{sec:Introduction}, we will explore...\nSee the methodology in Section \\ref{sec:Methodology} for details.\n\n\n\n\n\n\nTipLaTeX will automatically:\n\n\n\n\nGenerate correct section numbers\nUpdate references when you reorganize content\nHandle cross-references in your final PDF"
+  },
+  {
+    "objectID": "miscellaneous/section-labels.html#alternative-tools-and-methods",
+    "href": "miscellaneous/section-labels.html#alternative-tools-and-methods",
+    "title": "Automatically Add Sequential Section Labels in Overleaf",
+    "section": "Alternative Tools and Methods",
+    "text": "Alternative Tools and Methods\n\nFor Advanced Users\n\nExternal text editors with powerful regex support (VS Code, Sublime Text)\nLaTeX-specific tools like TeXstudio with advanced find/replace\nCustom scripts for bulk processing multiple files\n\n\n\nAutomated Solutions\nConsider writing a simple Python script for large projects with hundreds of sections, or use LaTeX packages like cleveref for enhanced reference formatting.\n\n\n\n\n\n\n\nNoteConclusion\n\n\n\nAutomating section label addition saves significant time and reduces errors in LaTeX documents. The regex method in Overleaf provides a quick solution for most use cases, while the advanced techniques ensure professional, consistent labeling throughout your academic papers. Remember to always backup your work and test patterns on small sections before applying them to entire documents."
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html#why-this-matters",
+    "href": "miscellaneous/latex-converter.html#why-this-matters",
+    "title": "LaTeX Reference Converter",
+    "section": "",
+    "text": "NoteIntroduction\n\n\n\nWhen writing academic papers, reports, or theses in LaTeX, you often reference figures and tables throughout your document. Converting manual references like “figure 1” or “table 2” into proper LaTeX references (\\ref{fig:1}, \\ref{tab:2}) ensures:\n\nAutomatic numbering: LaTeX handles figure/table numbering automatically\nClickable links: References become clickable in PDFs\nEasy maintenance: No need to renumber when adding/removing figures\nProfessional formatting: Consistent with LaTeX best practices\n\nThis tutorial will save you hours of manual editing using Overleaf’s powerful regex search and replace feature."
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html#step-1-setting-up-regex-search-in-overleaf",
+    "href": "miscellaneous/latex-converter.html#step-1-setting-up-regex-search-in-overleaf",
+    "title": "LaTeX Reference Converter",
+    "section": "Step 1: Setting Up Regex Search in Overleaf",
+    "text": "Step 1: Setting Up Regex Search in Overleaf\n\nOpen your LaTeX project in Overleaf\nPress Ctrl + F (Windows/Linux) or Cmd + F (Mac) to open the Find/Replace panel\nClick the .* button to enable regex search mode\nEnsure the search panel shows “Regular expressions enabled”\n\n\n\n\n\n\n\nWarningImportant Tips\n\n\n\nAlways backup your document before running global replacements. Use Overleaf’s version history or download a copy of your project."
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html#step-2-converting-figure-references",
+    "href": "miscellaneous/latex-converter.html#step-2-converting-figure-references",
+    "title": "LaTeX Reference Converter",
+    "section": "Step 2: Converting Figure References",
+    "text": "Step 2: Converting Figure References\nLet us convert all instances of “figure X” to proper LaTeX references:\n\nSearch Pattern\nfigure\\s+(\\d+)\n\n\n\n\n\n\nNotePattern Breakdown\n\n\n\n\nfigure - matches the literal word “figure”\n\\s+ - matches one or more whitespace characters (spaces, tabs)\n(\\d+) - captures one or more digits in group 1\n\n\n\n\n\nReplace Pattern\n\\ref{fig:\\1}\nClick Replace All to apply the changes.\n\n\n\n\n\n\nTipExamples\n\n\n\nBefore: “As shown in figure 3, the results indicate…” After: “As shown in Figure~\\ref{fig:3}, the results indicate…”\nBefore: “Figure 12 demonstrates the effectiveness of…” After: “Figure~\\ref{fig:12} demonstrates the effectiveness of…”"
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html#step-3-converting-table-references",
+    "href": "miscellaneous/latex-converter.html#step-3-converting-table-references",
+    "title": "LaTeX Reference Converter",
+    "section": "Step 3: Converting Table References",
+    "text": "Step 3: Converting Table References\nNow let us handle table references using the same approach:\n\nSearch Pattern\ntable\\s+(\\d+)\n\n\nReplace Pattern\n\\ref{tab:\\1}\nClick Replace All to convert all table references.\n\n\n\n\n\n\nTipExample\n\n\n\nBefore: “The data in table 5 shows significant improvement…” After: “The data in \\ref{tab:5} shows significant improvement…”"
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html#step-4-advanced---case-insensitive-matching",
+    "href": "miscellaneous/latex-converter.html#step-4-advanced---case-insensitive-matching",
+    "title": "LaTeX Reference Converter",
+    "section": "Step 4: Advanced - Case-Insensitive Matching",
+    "text": "Step 4: Advanced - Case-Insensitive Matching\nTo handle variations like “Figure”, “FIGURE”, “Table”, “TABLE”, use these enhanced patterns:\n\nFor Figures (case-insensitive)\n(?i)figure\\s+(\\d+)\n\n\nFor Tables (case-insensitive)\n(?i)table\\s+(\\d+)\n\n\n\n\n\n\nNotePattern Addition\n\n\n\n\n(?i) - enables case-insensitive matching for the entire pattern"
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html#step-5-one-pass-solution",
+    "href": "miscellaneous/latex-converter.html#step-5-one-pass-solution",
+    "title": "LaTeX Reference Converter",
+    "section": "Step 5: One-Pass Solution",
+    "text": "Step 5: One-Pass Solution\n\n\n\n\n\n\nNoteAlternative Approach\n\n\n\nIf you prefer to handle both figures and tables in a single operation:\n\n\n\nSearch Pattern\n(?i)(figure|table)\\s+(\\d+)\n\n\nReplace Pattern\n\\ref{\\L\\1:\\2}\n\n\n\n\n\n\nNoteAdvanced Pattern Breakdown\n\n\n\n\n(figure|table) - captures either “figure” or “table” in group 1\n\\L\\1 - converts the captured word to lowercase\n\\2 - inserts the captured number\n\n\n\n\n\n\n\n\n\nTipExample\n\n\n\nBefore: “Figure 3 and Table 7 show…” After: “\\ref{figure:3} and \\ref{table:7} show…”\nNote: This produces \\ref{figure:3} instead of \\ref{fig:3}. For standard LaTeX conventions, it is recommended to use separate passes as shown in steps 2-3."
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html#step-6-handling-edge-cases",
+    "href": "miscellaneous/latex-converter.html#step-6-handling-edge-cases",
+    "title": "LaTeX Reference Converter",
+    "section": "Step 6: Handling Edge Cases",
+    "text": "Step 6: Handling Edge Cases\n\nPreserving Sentence Capitalization\nFor references at the beginning of sentences, you might want to preserve capitalization:\nSearch:\n^Figure\\s+(\\d+)\nReplace:\nFigure~\\ref{fig:\\1}\n\n\n\n\n\n\nTipExample\n\n\n\nBefore: “Figure 2 illustrates the concept.” After: “Figure~\\ref{fig:2} illustrates the concept.”\n\n\n\n\nHandling Plural Forms\nSearch:\nfigures\\s+(\\d+)\\s+and\\s+(\\d+)\nReplace:\n\\ref{fig:\\1} and \\ref{fig:\\2}"
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html#pro-tips-for-success",
+    "href": "miscellaneous/latex-converter.html#pro-tips-for-success",
+    "title": "LaTeX Reference Converter",
+    "section": "Pro Tips for Success",
+    "text": "Pro Tips for Success\n\nTest first: Try your regex pattern on a small section before applying to the entire document\nUse Find Next: Use “Find” to preview matches before clicking “Replace All”\nCheck your labels: Ensure your figure and table environments have corresponding \\label{fig:X} and \\label{tab:X}\nConsider spacing: Use ~ (non-breaking space) before references to prevent line breaks: Figure~\\ref{fig:1}\nCompile often: Run your LaTeX document after each major change to catch any issues early\nVersion control: Save versions of your work regularly in Overleaf’s history"
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html#next-steps",
+    "href": "miscellaneous/latex-converter.html#next-steps",
+    "title": "LaTeX Reference Converter",
+    "section": "Next Steps",
+    "text": "Next Steps\nAfter converting your references, remember to:\n\nCompile your document to ensure all references work correctly\nCheck for any missed references that might have unusual formatting\nAdd appropriate labels to any figures/tables that do not have them\nConsider using cleveref package for even more sophisticated referencing\n\n% Add to your preamble for enhanced referencing\n\\usepackage{cleveref}\n\n% Then use \\cref{fig:1} instead of Figure~\\ref{fig:1}\n\n\n\n\n\n\n\nNoteSummary\n\n\n\nUsing regex search and replace in Overleaf transforms the tedious task of converting manual references into an efficient, automated process. This technique not only saves time but also ensures consistency and professionalism in your LaTeX documents. Master these patterns, and you will be able to quickly convert any academic document to use proper LaTeX referencing conventions."
+  },
+  {
+    "objectID": "miscellaneous/latex-reference.html#pre-conversion-checklist",
+    "href": "miscellaneous/latex-reference.html#pre-conversion-checklist",
+    "title": "Professional LaTeX Document Conversion",
+    "section": "",
+    "text": "WarningImportant\n\n\n\nBefore starting any replacements, ensure you have proper backups!\n\n\n\n\n\nCreate a backup of your entire project\nUse version control (git commit before changes)\nTest compile to ensure document builds correctly\nDocument your current numbering scheme"
+  },
+  {
+    "objectID": "miscellaneous/latex-reference.html#advanced-regex-patterns",
+    "href": "miscellaneous/latex-reference.html#advanced-regex-patterns",
+    "title": "Professional LaTeX Document Conversion",
+    "section": "Advanced Regex Patterns",
+    "text": "Advanced Regex Patterns\n\nCitations - Multiple Scenarios\n\nBasic single citations\nFind:\n\\[(\\d+)\\]\nReplace:\n\\\\cite{$1-key}\n\n\nRange citations [1-3] or [1–3]\nFind:\n\\[(\\d+)[-–](\\d+)\\]\nReplace:\n\\\\cite{$1-key,$2-key}\nManual cleanup needed for intermediate references\n\n\nMultiple citations [1, 2, 5]\nFind:\n\\[(\\d+(?:,\\s*\\d+)*)\\]\nReplace:\n\\\\cite{process-this-manually}\n\n\nCitations with pages [1, p. 15]\nFind:\n\\[(\\d+),\\s*p\\.\\s*(\\d+)\\]\nReplace:\n\\\\cite[$2]{$1-key}\n\n\n\n\nFigures - Context-Aware Patterns\n\nStandard references\nFind:\n(?i)(figure|fig\\.?)\\s+(\\d+)\nReplace:\nFigure~\\\\ref{fig:$2}\n\n\nWith parentheses (Figure 1) or (Fig. 1)\nFind:\n\\((?i)(figure|fig\\.?)\\s+(\\d+)\\)\nReplace:\n(Figure~\\\\ref{fig:$2})\n\n\nBeginning of sentences\nFind:\n^(Figure|Fig\\.?)\\s+(\\d+)\nReplace:\nFigure~\\\\ref{fig:$2}\n\n\nPlural figures\nFind:\n(?i)(figures)\\s+(\\d+)[-–](\\d+)\nReplace:\nFigures~\\\\ref{fig:$2}--\\\\ref{fig:$3}\n\n\n\n\nTables - Enhanced Patterns\n\nStandard references\nFind:\n(?i)(table)\\s+(\\d+)\nReplace:\nTable~\\\\ref{tab:$2}\n\n\nMultiple tables\nFind:\n(?i)(tables)\\s+(\\d+)\\s+and\\s+(\\d+)\nReplace:\nTables~\\\\ref{tab:$2} and~\\\\ref{tab:$3}"
+  },
+  {
+    "objectID": "miscellaneous/latex-reference.html#automated-label-generation",
+    "href": "miscellaneous/latex-reference.html#automated-label-generation",
+    "title": "Professional LaTeX Document Conversion",
+    "section": "Automated Label Generation",
+    "text": "Automated Label Generation\n\nSmart Label Insertion\n\nFor figures with meaningful captions\nFind:\n(\\\\caption\\{([^}]{1,50})[^}]*\\})\nReplace:\n$1\\n\\\\label{fig:auto-generated-from-caption}\n\n\nFor tables\nFind:\n(\\\\caption\\{([^}]{1,50})[^}]*\\})\nReplace:\n$1\\n\\\\label{tab:auto-generated-from-caption}"
+  },
+  {
+    "objectID": "miscellaneous/latex-reference.html#advanced-workflow",
+    "href": "miscellaneous/latex-reference.html#advanced-workflow",
+    "title": "Professional LaTeX Document Conversion",
+    "section": "Advanced Workflow",
+    "text": "Advanced Workflow\n\nPhase 1: Analysis and Preparation\nCount occurrences to estimate scope:\n# Count citation occurrences\ngrep -o '\\[\\d\\+\\]' document.tex | sort | uniq -c\n\n# Count figure references\ngrep -o -i 'figure \\d\\+' document.tex | sort | uniq -c\n\n# Count table references\ngrep -o -i 'table \\d\\+' document.tex | sort | uniq -c\n\n\nPhase 2: Systematic Replacement\n\n\n\n\n\n\nWarningOrder matters!\n\n\n\nFollow this sequence for best results.\n\n\n\nHandle special cases first:\n\nCitations with page numbers\nFigure/table ranges\nParenthetical references\n\nStandard replacements:\n\nSingle citations\nSingle figure/table references\n\nAdd labels systematically\n\n\n\nPhase 3: Quality Control\n# Find unreferenced labels\ngrep '\\\\label{' *.tex | cut -d':' -f2 | sort &gt; labels.txt\ngrep '\\\\ref{' *.tex | cut -d':' -f2 | sort &gt; refs.txt\ncomm -23 labels.txt refs.txt  # Shows unused labels\n\n# Find broken references (compile and check log)\npdflatex document.tex 2&gt;&1 | grep -i \"reference.*undefined\""
+  },
+  {
+    "objectID": "miscellaneous/latex-reference.html#professional-citation-management",
+    "href": "miscellaneous/latex-reference.html#professional-citation-management",
+    "title": "Professional LaTeX Document Conversion",
+    "section": "Professional Citation Management",
+    "text": "Professional Citation Management\n\nSmart Bibliography Generation\nimport re\n\n# Extract all citation numbers from your document\nwith open('document.tex', 'r') as f:\n    content = f.read()\n    \ncitations = re.findall(r'\\[(\\d+)\\]', content)\nunique_citations = sorted(set(map(int, citations)))\n\n# Generate template .bib entries\nfor num in unique_citations:\n    print(f\"\"\"\n@article{{ref{num},\n  author = {{Author, First}},\n  title = {{Title from reference {num}}},\n  journal = {{Journal Name}},\n  year = {{Year}},\n  volume = {{Vol}},\n  pages = {{Pages}}\n}}\"\"\")\n\n\n\n\n\n\nTipPro Tip\n\n\n\nUse the cleveref package for smart references that automatically determine the reference type (Figure, Table, etc.).\n\n\n% In preamble, add consistent reference formatting\n\\usepackage{cleveref}  % Smart references\n\\crefname{figure}{Figure}{Figures}\n\\crefname{table}{Table}{Tables}\n\n% Then use \\cref{fig:label} instead of Figure~\\ref{fig:label}"
+  },
+  {
+    "objectID": "miscellaneous/latex-reference.html#troubleshooting-common-issues",
+    "href": "miscellaneous/latex-reference.html#troubleshooting-common-issues",
+    "title": "Professional LaTeX Document Conversion",
+    "section": "Troubleshooting Common Issues",
+    "text": "Troubleshooting Common Issues\n\n\n\n\n\n\n\nIssue\nSolution\n\n\n\n\nMultiple replacements on same line\nUse global flag in your editor: /g\n\n\nLaTeX special characters in regex\nEscape backslashes: \\\\ in find/replace\n\n\nReference ordering after conversion\nRun: pdflatex → bibtex → pdflatex → pdflatex\n\n\nOverlapping patterns\nProcess from most specific to most general"
+  },
+  {
+    "objectID": "miscellaneous/latex-reference.html#final-verification-checklist",
+    "href": "miscellaneous/latex-reference.html#final-verification-checklist",
+    "title": "Professional LaTeX Document Conversion",
+    "section": "Final Verification Checklist",
+    "text": "Final Verification Checklist\n\nAll [number] citations converted\nAll hardcoded figure/table numbers converted\nAll figures have \\label{fig:...}\nAll tables have \\label{tab:...}\nBibliography file created with matching keys\nDocument compiles without undefined reference errors\nCross-reference numbering is logical\nNo orphaned or duplicate labels\n\n\n\n\n\n\n\nTipFinal Pro Tip\n\n\n\nUse a LaTeX-aware editor (TeXstudio, VS Code with LaTeX Workshop) that can highlight undefined references and provide auto-completion for labels.\n\n\n\n\n\n\n\n\n\nNoteReady to Transform Your LaTeX Documents?\n\n\n\nFollow this guide systematically for professional, maintainable LaTeX documents with dynamic cross-references!"
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#step-1-prepare-your-docx-file",
+    "href": "miscellaneous/docx-latex.html#step-1-prepare-your-docx-file",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Step 1: Prepare Your DOCX File",
+    "text": "Step 1: Prepare Your DOCX File\nProper document preparation is crucial for successful conversion. Ensure your Word document follows standard formatting conventions.\n\nFormat headings properly using built-in styles (Heading 1, Heading 2, etc.)\nEnsure images and tables are correctly inserted and positioned\nAvoid TIFF images when possible, prefer PNG or JPG formats\nStandardize author names, affiliations, and email addresses\nUse consistent citation and reference formatting"
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#step-2-extract-and-convert-images",
+    "href": "miscellaneous/docx-latex.html#step-2-extract-and-convert-images",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Step 2: Extract and Convert Images",
+    "text": "Step 2: Extract and Convert Images\nImages require special handling during the conversion process. Use these methods to extract and optimize your images.\n\nExtract Images Using Pandoc\nPandoc can automatically extract all images from your DOCX file while preserving references:\npandoc myfile.docx --extract-media=./media -o temp.tex\n\n\nConvert Image Formats\nConvert TIFF images to web-friendly formats using ImageMagick:\nmagick convert input.tiff -resize 50% output.png\nBatch convert multiple images:\ncd media\nmagick mogrify -resize 50% -format png *.tiff\nmagick mogrify -resize 50% -format jpg *.jpg\n\n\nManual Image Extraction\nAlternative method for extracting images manually:\n\nRename your .docx file to .zip\nExtract the ZIP file using any archive utility\nNavigate to the word/media/ folder\nCopy all images to your working media directory\n\n\n\n\n\n\n\nNoteNote\n\n\n\nUsing Pandoc’s --extract-media option automatically preserves image references and file paths in the generated LaTeX code."
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#step-3-install-required-software",
+    "href": "miscellaneous/docx-latex.html#step-3-install-required-software",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Step 3: Install Required Software",
+    "text": "Step 3: Install Required Software\nEnsure you have the necessary tools installed on your system.\n\nInstall Pandoc from the official website: pandoc.org/installing.html\nInstall a LaTeX distribution:\n\nTeX Live (Linux/Windows)\nMikTeX (Windows)\nMacTeX (macOS)\n\nOptional: Install ImageMagick for image processing"
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#step-4-obtain-elsarticle-class-template",
+    "href": "miscellaneous/docx-latex.html#step-4-obtain-elsarticle-class-template",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Step 4: Obtain elsarticle Class Template",
+    "text": "Step 4: Obtain elsarticle Class Template\nThe elsarticle document class is required for Elsevier journal submissions.\n\nDownload the official template from Elsevier LaTeX Instructions\nExtract the template files to your working directory\nEnsure elsarticle.cls is present in your project folder\n\n\n\n\n\n\n\nWarningImportant\n\n\n\nKeep the elsarticle class file in the same directory as your LaTeX document to avoid compilation errors."
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#step-5-convert-docx-to-latex",
+    "href": "miscellaneous/docx-latex.html#step-5-convert-docx-to-latex",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Step 5: Convert DOCX to LaTeX",
+    "text": "Step 5: Convert DOCX to LaTeX\nUse Pandoc to perform the actual conversion from DOCX to LaTeX format.\npandoc myfile.docx -s -o output.tex --from docx --to latex\nFor more control over the output, you can specify additional options:\npandoc myfile.docx -s -o output.tex --from docx --to latex --bibliography=references.bib --citeproc\n\n\n\n\n\n\nTipTip\n\n\n\nThe generated LaTeX file may require minor manual adjustments for figures, tables, and references to ensure proper formatting."
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#step-6-compile-the-latex-document",
+    "href": "miscellaneous/docx-latex.html#step-6-compile-the-latex-document",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Step 6: Compile the LaTeX Document",
+    "text": "Step 6: Compile the LaTeX Document\nCompile your converted LaTeX document to generate the final PDF.\n\nEnsure all images are properly placed in the media folder\nVerify that the elsarticle class file is in the correct location\nRun the LaTeX compiler\n\npdflatex output.tex\nFor better Unicode support and modern fonts, use XeLaTeX:\nxelatex output.tex\n\n\n\n\n\n\nNoteMultiple Compilations\n\n\n\nYou may need to run the compiler multiple times to resolve cross-references and generate the bibliography correctly."
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#summary",
+    "href": "miscellaneous/docx-latex.html#summary",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Summary",
+    "text": "Summary\nThe complete workflow for DOCX to LaTeX conversion:\n\nPrepare your DOCX file with proper formatting\nExtract images using Pandoc or manual methods\nInstall Pandoc and a LaTeX distribution\nObtain the elsarticle class template\nConvert using Pandoc command\nCompile with pdflatex or xelatex\n\n\n\n\n\n\n\nTipPro Tip\n\n\n\nFor complex documents, consider using Overleaf which provides an online LaTeX editor with the elsarticle template pre-installed."
+  },
+  {
+    "objectID": "miscellaneous/elsevier.html#template-comparison",
+    "href": "miscellaneous/elsevier.html#template-comparison",
+    "title": "Switching Elsevier LaTeX Templates",
+    "section": "Template Comparison",
+    "text": "Template Comparison\n\n\n\n\n\n\n\n\n\nTemplate\nCitation Style\nBibliography Style\nTypical Use\n\n\n\n\nelsarticle-template-num.tex\nNumbered citations: [1], [2]\nOrdered by appearance\nStandard numeric style\n\n\nelsarticle-template-harv.tex\nAuthor-year citations: (Smith, 2020)\nAlphabetical by author\nCommon in social sciences\n\n\nelsarticle-template-num-names.tex\nNumbered citations with author names in references\nOrdered by appearance\nCombines numeric in-text citations with detailed references\n\n\n\n\n\n\n\n\n\nTipKey Insight\n\n\n\nThe .tex files are largely identical in structure; the primary differences lie in the citation and bibliography formatting."
+  },
+  {
+    "objectID": "miscellaneous/elsevier.html#how-elsevier-handles-citation-styles",
+    "href": "miscellaneous/elsevier.html#how-elsevier-handles-citation-styles",
+    "title": "Switching Elsevier LaTeX Templates",
+    "section": "How Elsevier Handles Citation Styles",
+    "text": "How Elsevier Handles Citation Styles\nThe template uses the \\documentclass options to define the citation style:\n\\documentclass[preprint,12pt,authoryear]{elsarticle}       % for Harvard style\n\\documentclass[preprint,12pt,number]{elsarticle}           % for numeric style\n\\documentclass[preprint,12pt,number,sort&compress]{elsarticle} % for num-names\n\nOptions Explained\n\nnumber\n\nProduces numeric citations in the format [1], [2], etc.\n\nauthoryear\n\nProduces author-year citations like (Smith, 2020)\n\nsort&compress\n\nCompresses consecutive numbers (e.g., [1-3]) and sorts them"
+  },
+  {
+    "objectID": "miscellaneous/elsevier.html#bibliography-styles",
+    "href": "miscellaneous/elsevier.html#bibliography-styles",
+    "title": "Switching Elsevier LaTeX Templates",
+    "section": "Bibliography Styles",
+    "text": "Bibliography Styles\nThe bibliography style is controlled with:\n\\bibliographystyle{elsarticle-num}        % numeric\n\\bibliographystyle{elsarticle-harv}       % author-year\n\\bibliographystyle{elsarticle-num-names}  % numbered with names\nThis line is placed before the \\bibliography{yourbibfile} command."
+  },
+  {
+    "objectID": "miscellaneous/elsevier.html#switching-styles-without-copying-your-manuscript",
+    "href": "miscellaneous/elsevier.html#switching-styles-without-copying-your-manuscript",
+    "title": "Switching Elsevier LaTeX Templates",
+    "section": "Switching Styles Without Copying Your Manuscript",
+    "text": "Switching Styles Without Copying Your Manuscript\nIf you have a manuscript prepared in elsarticle-template-num.tex and want to switch styles, follow these steps:\n\nStep 1: Edit the documentclass line\nReplace number with authoryear or add sort&compress if required.\n% Change this:\n\\documentclass[preprint,12pt,number]{elsarticle}\n\n% To this for Harvard style:\n\\documentclass[preprint,12pt,authoryear]{elsarticle}\n\n\nStep 2: Change the bibliography style\nUpdate \\bibliographystyle{...} to match the new template.\n% Change this:\n\\bibliographystyle{elsarticle-num}\n\n% To this for Harvard style:\n\\bibliographystyle{elsarticle-harv}\n\n\nStep 3: Recompile your LaTeX document\nUse the complete compilation sequence for changes to take effect:\npdflatex document.tex\nbibtex document\npdflatex document.tex\npdflatex document.tex"
+  },
+  {
+    "objectID": "miscellaneous/elsevier.html#quick-reference",
+    "href": "miscellaneous/elsevier.html#quick-reference",
+    "title": "Switching Elsevier LaTeX Templates",
+    "section": "Quick Reference",
+    "text": "Quick Reference\n\n\n\n\n\n\nNoteSummary\n\n\n\n\nThe main differences between num, harv, and num-names are the citation and bibliography styles\nSwitching templates is simply a matter of adjusting \\documentclass options and \\bibliographystyle\nNo need to copy your entire manuscript content to a new template file\nAlways recompile with the full sequence: pdflatex → bibtex → pdflatex → pdflatex\nTest the output to ensure citations and references appear correctly"
+  },
+  {
+    "objectID": "miscellaneous/elsevier.html#common-style-combinations",
+    "href": "miscellaneous/elsevier.html#common-style-combinations",
+    "title": "Switching Elsevier LaTeX Templates",
+    "section": "Common Style Combinations",
+    "text": "Common Style Combinations\n\n\n\nStyle\ndocumentclass Option\nbibliographystyle\n\n\n\n\nNumeric\nnumber\nelsarticle-num\n\n\nHarvard (Author-Year)\nauthoryear\nelsarticle-harv\n\n\nNumeric with Names\nnumber,sort&compress\nelsarticle-num-names"
+  },
+  {
+    "objectID": "miscellaneous/elsevier.html#example-complete-preamble-for-each-style",
+    "href": "miscellaneous/elsevier.html#example-complete-preamble-for-each-style",
+    "title": "Switching Elsevier LaTeX Templates",
+    "section": "Example: Complete Preamble for Each Style",
+    "text": "Example: Complete Preamble for Each Style\n\nNumeric Style\n\\documentclass[preprint,12pt,number]{elsarticle}\n\n% ... your preamble ...\n\n\\bibliographystyle{elsarticle-num}\n\\bibliography{references}\n\n\nHarvard Style\n\\documentclass[preprint,12pt,authoryear]{elsarticle}\n\n% ... your preamble ...\n\n\\bibliographystyle{elsarticle-harv}\n\\bibliography{references}\n\n\nNumeric with Names Style\n\\documentclass[preprint,12pt,number,sort&compress]{elsarticle}\n\n% ... your preamble ...\n\n\\bibliographystyle{elsarticle-num-names}\n\\bibliography{references}\n\n\n\n\n\n\nTipPro Tip\n\n\n\nIf you are unsure which style your target journal requires, check the journal’s author guidelines on the Elsevier website or look at recently published articles in that journal."
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html#the-toggle-mechanism",
+    "href": "miscellaneous/anonymization.html#the-toggle-mechanism",
+    "title": "LaTeX Manuscript Anonymization Guide",
+    "section": "The Toggle Mechanism",
+    "text": "The Toggle Mechanism\nThe anonymization system uses a simple boolean toggle that controls what content appears in your final PDF:\n\\documentclass[preprint,12pt]{elsarticle}\n\n% === Toggle for anonymized version ===\n\\newif\\ifanon\n\\anonfalse     % Produces title page with author info\n% \\anontrue    % Produces anonymized manuscript\n\n\n\n\n\n\nTipKey Concept\n\n\n\nBy commenting/uncommenting just one line (\\anonfalse or \\anontrue), you can switch between complete author information and fully anonymized versions."
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html#document-structure-overview",
+    "href": "miscellaneous/anonymization.html#document-structure-overview",
+    "title": "LaTeX Manuscript Anonymization Guide",
+    "section": "Document Structure Overview",
+    "text": "Document Structure Overview\n\\begin{document}\n\\begin{frontmatter}\n\n\\title{An Example Paper Title}\n\n\\ifanon\n    % --- Anonymized: no authors ---\n\\else\n    % --- Full title page ---\n    \\author[1]{Alice Smith}\n    \\author[2]{Bob Johnson}\n    \\address[1]{Department of Physics, University A, City, Country}\n    \\address[2]{Department of Mathematics, University B, City, Country}\n    \\cortext[cor1]{Corresponding author}\n    \\ead{alice.smith@university.edu}\n\\fi\n\n\\begin{abstract}\nThis is the abstract placeholder.\n\\end{abstract}\n\n\\begin{keyword}\nKeyword1 \\sep Keyword2 \\sep Keyword3\n\\end{keyword}\n\n\\end{frontmatter}"
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html#how-the-toggle-works",
+    "href": "miscellaneous/anonymization.html#how-the-toggle-works",
+    "title": "LaTeX Manuscript Anonymization Guide",
+    "section": "How the Toggle Works",
+    "text": "How the Toggle Works\n\n\n\n\n\n\n\n\nVersion\nToggle Setting\nWhat Appears\n\n\n\n\nFull Author Version\n\\anonfalse\nAuthors, Affiliations, Email, Abstract, Keywords\n\n\nAnonymized Version\n\\anontrue\nAbstract, Keywords only (authors hidden)"
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html#main-content-sections",
+    "href": "miscellaneous/anonymization.html#main-content-sections",
+    "title": "LaTeX Manuscript Anonymization Guide",
+    "section": "Main Content Sections",
+    "text": "Main Content Sections\nThe example also shows how to conditionally include main content sections:\n% === Main manuscript sections ===\n\\ifanon\n\n\\section{Introduction}\nThis is the introduction text.\n\n\\section{Methods}\nMethodology details here.\n\n\\section{Results}\nResults go here.\n\n\\section{Discussion}\nDiscussion text here.\n\n\\fi\n\n\n\n\n\n\nWarningNote\n\n\n\nIn this example, the main sections only appear in the anonymized version. You might want to modify this logic based on your specific submission requirements."
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html#step-by-step-implementation",
+    "href": "miscellaneous/anonymization.html#step-by-step-implementation",
+    "title": "LaTeX Manuscript Anonymization Guide",
+    "section": "Step-by-Step Implementation",
+    "text": "Step-by-Step Implementation\n\nStep 1: Set up the toggle\nAdd the toggle mechanism at the top of your document:\n\\newif\\ifanon\n\\anonfalse  % Change to \\anontrue for anonymous version\n\n\nStep 2: Conditional author information\nWrap author details in the conditional block:\n\\ifanon\n    % Leave empty or add placeholder\n\\else\n    \\author[1]{Your Name}\n    \\address[1]{Your Institution}\n    \\ead{your.email@institution.edu}\n\\fi\n\n\nStep 3: Switch versions\nTo create an anonymized version:\n\nChange \\anonfalse to \\anontrue\nRecompile your LaTeX document\nThe PDF will now exclude all author information"
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html#advanced-anonymization-techniques",
+    "href": "miscellaneous/anonymization.html#advanced-anonymization-techniques",
+    "title": "LaTeX Manuscript Anonymization Guide",
+    "section": "Advanced Anonymization Techniques",
+    "text": "Advanced Anonymization Techniques\n\nConditional Text in Body\nIn our previous work \\ifanon [Reference Hidden] \\else \\citep{Smith2023} \\fi, we demonstrated...\n\n\nConditional Acknowledgments\n\\ifanon\n    % No acknowledgments in anonymous version\n\\else\n    \\section*{Acknowledgments}\n    We thank our colleagues for their valuable feedback.\n\\fi\n\n\nConditional Funding Information\n\\ifanon\n    % No funding info in anonymous version\n\\else\n    \\section*{Funding}\n    This work was supported by Grant XYZ-123.\n\\fi"
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html#best-practices",
+    "href": "miscellaneous/anonymization.html#best-practices",
+    "title": "LaTeX Manuscript Anonymization Guide",
+    "section": "Best Practices",
+    "text": "Best Practices\n\nTest Both Versions\nAlways compile and review both anonymized and full versions before submission to catch any formatting issues.\n\n\nRemove Identifying Citations\nConsider hiding self-citations in the anonymized version to maintain reviewer blindness.\n\n\nCheck Acknowledgments\nFunding and acknowledgment sections often reveal author identity and should be conditionally hidden.\n\n\nReview Figures\nEnsure figure captions do not contain identifying information like institutional logos or names.\n\n\nInstitutional References\nBe careful about references to “our institution” or similar identifying language in the text.\n\n\nContact Information\nDouble-check that email addresses and phone numbers are properly hidden in anonymous mode."
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html#quick-reference-summary",
+    "href": "miscellaneous/anonymization.html#quick-reference-summary",
+    "title": "LaTeX Manuscript Anonymization Guide",
+    "section": "Quick Reference Summary",
+    "text": "Quick Reference Summary\n\n\n\n\n\n\nNoteSummary\n\n\n\n\nUse \\newif\\ifanon to create a boolean toggle for anonymization\nSet \\anonfalse for full author version, \\anontrue for anonymous\nWrap author information in \\ifanon...\\else...\\fi blocks\nSingle source file produces both submission versions\nAlways test both versions before submitting to journals\nConsider additional identifying content beyond just author names\nUse conditional blocks for acknowledgments, funding, and self-citations\nReview all content that might reveal author identity"
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html#complete-template-example",
+    "href": "miscellaneous/anonymization.html#complete-template-example",
+    "title": "LaTeX Manuscript Anonymization Guide",
+    "section": "Complete Template Example",
+    "text": "Complete Template Example\n\\documentclass[preprint,12pt]{elsarticle}\n\n% === Toggle for anonymized version ===\n\\newif\\ifanon\n\\anonfalse     % Change to \\anontrue for anonymous version\n\n\\begin{document}\n\\begin{frontmatter}\n\n\\title{Your Paper Title Here}\n\n\\ifanon\n    % Anonymized version - no author info\n\\else\n    % Full version with author info\n    \\author[1]{First Author\\corref{cor1}}\n    \\author[2]{Second Author}\n    \\address[1]{Department, University A, City, Country}\n    \\address[2]{Department, University B, City, Country}\n    \\cortext[cor1]{Corresponding author}\n    \\ead{first.author@university.edu}\n\\fi\n\n\\begin{abstract}\nYour abstract text here.\n\\end{abstract}\n\n\\begin{keyword}\nKeyword1 \\sep Keyword2 \\sep Keyword3\n\\end{keyword}\n\n\\end{frontmatter}\n\n\\section{Introduction}\nIntroduction text...\n\n\\section{Methods}\nMethods text...\n\n\\section{Results}\nResults text...\n\n\\section{Discussion}\nDiscussion text...\n\n\\section{Conclusion}\nConclusion text...\n\n\\ifanon\n    % No acknowledgments in anonymous version\n\\else\n    \\section*{Acknowledgments}\n    Acknowledgment text here.\n    \n    \\section*{Funding}\n    Funding information here.\n\\fi\n\n\\bibliographystyle{elsarticle-num}\n\\bibliography{references}\n\n\\end{document}"
+  },
+  {
+    "objectID": "miscellaneous/conversion.html#essential-pandoc-commands",
+    "href": "miscellaneous/conversion.html#essential-pandoc-commands",
+    "title": "Document Conversion and Academic Figure Tools",
+    "section": "Essential Pandoc Commands",
+    "text": "Essential Pandoc Commands\n\nWord to PDF Conversion\npandoc myfile.docx -o myfile.pdf --pdf-engine=xelatex\n\n\nMarkdown to Word\npandoc myfile.md -o myfile.docx\n\n\nLaTeX to Word\npandoc myfile.tex -o myfile.docx\n\n\nWord to LaTeX\npandoc myfile.docx -o myfile.tex\n\n\nMarkdown to PDF\npandoc myfile.md -o myfile.pdf --pdf-engine=xelatex\n\n\nHTML to Word\npandoc myfile.html -o myfile.docx\n\n\nWord to HTML\npandoc myfile.docx -o myfile.html\n\n\nWith Bibliography (Citations)\npandoc myfile.md -o myfile.pdf --bibliography=refs.bib --csl=apa.csl\n\n\nMultiple Input Files\npandoc chapter1.md chapter2.md chapter3.md -o thesis.pdf\n\n\nExtract Text from PDF\npandoc myfile.pdf -o myfile.txt"
+  },
+  {
+    "objectID": "miscellaneous/conversion.html#quick-reference-table",
+    "href": "miscellaneous/conversion.html#quick-reference-table",
+    "title": "Document Conversion and Academic Figure Tools",
+    "section": "Quick Reference Table",
+    "text": "Quick Reference Table\n\n\n\nConversion\nCommand\n\n\n\n\nWord → PDF\npandoc file.docx -o file.pdf --pdf-engine=xelatex\n\n\nWord → LaTeX\npandoc file.docx -o file.tex\n\n\nLaTeX → Word\npandoc file.tex -o file.docx\n\n\nMarkdown → Word\npandoc file.md -o file.docx\n\n\nMarkdown → PDF\npandoc file.md -o file.pdf --pdf-engine=xelatex\n\n\nHTML → Word\npandoc file.html -o file.docx\n\n\nWord → HTML\npandoc file.docx -o file.html\n\n\n\n\n\n\n\n\n\nTipDownload Pandoc\n\n\n\nGet Pandoc from the official website: pandoc.org"
+  },
+  {
+    "objectID": "miscellaneous/conversion.html#illustration-and-figure-preparation-tools",
+    "href": "miscellaneous/conversion.html#illustration-and-figure-preparation-tools",
+    "title": "Document Conversion and Academic Figure Tools",
+    "section": "Illustration and Figure Preparation Tools",
+    "text": "Illustration and Figure Preparation Tools\n\nMicrosoft PowerPoint\nGood for simple vector illustrations and quick academic diagrams with built-in templates and smart graphics.\n\n\nMicrosoft Visio\nProfessional tool for flowcharts, system diagrams, and complex technical illustrations with extensive shape libraries.\n\n\nFigma\nCollaborative interface design tool perfect for creating modern, professional academic figures and presentations.\nVisit Figma\n\n\nLucidchart\nWeb-based diagramming platform with templates for research workflows, process diagrams, and organizational charts.\nVisit Lucidchart\n\n\nDraw.io (diagrams.net)\nFree, open-source tool for flowcharts, network diagrams, and structured illustrations with cloud storage integration.\nVisit Draw.io\n\n\nGIMP\nPowerful open-source image editor similar to Photoshop, ideal for photo manipulation and raster graphics editing.\nVisit GIMP"
+  },
+  {
+    "objectID": "miscellaneous/conversion.html#tools-comparison",
+    "href": "miscellaneous/conversion.html#tools-comparison",
+    "title": "Document Conversion and Academic Figure Tools",
+    "section": "Tools Comparison",
+    "text": "Tools Comparison\n\n\n\n\n\n\n\n\n\nTool\nType\nBest For\nCost\n\n\n\n\nPowerPoint\nDesktop\nQuick diagrams, presentations\nPaid (Microsoft 365)\n\n\nVisio\nDesktop\nFlowcharts, technical diagrams\nPaid\n\n\nFigma\nWeb/Desktop\nModern figures, collaboration\nFree tier available\n\n\nLucidchart\nWeb\nResearch workflows, org charts\nFree tier available\n\n\nDraw.io\nWeb/Desktop\nFlowcharts, network diagrams\nFree\n\n\nGIMP\nDesktop\nImage editing, raster graphics\nFree"
+  },
+  {
+    "objectID": "miscellaneous/conversion.html#advanced-pandoc-options",
+    "href": "miscellaneous/conversion.html#advanced-pandoc-options",
+    "title": "Document Conversion and Academic Figure Tools",
+    "section": "Advanced Pandoc Options",
+    "text": "Advanced Pandoc Options\n\nCustom PDF Styling\npandoc myfile.md -o myfile.pdf --pdf-engine=xelatex --template=custom.tex\n\n\nTable of Contents\npandoc myfile.md -o myfile.pdf --toc --toc-depth=3\n\n\nNumbered Sections\npandoc myfile.md -o myfile.pdf --number-sections\n\n\nExtract Media from Word\npandoc myfile.docx --extract-media=./media -o myfile.md\n\n\nStandalone HTML\npandoc myfile.md -o myfile.html --standalone --self-contained\n\n\n\n\n\n\nNotePro Tip\n\n\n\nCombine multiple options for complex conversions:\npandoc myfile.md -o myfile.pdf \\\n  --pdf-engine=xelatex \\\n  --bibliography=refs.bib \\\n  --csl=ieee.csl \\\n  --toc \\\n  --number-sections"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#springer-nature",
+    "href": "miscellaneous/author-services.html#springer-nature",
+    "title": "Author Services by Major Publishers",
+    "section": "Springer Nature",
+    "text": "Springer Nature\n\nAuthor Services: authorservices.springernature.com\nPre-submission Check: beta.springernature.com/pre-submission"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#elsevier",
+    "href": "miscellaneous/author-services.html#elsevier",
+    "title": "Author Services by Major Publishers",
+    "section": "Elsevier",
+    "text": "Elsevier\n\nAuthor Services: webshop.elsevier.com\nManuscript Preparation: scientific-publishing.webshop.elsevier.com/manuscript-preparation"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#ieee-computer-society",
+    "href": "miscellaneous/author-services.html#ieee-computer-society",
+    "title": "Author Services by Major Publishers",
+    "section": "IEEE Computer Society",
+    "text": "IEEE Computer Society\n\nAuthor Services: computer.org/publications/author-resources\nManuscript Preparation: computer.org/publications/author-resources/publication-policies"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#association-for-computing-machinery-acm",
+    "href": "miscellaneous/author-services.html#association-for-computing-machinery-acm",
+    "title": "Author Services by Major Publishers",
+    "section": "Association for Computing Machinery (ACM)",
+    "text": "Association for Computing Machinery (ACM)\n\nAuthor Services: acm.org/publications/authors\nSubmission Guidelines: acm.org/publications/submissions"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#aaai-press",
+    "href": "miscellaneous/author-services.html#aaai-press",
+    "title": "Author Services by Major Publishers",
+    "section": "AAAI Press",
+    "text": "AAAI Press\n\nAuthor Services: aaai.org/Publications/Author/author.php\nManuscript Preparation: aaai.org/Publications/Author/author-instructions.php"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#now-publishers",
+    "href": "miscellaneous/author-services.html#now-publishers",
+    "title": "Author Services by Major Publishers",
+    "section": "Now Publishers",
+    "text": "Now Publishers\n\nAuthor Services: nowpublishers.com/AuthorInstructions\nSubmission Guidelines: nowpublishers.com/Submission"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#wiley",
+    "href": "miscellaneous/author-services.html#wiley",
+    "title": "Author Services by Major Publishers",
+    "section": "Wiley",
+    "text": "Wiley\n\nAuthor Services: authorservices.wiley.com\nManuscript Preparation: authorservices.wiley.com/author-resources/Journal-Authors/Prepare"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#taylor-francis",
+    "href": "miscellaneous/author-services.html#taylor-francis",
+    "title": "Author Services by Major Publishers",
+    "section": "Taylor & Francis",
+    "text": "Taylor & Francis\n\nAuthor Services: authorservices.taylorandfrancis.com\nManuscript Preparation: authorservices.taylorandfrancis.com/publishing-your-research/preparing-your-article"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#oxford-university-press",
+    "href": "miscellaneous/author-services.html#oxford-university-press",
+    "title": "Author Services by Major Publishers",
+    "section": "Oxford University Press",
+    "text": "Oxford University Press\n\nAuthor Services: academic.oup.com/pages/authors\nManuscript Preparation: academic.oup.com/pages/authors/preparing-your-manuscript"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#cambridge-university-press",
+    "href": "miscellaneous/author-services.html#cambridge-university-press",
+    "title": "Author Services by Major Publishers",
+    "section": "Cambridge University Press",
+    "text": "Cambridge University Press\n\nAuthor Services: cambridge.org/core/services/authors\nManuscript Preparation: cambridge.org/core/services/authors/publishing-your-materials"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#mdpi",
+    "href": "miscellaneous/author-services.html#mdpi",
+    "title": "Author Services by Major Publishers",
+    "section": "MDPI",
+    "text": "MDPI\n\nAuthor Services: mdpi.com/authors\nManuscript Preparation: mdpi.com/authors/submission"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#frontiers-media",
+    "href": "miscellaneous/author-services.html#frontiers-media",
+    "title": "Author Services by Major Publishers",
+    "section": "Frontiers Media",
+    "text": "Frontiers Media\n\nAuthor Services: frontiersin.org/for-authors\nManuscript Preparation: frontiersin.org/for-authors/author-guidelines"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#bmc-biomed-central",
+    "href": "miscellaneous/author-services.html#bmc-biomed-central",
+    "title": "Author Services by Major Publishers",
+    "section": "BMC (BioMed Central)",
+    "text": "BMC (BioMed Central)\n\nAuthor Services: biomedcentral.com/getpublished\nManuscript Preparation: biomedcentral.com/getpublished/writing-resources"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#scientific-reports",
+    "href": "miscellaneous/author-services.html#scientific-reports",
+    "title": "Author Services by Major Publishers",
+    "section": "Scientific Reports",
+    "text": "Scientific Reports\n\nAuthor Services: nature.com/srep/for-authors\nManuscript Preparation: nature.com/srep/author-instructions/submission-guidelines"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#mit-press",
+    "href": "miscellaneous/author-services.html#mit-press",
+    "title": "Author Services by Major Publishers",
+    "section": "MIT Press",
+    "text": "MIT Press\n\nAuthor Services: mitpress.mit.edu/authors\nManuscript Preparation: mitpress.mit.edu/authors/manuscript-preparation-guidelines"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#royal-society-publishing",
+    "href": "miscellaneous/author-services.html#royal-society-publishing",
+    "title": "Author Services by Major Publishers",
+    "section": "Royal Society Publishing",
+    "text": "Royal Society Publishing\n\nAuthor Services: royalsocietypublishing.org/for-authors\nManuscript Preparation: royalsocietypublishing.org/for-authors/preparing-your-article"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#american-physical-society-aps",
+    "href": "miscellaneous/author-services.html#american-physical-society-aps",
+    "title": "Author Services by Major Publishers",
+    "section": "American Physical Society (APS)",
+    "text": "American Physical Society (APS)\n\nAuthor Services: journals.aps.org/authors\nManuscript Preparation: journals.aps.org/authors/preparing-manuscript"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#american-chemical-society-acs",
+    "href": "miscellaneous/author-services.html#american-chemical-society-acs",
+    "title": "Author Services by Major Publishers",
+    "section": "American Chemical Society (ACS)",
+    "text": "American Chemical Society (ACS)\n\nAuthor Services: publish.acs.org/publish\nManuscript Preparation: publish.acs.org/publish/author_guidelines"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#asme",
+    "href": "miscellaneous/author-services.html#asme",
+    "title": "Author Services by Major Publishers",
+    "section": "ASME",
+    "text": "ASME\n\nAuthor Services: asme.org/publications-submissions/journals/information-for-authors\nManuscript Preparation: asme.org/…/manuscript-preparation"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#astm-international",
+    "href": "miscellaneous/author-services.html#astm-international",
+    "title": "Author Services by Major Publishers",
+    "section": "ASTM International",
+    "text": "ASTM International\n\nAuthor Services: astm.org/author-services.html\nManuscript Preparation: astm.org/author-services/manuscript-preparation.html"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#royal-society-of-chemistry-rsc",
+    "href": "miscellaneous/author-services.html#royal-society-of-chemistry-rsc",
+    "title": "Author Services by Major Publishers",
+    "section": "Royal Society of Chemistry (RSC)",
+    "text": "Royal Society of Chemistry (RSC)\n\nAuthor Services: rsc.org/journals-books-databases/authors-reviewers\nManuscript Preparation: rsc.org/journals-books-databases/authors-reviewers/author-guide"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#iop-publishing",
+    "href": "miscellaneous/author-services.html#iop-publishing",
+    "title": "Author Services by Major Publishers",
+    "section": "IOP Publishing",
+    "text": "IOP Publishing\n\nAuthor Services: iopscience.iop.org/page/authors\nManuscript Preparation: iopscience.iop.org/page/submission-guide"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#hindawi-publishing",
+    "href": "miscellaneous/author-services.html#hindawi-publishing",
+    "title": "Author Services by Major Publishers",
+    "section": "Hindawi Publishing",
+    "text": "Hindawi Publishing\n\nAuthor Services: hindawi.com/publish-research/authors\nManuscript Preparation: hindawi.com/publish-research/authors/author-guidelines"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#de-gruyter",
+    "href": "miscellaneous/author-services.html#de-gruyter",
+    "title": "Author Services by Major Publishers",
+    "section": "De Gruyter",
+    "text": "De Gruyter\n\nAuthor Services: degruyter.com/publishing/for-authors\nManuscript Preparation: degruyter.com/publishing/for-authors/manuscript-preparation"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#sage-publishing",
+    "href": "miscellaneous/author-services.html#sage-publishing",
+    "title": "Author Services by Major Publishers",
+    "section": "SAGE Publishing",
+    "text": "SAGE Publishing\n\nAuthor Services: us.sagepub.com/en-us/nam/author-gateway\nManuscript Preparation: us.sagepub.com/en-us/nam/manuscript-preparation"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#world-scientific-publishing",
+    "href": "miscellaneous/author-services.html#world-scientific-publishing",
+    "title": "Author Services by Major Publishers",
+    "section": "World Scientific Publishing",
+    "text": "World Scientific Publishing\n\nAuthor Services: worldscientific.com/page/authors\nManuscript Preparation: worldscientific.com/page/authors/author-resources"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#crc-press",
+    "href": "miscellaneous/author-services.html#crc-press",
+    "title": "Author Services by Major Publishers",
+    "section": "CRC Press",
+    "text": "CRC Press\n\nAuthor Services: crcpress.com/go/authors\nManuscript Preparation: crcpress.com/go/authors/manuscript-preparation"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#bentham-science-publishers",
+    "href": "miscellaneous/author-services.html#bentham-science-publishers",
+    "title": "Author Services by Major Publishers",
+    "section": "Bentham Science Publishers",
+    "text": "Bentham Science Publishers\n\nAuthor Services: benthamscience.com/author-resources.php\nManuscript Preparation: benthamscience.com/author-resources/manuscript-preparation.php"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#tech-science-press",
+    "href": "miscellaneous/author-services.html#tech-science-press",
+    "title": "Author Services by Major Publishers",
+    "section": "Tech Science Press",
+    "text": "Tech Science Press\n\nAuthor Services: techscience.com/authors\nManuscript Preparation: techscience.com/authors/author_guidelines"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#aims-press",
+    "href": "miscellaneous/author-services.html#aims-press",
+    "title": "Author Services by Major Publishers",
+    "section": "AIMS Press",
+    "text": "AIMS Press\n\nAuthor Services: aimspress.com/authors\nManuscript Preparation: aimspress.com/authors/submission-guidelines"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#atlantis-press",
+    "href": "miscellaneous/author-services.html#atlantis-press",
+    "title": "Author Services by Major Publishers",
+    "section": "Atlantis Press",
+    "text": "Atlantis Press\n\nAuthor Services: atlantis-press.com/authors\nManuscript Preparation: atlantis-press.com/authors/author-guidelines"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#copernicus-publications",
+    "href": "miscellaneous/author-services.html#copernicus-publications",
+    "title": "Author Services by Major Publishers",
+    "section": "Copernicus Publications",
+    "text": "Copernicus Publications\n\nAuthor Services: copernicus.org/for_authors.htm\nManuscript Preparation: copernicus.org/for_authors/manuscript_preparation.htm"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#bmj-british-medical-journal",
+    "href": "miscellaneous/author-services.html#bmj-british-medical-journal",
+    "title": "Author Services by Major Publishers",
+    "section": "BMJ (British Medical Journal)",
+    "text": "BMJ (British Medical Journal)\n\nAuthor Resources: bmj.com/about-bmj/resources-authors\nAuthor Guidelines: bmj.com/about-bmj/resources-authors/article-submission"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#palgrave-macmillan",
+    "href": "miscellaneous/author-services.html#palgrave-macmillan",
+    "title": "Author Services by Major Publishers",
+    "section": "Palgrave Macmillan",
+    "text": "Palgrave Macmillan\n\nAuthor Services: palgrave.com/gp/for-authors\nManuscript Preparation: palgrave.com/gp/for-authors/preparing-your-manuscript"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#quick-reference-table",
+    "href": "miscellaneous/author-services.html#quick-reference-table",
+    "title": "Author Services by Major Publishers",
+    "section": "Quick Reference Table",
+    "text": "Quick Reference Table\n\n\n\nPublisher\nAuthor Services\nManuscript Preparation\n\n\n\n\nSpringer Nature\nLink\nLink\n\n\nElsevier\nLink\nLink\n\n\nWiley\nLink\nLink\n\n\nTaylor & Francis\nLink\nLink\n\n\nIEEE\nLink\nLink\n\n\nACM\nLink\nLink\n\n\nMDPI\nLink\nLink\n\n\nFrontiers\nLink\nLink\n\n\n\n\n\n\n\n\n\n\nTipPro Tip\n\n\n\nBookmark the author services page for your target journal’s publisher before starting your manuscript preparation. This ensures you have access to the latest templates, formatting guidelines, and submission requirements."
+  },
+  {
+    "objectID": "miscellaneous/reference.html#what-the-prompt-does",
+    "href": "miscellaneous/reference.html#what-the-prompt-does",
+    "title": "Reference, Image Quality, and Detexify",
+    "section": "What the Prompt Does",
+    "text": "What the Prompt Does\n\nConverts any reference format (APA, MLA, plain text) into proper BibTeX\nAutomatically identifies the correct entry type (e.g., (article?), (book?), (inproceedings?))\nFills in missing fields (e.g., title, DOI, journal, volume, pages) using trusted sources:\n\nCrossRef, PubMed, IEEE Xplore, arXiv, Google Scholar, publisher databases\n\nExpands abbreviated author lists like “et al.” or “and others” by retrieving the full author names\nEnsures proper formatting:\n\nAuthor names as Last, First\nLaTeX-compatible symbols\nIncludes DOI or URL if available"
+  },
+  {
+    "objectID": "miscellaneous/reference.html#copy-and-use-this-prompt",
+    "href": "miscellaneous/reference.html#copy-and-use-this-prompt",
+    "title": "Reference, Image Quality, and Detexify",
+    "section": "Copy and Use This Prompt",
+    "text": "Copy and Use This Prompt\nYou are a scholarly reference assistant. Given a list of references (APA, MLA, or plain text), perform the following:\n\nConvert each to a valid and complete BibTeX entry.\n\nCorrect any incorrect reference types (e.g., article vs. conference paper).\n\nRetrieve missing fields (DOI, title, journal, volume, etc.) from authoritative databases.\n\nIf author list contains \"et al.\" or \"others,\" replace with the full author list from the original publication.\n\nFormat author names as Last, First; escape LaTeX characters; include DOI/URL if available.\n\nOutput only clean, .bib-ready entries."
+  },
+  {
+    "objectID": "miscellaneous/reference.html#format-byline-in-article",
+    "href": "miscellaneous/reference.html#format-byline-in-article",
+    "title": "Reference, Image Quality, and Detexify",
+    "section": "Format Byline in Article",
+    "text": "Format Byline in Article\nYou are latex editor. Convert the following to fit with [Journal name] latex template format."
+  },
+  {
+    "objectID": "miscellaneous/reference.html#tools-for-manuscript-and-reference-management",
+    "href": "miscellaneous/reference.html#tools-for-manuscript-and-reference-management",
+    "title": "Reference, Image Quality, and Detexify",
+    "section": "Tools for Manuscript and Reference Management",
+    "text": "Tools for Manuscript and Reference Management\n\nPACE Tool – Image Quality Assessment\nPACE (Publishers Automated Checking Environment) helps ensure submitted images meet technical requirements (DPI, resolution, format) during final publication stages.\nVisit PACE Tool\n\n\n\nDetexify – LaTeX Symbol Finder\nDraw a mathematical or scientific symbol and Detexify will suggest the correct LaTeX code.\nVisit Detexify\n\n\n\nText2Bib Converter\nConvert plain-text reference lists into BibTeX format using this tool maintained by Martin J. Osborne.\nWatch Video Tutorial (5:45 min)\n\n\n\nJabRef\nJabRef is a free and open-source reference manager tailored for LaTeX users. It allows efficient organization, error checking (e.g., missing fields), and integration with citation workflows.\nVisit JabRef\n\n\n\nBibTeX Entry Fields Reference\nExplore all possible BibTeX fields for various reference types (article, conference, unpublished, etc.) and convert between formats."
+  },
+  {
+    "objectID": "miscellaneous/reference.html#common-bibtex-entry-types",
+    "href": "miscellaneous/reference.html#common-bibtex-entry-types",
+    "title": "Reference, Image Quality, and Detexify",
+    "section": "Common BibTeX Entry Types",
+    "text": "Common BibTeX Entry Types\n\n\n\n\n\n\n\n\nEntry Type\nDescription\nRequired Fields\n\n\n\n\n@article\nJournal article\nauthor, title, journal, year\n\n\n@book\nBook\nauthor/editor, title, publisher, year\n\n\n@inproceedings\nConference paper\nauthor, title, booktitle, year\n\n\n@incollection\nBook chapter\nauthor, title, booktitle, publisher, year\n\n\n@phdthesis\nPhD dissertation\nauthor, title, school, year\n\n\n@mastersthesis\nMaster’s thesis\nauthor, title, school, year\n\n\n@techreport\nTechnical report\nauthor, title, institution, year\n\n\n@misc\nMiscellaneous\nauthor, title, year\n\n\n@online\nWeb resource\nauthor, title, url, year"
+  },
+  {
+    "objectID": "miscellaneous/reference.html#example-bibtex-entry",
+    "href": "miscellaneous/reference.html#example-bibtex-entry",
+    "title": "Reference, Image Quality, and Detexify",
+    "section": "Example BibTeX Entry",
+    "text": "Example BibTeX Entry\n@article{smith2023deep,\n  author    = {Smith, John and Johnson, Mary and Williams, Robert},\n  title     = {Deep Learning Approaches for Image Classification},\n  journal   = {IEEE Transactions on Neural Networks},\n  year      = {2023},\n  volume    = {34},\n  number    = {5},\n  pages     = {1234--1248},\n  doi       = {10.1109/TNN.2023.1234567},\n  publisher = {IEEE}\n}\n\n\n\n\n\n\n\nTipPro Tips\n\n\n\n\nAlways verify AI-generated BibTeX entries against the original source\nUse JabRef to check for missing required fields before submission\nInclude DOIs whenever possible for reliable linking\nKeep citation keys consistent (e.g., lastname2023keyword)"
+  },
+  {
+    "objectID": "miscellaneous/indexing.html#yu-journal-recommendation-system",
+    "href": "miscellaneous/indexing.html#yu-journal-recommendation-system",
+    "title": "Verifying Journal Indexing",
+    "section": "YU Journal Recommendation System",
+    "text": "YU Journal Recommendation System\nYeungnam University offers a personalized journal selection tool that helps researchers find appropriate journals based on scope and keywords.\nVisit YU Journal Recommendation\nAccessible only through YU network"
+  },
+  {
+    "objectID": "miscellaneous/indexing.html#journal-ranking-and-indexing-access",
+    "href": "miscellaneous/indexing.html#journal-ranking-and-indexing-access",
+    "title": "Verifying Journal Indexing",
+    "section": "Journal Ranking and Indexing Access",
+    "text": "Journal Ranking and Indexing Access\n\nScopus (Elsevier)\nCheck if a journal is indexed in Scopus and view its CiteScore, percentile, and subject area rankings.\nVisit Scopus Sources\nTo download the full journal list with CiteScore Quartiles, click “Download Scopus Source List” (Excel format, no login needed).\n\n\n\nCiteScore Metrics (Elsevier)\nFind detailed CiteScore data, trend graphs, and percentile ranks.\nVisit CiteScore Metrics\nProvides CiteScore, SNIP, SJR, and ranking by subject area.\n\n\n\nJournal Citation Reports (JCR – Clarivate)\nOfficial Impact Factor and quartile (Q1–Q4) data for journals indexed in Web of Science (SCI, SSCI).\nVisit JCR\nInstitutional login is required to access full details.\n\n\n\nMaster Journal List (MJL – Clarivate)\nSearch to verify if a journal is indexed in Web of Science (SCI, SSCI, AHCI, ESCI).\nVisit Master Journal List\nOpen access and no login required. You can search by journal name or ISSN."
+  },
+  {
+    "objectID": "miscellaneous/indexing.html#safe-scholarly-ecosystem-against-fake-publishing-environment",
+    "href": "miscellaneous/indexing.html#safe-scholarly-ecosystem-against-fake-publishing-environment",
+    "title": "Verifying Journal Indexing",
+    "section": "SAFE – Scholarly Ecosystem Against Fake Publishing Environment",
+    "text": "SAFE – Scholarly Ecosystem Against Fake Publishing Environment\nManaged by the Korea Institute of Science and Technology Information (KISTI), SAFE lists peer-reviewed journals and provides guidelines to detect predatory journals and fake conferences. It educates users on publishing ethics, journal reputation, and best practices in scholarly communication.\nVisit SAFE"
+  },
+  {
+    "objectID": "miscellaneous/indexing.html#impact-factor-if-clarivate-analytics",
+    "href": "miscellaneous/indexing.html#impact-factor-if-clarivate-analytics",
+    "title": "Verifying Journal Indexing",
+    "section": "Impact Factor (IF) – Clarivate Analytics",
+    "text": "Impact Factor (IF) – Clarivate Analytics\nThe Impact Factor (IF), also known as the Journal Impact Factor (JIF), is calculated by Clarivate and reflects the average number of citations received in a journal over the previous two years.\n\n\n\n\n\n\nWarningWarning\n\n\n\nBe aware that some predatory journals falsely claim to have an impact factor. To verify, search the journal title or ISSN at Clarivate’s official site.\n\n\nVisit JCR for Impact Factor\nLogin may be required"
+  },
+  {
+    "objectID": "miscellaneous/indexing.html#conference-resources",
+    "href": "miscellaneous/indexing.html#conference-resources",
+    "title": "Verifying Journal Indexing",
+    "section": "Conference Resources",
+    "text": "Conference Resources\n\nFake Conference Detection – Think. Check. Attend.\nThis global initiative provides a checklist to help researchers assess whether a conference is credible and academically sound before submitting or attending.\nVisit Think Check Attend\n\n\n\nConference Ranking – CORE Portal\nCORE ranks academic conferences in Computer Science and related disciplines using a tiered system (A*, A, B, C) based on quality indicators.\nVisit CORE Conference Rankings"
+  },
+  {
+    "objectID": "miscellaneous/indexing.html#additional-resources",
+    "href": "miscellaneous/indexing.html#additional-resources",
+    "title": "Verifying Journal Indexing",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nList of SCIE Journals (MDPI)\nComprehensive list of Science Citation Index Expanded (SCIE) indexed journals published by MDPI.\nVisit MDPI SCIE List"
+  },
+  {
+    "objectID": "miscellaneous/indexing.html#quick-reference-table",
+    "href": "miscellaneous/indexing.html#quick-reference-table",
+    "title": "Verifying Journal Indexing",
+    "section": "Quick Reference Table",
+    "text": "Quick Reference Table\n\n\n\nResource\nPurpose\nAccess\n\n\n\n\nScopus Sources\nCiteScore, journal indexing\nFree (download list)\n\n\nJCR (Clarivate)\nImpact Factor, quartiles\nInstitutional login\n\n\nMaster Journal List\nWoS indexing verification\nFree\n\n\nSAFE\nPredatory journal detection\nFree\n\n\nThink Check Attend\nConference verification\nFree\n\n\nCORE Rankings\nConference quality ranking\nFree\n\n\n\n\n\n\n\n\n\n\nTipPro Tips\n\n\n\n\nAlways verify journal indexing before submission using official sources (Scopus, JCR, MJL)\nCheck conference legitimacy using Think Check Attend checklist\nBe wary of unsolicited emails inviting paper submissions\nVerify Impact Factor claims directly on JCR, not on journal websites"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#ieee-and-engineering-journals",
+    "href": "miscellaneous/templates.html#ieee-and-engineering-journals",
+    "title": "Journal Templates",
+    "section": "IEEE and Engineering Journals",
+    "text": "IEEE and Engineering Journals\n\nIEEE Journals (General)\nTemplates for IEEE transactions and journals. Supports bare formats and Overleaf.\n\nIEEE Conference Templates (Official)\nIEEE Journal Author Center\nIEEE Templates on Overleaf\n\n\n\n\nIEEE Access\nSpecific template for IEEE’s open-access multidisciplinary journal.\n\nIEEE Access on Overleaf\n\n\n\n\nAIAA Journals\nTemplates for journals like Journal of Spacecraft and Rockets.\n\nAIAA Author Resources\n\n\n\n\nASCE Journals\nTemplates for journals like Journal of Structural Engineering.\n\nASCE Library Authors\n\n\n\n\nASME Journals\nTemplates for journals like Journal of Mechanical Design.\n\nASME Author Information"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#major-publishers",
+    "href": "miscellaneous/templates.html#major-publishers",
+    "title": "Journal Templates",
+    "section": "Major Publishers",
+    "text": "Major Publishers\n\nElsevier Journals\nUses elsarticle.cls for journals like Signal Processing, with single- and double-column formats.\n\nElsevier LaTeX Instructions (Official)\nElsevier Templates on Overleaf\nElsevier elsarticle Template\n\n\n\n\nSpringer Nature Journals\nTemplates for Springer, Nature Portfolio, BMC, and LNCS.\n\nSpringer Nature LaTeX Author Support (Official)\nSpringer Nature Template on Overleaf (December 2024)\nSpringer LNCS Conference Proceedings Guidelines\nSpringer LNCS on Overleaf\n\n\n\n\nWiley Journals\nTemplates for Wiley journals, ensuring submission compliance.\n\nWiley LaTeX Template\n\n\n\n\nTaylor and Francis Journals\nTemplates for journals like Journal of Statistical Computation.\n\nTaylor and Francis Author Services"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#nature-and-science",
+    "href": "miscellaneous/templates.html#nature-and-science",
+    "title": "Journal Templates",
+    "section": "Nature and Science",
+    "text": "Nature and Science\n\nNature Journals\nTemplates for Nature, Nature Communications, and other Nature journals.\n\nNature LaTeX Support\nNature Templates on Overleaf\n\n\n\n\nScience Journal\nUses scicite package for Science and Science Advances.\n\nScience Instructions for Authors\n\n\n\n\nPNAS\nTemplate for PNAS, for multidisciplinary scientific research.\n\nPNAS Author Center\n\n\n\n\nScientific Reports\nTemplates for Scientific Reports (Springer Nature).\n\nScientific Reports on Overleaf"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#mathematics-and-physics",
+    "href": "miscellaneous/templates.html#mathematics-and-physics",
+    "title": "Journal Templates",
+    "section": "Mathematics and Physics",
+    "text": "Mathematics and Physics\n\nAMS Journals\nTemplates for journals like Transactions of the AMS.\n\nAMS TeX Resources\n\n\n\n\nSIAM Journals\nTemplates for SIAM Review and other SIAM journals.\n\nSIAM For Authors\n\n\n\n\nAPS Journals\nUses REVTEX for Physical Review Letters and Physical Review X.\n\nAPS Manuscript Preparation\n\n\n\n\nIOP Journals\nTemplates for journals like Journal of Physics.\n\nIOP Article Preparation"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#chemistry-and-materials",
+    "href": "miscellaneous/templates.html#chemistry-and-materials",
+    "title": "Journal Templates",
+    "section": "Chemistry and Materials",
+    "text": "Chemistry and Materials\n\nACS Journals\nTemplates for journals like Journal of the American Chemical Society.\n\nACS Templates\n\n\n\n\nRSC Journals\nTemplates for journals like Chemical Science.\n\nRSC LaTeX Templates"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#open-access-and-computing",
+    "href": "miscellaneous/templates.html#open-access-and-computing",
+    "title": "Journal Templates",
+    "section": "Open Access and Computing",
+    "text": "Open Access and Computing\n\nMDPI Journals\nUnified template for open-access journals like Sensors.\n\nMDPI LaTeX\n\n\n\n\nPLOS Journals\nTemplates for PLOS ONE and other PLOS journals.\n\nPLOS LaTeX\n\n\n\n\nACM Journals\nTemplates for ACM Transactions and proceedings.\n\nACM Templates\n\n\n\n\nJMLR\nTemplate for machine learning research.\n\nJMLR Format"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#specialized-fields",
+    "href": "miscellaneous/templates.html#specialized-fields",
+    "title": "Journal Templates",
+    "section": "Specialized Fields",
+    "text": "Specialized Fields\n\nOptica Journals\nTemplates for journals like Optics Express.\n\nOptica Templates\n\n\n\n\nAGU Journals\nTemplates for journals like Geophysical Research Letters.\n\nAGU LaTeX Template\n\n\n\n\nAAS Journals\nUses AASTeX for journals like The Astrophysical Journal.\n\nAAS LaTeX Resources\n\n\n\n\nOxford University Press\nTemplates for Monthly Notices of the Royal Astronomical Society (MNRAS).\n\nOUP Manuscript Preparation\n\n\n\n\nCambridge University Press\nTemplates for CUP journals.\n\nCUP LaTeX\n\n\n\n\nSAGE Journals\nTemplates for SAGE journals in social sciences and humanities.\n\nSAGE Template on Overleaf"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#quick-reference-table",
+    "href": "miscellaneous/templates.html#quick-reference-table",
+    "title": "Journal Templates",
+    "section": "Quick Reference Table",
+    "text": "Quick Reference Table\n\n\n\nPublisher/Society\nTemplate Source\nDirect Link\n\n\n\n\nIEEE\nIEEE + Overleaf\nOverleaf IEEE\n\n\nElsevier\nelsarticle.cls\nOverleaf Elsevier\n\n\nSpringer Nature\nsn-jnl.cls\nOverleaf Template\n\n\nSpringer LNCS\nllncs.cls\nOverleaf LNCS\n\n\nNature\nsn-nature\nOverleaf Nature\n\n\nACM\nacmart.cls\nACM Official\n\n\nAPS\nREVTEX\nAPS Official\n\n\nACS\nachemso\nACS Official\n\n\nMDPI\nmdpi.cls\nMDPI Official\n\n\nPLOS\nplos.cls\nPLOS Official"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#overleaf-template-gallery",
+    "href": "miscellaneous/templates.html#overleaf-template-gallery",
+    "title": "Journal Templates",
+    "section": "Overleaf Template Gallery",
+    "text": "Overleaf Template Gallery\nOverleaf provides a comprehensive collection of templates for most academic journals. You can browse all available templates organized by publisher:\n\nAll Overleaf Templates\nIEEE Templates\nElsevier Templates\nSpringer Templates\nNature Templates\nACM Templates\n\n\n\n\n\n\n\n\nTipTips for Using Templates\n\n\n\n\nAlways download the latest version of templates from official sources\nCheck journal-specific requirements before submission\nUse Overleaf for collaborative editing and automatic compilation\nKeep a backup of your original manuscript before applying templates\nVerify bibliography style requirements for each journal\nWhen official links fail, Overleaf templates are usually up-to-date alternatives"
   }
 ]

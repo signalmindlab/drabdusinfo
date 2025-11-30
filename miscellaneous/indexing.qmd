@@ -1,23 +1,137 @@
 ---
 title: "Verifying Journal Indexing"
-subtitle: "How to Check if a Journal is Indexed"
+subtitle: "Research Publishing Support and Resources"
 author: "Dr. Md Abdus Samad"
 date: "2025-05-30"
 toc: true
+toc-depth: 2
 ---
 
-## Overview
-
-Add your content about verifying journal indexing here...
-
-## Scopus Indexed Journals
-
-## Web of Science Indexed Journals
-
-## PubMed Indexed Journals
-
-## Predatory Journal Checklist
+In an increasingly complex academic publishing environment, it is essential for researchers to make informed decisions regarding where and how they disseminate their work. This resource page provides a curated collection of tools, platforms, and references to support various stages of the research publication process—including journal selection, impact factor verification, conference evaluation, manuscript preparation, and adherence to ethical standards. These resources are intended to assist researchers in avoiding predatory publishing practices, ensuring academic integrity, and improving the overall quality and visibility of their scholarly output.
 
 ---
 
-*Last updated: 2025*
+## YU Journal Recommendation System
+
+Yeungnam University offers a personalized journal selection tool that helps researchers find appropriate journals based on scope and keywords.
+
+[Visit YU Journal Recommendation](https://s2journal.bwise.kr/personal/selection/searchNew.do){target="_blank"}
+
+*Accessible only through YU network*
+
+---
+
+## Journal Ranking and Indexing Access
+
+### Scopus (Elsevier)
+
+Check if a journal is indexed in Scopus and view its CiteScore, percentile, and subject area rankings.
+
+[Visit Scopus Sources](https://www.scopus.com/sources){target="_blank"}
+
+*To download the full journal list with CiteScore Quartiles, click "Download Scopus Source List" (Excel format, no login needed).*
+
+---
+
+### CiteScore Metrics (Elsevier)
+
+Find detailed CiteScore data, trend graphs, and percentile ranks.
+
+[Visit CiteScore Metrics](https://www.scopus.com/sources?zone=TopNavBar&origin=sbrowse){target="_blank"}
+
+*Provides CiteScore, SNIP, SJR, and ranking by subject area.*
+
+---
+
+### Journal Citation Reports (JCR – Clarivate)
+
+Official Impact Factor and quartile (Q1–Q4) data for journals indexed in Web of Science (SCI, SSCI).
+
+[Visit JCR](https://jcr.clarivate.com/){target="_blank"}
+
+*Institutional login is required to access full details.*
+
+---
+
+### Master Journal List (MJL – Clarivate)
+
+Search to verify if a journal is indexed in Web of Science (SCI, SSCI, AHCI, ESCI).
+
+[Visit Master Journal List](https://mjl.clarivate.com/home){target="_blank"}
+
+*Open access and no login required. You can search by journal name or ISSN.*
+
+---
+
+## SAFE – Scholarly Ecosystem Against Fake Publishing Environment
+
+Managed by the Korea Institute of Science and Technology Information (KISTI), SAFE lists peer-reviewed journals and provides guidelines to detect predatory journals and fake conferences. It educates users on publishing ethics, journal reputation, and best practices in scholarly communication.
+
+[Visit SAFE](https://safe.koar.kr){target="_blank"}
+
+---
+
+## Impact Factor (IF) – Clarivate Analytics
+
+The Impact Factor (IF), also known as the Journal Impact Factor (JIF), is calculated by Clarivate and reflects the average number of citations received in a journal over the previous two years.
+
+::: {.callout-warning}
+## Warning
+Be aware that some predatory journals falsely claim to have an impact factor. To verify, search the journal title or ISSN at Clarivate's official site.
+:::
+
+[Visit JCR for Impact Factor](https://jcr.clarivate.com){target="_blank"}
+
+*Login may be required*
+
+---
+
+## Conference Resources
+
+### Fake Conference Detection – Think. Check. Attend.
+
+This global initiative provides a checklist to help researchers assess whether a conference is credible and academically sound before submitting or attending.
+
+[Visit Think Check Attend](https://thinkcheckattend.org){target="_blank"}
+
+---
+
+### Conference Ranking – CORE Portal
+
+CORE ranks academic conferences in Computer Science and related disciplines using a tiered system (A*, A, B, C) based on quality indicators.
+
+[Visit CORE Conference Rankings](https://portal.core.edu.au/conf-ranks){target="_blank"}
+
+---
+
+## Additional Resources
+
+### List of SCIE Journals (MDPI)
+
+Comprehensive list of Science Citation Index Expanded (SCIE) indexed journals published by MDPI.
+
+[Visit MDPI SCIE List](https://www.mdpi.com/about/journals/sci){target="_blank"}
+
+---
+
+## Quick Reference Table
+
+| Resource | Purpose | Access |
+|----------|---------|--------|
+| [Scopus Sources](https://www.scopus.com/sources){target="_blank"} | CiteScore, journal indexing | Free (download list) |
+| [JCR (Clarivate)](https://jcr.clarivate.com/){target="_blank"} | Impact Factor, quartiles | Institutional login |
+| [Master Journal List](https://mjl.clarivate.com/home){target="_blank"} | WoS indexing verification | Free |
+| [SAFE](https://safe.koar.kr){target="_blank"} | Predatory journal detection | Free |
+| [Think Check Attend](https://thinkcheckattend.org){target="_blank"} | Conference verification | Free |
+| [CORE Rankings](https://portal.core.edu.au/conf-ranks){target="_blank"} | Conference quality ranking | Free |
+
+---
+
+::: {.callout-tip}
+## Pro Tips
+
+- Always verify journal indexing before submission using official sources (Scopus, JCR, MJL)
+- Check conference legitimacy using Think Check Attend checklist
+- Be wary of unsolicited emails inviting paper submissions
+- Verify Impact Factor claims directly on JCR, not on journal websites
+:::

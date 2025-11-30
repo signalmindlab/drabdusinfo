@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2025-05-30">
 <meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
 
-<title>DOCX to LaTeX Convert – Md Abdus Samad</title>
+<title>DOCX to LaTeX Conversion Guide – Md Abdus Samad</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -123,12 +158,12 @@ https://badge.dimensions.ai/
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="DOCX to LaTeX Convert – Md Abdus Samad">
-<meta property="og:description" content="Converting Word Documents to LaTeX">
+<meta property="og:title" content="DOCX to LaTeX Conversion Guide – Md Abdus Samad">
+<meta property="og:description" content="A Comprehensive Guide for Converting Microsoft Word Documents to LaTeX Format Using the elsarticle Document Class">
 <meta property="og:image" content="https://quarto.org/quarto.png">
 <meta property="og:site_name" content="Md Abdus Samad">
-<meta name="twitter:title" content="DOCX to LaTeX Convert – Md Abdus Samad">
-<meta name="twitter:description" content="Converting Word Documents to LaTeX">
+<meta name="twitter:title" content="DOCX to LaTeX Conversion Guide – Md Abdus Samad">
+<meta name="twitter:description" content="A Comprehensive Guide for Converting Microsoft Word Documents to LaTeX Format Using the elsarticle Document Class">
 <meta name="twitter:image" content="https://quarto.org/quarto.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -316,14 +351,18 @@ https://badge.dimensions.ai/
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#conversion-tools" id="toc-conversion-tools" class="nav-link" data-scroll-target="#conversion-tools">Conversion Tools</a>
+  <li><a href="#step-1-prepare-your-docx-file" id="toc-step-1-prepare-your-docx-file" class="nav-link active" data-scroll-target="#step-1-prepare-your-docx-file">Step 1: Prepare Your DOCX File</a></li>
+  <li><a href="#step-2-extract-and-convert-images" id="toc-step-2-extract-and-convert-images" class="nav-link" data-scroll-target="#step-2-extract-and-convert-images">Step 2: Extract and Convert Images</a>
   <ul class="collapse">
-  <li><a href="#pandoc" id="toc-pandoc" class="nav-link" data-scroll-target="#pandoc">Pandoc</a></li>
-  <li><a href="#online-converters" id="toc-online-converters" class="nav-link" data-scroll-target="#online-converters">Online Converters</a></li>
+  <li><a href="#extract-images-using-pandoc" id="toc-extract-images-using-pandoc" class="nav-link" data-scroll-target="#extract-images-using-pandoc">Extract Images Using Pandoc</a></li>
+  <li><a href="#convert-image-formats" id="toc-convert-image-formats" class="nav-link" data-scroll-target="#convert-image-formats">Convert Image Formats</a></li>
+  <li><a href="#manual-image-extraction" id="toc-manual-image-extraction" class="nav-link" data-scroll-target="#manual-image-extraction">Manual Image Extraction</a></li>
   </ul></li>
-  <li><a href="#step-by-step-guide" id="toc-step-by-step-guide" class="nav-link" data-scroll-target="#step-by-step-guide">Step-by-Step Guide</a></li>
-  <li><a href="#tips-and-best-practices" id="toc-tips-and-best-practices" class="nav-link" data-scroll-target="#tips-and-best-practices">Tips and Best Practices</a></li>
+  <li><a href="#step-3-install-required-software" id="toc-step-3-install-required-software" class="nav-link" data-scroll-target="#step-3-install-required-software">Step 3: Install Required Software</a></li>
+  <li><a href="#step-4-obtain-elsarticle-class-template" id="toc-step-4-obtain-elsarticle-class-template" class="nav-link" data-scroll-target="#step-4-obtain-elsarticle-class-template">Step 4: Obtain elsarticle Class Template</a></li>
+  <li><a href="#step-5-convert-docx-to-latex" id="toc-step-5-convert-docx-to-latex" class="nav-link" data-scroll-target="#step-5-convert-docx-to-latex">Step 5: Convert DOCX to LaTeX</a></li>
+  <li><a href="#step-6-compile-the-latex-document" id="toc-step-6-compile-the-latex-document" class="nav-link" data-scroll-target="#step-6-compile-the-latex-document">Step 6: Compile the LaTeX Document</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   </ul>
 </nav>
     </div>
@@ -332,8 +371,8 @@ https://badge.dimensions.ai/
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">DOCX to LaTeX Convert</h1>
-<p class="subtitle lead">Converting Word Documents to LaTeX</p>
+<h1 class="title">DOCX to LaTeX Conversion Guide</h1>
+<p class="subtitle lead">A Comprehensive Guide for Converting Microsoft Word Documents to LaTeX Format Using the elsarticle Document Class</p>
 </div>
 
 
@@ -362,26 +401,183 @@ https://badge.dimensions.ai/
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Add your content about DOCX to LaTeX conversion here…</p>
-</section>
-<section id="conversion-tools" class="level2">
-<h2 class="anchored" data-anchor-id="conversion-tools">Conversion Tools</h2>
-<section id="pandoc" class="level3">
-<h3 class="anchored" data-anchor-id="pandoc">Pandoc</h3>
-</section>
-<section id="online-converters" class="level3">
-<h3 class="anchored" data-anchor-id="online-converters">Online Converters</h3>
-</section>
-</section>
-<section id="step-by-step-guide" class="level2">
-<h2 class="anchored" data-anchor-id="step-by-step-guide">Step-by-Step Guide</h2>
-</section>
-<section id="tips-and-best-practices" class="level2">
-<h2 class="anchored" data-anchor-id="tips-and-best-practices">Tips and Best Practices</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Overview
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This guide provides a systematic approach to converting DOCX files to LaTeX format, specifically tailored for academic papers using the <code>elsarticle</code> document class. The process involves proper preparation, image handling, and automated conversion using Pandoc.</p>
+</div>
+</div>
 <hr>
-<p><em>Last updated: 2025</em></p>
+<section id="step-1-prepare-your-docx-file" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-prepare-your-docx-file">Step 1: Prepare Your DOCX File</h2>
+<p>Proper document preparation is crucial for successful conversion. Ensure your Word document follows standard formatting conventions.</p>
+<ul>
+<li>Format headings properly using built-in styles (<code>Heading 1</code>, <code>Heading 2</code>, etc.)</li>
+<li>Ensure images and tables are correctly inserted and positioned</li>
+<li>Avoid TIFF images when possible, prefer PNG or JPG formats</li>
+<li>Standardize author names, affiliations, and email addresses</li>
+<li>Use consistent citation and reference formatting</li>
+</ul>
+<hr>
+</section>
+<section id="step-2-extract-and-convert-images" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-extract-and-convert-images">Step 2: Extract and Convert Images</h2>
+<p>Images require special handling during the conversion process. Use these methods to extract and optimize your images.</p>
+<section id="extract-images-using-pandoc" class="level3">
+<h3 class="anchored" data-anchor-id="extract-images-using-pandoc">Extract Images Using Pandoc</h3>
+<p>Pandoc can automatically extract all images from your DOCX file while preserving references:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.docx <span class="at">--extract-media</span><span class="op">=</span>./media <span class="at">-o</span> temp.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="convert-image-formats" class="level3">
+<h3 class="anchored" data-anchor-id="convert-image-formats">Convert Image Formats</h3>
+<p>Convert TIFF images to web-friendly formats using ImageMagick:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">magick</span> convert input.tiff <span class="at">-resize</span> 50% output.png</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Batch convert multiple images:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> media</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">magick</span> mogrify <span class="at">-resize</span> 50% <span class="at">-format</span> png <span class="pp">*</span>.tiff</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">magick</span> mogrify <span class="at">-resize</span> 50% <span class="at">-format</span> jpg <span class="pp">*</span>.jpg</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="manual-image-extraction" class="level3">
+<h3 class="anchored" data-anchor-id="manual-image-extraction">Manual Image Extraction</h3>
+<p>Alternative method for extracting images manually:</p>
+<ul>
+<li>Rename your <code>.docx</code> file to <code>.zip</code></li>
+<li>Extract the ZIP file using any archive utility</li>
+<li>Navigate to the <code>word/media/</code> folder</li>
+<li>Copy all images to your working <code>media</code> directory</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Using Pandoc’s <code>--extract-media</code> option automatically preserves image references and file paths in the generated LaTeX code.</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="step-3-install-required-software" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-install-required-software">Step 3: Install Required Software</h2>
+<p>Ensure you have the necessary tools installed on your system.</p>
+<ul>
+<li>Install Pandoc from the official website: <a href="https://pandoc.org/installing.html" target="_blank">pandoc.org/installing.html</a></li>
+<li>Install a LaTeX distribution:
+<ul>
+<li>TeX Live (Linux/Windows)</li>
+<li>MikTeX (Windows)</li>
+<li>MacTeX (macOS)</li>
+</ul></li>
+<li>Optional: Install ImageMagick for image processing</li>
+</ul>
+<hr>
+</section>
+<section id="step-4-obtain-elsarticle-class-template" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-obtain-elsarticle-class-template">Step 4: Obtain elsarticle Class Template</h2>
+<p>The <code>elsarticle</code> document class is required for Elsevier journal submissions.</p>
+<ul>
+<li>Download the official template from <a href="https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions" target="_blank">Elsevier LaTeX Instructions</a></li>
+<li>Extract the template files to your working directory</li>
+<li>Ensure <code>elsarticle.cls</code> is present in your project folder</li>
+</ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Keep the elsarticle class file in the same directory as your LaTeX document to avoid compilation errors.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="step-5-convert-docx-to-latex" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-convert-docx-to-latex">Step 5: Convert DOCX to LaTeX</h2>
+<p>Use Pandoc to perform the actual conversion from DOCX to LaTeX format.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.docx <span class="at">-s</span> <span class="at">-o</span> output.tex <span class="at">--from</span> docx <span class="at">--to</span> latex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>For more control over the output, you can specify additional options:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.docx <span class="at">-s</span> <span class="at">-o</span> output.tex <span class="at">--from</span> docx <span class="at">--to</span> latex <span class="at">--bibliography</span><span class="op">=</span>references.bib <span class="at">--citeproc</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The generated LaTeX file may require minor manual adjustments for figures, tables, and references to ensure proper formatting.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="step-6-compile-the-latex-document" class="level2">
+<h2 class="anchored" data-anchor-id="step-6-compile-the-latex-document">Step 6: Compile the LaTeX Document</h2>
+<p>Compile your converted LaTeX document to generate the final PDF.</p>
+<ul>
+<li>Ensure all images are properly placed in the <code>media</code> folder</li>
+<li>Verify that the elsarticle class file is in the correct location</li>
+<li>Run the LaTeX compiler</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> output.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>For better Unicode support and modern fonts, use XeLaTeX:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">xelatex</span> output.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Multiple Compilations
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You may need to run the compiler multiple times to resolve cross-references and generate the bibliography correctly.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>The complete workflow for DOCX to LaTeX conversion:</p>
+<ol type="1">
+<li><strong>Prepare</strong> your DOCX file with proper formatting</li>
+<li><strong>Extract</strong> images using Pandoc or manual methods</li>
+<li><strong>Install</strong> Pandoc and a LaTeX distribution</li>
+<li><strong>Obtain</strong> the elsarticle class template</li>
+<li><strong>Convert</strong> using Pandoc command</li>
+<li><strong>Compile</strong> with pdflatex or xelatex</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Pro Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For complex documents, consider using Overleaf which provides an online LaTeX editor with the elsarticle template pre-installed.</p>
+</div>
+</div>
 
 
 </section>

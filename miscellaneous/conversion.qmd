@@ -1,21 +1,191 @@
 ---
-title: "Document Conversion and Figure Tools"
-subtitle: "Tools for Converting Documents and Creating Figures"
+title: "Document Conversion and Academic Figure Tools"
+subtitle: "Transform Your Academic Workflow with Pandoc and Professional Illustration Tools"
 author: "Dr. Md Abdus Samad"
 date: "2025-05-30"
 toc: true
+toc-depth: 2
+code-copy: true
 ---
 
-## Overview
-
-Add your content about document conversion and figure tools here...
-
-## Document Conversion Tools
-
-## Figure Creation Tools
-
-## Image Editing Tools
+Transform your academic workflow with Pandoc — a powerful, free, and open-source document converter that handles Word, LaTeX, PDF, Markdown, HTML, EPUB, and more. Perfect for researchers and students who need seamless format conversion with citation support.
 
 ---
 
-*Last updated: 2025*
+## Essential Pandoc Commands
+
+### Word to PDF Conversion
+
+```bash
+pandoc myfile.docx -o myfile.pdf --pdf-engine=xelatex
+```
+
+### Markdown to Word
+
+```bash
+pandoc myfile.md -o myfile.docx
+```
+
+### LaTeX to Word
+
+```bash
+pandoc myfile.tex -o myfile.docx
+```
+
+### Word to LaTeX
+
+```bash
+pandoc myfile.docx -o myfile.tex
+```
+
+### Markdown to PDF
+
+```bash
+pandoc myfile.md -o myfile.pdf --pdf-engine=xelatex
+```
+
+### HTML to Word
+
+```bash
+pandoc myfile.html -o myfile.docx
+```
+
+### Word to HTML
+
+```bash
+pandoc myfile.docx -o myfile.html
+```
+
+### With Bibliography (Citations)
+
+```bash
+pandoc myfile.md -o myfile.pdf --bibliography=refs.bib --csl=apa.csl
+```
+
+### Multiple Input Files
+
+```bash
+pandoc chapter1.md chapter2.md chapter3.md -o thesis.pdf
+```
+
+### Extract Text from PDF
+
+```bash
+pandoc myfile.pdf -o myfile.txt
+```
+
+---
+
+## Quick Reference Table
+
+| Conversion | Command |
+|------------|---------|
+| Word → PDF | `pandoc file.docx -o file.pdf --pdf-engine=xelatex` |
+| Word → LaTeX | `pandoc file.docx -o file.tex` |
+| LaTeX → Word | `pandoc file.tex -o file.docx` |
+| Markdown → Word | `pandoc file.md -o file.docx` |
+| Markdown → PDF | `pandoc file.md -o file.pdf --pdf-engine=xelatex` |
+| HTML → Word | `pandoc file.html -o file.docx` |
+| Word → HTML | `pandoc file.docx -o file.html` |
+
+::: {.callout-tip}
+## Download Pandoc
+Get Pandoc from the official website: [pandoc.org](https://pandoc.org){target="_blank"}
+:::
+
+---
+
+## Illustration and Figure Preparation Tools
+
+### Microsoft PowerPoint
+
+Good for simple vector illustrations and quick academic diagrams with built-in templates and smart graphics.
+
+### Microsoft Visio
+
+Professional tool for flowcharts, system diagrams, and complex technical illustrations with extensive shape libraries.
+
+### Figma
+
+Collaborative interface design tool perfect for creating modern, professional academic figures and presentations.
+
+[Visit Figma](https://www.figma.com){target="_blank"}
+
+### Lucidchart
+
+Web-based diagramming platform with templates for research workflows, process diagrams, and organizational charts.
+
+[Visit Lucidchart](https://www.lucidchart.com){target="_blank"}
+
+### Draw.io (diagrams.net)
+
+Free, open-source tool for flowcharts, network diagrams, and structured illustrations with cloud storage integration.
+
+[Visit Draw.io](https://www.drawio.com){target="_blank"}
+
+### GIMP
+
+Powerful open-source image editor similar to Photoshop, ideal for photo manipulation and raster graphics editing.
+
+[Visit GIMP](https://www.gimp.org){target="_blank"}
+
+---
+
+## Tools Comparison
+
+| Tool | Type | Best For | Cost |
+|------|------|----------|------|
+| PowerPoint | Desktop | Quick diagrams, presentations | Paid (Microsoft 365) |
+| Visio | Desktop | Flowcharts, technical diagrams | Paid |
+| Figma | Web/Desktop | Modern figures, collaboration | Free tier available |
+| Lucidchart | Web | Research workflows, org charts | Free tier available |
+| Draw.io | Web/Desktop | Flowcharts, network diagrams | Free |
+| GIMP | Desktop | Image editing, raster graphics | Free |
+
+---
+
+## Advanced Pandoc Options
+
+### Custom PDF Styling
+
+```bash
+pandoc myfile.md -o myfile.pdf --pdf-engine=xelatex --template=custom.tex
+```
+
+### Table of Contents
+
+```bash
+pandoc myfile.md -o myfile.pdf --toc --toc-depth=3
+```
+
+### Numbered Sections
+
+```bash
+pandoc myfile.md -o myfile.pdf --number-sections
+```
+
+### Extract Media from Word
+
+```bash
+pandoc myfile.docx --extract-media=./media -o myfile.md
+```
+
+### Standalone HTML
+
+```bash
+pandoc myfile.md -o myfile.html --standalone --self-contained
+```
+
+::: {.callout-note}
+## Pro Tip
+Combine multiple options for complex conversions:
+
+```bash
+pandoc myfile.md -o myfile.pdf \
+  --pdf-engine=xelatex \
+  --bibliography=refs.bib \
+  --csl=ieee.csl \
+  --toc \
+  --number-sections
+```
+:::

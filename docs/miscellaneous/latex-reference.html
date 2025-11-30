@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2025-05-30">
 <meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
 
-<title>LaTeX Reference and Label Management – Md Abdus Samad</title>
+<title>Professional LaTeX Document Conversion – Md Abdus Samad</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -123,12 +158,12 @@ https://badge.dimensions.ai/
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="LaTeX Reference and Label Management – Md Abdus Samad">
-<meta property="og:description" content="Managing References and Labels in LaTeX">
+<meta property="og:title" content="Professional LaTeX Document Conversion – Md Abdus Samad">
+<meta property="og:description" content="From Hard-coded Numbers to Dynamic References">
 <meta property="og:image" content="https://quarto.org/quarto.png">
 <meta property="og:site_name" content="Md Abdus Samad">
-<meta name="twitter:title" content="LaTeX Reference and Label Management – Md Abdus Samad">
-<meta name="twitter:description" content="Managing References and Labels in LaTeX">
+<meta name="twitter:title" content="Professional LaTeX Document Conversion – Md Abdus Samad">
+<meta name="twitter:description" content="From Hard-coded Numbers to Dynamic References">
 <meta name="twitter:image" content="https://quarto.org/quarto.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -316,14 +351,32 @@ https://badge.dimensions.ai/
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#reference-management" id="toc-reference-management" class="nav-link" data-scroll-target="#reference-management">Reference Management</a>
+  <li><a href="#pre-conversion-checklist" id="toc-pre-conversion-checklist" class="nav-link active" data-scroll-target="#pre-conversion-checklist">Pre-Conversion Checklist</a>
   <ul class="collapse">
-  <li><a href="#bibtex" id="toc-bibtex" class="nav-link" data-scroll-target="#bibtex">BibTeX</a></li>
-  <li><a href="#biblatex" id="toc-biblatex" class="nav-link" data-scroll-target="#biblatex">BibLaTeX</a></li>
+  <li><a href="#essential-steps" id="toc-essential-steps" class="nav-link" data-scroll-target="#essential-steps">Essential Steps</a></li>
   </ul></li>
-  <li><a href="#label-management" id="toc-label-management" class="nav-link" data-scroll-target="#label-management">Label Management</a></li>
-  <li><a href="#cross-referencing" id="toc-cross-referencing" class="nav-link" data-scroll-target="#cross-referencing">Cross-Referencing</a></li>
+  <li><a href="#advanced-regex-patterns" id="toc-advanced-regex-patterns" class="nav-link" data-scroll-target="#advanced-regex-patterns">Advanced Regex Patterns</a>
+  <ul class="collapse">
+  <li><a href="#citations---multiple-scenarios" id="toc-citations---multiple-scenarios" class="nav-link" data-scroll-target="#citations---multiple-scenarios">Citations - Multiple Scenarios</a></li>
+  <li><a href="#figures---context-aware-patterns" id="toc-figures---context-aware-patterns" class="nav-link" data-scroll-target="#figures---context-aware-patterns">Figures - Context-Aware Patterns</a></li>
+  <li><a href="#tables---enhanced-patterns" id="toc-tables---enhanced-patterns" class="nav-link" data-scroll-target="#tables---enhanced-patterns">Tables - Enhanced Patterns</a></li>
+  </ul></li>
+  <li><a href="#automated-label-generation" id="toc-automated-label-generation" class="nav-link" data-scroll-target="#automated-label-generation">Automated Label Generation</a>
+  <ul class="collapse">
+  <li><a href="#smart-label-insertion" id="toc-smart-label-insertion" class="nav-link" data-scroll-target="#smart-label-insertion">Smart Label Insertion</a></li>
+  </ul></li>
+  <li><a href="#advanced-workflow" id="toc-advanced-workflow" class="nav-link" data-scroll-target="#advanced-workflow">Advanced Workflow</a>
+  <ul class="collapse">
+  <li><a href="#phase-1-analysis-and-preparation" id="toc-phase-1-analysis-and-preparation" class="nav-link" data-scroll-target="#phase-1-analysis-and-preparation">Phase 1: Analysis and Preparation</a></li>
+  <li><a href="#phase-2-systematic-replacement" id="toc-phase-2-systematic-replacement" class="nav-link" data-scroll-target="#phase-2-systematic-replacement">Phase 2: Systematic Replacement</a></li>
+  <li><a href="#phase-3-quality-control" id="toc-phase-3-quality-control" class="nav-link" data-scroll-target="#phase-3-quality-control">Phase 3: Quality Control</a></li>
+  </ul></li>
+  <li><a href="#professional-citation-management" id="toc-professional-citation-management" class="nav-link" data-scroll-target="#professional-citation-management">Professional Citation Management</a>
+  <ul class="collapse">
+  <li><a href="#smart-bibliography-generation" id="toc-smart-bibliography-generation" class="nav-link" data-scroll-target="#smart-bibliography-generation">Smart Bibliography Generation</a></li>
+  </ul></li>
+  <li><a href="#troubleshooting-common-issues" id="toc-troubleshooting-common-issues" class="nav-link" data-scroll-target="#troubleshooting-common-issues">Troubleshooting Common Issues</a></li>
+  <li><a href="#final-verification-checklist" id="toc-final-verification-checklist" class="nav-link" data-scroll-target="#final-verification-checklist">Final Verification Checklist</a></li>
   </ul>
 </nav>
     </div>
@@ -332,8 +385,8 @@ https://badge.dimensions.ai/
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">LaTeX Reference and Label Management</h1>
-<p class="subtitle lead">Managing References and Labels in LaTeX</p>
+<h1 class="title">Professional LaTeX Document Conversion</h1>
+<p class="subtitle lead">From Hard-coded Numbers to Dynamic References</p>
 </div>
 
 
@@ -362,26 +415,314 @@ https://badge.dimensions.ai/
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Add your content about LaTeX reference and label management here…</p>
-</section>
-<section id="reference-management" class="level2">
-<h2 class="anchored" data-anchor-id="reference-management">Reference Management</h2>
-<section id="bibtex" class="level3">
-<h3 class="anchored" data-anchor-id="bibtex">BibTeX</h3>
-</section>
-<section id="biblatex" class="level3">
-<h3 class="anchored" data-anchor-id="biblatex">BibLaTeX</h3>
-</section>
-</section>
-<section id="label-management" class="level2">
-<h2 class="anchored" data-anchor-id="label-management">Label Management</h2>
-</section>
-<section id="cross-referencing" class="level2">
-<h2 class="anchored" data-anchor-id="cross-referencing">Cross-Referencing</h2>
+<section id="pre-conversion-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="pre-conversion-checklist">Pre-Conversion Checklist</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Before starting any replacements, ensure you have proper backups!</p>
+</div>
+</div>
+<section id="essential-steps" class="level3">
+<h3 class="anchored" data-anchor-id="essential-steps">Essential Steps</h3>
+<ul class="task-list">
+<li><label><input type="checkbox">Create a backup of your entire project</label></li>
+<li><label><input type="checkbox">Use version control (git commit before changes)</label></li>
+<li><label><input type="checkbox">Test compile to ensure document builds correctly</label></li>
+<li><label><input type="checkbox">Document your current numbering scheme</label></li>
+</ul>
 <hr>
-<p><em>Last updated: 2025</em></p>
+</section>
+</section>
+<section id="advanced-regex-patterns" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-regex-patterns">Advanced Regex Patterns</h2>
+<section id="citations---multiple-scenarios" class="level3">
+<h3 class="anchored" data-anchor-id="citations---multiple-scenarios">Citations - Multiple Scenarios</h3>
+<section id="basic-single-citations" class="level4">
+<h4 class="anchored" data-anchor-id="basic-single-citations">Basic single citations</h4>
+<p><strong>Find:</strong></p>
+<pre class="regex"><code>\[(\d+)\]</code></pre>
+<p><strong>Replace:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\\</span>cite{<span class="ss">$1-key}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="range-citations-1-3-or-13" class="level4">
+<h4 class="anchored" data-anchor-id="range-citations-1-3-or-13">Range citations [1-3] or [1–3]</h4>
+<p><strong>Find:</strong></p>
+<pre class="regex"><code>\[(\d+)[-–](\d+)\]</code></pre>
+<p><strong>Replace:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\\</span>cite{<span class="ss">$1-key,$</span>2-key}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><em>Manual cleanup needed for intermediate references</em></p>
+</section>
+<section id="multiple-citations-1-2-5" class="level4">
+<h4 class="anchored" data-anchor-id="multiple-citations-1-2-5">Multiple citations [1, 2, 5]</h4>
+<p><strong>Find:</strong></p>
+<pre class="regex"><code>\[(\d+(?:,\s*\d+)*)\]</code></pre>
+<p><strong>Replace:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\\</span>cite{process-this-manually}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="citations-with-pages-1-p.-15" class="level4">
+<h4 class="anchored" data-anchor-id="citations-with-pages-1-p.-15">Citations with pages [1, p.&nbsp;15]</h4>
+<p><strong>Find:</strong></p>
+<pre class="regex"><code>\[(\d+),\s*p\.\s*(\d+)\]</code></pre>
+<p><strong>Replace:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\\</span>cite[<span class="ss">$2]{$</span>1-key}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="figures---context-aware-patterns" class="level3">
+<h3 class="anchored" data-anchor-id="figures---context-aware-patterns">Figures - Context-Aware Patterns</h3>
+<section id="standard-references" class="level4">
+<h4 class="anchored" data-anchor-id="standard-references">Standard references</h4>
+<p><strong>Find:</strong></p>
+<pre class="regex"><code>(?i)(figure|fig\.?)\s+(\d+)</code></pre>
+<p><strong>Replace:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>Figure~<span class="fu">\\</span>ref{fig:<span class="ss">$2}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="with-parentheses-figure-1-or-fig.-1" class="level4">
+<h4 class="anchored" data-anchor-id="with-parentheses-figure-1-or-fig.-1">With parentheses (Figure 1) or (Fig. 1)</h4>
+<p><strong>Find:</strong></p>
+<pre class="regex"><code>\((?i)(figure|fig\.?)\s+(\d+)\)</code></pre>
+<p><strong>Replace:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>(Figure~<span class="fu">\\</span>ref{fig:<span class="ss">$2})</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="beginning-of-sentences" class="level4">
+<h4 class="anchored" data-anchor-id="beginning-of-sentences">Beginning of sentences</h4>
+<p><strong>Find:</strong></p>
+<pre class="regex"><code>^(Figure|Fig\.?)\s+(\d+)</code></pre>
+<p><strong>Replace:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>Figure~<span class="fu">\\</span>ref{fig:<span class="ss">$2}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="plural-figures" class="level4">
+<h4 class="anchored" data-anchor-id="plural-figures">Plural figures</h4>
+<p><strong>Find:</strong></p>
+<pre class="regex"><code>(?i)(figures)\s+(\d+)[-–](\d+)</code></pre>
+<p><strong>Replace:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>Figures~<span class="fu">\\</span>ref{fig:<span class="ss">$2}--</span><span class="sc">\\</span><span class="ss">ref{fig:$</span>3}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="tables---enhanced-patterns" class="level3">
+<h3 class="anchored" data-anchor-id="tables---enhanced-patterns">Tables - Enhanced Patterns</h3>
+<section id="standard-references-1" class="level4">
+<h4 class="anchored" data-anchor-id="standard-references-1">Standard references</h4>
+<p><strong>Find:</strong></p>
+<pre class="regex"><code>(?i)(table)\s+(\d+)</code></pre>
+<p><strong>Replace:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>Table~<span class="fu">\\</span>ref{tab:<span class="ss">$2}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="multiple-tables" class="level4">
+<h4 class="anchored" data-anchor-id="multiple-tables">Multiple tables</h4>
+<p><strong>Find:</strong></p>
+<pre class="regex"><code>(?i)(tables)\s+(\d+)\s+and\s+(\d+)</code></pre>
+<p><strong>Replace:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>Tables~<span class="fu">\\</span>ref{tab:<span class="ss">$2} and~</span><span class="sc">\\</span><span class="ss">ref{tab:$</span>3}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+</section>
+<section id="automated-label-generation" class="level2">
+<h2 class="anchored" data-anchor-id="automated-label-generation">Automated Label Generation</h2>
+<section id="smart-label-insertion" class="level3">
+<h3 class="anchored" data-anchor-id="smart-label-insertion">Smart Label Insertion</h3>
+<section id="for-figures-with-meaningful-captions" class="level4">
+<h4 class="anchored" data-anchor-id="for-figures-with-meaningful-captions">For figures with meaningful captions</h4>
+<p><strong>Find:</strong></p>
+<pre class="regex"><code>(\\caption\{([^}]{1,50})[^}]*\})</code></pre>
+<p><strong>Replace:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="ss">$1</span><span class="sc">\n\\</span><span class="ss">label{fig:auto-generated-from-caption}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="for-tables" class="level4">
+<h4 class="anchored" data-anchor-id="for-tables">For tables</h4>
+<p><strong>Find:</strong></p>
+<pre class="regex"><code>(\\caption\{([^}]{1,50})[^}]*\})</code></pre>
+<p><strong>Replace:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="ss">$1</span><span class="sc">\n\\</span><span class="ss">label{tab:auto-generated-from-caption}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+</section>
+<section id="advanced-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-workflow">Advanced Workflow</h2>
+<section id="phase-1-analysis-and-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="phase-1-analysis-and-preparation">Phase 1: Analysis and Preparation</h3>
+<p>Count occurrences to estimate scope:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Count citation occurrences</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="fu">grep</span> <span class="at">-o</span> <span class="st">'\[\d\+\]'</span> document.tex <span class="kw">|</span> <span class="fu">sort</span> <span class="kw">|</span> <span class="fu">uniq</span> <span class="at">-c</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Count figure references</span></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="fu">grep</span> <span class="at">-o</span> <span class="at">-i</span> <span class="st">'figure \d\+'</span> document.tex <span class="kw">|</span> <span class="fu">sort</span> <span class="kw">|</span> <span class="fu">uniq</span> <span class="at">-c</span></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Count table references</span></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a><span class="fu">grep</span> <span class="at">-o</span> <span class="at">-i</span> <span class="st">'table \d\+'</span> document.tex <span class="kw">|</span> <span class="fu">sort</span> <span class="kw">|</span> <span class="fu">uniq</span> <span class="at">-c</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="phase-2-systematic-replacement" class="level3">
+<h3 class="anchored" data-anchor-id="phase-2-systematic-replacement">Phase 2: Systematic Replacement</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Order matters!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Follow this sequence for best results.</p>
+</div>
+</div>
+<ol type="1">
+<li><strong>Handle special cases first:</strong>
+<ul>
+<li>Citations with page numbers</li>
+<li>Figure/table ranges</li>
+<li>Parenthetical references</li>
+</ul></li>
+<li><strong>Standard replacements:</strong>
+<ul>
+<li>Single citations</li>
+<li>Single figure/table references</li>
+</ul></li>
+<li><strong>Add labels systematically</strong></li>
+</ol>
+</section>
+<section id="phase-3-quality-control" class="level3">
+<h3 class="anchored" data-anchor-id="phase-3-quality-control">Phase 3: Quality Control</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb26"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Find unreferenced labels</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="fu">grep</span> <span class="st">'\\label{'</span> <span class="pp">*</span>.tex <span class="kw">|</span> <span class="fu">cut</span> <span class="at">-d</span><span class="st">':'</span> <span class="at">-f2</span> <span class="kw">|</span> <span class="fu">sort</span> <span class="op">&gt;</span> labels.txt</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="fu">grep</span> <span class="st">'\\ref{'</span> <span class="pp">*</span>.tex <span class="kw">|</span> <span class="fu">cut</span> <span class="at">-d</span><span class="st">':'</span> <span class="at">-f2</span> <span class="kw">|</span> <span class="fu">sort</span> <span class="op">&gt;</span> refs.txt</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="fu">comm</span> <span class="at">-23</span> labels.txt refs.txt  <span class="co"># Shows unused labels</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Find broken references (compile and check log)</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> document.tex <span class="dv">2</span><span class="op">&gt;&amp;</span><span class="dv">1</span> <span class="kw">|</span> <span class="fu">grep</span> <span class="at">-i</span> <span class="st">"reference.*undefined"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="professional-citation-management" class="level2">
+<h2 class="anchored" data-anchor-id="professional-citation-management">Professional Citation Management</h2>
+<section id="smart-bibliography-generation" class="level3">
+<h3 class="anchored" data-anchor-id="smart-bibliography-generation">Smart Bibliography Generation</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Extract all citation numbers from your document</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">'document.tex'</span>, <span class="st">'r'</span>) <span class="im">as</span> f:</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>    content <span class="op">=</span> f.read()</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>citations <span class="op">=</span> re.findall(<span class="vs">r'</span><span class="ch">\[</span><span class="kw">(</span><span class="dv">\d</span><span class="op">+</span><span class="kw">)</span><span class="ch">\]</span><span class="vs">'</span>, content)</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>unique_citations <span class="op">=</span> <span class="bu">sorted</span>(<span class="bu">set</span>(<span class="bu">map</span>(<span class="bu">int</span>, citations)))</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate template .bib entries</span></span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num <span class="kw">in</span> unique_citations:</span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"""</span></span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a><span class="ss">@article</span><span class="ch">{{</span><span class="ss">ref</span><span class="sc">{</span>num<span class="sc">}</span><span class="ss">,</span></span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a><span class="ss">  author = </span><span class="ch">{{</span><span class="ss">Author, First</span><span class="ch">}}</span><span class="ss">,</span></span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a><span class="ss">  title = </span><span class="ch">{{</span><span class="ss">Title from reference </span><span class="sc">{</span>num<span class="sc">}</span><span class="ch">}}</span><span class="ss">,</span></span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a><span class="ss">  journal = </span><span class="ch">{{</span><span class="ss">Journal Name</span><span class="ch">}}</span><span class="ss">,</span></span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a><span class="ss">  year = </span><span class="ch">{{</span><span class="ss">Year</span><span class="ch">}}</span><span class="ss">,</span></span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a><span class="ss">  volume = </span><span class="ch">{{</span><span class="ss">Vol</span><span class="ch">}}</span><span class="ss">,</span></span>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a><span class="ss">  pages = </span><span class="ch">{{</span><span class="ss">Pages</span><span class="ch">}}</span></span>
+<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a><span class="ch">}}</span><span class="ss">"""</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Pro Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Use the <code>cleveref</code> package for smart references that automatically determine the reference type (Figure, Table, etc.).</p>
+</div>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co">% In preamble, add consistent reference formatting</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="bu">\usepackage</span>{<span class="ex">cleveref</span>}  <span class="co">% Smart references</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="fu">\crefname</span>{figure}{Figure}{Figures}</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a><span class="fu">\crefname</span>{table}{Table}{Tables}</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a><span class="co">% Then use \cref{fig:label} instead of Figure~\ref{fig:label}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="troubleshooting-common-issues" class="level2">
+<h2 class="anchored" data-anchor-id="troubleshooting-common-issues">Troubleshooting Common Issues</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 41%">
+<col style="width: 58%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Issue</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Multiple replacements on same line</td>
+<td>Use global flag in your editor: <code>/g</code></td>
+</tr>
+<tr class="even">
+<td>LaTeX special characters in regex</td>
+<td>Escape backslashes: <code>\\</code> in find/replace</td>
+</tr>
+<tr class="odd">
+<td>Reference ordering after conversion</td>
+<td>Run: <code>pdflatex</code> → <code>bibtex</code> → <code>pdflatex</code> → <code>pdflatex</code></td>
+</tr>
+<tr class="even">
+<td>Overlapping patterns</td>
+<td>Process from most specific to most general</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="final-verification-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="final-verification-checklist">Final Verification Checklist</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">All <code>[number]</code> citations converted</label></li>
+<li><label><input type="checkbox">All hardcoded figure/table numbers converted</label></li>
+<li><label><input type="checkbox">All figures have <code>\label{fig:...}</code></label></li>
+<li><label><input type="checkbox">All tables have <code>\label{tab:...}</code></label></li>
+<li><label><input type="checkbox">Bibliography file created with matching keys</label></li>
+<li><label><input type="checkbox">Document compiles without undefined reference errors</label></li>
+<li><label><input type="checkbox">Cross-reference numbering is logical</label></li>
+<li><label><input type="checkbox">No orphaned or duplicate labels</label></li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Final Pro Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Use a LaTeX-aware editor (TeXstudio, VS Code with LaTeX Workshop) that can highlight undefined references and provide auto-completion for labels.</p>
+</div>
+</div>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Ready to Transform Your LaTeX Documents?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Follow this guide systematically for professional, maintainable LaTeX documents with dynamic cross-references!</p>
+</div>
+</div>
 
 
 </section>

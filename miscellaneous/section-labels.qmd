@@ -1,21 +1,215 @@
 ---
-title: "Sequential Section Labels"
-subtitle: "Creating Sequential Labels in LaTeX"
+title: "Automatically Add Sequential Section Labels in Overleaf"
+subtitle: "Master Efficient LaTeX Workflows with Regex-Powered Automation"
 author: "Dr. Md Abdus Samad"
 date: "2025-05-30"
 toc: true
+toc-depth: 3
+code-copy: true
 ---
 
-## Overview
+## Introduction and Why Section Labels Matter
 
-Add your content about sequential section labels here...
+::: {.callout-note}
+## The Problem
+When writing academic papers in LaTeX, using `\ref{sec:sectionname}` for cross-references is essential for professional documentation. However, manually adding `\label{sec:sectionname}` to every `\section{}` command becomes tedious and error-prone in long documents.
+:::
 
-## How to Create Sequential Labels
+### Key Benefits of Section Labels
 
-## Examples
-
-## Common Issues
+- **Automatic numbering:** LaTeX handles section numbering dynamically
+- **Dynamic references:** Section numbers update automatically when you reorganize content
+- **Professional formatting:** Ensures consistent reference style throughout your document
+- **Easy maintenance:** No need to manually update references when adding or removing sections
 
 ---
 
-*Last updated: 2025*
+## Method 1: Basic Regex Search and Replace in Overleaf
+
+### Step 1: Open your LaTeX project in Overleaf
+
+Navigate to the file containing your sections that need labels.
+
+### Step 2: Access Find/Replace
+
+Press `Ctrl` + `F` (Windows/Linux) or `Cmd` + `F` (Mac)
+
+### Step 3: Enable Regex mode
+
+Click the `.*` (regex) button in the search panel
+
+### Step 4: Enter the search pattern
+
+```latex
+\\section\{([^}]*)\}
+```
+
+*This pattern captures any text within section braces, including spaces and special characters*
+
+### Step 5: Enter the replacement pattern
+
+```latex
+\\section{$1}\\label{sec:$1}
+```
+
+*The `$1` placeholder maintains your original section title in both the section command and label*
+
+### Step 6: Execute the replacement
+
+Click **Replace All** to apply changes to your entire document
+
+### Example Results
+
+::: {.callout-warning}
+## Before
+```latex
+\section{Introduction}
+\section{Literature Review}
+\section{Methodology}
+```
+:::
+
+::: {.callout-tip}
+## After
+```latex
+\section{Introduction}\label{sec:Introduction}
+\section{Literature Review}\label{sec:Literature Review}
+\section{Methodology}\label{sec:Methodology}
+```
+:::
+
+---
+
+## Method 2: Advanced Pattern for Clean Label Names
+
+For more professional label names without spaces or special characters, you can use a modified approach:
+
+### Search Pattern
+
+```latex
+\\section\{([^}]*)\}
+```
+
+### Replace Pattern
+
+```latex
+\\section{$1}\\label{sec:\L$1\E}
+```
+
+::: {.callout-tip}
+## Pro Tip
+The `\L` and `\E` modifiers convert text to lowercase (availability depends on your regex engine). If this does not work in Overleaf, use the manual approach below.
+:::
+
+### Manual Alternative Approach
+
+1. Use the basic method first to add all labels
+2. Manually clean up labels by replacing spaces with underscores or hyphens
+3. Convert to lowercase for consistency
+
+---
+
+## Method 3: Handling Subsections and Subsubsections
+
+### For Subsections
+
+**Search:**
+
+```latex
+\\subsection\{([^}]*)\}
+```
+
+**Replace:**
+
+```latex
+\\subsection{$1}\\label{subsec:$1}
+```
+
+### For Subsubsections
+
+**Search:**
+
+```latex
+\\subsubsection\{([^}]*)\}
+```
+
+**Replace:**
+
+```latex
+\\subsubsection{$1}\\label{subsubsec:$1}
+```
+
+---
+
+## Best Practices and Tips
+
+### Label Naming Conventions
+
+- Use descriptive prefixes: `sec:`, `subsec:`, `subsubsec:`
+- Keep labels concise but meaningful
+- Use underscores instead of spaces: `sec:literature_review`
+- Avoid special characters and numbers at the beginning
+
+::: {.callout-warning}
+## Before You Begin
+
+1. **Create a backup** of your project or commit changes to Git
+2. **Test on a small section** first to ensure the regex works as expected
+3. **Review all replacements** before finalizing
+:::
+
+---
+
+## Troubleshooting Common Issues
+
+### Problem: Labels with spaces do not work well
+
+**Solution:** Manually replace spaces with underscores in labels after regex replacement
+
+### Problem: Special characters in section titles cause issues
+
+**Solution:** Use a more restrictive search pattern or clean labels manually
+
+### Problem: Nested braces in section titles
+
+**Solution:** Handle complex cases individually rather than with bulk regex
+
+---
+
+## Using Your New Labels
+
+Once labels are added, reference them in your text:
+
+```latex
+As discussed in Section \ref{sec:Introduction}, we will explore...
+See the methodology in Section \ref{sec:Methodology} for details.
+```
+
+::: {.callout-tip}
+## LaTeX will automatically:
+
+- Generate correct section numbers
+- Update references when you reorganize content
+- Handle cross-references in your final PDF
+:::
+
+---
+
+## Alternative Tools and Methods
+
+### For Advanced Users
+
+- **External text editors** with powerful regex support (VS Code, Sublime Text)
+- **LaTeX-specific tools** like TeXstudio with advanced find/replace
+- **Custom scripts** for bulk processing multiple files
+
+### Automated Solutions
+
+Consider writing a simple Python script for large projects with hundreds of sections, or use LaTeX packages like `cleveref` for enhanced reference formatting.
+
+---
+
+::: {.callout-note}
+## Conclusion
+Automating section label addition saves significant time and reduces errors in LaTeX documents. The regex method in Overleaf provides a quick solution for most use cases, while the advanced techniques ensure professional, consistent labeling throughout your academic papers. Remember to always backup your work and test patterns on small sections before applying them to entire documents.
+:::
