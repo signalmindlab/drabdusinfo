@@ -4,8 +4,20 @@
     "items": []
   },
   {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/posts_2025_01_15_thyroid_cancer.html",
+      "/posts/posts_2025_01_15_business_models.html",
+      "/posts/event-title/index.html",
+      "/posts/news-title/index.html",
+      "/posts/paper-title/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
+      "/posts/posts_2025_01_15_business_models.html",
+      "/posts/posts_2025_01_15_thyroid_cancer.html",
       "/posts/event-title/index.html",
       "/posts/news-title/index.html",
       "/posts/paper-title/index.html"
