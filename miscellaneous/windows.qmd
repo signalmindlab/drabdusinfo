@@ -1,21 +1,496 @@
 ---
-title: "Windows shortcuts & commands"
-subtitle: "Useful Windows Keyboard Shortcuts and Commands"
+title: "Windows Shortcuts & Commands"
+subtitle: "Complete Reference Guide - 100+ Shortcuts & Commands"
 author: "Dr. Md Abdus Samad"
 date: "2025-05-30"
 toc: true
+toc-depth: 3
 ---
 
-## Overview
+## Essential Navigation
 
-Add your content about Windows shortcuts and commands here...
+### Core System Navigation
 
-## Keyboard Shortcuts
+| Shortcut | Description |
+|----------|-------------|
+| `Win + D` | Show/Hide Desktop |
+| `Win + E` | Open File Explorer |
+| `Win + L` | Lock Computer |
+| `Win + I` | Open Settings |
+| `Win + X` | Power User Menu |
+| `Win + R` | Run Dialog |
+| `Win + S` | Open Search |
+| `Win + A` | Quick Settings |
+| `Win + K` | Connect Wireless |
+| `Win + U` | Accessibility Settings |
 
-## Command Prompt Commands
+### Task Switching & Views
 
-## PowerShell Commands
+| Shortcut | Description |
+|----------|-------------|
+| `Alt + Tab` | Switch Between Apps |
+| `Alt + F4` | Close Active Window |
+| `Win + Tab` | Task View (All Windows) |
+| `Win + , (comma)` | Peek at Desktop |
+| `Win + B` | Focus System Tray |
+| `Win + M` | Minimize All Windows |
+| `Ctrl + Shift + Esc` | Task Manager |
+| `Win + Pause` | System Properties |
 
 ---
 
-*Last updated: 2025*
+## Window Management
+
+### Window Snapping
+
+| Shortcut | Description |
+|----------|-------------|
+| `Win + Left Arrow` | Snap Window Left |
+| `Win + Right Arrow` | Snap Window Right |
+| `Win + Up Arrow` | Maximize Window |
+| `Win + Down Arrow` | Minimize/Restore Window |
+| `Win + Shift + Up` | Stretch Vertically |
+| `Win + Shift + Down` | Restore/Minimize Height |
+| `Win + Home` | Minimize All Except Active |
+| `Win + Z` | Snap Layouts (Win 11) |
+
+### Window Control & Multi-Monitor
+
+| Shortcut | Description |
+|----------|-------------|
+| `Win + Shift + Left/Right` | Move Window Between Monitors |
+| `Alt + Space` | Window Menu |
+| `Alt + Space + M` | Move Window Mode |
+| `Alt + Space + S` | Resize Window Mode |
+
+### Virtual Desktops
+
+| Shortcut | Description |
+|----------|-------------|
+| `Win + Ctrl + D` | Create New Desktop |
+| `Win + Ctrl + F4` | Close Current Desktop |
+| `Win + Ctrl + Left/Right` | Switch Between Desktops |
+
+---
+
+## File Explorer
+
+### Basic Operations
+
+| Shortcut | Description |
+|----------|-------------|
+| `Ctrl + N` | New Window |
+| `Ctrl + W` | Close Window |
+| `Ctrl + Shift + N` | New Folder |
+| `F2` | Rename Selected Item |
+| `Delete` | Move to Recycle Bin |
+| `Shift + Delete` | Permanent Delete |
+| `Ctrl + Z` | Undo |
+| `Ctrl + Y` | Redo |
+
+### Navigation & View
+
+| Shortcut | Description |
+|----------|-------------|
+| `Alt + Up Arrow` | Go Up One Level |
+| `Alt + Left/Right` | Back/Forward |
+| `Backspace` | Go to Parent Folder |
+| `Ctrl + L` | Focus Address Bar |
+| `Alt + D` | Select Address Bar |
+| `F4` | Address Bar Dropdown |
+| `Ctrl + Mouse Wheel` | Change Icon Size |
+| `Alt + P` | Toggle Preview Pane |
+| `Alt + Enter` | Properties |
+| `Shift + Right-Click` | Extended Context Menu |
+
+---
+
+## Text Editing
+
+### Basic Editing
+
+| Shortcut | Description |
+|----------|-------------|
+| `Ctrl + C` | Copy |
+| `Ctrl + X` | Cut |
+| `Ctrl + V` | Paste |
+| `Ctrl + Z` | Undo |
+| `Ctrl + Y` | Redo |
+| `Ctrl + A` | Select All |
+| `Ctrl + F` | Find |
+| `Ctrl + H` | Replace |
+
+### Advanced Navigation & Selection
+
+| Shortcut | Description |
+|----------|-------------|
+| `Ctrl + Left/Right` | Jump by Word |
+| `Ctrl + Backspace` | Delete Previous Word |
+| `Ctrl + Delete` | Delete Next Word |
+| `Ctrl + Shift + Left/Right` | Select Word by Word |
+| `Home` | Go to Start of Line |
+| `End` | Go to End of Line |
+| `Shift + Home` | Select to Start of Line |
+| `Shift + End` | Select to End of Line |
+| `Ctrl + Home` | Go to Start of Document |
+| `Ctrl + End` | Go to End of Document |
+
+---
+
+## Browser Shortcuts
+
+### Tab Management
+
+| Shortcut | Description |
+|----------|-------------|
+| `Ctrl + T` | New Tab |
+| `Ctrl + Shift + T` | Reopen Closed Tab |
+| `Ctrl + W` | Close Current Tab |
+| `Ctrl + Tab` | Next Tab |
+| `Ctrl + Shift + Tab` | Previous Tab |
+| `Ctrl + 1-8` | Switch to Tab 1-8 |
+| `Ctrl + 9` | Switch to Last Tab |
+
+### Browser Navigation
+
+| Shortcut | Description |
+|----------|-------------|
+| `Ctrl + L` | Focus Address Bar |
+| `Ctrl + D` | Bookmark Page |
+| `F5 / Ctrl + R` | Refresh Page |
+| `Ctrl + Shift + R` | Hard Refresh |
+| `F11` | Full Screen Mode |
+| `Ctrl + +/-` | Zoom In/Out |
+
+---
+
+## Productivity Tools
+
+| Shortcut | Description |
+|----------|-------------|
+| `Win + V` | Clipboard History |
+| `Win + Shift + S` | Screenshot Tool |
+| `Win + PrintScreen` | Full Screenshot to Pictures |
+| `Win + Period (.)` | Emoji Panel |
+| `Win + H` | Voice Typing/Dictation |
+| `Win + G` | Xbox Game Bar |
+| `Win + Alt + R` | Start/Stop Recording |
+
+---
+
+## Run Commands
+
+Press `Win + R`, type the command, and hit Enter.
+
+### System Tools
+
+| Command | Description |
+|---------|-------------|
+| `cmd` | Command Prompt |
+| `powershell` | Windows PowerShell |
+| `taskmgr` | Task Manager |
+| `msconfig` | System Configuration |
+| `msinfo32` | System Information |
+| `regedit` | Registry Editor (Use with caution) |
+| `resmon` | Resource Monitor |
+| `perfmon` | Performance Monitor |
+| `control` | Control Panel |
+
+### Management Consoles (.msc)
+
+| Command | Description |
+|---------|-------------|
+| `devmgmt.msc` | Device Manager |
+| `diskmgmt.msc` | Disk Management |
+| `services.msc` | Windows Services |
+| `compmgmt.msc` | Computer Management |
+| `eventvwr.msc` | Event Viewer |
+| `lusrmgr.msc` | Local Users & Groups |
+
+### Control Panel Items (.cpl)
+
+| Command | Description |
+|---------|-------------|
+| `ncpa.cpl` | Network Connections |
+| `appwiz.cpl` | Programs & Features |
+| `firewall.cpl` | Windows Firewall |
+| `desk.cpl` | Display Settings |
+| `powercfg.cpl` | Power Options |
+| `main.cpl` | Mouse Properties |
+| `sysdm.cpl` | System Properties |
+| `timedate.cpl` | Date & Time |
+
+### Quick Launch Applications
+
+| Command | Description |
+|---------|-------------|
+| `calc` | Calculator |
+| `notepad` | Notepad |
+| `mspaint` | Paint |
+| `snippingtool` | Snipping Tool |
+| `magnify` | Magnifier |
+| `osk` | On-Screen Keyboard |
+| `charmap` | Character Map |
+| `wordpad` | WordPad |
+
+### System Utilities
+
+| Command | Description |
+|---------|-------------|
+| `cleanmgr` | Disk Cleanup |
+| `mstsc` | Remote Desktop Connection |
+| `winver` | Windows Version Info |
+| `dxdiag` | DirectX Diagnostic Tool |
+| `sndvol` | Volume Mixer |
+
+### Special Folders
+
+| Command | Description |
+|---------|-------------|
+| `.` | Current User Folder |
+| `shell:startup` | Startup Folder |
+| `shell:downloads` | Downloads Folder |
+| `shell:recent` | Recent Items |
+| `shell:sendto` | Send To Folder |
+| `%temp%` | Temp Folder |
+| `%appdata%` | AppData Folder |
+| `%programfiles%` | Program Files Folder |
+
+---
+
+## Command Prompt & Network
+
+### File Operations
+
+| Command | Description |
+|---------|-------------|
+| `dir` | List directory contents |
+| `cd [path]` | Change directory |
+| `mkdir [name]` | Create directory |
+| `copy [source] [dest]` | Copy files |
+| `move [source] [dest]` | Move files |
+| `del [file]` | Delete file |
+| `tree` | Display folder structure as tree |
+| `attrib +h [file]` | Hide file |
+| `attrib -h [file]` | Unhide file |
+
+### Network Commands
+
+| Command | Description |
+|---------|-------------|
+| `ipconfig /all` | Display network configuration |
+| `ipconfig /flushdns` | Clear DNS cache |
+| `ping [address]` | Test connection to address |
+| `tracert [address]` | Trace route to destination |
+| `netstat -an` | Display active connections |
+| `nslookup [domain]` | Query DNS records |
+| `arp -a` | Display ARP table |
+| `netsh wlan show profiles` | Show saved WiFi networks |
+
+### System Commands
+
+| Command | Description |
+|---------|-------------|
+| `systeminfo` | Display system information |
+| `tasklist` | List all running processes |
+| `taskkill /f /im [name]` | Force kill process |
+| `shutdown /s /t 0` | Shutdown immediately |
+| `shutdown /r /t 0` | Restart immediately |
+| `hostname` | Display computer name |
+| `whoami` | Display current username |
+| `ver` | Display Windows version |
+
+---
+
+## System Maintenance
+
+::: {.callout-warning}
+## Important
+Run Command Prompt or PowerShell as Administrator for these commands. Right-click and select "Run as administrator".
+:::
+
+### System Repair Commands
+
+| Command | Description |
+|---------|-------------|
+| `sfc /scannow` | Scan and repair system files (15-30 minutes) |
+| `chkdsk /f /r` | Check disk for errors and repair (requires restart) |
+| `DISM /Online /Cleanup-Image /RestoreHealth` | Repair Windows system image (run before sfc) |
+
+### Utility Commands
+
+| Command | Description |
+|---------|-------------|
+| `powercfg /batteryreport` | Generate battery health report |
+| `netsh wlan show profile name="WiFi-Name" key=clear` | Show saved WiFi password |
+
+### PowerShell System Commands
+
+| Command | Description |
+|---------|-------------|
+| `Get-ComputerInfo` | Detailed system information |
+| `Get-Process` | List running processes |
+| `Get-Service` | List Windows services |
+| `Get-Hotfix` | Show installed updates |
+| `Get-NetAdapter` | Display network adapters |
+| `Get-Volume` | Show disk volumes |
+| `Get-LocalUser` | List local users |
+| `Test-Connection google.com` | Advanced ping command |
+
+---
+
+## Windows 11 Features
+
+### Windows 11 Exclusive Shortcuts
+
+| Shortcut | Description |
+|----------|-------------|
+| `Win + W` | Open Widgets Panel |
+| `Win + C` | Open Copilot AI |
+| `Win + N` | Notification Center |
+| `Win + Z` | Snap Layouts Menu |
+
+### God Mode - Access All Settings
+
+::: {.callout-tip}
+## How to Enable God Mode
+1. Create a new folder on your desktop
+2. Rename it to: `GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}`
+3. Double-click to access 200+ Windows settings
+:::
+
+### Accessibility Shortcuts
+
+| Shortcut | Description |
+|----------|-------------|
+| `Win + + (Plus)` | Open Magnifier & Zoom In |
+| `Win + - (Minus)` | Zoom Out |
+| `Win + Esc` | Close Magnifier |
+| `Win + Ctrl + Enter` | Toggle Narrator |
+| `Win + H` | Voice Typing |
+
+### Advanced Graphics
+
+| Shortcut | Description |
+|----------|-------------|
+| `Win + Ctrl + Shift + B` | Restart Graphics Driver |
+
+---
+
+## Pro Tips & Tricks
+
+### Taskbar Tricks
+
+- `Shift + Click` on taskbar icon - Open new instance
+- `Ctrl + Click` on taskbar icon - Cycle through windows
+- `Middle Click` on taskbar icon - Open new instance
+- `Shift + Right-Click` on taskbar - Show window menu
+
+### File Explorer Secrets
+
+- `Alt + D` - Focus address bar instantly
+- `F4` in address bar - Show recent locations dropdown
+- Type **cmd** in address bar - Open Command Prompt in that folder
+- Type **powershell** in address bar - Open PowerShell in that folder
+- `Shift + Right-Click` on folder - Extended menu with "Copy as path"
+
+### Run Dialog Tricks
+
+- `Ctrl + Shift + Enter` in Run Dialog - Run as Administrator
+- Type **\\computer-name** - Connect to network computer
+- Type website URL - Opens in default browser
+
+### Multi-Monitor Magic
+
+- `Win + Shift + Left/Right Arrow` - Move window between monitors
+- `Win + P` - Project/display options (duplicate, extend, etc.)
+
+### Quick Copy Tricks
+
+- `Ctrl + Shift + C/V` - Copy/paste in Command Prompt
+- `Win + V` - Open clipboard history (enable in Settings first)
+- Select file in Explorer, `Ctrl + Shift + C` - Copy file path
+
+::: {.callout-tip}
+## Productivity Hack
+Pin frequently used apps to taskbar and use `Win + [1-9]` to launch them instantly!
+:::
+
+---
+
+## Safety Notes & Best Practices
+
+::: {.callout-warning}
+## Registry Editor Warning
+Only modify the registry if you know exactly what you are doing. Always create a backup before making changes. Incorrect registry edits can make Windows unstable or unbootable.
+:::
+
+::: {.callout-warning}
+## Administrator Commands
+Commands like `sfc /scannow`, `chkdsk`, and `DISM` require administrator privileges. Right-click Command Prompt/PowerShell and select "Run as administrator".
+:::
+
+::: {.callout-warning}
+## Maintenance Time
+`sfc /scannow` takes 15-30 minutes. `chkdsk` and `DISM` can take 30+ minutes. Run these when you have time and will not need your computer.
+:::
+
+### Safe Practices
+
+- Lock your PC when leaving: `Win + L`
+- Regularly update Windows via Settings > Windows Update
+- Enable BitLocker for drive encryption (if available)
+- Use strong passwords and Windows Hello if possible
+- Keep important files backed up to cloud or external drive
+- Run Windows Defender scans regularly
+- Only download software from trusted sources
+
+### Maintenance Schedule
+
+::: {.callout-note}
+## Recommended Schedule
+- **Monthly:** Run Disk Cleanup (cleanmgr), check for Windows updates
+- **Quarterly:** Run sfc /scannow, review installed programs
+- **Yearly:** Full system backup, DISM health check
+:::
+
+---
+
+## Top 20 Must-Know Shortcuts
+
+**Master these first - they will save you hours!**
+
+1. `Win + E` - File Explorer
+2. `Win + D` - Show/Hide Desktop
+3. `Alt + Tab` - Switch Apps
+4. `Win + L` - Lock PC
+5. `Win + V` - Clipboard History
+6. `Win + Shift + S` - Screenshot
+7. `Ctrl + Shift + Esc` - Task Manager
+8. `Win + Left/Right` - Snap Windows
+9. `Win + I` - Settings
+10. `Win + R` - Run Dialog
+11. `Win + Tab` - Task View
+12. `Alt + F4` - Close Window
+13. `Ctrl + Shift + N` - New Folder
+14. `Win + Period` - Emoji Panel
+15. `Win + X` - Power User Menu
+16. `F2` - Rename File
+17. `Ctrl + Z` - Undo
+18. `Win + S` - Search
+19. `Win + Ctrl + D` - New Desktop
+20. `Ctrl + Shift + T` - Reopen Tab
+
+### Learning Path
+
+::: {.callout-tip}
+## Suggested Learning Path
+- **Week 1:** Master the top 5 shortcuts
+- **Week 2:** Add window management shortcuts
+- **Week 3:** Learn File Explorer shortcuts
+- **Week 4:** Explore Run commands and productivity tools
+:::
+
+---
+
+*Last Updated: October 2025*

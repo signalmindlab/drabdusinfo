@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.22">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr.&nbsp;Gang He">
-<meta name="description" content="Posts about papers, events, news, and more">
+<meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
 
-<title>What’s New &amp; Updated – Quarto Academic</title>
+<title>posts – Md Abdus Samad</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,18 +32,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b4406b7675125bc2ba204020e191172.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f4e4f6f13c60fd88d7a110a7c3d02718.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5e6bd0f431d9db1b2e65cd770f46ab1a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -72,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
 
 <script type="text/javascript">
@@ -111,64 +81,54 @@ gtag('js', new Date());
 gtag('config', '', { 'anonymize_ip': true});
 </script>
 
+
 <!-- 
+
 Load Academicons v1: https://jpswalsh.github.io/academicons/
+
 -->
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
 
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
+
+
+
 <!---
+
 The following code are needed to show dimension citation and altmetrics.
+
 https://api.altmetric.com/embeds.html
+
 https://badge.dimensions.ai/
+
 --->
+
+
 
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 
+
+
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Quarto Academic" href="posts.xml" data-external="1"><meta property="og:title" content="What’s New &amp; Updated – Quarto Academic">
-<meta property="og:description" content="Posts about papers, events, news, and more">
-<meta property="og:image" content="https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/featured.jpg">
-<meta property="og:site_name" content="Quarto Academic">
-<meta name="twitter:title" content="What’s New &amp; Updated – Quarto Academic">
-<meta name="twitter:description" content="Posts about papers, events, news, and more">
-<meta name="twitter:image" content="https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/featured.jpg">
+<meta property="og:title" content="Md Abdus Samad">
+<meta property="og:description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
+<meta property="og:image" content="https://quarto.org/quarto.png">
+<meta property="og:site_name" content="Md Abdus Samad">
+<meta name="twitter:title" content="Md Abdus Samad">
+<meta name="twitter:description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
+<meta name="twitter:image" content="https://quarto.org/quarto.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -180,7 +140,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Quarto Academic</span>
+    <span class="navbar-title">Md Abdus Samad</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -232,13 +192,81 @@ window.Quarto = {
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-outreach" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Outreach</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-miscellaneous" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Miscellaneous</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-outreach">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-miscellaneous">    
         <li>
-    <a class="dropdown-item" href="./posts.html#category=presentation">
- <span class="dropdown-text">Presentations</span></a>
+    <a class="dropdown-item" href="./miscellaneous/publishers.html">
+ <span class="dropdown-text">List of Publishers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/templates.html">
+ <span class="dropdown-text">Journal Templates</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/indexing.html">
+ <span class="dropdown-text">Verifying Journal Indexing</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/reference.html">
+ <span class="dropdown-text">Reference, Image Quality, and Detexify</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/author-services.html">
+ <span class="dropdown-text">Author Services by Major Publishers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/conversion.html">
+ <span class="dropdown-text">Document Conversion and Figure Tools</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/anonymization.html">
+ <span class="dropdown-text">Manuscript Anonymization</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/elsevier.html">
+ <span class="dropdown-text">Switching Elsevier LaTeX Templates</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/docx-latex.html">
+ <span class="dropdown-text">DOCX to LaTeX Convert</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/latex-reference.html">
+ <span class="dropdown-text">LaTeX Reference and Label Management</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/latex-converter.html">
+ <span class="dropdown-text">Latex Reference Converter</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/section-labels.html">
+ <span class="dropdown-text">Sequential Section Labels</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/open-access.html">
+ <span class="dropdown-text">Open Access Journals having Discount Policy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/overleaf.html">
+ <span class="dropdown-text">Overleaf git sync issues</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/latexdiff.html">
+ <span class="dropdown-text">Latexdiff Configuration Guide</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/opensource.html">
+ <span class="dropdown-text">Open source tools</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/windows.html">
+ <span class="dropdown-text">Windows shortcuts &amp; commands</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/mathpix.html">
+ <span class="dropdown-text">Mathpix PDF to Word</span></a>
   </li>  
     </ul>
   </li>
@@ -282,203 +310,67 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZXZlbnQ=">event <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cGFwZXI=">paper <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJlc2VudGF0aW9u">presentation <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">What’s New &amp; Updated</h1>
-<p class="subtitle lead">Posts about papers, events, news, and more</p>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
+<!--
+---
+title: "What’s New & Updated"
+subtitle: "Posts about papers, events, news, and more"
+description-meta: "Posts about papers, events, news, and more"
+listing: 
+  sort: "date desc"
+  type: default
+  page-size: 100
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  feed: true
+  contents: 
+      - posts
+      - posts/post-links.yml  # Use this file to add external links
+#      categories: [] 
 
-
-</header>
-
-
+#page-layout: full
+draft-mode: unlinked
+page-navigation: false
+title-block-banner: false
+--- 
+-->
+<ol type="1">
+<li>/posts/list-of-publishers/index.qmd yaml— title: “List of Publishers” subtitle: “Leading the Future of Scientific Research &amp; Innovation” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [publishers, miscellaneous] —</li>
+</ol>
+<p>Add your content here… 2. /posts/journal-templates/index.qmd yaml— title: “Journal Templates” subtitle: “Professional Academic Publishing Templates” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [templates, miscellaneous] —</p>
+<p>Add your content here… 3. /posts/verifying-journal-indexing/index.qmd yaml— title: “Verifying Journal Indexing” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [indexing, miscellaneous] —</p>
+<p>Add your content here… 4. /posts/reference-image-detexify/index.qmd yaml— title: “Reference, Image Quality, and Detexify” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [reference, miscellaneous] —</p>
+<p>Add your content here… 5. /posts/author-services/index.qmd yaml— title: “Author Services by Major Publishers” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [author-services, miscellaneous] —</p>
+<p>Add your content here… 6. /posts/document-conversion/index.qmd yaml— title: “Document Conversion and Figure Tools” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [conversion, miscellaneous] —</p>
+<p>Add your content here… 7. /posts/manuscript-anonymization/index.qmd yaml— title: “Manuscript Anonymization” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [anonymization, miscellaneous] —</p>
+<p>Add your content here… 8. /posts/elsevier-latex-templates/index.qmd yaml— title: “Switching Elsevier LaTeX Templates” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [elsevier, miscellaneous] —</p>
+<p>Add your content here… 9. /posts/docx-to-latex/index.qmd yaml— title: “DOCX to LaTeX Convert” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [docx-latex, miscellaneous] —</p>
+<p>Add your content here… 10. /posts/latex-reference-management/index.qmd yaml— title: “LaTeX Reference and Label Management” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [latex-reference, miscellaneous] —</p>
+<p>Add your content here… 11. /posts/latex-reference-converter/index.qmd yaml— title: “Latex Reference Converter” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [latex-converter, miscellaneous] —</p>
+<p>Add your content here… 12. /posts/sequential-section-labels/index.qmd yaml— title: “Sequential Section Labels” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [section-labels, miscellaneous] —</p>
+<p>Add your content here… 13. /posts/open-access-journals/index.qmd yaml— title: “Open Access Journals having Discount Policy” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [open-access, miscellaneous] —</p>
+<p>Add your content here… 14. /posts/overleaf-git-sync/index.qmd yaml— title: “Overleaf git sync issues” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [overleaf, miscellaneous] —</p>
+<p>Add your content here… 15. /posts/latexdiff-guide/index.qmd yaml— title: “Latexdiff Configuration Guide” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [latexdiff, miscellaneous] —</p>
+<p>Add your content here… 16. /posts/open-source-tools/index.qmd yaml— title: “Open source tools” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [opensource, miscellaneous] —</p>
+<p>Add your content here… 17. /posts/windows-shortcuts/index.qmd yaml— title: “Windows shortcuts &amp; commands” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [windows, miscellaneous] —</p>
+<p>Add your content here… 18. /posts/mathpix-pdf-word/index.qmd yaml— title: “Mathpix: PDF to Word” author: “Dr.&nbsp;Md Abdus Samad” date: “2025-05-30” categories: [mathpix, miscellaneous] —</p>
+<p>Add your content here…</p>
 <div id="posts">
 
 </div>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-      <option value="listing-author" data-direction="asc">
-        Author
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1728964800000">
-<div class="thumbnail"><a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">
-
-<img loading="lazy" src="./files/images/placeholder1.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">Quarto Academic Website Examples and Tips</a>
-</h3>
-<div class="listing-subtitle">
-<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">
-<p>Examples and tips for Quarto Academic Website</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="no-external">
-<div class="listing-date">
-Oct 15, 2024
-</div>
-<div class="listing-author">
-Dr.&nbsp;Gang He
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="ZXZlbnQlMkNwcmVzZW50YXRpb24=" data-listing-date-sort="1725336000000" data-listing-file-modified-sort="1739198683941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<div class="thumbnail"><a href="./posts/event-title/index.html" class="no-external">
-
-<img loading="lazy" src="./files/images/placeholder2.JPG" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/event-title/index.html" class="no-external">Event item</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/event-title/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZXZlbnQ='); return false;">event</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cHJlc2VudGF0aW9u'); return false;">presentation</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/event-title/index.html" class="no-external">
-<p>About Event item.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/event-title/index.html" class="no-external">
-<div class="listing-date">
-Sep 3, 2024
-</div>
-<div class="listing-author">
-Event
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="bmV3cw==" data-listing-date-sort="1719201600000" data-listing-file-modified-sort="1749249243868" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail"><a href="./posts/news-title/index.html" class="no-external">
-
-<img loading="lazy" src="./files/images/placeholder3.JPG" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/news-title/index.html" class="no-external">News item</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/news-title/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/news-title/index.html" class="no-external">
-<p>About new item</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/news-title/index.html" class="no-external">
-<div class="listing-date">
-Jun 24, 2024
-</div>
-<div class="listing-author">
-News
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="cGFwZXI=" data-listing-date-sort="-1092945600000" data-listing-file-modified-sort="1739046589171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
-<div class="thumbnail"><a href="./posts/paper-title/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/paper-title/featured.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/paper-title/index.html" class="no-external">Can quantum-mechanical description of physical reality be considered complete?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/paper-title/index.html" class="no-external"><em>Physical Review</em></a>
-</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/paper-title/index.html" class="no-external">
-<p>One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/paper-title/index.html" class="no-external">
-<div class="listing-date">
-May 15, 1935
-</div>
-<div class="listing-author">
-Albert Einstein, Boris Podolsky, Nathan Rosen
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -530,13 +422,14 @@ Albert Einstein, Boris Podolsky, Nathan Rosen
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -887,7 +780,7 @@ Albert Einstein, Boris Podolsky, Nathan Rosen
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<a href="http://www.github.com">Your Name</a> ©
+<a href="http://www.github.com">Dr.&nbsp;Md Abdus Samad</a> ©
 <script>document.write(new Date().getFullYear())</script>
 </div>   
     <div class="nav-footer-center">

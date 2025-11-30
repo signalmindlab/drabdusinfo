@@ -1,23 +1,348 @@
 ---
-title: "Open source tools"
-subtitle: "Useful Open Source Tools for Researchers"
+title: "Open Source Tools"
+subtitle: "A Curated List of Free and Open Source Software for Researchers & Academicians"
 author: "Dr. Md Abdus Samad"
 date: "2025-05-30"
 toc: true
+toc-depth: 3
 ---
 
-## Overview
-
-Add your content about open source tools here...
-
-## Writing Tools
-
-## Reference Management
-
-## Data Analysis
-
-## Visualization
+A curated list of free and open source tools for academic research and teaching. 22 categories, 180+ tools available.
 
 ---
 
-*Last updated: 2025*
+## 1. Reference Management & Citations
+
+| Tool | Description |
+|------|-------------|
+| [Zotero](https://www.zotero.org/){target="_blank"} | Open-source citation manager with browser integration |
+| [JabRef](https://www.jabref.org/){target="_blank"} | BibTeX reference manager for LaTeX users |
+| [Mendeley](https://www.mendeley.com/){target="_blank"} (basic plan free) | Manage PDFs, annotate, cite easily |
+| [KBibTeX](https://userbase.kde.org/KBibTeX){target="_blank"} | BibTeX editor for KDE (Linux) |
+
+---
+
+## 2. Writing & Document Preparation
+
+| Tool | Description |
+|------|-------------|
+| [Google Docs](https://docs.google.com/){target="_blank"} | Collaborative writing with cloud sync |
+| [LibreOffice Writer](https://www.libreoffice.org/discover/writer/){target="_blank"} | Open-source word processor |
+| [Grammarly](https://www.grammarly.com/){target="_blank"} (basic) | Grammar and tone checking |
+| [LaTeX](https://www.latex-project.org/){target="_blank"} (TeX Live, MiKTeX) | Professional typesetting for scientific documents |
+| [Overleaf](https://www.overleaf.com/){target="_blank"} (free tier) | Online collaborative LaTeX editor |
+| [TeXstudio](https://www.texstudio.org/){target="_blank"} | LaTeX editor with integrated PDF viewer |
+| [LyX](https://www.lyx.org/){target="_blank"} | Document processor with LaTeX backend |
+| [Pandoc](https://pandoc.org/){target="_blank"} | Universal document converter |
+| [LanguageTool](https://languagetool.org/){target="_blank"} | Open-source grammar and style checker |
+
+---
+
+## 3. Note-Taking & Knowledge Management
+
+| Tool | Description |
+|------|-------------|
+| [Obsidian](https://obsidian.md/){target="_blank"} | Markdown-based personal knowledge base (free for personal use) |
+| [Joplin](https://joplinapp.org/){target="_blank"} | Open-source Evernote alternative |
+| [Google Keep](https://keep.google.com/){target="_blank"} | Simple note capture synced across devices |
+| [Zettlr](https://www.zettlr.com/){target="_blank"} | Markdown editor for academic writing |
+| [TiddlyWiki](https://tiddlywiki.com/){target="_blank"} | Personal wiki and note-taking system |
+| [Logseq](https://logseq.com/){target="_blank"} | Open source note-taking with graph view |
+| [Standard Notes](https://standardnotes.com/){target="_blank"} | Encrypted note-taking app |
+
+---
+
+## 4. Statistical Analysis & Data Science
+
+| Tool | Description |
+|------|-------------|
+| [R & RStudio](https://posit.co/products/open-source/rstudio/){target="_blank"} | Statistical computing and graphics |
+| [Python](https://www.anaconda.com/){target="_blank"} (Anaconda) | Scientific computing with Jupyter notebooks |
+| [JASP](https://jasp-stats.org/){target="_blank"} | User-friendly statistical software (SPSS alternative) |
+| [PSPP](https://www.gnu.org/software/pspp/){target="_blank"} | GNU alternative to SPSS |
+| [jamovi](https://www.jamovi.org/){target="_blank"} | Statistical spreadsheet built on R |
+| [GNU Octave](https://octave.org/){target="_blank"} | MATLAB alternative |
+| [Julia](https://julialang.org/){target="_blank"} | High-performance language for technical computing |
+| [Orange](https://orangedatamining.com/){target="_blank"} | Visual programming for data analysis and machine learning |
+
+---
+
+## 5. Data Handling & Visualization
+
+| Tool | Description |
+|------|-------------|
+| [Google Sheets](https://www.google.com/sheets/about/){target="_blank"} | Online spreadsheets with collaboration |
+| [LibreOffice Calc](https://www.libreoffice.org/discover/calc/){target="_blank"} | Open alternative to Excel |
+| [Tableau Public](https://public.tableau.com/){target="_blank"} | Free version for data visualization |
+| [ggplot2](https://ggplot2.tidyverse.org/){target="_blank"} (R) | Grammar of graphics visualization |
+| [Matplotlib & Seaborn](https://matplotlib.org/){target="_blank"} (Python) | Plotting libraries |
+| [Plotly](https://plotly.com/){target="_blank"} | Interactive graphing library |
+| [RAWGraphs](https://www.rawgraphs.io/){target="_blank"} | Web-based tool for visual data representation |
+| [Gephi](https://gephi.org/){target="_blank"} | Network analysis and visualization |
+
+---
+
+## 6. Qualitative Research
+
+| Tool | Description |
+|------|-------------|
+| [QualCoder](https://qualcoder.wordpress.com/){target="_blank"} | Qualitative data analysis (NVivo alternative) |
+| [Taguette](https://www.taguette.org/){target="_blank"} | Qualitative research document tagging |
+| [RQDA](http://rqda.r-forge.r-project.org/){target="_blank"} | R-based qualitative data analysis |
+| [Aquad](https://www.aquad.de/){target="_blank"} | Analysis of qualitative data |
+| [CATMA](https://catma.de/){target="_blank"} | Computer-assisted text markup and analysis |
+
+---
+
+## 7. Laboratory & Scientific Computing
+
+| Tool | Description |
+|------|-------------|
+| [Jupyter Notebook](https://jupyter.org/){target="_blank"} | Interactive computing environment |
+| [GNU Octave](https://octave.org/){target="_blank"} | MATLAB alternative for numerical computations |
+| [SageMath](https://www.sagemath.org/){target="_blank"} | Mathematics software system |
+| [LabPlot](https://labplot.kde.org/){target="_blank"} | Data analysis and visualization |
+| [SciDAVis](https://scidavis.sourceforge.net/){target="_blank"} | Scientific data analysis and visualization |
+| [GNU Scientific Library (GSL)](https://www.gnu.org/software/gsl/){target="_blank"} | Numerical library for C/C++ |
+
+---
+
+## 8. Image & Graphics
+
+| Tool | Description |
+|------|-------------|
+| [ImageJ/Fiji](https://imagej.net/software/fiji/){target="_blank"} | Image processing for life sciences |
+| [GIMP](https://www.gimp.org/){target="_blank"} | Image editing and manipulation |
+| [Inkscape](https://inkscape.org/){target="_blank"} | Vector graphics for diagrams and figures |
+| [Canva](https://www.canva.com/){target="_blank"} (free plan) | Easy graphics and presentation design |
+| [Krita](https://krita.org/){target="_blank"} | Digital painting and illustration |
+| [Blender](https://www.blender.org/){target="_blank"} | 3D modeling, animation, and rendering |
+| [darktable](https://www.darktable.org/){target="_blank"} | Photography workflow and RAW developer |
+| [RawTherapee](https://www.rawtherapee.com/){target="_blank"} | Cross-platform RAW image processing |
+
+---
+
+## 9. Survey & Experiment Design
+
+| Tool | Description |
+|------|-------------|
+| [LimeSurvey](https://www.limesurvey.org/){target="_blank"} | Open-source survey platform (self-hosted) |
+| [PsychoPy](https://www.psychopy.org/){target="_blank"} | Psychology and neuroscience experiments |
+| [jsPsych](https://www.jspsych.org/){target="_blank"} | JavaScript library for behavioral experiments |
+| [OpenSesame](https://osdoc.cogsci.nl/){target="_blank"} | Psychology experiment builder |
+| [Formr](https://formr.org/){target="_blank"} | Survey framework with R integration |
+| [SurveyJS](https://surveyjs.io/){target="_blank"} | JavaScript library for surveys |
+
+---
+
+## 10. Mind Mapping & Brainstorming
+
+| Tool | Description |
+|------|-------------|
+| [FreeMind](https://freemind.sourceforge.net/){target="_blank"} | Open-source mind-mapping software |
+| [MindMup](https://www.mindmup.com/){target="_blank"} | Browser-based mind maps with Google Drive |
+| [Freeplane](https://www.freeplane.org/){target="_blank"} | Mind mapping and knowledge management |
+| [Coggle](https://coggle.it/){target="_blank"} | Collaborative mind mapping (free tier) |
+| [draw.io / diagrams.net](https://www.diagrams.net/){target="_blank"} | Diagram and flowchart creator |
+
+---
+
+## 11. Project Management & Organization
+
+| Tool | Description |
+|------|-------------|
+| [Trello](https://trello.com/){target="_blank"} | Kanban-style task tracking (free plan) |
+| [Todoist](https://todoist.com/){target="_blank"} (free plan) | Task and goal management |
+| [Google Calendar](https://calendar.google.com/){target="_blank"} | Scheduling and reminders |
+| [Wekan](https://wekan.github.io/){target="_blank"} | Open-source kanban board |
+| [Taiga](https://www.taiga.io/){target="_blank"} | Project management for agile teams |
+| [OpenProject](https://www.openproject.org/){target="_blank"} | Open-source project management |
+| [Planner](https://wiki.gnome.org/Apps/Planner){target="_blank"} | Task manager for GNOME (Linux) |
+
+---
+
+## 12. Cloud Storage & Collaboration
+
+| Tool | Description |
+|------|-------------|
+| [Google Drive](https://drive.google.com/){target="_blank"} | Integrated with Docs, Sheets, Slides |
+| [Dropbox Basic](https://www.dropbox.com/){target="_blank"} | Cloud storage and file sharing |
+| [MEGA](https://mega.nz/){target="_blank"} | End-to-end encrypted cloud storage |
+| [Nextcloud](https://nextcloud.com/){target="_blank"} | Self-hosted file sharing (open source) |
+| [Syncthing](https://syncthing.net/){target="_blank"} | Continuous file synchronization |
+| [pCloud](https://www.pcloud.com/){target="_blank"} (free tier) | Cloud storage with sync |
+| [Seafile](https://www.seafile.com/){target="_blank"} | Open-source file hosting platform |
+
+---
+
+## 13. Presentation Tools
+
+| Tool | Description |
+|------|-------------|
+| [Google Slides](https://www.google.com/slides/about/){target="_blank"} | Collaborative presentation creation |
+| [LibreOffice Impress](https://www.libreoffice.org/discover/impress/){target="_blank"} | Free presentation software |
+| [Beamer](https://www.overleaf.com/learn/latex/Beamer){target="_blank"} (LaTeX) | Professional academic slides |
+| [reveal.js](https://revealjs.com/){target="_blank"} | HTML presentation framework |
+| [Marp](https://marp.app/){target="_blank"} | Markdown presentation ecosystem |
+| [Sozi](https://sozi.baierouge.fr/){target="_blank"} | Zooming presentation editor |
+
+---
+
+## 14. Remote Access & Login Tools
+
+### 14.1 Remote Desktop
+
+| Tool | Description |
+|------|-------------|
+| [TigerVNC](https://tigervnc.org/){target="_blank"} | High-performance VNC |
+| [RustDesk](https://rustdesk.com/){target="_blank"} | Open source TeamViewer alternative |
+| [Apache Guacamole](https://guacamole.apache.org/){target="_blank"} | Web-based remote desktop |
+| [Remmina](https://remmina.org/){target="_blank"} | Multi-protocol remote desktop (Linux) |
+| [TightVNC](https://www.tightvnc.com/){target="_blank"} | Lightweight VNC solution |
+| [UltraVNC](https://uvnc.com/){target="_blank"} | Windows VNC with file transfer |
+| [X2Go](https://wiki.x2go.org/){target="_blank"} | Remote desktop based on NX technology |
+| [NoMachine](https://www.nomachine.com/){target="_blank"} (free tier) | Remote desktop for Linux, Windows, macOS |
+
+### 14.2 File Transfer
+
+| Tool | Description |
+|------|-------------|
+| [FileZilla](https://filezilla-project.org/){target="_blank"} | FTP/SFTP client |
+| [WinSCP](https://winscp.net/){target="_blank"} | SFTP/SCP for Windows |
+| [Cyberduck](https://cyberduck.io/){target="_blank"} | Cloud storage and FTP client |
+| [Transmit](https://panic.com/transmit/){target="_blank"} | File transfer client (macOS, free tier) |
+
+---
+
+## 15. Communication & Collaboration
+
+| Tool | Description |
+|------|-------------|
+| [Zoom](https://zoom.us/){target="_blank"} (free plan) | Video conferencing |
+| [Slack](https://slack.com/){target="_blank"} (free) | Messaging for study/research groups |
+| [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams/){target="_blank"} (education) | Institutional collaboration |
+| [Jitsi Meet](https://meet.jit.si/){target="_blank"} | Open-source video conferencing |
+| [Element](https://element.io/){target="_blank"} | Decentralized chat and collaboration (Matrix protocol) |
+| [Rocket.Chat](https://rocket.chat/){target="_blank"} | Open-source team communication |
+| [Mattermost](https://mattermost.com/){target="_blank"} | Open-source messaging platform |
+| [BigBlueButton](https://bigbluebutton.org/){target="_blank"} | Open-source web conferencing for education |
+
+---
+
+## 16. Productivity & Focus
+
+| Tool | Description |
+|------|-------------|
+| [Pomofocus](https://pomofocus.io/){target="_blank"} | Online Pomodoro timer |
+| [Cold Turkey](https://getcoldturkey.com/){target="_blank"} (free version) | Block distracting sites |
+| [LeechBlock](https://www.proginosko.com/leechblock/){target="_blank"} | Browser extension to block sites |
+| [Forest](https://www.forestapp.cc/){target="_blank"} (basic) | Gamified focus app |
+| [FocusMe](https://focusme.com/){target="_blank"} (free tier) | Productivity and focus tool |
+| [SelfControl](https://selfcontrolapp.com/){target="_blank"} | Block distracting websites (macOS) |
+| [Stretchly](https://hovancik.net/stretchly/){target="_blank"} | Break time reminder app |
+
+---
+
+## 17. Screen Recording & Screen Capture
+
+### 17.1 Screen Recording
+
+| Tool | Description |
+|------|-------------|
+| [OBS Studio](https://obsproject.com/){target="_blank"} | Open-source screen recording and streaming |
+| [Loom](https://www.loom.com/){target="_blank"} (free plan) | Simple screen and webcam recording |
+| [SimpleScreenRecorder](https://www.maartenbaert.be/simplescreenrecorder/){target="_blank"} | Feature-rich screen recorder (Linux) |
+| [Kazam](https://launchpad.net/kazam){target="_blank"} | Simple screen recording for Linux |
+| [Screencast-O-Matic](https://screencast-o-matic.com/){target="_blank"} (free tier) | Screen recording |
+
+### 17.2 Screen Capture (Screenshots)
+
+| Tool | Description |
+|------|-------------|
+| [Greenshot](https://getgreenshot.org/){target="_blank"} | Lightweight screenshot tool with annotation (Windows) |
+| [Flameshot](https://flameshot.org/){target="_blank"} | Powerful screenshot tool (Linux) |
+| [Lightshot](https://app.prntscr.com/){target="_blank"} | Quick screenshot and sharing |
+| [ShareX](https://getsharex.com/){target="_blank"} | Advanced screenshot and file sharing tool (Windows) |
+| [Spectacle](https://apps.kde.org/spectacle/){target="_blank"} | Screenshot utility for KDE (Linux) |
+| [Shutter](https://shutter-project.org/){target="_blank"} | Feature-rich screenshot tool (Linux) |
+| [Windows Snipping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots){target="_blank"} | Built-in Windows screenshot tool |
+| [macOS Screenshot](https://support.apple.com/en-us/HT201361){target="_blank"} | Built-in Command+Shift+3/4/5 (macOS) |
+| [Ksnip](https://github.com/ksnip/ksnip){target="_blank"} | Cross-platform screenshot tool |
+
+---
+
+## 18. Backup, Security & Privacy
+
+| Tool | Description |
+|------|-------------|
+| [Bitwarden](https://bitwarden.com/){target="_blank"} | Open-source password manager |
+| [VeraCrypt](https://www.veracrypt.fr/){target="_blank"} | Open-source file encryption |
+| [Syncthing](https://syncthing.net/){target="_blank"} | Continuous file synchronization |
+| [KeePassXC](https://keepassxc.org/){target="_blank"} | Local password database |
+| [Duplicati](https://www.duplicati.com/){target="_blank"} | Encrypted backup solution |
+| [Cryptomator](https://cryptomator.org/){target="_blank"} | Transparent client-side encryption for cloud files |
+| [Restic](https://restic.net/){target="_blank"} | Fast and secure backup program |
+| [BorgBackup](https://www.borgbackup.org/){target="_blank"} | Deduplicating backup program |
+
+---
+
+## 19. Bibliometrics & Research Metrics
+
+| Tool | Description |
+|------|-------------|
+| [VOSviewer](https://www.vosviewer.com/){target="_blank"} | Bibliometric network visualization |
+| [Publish or Perish](https://harzing.com/resources/publish-or-perish){target="_blank"} | Citation analysis and metrics |
+| [Bibliometrix](https://www.bibliometrix.org/){target="_blank"} | R package for bibliometrics |
+| [CiteSpace](https://citespace.podia.com/){target="_blank"} | Literature visualization |
+| [CitNetExplorer](https://www.citnetexplorer.nl/){target="_blank"} | Citation network explorer |
+
+---
+
+## 20. Miscellaneous Academic Tools
+
+| Tool | Description |
+|------|-------------|
+| [Anki](https://apps.ankiweb.net/){target="_blank"} | Spaced repetition flashcard system |
+| [Calibre](https://calibre-ebook.com/){target="_blank"} | E-book management |
+| [Audacity](https://www.audacityteam.org/){target="_blank"} | Audio recording and editing |
+| [Pandoc](https://pandoc.org/){target="_blank"} | Universal document converter |
+| [PDF-XChange Editor](https://www.tracker-software.com/product/pdf-xchange-editor){target="_blank"} (free version) | PDF annotation |
+| [Sumatra PDF](https://www.sumatrapdfreader.org/){target="_blank"} | Lightweight PDF reader |
+| [Okular](https://okular.kde.org/){target="_blank"} | Universal document viewer (Linux) |
+| [Xournal++](https://xournalpp.github.io/){target="_blank"} | Handwriting and PDF annotation |
+
+---
+
+## 21. Tools for Screen Annotation / Writing
+
+| Tool | Description |
+|------|-------------|
+| [Epic Pen](https://epic-pen.com/){target="_blank"} (free basic version) | Screen annotation and drawing tool |
+| [Gromit-MPX](https://github.com/bk138/gromit-mpx){target="_blank"} | On-screen annotation tool for Linux |
+| [Xournal++](https://xournalpp.github.io/){target="_blank"} | Handwriting and PDF annotation |
+| [OpenBoard](https://openboard.ch/){target="_blank"} | Interactive whiteboard for teaching |
+| [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit){target="_blank"} | Screen annotation for presentations (Microsoft, free) |
+| [Pylote](https://github.com/Cuperino/Pylote){target="_blank"} | On-screen annotation (Linux) |
+| [Ardesia](https://github.com/robang74/ardesia){target="_blank"} | Digital sketchpad for screen annotations |
+
+---
+
+## 22. File Search & System Utilities
+
+| Tool | Description |
+|------|-------------|
+| [Everything](https://www.voidtools.com/){target="_blank"} | Ultra-fast file search for Windows |
+| [fsearch](https://github.com/cboxdoerfer/fsearch){target="_blank"} | Fast file search for Linux (Everything alternative) |
+| [Recoll](https://www.lesbonscomptes.com/recoll/){target="_blank"} | Desktop full-text search (cross-platform) |
+| [DocFetcher](https://docfetcher.sourceforge.net/){target="_blank"} | Document search engine (cross-platform) |
+| [Cerebro](https://cerebroapp.com/){target="_blank"} | Open-source app launcher and search (cross-platform) |
+| [Albert](https://albertlauncher.github.io/){target="_blank"} | Fast launcher for Linux |
+| [Ulauncher](https://ulauncher.io/){target="_blank"} | Application launcher for Linux |
+| [Wox](http://www.wox.one/){target="_blank"} | Launcher for Windows (free, open source) |
+| [Kupfer](https://kupfer.github.io/){target="_blank"} | Application launcher for Linux |
+| [Keypirinha](https://keypirinha.com/){target="_blank"} | Fast launcher for Windows |
+| [ueli](https://ueli.app/){target="_blank"} | Keystroke launcher for Windows and macOS |
+
+---
+
+*Last updated: October 2025*

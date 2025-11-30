@@ -1,0 +1,83 @@
+{
+  "index.qmd": {
+    "index.html": "09513193"
+  },
+  "miscellaneous/anonymization.qmd": {
+    "anonymization.html": "901a681d"
+  },
+  "miscellaneous/author-services.qmd": {
+    "author-services.html": "edba0ab5"
+  },
+  "miscellaneous/conversion.qmd": {
+    "conversion.html": "c84cc9ee"
+  },
+  "miscellaneous/docx-latex.qmd": {
+    "docx-latex.html": "39fbf2d4"
+  },
+  "miscellaneous/elsevier.qmd": {
+    "elsevier.html": "672ec8c1"
+  },
+  "miscellaneous/indexing.qmd": {
+    "indexing.html": "abd7f15c"
+  },
+  "miscellaneous/latex-converter.qmd": {
+    "latex-converter.html": "a5607f85"
+  },
+  "miscellaneous/latex-reference.qmd": {
+    "latex-reference.html": "69c35caa"
+  },
+  "miscellaneous/latexdiff.qmd": {
+    "latexdiff.html": "4122cccd"
+  },
+  "miscellaneous/mathpix.qmd": {
+    "mathpix.html": "c6cd8eda"
+  },
+  "miscellaneous/open-access.qmd": {
+    "open-access.html": "a74cba39"
+  },
+  "miscellaneous/opensource.qmd": {
+    "opensource.html": "c2929993"
+  },
+  "miscellaneous/overleaf.qmd": {
+    "overleaf.html": "28e7cedf"
+  },
+  "miscellaneous/publishers.qmd": {
+    "publishers.html": "17c48ebf"
+  },
+  "miscellaneous/reference.qmd": {
+    "reference.html": "81e8afb9"
+  },
+  "miscellaneous/section-labels.qmd": {
+    "section-labels.html": "e6d04a1b"
+  },
+  "miscellaneous/templates.qmd": {
+    "templates.html": "384b534d"
+  },
+  "miscellaneous/windows.qmd": {
+    "windows.html": "9be1f9c2"
+  },
+  "people.qmd": {
+    "people.html": "326f50a7"
+  },
+  "posts/event-title/index.qmd": {
+    "index.html": "237fea18"
+  },
+  "posts/news-title/index.qmd": {
+    "index.html": "d33a52e6"
+  },
+  "posts/paper-title/index.qmd": {
+    "index.html": "57f1291c"
+  },
+  "posts.qmd": {
+    "posts.html": "6560cfc2"
+  },
+  "projects.qmd": {
+    "projects.html": "6988a077"
+  },
+  "publications.qmd": {
+    "publications.html": "791a9e11"
+  },
+  "teaching.qmd": {
+    "teaching.html": "7912a6fb"
+  }
+}

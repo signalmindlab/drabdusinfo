@@ -1,23 +1,385 @@
 ---
 title: "Latexdiff Configuration Guide"
-subtitle: "How to Use Latexdiff for Tracking Changes"
+subtitle: "A Comprehensive Solution for Handling Latexdiff Compilation Errors"
 author: "Dr. Md Abdus Samad"
 date: "2025-05-30"
 toc: true
+toc-depth: 3
+code-copy: true
+---
+
+A comprehensive solution for handling latexdiff compilation errors when tracking changes in LaTeX documents containing tables and mathematical equations.
+
 ---
 
 ## Overview
 
-Add your content about latexdiff configuration here...
-
-## Installation
-
-## Basic Usage
-
-## Configuration Options
-
-## Examples
+This guide provides a comprehensive solution for handling latexdiff compilation errors that occur when tracking changes in LaTeX documents containing tables and mathematical equations.
 
 ---
 
-*Last updated: 2025*
+## Problem Description
+
+### Common Errors
+
+When using `latexdiff` to compare LaTeX documents, you may encounter errors such as:
+
+```bash
+error: 405: You can't use `\hrule' here except with leaders. \end{tabularx}
+error: 422: Environment DIFnomarkup undefined. \begin{DIFnomarkup}
+```
+
+### Root Cause
+
+These errors occur because latexdiff inserts change markup (`\DIFadd`, `\DIFdel`) inside complex environments like:
+
+- Tables (tabularx, longtable, tabular)
+- Mathematical equations (equation, align, gather)
+- Other structured content
+
+The markup interferes with LaTeX's internal processing of these environments, causing compilation failures.
+
+---
+
+## Solution
+
+The solution is to configure latexdiff to treat these environments as "picture-like" objects, preventing internal markup while still indicating whether the entire environment has changed.
+
+---
+
+## Quick Start
+
+### Step 1: Create Configuration File
+
+Create a file named `myconfig.cfg` in your working directory:
+
+**Linux/macOS/WSL:**
+
+```bash
+nano myconfig.cfg
+```
+
+**Git Bash (Windows):**
+
+```bash
+notepad myconfig.cfg
+```
+
+### Step 2: Add Configuration
+
+Add the following line to the file:
+
+```bash
+PICTUREENV=(?:picture|DIFnomarkup|tabularx|tabular|longtable|array|equation|align|gather|multline|eqnarray|displaymath)[\w\d*@]*
+```
+
+### Step 3: Save and Exit
+
+**In nano:**
+
+- Press `Ctrl+O` then `Enter` to save
+- Press `Ctrl+X` to exit
+
+**In notepad:**
+
+- Click File → Save
+- Close the window
+
+### Step 4: Run Latexdiff
+
+```bash
+latexdiff -c myconfig.cfg old.tex new.tex > diff.tex
+```
+
+### Step 5: Compile the Result
+
+```bash
+pdflatex diff.tex
+```
+
+---
+
+## Configuration Options
+
+### PICTUREENV Parameter
+
+The `PICTUREENV` parameter uses a regular expression to specify which environments should be excluded from internal markup.
+
+**Syntax:**
+
+```bash
+PICTUREENV=(?:env1|env2|env3|...)[\w\d*@]*
+```
+
+### Supported Environments
+
+#### Table Environments
+
+- `tabular` - Basic tables
+- `tabularx` - Tables with flexible width columns
+- `longtable` - Multi-page tables
+- `array` - Mathematical arrays
+- `table` - Table float environment
+
+#### Mathematical Environments
+
+- `equation` - Numbered single equations
+- `equation*` - Unnumbered single equations
+- `align` - Aligned equations
+- `align*` - Unnumbered aligned equations
+- `gather` - Gathered equations
+- `multline` - Multi-line equations
+- `eqnarray` - Equation arrays (deprecated but still used)
+- `displaymath` - Display mode mathematics
+- `split` - Split equations
+- `cases` - Case equations
+- `alignat` - Aligned equations at multiple points
+- `flalign` - Flush-aligned equations
+
+#### Graphics Environments
+
+- `picture` - LaTeX picture environment
+- `tikzpicture` - TikZ graphics
+- `figure` - Figure float environment
+
+### Additional Configuration Options
+
+```bash
+# Safe commands (arguments not marked up)
+SAFECMDLIST=multicolumn,multirow,includegraphics
+
+# Safe environments (alternative to PICTUREENV)
+SAFEENV=(?:tabularx|longtable)
+
+# Context commands (whole environment marked as unit)
+CONTEXT2CMDLIST=tabularx,longtable
+```
+
+---
+
+## Usage Examples
+
+### Example 1: Basic Configuration
+
+**myconfig.cfg:**
+
+```bash
+PICTUREENV=(?:picture|DIFnomarkup|tabularx|equation|align)[\w\d*@]*
+```
+
+**Command:**
+
+```bash
+latexdiff -c myconfig.cfg old.tex new.tex > diff.tex
+```
+
+### Example 2: Comprehensive Configuration
+
+**myconfig.cfg:**
+
+```bash
+PICTUREENV=(?:picture|DIFnomarkup|tabularx|tabular|longtable|array|table|equation|align|alignat|gather|multline|eqnarray|displaymath|split|cases|tikzpicture|figure)[\w\d*@]*
+SAFECMDLIST=multicolumn,multirow,includegraphics,cite,ref,label
+```
+
+**Command:**
+
+```bash
+latexdiff -c myconfig.cfg old.tex new.tex > diff.tex
+```
+
+### Example 3: Combining with Other Options
+
+```bash
+latexdiff -c myconfig.cfg --type=UNDERLINE --flatten old.tex new.tex > diff.tex
+```
+
+### Example 4: Multiple File Workflow
+
+For projects with multiple files:
+
+```bash
+# Flatten the documents first
+latexpand old.tex > old_flat.tex
+latexpand new.tex > new_flat.tex
+
+# Run latexdiff with config
+latexdiff -c myconfig.cfg old_flat.tex new_flat.tex > diff.tex
+
+# Compile
+pdflatex diff.tex
+```
+
+---
+
+## Troubleshooting
+
+### Problem: Config file not found
+
+**Error:**
+
+```bash
+Cannot read config file myconfig.cfg
+```
+
+**Solution:**
+
+Ensure the config file is in the same directory where you run latexdiff, or provide the full path:
+
+```bash
+latexdiff -c /path/to/myconfig.cfg old.tex new.tex > diff.tex
+```
+
+### Problem: Tables still showing markup errors
+
+**Solution 1:** Add more table-related environments:
+
+```bash
+PICTUREENV=(?:picture|DIFnomarkup|tabularx|tabular|longtable|array|table|booktabs)[\w\d*@]*
+```
+
+**Solution 2:** Add table commands to safe list:
+
+```bash
+SAFECMDLIST=multicolumn,multirow,hline,cline,toprule,midrule,bottomrule
+```
+
+### Problem: Custom environments not excluded
+
+If you have custom environments (e.g., `mytheorem`, `myproof`):
+
+```bash
+PICTUREENV=(?:picture|DIFnomarkup|tabularx|equation|mytheorem|myproof)[\w\d*@]*
+```
+
+### Problem: Bibliography changes causing errors
+
+Add bibliography commands to safe list:
+
+```bash
+SAFECMDLIST=cite,citep,citet,bibliography,bibliographystyle
+```
+
+### Problem: Changes in captions
+
+Add caption handling:
+
+```bash
+SAFECMDLIST=caption,label,ref
+```
+
+---
+
+## Advanced Configuration
+
+### Full Configuration Template
+
+**advanced_config.cfg:**
+
+```bash
+# Picture-like environments (no internal markup)
+PICTUREENV=(?:picture|DIFnomarkup|tabularx|tabular|longtable|array|table|equation|equation\*|align|align\*|alignat|gather|multline|eqnarray|displaymath|split|cases|tikzpicture|figure)[\w\d*@]*
+
+# Safe commands (arguments not marked)
+SAFECMDLIST=multicolumn,multirow,includegraphics,cite,citep,citet,ref,label,caption,bibliography,bibliographystyle
+
+# Safe environments (alternative protection)
+SAFEENV=(?:tabularx|longtable|tikzpicture)
+
+# Text commands to exclude from markup
+EXCLUDETEXTCMD=section,subsection,subsubsection,chapter
+
+# Float environments
+FLOATENV=(?:figure|table|algorithm)[\w\d*@]*
+```
+
+### Platform-Specific Notes
+
+#### Windows (Git Bash)
+
+If nano is not available:
+
+```bash
+echo 'PICTUREENV=(?:picture|DIFnomarkup|tabularx|equation)[\w\d*@]*' > myconfig.cfg
+```
+
+#### Windows (WSL)
+
+```bash
+nano myconfig.cfg
+# Add configuration
+# Ctrl+O, Enter, Ctrl+X
+```
+
+#### macOS/Linux
+
+```bash
+vim myconfig.cfg
+# Press 'i' for insert mode
+# Add configuration
+# Press Esc, type :wq, press Enter
+```
+
+### Integration with Version Control
+
+Add to your repository:
+
+**.gitignore:**
+
+```bash
+diff.tex
+*.aux
+*.log
+*.out
+```
+
+**latexdiff.cfg** (committed to repo):
+
+```bash
+PICTUREENV=(?:picture|DIFnomarkup|tabularx|tabular|equation|align)[\w\d*@]*
+```
+
+**Makefile:**
+
+```makefile
+diff:
+	latexdiff -c latexdiff.cfg old.tex new.tex > diff.tex
+	pdflatex diff.tex
+
+clean:
+	rm -f diff.tex diff.aux diff.log diff.pdf
+```
+
+---
+
+## Best Practices
+
+1. **Start minimal**: Begin with basic configuration and add environments as needed
+2. **Version control**: Keep your config file in version control
+3. **Document custom environments**: Comment your config file with explanations
+4. **Test incrementally**: After adding new environments, test compilation
+5. **Use meaningful names**: Name config files descriptively (e.g., `thesis_config.cfg`)
+
+---
+
+## References
+
+- [Latexdiff Documentation](https://ctan.org/pkg/latexdiff){target="_blank"}
+- [Latexdiff Man Page](http://mirrors.ctan.org/support/latexdiff/doc/latexdiff-man.pdf){target="_blank"}
+
+---
+
+## Version History
+
+- **v1.0** (2025-10-08): Initial documentation with table and equation support
+
+---
+
+::: {.callout-tip}
+## Questions or Issues?
+For more help, consult the latexdiff documentation or LaTeX Stack Exchange.
+:::
+
+---
+
+*Last updated: 2025-10-08*

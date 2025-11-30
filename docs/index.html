@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.22">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr.&nbsp;Gang He">
 <meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
 
-<title>Quarto Academic, PhD – Quarto Academic</title>
+<title>Md Abdus Samad, PhD – Md Abdus Samad</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -36,13 +36,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b4406b7675125bc2ba204020e191172.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f4e4f6f13c60fd88d7a110a7c3d02718.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5e6bd0f431d9db1b2e65cd770f46ab1a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
@@ -113,23 +114,42 @@ gtag('js', new Date());
 gtag('config', '', { 'anonymize_ip': true});
 </script>
 
+
 <!-- 
+
 Load Academicons v1: https://jpswalsh.github.io/academicons/
+
 -->
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
 
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
+
+
+
 <!---
+
 The following code are needed to show dimension citation and altmetrics.
+
 https://api.altmetric.com/embeds.html
+
 https://badge.dimensions.ai/
+
 --->
+
+
 
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 
+
+
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
@@ -147,7 +167,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -164,13 +184,17 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Quarto Academic, PhD – Quarto Academic">
+<meta property="og:title" content="Md Abdus Samad, PhD – Md Abdus Samad">
 <meta property="og:description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
-<meta property="og:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder4.JPG">
-<meta property="og:site_name" content="Quarto Academic">
-<meta name="twitter:title" content="Quarto Academic, PhD – Quarto Academic">
+<meta property="og:image" content="https://signalmindlab.github.io/drabdusinfo/files/images/profile.png">
+<meta property="og:site_name" content="Md Abdus Samad">
+<meta property="og:image:height" content="768">
+<meta property="og:image:width" content="768">
+<meta name="twitter:title" content="Md Abdus Samad, PhD – Md Abdus Samad">
 <meta name="twitter:description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
-<meta name="twitter:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder4.JPG">
+<meta name="twitter:image" content="https://signalmindlab.github.io/drabdusinfo/files/images/profile.png">
+<meta name="twitter:image-height" content="768">
+<meta name="twitter:image-width" content="768">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -182,7 +206,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Quarto Academic</span>
+    <span class="navbar-title">Md Abdus Samad</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -234,13 +258,81 @@ window.Quarto = {
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-outreach" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Outreach</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-miscellaneous" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Miscellaneous</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-outreach">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-miscellaneous">    
         <li>
-    <a class="dropdown-item" href="./posts.html#category=presentation">
- <span class="dropdown-text">Presentations</span></a>
+    <a class="dropdown-item" href="./miscellaneous/publishers.html">
+ <span class="dropdown-text">List of Publishers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/templates.html">
+ <span class="dropdown-text">Journal Templates</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/indexing.html">
+ <span class="dropdown-text">Verifying Journal Indexing</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/reference.html">
+ <span class="dropdown-text">Reference, Image Quality, and Detexify</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/author-services.html">
+ <span class="dropdown-text">Author Services by Major Publishers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/conversion.html">
+ <span class="dropdown-text">Document Conversion and Figure Tools</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/anonymization.html">
+ <span class="dropdown-text">Manuscript Anonymization</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/elsevier.html">
+ <span class="dropdown-text">Switching Elsevier LaTeX Templates</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/docx-latex.html">
+ <span class="dropdown-text">DOCX to LaTeX Convert</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/latex-reference.html">
+ <span class="dropdown-text">LaTeX Reference and Label Management</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/latex-converter.html">
+ <span class="dropdown-text">Latex Reference Converter</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/section-labels.html">
+ <span class="dropdown-text">Sequential Section Labels</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/open-access.html">
+ <span class="dropdown-text">Open Access Journals having Discount Policy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/overleaf.html">
+ <span class="dropdown-text">Overleaf git sync issues</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/latexdiff.html">
+ <span class="dropdown-text">Latexdiff Configuration Guide</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/opensource.html">
+ <span class="dropdown-text">Open source tools</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/windows.html">
+ <span class="dropdown-text">Windows shortcuts &amp; commands</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/mathpix.html">
+ <span class="dropdown-text">Mathpix PDF to Word</span></a>
   </li>  
     </ul>
   </li>
@@ -293,91 +385,74 @@ window.Quarto = {
 
 <div class="quarto-about-trestles column-page">
   <div class="about-entity">
-    <img src="files/images/placeholder4.JPG" class="about-image
+    <img src="files/images/profile.png" class="about-image
   rounded " style="width: 70%;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Quarto Academic, PhD</h1>
+<h1 class="title">Md Abdus Samad, PhD</h1>
 </div>
 <div class="quarto-title-meta column-page">
   </div>
 </header>
     <div class="about-links">
-  <a href="https://www.github.com" class="about-link" rel="" target="_blank">
+  <a href="https://www.signalmindlab.org/" class="about-link" rel="" target="_blank">
     <i class="bi bi-sun"></i>
      <span class="about-link-text">Lab</span>
   </a>
-  <a href="https://baruch.cuny.edu" class="about-link" rel="" target="_blank">
-    <i class="bi bi-globe"></i>
-     <span class="about-link-text">Uprofile</span>
-  </a>
-  <a href="mailto:email@gmail.com" class="about-link" rel="" target="">
+  <a href="/write@drabdus.info" class="about-link" rel="" target="">
     <i class="bi bi-envelope"></i>
      <span class="about-link-text">E-mail</span>
   </a>
-  <a href="https://linkedin.com" class="about-link" rel="" target="_blank">
+  <a href="https://www.linkedin.com/in/drabdus/" class="about-link" rel="" target="_blank">
     <i class="bi bi-linkedin"></i>
      <span class="about-link-text">LinkedIn</span>
   </a>
-  <a href="https://www.youtube.com" class="about-link" rel="" target="_blank">
+  <a href="https://www.youtube.com/@drabdus" class="about-link" rel="" target="_blank">
     <i class="bi bi-youtube"></i>
      <span class="about-link-text">YouTube</span>
   </a>
-  <a href="https://orcid.org" class="about-link" rel="" target="_blank">
+  <a href="https://orcid.org/0000-0002-1990-6924" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="ai  ai-orcid"></i> ORCID</span>
   </a>
-  <a href="https://www.webofscience.com" class="about-link" rel="" target="_blank">
+  <a href="https://www.webofscience.com/wos/author/record/JPL-7257-2023" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="ai  ai-clarivate"></i> Web of Science</span>
   </a>
-  <a href="https://www.scopus.com" class="about-link" rel="" target="_blank">
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=57220375948" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="ai  ai-scopus"></i> Scopus</span>
   </a>
-  <a href="https://scholar.google.com" class="about-link" rel="" target="_blank">
+  <a href="https://scholar.google.com/citations?user=NmUWfQIAAAAJ&amp;hl=en" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="ai  ai-google-scholar"></i> Google Scholar</span>
   </a>
 </div>
   </div>
   <div class="about-contents"><div id="hero-heading">
-<p>I’m a <a href="https://github.com/drganghe/quarto-academic-website-template">Quarto Academeic Website Template</a> adapted by <a href="http://drganghe.github.io">Dr.&nbsp;Gang He</a>.</p>
-<p>I’m a template that you can fork to build your own website with easy adaptation and deployment.</p>
-<ol type="1">
-<li><strong>Star</strong> this repository to bookmark it for future reference.<br>
-</li>
-<li><strong>Fork</strong> this repository and rename it to <code>YourGitHubUserName.github.io</code>.<br>
-</li>
-<li><strong>Update</strong> the <code>_quarto.yml</code> file to configure your site’s basic settings.<br>
-</li>
-<li><strong>Add or edit content</strong> in the following files and folders:
-<ul>
-<li><code>/posts/</code> – posts about publications, news, events<br>
-</li>
-<li><code>teaching.qmd</code> – teaching information<br>
-</li>
-<li><code>projects.yml</code> – research or other projects<br>
-</li>
-<li><code>people.qmd</code> and <code>/people/</code> – team or collaborators<br>
-</li>
-<li><code>/files/</code> - profiles, images, pdfs, and includes</li>
-</ul></li>
-<li><a href="https://quarto.org/docs/websites/"><strong>Render and preview</strong></a> your site locally.<br>
-</li>
-<li><a href="https://quarto.org/docs/publishing/github-pages.html"><strong>Publish</strong></a> your site using GitHub Pages (make sure <a href="https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png">configuring</a> your GitHub repository to publish from the <code>docs</code> directory, not the <code>root</code> folder).</li>
-<li><strong>Refine and polish</strong> your content and design as needed.<br>
-</li>
-<li>✅ Enjoy your new website!</li>
-</ol>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<ul>
-<li>Researcher, Univerisity</li>
-</ul>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<ul>
-<li>PhD, Univerisity</li>
-</ul>
-</section>
+<!--
+I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+I'm a template that you can fork to build your own website with easy adaptation and deployment.
+1. **Star** this repository to bookmark it for future reference.  
+1. **Fork** this repository and rename it to `YourGitHubUserName.github.io`.  
+1. **Update** the `_quarto.yml` file to configure your site’s basic settings.  
+1. **Add or edit content** in the following files and folders:
+   - `/posts/` – posts about publications, news, events  
+   - `teaching.qmd` – teaching information  
+   - `projects.yml` – research or other projects  
+   - `people.qmd` and `/people/` – team or collaborators  
+   - `/files/` - profiles, images, pdfs, and includes 
+1. [**Render and preview**](https://quarto.org/docs/websites/) your site locally.  
+1. [**Publish**](https://quarto.org/docs/publishing/github-pages.html) your site using GitHub Pages (make sure [configuring](https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png) your GitHub repository to publish from the `docs` directory, not the `root` folder). 
+1. **Refine and polish** your content and design as needed.  
+1. ✅ Enjoy your new website!
+## Experience
+- Researcher, Univerisity
+## Education
+- PhD, Univerisity -->
+<p>Dr.&nbsp;Md Abdus Samad is a telecommunications scholar, researcher, and educator whose research focuses on the intersection of wireless communications, artificial intelligence, and next-generation network technologies. He is a Research Professor in the <strong>Department of Information and Communication Engineering</strong> at Yeungnam University, Gyeongsan, South Korea. He is also a registered <strong>Korean Researcher</strong> and an active <strong>IEEE member</strong>, contributing to the advancement of telecommunications standards and research.</p>
+<p>He previously taught at the undergraduate and graduate levels in the <strong>Department of Electronics and Telecommunication Engineering</strong> at International Islamic University Chittagong, where he served as an Assistant Professor from 2013 to 2017, contributing to the development of future telecommunications engineers through teaching, mentoring, and curriculum development.</p>
+<p>His research explores how next-generation wireless networks (5G and beyond 6G) can overcome challenges related to millimeter-wave propagation, atmospheric interference, and signal quality—and how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. His leading and collaborative <strong>work</strong> has appeared in over 55 reputable journals indexed in <strong>SCIE</strong> (Science Citation Index Expanded) and <strong>SSCI</strong> (Social Sciences Citation Index), including publications in high-impact telecommunications and engineering journals.</p>
+<p>His research has been <strong>supported</strong> by prestigious funding sources, including the <strong>Korean Government Scholarship (Global Korea Scholarship)</strong> during his doctoral studies and the <strong>National Research Foundation of Korea</strong>, underscoring the significance and quality of his work in advancing wireless communication technologies.</p>
+<p>His work has <strong>contributed</strong> to the global understanding of advanced wireless communication systems. His research findings address critical challenges in millimeter-wave frequencies, atmospheric effects on signal propagation, and AI-enhanced network optimization. He actively serves the academic community as a <strong>peer reviewer</strong> for multiple international journals indexed in the <strong>Web of Science</strong>.</p>
+<p>He has been recognized through the highly competitive <strong>Korean Government Scholarship (Global Korea Scholarship)</strong>, which supports outstanding international students, and has established research metrics demonstrating his scholarly impact: <strong>Scopus Author ID: 57220375948</strong>, <strong>Web of Science ResearcherID: JPL-7257-2023</strong>.</p>
+<p>He has worked for the <strong>Department of Electronics and Telecommunication Engineering</strong> at International Islamic University Chittagong (2013-2017), where he contributed significantly to developing telecommunications engineering education. He received his Ph.D.&nbsp;in <strong>Information and Communication Engineering</strong> from Chosun University, Gwangju, South Korea in 2022. His doctoral studies were fully supported by the prestigious Korean Government Scholarship, recognizing his academic excellence and research potential.</p>
 </div></div>
 </div>
 
@@ -387,11 +462,11 @@ window.Quarto = {
 <p>Check out the latest &nbsp;<a href="./posts.html#category=paper">Papers</a>&nbsp;, &nbsp;<a href="./posts.html#category=news">News</a>&nbsp;, &nbsp;<a href="./posts.html#category=event">Events</a>&nbsp;, and &nbsp;<a href="./posts.html">More »</a></p>
 <div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1728964800000">
+<div class="g-col-1" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1728918000000">
 <a href="https://drganghe.github.io/quarto-academic-site-examples.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./files/images/placeholder1.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="files/images/placeholder2.JPG" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -405,7 +480,7 @@ Oct 15, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="ZXZlbnQlMkNwcmVzZW50YXRpb24=" data-listing-date-sort="1725336000000" data-listing-file-modified-sort="1739198683941" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="g-col-1" data-index="1" data-categories="ZXZlbnQlMkNwcmVzZW50YXRpb24=" data-listing-date-sort="1725289200000" data-listing-file-modified-sort="1764498694494" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <a href="./posts/event-title/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -423,11 +498,11 @@ Sep 3, 2024
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="bmV3cw==" data-listing-date-sort="1719201600000" data-listing-file-modified-sort="1749249243868" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="g-col-1" data-index="2" data-categories="bmV3cw==" data-listing-date-sort="1719154800000" data-listing-file-modified-sort="1764498694495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <a href="./posts/news-title/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="./files/images/placeholder3.JPG" class="thumbnail-image card-img" style="height: 150px;">
+<img loading="lazy" src="./files/images/placeholder2.JPG" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -498,13 +573,14 @@ Jun 24, 2024
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -855,7 +931,7 @@ Jun 24, 2024
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<a href="http://www.github.com">Your Name</a> ©
+<a href="http://www.github.com">Dr.&nbsp;Md Abdus Samad</a> ©
 <script>document.write(new Date().getFullYear())</script>
 </div>   
     <div class="nav-footer-center">
