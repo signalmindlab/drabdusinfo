@@ -4,7 +4,7 @@ description: "About new item"
 author: "News"
 date: "2024-06-24"
 categories: [news]
-image: "/files/images/placeholder1.JPG"
+image: "/files/images/placeholder2.JPG"
 #css: /custom.css
 #draft: true
 ---
