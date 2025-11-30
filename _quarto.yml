@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  site-path: /drabdusinfo/
+  # site-path: /drabdusinfo/
 
 # Meta
 description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
