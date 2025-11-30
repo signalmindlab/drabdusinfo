@@ -1,0 +1,14 @@
+---
+title: "New Publication: Evaluating Business Predictive Models"
+author: "md abdus samad"
+date: "2025-01-15"
+categories: 
+  - publication
+  - machine-learning
+  - business-analytics
+draft: false
+---
+
+We’re excited to announce our latest research has been accepted for publication in **_Journal of Big Data_**, a leading open-access journal in big data analytics and applications!
+
+This work presents a comprehensive evaluation of business predictive models, exploring their accuracy, interpretability, and practical deployment challenges in real-world analytical environments.

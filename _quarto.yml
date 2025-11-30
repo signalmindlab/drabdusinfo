@@ -105,8 +105,8 @@ website:
   page-navigation: true
   
   page-footer: 
-   left: "© 2025 Dr. Md Abdus Samad. All rights reserved."
-   right: "Built with Quarto"
+   center: "© 2025 Dr. Md Abdus Samad. All rights reserved."
+  #  right: "Built with Quarto"
     # left: "[Dr. Md Abdus Samad](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
     # center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
     # right:  
