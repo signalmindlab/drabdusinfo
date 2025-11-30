@@ -22,29 +22,29 @@ about:
     # target: _blank
     - icon: envelope
       text: E-mail
-      href: mailto:email@gmail.com    
+      href: write@drabdus.info    
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/drabdus/
       target: _blank
     - icon: youtube
       text: YouTube
-      href: https://www.youtube.com     
+      href: https://www.youtube.com/@drabdus     
       target: _blank 
     - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
+      href: https://orcid.org/0000-0002-1990-6924
       target: _blank
     - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
+      href: https://www.webofscience.com/wos/author/record/JPL-7257-2023
       target: _blank
     - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
+      href: https://www.scopus.com/authid/detail.uri?authorId=57220375948
       target: _blank
     - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
+      href: https://scholar.google.com/citations?user=NmUWfQIAAAAJ&hl=en
       target: _blank
 #    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
+#      href: https://www.researchgate.net/profile/Md-Abdus-Samad-3?ev=hdr_xprf
 #      target: _blank
 
 listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
