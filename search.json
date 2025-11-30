@@ -14,6 +14,314 @@
     "text": "/posts/list-of-publishers/index.qmd yaml— title: “List of Publishers” subtitle: “Leading the Future of Scientific Research & Innovation” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [publishers, miscellaneous] —\n\nAdd your content here… 2. /posts/journal-templates/index.qmd yaml— title: “Journal Templates” subtitle: “Professional Academic Publishing Templates” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [templates, miscellaneous] —\nAdd your content here… 3. /posts/verifying-journal-indexing/index.qmd yaml— title: “Verifying Journal Indexing” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [indexing, miscellaneous] —\nAdd your content here… 4. /posts/reference-image-detexify/index.qmd yaml— title: “Reference, Image Quality, and Detexify” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [reference, miscellaneous] —\nAdd your content here… 5. /posts/author-services/index.qmd yaml— title: “Author Services by Major Publishers” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [author-services, miscellaneous] —\nAdd your content here… 6. /posts/document-conversion/index.qmd yaml— title: “Document Conversion and Figure Tools” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [conversion, miscellaneous] —\nAdd your content here… 7. /posts/manuscript-anonymization/index.qmd yaml— title: “Manuscript Anonymization” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [anonymization, miscellaneous] —\nAdd your content here… 8. /posts/elsevier-latex-templates/index.qmd yaml— title: “Switching Elsevier LaTeX Templates” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [elsevier, miscellaneous] —\nAdd your content here… 9. /posts/docx-to-latex/index.qmd yaml— title: “DOCX to LaTeX Convert” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [docx-latex, miscellaneous] —\nAdd your content here… 10. /posts/latex-reference-management/index.qmd yaml— title: “LaTeX Reference and Label Management” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [latex-reference, miscellaneous] —\nAdd your content here… 11. /posts/latex-reference-converter/index.qmd yaml— title: “Latex Reference Converter” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [latex-converter, miscellaneous] —\nAdd your content here… 12. /posts/sequential-section-labels/index.qmd yaml— title: “Sequential Section Labels” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [section-labels, miscellaneous] —\nAdd your content here… 13. /posts/open-access-journals/index.qmd yaml— title: “Open Access Journals having Discount Policy” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [open-access, miscellaneous] —\nAdd your content here… 14. /posts/overleaf-git-sync/index.qmd yaml— title: “Overleaf git sync issues” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [overleaf, miscellaneous] —\nAdd your content here… 15. /posts/latexdiff-guide/index.qmd yaml— title: “Latexdiff Configuration Guide” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [latexdiff, miscellaneous] —\nAdd your content here… 16. /posts/open-source-tools/index.qmd yaml— title: “Open source tools” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [opensource, miscellaneous] —\nAdd your content here… 17. /posts/windows-shortcuts/index.qmd yaml— title: “Windows shortcuts & commands” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [windows, miscellaneous] —\nAdd your content here… 18. /posts/mathpix-pdf-word/index.qmd yaml— title: “Mathpix: PDF to Word” author: “Dr. Md Abdus Samad” date: “2025-05-30” categories: [mathpix, miscellaneous] —\nAdd your content here…"
   },
   {
+    "objectID": "miscellaneous/elsevier.html",
+    "href": "miscellaneous/elsevier.html",
+    "title": "Switching Elsevier LaTeX Templates",
+    "section": "",
+    "text": "Add your content about switching Elsevier LaTeX templates here…"
+  },
+  {
+    "objectID": "miscellaneous/elsevier.html#overview",
+    "href": "miscellaneous/elsevier.html#overview",
+    "title": "Switching Elsevier LaTeX Templates",
+    "section": "",
+    "text": "Add your content about switching Elsevier LaTeX templates here…"
+  },
+  {
+    "objectID": "miscellaneous/elsevier.html#available-elsevier-templates",
+    "href": "miscellaneous/elsevier.html#available-elsevier-templates",
+    "title": "Switching Elsevier LaTeX Templates",
+    "section": "Available Elsevier Templates",
+    "text": "Available Elsevier Templates"
+  },
+  {
+    "objectID": "miscellaneous/elsevier.html#how-to-switch-templates",
+    "href": "miscellaneous/elsevier.html#how-to-switch-templates",
+    "title": "Switching Elsevier LaTeX Templates",
+    "section": "How to Switch Templates",
+    "text": "How to Switch Templates"
+  },
+  {
+    "objectID": "miscellaneous/elsevier.html#common-issues-and-solutions",
+    "href": "miscellaneous/elsevier.html#common-issues-and-solutions",
+    "title": "Switching Elsevier LaTeX Templates",
+    "section": "Common Issues and Solutions",
+    "text": "Common Issues and Solutions\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/section-labels.html",
+    "href": "miscellaneous/section-labels.html",
+    "title": "Sequential Section Labels",
+    "section": "",
+    "text": "Add your content about sequential section labels here…"
+  },
+  {
+    "objectID": "miscellaneous/section-labels.html#overview",
+    "href": "miscellaneous/section-labels.html#overview",
+    "title": "Sequential Section Labels",
+    "section": "",
+    "text": "Add your content about sequential section labels here…"
+  },
+  {
+    "objectID": "miscellaneous/section-labels.html#how-to-create-sequential-labels",
+    "href": "miscellaneous/section-labels.html#how-to-create-sequential-labels",
+    "title": "Sequential Section Labels",
+    "section": "How to Create Sequential Labels",
+    "text": "How to Create Sequential Labels"
+  },
+  {
+    "objectID": "miscellaneous/section-labels.html#examples",
+    "href": "miscellaneous/section-labels.html#examples",
+    "title": "Sequential Section Labels",
+    "section": "Examples",
+    "text": "Examples"
+  },
+  {
+    "objectID": "miscellaneous/section-labels.html#common-issues",
+    "href": "miscellaneous/section-labels.html#common-issues",
+    "title": "Sequential Section Labels",
+    "section": "Common Issues",
+    "text": "Common Issues\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html",
+    "href": "miscellaneous/docx-latex.html",
+    "title": "DOCX to LaTeX Convert",
+    "section": "",
+    "text": "Add your content about DOCX to LaTeX conversion here…"
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#overview",
+    "href": "miscellaneous/docx-latex.html#overview",
+    "title": "DOCX to LaTeX Convert",
+    "section": "",
+    "text": "Add your content about DOCX to LaTeX conversion here…"
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#conversion-tools",
+    "href": "miscellaneous/docx-latex.html#conversion-tools",
+    "title": "DOCX to LaTeX Convert",
+    "section": "Conversion Tools",
+    "text": "Conversion Tools\n\nPandoc\n\n\nOnline Converters"
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#step-by-step-guide",
+    "href": "miscellaneous/docx-latex.html#step-by-step-guide",
+    "title": "DOCX to LaTeX Convert",
+    "section": "Step-by-Step Guide",
+    "text": "Step-by-Step Guide"
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#tips-and-best-practices",
+    "href": "miscellaneous/docx-latex.html#tips-and-best-practices",
+    "title": "DOCX to LaTeX Convert",
+    "section": "Tips and Best Practices",
+    "text": "Tips and Best Practices\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/open-access.html",
+    "href": "miscellaneous/open-access.html",
+    "title": "Open Access Journals having Discount Policy",
+    "section": "",
+    "text": "Add your content about open access journals with discount policies here…"
+  },
+  {
+    "objectID": "miscellaneous/open-access.html#overview",
+    "href": "miscellaneous/open-access.html#overview",
+    "title": "Open Access Journals having Discount Policy",
+    "section": "",
+    "text": "Add your content about open access journals with discount policies here…"
+  },
+  {
+    "objectID": "miscellaneous/open-access.html#journals-with-apc-waivers",
+    "href": "miscellaneous/open-access.html#journals-with-apc-waivers",
+    "title": "Open Access Journals having Discount Policy",
+    "section": "Journals with APC Waivers",
+    "text": "Journals with APC Waivers"
+  },
+  {
+    "objectID": "miscellaneous/open-access.html#journals-with-discounts",
+    "href": "miscellaneous/open-access.html#journals-with-discounts",
+    "title": "Open Access Journals having Discount Policy",
+    "section": "Journals with Discounts",
+    "text": "Journals with Discounts"
+  },
+  {
+    "objectID": "miscellaneous/open-access.html#how-to-apply-for-waivers",
+    "href": "miscellaneous/open-access.html#how-to-apply-for-waivers",
+    "title": "Open Access Journals having Discount Policy",
+    "section": "How to Apply for Waivers",
+    "text": "How to Apply for Waivers\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/latex-reference.html",
+    "href": "miscellaneous/latex-reference.html",
+    "title": "LaTeX Reference and Label Management",
+    "section": "",
+    "text": "Add your content about LaTeX reference and label management here…"
+  },
+  {
+    "objectID": "miscellaneous/latex-reference.html#overview",
+    "href": "miscellaneous/latex-reference.html#overview",
+    "title": "LaTeX Reference and Label Management",
+    "section": "",
+    "text": "Add your content about LaTeX reference and label management here…"
+  },
+  {
+    "objectID": "miscellaneous/latex-reference.html#reference-management",
+    "href": "miscellaneous/latex-reference.html#reference-management",
+    "title": "LaTeX Reference and Label Management",
+    "section": "Reference Management",
+    "text": "Reference Management\n\nBibTeX\n\n\nBibLaTeX"
+  },
+  {
+    "objectID": "miscellaneous/latex-reference.html#label-management",
+    "href": "miscellaneous/latex-reference.html#label-management",
+    "title": "LaTeX Reference and Label Management",
+    "section": "Label Management",
+    "text": "Label Management"
+  },
+  {
+    "objectID": "miscellaneous/latex-reference.html#cross-referencing",
+    "href": "miscellaneous/latex-reference.html#cross-referencing",
+    "title": "LaTeX Reference and Label Management",
+    "section": "Cross-Referencing",
+    "text": "Cross-Referencing\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/reference.html",
+    "href": "miscellaneous/reference.html",
+    "title": "Reference, Image Quality, and Detexify",
+    "section": "",
+    "text": "Add your content here…"
+  },
+  {
+    "objectID": "miscellaneous/reference.html#overview",
+    "href": "miscellaneous/reference.html#overview",
+    "title": "Reference, Image Quality, and Detexify",
+    "section": "",
+    "text": "Add your content here…"
+  },
+  {
+    "objectID": "miscellaneous/reference.html#reference-management",
+    "href": "miscellaneous/reference.html#reference-management",
+    "title": "Reference, Image Quality, and Detexify",
+    "section": "Reference Management",
+    "text": "Reference Management"
+  },
+  {
+    "objectID": "miscellaneous/reference.html#image-quality-tools",
+    "href": "miscellaneous/reference.html#image-quality-tools",
+    "title": "Reference, Image Quality, and Detexify",
+    "section": "Image Quality Tools",
+    "text": "Image Quality Tools"
+  },
+  {
+    "objectID": "miscellaneous/reference.html#detexify",
+    "href": "miscellaneous/reference.html#detexify",
+    "title": "Reference, Image Quality, and Detexify",
+    "section": "Detexify",
+    "text": "Detexify\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/indexing.html",
+    "href": "miscellaneous/indexing.html",
+    "title": "Verifying Journal Indexing",
+    "section": "",
+    "text": "Add your content about verifying journal indexing here…"
+  },
+  {
+    "objectID": "miscellaneous/indexing.html#overview",
+    "href": "miscellaneous/indexing.html#overview",
+    "title": "Verifying Journal Indexing",
+    "section": "",
+    "text": "Add your content about verifying journal indexing here…"
+  },
+  {
+    "objectID": "miscellaneous/indexing.html#scopus-indexed-journals",
+    "href": "miscellaneous/indexing.html#scopus-indexed-journals",
+    "title": "Verifying Journal Indexing",
+    "section": "Scopus Indexed Journals",
+    "text": "Scopus Indexed Journals"
+  },
+  {
+    "objectID": "miscellaneous/indexing.html#web-of-science-indexed-journals",
+    "href": "miscellaneous/indexing.html#web-of-science-indexed-journals",
+    "title": "Verifying Journal Indexing",
+    "section": "Web of Science Indexed Journals",
+    "text": "Web of Science Indexed Journals"
+  },
+  {
+    "objectID": "miscellaneous/indexing.html#pubmed-indexed-journals",
+    "href": "miscellaneous/indexing.html#pubmed-indexed-journals",
+    "title": "Verifying Journal Indexing",
+    "section": "PubMed Indexed Journals",
+    "text": "PubMed Indexed Journals"
+  },
+  {
+    "objectID": "miscellaneous/indexing.html#predatory-journal-checklist",
+    "href": "miscellaneous/indexing.html#predatory-journal-checklist",
+    "title": "Verifying Journal Indexing",
+    "section": "Predatory Journal Checklist",
+    "text": "Predatory Journal Checklist\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/windows.html",
+    "href": "miscellaneous/windows.html",
+    "title": "Windows shortcuts & commands",
+    "section": "",
+    "text": "Add your content about Windows shortcuts and commands here…"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#overview",
+    "href": "miscellaneous/windows.html#overview",
+    "title": "Windows shortcuts & commands",
+    "section": "",
+    "text": "Add your content about Windows shortcuts and commands here…"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#keyboard-shortcuts",
+    "href": "miscellaneous/windows.html#keyboard-shortcuts",
+    "title": "Windows shortcuts & commands",
+    "section": "Keyboard Shortcuts",
+    "text": "Keyboard Shortcuts"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#command-prompt-commands",
+    "href": "miscellaneous/windows.html#command-prompt-commands",
+    "title": "Windows shortcuts & commands",
+    "section": "Command Prompt Commands",
+    "text": "Command Prompt Commands"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#powershell-commands",
+    "href": "miscellaneous/windows.html#powershell-commands",
+    "title": "Windows shortcuts & commands",
+    "section": "PowerShell Commands",
+    "text": "PowerShell Commands\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/publishers.html",
+    "href": "miscellaneous/publishers.html",
+    "title": "List of Publishers",
+    "section": "",
+    "text": "Add your content about publishers here…"
+  },
+  {
+    "objectID": "miscellaneous/publishers.html#overview",
+    "href": "miscellaneous/publishers.html#overview",
+    "title": "List of Publishers",
+    "section": "",
+    "text": "Add your content about publishers here…"
+  },
+  {
+    "objectID": "miscellaneous/publishers.html#major-publishers",
+    "href": "miscellaneous/publishers.html#major-publishers",
+    "title": "List of Publishers",
+    "section": "Major Publishers",
+    "text": "Major Publishers\n\nElsevier\n\n\nSpringer Nature\n\n\nWiley\n\n\nIEEE\n\n\nTaylor & Francis\n\n\nMDPI\n\n\nFrontiers\n\nLast updated: 2025"
+  },
+  {
     "objectID": "posts/news-title/index.html",
     "href": "posts/news-title/index.html",
     "title": "News item",
@@ -89,6 +397,335 @@
     "title": "Can quantum-mechanical description of physical reality be considered complete?",
     "section": "Links",
     "text": "Links\nPublished paper"
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html",
+    "href": "miscellaneous/anonymization.html",
+    "title": "Manuscript Anonymization",
+    "section": "",
+    "text": "Add your content about manuscript anonymization here…"
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html#overview",
+    "href": "miscellaneous/anonymization.html#overview",
+    "title": "Manuscript Anonymization",
+    "section": "",
+    "text": "Add your content about manuscript anonymization here…"
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html#why-anonymize",
+    "href": "miscellaneous/anonymization.html#why-anonymize",
+    "title": "Manuscript Anonymization",
+    "section": "Why Anonymize?",
+    "text": "Why Anonymize?"
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html#anonymization-checklist",
+    "href": "miscellaneous/anonymization.html#anonymization-checklist",
+    "title": "Manuscript Anonymization",
+    "section": "Anonymization Checklist",
+    "text": "Anonymization Checklist"
+  },
+  {
+    "objectID": "miscellaneous/anonymization.html#tools-for-anonymization",
+    "href": "miscellaneous/anonymization.html#tools-for-anonymization",
+    "title": "Manuscript Anonymization",
+    "section": "Tools for Anonymization",
+    "text": "Tools for Anonymization\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html",
+    "href": "miscellaneous/latex-converter.html",
+    "title": "Latex Reference Converter",
+    "section": "",
+    "text": "Add your content about LaTeX reference converter here…"
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html#overview",
+    "href": "miscellaneous/latex-converter.html#overview",
+    "title": "Latex Reference Converter",
+    "section": "",
+    "text": "Add your content about LaTeX reference converter here…"
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html#conversion-tools",
+    "href": "miscellaneous/latex-converter.html#conversion-tools",
+    "title": "Latex Reference Converter",
+    "section": "Conversion Tools",
+    "text": "Conversion Tools"
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html#supported-formats",
+    "href": "miscellaneous/latex-converter.html#supported-formats",
+    "title": "Latex Reference Converter",
+    "section": "Supported Formats",
+    "text": "Supported Formats"
+  },
+  {
+    "objectID": "miscellaneous/latex-converter.html#how-to-use",
+    "href": "miscellaneous/latex-converter.html#how-to-use",
+    "title": "Latex Reference Converter",
+    "section": "How to Use",
+    "text": "How to Use\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/mathpix.html",
+    "href": "miscellaneous/mathpix.html",
+    "title": "Mathpix: PDF to Word",
+    "section": "",
+    "text": "Add your content about Mathpix PDF to Word conversion here…"
+  },
+  {
+    "objectID": "miscellaneous/mathpix.html#overview",
+    "href": "miscellaneous/mathpix.html#overview",
+    "title": "Mathpix: PDF to Word",
+    "section": "",
+    "text": "Add your content about Mathpix PDF to Word conversion here…"
+  },
+  {
+    "objectID": "miscellaneous/mathpix.html#what-is-mathpix",
+    "href": "miscellaneous/mathpix.html#what-is-mathpix",
+    "title": "Mathpix: PDF to Word",
+    "section": "What is Mathpix?",
+    "text": "What is Mathpix?"
+  },
+  {
+    "objectID": "miscellaneous/mathpix.html#how-to-use-mathpix",
+    "href": "miscellaneous/mathpix.html#how-to-use-mathpix",
+    "title": "Mathpix: PDF to Word",
+    "section": "How to Use Mathpix",
+    "text": "How to Use Mathpix"
+  },
+  {
+    "objectID": "miscellaneous/mathpix.html#tips-and-tricks",
+    "href": "miscellaneous/mathpix.html#tips-and-tricks",
+    "title": "Mathpix: PDF to Word",
+    "section": "Tips and Tricks",
+    "text": "Tips and Tricks\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/conversion.html",
+    "href": "miscellaneous/conversion.html",
+    "title": "Document Conversion and Figure Tools",
+    "section": "",
+    "text": "Add your content about document conversion and figure tools here…"
+  },
+  {
+    "objectID": "miscellaneous/conversion.html#overview",
+    "href": "miscellaneous/conversion.html#overview",
+    "title": "Document Conversion and Figure Tools",
+    "section": "",
+    "text": "Add your content about document conversion and figure tools here…"
+  },
+  {
+    "objectID": "miscellaneous/conversion.html#document-conversion-tools",
+    "href": "miscellaneous/conversion.html#document-conversion-tools",
+    "title": "Document Conversion and Figure Tools",
+    "section": "Document Conversion Tools",
+    "text": "Document Conversion Tools"
+  },
+  {
+    "objectID": "miscellaneous/conversion.html#figure-creation-tools",
+    "href": "miscellaneous/conversion.html#figure-creation-tools",
+    "title": "Document Conversion and Figure Tools",
+    "section": "Figure Creation Tools",
+    "text": "Figure Creation Tools"
+  },
+  {
+    "objectID": "miscellaneous/conversion.html#image-editing-tools",
+    "href": "miscellaneous/conversion.html#image-editing-tools",
+    "title": "Document Conversion and Figure Tools",
+    "section": "Image Editing Tools",
+    "text": "Image Editing Tools\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/latexdiff.html",
+    "href": "miscellaneous/latexdiff.html",
+    "title": "Latexdiff Configuration Guide",
+    "section": "",
+    "text": "Add your content about latexdiff configuration here…"
+  },
+  {
+    "objectID": "miscellaneous/latexdiff.html#overview",
+    "href": "miscellaneous/latexdiff.html#overview",
+    "title": "Latexdiff Configuration Guide",
+    "section": "",
+    "text": "Add your content about latexdiff configuration here…"
+  },
+  {
+    "objectID": "miscellaneous/latexdiff.html#installation",
+    "href": "miscellaneous/latexdiff.html#installation",
+    "title": "Latexdiff Configuration Guide",
+    "section": "Installation",
+    "text": "Installation"
+  },
+  {
+    "objectID": "miscellaneous/latexdiff.html#basic-usage",
+    "href": "miscellaneous/latexdiff.html#basic-usage",
+    "title": "Latexdiff Configuration Guide",
+    "section": "Basic Usage",
+    "text": "Basic Usage"
+  },
+  {
+    "objectID": "miscellaneous/latexdiff.html#configuration-options",
+    "href": "miscellaneous/latexdiff.html#configuration-options",
+    "title": "Latexdiff Configuration Guide",
+    "section": "Configuration Options",
+    "text": "Configuration Options"
+  },
+  {
+    "objectID": "miscellaneous/latexdiff.html#examples",
+    "href": "miscellaneous/latexdiff.html#examples",
+    "title": "Latexdiff Configuration Guide",
+    "section": "Examples",
+    "text": "Examples\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/opensource.html",
+    "href": "miscellaneous/opensource.html",
+    "title": "Open source tools",
+    "section": "",
+    "text": "Add your content about open source tools here…"
+  },
+  {
+    "objectID": "miscellaneous/opensource.html#overview",
+    "href": "miscellaneous/opensource.html#overview",
+    "title": "Open source tools",
+    "section": "",
+    "text": "Add your content about open source tools here…"
+  },
+  {
+    "objectID": "miscellaneous/opensource.html#writing-tools",
+    "href": "miscellaneous/opensource.html#writing-tools",
+    "title": "Open source tools",
+    "section": "Writing Tools",
+    "text": "Writing Tools"
+  },
+  {
+    "objectID": "miscellaneous/opensource.html#reference-management",
+    "href": "miscellaneous/opensource.html#reference-management",
+    "title": "Open source tools",
+    "section": "Reference Management",
+    "text": "Reference Management"
+  },
+  {
+    "objectID": "miscellaneous/opensource.html#data-analysis",
+    "href": "miscellaneous/opensource.html#data-analysis",
+    "title": "Open source tools",
+    "section": "Data Analysis",
+    "text": "Data Analysis"
+  },
+  {
+    "objectID": "miscellaneous/opensource.html#visualization",
+    "href": "miscellaneous/opensource.html#visualization",
+    "title": "Open source tools",
+    "section": "Visualization",
+    "text": "Visualization\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/overleaf.html",
+    "href": "miscellaneous/overleaf.html",
+    "title": "Overleaf git sync issues",
+    "section": "",
+    "text": "Add your content about Overleaf git sync issues here…"
+  },
+  {
+    "objectID": "miscellaneous/overleaf.html#overview",
+    "href": "miscellaneous/overleaf.html#overview",
+    "title": "Overleaf git sync issues",
+    "section": "",
+    "text": "Add your content about Overleaf git sync issues here…"
+  },
+  {
+    "objectID": "miscellaneous/overleaf.html#common-issues",
+    "href": "miscellaneous/overleaf.html#common-issues",
+    "title": "Overleaf git sync issues",
+    "section": "Common Issues",
+    "text": "Common Issues"
+  },
+  {
+    "objectID": "miscellaneous/overleaf.html#solutions",
+    "href": "miscellaneous/overleaf.html#solutions",
+    "title": "Overleaf git sync issues",
+    "section": "Solutions",
+    "text": "Solutions"
+  },
+  {
+    "objectID": "miscellaneous/overleaf.html#best-practices",
+    "href": "miscellaneous/overleaf.html#best-practices",
+    "title": "Overleaf git sync issues",
+    "section": "Best Practices",
+    "text": "Best Practices\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/templates.html",
+    "href": "miscellaneous/templates.html",
+    "title": "Journal Templates",
+    "section": "",
+    "text": "Add your content about journal templates here…"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#overview",
+    "href": "miscellaneous/templates.html#overview",
+    "title": "Journal Templates",
+    "section": "",
+    "text": "Add your content about journal templates here…"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#latex-templates",
+    "href": "miscellaneous/templates.html#latex-templates",
+    "title": "Journal Templates",
+    "section": "LaTeX Templates",
+    "text": "LaTeX Templates\n\nElsevier Templates\n\n\nSpringer Templates\n\n\nIEEE Templates\n\n\nACM Templates"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#word-templates",
+    "href": "miscellaneous/templates.html#word-templates",
+    "title": "Journal Templates",
+    "section": "Word Templates",
+    "text": "Word Templates\n\nLast updated: 2025"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html",
+    "href": "miscellaneous/author-services.html",
+    "title": "Author Services by Major Publishers",
+    "section": "",
+    "text": "Add your content about author services here…"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#overview",
+    "href": "miscellaneous/author-services.html#overview",
+    "title": "Author Services by Major Publishers",
+    "section": "",
+    "text": "Add your content about author services here…"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#elsevier-author-services",
+    "href": "miscellaneous/author-services.html#elsevier-author-services",
+    "title": "Author Services by Major Publishers",
+    "section": "Elsevier Author Services",
+    "text": "Elsevier Author Services"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#springer-nature-author-services",
+    "href": "miscellaneous/author-services.html#springer-nature-author-services",
+    "title": "Author Services by Major Publishers",
+    "section": "Springer Nature Author Services",
+    "text": "Springer Nature Author Services"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#wiley-author-services",
+    "href": "miscellaneous/author-services.html#wiley-author-services",
+    "title": "Author Services by Major Publishers",
+    "section": "Wiley Author Services",
+    "text": "Wiley Author Services"
+  },
+  {
+    "objectID": "miscellaneous/author-services.html#ieee-author-services",
+    "href": "miscellaneous/author-services.html#ieee-author-services",
+    "title": "Author Services by Major Publishers",
+    "section": "IEEE Author Services",
+    "text": "IEEE Author Services\n\nLast updated: 2025"
   },
   {
     "objectID": "publications.html",
