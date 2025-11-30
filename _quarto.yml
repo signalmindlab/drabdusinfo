@@ -4,13 +4,13 @@ project:
   # site-path: /drabdusinfo/
 
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+description-meta: "Quarto Academic Website Template adapted by Dr. Gang He, further customized by Dr. Md Abdus Samad"
+author-meta: "Dr. Md Abdus Samad"
 
 website:
   title: "Md Abdus Samad"
   image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
+  description: "Quarto Academic Website Template adapted by Dr. Gang He, further customized by Dr. Md Abdus Samad"
  
   navbar:
     background: light  # You can change the background color here
@@ -105,18 +105,20 @@ website:
   page-navigation: true
   
   page-footer: 
-    left: "[Dr. Md Abdus Samad](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
-    right:  
-      - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
-        target: _blank
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app
-        target: _blank
-      - icon: rss
-        href: posts.xml
-        target: _blank  
+   left: "© 2025 Dr. Md Abdus Samad. All rights reserved."
+   right: "Built with Quarto"
+    # left: "[Dr. Md Abdus Samad](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
+    # center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
+    # right:  
+    #   - icon: github
+    #     href: https://github.com/drganghe/quarto-academic-website-template
+    #     target: _blank
+    #   - text: "{{< fa brands bluesky >}}" 
+    #     href: https://bsky.app
+    #     target: _blank
+    #   - icon: rss
+    #     href: posts.xml
+    #     target: _blank  
   
   search:
     location: navbar
@@ -134,7 +136,7 @@ website:
   twitter-card: true 
 #  card-style: summary      
   
-  site-url: "https://signalmindlab.github.io/drabdusinfo/"
+  site-url: "https://www.drabdus.info/"
   
   google-analytics:
     tracking-id: ""  # Please delete or replace with your own tracking ID
