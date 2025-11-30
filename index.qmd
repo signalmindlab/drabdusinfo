@@ -1,7 +1,7 @@
 ---
 title: "Md Abdus Samad, PhD"
 description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
+image: "files/images/profile.png"
 page-navigation: false
 toc: false
 #sidebar: false
