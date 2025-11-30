@@ -29,7 +29,7 @@ website:
       - text: Research
         menu:
           - text: List of Publications
-            href: publications.qmd
+            href: publications60.qmd
           - text: Selected Papers
             href: posts.qmd#category=paper
           - text: Grants
