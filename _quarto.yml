@@ -7,7 +7,7 @@ description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
 author-meta: "Dr. Gang He"
 
 website:
-  title: "Quarto Academic"
+  title: "Md Abdus Samad"
   image: "https://quarto.org/quarto.png"
   description: "Quarto Academic Website Template adapted by Dr. Gang He"
  
@@ -87,7 +87,7 @@ website:
   twitter-card: true 
 #  card-style: summary      
   
-  site-url: "https://drganghe.github.io/quarto-academic-website-template"
+  site-url: "https://signalmindlab.github.io/drabdusinfo/"
   
   google-analytics:
     tracking-id: ""  # Please delete or replace with your own tracking ID
