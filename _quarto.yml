@@ -40,44 +40,44 @@ website:
         # menu:        
         # - text: Presentations
           # href: posts.qmd#category=presentation 
-      - text: Miscellaneous
+  - text: Miscellaneous
         menu:
           - text: List of Publishers
-            href: posts.qmd#category=publishers
+            href: publishers.qmd
           - text: Journal Templates
-            href: posts.qmd#category=templates
+            href: templates.qmd
           - text: Verifying Journal Indexing
-            href: posts.qmd#category=indexing
+            href: indexing.qmd
           - text: Reference, Image Quality, and Detexify
-            href: posts.qmd#category=reference
+            href: reference.qmd
           - text: Author Services by Major Publishers
-            href: posts.qmd#category=author-services
+            href: author-services.qmd
           - text: Document Conversion and Figure Tools
-            href: posts.qmd#category=conversion
+            href: conversion.qmd
           - text: Manuscript Anonymization
-            href: posts.qmd#category=anonymization
+            href: anonymization.qmd
           - text: Switching Elsevier LaTeX Templates
-            href: posts.qmd#category=elsevier
+            href: elsevier.qmd
           - text: DOCX to LaTeX Convert
-            href: posts.qmd#category=docx-latex
+            href: docx-latex.qmd
           - text: LaTeX Reference and Label Management
-            href: posts.qmd#category=latex-reference
+            href: latex-reference.qmd
           - text: Latex Reference Converter
-            href: posts.qmd#category=latex-converter
+            href: latex-converter.qmd
           - text: Sequential Section Labels
-            href: posts.qmd#category=section-labels
+            href: section-labels.qmd
           - text: Open Access Journals having Discount Policy
-            href: posts.qmd#category=open-access
+            href: open-access.qmd
           - text: Overleaf git sync issues
-            href: posts.qmd#category=overleaf
+            href: overleaf.qmd
           - text: Latexdiff Configuration Guide
-            href: posts.qmd#category=latexdiff
+            href: latexdiff.qmd
           - text: Open source tools
-            href: posts.qmd#category=opensource
+            href: opensource.qmd
           - text: Windows shortcuts & commands
-            href: posts.qmd#category=windows
+            href: windows.qmd
           - text: Mathpix PDF to Word
-            href: posts.qmd#category=mathpix
+            href: mathpix.qmd
           
       - text: Group   # Comment the Group part out to remove the Group page
         href: people.qmd
