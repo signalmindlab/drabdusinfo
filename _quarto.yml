@@ -36,10 +36,49 @@ website:
             href: projects.qmd                                
       - text: Teaching # Comment the Teaching part out to remove the Teaching page
         href: teaching.qmd
-      - text: Outreach
-        menu:        
-        - text: Presentations
-          href: posts.qmd#category=presentation                   
+      # - text: Outreach
+        # menu:        
+        # - text: Presentations
+          # href: posts.qmd#category=presentation 
+      - text: Miscellaneous
+        menu:
+          - text: List of Publishers
+            href: posts.qmd#category=publishers
+          - text: Journal Templates
+            href: posts.qmd#category=templates
+          - text: Verifying Journal Indexing
+            href: posts.qmd#category=indexing
+          - text: Reference, Image Quality, and Detexify
+            href: posts.qmd#category=reference
+          - text: Author Services by Major Publishers
+            href: posts.qmd#category=author-services
+          - text: Document Conversion and Figure Tools
+            href: posts.qmd#category=conversion
+          - text: Manuscript Anonymization
+            href: posts.qmd#category=anonymization
+          - text: Switching Elsevier LaTeX Templates
+            href: posts.qmd#category=elsevier
+          - text: DOCX to LaTeX Convert
+            href: posts.qmd#category=docx-latex
+          - text: LaTeX Reference and Label Management
+            href: posts.qmd#category=latex-reference
+          - text: Latex Reference Converter
+            href: posts.qmd#category=latex-converter
+          - text: Sequential Section Labels
+            href: posts.qmd#category=section-labels
+          - text: Open Access Journals having Discount Policy
+            href: posts.qmd#category=open-access
+          - text: Overleaf git sync issues
+            href: posts.qmd#category=overleaf
+          - text: Latexdiff Configuration Guide
+            href: posts.qmd#category=latexdiff
+          - text: Open source tools
+            href: posts.qmd#category=opensource
+          - text: Windows shortcuts & commands
+            href: posts.qmd#category=windows
+          - text: Mathpix PDF to Word
+            href: posts.qmd#category=mathpix
+          
       - text: Group   # Comment the Group part out to remove the Group page
         href: people.qmd
 
