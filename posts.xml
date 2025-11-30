@@ -17,6 +17,37 @@
 <generator>quarto-1.8.26</generator>
 <lastBuildDate>Wed, 15 Jan 2025 00:00:00 GMT</lastBuildDate>
 <item>
+  <title>New Publication: Evaluating Business Predictive Models</title>
+  <dc:creator>md abdus samad</dc:creator>
+  <link>https://www.drabdus.info/posts/news-title/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>We’re excited to announce our latest research has been accepted for publication in <strong><em>Journal of Big Data</em></strong>, a leading open-access journal in big data analytics and applications!</p>
+<p>This work presents a comprehensive evaluation of business predictive models, exploring their accuracy, interpretability, and practical deployment challenges in real-world analytical environments.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>publication</category>
+  <category>machine-learning</category>
+  <category>business-analytics</category>
+  <guid>https://www.drabdus.info/posts/news-title/</guid>
+  <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>New Publication: Thyroid Cancer Recurrence Prediction</title>
   <dc:creator>md abdus samad</dc:creator>
   <link>https://www.drabdus.info/posts/posts_2025_01_15_thyroid_cancer.html</link>
@@ -95,38 +126,6 @@ https://quarto.org/docs/authoring/includes.html
   <category>presentation</category>
   <guid>https://www.drabdus.info/posts/event-title/</guid>
   <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://www.drabdus.info/files/images/placeholder2.JPG" medium="image"/>
-</item>
-<item>
-  <title>News item</title>
-  <dc:creator>News </dc:creator>
-  <link>https://www.drabdus.info/posts/news-title/</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>About the news</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
-</div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-</section>
-
- ]]></description>
-  <category>news</category>
-  <guid>https://www.drabdus.info/posts/news-title/</guid>
-  <pubDate>Mon, 24 Jun 2024 00:00:00 GMT</pubDate>
   <media:content url="https://www.drabdus.info/files/images/placeholder2.JPG" medium="image"/>
 </item>
 <item>
