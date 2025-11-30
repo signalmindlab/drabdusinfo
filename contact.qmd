@@ -8,17 +8,15 @@ title-block-banner: false
 
 **Quarto Academic**
 
-School
+Department of Information and Communication Engineering
 
-College
+Yeungnam University
 
-University
+Address: Gyeongsan, Gyeongbuk, South Korea
 
-Address: 
+Phone: (+82)01048379637
 
-Phone: 
-
-E-mail: 
+E-mail: "masamad@yu.ac.kr"
 
 
 </center>
