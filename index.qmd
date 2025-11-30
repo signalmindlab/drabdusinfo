@@ -14,12 +14,12 @@ about:
   links:
     - icon: sun
       text: Lab
-      href: https://www.github.com
+      href: https://www.signalmindlab.org/
       target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
+    #- icon: globe
+    # text: Uprofile
+    # href: https://baruch.cuny.edu
+    # target: _blank
     - icon: envelope
       text: E-mail
       href: mailto:email@gmail.com    
