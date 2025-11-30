@@ -137,6 +137,8 @@ bibliography: references.bib  # Add references.bib to the root folder to enable 
 
 format:
   html:
+    page-layout: full
+    cache: true
     theme: cosmo
     css: styles.css
     toc: true
