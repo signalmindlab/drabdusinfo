@@ -1,0 +1,388 @@
+---
+title: "LaTeX Reference Guide"
+subtitle: "Essential Commands and Tips for Academic Writing"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+toc-depth: 3
+code-copy: true
+---
+
+## Document Comparison and Track Changes
+
+### Compare Two .tex Files with latexdiff
+
+```bash
+latexdiff --append-context2cmd="abstract" old.tex new.tex > diff.tex
+```
+
+Generates diff.tex with additions underlined in red.
+
+### Hide Deleted Text and Highlight Additions
+
+```latex
+\providecommand{\DIFdel}[1]{}
+\providecommand{\DIFadd}[1]{{\color{red}\uline{#1}}}
+```
+
+---
+
+## Table Design and Layout
+
+### Color Entire Table
+
+```latex
+{\color{red}
+\begin{tabular}{cc}
+a & b \\
+1 & 2 \\
+\end{tabular}}
+```
+
+### Adjust Table Spacing
+
+```latex
+\setlength{\tabcolsep}{20pt}
+\renewcommand{\arraystretch}{1.5}
+```
+
+### Multi-Column Table Syntax
+
+```latex
+\multicolumn{2}{c}{Merged Cell}
+```
+
+### Multi-Row Table Syntax
+
+```latex
+\usepackage{multirow}
+\multirow{2}{*}{Merged Row}
+```
+
+### Resize Table to Fit Page Width
+
+```latex
+\resizebox{\linewidth}{!}{%
+\begin{tabular}...\end{tabular}}
+```
+
+---
+
+## Algorithm Formatting
+
+### Algorithm Autoref Support
+
+```latex
+\newcommand{\algorithmautorefname}{Algorithm}
+```
+
+### Sub-Step Numbering in Algorithms
+
+```latex
+\usepackage{algorithm,algpseudocode}
+\newcounter{algsubstate}
+\renewcommand{\thealgsubstate}{\alph{algsubstate}}
+\newenvironment{algsubstates}{
+\setcounter{algsubstate}{0}
+\renewcommand{\State}{
+\stepcounter{algsubstate}
+\Statex {\footnotesize\thealgsubstate:}\space}}{}
+```
+
+### Split Algorithm Across Pages
+
+```latex
+\usepackage{algorithm, algcompatible}
+\algstore{blockname}
+...
+\algrestore{blockname}
+```
+
+---
+
+## Hyperlink Styling
+
+### Custom Link Colors
+
+```latex
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+filecolor=blue,
+urlcolor=blue,
+allcolors=blue}
+\urlstyle{same}
+```
+
+---
+
+## Citations and Bibliography
+
+### Force Numbered Style
+
+```latex
+\setcitestyle{numbers}
+```
+
+### Use (1) Style Instead of [1]
+
+```latex
+\usepackage[numbers,round]{natbib}
+\bibliographystyle{vancouver}
+```
+
+### Back to Square Brackets
+
+```latex
+\usepackage[sort,numbers]{natbib}
+\setcitestyle{square}
+```
+
+### Show Citation Keys for Debugging
+
+```latex
+\usepackage{showlabels}
+\renewcommand{\showlabelfont}{\small\color{blue}}
+\showlabels[\small\color{gray}]{cite}
+\showlabels[\small\color{red}]{bibitem}
+```
+
+---
+
+## Compilation and Debugging
+
+### Show Loaded Packages
+
+```latex
+\listfiles
+```
+
+### Delete Aux Files (Bash)
+
+```bash
+rm -f *.aux *.log *.toc *.out *.lof *.lot *.fls *.fdb_latexmk *.synctex.gz *.nav *.snm *.bbl *.blg *.vrb *.xdv
+```
+
+### Full Compile Sequence (with BibTeX)
+
+```bash
+latexmk -pdf main.tex
+# or manual:
+pdflatex main.tex 
+bibtex main
+pdflatex main.tex
+pdflatex main.tex
+```
+
+---
+
+## Git Integration with Overleaf
+
+::: {.callout-tip}
+## Getting Started
+In Overleaf: Menu → Git → Enable Git
+:::
+
+### Clone Overleaf Project
+
+Copy URL like: `https://git.overleaf.com/project-id`
+
+```bash
+cd ~/Documents
+git clone https://git.overleaf.com/project-id
+cd project-id
+```
+
+### Push Local Changes to Overleaf
+
+```bash
+git add .
+git commit -m "Update"
+git push
+```
+
+### Pull Before Push to Avoid Conflict
+
+```bash
+git pull --rebase
+```
+
+### Command Summary
+
+| Command | Description |
+|---------|-------------|
+| `git pull origin master` | Pull changes from Overleaf (remote: origin, branch: master) |
+| `git push origin master` | Push your local changes to Overleaf |
+| `git pull overleaf master` | Same as above, but only if your remote is named overleaf |
+
+---
+
+## Opening PDFs from Git Bash on Windows
+
+### Navigate to Directory
+
+```bash
+cd /c/Users/YourName/Documents/latex-project
+```
+
+### Open PDF in Default Viewer
+
+```bash
+start "" "main.pdf"
+# or
+explorer.exe "main.pdf"
+```
+
+### Automate Compile and Open
+
+```bash
+pdflatex main.tex && start "" "main.pdf"
+```
+
+---
+
+## Word Counting in LaTeX
+
+Use texcount for accurate word count:
+
+```bash
+texcount yourfile.tex
+texcount -sum yourfile.tex
+texcount -inc yourfile.tex
+texcount -1 yourfile.tex
+texcount -brief yourfile.tex
+texcount -inc -sum -total main.tex
+```
+
+---
+
+## Creating LaTeX Tables with Merged Headers
+
+::: {.callout-note}
+## Requirements
+
+- Columns 1 and 2: vertical merge (2 rows)
+- Columns 3–5: under "Group Header" merged in first row, subheaders in second row
+- Column 6: vertical merge (2 rows)
+:::
+
+### Optional Customizations
+
+- Use booktabs for horizontal lines
+- Use tabularx with `\textwidth` for dynamic width
+- Center-align all columns
+- Add sample data rows
+- Include `\caption{}` and `\label{}`
+- Add colored headers (requires xcolor)
+- Ensure compilation-ready for Overleaf/TeXstudio
+
+---
+
+## TabularX Column Spacing Issues
+
+::: {.callout-warning}
+## Problem
+Reducing column spacing with `\setlength{\tabcolsep}{4pt}` may lead to inconsistent column widths.
+:::
+
+### Why This Happens
+
+- **Automatic Column Stretching:** tabularx distributes remaining width among X columns proportionally
+- **Reduced Padding:** Smaller `\tabcolsep` makes differences more noticeable
+- **Multiple X Columns:** Algorithm may leave fractional rounding errors
+- **Complex Tables:** Multirow/multicolumn cells exacerbate uneven widths
+
+### Solutions
+
+**1. Use Proportional X Columns**
+
+```latex
+\begin{tabularx}{\textwidth}{|>{\hsize=0.5\hsize}X|>{\hsize=1\hsize}X|c|}
+```
+
+**2. Consider tabular* for Precise Control**
+
+```latex
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}|l|l|l|}
+```
+
+**3. Use Fixed-Width Columns**
+
+```latex
+p{width}
+```
+
+::: {.callout-tip}
+## Pro Tips
+
+- Combine reduced `\tabcolsep` with `\arraystretch` for balanced spacing
+- Always test with multiple rows and different content lengths
+- For highly complex tables, consider splitting into smaller subtables
+:::
+
+---
+
+## Creating Sequential Dummy Figures in LaTeX with TikZ
+
+Sometimes you need placeholder figures while drafting. Here is how to generate 20 numbered dummy figures automatically:
+
+```latex
+\documentclass{article}
+\usepackage{tikz}
+
+\begin{document}
+
+\section*{Sequential Dummy Figures with TikZ}
+
+% Define a command to create a numbered dummy image
+\newcommand{\numberedimage}[1]{%
+  \begin{figure}[h!]
+    \centering
+    \begin{tikzpicture}
+      \draw[fill=gray!30] (0,0) rectangle (4,3); % gray rectangle
+      \node at (2,1.5) {\Huge Image #1};         % centered label
+    \end{tikzpicture}
+    \caption{Dummy figure #1}
+  \end{figure}
+}
+
+% Generate 20 dummy figures
+\numberedimage{1}
+\numberedimage{2}
+\numberedimage{3}
+% ...continue to 20
+
+\end{document}
+```
+
+### What this code does
+
+- Defines a custom command `\numberedimage{n}`
+- Each dummy figure is a gray rectangle with "Image n" written inside
+- Figures are numbered 1 through 20, each with its own caption
+
+::: {.callout-note}
+## Use Cases
+
+- Testing figure layouts
+- Reserving space for future graphics
+- Creating mockups in academic papers
+:::
+
+---
+
+## Quick Reference Table
+
+| Category | Command | Purpose |
+|----------|---------|---------|
+| Comparison | `latexdiff old.tex new.tex > diff.tex` | Compare documents |
+| Tables | `\multicolumn{2}{c}{Text}` | Merge columns |
+| Tables | `\multirow{2}{*}{Text}` | Merge rows |
+| Tables | `\resizebox{\linewidth}{!}{...}` | Fit table to page |
+| Algorithm | `\algorithmautorefname` | Autoref support |
+| Links | `\hypersetup{colorlinks=true}` | Color hyperlinks |
+| Citations | `\setcitestyle{numbers}` | Numbered citations |
+| Compile | `latexmk -pdf main.tex` | Full compilation |
+| Git | `git pull --rebase` | Sync with Overleaf |
+| Word Count | `texcount -inc -sum main.tex` | Count words |

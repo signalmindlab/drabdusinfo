@@ -36,7 +36,11 @@ website:
           # - text: Selected Papers
             # href: posts.qmd#category=paper
           # - text: Grants
-            # href: projects.qmd                                
+            # href: projects.qmd    
+
+      - text: LaTeX 
+        href: latex-guide.qmd
+                                    
       - text: Teaching # Comment the Teaching part out to remove the Teaching page
         href: teaching.qmd
       # - text: Outreach
