@@ -6,7 +6,7 @@ title-block-banner: false
 
 <center>
 
-**Quarto Academic**
+**Md Abdus Samad*
 
 Department of Information and Communication Engineering
 
@@ -16,7 +16,7 @@ Address: Gyeongsan, Gyeongbuk, South Korea
 
 Phone: (+82)01048379637
 
-E-mail: "masamad@yu.ac.kr"
+E-mail: masamad@yu.ac.kr
 
 
 </center>
