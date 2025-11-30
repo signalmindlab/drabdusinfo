@@ -4,7 +4,7 @@ subtitle: "Comprehensive Directory of Author Services and Manuscript Preparation
 author: "Dr. Md Abdus Samad"
 date: "2025-05-30"
 toc: true
-toc-depth: 2
+toc-depth: 2 
 ---
 
 Comprehensive directory of author services and manuscript preparation resources from leading academic publishers worldwide.
