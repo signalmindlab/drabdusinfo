@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -105,11 +140,11 @@ https://badge.dimensions.ai/
 
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="Switching Elsevier LaTeX Templates – Md Abdus Samad">
-<meta property="og:description" content="Guide to Switching Between Elsevier Templates">
+<meta property="og:description" content="Master the Differences Between num, harv, and num-names Elsevier Templates">
 <meta property="og:image" content="https://quarto.org/quarto.png">
 <meta property="og:site_name" content="Md Abdus Samad">
 <meta name="twitter:title" content="Switching Elsevier LaTeX Templates – Md Abdus Samad">
-<meta name="twitter:description" content="Guide to Switching Between Elsevier Templates">
+<meta name="twitter:description" content="Master the Differences Between num, harv, and num-names Elsevier Templates">
 <meta name="twitter:image" content="https://quarto.org/quarto.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -297,10 +332,26 @@ https://badge.dimensions.ai/
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#available-elsevier-templates" id="toc-available-elsevier-templates" class="nav-link" data-scroll-target="#available-elsevier-templates">Available Elsevier Templates</a></li>
-  <li><a href="#how-to-switch-templates" id="toc-how-to-switch-templates" class="nav-link" data-scroll-target="#how-to-switch-templates">How to Switch Templates</a></li>
-  <li><a href="#common-issues-and-solutions" id="toc-common-issues-and-solutions" class="nav-link" data-scroll-target="#common-issues-and-solutions">Common Issues and Solutions</a></li>
+  <li><a href="#template-comparison" id="toc-template-comparison" class="nav-link active" data-scroll-target="#template-comparison">Template Comparison</a></li>
+  <li><a href="#how-elsevier-handles-citation-styles" id="toc-how-elsevier-handles-citation-styles" class="nav-link" data-scroll-target="#how-elsevier-handles-citation-styles">How Elsevier Handles Citation Styles</a>
+  <ul class="collapse">
+  <li><a href="#options-explained" id="toc-options-explained" class="nav-link" data-scroll-target="#options-explained">Options Explained</a></li>
+  </ul></li>
+  <li><a href="#bibliography-styles" id="toc-bibliography-styles" class="nav-link" data-scroll-target="#bibliography-styles">Bibliography Styles</a></li>
+  <li><a href="#switching-styles-without-copying-your-manuscript" id="toc-switching-styles-without-copying-your-manuscript" class="nav-link" data-scroll-target="#switching-styles-without-copying-your-manuscript">Switching Styles Without Copying Your Manuscript</a>
+  <ul class="collapse">
+  <li><a href="#step-1-edit-the-documentclass-line" id="toc-step-1-edit-the-documentclass-line" class="nav-link" data-scroll-target="#step-1-edit-the-documentclass-line">Step 1: Edit the documentclass line</a></li>
+  <li><a href="#step-2-change-the-bibliography-style" id="toc-step-2-change-the-bibliography-style" class="nav-link" data-scroll-target="#step-2-change-the-bibliography-style">Step 2: Change the bibliography style</a></li>
+  <li><a href="#step-3-recompile-your-latex-document" id="toc-step-3-recompile-your-latex-document" class="nav-link" data-scroll-target="#step-3-recompile-your-latex-document">Step 3: Recompile your LaTeX document</a></li>
+  </ul></li>
+  <li><a href="#quick-reference" id="toc-quick-reference" class="nav-link" data-scroll-target="#quick-reference">Quick Reference</a></li>
+  <li><a href="#common-style-combinations" id="toc-common-style-combinations" class="nav-link" data-scroll-target="#common-style-combinations">Common Style Combinations</a></li>
+  <li><a href="#example-complete-preamble-for-each-style" id="toc-example-complete-preamble-for-each-style" class="nav-link" data-scroll-target="#example-complete-preamble-for-each-style">Example: Complete Preamble for Each Style</a>
+  <ul class="collapse">
+  <li><a href="#numeric-style" id="toc-numeric-style" class="nav-link" data-scroll-target="#numeric-style">Numeric Style</a></li>
+  <li><a href="#harvard-style" id="toc-harvard-style" class="nav-link" data-scroll-target="#harvard-style">Harvard Style</a></li>
+  <li><a href="#numeric-with-names-style" id="toc-numeric-with-names-style" class="nav-link" data-scroll-target="#numeric-with-names-style">Numeric with Names Style</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -310,7 +361,7 @@ https://badge.dimensions.ai/
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Switching Elsevier LaTeX Templates</h1>
-<p class="subtitle lead">Guide to Switching Between Elsevier Templates</p>
+<p class="subtitle lead">Master the Differences Between num, harv, and num-names Elsevier Templates</p>
 </div>
 
 
@@ -339,22 +390,223 @@ https://badge.dimensions.ai/
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Add your content about switching Elsevier LaTeX templates here…</p>
-</section>
-<section id="available-elsevier-templates" class="level2">
-<h2 class="anchored" data-anchor-id="available-elsevier-templates">Available Elsevier Templates</h2>
-</section>
-<section id="how-to-switch-templates" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-switch-templates">How to Switch Templates</h2>
-</section>
-<section id="common-issues-and-solutions" class="level2">
-<h2 class="anchored" data-anchor-id="common-issues-and-solutions">Common Issues and Solutions</h2>
+<p>Learn how to switch citation and bibliography styles without rewriting your entire manuscript.</p>
 <hr>
-<p><em>Last updated: 2025</em></p>
+<section id="template-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="template-comparison">Template Comparison</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 26%">
+<col style="width: 33%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Template</th>
+<th>Citation Style</th>
+<th>Bibliography Style</th>
+<th>Typical Use</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>elsarticle-template-num.tex</code></td>
+<td>Numbered citations: <code>[1]</code>, <code>[2]</code></td>
+<td>Ordered by appearance</td>
+<td>Standard numeric style</td>
+</tr>
+<tr class="even">
+<td><code>elsarticle-template-harv.tex</code></td>
+<td>Author-year citations: <code>(Smith, 2020)</code></td>
+<td>Alphabetical by author</td>
+<td>Common in social sciences</td>
+</tr>
+<tr class="odd">
+<td><code>elsarticle-template-num-names.tex</code></td>
+<td>Numbered citations with author names in references</td>
+<td>Ordered by appearance</td>
+<td>Combines numeric in-text citations with detailed references</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Key Insight
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The <code>.tex</code> files are largely identical in structure; the primary differences lie in the <strong>citation and bibliography formatting</strong>.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="how-elsevier-handles-citation-styles" class="level2">
+<h2 class="anchored" data-anchor-id="how-elsevier-handles-citation-styles">How Elsevier Handles Citation Styles</h2>
+<p>The template uses the <code>\documentclass</code> options to define the citation style:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>[preprint,12pt,authoryear]{<span class="ex">elsarticle</span>}       <span class="co">% for Harvard style</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>[preprint,12pt,number]{<span class="ex">elsarticle</span>}           <span class="co">% for numeric style</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>[preprint,12pt,number,sort&amp;compress]{<span class="ex">elsarticle</span>} <span class="co">% for num-names</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="options-explained" class="level3">
+<h3 class="anchored" data-anchor-id="options-explained">Options Explained</h3>
+<dl>
+<dt><strong><code>number</code></strong></dt>
+<dd>
+Produces numeric citations in the format [1], [2], etc.
+</dd>
+<dt><strong><code>authoryear</code></strong></dt>
+<dd>
+Produces author-year citations like (Smith, 2020)
+</dd>
+<dt><strong><code>sort&amp;compress</code></strong></dt>
+<dd>
+Compresses consecutive numbers (e.g., [1-3]) and sorts them
+</dd>
+</dl>
+<hr>
+</section>
+</section>
+<section id="bibliography-styles" class="level2">
+<h2 class="anchored" data-anchor-id="bibliography-styles">Bibliography Styles</h2>
+<p>The bibliography style is controlled with:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliographystyle</span>{<span class="ex">elsarticle-num</span>}        <span class="co">% numeric</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliographystyle</span>{<span class="ex">elsarticle-harv</span>}       <span class="co">% author-year</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliographystyle</span>{<span class="ex">elsarticle-num-names</span>}  <span class="co">% numbered with names</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This line is placed <strong>before</strong> the <code>\bibliography{yourbibfile}</code> command.</p>
+<hr>
+</section>
+<section id="switching-styles-without-copying-your-manuscript" class="level2">
+<h2 class="anchored" data-anchor-id="switching-styles-without-copying-your-manuscript">Switching Styles Without Copying Your Manuscript</h2>
+<p>If you have a manuscript prepared in <code>elsarticle-template-num.tex</code> and want to switch styles, follow these steps:</p>
+<section id="step-1-edit-the-documentclass-line" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-edit-the-documentclass-line">Step 1: Edit the documentclass line</h3>
+<p>Replace <code>number</code> with <code>authoryear</code> or add <code>sort&amp;compress</code> if required.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">% Change this:</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>[preprint,12pt,number]{<span class="ex">elsarticle</span>}</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">% To this for Harvard style:</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>[preprint,12pt,authoryear]{<span class="ex">elsarticle</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="step-2-change-the-bibliography-style" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-change-the-bibliography-style">Step 2: Change the bibliography style</h3>
+<p>Update <code>\bibliographystyle{...}</code> to match the new template.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">% Change this:</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliographystyle</span>{<span class="ex">elsarticle-num</span>}</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">% To this for Harvard style:</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliographystyle</span>{<span class="ex">elsarticle-harv</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="step-3-recompile-your-latex-document" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-recompile-your-latex-document">Step 3: Recompile your LaTeX document</h3>
+<p>Use the complete compilation sequence for changes to take effect:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> document.tex</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">bibtex</span> document</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> document.tex</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> document.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="quick-reference" class="level2">
+<h2 class="anchored" data-anchor-id="quick-reference">Quick Reference</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Summary
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>The main differences between <code>num</code>, <code>harv</code>, and <code>num-names</code> are the citation and bibliography styles</li>
+<li>Switching templates is simply a matter of adjusting <code>\documentclass</code> options and <code>\bibliographystyle</code></li>
+<li>No need to copy your entire manuscript content to a new template file</li>
+<li>Always recompile with the full sequence: <code>pdflatex → bibtex → pdflatex → pdflatex</code></li>
+<li>Test the output to ensure citations and references appear correctly</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+<section id="common-style-combinations" class="level2">
+<h2 class="anchored" data-anchor-id="common-style-combinations">Common Style Combinations</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Style</th>
+<th>documentclass Option</th>
+<th>bibliographystyle</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Numeric</td>
+<td><code>number</code></td>
+<td><code>elsarticle-num</code></td>
+</tr>
+<tr class="even">
+<td>Harvard (Author-Year)</td>
+<td><code>authoryear</code></td>
+<td><code>elsarticle-harv</code></td>
+</tr>
+<tr class="odd">
+<td>Numeric with Names</td>
+<td><code>number,sort&amp;compress</code></td>
+<td><code>elsarticle-num-names</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="example-complete-preamble-for-each-style" class="level2">
+<h2 class="anchored" data-anchor-id="example-complete-preamble-for-each-style">Example: Complete Preamble for Each Style</h2>
+<section id="numeric-style" class="level3">
+<h3 class="anchored" data-anchor-id="numeric-style">Numeric Style</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>[preprint,12pt,number]{<span class="ex">elsarticle</span>}</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">% ... your preamble ...</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliographystyle</span>{<span class="ex">elsarticle-num</span>}</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliography</span>{<span class="ex">references</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="harvard-style" class="level3">
+<h3 class="anchored" data-anchor-id="harvard-style">Harvard Style</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>[preprint,12pt,authoryear]{<span class="ex">elsarticle</span>}</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co">% ... your preamble ...</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliographystyle</span>{<span class="ex">elsarticle-harv</span>}</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliography</span>{<span class="ex">references</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="numeric-with-names-style" class="level3">
+<h3 class="anchored" data-anchor-id="numeric-with-names-style">Numeric with Names Style</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>[preprint,12pt,number,sort&amp;compress]{<span class="ex">elsarticle</span>}</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co">% ... your preamble ...</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliographystyle</span>{<span class="ex">elsarticle-num-names</span>}</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliography</span>{<span class="ex">references</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Pro Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you are unsure which style your target journal requires, check the journal’s author guidelines on the Elsevier website or look at recently published articles in that journal.</p>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

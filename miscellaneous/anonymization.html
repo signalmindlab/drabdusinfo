@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2025-05-30">
 <meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
 
-<title>Manuscript Anonymization – Md Abdus Samad</title>
+<title>LaTeX Manuscript Anonymization Guide – Md Abdus Samad</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -104,12 +139,12 @@ https://badge.dimensions.ai/
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Manuscript Anonymization – Md Abdus Samad">
-<meta property="og:description" content="How to Anonymize Your Manuscript for Blind Review">
+<meta property="og:title" content="LaTeX Manuscript Anonymization Guide – Md Abdus Samad">
+<meta property="og:description" content="One Source File, Two Versions — Streamline Your Academic Submission Workflow">
 <meta property="og:image" content="https://quarto.org/quarto.png">
 <meta property="og:site_name" content="Md Abdus Samad">
-<meta name="twitter:title" content="Manuscript Anonymization – Md Abdus Samad">
-<meta name="twitter:description" content="How to Anonymize Your Manuscript for Blind Review">
+<meta name="twitter:title" content="LaTeX Manuscript Anonymization Guide – Md Abdus Samad">
+<meta name="twitter:description" content="One Source File, Two Versions — Streamline Your Academic Submission Workflow">
 <meta name="twitter:image" content="https://quarto.org/quarto.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -297,10 +332,33 @@ https://badge.dimensions.ai/
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#why-anonymize" id="toc-why-anonymize" class="nav-link" data-scroll-target="#why-anonymize">Why Anonymize?</a></li>
-  <li><a href="#anonymization-checklist" id="toc-anonymization-checklist" class="nav-link" data-scroll-target="#anonymization-checklist">Anonymization Checklist</a></li>
-  <li><a href="#tools-for-anonymization" id="toc-tools-for-anonymization" class="nav-link" data-scroll-target="#tools-for-anonymization">Tools for Anonymization</a></li>
+  <li><a href="#the-toggle-mechanism" id="toc-the-toggle-mechanism" class="nav-link active" data-scroll-target="#the-toggle-mechanism">The Toggle Mechanism</a></li>
+  <li><a href="#document-structure-overview" id="toc-document-structure-overview" class="nav-link" data-scroll-target="#document-structure-overview">Document Structure Overview</a></li>
+  <li><a href="#how-the-toggle-works" id="toc-how-the-toggle-works" class="nav-link" data-scroll-target="#how-the-toggle-works">How the Toggle Works</a></li>
+  <li><a href="#main-content-sections" id="toc-main-content-sections" class="nav-link" data-scroll-target="#main-content-sections">Main Content Sections</a></li>
+  <li><a href="#step-by-step-implementation" id="toc-step-by-step-implementation" class="nav-link" data-scroll-target="#step-by-step-implementation">Step-by-Step Implementation</a>
+  <ul class="collapse">
+  <li><a href="#step-1-set-up-the-toggle" id="toc-step-1-set-up-the-toggle" class="nav-link" data-scroll-target="#step-1-set-up-the-toggle">Step 1: Set up the toggle</a></li>
+  <li><a href="#step-2-conditional-author-information" id="toc-step-2-conditional-author-information" class="nav-link" data-scroll-target="#step-2-conditional-author-information">Step 2: Conditional author information</a></li>
+  <li><a href="#step-3-switch-versions" id="toc-step-3-switch-versions" class="nav-link" data-scroll-target="#step-3-switch-versions">Step 3: Switch versions</a></li>
+  </ul></li>
+  <li><a href="#advanced-anonymization-techniques" id="toc-advanced-anonymization-techniques" class="nav-link" data-scroll-target="#advanced-anonymization-techniques">Advanced Anonymization Techniques</a>
+  <ul class="collapse">
+  <li><a href="#conditional-text-in-body" id="toc-conditional-text-in-body" class="nav-link" data-scroll-target="#conditional-text-in-body">Conditional Text in Body</a></li>
+  <li><a href="#conditional-acknowledgments" id="toc-conditional-acknowledgments" class="nav-link" data-scroll-target="#conditional-acknowledgments">Conditional Acknowledgments</a></li>
+  <li><a href="#conditional-funding-information" id="toc-conditional-funding-information" class="nav-link" data-scroll-target="#conditional-funding-information">Conditional Funding Information</a></li>
+  </ul></li>
+  <li><a href="#best-practices" id="toc-best-practices" class="nav-link" data-scroll-target="#best-practices">Best Practices</a>
+  <ul class="collapse">
+  <li><a href="#test-both-versions" id="toc-test-both-versions" class="nav-link" data-scroll-target="#test-both-versions">Test Both Versions</a></li>
+  <li><a href="#remove-identifying-citations" id="toc-remove-identifying-citations" class="nav-link" data-scroll-target="#remove-identifying-citations">Remove Identifying Citations</a></li>
+  <li><a href="#check-acknowledgments" id="toc-check-acknowledgments" class="nav-link" data-scroll-target="#check-acknowledgments">Check Acknowledgments</a></li>
+  <li><a href="#review-figures" id="toc-review-figures" class="nav-link" data-scroll-target="#review-figures">Review Figures</a></li>
+  <li><a href="#institutional-references" id="toc-institutional-references" class="nav-link" data-scroll-target="#institutional-references">Institutional References</a></li>
+  <li><a href="#contact-information" id="toc-contact-information" class="nav-link" data-scroll-target="#contact-information">Contact Information</a></li>
+  </ul></li>
+  <li><a href="#quick-reference-summary" id="toc-quick-reference-summary" class="nav-link" data-scroll-target="#quick-reference-summary">Quick Reference Summary</a></li>
+  <li><a href="#complete-template-example" id="toc-complete-template-example" class="nav-link" data-scroll-target="#complete-template-example">Complete Template Example</a></li>
   </ul>
 </nav>
     </div>
@@ -309,8 +367,8 @@ https://badge.dimensions.ai/
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Manuscript Anonymization</h1>
-<p class="subtitle lead">How to Anonymize Your Manuscript for Blind Review</p>
+<h1 class="title">LaTeX Manuscript Anonymization Guide</h1>
+<p class="subtitle lead">One Source File, Two Versions — Streamline Your Academic Submission Workflow</p>
 </div>
 
 
@@ -339,20 +397,300 @@ https://badge.dimensions.ai/
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Add your content about manuscript anonymization here…</p>
-</section>
-<section id="why-anonymize" class="level2">
-<h2 class="anchored" data-anchor-id="why-anonymize">Why Anonymize?</h2>
-</section>
-<section id="anonymization-checklist" class="level2">
-<h2 class="anchored" data-anchor-id="anonymization-checklist">Anonymization Checklist</h2>
-</section>
-<section id="tools-for-anonymization" class="level2">
-<h2 class="anchored" data-anchor-id="tools-for-anonymization">Tools for Anonymization</h2>
+<p>Master the art of creating anonymized manuscripts for peer review using LaTeX conditional statements. One source file, two versions — streamline your academic submission workflow with elegant toggle mechanisms.</p>
 <hr>
-<p><em>Last updated: 2025</em></p>
+<section id="the-toggle-mechanism" class="level2">
+<h2 class="anchored" data-anchor-id="the-toggle-mechanism">The Toggle Mechanism</h2>
+<p>The anonymization system uses a simple boolean toggle that controls what content appears in your final PDF:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>[preprint,12pt]{<span class="ex">elsarticle</span>}</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">% === Toggle for anonymized version ===</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">\newif\ifanon</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">\anonfalse</span>     <span class="co">% Produces title page with author info</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">% \anontrue    % Produces anonymized manuscript</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Key Concept
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>By commenting/uncommenting just one line (<code>\anonfalse</code> or <code>\anontrue</code>), you can switch between complete author information and fully anonymized versions.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="document-structure-overview" class="level2">
+<h2 class="anchored" data-anchor-id="document-structure-overview">Document Structure Overview</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">document</span>}</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">frontmatter</span>}</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">\title</span>{An Example Paper Title}</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">\ifanon</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="co">% --- Anonymized: no authors ---</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">\else</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="co">% --- Full title page ---</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\author</span>[1]{Alice Smith}</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\author</span>[2]{Bob Johnson}</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\address</span>[1]{Department of Physics, University A, City, Country}</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\address</span>[2]{Department of Mathematics, University B, City, Country}</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\cortext</span>[cor1]{Corresponding author}</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\ead</span>{alice.smith@university.edu}</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="fu">\fi</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">abstract</span>}</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>This is the abstract placeholder.</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">abstract</span>}</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">keyword</span>}</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>Keyword1 <span class="fu">\sep</span> Keyword2 <span class="fu">\sep</span> Keyword3</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">keyword</span>}</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">frontmatter</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+<section id="how-the-toggle-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-toggle-works">How the Toggle Works</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 39%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Version</th>
+<th>Toggle Setting</th>
+<th>What Appears</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Full Author Version</td>
+<td><code>\anonfalse</code></td>
+<td>Authors, Affiliations, Email, Abstract, Keywords</td>
+</tr>
+<tr class="even">
+<td>Anonymized Version</td>
+<td><code>\anontrue</code></td>
+<td>Abstract, Keywords only (authors hidden)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="main-content-sections" class="level2">
+<h2 class="anchored" data-anchor-id="main-content-sections">Main Content Sections</h2>
+<p>The example also shows how to conditionally include main content sections:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">% === Main manuscript sections ===</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">\ifanon</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="kw">\section</span>{Introduction}</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>This is the introduction text.</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="kw">\section</span>{Methods}</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>Methodology details here.</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="kw">\section</span>{Results}</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>Results go here.</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="kw">\section</span>{Discussion}</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>Discussion text here.</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="fu">\fi</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In this example, the main sections only appear in the anonymized version. You might want to modify this logic based on your specific submission requirements.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="step-by-step-implementation" class="level2">
+<h2 class="anchored" data-anchor-id="step-by-step-implementation">Step-by-Step Implementation</h2>
+<section id="step-1-set-up-the-toggle" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-set-up-the-toggle">Step 1: Set up the toggle</h3>
+<p>Add the toggle mechanism at the top of your document:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\newif\ifanon</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">\anonfalse</span>  <span class="co">% Change to \anontrue for anonymous version</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="step-2-conditional-author-information" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-conditional-author-information">Step 2: Conditional author information</h3>
+<p>Wrap author details in the conditional block:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\ifanon</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">% Leave empty or add placeholder</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">\else</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\author</span>[1]{Your Name}</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\address</span>[1]{Your Institution}</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\ead</span>{your.email@institution.edu}</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="fu">\fi</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="step-3-switch-versions" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-switch-versions">Step 3: Switch versions</h3>
+<p>To create an anonymized version:</p>
+<ul>
+<li>Change <code>\anonfalse</code> to <code>\anontrue</code></li>
+<li>Recompile your LaTeX document</li>
+<li>The PDF will now exclude all author information</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="advanced-anonymization-techniques" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-anonymization-techniques">Advanced Anonymization Techniques</h2>
+<section id="conditional-text-in-body" class="level3">
+<h3 class="anchored" data-anchor-id="conditional-text-in-body">Conditional Text in Body</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>In our previous work <span class="fu">\ifanon</span> [Reference Hidden] <span class="fu">\else</span> <span class="kw">\citep</span>{<span class="ex">Smith2023</span>} <span class="fu">\fi</span>, we demonstrated...</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="conditional-acknowledgments" class="level3">
+<h3 class="anchored" data-anchor-id="conditional-acknowledgments">Conditional Acknowledgments</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\ifanon</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">% No acknowledgments in anonymous version</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">\else</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">\section*</span>{Acknowledgments}</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    We thank our colleagues for their valuable feedback.</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="fu">\fi</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="conditional-funding-information" class="level3">
+<h3 class="anchored" data-anchor-id="conditional-funding-information">Conditional Funding Information</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\ifanon</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">% No funding info in anonymous version</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="fu">\else</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">\section*</span>{Funding}</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    This work was supported by Grant XYZ-123.</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="fu">\fi</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="best-practices" class="level2">
+<h2 class="anchored" data-anchor-id="best-practices">Best Practices</h2>
+<section id="test-both-versions" class="level3">
+<h3 class="anchored" data-anchor-id="test-both-versions">Test Both Versions</h3>
+<p>Always compile and review both anonymized and full versions before submission to catch any formatting issues.</p>
+</section>
+<section id="remove-identifying-citations" class="level3">
+<h3 class="anchored" data-anchor-id="remove-identifying-citations">Remove Identifying Citations</h3>
+<p>Consider hiding self-citations in the anonymized version to maintain reviewer blindness.</p>
+</section>
+<section id="check-acknowledgments" class="level3">
+<h3 class="anchored" data-anchor-id="check-acknowledgments">Check Acknowledgments</h3>
+<p>Funding and acknowledgment sections often reveal author identity and should be conditionally hidden.</p>
+</section>
+<section id="review-figures" class="level3">
+<h3 class="anchored" data-anchor-id="review-figures">Review Figures</h3>
+<p>Ensure figure captions do not contain identifying information like institutional logos or names.</p>
+</section>
+<section id="institutional-references" class="level3">
+<h3 class="anchored" data-anchor-id="institutional-references">Institutional References</h3>
+<p>Be careful about references to “our institution” or similar identifying language in the text.</p>
+</section>
+<section id="contact-information" class="level3">
+<h3 class="anchored" data-anchor-id="contact-information">Contact Information</h3>
+<p>Double-check that email addresses and phone numbers are properly hidden in anonymous mode.</p>
+<hr>
+</section>
+</section>
+<section id="quick-reference-summary" class="level2">
+<h2 class="anchored" data-anchor-id="quick-reference-summary">Quick Reference Summary</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Summary
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Use <code>\newif\ifanon</code> to create a boolean toggle for anonymization</li>
+<li>Set <code>\anonfalse</code> for full author version, <code>\anontrue</code> for anonymous</li>
+<li>Wrap author information in <code>\ifanon...\else...\fi</code> blocks</li>
+<li>Single source file produces both submission versions</li>
+<li>Always test both versions before submitting to journals</li>
+<li>Consider additional identifying content beyond just author names</li>
+<li>Use conditional blocks for acknowledgments, funding, and self-citations</li>
+<li>Review all content that might reveal author identity</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+<section id="complete-template-example" class="level2">
+<h2 class="anchored" data-anchor-id="complete-template-example">Complete Template Example</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>[preprint,12pt]{<span class="ex">elsarticle</span>}</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co">% === Toggle for anonymized version ===</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="fu">\newif\ifanon</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">\anonfalse</span>     <span class="co">% Change to \anontrue for anonymous version</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">document</span>}</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">frontmatter</span>}</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="fu">\title</span>{Your Paper Title Here}</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="fu">\ifanon</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    <span class="co">% Anonymized version - no author info</span></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a><span class="fu">\else</span></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    <span class="co">% Full version with author info</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\author</span>[1]{First Author<span class="fu">\corref</span>{cor1}}</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\author</span>[2]{Second Author}</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\address</span>[1]{Department, University A, City, Country}</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\address</span>[2]{Department, University B, City, Country}</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\cortext</span>[cor1]{Corresponding author}</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\ead</span>{first.author@university.edu}</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a><span class="fu">\fi</span></span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">abstract</span>}</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>Your abstract text here.</span>
+<span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">abstract</span>}</span>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-28"><a href="#cb9-28" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">keyword</span>}</span>
+<span id="cb9-29"><a href="#cb9-29" aria-hidden="true" tabindex="-1"></a>Keyword1 <span class="fu">\sep</span> Keyword2 <span class="fu">\sep</span> Keyword3</span>
+<span id="cb9-30"><a href="#cb9-30" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">keyword</span>}</span>
+<span id="cb9-31"><a href="#cb9-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-32"><a href="#cb9-32" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">frontmatter</span>}</span>
+<span id="cb9-33"><a href="#cb9-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-34"><a href="#cb9-34" aria-hidden="true" tabindex="-1"></a><span class="kw">\section</span>{Introduction}</span>
+<span id="cb9-35"><a href="#cb9-35" aria-hidden="true" tabindex="-1"></a>Introduction text...</span>
+<span id="cb9-36"><a href="#cb9-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-37"><a href="#cb9-37" aria-hidden="true" tabindex="-1"></a><span class="kw">\section</span>{Methods}</span>
+<span id="cb9-38"><a href="#cb9-38" aria-hidden="true" tabindex="-1"></a>Methods text...</span>
+<span id="cb9-39"><a href="#cb9-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-40"><a href="#cb9-40" aria-hidden="true" tabindex="-1"></a><span class="kw">\section</span>{Results}</span>
+<span id="cb9-41"><a href="#cb9-41" aria-hidden="true" tabindex="-1"></a>Results text...</span>
+<span id="cb9-42"><a href="#cb9-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-43"><a href="#cb9-43" aria-hidden="true" tabindex="-1"></a><span class="kw">\section</span>{Discussion}</span>
+<span id="cb9-44"><a href="#cb9-44" aria-hidden="true" tabindex="-1"></a>Discussion text...</span>
+<span id="cb9-45"><a href="#cb9-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-46"><a href="#cb9-46" aria-hidden="true" tabindex="-1"></a><span class="kw">\section</span>{Conclusion}</span>
+<span id="cb9-47"><a href="#cb9-47" aria-hidden="true" tabindex="-1"></a>Conclusion text...</span>
+<span id="cb9-48"><a href="#cb9-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-49"><a href="#cb9-49" aria-hidden="true" tabindex="-1"></a><span class="fu">\ifanon</span></span>
+<span id="cb9-50"><a href="#cb9-50" aria-hidden="true" tabindex="-1"></a>    <span class="co">% No acknowledgments in anonymous version</span></span>
+<span id="cb9-51"><a href="#cb9-51" aria-hidden="true" tabindex="-1"></a><span class="fu">\else</span></span>
+<span id="cb9-52"><a href="#cb9-52" aria-hidden="true" tabindex="-1"></a>    <span class="kw">\section*</span>{Acknowledgments}</span>
+<span id="cb9-53"><a href="#cb9-53" aria-hidden="true" tabindex="-1"></a>    Acknowledgment text here.</span>
+<span id="cb9-54"><a href="#cb9-54" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-55"><a href="#cb9-55" aria-hidden="true" tabindex="-1"></a>    <span class="kw">\section*</span>{Funding}</span>
+<span id="cb9-56"><a href="#cb9-56" aria-hidden="true" tabindex="-1"></a>    Funding information here.</span>
+<span id="cb9-57"><a href="#cb9-57" aria-hidden="true" tabindex="-1"></a><span class="fu">\fi</span></span>
+<span id="cb9-58"><a href="#cb9-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-59"><a href="#cb9-59" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliographystyle</span>{<span class="ex">elsarticle-num</span>}</span>
+<span id="cb9-60"><a href="#cb9-60" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliography</span>{<span class="ex">references</span>}</span>
+<span id="cb9-61"><a href="#cb9-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-62"><a href="#cb9-62" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">document</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>

@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -105,11 +140,11 @@ https://badge.dimensions.ai/
 
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="Latexdiff Configuration Guide – Md Abdus Samad">
-<meta property="og:description" content="How to Use Latexdiff for Tracking Changes">
+<meta property="og:description" content="A Comprehensive Solution for Handling Latexdiff Compilation Errors">
 <meta property="og:image" content="https://quarto.org/quarto.png">
 <meta property="og:site_name" content="Md Abdus Samad">
 <meta name="twitter:title" content="Latexdiff Configuration Guide – Md Abdus Samad">
-<meta name="twitter:description" content="How to Use Latexdiff for Tracking Changes">
+<meta name="twitter:description" content="A Comprehensive Solution for Handling Latexdiff Compilation Errors">
 <meta name="twitter:image" content="https://quarto.org/quarto.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -298,10 +333,50 @@ https://badge.dimensions.ai/
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#installation" id="toc-installation" class="nav-link" data-scroll-target="#installation">Installation</a></li>
-  <li><a href="#basic-usage" id="toc-basic-usage" class="nav-link" data-scroll-target="#basic-usage">Basic Usage</a></li>
-  <li><a href="#configuration-options" id="toc-configuration-options" class="nav-link" data-scroll-target="#configuration-options">Configuration Options</a></li>
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  <li><a href="#problem-description" id="toc-problem-description" class="nav-link" data-scroll-target="#problem-description">Problem Description</a>
+  <ul class="collapse">
+  <li><a href="#common-errors" id="toc-common-errors" class="nav-link" data-scroll-target="#common-errors">Common Errors</a></li>
+  <li><a href="#root-cause" id="toc-root-cause" class="nav-link" data-scroll-target="#root-cause">Root Cause</a></li>
+  </ul></li>
+  <li><a href="#solution" id="toc-solution" class="nav-link" data-scroll-target="#solution">Solution</a></li>
+  <li><a href="#quick-start" id="toc-quick-start" class="nav-link" data-scroll-target="#quick-start">Quick Start</a>
+  <ul class="collapse">
+  <li><a href="#step-1-create-configuration-file" id="toc-step-1-create-configuration-file" class="nav-link" data-scroll-target="#step-1-create-configuration-file">Step 1: Create Configuration File</a></li>
+  <li><a href="#step-2-add-configuration" id="toc-step-2-add-configuration" class="nav-link" data-scroll-target="#step-2-add-configuration">Step 2: Add Configuration</a></li>
+  <li><a href="#step-3-save-and-exit" id="toc-step-3-save-and-exit" class="nav-link" data-scroll-target="#step-3-save-and-exit">Step 3: Save and Exit</a></li>
+  <li><a href="#step-4-run-latexdiff" id="toc-step-4-run-latexdiff" class="nav-link" data-scroll-target="#step-4-run-latexdiff">Step 4: Run Latexdiff</a></li>
+  <li><a href="#step-5-compile-the-result" id="toc-step-5-compile-the-result" class="nav-link" data-scroll-target="#step-5-compile-the-result">Step 5: Compile the Result</a></li>
+  </ul></li>
+  <li><a href="#configuration-options" id="toc-configuration-options" class="nav-link" data-scroll-target="#configuration-options">Configuration Options</a>
+  <ul class="collapse">
+  <li><a href="#pictureenv-parameter" id="toc-pictureenv-parameter" class="nav-link" data-scroll-target="#pictureenv-parameter">PICTUREENV Parameter</a></li>
+  <li><a href="#supported-environments" id="toc-supported-environments" class="nav-link" data-scroll-target="#supported-environments">Supported Environments</a></li>
+  <li><a href="#additional-configuration-options" id="toc-additional-configuration-options" class="nav-link" data-scroll-target="#additional-configuration-options">Additional Configuration Options</a></li>
+  </ul></li>
+  <li><a href="#usage-examples" id="toc-usage-examples" class="nav-link" data-scroll-target="#usage-examples">Usage Examples</a>
+  <ul class="collapse">
+  <li><a href="#example-1-basic-configuration" id="toc-example-1-basic-configuration" class="nav-link" data-scroll-target="#example-1-basic-configuration">Example 1: Basic Configuration</a></li>
+  <li><a href="#example-2-comprehensive-configuration" id="toc-example-2-comprehensive-configuration" class="nav-link" data-scroll-target="#example-2-comprehensive-configuration">Example 2: Comprehensive Configuration</a></li>
+  <li><a href="#example-3-combining-with-other-options" id="toc-example-3-combining-with-other-options" class="nav-link" data-scroll-target="#example-3-combining-with-other-options">Example 3: Combining with Other Options</a></li>
+  <li><a href="#example-4-multiple-file-workflow" id="toc-example-4-multiple-file-workflow" class="nav-link" data-scroll-target="#example-4-multiple-file-workflow">Example 4: Multiple File Workflow</a></li>
+  </ul></li>
+  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting">Troubleshooting</a>
+  <ul class="collapse">
+  <li><a href="#problem-config-file-not-found" id="toc-problem-config-file-not-found" class="nav-link" data-scroll-target="#problem-config-file-not-found">Problem: Config file not found</a></li>
+  <li><a href="#problem-tables-still-showing-markup-errors" id="toc-problem-tables-still-showing-markup-errors" class="nav-link" data-scroll-target="#problem-tables-still-showing-markup-errors">Problem: Tables still showing markup errors</a></li>
+  <li><a href="#problem-custom-environments-not-excluded" id="toc-problem-custom-environments-not-excluded" class="nav-link" data-scroll-target="#problem-custom-environments-not-excluded">Problem: Custom environments not excluded</a></li>
+  <li><a href="#problem-bibliography-changes-causing-errors" id="toc-problem-bibliography-changes-causing-errors" class="nav-link" data-scroll-target="#problem-bibliography-changes-causing-errors">Problem: Bibliography changes causing errors</a></li>
+  <li><a href="#problem-changes-in-captions" id="toc-problem-changes-in-captions" class="nav-link" data-scroll-target="#problem-changes-in-captions">Problem: Changes in captions</a></li>
+  </ul></li>
+  <li><a href="#advanced-configuration" id="toc-advanced-configuration" class="nav-link" data-scroll-target="#advanced-configuration">Advanced Configuration</a>
+  <ul class="collapse">
+  <li><a href="#full-configuration-template" id="toc-full-configuration-template" class="nav-link" data-scroll-target="#full-configuration-template">Full Configuration Template</a></li>
+  <li><a href="#platform-specific-notes" id="toc-platform-specific-notes" class="nav-link" data-scroll-target="#platform-specific-notes">Platform-Specific Notes</a></li>
+  <li><a href="#integration-with-version-control" id="toc-integration-with-version-control" class="nav-link" data-scroll-target="#integration-with-version-control">Integration with Version Control</a></li>
+  </ul></li>
+  <li><a href="#best-practices" id="toc-best-practices" class="nav-link" data-scroll-target="#best-practices">Best Practices</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#version-history" id="toc-version-history" class="nav-link" data-scroll-target="#version-history">Version History</a></li>
   </ul>
 </nav>
     </div>
@@ -311,7 +386,7 @@ https://badge.dimensions.ai/
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Latexdiff Configuration Guide</h1>
-<p class="subtitle lead">How to Use Latexdiff for Tracking Changes</p>
+<p class="subtitle lead">A Comprehensive Solution for Handling Latexdiff Compilation Errors</p>
 </div>
 
 
@@ -340,23 +415,306 @@ https://badge.dimensions.ai/
 </header>
 
 
+<p>A comprehensive solution for handling latexdiff compilation errors when tracking changes in LaTeX documents containing tables and mathematical equations.</p>
+<hr>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Add your content about latexdiff configuration here…</p>
+<p>This guide provides a comprehensive solution for handling latexdiff compilation errors that occur when tracking changes in LaTeX documents containing tables and mathematical equations.</p>
+<hr>
 </section>
-<section id="installation" class="level2">
-<h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<section id="problem-description" class="level2">
+<h2 class="anchored" data-anchor-id="problem-description">Problem Description</h2>
+<section id="common-errors" class="level3">
+<h3 class="anchored" data-anchor-id="common-errors">Common Errors</h3>
+<p>When using <code>latexdiff</code> to compare LaTeX documents, you may encounter errors such as:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">error:</span> 405: You can<span class="st">'t use `\hrule'</span> here except with leaders. <span class="dt">\e</span>nd{tabularx}</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">error:</span> 422: Environment DIFnomarkup undefined. <span class="dt">\b</span>egin{DIFnomarkup}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="basic-usage" class="level2">
-<h2 class="anchored" data-anchor-id="basic-usage">Basic Usage</h2>
+<section id="root-cause" class="level3">
+<h3 class="anchored" data-anchor-id="root-cause">Root Cause</h3>
+<p>These errors occur because latexdiff inserts change markup (<code>\DIFadd</code>, <code>\DIFdel</code>) inside complex environments like:</p>
+<ul>
+<li>Tables (tabularx, longtable, tabular)</li>
+<li>Mathematical equations (equation, align, gather)</li>
+<li>Other structured content</li>
+</ul>
+<p>The markup interferes with LaTeX’s internal processing of these environments, causing compilation failures.</p>
+<hr>
+</section>
+</section>
+<section id="solution" class="level2">
+<h2 class="anchored" data-anchor-id="solution">Solution</h2>
+<p>The solution is to configure latexdiff to treat these environments as “picture-like” objects, preventing internal markup while still indicating whether the entire environment has changed.</p>
+<hr>
+</section>
+<section id="quick-start" class="level2">
+<h2 class="anchored" data-anchor-id="quick-start">Quick Start</h2>
+<section id="step-1-create-configuration-file" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-create-configuration-file">Step 1: Create Configuration File</h3>
+<p>Create a file named <code>myconfig.cfg</code> in your working directory:</p>
+<p><strong>Linux/macOS/WSL:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">nano</span> myconfig.cfg</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Git Bash (Windows):</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">notepad</span> myconfig.cfg</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="step-2-add-configuration" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-add-configuration">Step 2: Add Configuration</h3>
+<p>Add the following line to the file:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="va">PICTUREENV</span><span class="op">=</span><span class="va">(</span><span class="pp">?</span>:picture<span class="er">|</span>DIFnomarkup<span class="er">|</span>tabularx<span class="er">|</span>tabular<span class="er">|</span>longtable<span class="er">|</span>array<span class="er">|</span>equation<span class="er">|</span>align<span class="er">|</span>gather<span class="er">|</span>multline<span class="er">|</span>eqnarray<span class="er">|</span>displaymath<span class="va">)</span><span class="pp">[</span><span class="dt">\w\d</span><span class="ss">*@</span><span class="pp">]*</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="step-3-save-and-exit" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-save-and-exit">Step 3: Save and Exit</h3>
+<p><strong>In nano:</strong></p>
+<ul>
+<li>Press <code>Ctrl+O</code> then <code>Enter</code> to save</li>
+<li>Press <code>Ctrl+X</code> to exit</li>
+</ul>
+<p><strong>In notepad:</strong></p>
+<ul>
+<li>Click File → Save</li>
+<li>Close the window</li>
+</ul>
+</section>
+<section id="step-4-run-latexdiff" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-run-latexdiff">Step 4: Run Latexdiff</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">latexdiff</span> <span class="at">-c</span> myconfig.cfg old.tex new.tex <span class="op">&gt;</span> diff.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="step-5-compile-the-result" class="level3">
+<h3 class="anchored" data-anchor-id="step-5-compile-the-result">Step 5: Compile the Result</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> diff.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
 </section>
 <section id="configuration-options" class="level2">
 <h2 class="anchored" data-anchor-id="configuration-options">Configuration Options</h2>
+<section id="pictureenv-parameter" class="level3">
+<h3 class="anchored" data-anchor-id="pictureenv-parameter">PICTUREENV Parameter</h3>
+<p>The <code>PICTUREENV</code> parameter uses a regular expression to specify which environments should be excluded from internal markup.</p>
+<p><strong>Syntax:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="va">PICTUREENV</span><span class="op">=</span><span class="va">(</span><span class="pp">?</span>:env1<span class="er">|</span>env2<span class="er">|</span>env3<span class="er">|</span>...<span class="va">)</span><span class="pp">[</span><span class="dt">\w\d</span><span class="ss">*@</span><span class="pp">]*</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="examples" class="level2">
-<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<section id="supported-environments" class="level3">
+<h3 class="anchored" data-anchor-id="supported-environments">Supported Environments</h3>
+<section id="table-environments" class="level4">
+<h4 class="anchored" data-anchor-id="table-environments">Table Environments</h4>
+<ul>
+<li><code>tabular</code> - Basic tables</li>
+<li><code>tabularx</code> - Tables with flexible width columns</li>
+<li><code>longtable</code> - Multi-page tables</li>
+<li><code>array</code> - Mathematical arrays</li>
+<li><code>table</code> - Table float environment</li>
+</ul>
+</section>
+<section id="mathematical-environments" class="level4">
+<h4 class="anchored" data-anchor-id="mathematical-environments">Mathematical Environments</h4>
+<ul>
+<li><code>equation</code> - Numbered single equations</li>
+<li><code>equation*</code> - Unnumbered single equations</li>
+<li><code>align</code> - Aligned equations</li>
+<li><code>align*</code> - Unnumbered aligned equations</li>
+<li><code>gather</code> - Gathered equations</li>
+<li><code>multline</code> - Multi-line equations</li>
+<li><code>eqnarray</code> - Equation arrays (deprecated but still used)</li>
+<li><code>displaymath</code> - Display mode mathematics</li>
+<li><code>split</code> - Split equations</li>
+<li><code>cases</code> - Case equations</li>
+<li><code>alignat</code> - Aligned equations at multiple points</li>
+<li><code>flalign</code> - Flush-aligned equations</li>
+</ul>
+</section>
+<section id="graphics-environments" class="level4">
+<h4 class="anchored" data-anchor-id="graphics-environments">Graphics Environments</h4>
+<ul>
+<li><code>picture</code> - LaTeX picture environment</li>
+<li><code>tikzpicture</code> - TikZ graphics</li>
+<li><code>figure</code> - Figure float environment</li>
+</ul>
+</section>
+</section>
+<section id="additional-configuration-options" class="level3">
+<h3 class="anchored" data-anchor-id="additional-configuration-options">Additional Configuration Options</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Safe commands (arguments not marked up)</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="va">SAFECMDLIST</span><span class="op">=</span>multicolumn,multirow,includegraphics</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Safe environments (alternative to PICTUREENV)</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="va">SAFEENV</span><span class="op">=</span><span class="va">(</span><span class="pp">?</span>:tabularx<span class="er">|</span>longtable<span class="va">)</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Context commands (whole environment marked as unit)</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="va">CONTEXT2CMDLIST</span><span class="op">=</span>tabularx,longtable</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <hr>
-<p><em>Last updated: 2025</em></p>
+</section>
+</section>
+<section id="usage-examples" class="level2">
+<h2 class="anchored" data-anchor-id="usage-examples">Usage Examples</h2>
+<section id="example-1-basic-configuration" class="level3">
+<h3 class="anchored" data-anchor-id="example-1-basic-configuration">Example 1: Basic Configuration</h3>
+<p><strong>myconfig.cfg:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="va">PICTUREENV</span><span class="op">=</span><span class="va">(</span><span class="pp">?</span>:picture<span class="er">|</span>DIFnomarkup<span class="er">|</span>tabularx<span class="er">|</span>equation<span class="er">|</span>align<span class="va">)</span><span class="pp">[</span><span class="dt">\w\d</span><span class="ss">*@</span><span class="pp">]*</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Command:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">latexdiff</span> <span class="at">-c</span> myconfig.cfg old.tex new.tex <span class="op">&gt;</span> diff.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="example-2-comprehensive-configuration" class="level3">
+<h3 class="anchored" data-anchor-id="example-2-comprehensive-configuration">Example 2: Comprehensive Configuration</h3>
+<p><strong>myconfig.cfg:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="va">PICTUREENV</span><span class="op">=</span><span class="va">(</span><span class="pp">?</span>:picture<span class="er">|</span>DIFnomarkup<span class="er">|</span>tabularx<span class="er">|</span>tabular<span class="er">|</span>longtable<span class="er">|</span>array<span class="er">|</span>table<span class="er">|</span>equation<span class="er">|</span>align<span class="er">|</span>alignat<span class="er">|</span>gather<span class="er">|</span>multline<span class="er">|</span>eqnarray<span class="er">|</span>displaymath<span class="er">|</span>split<span class="er">|</span>cases<span class="er">|</span>tikzpicture<span class="er">|</span>figure<span class="va">)</span><span class="pp">[</span><span class="dt">\w\d</span><span class="ss">*@</span><span class="pp">]*</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="va">SAFECMDLIST</span><span class="op">=</span>multicolumn,multirow,includegraphics,cite,ref,label</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Command:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">latexdiff</span> <span class="at">-c</span> myconfig.cfg old.tex new.tex <span class="op">&gt;</span> diff.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="example-3-combining-with-other-options" class="level3">
+<h3 class="anchored" data-anchor-id="example-3-combining-with-other-options">Example 3: Combining with Other Options</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">latexdiff</span> <span class="at">-c</span> myconfig.cfg <span class="at">--type</span><span class="op">=</span>UNDERLINE <span class="at">--flatten</span> old.tex new.tex <span class="op">&gt;</span> diff.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="example-4-multiple-file-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="example-4-multiple-file-workflow">Example 4: Multiple File Workflow</h3>
+<p>For projects with multiple files:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Flatten the documents first</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="ex">latexpand</span> old.tex <span class="op">&gt;</span> old_flat.tex</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="ex">latexpand</span> new.tex <span class="op">&gt;</span> new_flat.tex</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Run latexdiff with config</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="ex">latexdiff</span> <span class="at">-c</span> myconfig.cfg old_flat.tex new_flat.tex <span class="op">&gt;</span> diff.tex</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Compile</span></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> diff.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="troubleshooting" class="level2">
+<h2 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h2>
+<section id="problem-config-file-not-found" class="level3">
+<h3 class="anchored" data-anchor-id="problem-config-file-not-found">Problem: Config file not found</h3>
+<p><strong>Error:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Cannot</span> read config file myconfig.cfg</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Solution:</strong></p>
+<p>Ensure the config file is in the same directory where you run latexdiff, or provide the full path:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">latexdiff</span> <span class="at">-c</span> /path/to/myconfig.cfg old.tex new.tex <span class="op">&gt;</span> diff.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="problem-tables-still-showing-markup-errors" class="level3">
+<h3 class="anchored" data-anchor-id="problem-tables-still-showing-markup-errors">Problem: Tables still showing markup errors</h3>
+<p><strong>Solution 1:</strong> Add more table-related environments:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="va">PICTUREENV</span><span class="op">=</span><span class="va">(</span><span class="pp">?</span>:picture<span class="er">|</span>DIFnomarkup<span class="er">|</span>tabularx<span class="er">|</span>tabular<span class="er">|</span>longtable<span class="er">|</span>array<span class="er">|</span>table<span class="er">|</span>booktabs<span class="va">)</span><span class="pp">[</span><span class="dt">\w\d</span><span class="ss">*@</span><span class="pp">]*</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Solution 2:</strong> Add table commands to safe list:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="va">SAFECMDLIST</span><span class="op">=</span>multicolumn,multirow,hline,cline,toprule,midrule,bottomrule</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="problem-custom-environments-not-excluded" class="level3">
+<h3 class="anchored" data-anchor-id="problem-custom-environments-not-excluded">Problem: Custom environments not excluded</h3>
+<p>If you have custom environments (e.g., <code>mytheorem</code>, <code>myproof</code>):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="va">PICTUREENV</span><span class="op">=</span><span class="va">(</span><span class="pp">?</span>:picture<span class="er">|</span>DIFnomarkup<span class="er">|</span>tabularx<span class="er">|</span>equation<span class="er">|</span>mytheorem<span class="er">|</span>myproof<span class="va">)</span><span class="pp">[</span><span class="dt">\w\d</span><span class="ss">*@</span><span class="pp">]*</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="problem-bibliography-changes-causing-errors" class="level3">
+<h3 class="anchored" data-anchor-id="problem-bibliography-changes-causing-errors">Problem: Bibliography changes causing errors</h3>
+<p>Add bibliography commands to safe list:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="va">SAFECMDLIST</span><span class="op">=</span>cite,citep,citet,bibliography,bibliographystyle</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="problem-changes-in-captions" class="level3">
+<h3 class="anchored" data-anchor-id="problem-changes-in-captions">Problem: Changes in captions</h3>
+<p>Add caption handling:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="va">SAFECMDLIST</span><span class="op">=</span>caption,label,ref</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="advanced-configuration" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-configuration">Advanced Configuration</h2>
+<section id="full-configuration-template" class="level3">
+<h3 class="anchored" data-anchor-id="full-configuration-template">Full Configuration Template</h3>
+<p><strong>advanced_config.cfg:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Picture-like environments (no internal markup)</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="va">PICTUREENV</span><span class="op">=</span><span class="va">(</span><span class="pp">?</span>:picture<span class="er">|</span>DIFnomarkup<span class="er">|</span>tabularx<span class="er">|</span>tabular<span class="er">|</span>longtable<span class="er">|</span>array<span class="er">|</span>table<span class="er">|</span>equation<span class="er">|</span>equation<span class="dt">\*</span><span class="er">|</span>align<span class="er">|</span>align<span class="dt">\*</span><span class="er">|</span>alignat<span class="er">|</span>gather<span class="er">|</span>multline<span class="er">|</span>eqnarray<span class="er">|</span>displaymath<span class="er">|</span>split<span class="er">|</span>cases<span class="er">|</span>tikzpicture<span class="er">|</span>figure<span class="va">)</span><span class="pp">[</span><span class="dt">\w\d</span><span class="ss">*@</span><span class="pp">]*</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Safe commands (arguments not marked)</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="va">SAFECMDLIST</span><span class="op">=</span>multicolumn,multirow,includegraphics,cite,citep,citet,ref,label,caption,bibliography,bibliographystyle</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Safe environments (alternative protection)</span></span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a><span class="va">SAFEENV</span><span class="op">=</span><span class="va">(</span><span class="pp">?</span>:tabularx<span class="er">|</span>longtable<span class="er">|</span>tikzpicture<span class="va">)</span></span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Text commands to exclude from markup</span></span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a><span class="va">EXCLUDETEXTCMD</span><span class="op">=</span>section,subsection,subsubsection,chapter</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Float environments</span></span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a><span class="va">FLOATENV</span><span class="op">=</span><span class="va">(</span><span class="pp">?</span>:figure<span class="er">|</span>table<span class="er">|</span>algorithm<span class="va">)</span><span class="pp">[</span><span class="dt">\w\d</span><span class="ss">*@</span><span class="pp">]*</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="platform-specific-notes" class="level3">
+<h3 class="anchored" data-anchor-id="platform-specific-notes">Platform-Specific Notes</h3>
+<section id="windows-git-bash" class="level4">
+<h4 class="anchored" data-anchor-id="windows-git-bash">Windows (Git Bash)</h4>
+<p>If nano is not available:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb23"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">'PICTUREENV=(?:picture|DIFnomarkup|tabularx|equation)[\w\d*@]*'</span> <span class="op">&gt;</span> myconfig.cfg</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="windows-wsl" class="level4">
+<h4 class="anchored" data-anchor-id="windows-wsl">Windows (WSL)</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">nano</span> myconfig.cfg</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Add configuration</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Ctrl+O, Enter, Ctrl+X</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="macoslinux" class="level4">
+<h4 class="anchored" data-anchor-id="macoslinux">macOS/Linux</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="ex">vim</span> myconfig.cfg</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Press 'i' for insert mode</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Add configuration</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Press Esc, type :wq, press Enter</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="integration-with-version-control" class="level3">
+<h3 class="anchored" data-anchor-id="integration-with-version-control">Integration with Version Control</h3>
+<p>Add to your repository:</p>
+<p><strong>.gitignore:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb26"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="ex">diff.tex</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="ex">*.aux</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="ex">*.log</span></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="ex">*.out</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>latexdiff.cfg</strong> (committed to repo):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="va">PICTUREENV</span><span class="op">=</span><span class="va">(</span><span class="pp">?</span>:picture<span class="er">|</span>DIFnomarkup<span class="er">|</span>tabularx<span class="er">|</span>tabular<span class="er">|</span>equation<span class="er">|</span>align<span class="va">)</span><span class="pp">[</span><span class="dt">\w\d</span><span class="ss">*@</span><span class="pp">]*</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Makefile:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="sourceCode makefile code-with-copy"><code class="sourceCode makefile"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="dv">diff:</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="er">    </span>latexdiff -c latexdiff.cfg old.tex new.tex &gt; diff.tex</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>    pdflatex diff.tex</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a><span class="dv">clean:</span></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a><span class="er">    </span>rm -f diff.tex diff.aux diff.log diff.pdf</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="best-practices" class="level2">
+<h2 class="anchored" data-anchor-id="best-practices">Best Practices</h2>
+<ol type="1">
+<li><strong>Start minimal</strong>: Begin with basic configuration and add environments as needed</li>
+<li><strong>Version control</strong>: Keep your config file in version control</li>
+<li><strong>Document custom environments</strong>: Comment your config file with explanations</li>
+<li><strong>Test incrementally</strong>: After adding new environments, test compilation</li>
+<li><strong>Use meaningful names</strong>: Name config files descriptively (e.g., <code>thesis_config.cfg</code>)</li>
+</ol>
+<hr>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li><a href="https://ctan.org/pkg/latexdiff" target="_blank">Latexdiff Documentation</a></li>
+<li><a href="http://mirrors.ctan.org/support/latexdiff/doc/latexdiff-man.pdf" target="_blank">Latexdiff Man Page</a></li>
+</ul>
+<hr>
+</section>
+<section id="version-history" class="level2">
+<h2 class="anchored" data-anchor-id="version-history">Version History</h2>
+<ul>
+<li><strong>v1.0</strong> (2025-10-08): Initial documentation with table and equation support</li>
+</ul>
+<hr>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Questions or Issues?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For more help, consult the latexdiff documentation or LaTeX Stack Exchange.</p>
+</div>
+</div>
+<hr>
+<p><em>Last updated: 2025-10-08</em></p>
 
 
 </section>

@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -105,11 +140,11 @@ https://badge.dimensions.ai/
 
 <link rel="stylesheet" href="../styles.css">
 <meta property="og:title" content="Reference, Image Quality, and Detexify – Md Abdus Samad">
-<meta property="og:description" content="Tools for Academic Writing">
+<meta property="og:description" content="AI-Powered BibTeX Generation and Essential Reference Management Tools">
 <meta property="og:image" content="https://quarto.org/quarto.png">
 <meta property="og:site_name" content="Md Abdus Samad">
 <meta name="twitter:title" content="Reference, Image Quality, and Detexify – Md Abdus Samad">
-<meta name="twitter:description" content="Tools for Academic Writing">
+<meta name="twitter:description" content="AI-Powered BibTeX Generation and Essential Reference Management Tools">
 <meta name="twitter:image" content="https://quarto.org/quarto.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -296,11 +331,13 @@ https://badge.dimensions.ai/
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#reference-management" id="toc-reference-management" class="nav-link" data-scroll-target="#reference-management">Reference Management</a></li>
-  <li><a href="#image-quality-tools" id="toc-image-quality-tools" class="nav-link" data-scroll-target="#image-quality-tools">Image Quality Tools</a></li>
-  <li><a href="#detexify" id="toc-detexify" class="nav-link" data-scroll-target="#detexify">Detexify</a></li>
+  <ul class="collapse">
+  <li><a href="#what-the-prompt-does" id="toc-what-the-prompt-does" class="nav-link active" data-scroll-target="#what-the-prompt-does">What the Prompt Does</a></li>
+  <li><a href="#copy-and-use-this-prompt" id="toc-copy-and-use-this-prompt" class="nav-link" data-scroll-target="#copy-and-use-this-prompt">Copy and Use This Prompt</a></li>
+  <li><a href="#format-byline-in-article" id="toc-format-byline-in-article" class="nav-link" data-scroll-target="#format-byline-in-article">Format Byline in Article</a></li>
+  <li><a href="#tools-for-manuscript-and-reference-management" id="toc-tools-for-manuscript-and-reference-management" class="nav-link" data-scroll-target="#tools-for-manuscript-and-reference-management">Tools for Manuscript and Reference Management</a></li>
+  <li><a href="#common-bibtex-entry-types" id="toc-common-bibtex-entry-types" class="nav-link" data-scroll-target="#common-bibtex-entry-types">Common BibTeX Entry Types</a></li>
+  <li><a href="#example-bibtex-entry" id="toc-example-bibtex-entry" class="nav-link" data-scroll-target="#example-bibtex-entry">Example BibTeX Entry</a></li>
   </ul>
 </nav>
     </div>
@@ -310,7 +347,7 @@ https://badge.dimensions.ai/
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Reference, Image Quality, and Detexify</h1>
-<p class="subtitle lead">Tools for Academic Writing</p>
+<p class="subtitle lead">AI-Powered BibTeX Generation and Essential Reference Management Tools</p>
 </div>
 
 
@@ -339,20 +376,178 @@ https://badge.dimensions.ai/
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Add your content here…</p>
-</section>
-<section id="reference-management" class="level2">
-<h2 class="anchored" data-anchor-id="reference-management">Reference Management</h2>
-</section>
-<section id="image-quality-tools" class="level2">
-<h2 class="anchored" data-anchor-id="image-quality-tools">Image Quality Tools</h2>
-</section>
-<section id="detexify" class="level2">
-<h2 class="anchored" data-anchor-id="detexify">Detexify</h2>
+<p>Transform your research workflow with AI-powered BibTeX generation. Perfect for researchers, students, and academic editors working with incomplete or inconsistent citations.</p>
 <hr>
-<p><em>Last updated: 2025</em></p>
+<section id="what-the-prompt-does" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-prompt-does">What the Prompt Does</h2>
+<ul>
+<li>Converts any reference format (APA, MLA, plain text) into proper BibTeX</li>
+<li>Automatically identifies the correct entry type (e.g., <span class="citation" data-cites="article">(<a href="#ref-article" role="doc-biblioref"><strong>article?</strong></a>)</span>, <span class="citation" data-cites="book">(<a href="#ref-book" role="doc-biblioref"><strong>book?</strong></a>)</span>, <span class="citation" data-cites="inproceedings">(<a href="#ref-inproceedings" role="doc-biblioref"><strong>inproceedings?</strong></a>)</span>)</li>
+<li>Fills in missing fields (e.g., title, DOI, journal, volume, pages) using trusted sources:
+<ul>
+<li>CrossRef, PubMed, IEEE Xplore, arXiv, Google Scholar, publisher databases</li>
+</ul></li>
+<li>Expands abbreviated author lists like “et al.” or “and others” by retrieving the full author names</li>
+<li>Ensures proper formatting:
+<ul>
+<li>Author names as Last, First</li>
+<li>LaTeX-compatible symbols</li>
+<li>Includes DOI or URL if available</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="copy-and-use-this-prompt" class="level2">
+<h2 class="anchored" data-anchor-id="copy-and-use-this-prompt">Copy and Use This Prompt</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>You are a scholarly reference assistant. Given a list of references (APA, MLA, or plain text), perform the following:</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Convert each to a valid and complete BibTeX entry.</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Correct any incorrect reference types (e.g., article vs. conference paper).</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>Retrieve missing fields (DOI, title, journal, volume, etc.) from authoritative databases.</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>If author list contains "et al." or "others," replace with the full author list from the original publication.</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>Format author names as Last, First; escape LaTeX characters; include DOI/URL if available.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>Output only clean, .bib-ready entries.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+<section id="format-byline-in-article" class="level2">
+<h2 class="anchored" data-anchor-id="format-byline-in-article">Format Byline in Article</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>You are latex editor. Convert the following to fit with <span class="co">[</span><span class="ot">Journal name</span><span class="co">]</span> latex template format.</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+<section id="tools-for-manuscript-and-reference-management" class="level2">
+<h2 class="anchored" data-anchor-id="tools-for-manuscript-and-reference-management">Tools for Manuscript and Reference Management</h2>
+<section id="pace-tool-image-quality-assessment" class="level3">
+<h3 class="anchored" data-anchor-id="pace-tool-image-quality-assessment">PACE Tool – Image Quality Assessment</h3>
+<p>PACE (Publishers Automated Checking Environment) helps ensure submitted images meet technical requirements (DPI, resolution, format) during final publication stages.</p>
+<p><a href="https://pacev2.apexcovantage.com" target="_blank">Visit PACE Tool</a></p>
+<hr>
+</section>
+<section id="detexify-latex-symbol-finder" class="level3">
+<h3 class="anchored" data-anchor-id="detexify-latex-symbol-finder">Detexify – LaTeX Symbol Finder</h3>
+<p>Draw a mathematical or scientific symbol and Detexify will suggest the correct LaTeX code.</p>
+<p><a href="https://detexify.kirelabs.org" target="_blank">Visit Detexify</a></p>
+<hr>
+</section>
+<section id="text2bib-converter" class="level3">
+<h3 class="anchored" data-anchor-id="text2bib-converter">Text2Bib Converter</h3>
+<p>Convert plain-text reference lists into BibTeX format using this tool maintained by Martin J. Osborne.</p>
+<p><a href="https://youtu.be/uDYHszzWhfk" target="_blank">Watch Video Tutorial (5:45 min)</a></p>
+<hr>
+</section>
+<section id="jabref" class="level3">
+<h3 class="anchored" data-anchor-id="jabref">JabRef</h3>
+<p>JabRef is a free and open-source reference manager tailored for LaTeX users. It allows efficient organization, error checking (e.g., missing fields), and integration with citation workflows.</p>
+<p><a href="https://www.jabref.org" target="_blank">Visit JabRef</a></p>
+<hr>
+</section>
+<section id="bibtex-entry-fields-reference" class="level3">
+<h3 class="anchored" data-anchor-id="bibtex-entry-fields-reference">BibTeX Entry Fields Reference</h3>
+<p>Explore all possible BibTeX fields for various reference types (article, conference, unpublished, etc.) and convert between formats.</p>
+<hr>
+</section>
+</section>
+<section id="common-bibtex-entry-types" class="level2">
+<h2 class="anchored" data-anchor-id="common-bibtex-entry-types">Common BibTeX Entry Types</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 30%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Entry Type</th>
+<th>Description</th>
+<th>Required Fields</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>@article</code></td>
+<td>Journal article</td>
+<td>author, title, journal, year</td>
+</tr>
+<tr class="even">
+<td><code>@book</code></td>
+<td>Book</td>
+<td>author/editor, title, publisher, year</td>
+</tr>
+<tr class="odd">
+<td><code>@inproceedings</code></td>
+<td>Conference paper</td>
+<td>author, title, booktitle, year</td>
+</tr>
+<tr class="even">
+<td><code>@incollection</code></td>
+<td>Book chapter</td>
+<td>author, title, booktitle, publisher, year</td>
+</tr>
+<tr class="odd">
+<td><code>@phdthesis</code></td>
+<td>PhD dissertation</td>
+<td>author, title, school, year</td>
+</tr>
+<tr class="even">
+<td><code>@mastersthesis</code></td>
+<td>Master’s thesis</td>
+<td>author, title, school, year</td>
+</tr>
+<tr class="odd">
+<td><code>@techreport</code></td>
+<td>Technical report</td>
+<td>author, title, institution, year</td>
+</tr>
+<tr class="even">
+<td><code>@misc</code></td>
+<td>Miscellaneous</td>
+<td>author, title, year</td>
+</tr>
+<tr class="odd">
+<td><code>@online</code></td>
+<td>Web resource</td>
+<td>author, title, url, year</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="example-bibtex-entry" class="level2">
+<h2 class="anchored" data-anchor-id="example-bibtex-entry">Example BibTeX Entry</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">smith2023deep</span>,</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>    = {Smith, John and Johnson, Mary and Williams, Robert},</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>     = {Deep Learning Approaches for Image Classification},</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>   = {IEEE Transactions on Neural Networks},</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>      = {2023},</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>    = {34},</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>    = {5},</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>     = {1234--1248},</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>       = {10.1109/TNN.2023.1234567},</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span> = {IEEE}</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Pro Tips
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Always verify AI-generated BibTeX entries against the original source</li>
+<li>Use JabRef to check for missing required fields before submission</li>
+<li>Include DOIs whenever possible for reliable linking</li>
+<li>Keep citation keys consistent (e.g., <code>lastname2023keyword</code>)</li>
+</ul>
+</div>
+</div>
 
 
 </section>
