@@ -6,7 +6,7 @@ title-block-banner: false
 
 <center>
 
-**Md Abdus Samad*
+**Md Abdus Samad**
 
 Department of Information and Communication Engineering
 
