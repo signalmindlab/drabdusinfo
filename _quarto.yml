@@ -25,15 +25,18 @@ website:
           - text: Events
             href: posts.qmd#category=event      
           - text: Contact
-            href: contact.qmd             
-      - text: Research
-        menu:
-          - text: List of Publications
-            href: publications60.qmd
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
+            href: contact.qmd 
+
+      - text: Publications  
+        href: publications60.qmd               
+      # - text: Research
+        # menu:
+          # - text: List of Publications
+            # href: publications60.qmd
+          # - text: Selected Papers
+            # href: posts.qmd#category=paper
+          # - text: Grants
+            # href: projects.qmd                                
       - text: Teaching # Comment the Teaching part out to remove the Teaching page
         href: teaching.qmd
       # - text: Outreach
