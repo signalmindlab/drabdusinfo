@@ -40,9 +40,9 @@ website:
 
       - text: LaTeX 
         href: latex-guide.qmd
-                                    
-      - text: Teaching # Comment the Teaching part out to remove the Teaching page
-        href: teaching.qmd
+
+      # - text: Teaching # Comment the Teaching part out to remove the Teaching page
+        # href: teaching.qmd
       # - text: Outreach
         # menu:        
         # - text: Presentations
@@ -86,8 +86,8 @@ website:
           - text: Mathpix PDF to Word
             href: miscellaneous/mathpix.qmd
           
-      - text: Group   # Comment the Group part out to remove the Group page
-        href: people.qmd
+      # - text: Group   # Comment the Group part out to remove the Group page
+        # href: people.qmd
 
     right: 
       - text: CV
