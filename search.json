@@ -840,25 +840,32 @@
     "text": "About the news"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
+    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Md Abdus Samad, PhD",
+    "objectID": "teaching.html#class-1",
+    "href": "teaching.html#class-1",
+    "title": "Teaching",
     "section": "",
-    "text": "Lab\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n\n  \n  \n\nDr. Md Abdus Samad is a telecommunications scholar, researcher, and educator whose research focuses on the intersection of wireless communications, artificial intelligence, and next-generation network technologies. He is a Research Professor in the Department of Information and Communication Engineering at Yeungnam University, Gyeongsan, South Korea. He is also a registered Korean Researcher and an active IEEE member, contributing to the advancement of telecommunications standards and research.\nHe previously taught at the undergraduate and graduate levels in the Department of Electronics and Telecommunication Engineering at International Islamic University Chittagong, where he served as an Assistant Professor from 2013 to 2017, contributing to the development of future telecommunications engineers through teaching, mentoring, and curriculum development.\nHis research explores how next-generation wireless networks (5G and beyond 6G) can overcome challenges related to millimeter-wave propagation, atmospheric interference, and signal quality—and how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. His leading and collaborative work has appeared in over 55 reputable journals indexed in SCIE (Science Citation Index Expanded) and SSCI (Social Sciences Citation Index), including publications in high-impact telecommunications and engineering journals.\nHis research has been supported by prestigious funding sources, including the Korean Government Scholarship (Global Korea Scholarship) during his doctoral studies and the National Research Foundation of Korea, underscoring the significance and quality of his work in advancing wireless communication technologies.\nHis work has contributed to the global understanding of advanced wireless communication systems. His research findings address critical challenges in millimeter-wave frequencies, atmospheric effects on signal propagation, and AI-enhanced network optimization. He actively serves the academic community as a peer reviewer for multiple international journals indexed in the Web of Science.\nHe has been recognized through the highly competitive Korean Government Scholarship (Global Korea Scholarship), which supports outstanding international students, and has established research metrics demonstrating his scholarly impact: Scopus Author ID: 57220375948, Web of Science ResearcherID: JPL-7257-2023.\nHe has worked for the Department of Electronics and Telecommunication Engineering at International Islamic University Chittagong (2013-2017), where he contributed significantly to developing telecommunications engineering education. He received his Ph.D. in Information and Communication Engineering from Chosun University, Gwangju, South Korea in 2022. His doctoral studies were fully supported by the prestigious Korean Government Scholarship, recognizing his academic excellence and research potential."
+    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
   },
   {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Md Abdus Samad, PhD",
-    "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\nJun 24, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+    "objectID": "teaching.html#class-2",
+    "href": "teaching.html#class-2",
+    "title": "Teaching",
+    "section": "Class 2",
+    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
+  },
+  {
+    "objectID": "teaching.html#class-3",
+    "href": "teaching.html#class-3",
+    "title": "Teaching",
+    "section": "Class 3",
+    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
   },
   {
     "objectID": "publications60.html",
@@ -931,32 +938,123 @@
     "text": "2012\n\nM. A. Samad, J. Uddin, and M. R. Ahmed, “FIR Filter Design Using Modified Lanczos Window Function,” Advanced Materials Research, vol. 566, pp. 49–56, Sep. 2012. doi.org/10.4028/www.scientific.net/AMR.566.49\nM. A. Samad and M. I. Huq, “Correlation between Sensorimotor Area of Central Nervous System with Peripheral Nervous System by EEG and NCV for Motor Imagery Task,” International Conference on Electrical, Computer and Telecommunication Engineering, 01-02 December 2012 (ICECTE2012), RUET, Rajshahi-6204, Bangladesh.\nM. A. Samad, “A Novel Window Function Yielding Suppressed Mainlobe Width and Minimum Sidelobe Peak,” International Journal of Computer Science, Engineering and Information Technology, vol. 2, no. 2, pp. 91–103, Apr. 2012. doi.org/10.5121/ijcseit.2012.2209"
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Md Abdus Samad, PhD",
     "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+    "text": "Lab\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n\n  \n  \n\nDr. Md Abdus Samad is a telecommunications scholar, researcher, and educator whose research focuses on the intersection of wireless communications, artificial intelligence, and next-generation network technologies. He is a Research Professor in the Department of Information and Communication Engineering at Yeungnam University, Gyeongsan, South Korea. He is also a registered Korean Researcher and an active IEEE member, contributing to the advancement of telecommunications standards and research.\nHe previously taught at the undergraduate and graduate levels in the Department of Electronics and Telecommunication Engineering at International Islamic University Chittagong, where he served as an Assistant Professor from 2013 to 2017, contributing to the development of future telecommunications engineers through teaching, mentoring, and curriculum development.\nHis research explores how next-generation wireless networks (5G and beyond 6G) can overcome challenges related to millimeter-wave propagation, atmospheric interference, and signal quality—and how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. His leading and collaborative work has appeared in over 55 reputable journals indexed in SCIE (Science Citation Index Expanded) and SSCI (Social Sciences Citation Index), including publications in high-impact telecommunications and engineering journals.\nHis research has been supported by prestigious funding sources, including the Korean Government Scholarship (Global Korea Scholarship) during his doctoral studies and the National Research Foundation of Korea, underscoring the significance and quality of his work in advancing wireless communication technologies.\nHis work has contributed to the global understanding of advanced wireless communication systems. His research findings address critical challenges in millimeter-wave frequencies, atmospheric effects on signal propagation, and AI-enhanced network optimization. He actively serves the academic community as a peer reviewer for multiple international journals indexed in the Web of Science.\nHe has been recognized through the highly competitive Korean Government Scholarship (Global Korea Scholarship), which supports outstanding international students, and has established research metrics demonstrating his scholarly impact: Scopus Author ID: 57220375948, Web of Science ResearcherID: JPL-7257-2023.\nHe has worked for the Department of Electronics and Telecommunication Engineering at International Islamic University Chittagong (2013-2017), where he contributed significantly to developing telecommunications engineering education. He received his Ph.D. in Information and Communication Engineering from Chosun University, Gwangju, South Korea in 2022. His doctoral studies were fully supported by the prestigious Korean Government Scholarship, recognizing his academic excellence and research potential."
   },
   {
-    "objectID": "teaching.html#class-1",
-    "href": "teaching.html#class-1",
-    "title": "Teaching",
+    "objectID": "index.html#recent-posts",
+    "href": "index.html#recent-posts",
+    "title": "Md Abdus Samad, PhD",
+    "section": "Recent Posts",
+    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\nJun 24, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
   },
   {
-    "objectID": "teaching.html#class-2",
-    "href": "teaching.html#class-2",
-    "title": "Teaching",
-    "section": "Class 2",
-    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
+    "objectID": "latex-guide.html",
+    "href": "latex-guide.html",
+    "title": "LaTeX Reference Guide",
+    "section": "",
+    "text": "latexdiff --append-context2cmd=\"abstract\" old.tex new.tex &gt; diff.tex\nGenerates diff.tex with additions underlined in red.\n\n\n\n\\providecommand{\\DIFdel}[1]{}\n\\providecommand{\\DIFadd}[1]{{\\color{red}\\uline{#1}}}"
   },
   {
-    "objectID": "teaching.html#class-3",
-    "href": "teaching.html#class-3",
-    "title": "Teaching",
-    "section": "Class 3",
-    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
+    "objectID": "latex-guide.html#document-comparison-and-track-changes",
+    "href": "latex-guide.html#document-comparison-and-track-changes",
+    "title": "LaTeX Reference Guide",
+    "section": "",
+    "text": "latexdiff --append-context2cmd=\"abstract\" old.tex new.tex &gt; diff.tex\nGenerates diff.tex with additions underlined in red.\n\n\n\n\\providecommand{\\DIFdel}[1]{}\n\\providecommand{\\DIFadd}[1]{{\\color{red}\\uline{#1}}}"
+  },
+  {
+    "objectID": "latex-guide.html#table-design-and-layout",
+    "href": "latex-guide.html#table-design-and-layout",
+    "title": "LaTeX Reference Guide",
+    "section": "Table Design and Layout",
+    "text": "Table Design and Layout\n\nColor Entire Table\n{\\color{red}\n\\begin{tabular}{cc}\na & b \\\\\n1 & 2 \\\\\n\\end{tabular}}\n\n\nAdjust Table Spacing\n\\setlength{\\tabcolsep}{20pt}\n\\renewcommand{\\arraystretch}{1.5}\n\n\nMulti-Column Table Syntax\n\\multicolumn{2}{c}{Merged Cell}\n\n\nMulti-Row Table Syntax\n\\usepackage{multirow}\n\\multirow{2}{*}{Merged Row}\n\n\nResize Table to Fit Page Width\n\\resizebox{\\linewidth}{!}{%\n\\begin{tabular}...\\end{tabular}}"
+  },
+  {
+    "objectID": "latex-guide.html#algorithm-formatting",
+    "href": "latex-guide.html#algorithm-formatting",
+    "title": "LaTeX Reference Guide",
+    "section": "Algorithm Formatting",
+    "text": "Algorithm Formatting\n\nAlgorithm Autoref Support\n\\newcommand{\\algorithmautorefname}{Algorithm}\n\n\nSub-Step Numbering in Algorithms\n\\usepackage{algorithm,algpseudocode}\n\\newcounter{algsubstate}\n\\renewcommand{\\thealgsubstate}{\\alph{algsubstate}}\n\\newenvironment{algsubstates}{\n\\setcounter{algsubstate}{0}\n\\renewcommand{\\State}{\n\\stepcounter{algsubstate}\n\\Statex {\\footnotesize\\thealgsubstate:}\\space}}{}\n\n\nSplit Algorithm Across Pages\n\\usepackage{algorithm, algcompatible}\n\\algstore{blockname}\n...\n\\algrestore{blockname}"
+  },
+  {
+    "objectID": "latex-guide.html#hyperlink-styling",
+    "href": "latex-guide.html#hyperlink-styling",
+    "title": "LaTeX Reference Guide",
+    "section": "Hyperlink Styling",
+    "text": "Hyperlink Styling\n\nCustom Link Colors\n\\usepackage{hyperref}\n\\hypersetup{\ncolorlinks=true,\nlinkcolor=blue,\nfilecolor=blue,\nurlcolor=blue,\nallcolors=blue}\n\\urlstyle{same}"
+  },
+  {
+    "objectID": "latex-guide.html#citations-and-bibliography",
+    "href": "latex-guide.html#citations-and-bibliography",
+    "title": "LaTeX Reference Guide",
+    "section": "Citations and Bibliography",
+    "text": "Citations and Bibliography\n\nForce Numbered Style\n\\setcitestyle{numbers}\n\n\nUse (1) Style Instead of [1]\n\\usepackage[numbers,round]{natbib}\n\\bibliographystyle{vancouver}\n\n\nBack to Square Brackets\n\\usepackage[sort,numbers]{natbib}\n\\setcitestyle{square}\n\n\nShow Citation Keys for Debugging\n\\usepackage{showlabels}\n\\renewcommand{\\showlabelfont}{\\small\\color{blue}}\n\\showlabels[\\small\\color{gray}]{cite}\n\\showlabels[\\small\\color{red}]{bibitem}"
+  },
+  {
+    "objectID": "latex-guide.html#compilation-and-debugging",
+    "href": "latex-guide.html#compilation-and-debugging",
+    "title": "LaTeX Reference Guide",
+    "section": "Compilation and Debugging",
+    "text": "Compilation and Debugging\n\nShow Loaded Packages\n\\listfiles\n\n\nDelete Aux Files (Bash)\nrm -f *.aux *.log *.toc *.out *.lof *.lot *.fls *.fdb_latexmk *.synctex.gz *.nav *.snm *.bbl *.blg *.vrb *.xdv\n\n\nFull Compile Sequence (with BibTeX)\nlatexmk -pdf main.tex\n# or manual:\npdflatex main.tex \nbibtex main\npdflatex main.tex\npdflatex main.tex"
+  },
+  {
+    "objectID": "latex-guide.html#git-integration-with-overleaf",
+    "href": "latex-guide.html#git-integration-with-overleaf",
+    "title": "LaTeX Reference Guide",
+    "section": "Git Integration with Overleaf",
+    "text": "Git Integration with Overleaf\n\n\n\n\n\n\nTipGetting Started\n\n\n\nIn Overleaf: Menu → Git → Enable Git\n\n\n\nClone Overleaf Project\nCopy URL like: https://git.overleaf.com/project-id\ncd ~/Documents\ngit clone https://git.overleaf.com/project-id\ncd project-id\n\n\nPush Local Changes to Overleaf\ngit add .\ngit commit -m \"Update\"\ngit push\n\n\nPull Before Push to Avoid Conflict\ngit pull --rebase\n\n\nCommand Summary\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit pull origin master\nPull changes from Overleaf (remote: origin, branch: master)\n\n\ngit push origin master\nPush your local changes to Overleaf\n\n\ngit pull overleaf master\nSame as above, but only if your remote is named overleaf"
+  },
+  {
+    "objectID": "latex-guide.html#opening-pdfs-from-git-bash-on-windows",
+    "href": "latex-guide.html#opening-pdfs-from-git-bash-on-windows",
+    "title": "LaTeX Reference Guide",
+    "section": "Opening PDFs from Git Bash on Windows",
+    "text": "Opening PDFs from Git Bash on Windows\n\nNavigate to Directory\ncd /c/Users/YourName/Documents/latex-project\n\n\nOpen PDF in Default Viewer\nstart \"\" \"main.pdf\"\n# or\nexplorer.exe \"main.pdf\"\n\n\nAutomate Compile and Open\npdflatex main.tex && start \"\" \"main.pdf\""
+  },
+  {
+    "objectID": "latex-guide.html#word-counting-in-latex",
+    "href": "latex-guide.html#word-counting-in-latex",
+    "title": "LaTeX Reference Guide",
+    "section": "Word Counting in LaTeX",
+    "text": "Word Counting in LaTeX\nUse texcount for accurate word count:\ntexcount yourfile.tex\ntexcount -sum yourfile.tex\ntexcount -inc yourfile.tex\ntexcount -1 yourfile.tex\ntexcount -brief yourfile.tex\ntexcount -inc -sum -total main.tex"
+  },
+  {
+    "objectID": "latex-guide.html#creating-latex-tables-with-merged-headers",
+    "href": "latex-guide.html#creating-latex-tables-with-merged-headers",
+    "title": "LaTeX Reference Guide",
+    "section": "Creating LaTeX Tables with Merged Headers",
+    "text": "Creating LaTeX Tables with Merged Headers\n\n\n\n\n\n\nNoteRequirements\n\n\n\n\nColumns 1 and 2: vertical merge (2 rows)\nColumns 3–5: under “Group Header” merged in first row, subheaders in second row\nColumn 6: vertical merge (2 rows)\n\n\n\n\nOptional Customizations\n\nUse booktabs for horizontal lines\nUse tabularx with \\textwidth for dynamic width\nCenter-align all columns\nAdd sample data rows\nInclude \\caption{} and \\label{}\nAdd colored headers (requires xcolor)\nEnsure compilation-ready for Overleaf/TeXstudio"
+  },
+  {
+    "objectID": "latex-guide.html#tabularx-column-spacing-issues",
+    "href": "latex-guide.html#tabularx-column-spacing-issues",
+    "title": "LaTeX Reference Guide",
+    "section": "TabularX Column Spacing Issues",
+    "text": "TabularX Column Spacing Issues\n\n\n\n\n\n\nWarningProblem\n\n\n\nReducing column spacing with \\setlength{\\tabcolsep}{4pt} may lead to inconsistent column widths.\n\n\n\nWhy This Happens\n\nAutomatic Column Stretching: tabularx distributes remaining width among X columns proportionally\nReduced Padding: Smaller \\tabcolsep makes differences more noticeable\nMultiple X Columns: Algorithm may leave fractional rounding errors\nComplex Tables: Multirow/multicolumn cells exacerbate uneven widths\n\n\n\nSolutions\n1. Use Proportional X Columns\n\\begin{tabularx}{\\textwidth}{|&gt;{\\hsize=0.5\\hsize}X|&gt;{\\hsize=1\\hsize}X|c|}\n2. Consider tabular* for Precise Control\n\\begin{tabular*}{\\textwidth}{@{\\extracolsep{\\fill}}|l|l|l|}\n3. Use Fixed-Width Columns\np{width}\n\n\n\n\n\n\nTipPro Tips\n\n\n\n\nCombine reduced \\tabcolsep with \\arraystretch for balanced spacing\nAlways test with multiple rows and different content lengths\nFor highly complex tables, consider splitting into smaller subtables"
+  },
+  {
+    "objectID": "latex-guide.html#creating-sequential-dummy-figures-in-latex-with-tikz",
+    "href": "latex-guide.html#creating-sequential-dummy-figures-in-latex-with-tikz",
+    "title": "LaTeX Reference Guide",
+    "section": "Creating Sequential Dummy Figures in LaTeX with TikZ",
+    "text": "Creating Sequential Dummy Figures in LaTeX with TikZ\nSometimes you need placeholder figures while drafting. Here is how to generate 20 numbered dummy figures automatically:\n\\documentclass{article}\n\\usepackage{tikz}\n\n\\begin{document}\n\n\\section*{Sequential Dummy Figures with TikZ}\n\n% Define a command to create a numbered dummy image\n\\newcommand{\\numberedimage}[1]{%\n  \\begin{figure}[h!]\n    \\centering\n    \\begin{tikzpicture}\n      \\draw[fill=gray!30] (0,0) rectangle (4,3); % gray rectangle\n      \\node at (2,1.5) {\\Huge Image #1};         % centered label\n    \\end{tikzpicture}\n    \\caption{Dummy figure #1}\n  \\end{figure}\n}\n\n% Generate 20 dummy figures\n\\numberedimage{1}\n\\numberedimage{2}\n\\numberedimage{3}\n% ...continue to 20\n\n\\end{document}\n\nWhat this code does\n\nDefines a custom command \\numberedimage{n}\nEach dummy figure is a gray rectangle with “Image n” written inside\nFigures are numbered 1 through 20, each with its own caption\n\n\n\n\n\n\n\nNoteUse Cases\n\n\n\n\nTesting figure layouts\nReserving space for future graphics\nCreating mockups in academic papers"
+  },
+  {
+    "objectID": "latex-guide.html#quick-reference-table",
+    "href": "latex-guide.html#quick-reference-table",
+    "title": "LaTeX Reference Guide",
+    "section": "Quick Reference Table",
+    "text": "Quick Reference Table\n\n\n\n\n\n\n\n\nCategory\nCommand\nPurpose\n\n\n\n\nComparison\nlatexdiff old.tex new.tex &gt; diff.tex\nCompare documents\n\n\nTables\n\\multicolumn{2}{c}{Text}\nMerge columns\n\n\nTables\n\\multirow{2}{*}{Text}\nMerge rows\n\n\nTables\n\\resizebox{\\linewidth}{!}{...}\nFit table to page\n\n\nAlgorithm\n\\algorithmautorefname\nAutoref support\n\n\nLinks\n\\hypersetup{colorlinks=true}\nColor hyperlinks\n\n\nCitations\n\\setcitestyle{numbers}\nNumbered citations\n\n\nCompile\nlatexmk -pdf main.tex\nFull compilation\n\n\nGit\ngit pull --rebase\nSync with Overleaf\n\n\nWord Count\ntexcount -inc -sum main.tex\nCount words"
   },
   {
     "objectID": "posts/paper-title/index.html#abstract",

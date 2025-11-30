@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Gang He">
+<meta name="dcterms.date" content="2025-05-30">
+<meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
+
+<title>LaTeX Reference Guide – Md Abdus Samad</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-575fc91de65260b003f24fef061fe66a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '', { 'anonymize_ip': true});
+</script>
+
+<!-- 
+Load Academicons v1: https://jpswalsh.github.io/academicons/
+-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+<!---
+The following code are needed to show dimension citation and altmetrics.
+https://api.altmetric.com/embeds.html
+https://badge.dimensions.ai/
+--->
+
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="LaTeX Reference Guide – Md Abdus Samad">
+<meta property="og:description" content="Essential Commands and Tips for Academic Writing">
+<meta property="og:image" content="https://quarto.org/quarto.png">
+<meta property="og:site_name" content="Md Abdus Samad">
+<meta name="twitter:title" content="LaTeX Reference Guide – Md Abdus Samad">
+<meta name="twitter:description" content="Essential Commands and Tips for Academic Writing">
+<meta name="twitter:image" content="https://quarto.org/quarto.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Md Abdus Samad</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./posts.html#category=news">
+ <span class="dropdown-text">News</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts.html#category=event">
+ <span class="dropdown-text">Events</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./contact.html">
+ <span class="dropdown-text">Contact</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./publications60.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./latex-guide.html" aria-current="page"> 
+<span class="menu-text">LaTeX</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-miscellaneous" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Miscellaneous</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-miscellaneous">    
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/publishers.html">
+ <span class="dropdown-text">List of Publishers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/templates.html">
+ <span class="dropdown-text">Journal Templates</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/indexing.html">
+ <span class="dropdown-text">Verifying Journal Indexing</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/reference.html">
+ <span class="dropdown-text">Reference, Image Quality, and Detexify</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/author-services.html">
+ <span class="dropdown-text">Author Services by Major Publishers</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/conversion.html">
+ <span class="dropdown-text">Document Conversion and Figure Tools</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/anonymization.html">
+ <span class="dropdown-text">Manuscript Anonymization</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/elsevier.html">
+ <span class="dropdown-text">Switching Elsevier LaTeX Templates</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/docx-latex.html">
+ <span class="dropdown-text">DOCX to LaTeX Convert</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/latex-reference.html">
+ <span class="dropdown-text">LaTeX Reference and Label Management</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/latex-converter.html">
+ <span class="dropdown-text">Latex Reference Converter</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/section-labels.html">
+ <span class="dropdown-text">Sequential Section Labels</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/open-access.html">
+ <span class="dropdown-text">Open Access Journals having Discount Policy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/overleaf.html">
+ <span class="dropdown-text">Overleaf git sync issues</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/latexdiff.html">
+ <span class="dropdown-text">Latexdiff Configuration Guide</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/opensource.html">
+ <span class="dropdown-text">Open source tools</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/windows.html">
+ <span class="dropdown-text">Windows shortcuts &amp; commands</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./miscellaneous/mathpix.html">
+ <span class="dropdown-text">Mathpix PDF to Word</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./people.html"> 
+<span class="menu-text">Group</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./files/nsf-biosketch.pdf"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app" target="_blank"> 
+<span class="menu-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./posts.xml" target="_blank"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#document-comparison-and-track-changes" id="toc-document-comparison-and-track-changes" class="nav-link active" data-scroll-target="#document-comparison-and-track-changes">Document Comparison and Track Changes</a>
+  <ul class="collapse">
+  <li><a href="#compare-two-.tex-files-with-latexdiff" id="toc-compare-two-.tex-files-with-latexdiff" class="nav-link" data-scroll-target="#compare-two-.tex-files-with-latexdiff">Compare Two .tex Files with latexdiff</a></li>
+  <li><a href="#hide-deleted-text-and-highlight-additions" id="toc-hide-deleted-text-and-highlight-additions" class="nav-link" data-scroll-target="#hide-deleted-text-and-highlight-additions">Hide Deleted Text and Highlight Additions</a></li>
+  </ul></li>
+  <li><a href="#table-design-and-layout" id="toc-table-design-and-layout" class="nav-link" data-scroll-target="#table-design-and-layout">Table Design and Layout</a>
+  <ul class="collapse">
+  <li><a href="#color-entire-table" id="toc-color-entire-table" class="nav-link" data-scroll-target="#color-entire-table">Color Entire Table</a></li>
+  <li><a href="#adjust-table-spacing" id="toc-adjust-table-spacing" class="nav-link" data-scroll-target="#adjust-table-spacing">Adjust Table Spacing</a></li>
+  <li><a href="#multi-column-table-syntax" id="toc-multi-column-table-syntax" class="nav-link" data-scroll-target="#multi-column-table-syntax">Multi-Column Table Syntax</a></li>
+  <li><a href="#multi-row-table-syntax" id="toc-multi-row-table-syntax" class="nav-link" data-scroll-target="#multi-row-table-syntax">Multi-Row Table Syntax</a></li>
+  <li><a href="#resize-table-to-fit-page-width" id="toc-resize-table-to-fit-page-width" class="nav-link" data-scroll-target="#resize-table-to-fit-page-width">Resize Table to Fit Page Width</a></li>
+  </ul></li>
+  <li><a href="#algorithm-formatting" id="toc-algorithm-formatting" class="nav-link" data-scroll-target="#algorithm-formatting">Algorithm Formatting</a>
+  <ul class="collapse">
+  <li><a href="#algorithm-autoref-support" id="toc-algorithm-autoref-support" class="nav-link" data-scroll-target="#algorithm-autoref-support">Algorithm Autoref Support</a></li>
+  <li><a href="#sub-step-numbering-in-algorithms" id="toc-sub-step-numbering-in-algorithms" class="nav-link" data-scroll-target="#sub-step-numbering-in-algorithms">Sub-Step Numbering in Algorithms</a></li>
+  <li><a href="#split-algorithm-across-pages" id="toc-split-algorithm-across-pages" class="nav-link" data-scroll-target="#split-algorithm-across-pages">Split Algorithm Across Pages</a></li>
+  </ul></li>
+  <li><a href="#hyperlink-styling" id="toc-hyperlink-styling" class="nav-link" data-scroll-target="#hyperlink-styling">Hyperlink Styling</a>
+  <ul class="collapse">
+  <li><a href="#custom-link-colors" id="toc-custom-link-colors" class="nav-link" data-scroll-target="#custom-link-colors">Custom Link Colors</a></li>
+  </ul></li>
+  <li><a href="#citations-and-bibliography" id="toc-citations-and-bibliography" class="nav-link" data-scroll-target="#citations-and-bibliography">Citations and Bibliography</a>
+  <ul class="collapse">
+  <li><a href="#force-numbered-style" id="toc-force-numbered-style" class="nav-link" data-scroll-target="#force-numbered-style">Force Numbered Style</a></li>
+  <li><a href="#use-1-style-instead-of-1" id="toc-use-1-style-instead-of-1" class="nav-link" data-scroll-target="#use-1-style-instead-of-1">Use (1) Style Instead of [1]</a></li>
+  <li><a href="#back-to-square-brackets" id="toc-back-to-square-brackets" class="nav-link" data-scroll-target="#back-to-square-brackets">Back to Square Brackets</a></li>
+  <li><a href="#show-citation-keys-for-debugging" id="toc-show-citation-keys-for-debugging" class="nav-link" data-scroll-target="#show-citation-keys-for-debugging">Show Citation Keys for Debugging</a></li>
+  </ul></li>
+  <li><a href="#compilation-and-debugging" id="toc-compilation-and-debugging" class="nav-link" data-scroll-target="#compilation-and-debugging">Compilation and Debugging</a>
+  <ul class="collapse">
+  <li><a href="#show-loaded-packages" id="toc-show-loaded-packages" class="nav-link" data-scroll-target="#show-loaded-packages">Show Loaded Packages</a></li>
+  <li><a href="#delete-aux-files-bash" id="toc-delete-aux-files-bash" class="nav-link" data-scroll-target="#delete-aux-files-bash">Delete Aux Files (Bash)</a></li>
+  <li><a href="#full-compile-sequence-with-bibtex" id="toc-full-compile-sequence-with-bibtex" class="nav-link" data-scroll-target="#full-compile-sequence-with-bibtex">Full Compile Sequence (with BibTeX)</a></li>
+  </ul></li>
+  <li><a href="#git-integration-with-overleaf" id="toc-git-integration-with-overleaf" class="nav-link" data-scroll-target="#git-integration-with-overleaf">Git Integration with Overleaf</a>
+  <ul class="collapse">
+  <li><a href="#clone-overleaf-project" id="toc-clone-overleaf-project" class="nav-link" data-scroll-target="#clone-overleaf-project">Clone Overleaf Project</a></li>
+  <li><a href="#push-local-changes-to-overleaf" id="toc-push-local-changes-to-overleaf" class="nav-link" data-scroll-target="#push-local-changes-to-overleaf">Push Local Changes to Overleaf</a></li>
+  <li><a href="#pull-before-push-to-avoid-conflict" id="toc-pull-before-push-to-avoid-conflict" class="nav-link" data-scroll-target="#pull-before-push-to-avoid-conflict">Pull Before Push to Avoid Conflict</a></li>
+  <li><a href="#command-summary" id="toc-command-summary" class="nav-link" data-scroll-target="#command-summary">Command Summary</a></li>
+  </ul></li>
+  <li><a href="#opening-pdfs-from-git-bash-on-windows" id="toc-opening-pdfs-from-git-bash-on-windows" class="nav-link" data-scroll-target="#opening-pdfs-from-git-bash-on-windows">Opening PDFs from Git Bash on Windows</a>
+  <ul class="collapse">
+  <li><a href="#navigate-to-directory" id="toc-navigate-to-directory" class="nav-link" data-scroll-target="#navigate-to-directory">Navigate to Directory</a></li>
+  <li><a href="#open-pdf-in-default-viewer" id="toc-open-pdf-in-default-viewer" class="nav-link" data-scroll-target="#open-pdf-in-default-viewer">Open PDF in Default Viewer</a></li>
+  <li><a href="#automate-compile-and-open" id="toc-automate-compile-and-open" class="nav-link" data-scroll-target="#automate-compile-and-open">Automate Compile and Open</a></li>
+  </ul></li>
+  <li><a href="#word-counting-in-latex" id="toc-word-counting-in-latex" class="nav-link" data-scroll-target="#word-counting-in-latex">Word Counting in LaTeX</a></li>
+  <li><a href="#creating-latex-tables-with-merged-headers" id="toc-creating-latex-tables-with-merged-headers" class="nav-link" data-scroll-target="#creating-latex-tables-with-merged-headers">Creating LaTeX Tables with Merged Headers</a>
+  <ul class="collapse">
+  <li><a href="#optional-customizations" id="toc-optional-customizations" class="nav-link" data-scroll-target="#optional-customizations">Optional Customizations</a></li>
+  </ul></li>
+  <li><a href="#tabularx-column-spacing-issues" id="toc-tabularx-column-spacing-issues" class="nav-link" data-scroll-target="#tabularx-column-spacing-issues">TabularX Column Spacing Issues</a>
+  <ul class="collapse">
+  <li><a href="#why-this-happens" id="toc-why-this-happens" class="nav-link" data-scroll-target="#why-this-happens">Why This Happens</a></li>
+  <li><a href="#solutions" id="toc-solutions" class="nav-link" data-scroll-target="#solutions">Solutions</a></li>
+  </ul></li>
+  <li><a href="#creating-sequential-dummy-figures-in-latex-with-tikz" id="toc-creating-sequential-dummy-figures-in-latex-with-tikz" class="nav-link" data-scroll-target="#creating-sequential-dummy-figures-in-latex-with-tikz">Creating Sequential Dummy Figures in LaTeX with TikZ</a>
+  <ul class="collapse">
+  <li><a href="#what-this-code-does" id="toc-what-this-code-does" class="nav-link" data-scroll-target="#what-this-code-does">What this code does</a></li>
+  </ul></li>
+  <li><a href="#quick-reference-table" id="toc-quick-reference-table" class="nav-link" data-scroll-target="#quick-reference-table">Quick Reference Table</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">LaTeX Reference Guide</h1>
+<p class="subtitle lead">Essential Commands and Tips for Academic Writing</p>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Md Abdus Samad </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 30, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="document-comparison-and-track-changes" class="level2">
+<h2 class="anchored" data-anchor-id="document-comparison-and-track-changes">Document Comparison and Track Changes</h2>
+<section id="compare-two-.tex-files-with-latexdiff" class="level3">
+<h3 class="anchored" data-anchor-id="compare-two-.tex-files-with-latexdiff">Compare Two .tex Files with latexdiff</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">latexdiff</span> <span class="at">--append-context2cmd</span><span class="op">=</span><span class="st">"abstract"</span> old.tex new.tex <span class="op">&gt;</span> diff.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Generates diff.tex with additions underlined in red.</p>
+</section>
+<section id="hide-deleted-text-and-highlight-additions" class="level3">
+<h3 class="anchored" data-anchor-id="hide-deleted-text-and-highlight-additions">Hide Deleted Text and Highlight Additions</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\providecommand</span>{<span class="ex">\DIFdel</span>}[1]{}</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">\providecommand</span>{<span class="ex">\DIFadd</span>}[1]{{<span class="fu">\color</span>{red}<span class="fu">\uline</span>{#1}}}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="table-design-and-layout" class="level2">
+<h2 class="anchored" data-anchor-id="table-design-and-layout">Table Design and Layout</h2>
+<section id="color-entire-table" class="level3">
+<h3 class="anchored" data-anchor-id="color-entire-table">Color Entire Table</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>{<span class="fu">\color</span>{red}</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">tabular</span>}{cc}</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>a <span class="op">&amp;</span> b <span class="fu">\\</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>1 <span class="op">&amp;</span> 2 <span class="fu">\\</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">tabular</span>}}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="adjust-table-spacing" class="level3">
+<h3 class="anchored" data-anchor-id="adjust-table-spacing">Adjust Table Spacing</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\setlength</span>{<span class="fu">\tabcolsep</span>}{20pt}</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">\renewcommand</span>{<span class="ex">\arraystretch</span>}{1.5}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="multi-column-table-syntax" class="level3">
+<h3 class="anchored" data-anchor-id="multi-column-table-syntax">Multi-Column Table Syntax</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\multicolumn</span>{2}{c}{Merged Cell}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="multi-row-table-syntax" class="level3">
+<h3 class="anchored" data-anchor-id="multi-row-table-syntax">Multi-Row Table Syntax</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\usepackage</span>{<span class="ex">multirow</span>}</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">\multirow</span>{2}{*}{Merged Row}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="resize-table-to-fit-page-width" class="level3">
+<h3 class="anchored" data-anchor-id="resize-table-to-fit-page-width">Resize Table to Fit Page Width</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\resizebox</span>{<span class="fu">\linewidth</span>}{!}{<span class="co">%</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">tabular</span>}...<span class="kw">\end</span>{<span class="ex">tabular</span>}}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="algorithm-formatting" class="level2">
+<h2 class="anchored" data-anchor-id="algorithm-formatting">Algorithm Formatting</h2>
+<section id="algorithm-autoref-support" class="level3">
+<h3 class="anchored" data-anchor-id="algorithm-autoref-support">Algorithm Autoref Support</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\newcommand</span>{<span class="ex">\algorithmautorefname</span>}{Algorithm}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="sub-step-numbering-in-algorithms" class="level3">
+<h3 class="anchored" data-anchor-id="sub-step-numbering-in-algorithms">Sub-Step Numbering in Algorithms</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\usepackage</span>{<span class="ex">algorithm,algpseudocode</span>}</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="fu">\newcounter</span>{algsubstate}</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="fu">\renewcommand</span>{<span class="ex">\thealgsubstate</span>}{<span class="fu">\alph</span>{algsubstate}}</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="fu">\newenvironment</span>{algsubstates}{</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">\setcounter</span>{algsubstate}{0}</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="fu">\renewcommand</span>{<span class="ex">\State</span>}{</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="fu">\stepcounter</span>{algsubstate}</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="fu">\Statex</span> {<span class="fu">\footnotesize\thealgsubstate</span>:}<span class="fu">\space</span>}}{}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="split-algorithm-across-pages" class="level3">
+<h3 class="anchored" data-anchor-id="split-algorithm-across-pages">Split Algorithm Across Pages</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\usepackage</span>{<span class="ex">algorithm, algcompatible</span>}</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">\algstore</span>{blockname}</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>...</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="fu">\algrestore</span>{blockname}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="hyperlink-styling" class="level2">
+<h2 class="anchored" data-anchor-id="hyperlink-styling">Hyperlink Styling</h2>
+<section id="custom-link-colors" class="level3">
+<h3 class="anchored" data-anchor-id="custom-link-colors">Custom Link Colors</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\usepackage</span>{<span class="ex">hyperref</span>}</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">\hypersetup</span>{</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>colorlinks=true,</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>linkcolor=blue,</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>filecolor=blue,</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>urlcolor=blue,</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>allcolors=blue}</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="fu">\urlstyle</span>{same}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="citations-and-bibliography" class="level2">
+<h2 class="anchored" data-anchor-id="citations-and-bibliography">Citations and Bibliography</h2>
+<section id="force-numbered-style" class="level3">
+<h3 class="anchored" data-anchor-id="force-numbered-style">Force Numbered Style</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\setcitestyle</span>{numbers}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="use-1-style-instead-of-1" class="level3">
+<h3 class="anchored" data-anchor-id="use-1-style-instead-of-1">Use (1) Style Instead of [1]</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\usepackage</span>[numbers,round]{<span class="ex">natbib</span>}</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="bu">\bibliographystyle</span>{<span class="ex">vancouver</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="back-to-square-brackets" class="level3">
+<h3 class="anchored" data-anchor-id="back-to-square-brackets">Back to Square Brackets</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\usepackage</span>[sort,numbers]{<span class="ex">natbib</span>}</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">\setcitestyle</span>{square}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="show-citation-keys-for-debugging" class="level3">
+<h3 class="anchored" data-anchor-id="show-citation-keys-for-debugging">Show Citation Keys for Debugging</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\usepackage</span>{<span class="ex">showlabels</span>}</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">\renewcommand</span>{<span class="ex">\showlabelfont</span>}{<span class="fu">\small\color</span>{blue}}</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="fu">\showlabels</span>[<span class="fu">\small\color</span>{gray}]{cite}</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="fu">\showlabels</span>[<span class="fu">\small\color</span>{red}]{bibitem}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="compilation-and-debugging" class="level2">
+<h2 class="anchored" data-anchor-id="compilation-and-debugging">Compilation and Debugging</h2>
+<section id="show-loaded-packages" class="level3">
+<h3 class="anchored" data-anchor-id="show-loaded-packages">Show Loaded Packages</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">\listfiles</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="delete-aux-files-bash" class="level3">
+<h3 class="anchored" data-anchor-id="delete-aux-files-bash">Delete Aux Files (Bash)</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> <span class="at">-f</span> <span class="pp">*</span>.aux <span class="pp">*</span>.log <span class="pp">*</span>.toc <span class="pp">*</span>.out <span class="pp">*</span>.lof <span class="pp">*</span>.lot <span class="pp">*</span>.fls <span class="pp">*</span>.fdb_latexmk <span class="pp">*</span>.synctex.gz <span class="pp">*</span>.nav <span class="pp">*</span>.snm <span class="pp">*</span>.bbl <span class="pp">*</span>.blg <span class="pp">*</span>.vrb <span class="pp">*</span>.xdv</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="full-compile-sequence-with-bibtex" class="level3">
+<h3 class="anchored" data-anchor-id="full-compile-sequence-with-bibtex">Full Compile Sequence (with BibTeX)</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="ex">latexmk</span> <span class="at">-pdf</span> main.tex</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="co"># or manual:</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> main.tex </span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="ex">bibtex</span> main</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> main.tex</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> main.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="git-integration-with-overleaf" class="level2">
+<h2 class="anchored" data-anchor-id="git-integration-with-overleaf">Git Integration with Overleaf</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Getting Started
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In Overleaf: Menu → Git → Enable Git</p>
+</div>
+</div>
+<section id="clone-overleaf-project" class="level3">
+<h3 class="anchored" data-anchor-id="clone-overleaf-project">Clone Overleaf Project</h3>
+<p>Copy URL like: <code>https://git.overleaf.com/project-id</code></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/Documents</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://git.overleaf.com/project-id</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> project-id</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="push-local-changes-to-overleaf" class="level3">
+<h3 class="anchored" data-anchor-id="push-local-changes-to-overleaf">Push Local Changes to Overleaf</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Update"</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="pull-before-push-to-avoid-conflict" class="level3">
+<h3 class="anchored" data-anchor-id="pull-before-push-to-avoid-conflict">Pull Before Push to Avoid Conflict</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull <span class="at">--rebase</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="command-summary" class="level3">
+<h3 class="anchored" data-anchor-id="command-summary">Command Summary</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 59%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>git pull origin master</code></td>
+<td>Pull changes from Overleaf (remote: origin, branch: master)</td>
+</tr>
+<tr class="even">
+<td><code>git push origin master</code></td>
+<td>Push your local changes to Overleaf</td>
+</tr>
+<tr class="odd">
+<td><code>git pull overleaf master</code></td>
+<td>Same as above, but only if your remote is named overleaf</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="opening-pdfs-from-git-bash-on-windows" class="level2">
+<h2 class="anchored" data-anchor-id="opening-pdfs-from-git-bash-on-windows">Opening PDFs from Git Bash on Windows</h2>
+<section id="navigate-to-directory" class="level3">
+<h3 class="anchored" data-anchor-id="navigate-to-directory">Navigate to Directory</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /c/Users/YourName/Documents/latex-project</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="open-pdf-in-default-viewer" class="level3">
+<h3 class="anchored" data-anchor-id="open-pdf-in-default-viewer">Open PDF in Default Viewer</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb23"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="ex">start</span> <span class="st">""</span> <span class="st">"main.pdf"</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="co"># or</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="ex">explorer.exe</span> <span class="st">"main.pdf"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="automate-compile-and-open" class="level3">
+<h3 class="anchored" data-anchor-id="automate-compile-and-open">Automate Compile and Open</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> main.tex <span class="kw">&amp;&amp;</span> <span class="ex">start</span> <span class="st">""</span> <span class="st">"main.pdf"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="word-counting-in-latex" class="level2">
+<h2 class="anchored" data-anchor-id="word-counting-in-latex">Word Counting in LaTeX</h2>
+<p>Use texcount for accurate word count:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> yourfile.tex</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-sum</span> yourfile.tex</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-inc</span> yourfile.tex</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-1</span> yourfile.tex</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-brief</span> yourfile.tex</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-inc</span> <span class="at">-sum</span> <span class="at">-total</span> main.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+<section id="creating-latex-tables-with-merged-headers" class="level2">
+<h2 class="anchored" data-anchor-id="creating-latex-tables-with-merged-headers">Creating LaTeX Tables with Merged Headers</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Requirements
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Columns 1 and 2: vertical merge (2 rows)</li>
+<li>Columns 3–5: under “Group Header” merged in first row, subheaders in second row</li>
+<li>Column 6: vertical merge (2 rows)</li>
+</ul>
+</div>
+</div>
+<section id="optional-customizations" class="level3">
+<h3 class="anchored" data-anchor-id="optional-customizations">Optional Customizations</h3>
+<ul>
+<li>Use booktabs for horizontal lines</li>
+<li>Use tabularx with <code>\textwidth</code> for dynamic width</li>
+<li>Center-align all columns</li>
+<li>Add sample data rows</li>
+<li>Include <code>\caption{}</code> and <code>\label{}</code></li>
+<li>Add colored headers (requires xcolor)</li>
+<li>Ensure compilation-ready for Overleaf/TeXstudio</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="tabularx-column-spacing-issues" class="level2">
+<h2 class="anchored" data-anchor-id="tabularx-column-spacing-issues">TabularX Column Spacing Issues</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Problem
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Reducing column spacing with <code>\setlength{\tabcolsep}{4pt}</code> may lead to inconsistent column widths.</p>
+</div>
+</div>
+<section id="why-this-happens" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-happens">Why This Happens</h3>
+<ul>
+<li><strong>Automatic Column Stretching:</strong> tabularx distributes remaining width among X columns proportionally</li>
+<li><strong>Reduced Padding:</strong> Smaller <code>\tabcolsep</code> makes differences more noticeable</li>
+<li><strong>Multiple X Columns:</strong> Algorithm may leave fractional rounding errors</li>
+<li><strong>Complex Tables:</strong> Multirow/multicolumn cells exacerbate uneven widths</li>
+</ul>
+</section>
+<section id="solutions" class="level3">
+<h3 class="anchored" data-anchor-id="solutions">Solutions</h3>
+<p><strong>1. Use Proportional X Columns</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb26"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">tabularx</span>}{<span class="fu">\textwidth</span>}{|&gt;{<span class="fu">\hsize</span>=0.5<span class="fu">\hsize</span>}X|&gt;{<span class="fu">\hsize</span>=1<span class="fu">\hsize</span>}X|c|}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>2. Consider tabular* for Precise Control</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">tabular*</span>}{<span class="fu">\textwidth</span>}{<span class="ch">@{\extracolsep{\fill}}</span>|l|l|l|}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>3. Use Fixed-Width Columns</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>p{width}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Pro Tips
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Combine reduced <code>\tabcolsep</code> with <code>\arraystretch</code> for balanced spacing</li>
+<li>Always test with multiple rows and different content lengths</li>
+<li>For highly complex tables, consider splitting into smaller subtables</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="creating-sequential-dummy-figures-in-latex-with-tikz" class="level2">
+<h2 class="anchored" data-anchor-id="creating-sequential-dummy-figures-in-latex-with-tikz">Creating Sequential Dummy Figures in LaTeX with TikZ</h2>
+<p>Sometimes you need placeholder figures while drafting. Here is how to generate 20 numbered dummy figures automatically:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb29"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>{<span class="ex">article</span>}</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="bu">\usepackage</span>{<span class="ex">tikz</span>}</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">document</span>}</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a><span class="kw">\section*</span>{Sequential Dummy Figures with TikZ}</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a><span class="co">% Define a command to create a numbered dummy image</span></span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a><span class="fu">\newcommand</span>{<span class="ex">\numberedimage</span>}[1]{<span class="co">%</span></span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">\begin</span>{<span class="ex">figure</span>}[h!]</span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\centering</span></span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">\begin</span>{<span class="ex">tikzpicture</span>}</span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>      <span class="fu">\draw</span>[fill=gray!30] (0,0) rectangle (4,3); <span class="co">% gray rectangle</span></span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a>      <span class="fu">\node</span> at (2,1.5) {<span class="fu">\Huge</span> Image #1};         <span class="co">% centered label</span></span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a>    <span class="kw">\end</span>{<span class="ex">tikzpicture</span>}</span>
+<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\caption</span>{Dummy figure #1}</span>
+<span id="cb29-17"><a href="#cb29-17" aria-hidden="true" tabindex="-1"></a>  <span class="kw">\end</span>{<span class="ex">figure</span>}</span>
+<span id="cb29-18"><a href="#cb29-18" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb29-19"><a href="#cb29-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-20"><a href="#cb29-20" aria-hidden="true" tabindex="-1"></a><span class="co">% Generate 20 dummy figures</span></span>
+<span id="cb29-21"><a href="#cb29-21" aria-hidden="true" tabindex="-1"></a><span class="fu">\numberedimage</span>{1}</span>
+<span id="cb29-22"><a href="#cb29-22" aria-hidden="true" tabindex="-1"></a><span class="fu">\numberedimage</span>{2}</span>
+<span id="cb29-23"><a href="#cb29-23" aria-hidden="true" tabindex="-1"></a><span class="fu">\numberedimage</span>{3}</span>
+<span id="cb29-24"><a href="#cb29-24" aria-hidden="true" tabindex="-1"></a><span class="co">% ...continue to 20</span></span>
+<span id="cb29-25"><a href="#cb29-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-26"><a href="#cb29-26" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">document</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="what-this-code-does" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-code-does">What this code does</h3>
+<ul>
+<li>Defines a custom command <code>\numberedimage{n}</code></li>
+<li>Each dummy figure is a gray rectangle with “Image n” written inside</li>
+<li>Figures are numbered 1 through 20, each with its own caption</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Use Cases
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Testing figure layouts</li>
+<li>Reserving space for future graphics</li>
+<li>Creating mockups in academic papers</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="quick-reference-table" class="level2">
+<h2 class="anchored" data-anchor-id="quick-reference-table">Quick Reference Table</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 32%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Command</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Comparison</td>
+<td><code>latexdiff old.tex new.tex &gt; diff.tex</code></td>
+<td>Compare documents</td>
+</tr>
+<tr class="even">
+<td>Tables</td>
+<td><code>\multicolumn{2}{c}{Text}</code></td>
+<td>Merge columns</td>
+</tr>
+<tr class="odd">
+<td>Tables</td>
+<td><code>\multirow{2}{*}{Text}</code></td>
+<td>Merge rows</td>
+</tr>
+<tr class="even">
+<td>Tables</td>
+<td><code>\resizebox{\linewidth}{!}{...}</code></td>
+<td>Fit table to page</td>
+</tr>
+<tr class="odd">
+<td>Algorithm</td>
+<td><code>\algorithmautorefname</code></td>
+<td>Autoref support</td>
+</tr>
+<tr class="even">
+<td>Links</td>
+<td><code>\hypersetup{colorlinks=true}</code></td>
+<td>Color hyperlinks</td>
+</tr>
+<tr class="odd">
+<td>Citations</td>
+<td><code>\setcitestyle{numbers}</code></td>
+<td>Numbered citations</td>
+</tr>
+<tr class="even">
+<td>Compile</td>
+<td><code>latexmk -pdf main.tex</code></td>
+<td>Full compilation</td>
+</tr>
+<tr class="odd">
+<td>Git</td>
+<td><code>git pull --rebase</code></td>
+<td>Sync with Overleaf</td>
+</tr>
+<tr class="even">
+<td>Word Count</td>
+<td><code>texcount -inc -sum main.tex</code></td>
+<td>Count words</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("^(?:http:|https:)\/\/drganghe\.github\.io\/custom");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<a href="http://www.github.com">Dr.&nbsp;Md Abdus Samad</a> ©
+<script>document.write(new Date().getFullYear())</script>
+</div>   
+    <div class="nav-footer-center">
+<p>Build on <a href="https://github.com/drganghe/quarto-academic-website-template">Quart Academic Website Template</a> adapted by <a href="http://drganghe.github.io">Dr.&nbsp;Gang He</a></p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://bsky.app" target="_blank">
+<p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="./posts.xml" target="_blank">
+      <i class="bi bi-rss" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
