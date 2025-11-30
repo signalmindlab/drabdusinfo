@@ -1,0 +1,25 @@
+---
+title: "LaTeX Reference and Label Management"
+subtitle: "Managing References and Labels in LaTeX"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about LaTeX reference and label management here...
+
+## Reference Management
+
+### BibTeX
+
+### BibLaTeX
+
+## Label Management
+
+## Cross-Referencing
+
+---
+
+*Last updated: 2025*

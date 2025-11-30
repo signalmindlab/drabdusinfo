@@ -1,0 +1,21 @@
+---
+title: "Reference, Image Quality, and Detexify"
+subtitle: "Tools for Academic Writing"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content here...
+
+## Reference Management
+
+## Image Quality Tools
+
+## Detexify
+
+---
+
+*Last updated: 2025*

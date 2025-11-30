@@ -1,0 +1,23 @@
+---
+title: "Author Services by Major Publishers"
+subtitle: "Services Offered to Authors"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about author services here...
+
+## Elsevier Author Services
+
+## Springer Nature Author Services
+
+## Wiley Author Services
+
+## IEEE Author Services
+
+---
+
+*Last updated: 2025*

@@ -1,0 +1,23 @@
+---
+title: "Latexdiff Configuration Guide"
+subtitle: "How to Use Latexdiff for Tracking Changes"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about latexdiff configuration here...
+
+## Installation
+
+## Basic Usage
+
+## Configuration Options
+
+## Examples
+
+---
+
+*Last updated: 2025*

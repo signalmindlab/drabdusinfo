@@ -1,0 +1,21 @@
+---
+title: "Overleaf git sync issues"
+subtitle: "Troubleshooting Overleaf Git Synchronization"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about Overleaf git sync issues here...
+
+## Common Issues
+
+## Solutions
+
+## Best Practices
+
+---
+
+*Last updated: 2025*

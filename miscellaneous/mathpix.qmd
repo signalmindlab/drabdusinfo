@@ -1,0 +1,21 @@
+---
+title: "Mathpix: PDF to Word"
+subtitle: "Converting PDF Documents to Word Using Mathpix"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about Mathpix PDF to Word conversion here...
+
+## What is Mathpix?
+
+## How to Use Mathpix
+
+## Tips and Tricks
+
+---
+
+*Last updated: 2025*

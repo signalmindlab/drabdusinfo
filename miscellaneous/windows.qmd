@@ -1,0 +1,21 @@
+---
+title: "Windows shortcuts & commands"
+subtitle: "Useful Windows Keyboard Shortcuts and Commands"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about Windows shortcuts and commands here...
+
+## Keyboard Shortcuts
+
+## Command Prompt Commands
+
+## PowerShell Commands
+
+---
+
+*Last updated: 2025*

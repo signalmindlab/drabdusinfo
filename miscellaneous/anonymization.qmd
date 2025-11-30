@@ -1,0 +1,21 @@
+---
+title: "Manuscript Anonymization"
+subtitle: "How to Anonymize Your Manuscript for Blind Review"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about manuscript anonymization here...
+
+## Why Anonymize?
+
+## Anonymization Checklist
+
+## Tools for Anonymization
+
+---
+
+*Last updated: 2025*

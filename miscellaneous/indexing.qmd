@@ -1,0 +1,23 @@
+---
+title: "Verifying Journal Indexing"
+subtitle: "How to Check if a Journal is Indexed"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about verifying journal indexing here...
+
+## Scopus Indexed Journals
+
+## Web of Science Indexed Journals
+
+## PubMed Indexed Journals
+
+## Predatory Journal Checklist
+
+---
+
+*Last updated: 2025*

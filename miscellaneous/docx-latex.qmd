@@ -1,0 +1,25 @@
+---
+title: "DOCX to LaTeX Convert"
+subtitle: "Converting Word Documents to LaTeX"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about DOCX to LaTeX conversion here...
+
+## Conversion Tools
+
+### Pandoc
+
+### Online Converters
+
+## Step-by-Step Guide
+
+## Tips and Best Practices
+
+---
+
+*Last updated: 2025*

@@ -1,0 +1,21 @@
+---
+title: "Sequential Section Labels"
+subtitle: "Creating Sequential Labels in LaTeX"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about sequential section labels here...
+
+## How to Create Sequential Labels
+
+## Examples
+
+## Common Issues
+
+---
+
+*Last updated: 2025*

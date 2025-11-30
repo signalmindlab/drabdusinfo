@@ -1,0 +1,23 @@
+---
+title: "Open source tools"
+subtitle: "Useful Open Source Tools for Researchers"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about open source tools here...
+
+## Writing Tools
+
+## Reference Management
+
+## Data Analysis
+
+## Visualization
+
+---
+
+*Last updated: 2025*

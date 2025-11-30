@@ -1,0 +1,27 @@
+---
+title: "Journal Templates"
+subtitle: "Professional Academic Publishing Templates"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about journal templates here...
+
+## LaTeX Templates
+
+### Elsevier Templates
+
+### Springer Templates
+
+### IEEE Templates
+
+### ACM Templates
+
+## Word Templates
+
+---
+
+*Last updated: 2025*

@@ -1,0 +1,31 @@
+---
+title: "List of Publishers"
+subtitle: "Leading the Future of Scientific Research & Innovation"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about publishers here...
+
+## Major Publishers
+
+### Elsevier
+
+### Springer Nature
+
+### Wiley
+
+### IEEE
+
+### Taylor & Francis
+
+### MDPI
+
+### Frontiers
+
+---
+
+*Last updated: 2025*

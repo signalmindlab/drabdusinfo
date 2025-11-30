@@ -1,0 +1,21 @@
+---
+title: "Switching Elsevier LaTeX Templates"
+subtitle: "Guide to Switching Between Elsevier Templates"
+author: "Dr. Md Abdus Samad"
+date: "2025-05-30"
+toc: true
+---
+
+## Overview
+
+Add your content about switching Elsevier LaTeX templates here...
+
+## Available Elsevier Templates
+
+## How to Switch Templates
+
+## Common Issues and Solutions
+
+---
+
+*Last updated: 2025*
