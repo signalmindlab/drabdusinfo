@@ -280,179 +280,291 @@
     "text": "Quick Reference Table\n\n\n\nPublisher\nAuthor Services\nManuscript Preparation\n\n\n\n\nSpringer Nature\nLink\nLink\n\n\nElsevier\nLink\nLink\n\n\nWiley\nLink\nLink\n\n\nTaylor & Francis\nLink\nLink\n\n\nIEEE\nLink\nLink\n\n\nACM\nLink\nLink\n\n\nMDPI\nLink\nLink\n\n\nFrontiers\nLink\nLink\n\n\n\n\n\n\n\n\n\n\nTipPro Tip\n\n\n\nBookmark the author services page for your target journal’s publisher before starting your manuscript preparation. This ensures you have access to the latest templates, formatting guidelines, and submission requirements."
   },
   {
-    "objectID": "miscellaneous/templates.html",
-    "href": "miscellaneous/templates.html",
-    "title": "Journal Templates",
+    "objectID": "miscellaneous/open-source-tools.html",
+    "href": "miscellaneous/open-source-tools.html",
+    "title": "Open Source Tools",
     "section": "",
-    "text": "This comprehensive guide provides LaTeX templates for major academic journals across various disciplines. Each template is designed to meet specific journal formatting requirements and ensure smooth submission processes."
+    "text": "A curated list of free and open source tools for academic research and teaching. 22 categories, 180+ tools available."
   },
   {
-    "objectID": "miscellaneous/templates.html#ieee-and-engineering-journals",
-    "href": "miscellaneous/templates.html#ieee-and-engineering-journals",
-    "title": "Journal Templates",
-    "section": "IEEE and Engineering Journals",
-    "text": "IEEE and Engineering Journals\n\nIEEE Journals (General)\nTemplates for IEEE transactions and journals. Supports bare formats and Overleaf.\n\nIEEE Conference Templates (Official)\nIEEE Journal Author Center\nIEEE Templates on Overleaf\n\n\n\n\nIEEE Access\nSpecific template for IEEE’s open-access multidisciplinary journal.\n\nIEEE Access on Overleaf\n\n\n\n\nAIAA Journals\nTemplates for journals like Journal of Spacecraft and Rockets.\n\nAIAA Author Resources\n\n\n\n\nASCE Journals\nTemplates for journals like Journal of Structural Engineering.\n\nASCE Library Authors\n\n\n\n\nASME Journals\nTemplates for journals like Journal of Mechanical Design.\n\nASME Author Information"
+    "objectID": "miscellaneous/open-source-tools.html#reference-management-citations",
+    "href": "miscellaneous/open-source-tools.html#reference-management-citations",
+    "title": "Open Source Tools",
+    "section": "1. Reference Management & Citations",
+    "text": "1. Reference Management & Citations\n\n\n\nTool\nDescription\n\n\n\n\nZotero\nOpen-source citation manager with browser integration\n\n\nJabRef\nBibTeX reference manager for LaTeX users\n\n\nMendeley (basic plan free)\nManage PDFs, annotate, cite easily\n\n\nKBibTeX\nBibTeX editor for KDE (Linux)"
   },
   {
-    "objectID": "miscellaneous/templates.html#major-publishers",
-    "href": "miscellaneous/templates.html#major-publishers",
-    "title": "Journal Templates",
-    "section": "Major Publishers",
-    "text": "Major Publishers\n\nElsevier Journals\nUses elsarticle.cls for journals like Signal Processing, with single- and double-column formats.\n\nElsevier LaTeX Instructions (Official)\nElsevier Templates on Overleaf\nElsevier elsarticle Template\n\n\n\n\nSpringer Nature Journals\nTemplates for Springer, Nature Portfolio, BMC, and LNCS.\n\nSpringer Nature LaTeX Author Support (Official)\nSpringer Nature Template on Overleaf (December 2024)\nSpringer LNCS Conference Proceedings Guidelines\nSpringer LNCS on Overleaf\n\n\n\n\nWiley Journals\nTemplates for Wiley journals, ensuring submission compliance.\n\nWiley LaTeX Template\n\n\n\n\nTaylor and Francis Journals\nTemplates for journals like Journal of Statistical Computation.\n\nTaylor and Francis Author Services"
+    "objectID": "miscellaneous/open-source-tools.html#writing-document-preparation",
+    "href": "miscellaneous/open-source-tools.html#writing-document-preparation",
+    "title": "Open Source Tools",
+    "section": "2. Writing & Document Preparation",
+    "text": "2. Writing & Document Preparation\n\n\n\nTool\nDescription\n\n\n\n\nGoogle Docs\nCollaborative writing with cloud sync\n\n\nLibreOffice Writer\nOpen-source word processor\n\n\nGrammarly (basic)\nGrammar and tone checking\n\n\nLaTeX (TeX Live, MiKTeX)\nProfessional typesetting for scientific documents\n\n\nOverleaf (free tier)\nOnline collaborative LaTeX editor\n\n\nTeXstudio\nLaTeX editor with integrated PDF viewer\n\n\nLyX\nDocument processor with LaTeX backend\n\n\nPandoc\nUniversal document converter\n\n\nLanguageTool\nOpen-source grammar and style checker"
   },
   {
-    "objectID": "miscellaneous/templates.html#nature-and-science",
-    "href": "miscellaneous/templates.html#nature-and-science",
-    "title": "Journal Templates",
-    "section": "Nature and Science",
-    "text": "Nature and Science\n\nNature Journals\nTemplates for Nature, Nature Communications, and other Nature journals.\n\nNature LaTeX Support\nNature Templates on Overleaf\n\n\n\n\nScience Journal\nUses scicite package for Science and Science Advances.\n\nScience Instructions for Authors\n\n\n\n\nPNAS\nTemplate for PNAS, for multidisciplinary scientific research.\n\nPNAS Author Center\n\n\n\n\nScientific Reports\nTemplates for Scientific Reports (Springer Nature).\n\nScientific Reports on Overleaf"
+    "objectID": "miscellaneous/open-source-tools.html#note-taking-knowledge-management",
+    "href": "miscellaneous/open-source-tools.html#note-taking-knowledge-management",
+    "title": "Open Source Tools",
+    "section": "3. Note-Taking & Knowledge Management",
+    "text": "3. Note-Taking & Knowledge Management\n\n\n\nTool\nDescription\n\n\n\n\nObsidian\nMarkdown-based personal knowledge base (free for personal use)\n\n\nJoplin\nOpen-source Evernote alternative\n\n\nGoogle Keep\nSimple note capture synced across devices\n\n\nZettlr\nMarkdown editor for academic writing\n\n\nTiddlyWiki\nPersonal wiki and note-taking system\n\n\nLogseq\nOpen source note-taking with graph view\n\n\nStandard Notes\nEncrypted note-taking app"
   },
   {
-    "objectID": "miscellaneous/templates.html#mathematics-and-physics",
-    "href": "miscellaneous/templates.html#mathematics-and-physics",
-    "title": "Journal Templates",
-    "section": "Mathematics and Physics",
-    "text": "Mathematics and Physics\n\nAMS Journals\nTemplates for journals like Transactions of the AMS.\n\nAMS TeX Resources\n\n\n\n\nSIAM Journals\nTemplates for SIAM Review and other SIAM journals.\n\nSIAM For Authors\n\n\n\n\nAPS Journals\nUses REVTEX for Physical Review Letters and Physical Review X.\n\nAPS Manuscript Preparation\n\n\n\n\nIOP Journals\nTemplates for journals like Journal of Physics.\n\nIOP Article Preparation"
+    "objectID": "miscellaneous/open-source-tools.html#statistical-analysis-data-science",
+    "href": "miscellaneous/open-source-tools.html#statistical-analysis-data-science",
+    "title": "Open Source Tools",
+    "section": "4. Statistical Analysis & Data Science",
+    "text": "4. Statistical Analysis & Data Science\n\n\n\nTool\nDescription\n\n\n\n\nR & RStudio\nStatistical computing and graphics\n\n\nPython (Anaconda)\nScientific computing with Jupyter notebooks\n\n\nJASP\nUser-friendly statistical software (SPSS alternative)\n\n\nPSPP\nGNU alternative to SPSS\n\n\njamovi\nStatistical spreadsheet built on R\n\n\nGNU Octave\nMATLAB alternative\n\n\nJulia\nHigh-performance language for technical computing\n\n\nOrange\nVisual programming for data analysis and machine learning"
   },
   {
-    "objectID": "miscellaneous/templates.html#chemistry-and-materials",
-    "href": "miscellaneous/templates.html#chemistry-and-materials",
-    "title": "Journal Templates",
-    "section": "Chemistry and Materials",
-    "text": "Chemistry and Materials\n\nACS Journals\nTemplates for journals like Journal of the American Chemical Society.\n\nACS Templates\n\n\n\n\nRSC Journals\nTemplates for journals like Chemical Science.\n\nRSC LaTeX Templates"
+    "objectID": "miscellaneous/open-source-tools.html#data-handling-visualization",
+    "href": "miscellaneous/open-source-tools.html#data-handling-visualization",
+    "title": "Open Source Tools",
+    "section": "5. Data Handling & Visualization",
+    "text": "5. Data Handling & Visualization\n\n\n\nTool\nDescription\n\n\n\n\nGoogle Sheets\nOnline spreadsheets with collaboration\n\n\nLibreOffice Calc\nOpen alternative to Excel\n\n\nTableau Public\nFree version for data visualization\n\n\nggplot2 (R)\nGrammar of graphics visualization\n\n\nMatplotlib & Seaborn (Python)\nPlotting libraries\n\n\nPlotly\nInteractive graphing library\n\n\nRAWGraphs\nWeb-based tool for visual data representation\n\n\nGephi\nNetwork analysis and visualization"
   },
   {
-    "objectID": "miscellaneous/templates.html#open-access-and-computing",
-    "href": "miscellaneous/templates.html#open-access-and-computing",
-    "title": "Journal Templates",
-    "section": "Open Access and Computing",
-    "text": "Open Access and Computing\n\nMDPI Journals\nUnified template for open-access journals like Sensors.\n\nMDPI LaTeX\n\n\n\n\nPLOS Journals\nTemplates for PLOS ONE and other PLOS journals.\n\nPLOS LaTeX\n\n\n\n\nACM Journals\nTemplates for ACM Transactions and proceedings.\n\nACM Templates\n\n\n\n\nJMLR\nTemplate for machine learning research.\n\nJMLR Format"
+    "objectID": "miscellaneous/open-source-tools.html#qualitative-research",
+    "href": "miscellaneous/open-source-tools.html#qualitative-research",
+    "title": "Open Source Tools",
+    "section": "6. Qualitative Research",
+    "text": "6. Qualitative Research\n\n\n\nTool\nDescription\n\n\n\n\nQualCoder\nQualitative data analysis (NVivo alternative)\n\n\nTaguette\nQualitative research document tagging\n\n\nRQDA\nR-based qualitative data analysis\n\n\nAquad\nAnalysis of qualitative data\n\n\nCATMA\nComputer-assisted text markup and analysis"
   },
   {
-    "objectID": "miscellaneous/templates.html#specialized-fields",
-    "href": "miscellaneous/templates.html#specialized-fields",
-    "title": "Journal Templates",
-    "section": "Specialized Fields",
-    "text": "Specialized Fields\n\nOptica Journals\nTemplates for journals like Optics Express.\n\nOptica Templates\n\n\n\n\nAGU Journals\nTemplates for journals like Geophysical Research Letters.\n\nAGU LaTeX Template\n\n\n\n\nAAS Journals\nUses AASTeX for journals like The Astrophysical Journal.\n\nAAS LaTeX Resources\n\n\n\n\nOxford University Press\nTemplates for Monthly Notices of the Royal Astronomical Society (MNRAS).\n\nOUP Manuscript Preparation\n\n\n\n\nCambridge University Press\nTemplates for CUP journals.\n\nCUP LaTeX\n\n\n\n\nSAGE Journals\nTemplates for SAGE journals in social sciences and humanities.\n\nSAGE Template on Overleaf"
+    "objectID": "miscellaneous/open-source-tools.html#laboratory-scientific-computing",
+    "href": "miscellaneous/open-source-tools.html#laboratory-scientific-computing",
+    "title": "Open Source Tools",
+    "section": "7. Laboratory & Scientific Computing",
+    "text": "7. Laboratory & Scientific Computing\n\n\n\nTool\nDescription\n\n\n\n\nJupyter Notebook\nInteractive computing environment\n\n\nGNU Octave\nMATLAB alternative for numerical computations\n\n\nSageMath\nMathematics software system\n\n\nLabPlot\nData analysis and visualization\n\n\nSciDAVis\nScientific data analysis and visualization\n\n\nGNU Scientific Library (GSL)\nNumerical library for C/C++"
   },
   {
-    "objectID": "miscellaneous/templates.html#quick-reference-table",
-    "href": "miscellaneous/templates.html#quick-reference-table",
-    "title": "Journal Templates",
-    "section": "Quick Reference Table",
-    "text": "Quick Reference Table\n\n\n\nPublisher/Society\nTemplate Source\nDirect Link\n\n\n\n\nIEEE\nIEEE + Overleaf\nOverleaf IEEE\n\n\nElsevier\nelsarticle.cls\nOverleaf Elsevier\n\n\nSpringer Nature\nsn-jnl.cls\nOverleaf Template\n\n\nSpringer LNCS\nllncs.cls\nOverleaf LNCS\n\n\nNature\nsn-nature\nOverleaf Nature\n\n\nACM\nacmart.cls\nACM Official\n\n\nAPS\nREVTEX\nAPS Official\n\n\nACS\nachemso\nACS Official\n\n\nMDPI\nmdpi.cls\nMDPI Official\n\n\nPLOS\nplos.cls\nPLOS Official"
+    "objectID": "miscellaneous/open-source-tools.html#image-graphics",
+    "href": "miscellaneous/open-source-tools.html#image-graphics",
+    "title": "Open Source Tools",
+    "section": "8. Image & Graphics",
+    "text": "8. Image & Graphics\n\n\n\nTool\nDescription\n\n\n\n\nImageJ/Fiji\nImage processing for life sciences\n\n\nGIMP\nImage editing and manipulation\n\n\nInkscape\nVector graphics for diagrams and figures\n\n\nCanva (free plan)\nEasy graphics and presentation design\n\n\nKrita\nDigital painting and illustration\n\n\nBlender\n3D modeling, animation, and rendering\n\n\ndarktable\nPhotography workflow and RAW developer\n\n\nRawTherapee\nCross-platform RAW image processing"
   },
   {
-    "objectID": "miscellaneous/templates.html#overleaf-template-gallery",
-    "href": "miscellaneous/templates.html#overleaf-template-gallery",
-    "title": "Journal Templates",
-    "section": "Overleaf Template Gallery",
-    "text": "Overleaf Template Gallery\nOverleaf provides a comprehensive collection of templates for most academic journals. You can browse all available templates organized by publisher:\n\nAll Overleaf Templates\nIEEE Templates\nElsevier Templates\nSpringer Templates\nNature Templates\nACM Templates\n\n\n\n\n\n\n\n\nTipTips for Using Templates\n\n\n\n\nAlways download the latest version of templates from official sources\nCheck journal-specific requirements before submission\nUse Overleaf for collaborative editing and automatic compilation\nKeep a backup of your original manuscript before applying templates\nVerify bibliography style requirements for each journal\nWhen official links fail, Overleaf templates are usually up-to-date alternatives"
+    "objectID": "miscellaneous/open-source-tools.html#survey-experiment-design",
+    "href": "miscellaneous/open-source-tools.html#survey-experiment-design",
+    "title": "Open Source Tools",
+    "section": "9. Survey & Experiment Design",
+    "text": "9. Survey & Experiment Design\n\n\n\nTool\nDescription\n\n\n\n\nLimeSurvey\nOpen-source survey platform (self-hosted)\n\n\nPsychoPy\nPsychology and neuroscience experiments\n\n\njsPsych\nJavaScript library for behavioral experiments\n\n\nOpenSesame\nPsychology experiment builder\n\n\nFormr\nSurvey framework with R integration\n\n\nSurveyJS\nJavaScript library for surveys"
   },
   {
-    "objectID": "miscellaneous/quarto-tips.html",
-    "href": "miscellaneous/quarto-tips.html",
-    "title": "Quarto Academic Website Examples and Tips",
+    "objectID": "miscellaneous/open-source-tools.html#mind-mapping-brainstorming",
+    "href": "miscellaneous/open-source-tools.html#mind-mapping-brainstorming",
+    "title": "Open Source Tools",
+    "section": "10. Mind Mapping & Brainstorming",
+    "text": "10. Mind Mapping & Brainstorming\n\n\n\nTool\nDescription\n\n\n\n\nFreeMind\nOpen-source mind-mapping software\n\n\nMindMup\nBrowser-based mind maps with Google Drive\n\n\nFreeplane\nMind mapping and knowledge management\n\n\nCoggle\nCollaborative mind mapping (free tier)\n\n\ndraw.io / diagrams.net\nDiagram and flowchart creator"
+  },
+  {
+    "objectID": "miscellaneous/open-source-tools.html#project-management-organization",
+    "href": "miscellaneous/open-source-tools.html#project-management-organization",
+    "title": "Open Source Tools",
+    "section": "11. Project Management & Organization",
+    "text": "11. Project Management & Organization\n\n\n\nTool\nDescription\n\n\n\n\nTrello\nKanban-style task tracking (free plan)\n\n\nTodoist (free plan)\nTask and goal management\n\n\nGoogle Calendar\nScheduling and reminders\n\n\nWekan\nOpen-source kanban board\n\n\nTaiga\nProject management for agile teams\n\n\nOpenProject\nOpen-source project management\n\n\nPlanner\nTask manager for GNOME (Linux)"
+  },
+  {
+    "objectID": "miscellaneous/open-source-tools.html#cloud-storage-collaboration",
+    "href": "miscellaneous/open-source-tools.html#cloud-storage-collaboration",
+    "title": "Open Source Tools",
+    "section": "12. Cloud Storage & Collaboration",
+    "text": "12. Cloud Storage & Collaboration\n\n\n\nTool\nDescription\n\n\n\n\nGoogle Drive\nIntegrated with Docs, Sheets, Slides\n\n\nDropbox Basic\nCloud storage and file sharing\n\n\nMEGA\nEnd-to-end encrypted cloud storage\n\n\nNextcloud\nSelf-hosted file sharing (open source)\n\n\nSyncthing\nContinuous file synchronization\n\n\npCloud (free tier)\nCloud storage with sync\n\n\nSeafile\nOpen-source file hosting platform"
+  },
+  {
+    "objectID": "miscellaneous/open-source-tools.html#presentation-tools",
+    "href": "miscellaneous/open-source-tools.html#presentation-tools",
+    "title": "Open Source Tools",
+    "section": "13. Presentation Tools",
+    "text": "13. Presentation Tools\n\n\n\nTool\nDescription\n\n\n\n\nGoogle Slides\nCollaborative presentation creation\n\n\nLibreOffice Impress\nFree presentation software\n\n\nBeamer (LaTeX)\nProfessional academic slides\n\n\nreveal.js\nHTML presentation framework\n\n\nMarp\nMarkdown presentation ecosystem\n\n\nSozi\nZooming presentation editor"
+  },
+  {
+    "objectID": "miscellaneous/open-source-tools.html#remote-access-login-tools",
+    "href": "miscellaneous/open-source-tools.html#remote-access-login-tools",
+    "title": "Open Source Tools",
+    "section": "14. Remote Access & Login Tools",
+    "text": "14. Remote Access & Login Tools\n\n14.1 Remote Desktop\n\n\n\nTool\nDescription\n\n\n\n\nTigerVNC\nHigh-performance VNC\n\n\nRustDesk\nOpen source TeamViewer alternative\n\n\nApache Guacamole\nWeb-based remote desktop\n\n\nRemmina\nMulti-protocol remote desktop (Linux)\n\n\nTightVNC\nLightweight VNC solution\n\n\nUltraVNC\nWindows VNC with file transfer\n\n\nX2Go\nRemote desktop based on NX technology\n\n\nNoMachine (free tier)\nRemote desktop for Linux, Windows, macOS\n\n\n\n\n\n14.2 File Transfer\n\n\n\nTool\nDescription\n\n\n\n\nFileZilla\nFTP/SFTP client\n\n\nWinSCP\nSFTP/SCP for Windows\n\n\nCyberduck\nCloud storage and FTP client\n\n\nTransmit\nFile transfer client (macOS, free tier)"
+  },
+  {
+    "objectID": "miscellaneous/open-source-tools.html#communication-collaboration",
+    "href": "miscellaneous/open-source-tools.html#communication-collaboration",
+    "title": "Open Source Tools",
+    "section": "15. Communication & Collaboration",
+    "text": "15. Communication & Collaboration\n\n\n\nTool\nDescription\n\n\n\n\nZoom (free plan)\nVideo conferencing\n\n\nSlack (free)\nMessaging for study/research groups\n\n\nMicrosoft Teams (education)\nInstitutional collaboration\n\n\nJitsi Meet\nOpen-source video conferencing\n\n\nElement\nDecentralized chat and collaboration (Matrix protocol)\n\n\nRocket.Chat\nOpen-source team communication\n\n\nMattermost\nOpen-source messaging platform\n\n\nBigBlueButton\nOpen-source web conferencing for education"
+  },
+  {
+    "objectID": "miscellaneous/open-source-tools.html#productivity-focus",
+    "href": "miscellaneous/open-source-tools.html#productivity-focus",
+    "title": "Open Source Tools",
+    "section": "16. Productivity & Focus",
+    "text": "16. Productivity & Focus\n\n\n\nTool\nDescription\n\n\n\n\nPomofocus\nOnline Pomodoro timer\n\n\nCold Turkey (free version)\nBlock distracting sites\n\n\nLeechBlock\nBrowser extension to block sites\n\n\nForest (basic)\nGamified focus app\n\n\nFocusMe (free tier)\nProductivity and focus tool\n\n\nSelfControl\nBlock distracting websites (macOS)\n\n\nStretchly\nBreak time reminder app"
+  },
+  {
+    "objectID": "miscellaneous/open-source-tools.html#screen-recording-screen-capture",
+    "href": "miscellaneous/open-source-tools.html#screen-recording-screen-capture",
+    "title": "Open Source Tools",
+    "section": "17. Screen Recording & Screen Capture",
+    "text": "17. Screen Recording & Screen Capture\n\n17.1 Screen Recording\n\n\n\nTool\nDescription\n\n\n\n\nOBS Studio\nOpen-source screen recording and streaming\n\n\nLoom (free plan)\nSimple screen and webcam recording\n\n\nSimpleScreenRecorder\nFeature-rich screen recorder (Linux)\n\n\nKazam\nSimple screen recording for Linux\n\n\nScreencast-O-Matic (free tier)\nScreen recording\n\n\n\n\n\n17.2 Screen Capture (Screenshots)\n\n\n\nTool\nDescription\n\n\n\n\nGreenshot\nLightweight screenshot tool with annotation (Windows)\n\n\nFlameshot\nPowerful screenshot tool (Linux)\n\n\nLightshot\nQuick screenshot and sharing\n\n\nShareX\nAdvanced screenshot and file sharing tool (Windows)\n\n\nSpectacle\nScreenshot utility for KDE (Linux)\n\n\nShutter\nFeature-rich screenshot tool (Linux)\n\n\nWindows Snipping Tool\nBuilt-in Windows screenshot tool\n\n\nmacOS Screenshot\nBuilt-in Command+Shift+3/4/5 (macOS)\n\n\nKsnip\nCross-platform screenshot tool"
+  },
+  {
+    "objectID": "miscellaneous/open-source-tools.html#backup-security-privacy",
+    "href": "miscellaneous/open-source-tools.html#backup-security-privacy",
+    "title": "Open Source Tools",
+    "section": "18. Backup, Security & Privacy",
+    "text": "18. Backup, Security & Privacy\n\n\n\nTool\nDescription\n\n\n\n\nBitwarden\nOpen-source password manager\n\n\nVeraCrypt\nOpen-source file encryption\n\n\nSyncthing\nContinuous file synchronization\n\n\nKeePassXC\nLocal password database\n\n\nDuplicati\nEncrypted backup solution\n\n\nCryptomator\nTransparent client-side encryption for cloud files\n\n\nRestic\nFast and secure backup program\n\n\nBorgBackup\nDeduplicating backup program"
+  },
+  {
+    "objectID": "miscellaneous/open-source-tools.html#bibliometrics-research-metrics",
+    "href": "miscellaneous/open-source-tools.html#bibliometrics-research-metrics",
+    "title": "Open Source Tools",
+    "section": "19. Bibliometrics & Research Metrics",
+    "text": "19. Bibliometrics & Research Metrics\n\n\n\nTool\nDescription\n\n\n\n\nVOSviewer\nBibliometric network visualization\n\n\nPublish or Perish\nCitation analysis and metrics\n\n\nBibliometrix\nR package for bibliometrics\n\n\nCiteSpace\nLiterature visualization\n\n\nCitNetExplorer\nCitation network explorer"
+  },
+  {
+    "objectID": "miscellaneous/open-source-tools.html#miscellaneous-academic-tools",
+    "href": "miscellaneous/open-source-tools.html#miscellaneous-academic-tools",
+    "title": "Open Source Tools",
+    "section": "20. Miscellaneous Academic Tools",
+    "text": "20. Miscellaneous Academic Tools\n\n\n\nTool\nDescription\n\n\n\n\nAnki\nSpaced repetition flashcard system\n\n\nCalibre\nE-book management\n\n\nAudacity\nAudio recording and editing\n\n\nPandoc\nUniversal document converter\n\n\nPDF-XChange Editor (free version)\nPDF annotation\n\n\nSumatra PDF\nLightweight PDF reader\n\n\nOkular\nUniversal document viewer (Linux)\n\n\nXournal++\nHandwriting and PDF annotation"
+  },
+  {
+    "objectID": "miscellaneous/open-source-tools.html#tools-for-screen-annotation-writing",
+    "href": "miscellaneous/open-source-tools.html#tools-for-screen-annotation-writing",
+    "title": "Open Source Tools",
+    "section": "21. Tools for Screen Annotation / Writing",
+    "text": "21. Tools for Screen Annotation / Writing\n\n\n\nTool\nDescription\n\n\n\n\nEpic Pen (free basic version)\nScreen annotation and drawing tool\n\n\nGromit-MPX\nOn-screen annotation tool for Linux\n\n\nXournal++\nHandwriting and PDF annotation\n\n\nOpenBoard\nInteractive whiteboard for teaching\n\n\nZoomIt\nScreen annotation for presentations (Microsoft, free)\n\n\nPylote\nOn-screen annotation (Linux)\n\n\nArdesia\nDigital sketchpad for screen annotations"
+  },
+  {
+    "objectID": "miscellaneous/open-source-tools.html#file-search-system-utilities",
+    "href": "miscellaneous/open-source-tools.html#file-search-system-utilities",
+    "title": "Open Source Tools",
+    "section": "22. File Search & System Utilities",
+    "text": "22. File Search & System Utilities\n\n\n\nTool\nDescription\n\n\n\n\nEverything\nUltra-fast file search for Windows\n\n\nfsearch\nFast file search for Linux (Everything alternative)\n\n\nRecoll\nDesktop full-text search (cross-platform)\n\n\nDocFetcher\nDocument search engine (cross-platform)\n\n\nCerebro\nOpen-source app launcher and search (cross-platform)\n\n\nAlbert\nFast launcher for Linux\n\n\nUlauncher\nApplication launcher for Linux\n\n\nWox\nLauncher for Windows (free, open source)\n\n\nKupfer\nApplication launcher for Linux\n\n\nKeypirinha\nFast launcher for Windows\n\n\nueli\nKeystroke launcher for Windows and macOS\n\n\n\n\nLast updated: October 2025"
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html",
+    "href": "miscellaneous/docx-latex.html",
+    "title": "DOCX to LaTeX Conversion Guide",
     "section": "",
-    "text": "Template\nWebsite\nGitHub\n\n\n\n\nAcademic\nDemo\nSource\n\n\nqtwAcademic\nDocs\nSource\n\n\n\n\n\n\n\n\n\nTipRecommendation\n\n\n\nFork the template repository rather than actual websites to avoid receiving notifications on every update. Remember to remove any Google Analytics or tracking IDs from forked templates."
+    "text": "NoteOverview\n\n\n\nThis guide provides a systematic approach to converting DOCX files to LaTeX format, specifically tailored for academic papers using the elsarticle document class. The process involves proper preparation, image handling, and automated conversion using Pandoc."
   },
   {
-    "objectID": "miscellaneous/quarto-tips.html#template-resources",
-    "href": "miscellaneous/quarto-tips.html#template-resources",
-    "title": "Quarto Academic Website Examples and Tips",
+    "objectID": "miscellaneous/docx-latex.html#step-1-prepare-your-docx-file",
+    "href": "miscellaneous/docx-latex.html#step-1-prepare-your-docx-file",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Step 1: Prepare Your DOCX File",
+    "text": "Step 1: Prepare Your DOCX File\nProper document preparation is crucial for successful conversion. Ensure your Word document follows standard formatting conventions.\n\nFormat headings properly using built-in styles (Heading 1, Heading 2, etc.)\nEnsure images and tables are correctly inserted and positioned\nAvoid TIFF images when possible, prefer PNG or JPG formats\nStandardize author names, affiliations, and email addresses\nUse consistent citation and reference formatting"
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#step-2-extract-and-convert-images",
+    "href": "miscellaneous/docx-latex.html#step-2-extract-and-convert-images",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Step 2: Extract and Convert Images",
+    "text": "Step 2: Extract and Convert Images\nImages require special handling during the conversion process. Use these methods to extract and optimize your images.\n\nExtract Images Using Pandoc\nPandoc can automatically extract all images from your DOCX file while preserving references:\npandoc myfile.docx --extract-media=./media -o temp.tex\n\n\nConvert Image Formats\nConvert TIFF images to web-friendly formats using ImageMagick:\nmagick convert input.tiff -resize 50% output.png\nBatch convert multiple images:\ncd media\nmagick mogrify -resize 50% -format png *.tiff\nmagick mogrify -resize 50% -format jpg *.jpg\n\n\nManual Image Extraction\nAlternative method for extracting images manually:\n\nRename your .docx file to .zip\nExtract the ZIP file using any archive utility\nNavigate to the word/media/ folder\nCopy all images to your working media directory\n\n\n\n\n\n\n\nNoteNote\n\n\n\nUsing Pandoc’s --extract-media option automatically preserves image references and file paths in the generated LaTeX code."
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#step-3-install-required-software",
+    "href": "miscellaneous/docx-latex.html#step-3-install-required-software",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Step 3: Install Required Software",
+    "text": "Step 3: Install Required Software\nEnsure you have the necessary tools installed on your system.\n\nInstall Pandoc from the official website: pandoc.org/installing.html\nInstall a LaTeX distribution:\n\nTeX Live (Linux/Windows)\nMikTeX (Windows)\nMacTeX (macOS)\n\nOptional: Install ImageMagick for image processing"
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#step-4-obtain-elsarticle-class-template",
+    "href": "miscellaneous/docx-latex.html#step-4-obtain-elsarticle-class-template",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Step 4: Obtain elsarticle Class Template",
+    "text": "Step 4: Obtain elsarticle Class Template\nThe elsarticle document class is required for Elsevier journal submissions.\n\nDownload the official template from Elsevier LaTeX Instructions\nExtract the template files to your working directory\nEnsure elsarticle.cls is present in your project folder\n\n\n\n\n\n\n\nWarningImportant\n\n\n\nKeep the elsarticle class file in the same directory as your LaTeX document to avoid compilation errors."
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#step-5-convert-docx-to-latex",
+    "href": "miscellaneous/docx-latex.html#step-5-convert-docx-to-latex",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Step 5: Convert DOCX to LaTeX",
+    "text": "Step 5: Convert DOCX to LaTeX\nUse Pandoc to perform the actual conversion from DOCX to LaTeX format.\npandoc myfile.docx -s -o output.tex --from docx --to latex\nFor more control over the output, you can specify additional options:\npandoc myfile.docx -s -o output.tex --from docx --to latex --bibliography=references.bib --citeproc\n\n\n\n\n\n\nTipTip\n\n\n\nThe generated LaTeX file may require minor manual adjustments for figures, tables, and references to ensure proper formatting."
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#step-6-compile-the-latex-document",
+    "href": "miscellaneous/docx-latex.html#step-6-compile-the-latex-document",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Step 6: Compile the LaTeX Document",
+    "text": "Step 6: Compile the LaTeX Document\nCompile your converted LaTeX document to generate the final PDF.\n\nEnsure all images are properly placed in the media folder\nVerify that the elsarticle class file is in the correct location\nRun the LaTeX compiler\n\npdflatex output.tex\nFor better Unicode support and modern fonts, use XeLaTeX:\nxelatex output.tex\n\n\n\n\n\n\nNoteMultiple Compilations\n\n\n\nYou may need to run the compiler multiple times to resolve cross-references and generate the bibliography correctly."
+  },
+  {
+    "objectID": "miscellaneous/docx-latex.html#summary",
+    "href": "miscellaneous/docx-latex.html#summary",
+    "title": "DOCX to LaTeX Conversion Guide",
+    "section": "Summary",
+    "text": "Summary\nThe complete workflow for DOCX to LaTeX conversion:\n\nPrepare your DOCX file with proper formatting\nExtract images using Pandoc or manual methods\nInstall Pandoc and a LaTeX distribution\nObtain the elsarticle class template\nConvert using Pandoc command\nCompile with pdflatex or xelatex\n\n\n\n\n\n\n\nTipPro Tip\n\n\n\nFor complex documents, consider using Overleaf which provides an online LaTeX editor with the elsarticle template pre-installed."
+  },
+  {
+    "objectID": "miscellaneous/overleaf.html",
+    "href": "miscellaneous/overleaf.html",
+    "title": "Overleaf Git Sync Guide",
     "section": "",
-    "text": "Template\nWebsite\nGitHub\n\n\n\n\nAcademic\nDemo\nSource\n\n\nqtwAcademic\nDocs\nSource\n\n\n\n\n\n\n\n\n\nTipRecommendation\n\n\n\nFork the template repository rather than actual websites to avoid receiving notifications on every update. Remember to remove any Google Analytics or tracking IDs from forked templates."
+    "text": "Complete documentation for safely syncing your Overleaf project with your PC using Git."
   },
   {
-    "objectID": "miscellaneous/quarto-tips.html#using-includes-for-reusable-content",
-    "href": "miscellaneous/quarto-tips.html#using-includes-for-reusable-content",
-    "title": "Quarto Academic Website Examples and Tips",
-    "section": "Using Includes for Reusable Content",
-    "text": "Using Includes for Reusable Content\nTo streamline updates across your site, use Quarto’s includes feature for reusable elements like syllabus statements, social sharing options, academic badges, and other reusable materials.\n{{&lt; include _statement.qmd &gt;}}\n\n\n\n\n\n\nNote\n\n\n\nPrefixing include file names with an underscore (_) ensures they will not be rendered directly by Quarto.\n\n\n\nExample Use Cases\n\nCourse descriptions reused in main page and syllabus\nAcademic badges for publications\nSocial sharing buttons\nFooter information\nAuthor bio sections"
+    "objectID": "miscellaneous/overleaf.html#initial-setup-one-time",
+    "href": "miscellaneous/overleaf.html#initial-setup-one-time",
+    "title": "Overleaf Git Sync Guide",
+    "section": "Initial Setup (One-Time)",
+    "text": "Initial Setup (One-Time)\n\n1. Get Your Overleaf Git URL\n\nOpen your project in Overleaf\nClick Menu (top left)\nClick Git\nCopy the Git URL (looks like: https://git.overleaf.com/1234567890abcdef)\n\n\n\n2. Clone the Project\ncd /path/to/where/you/want/project\ngit clone https://git.overleaf.com/your-project-id\ncd your-project-folder\n\n\n3. Set Up .gitignore\nCreate a .gitignore file to exclude auxiliary LaTeX files:\nCreate the file:\n# On Linux/Mac/Git Bash:\ntouch .gitignore\n\n# On Windows Command Prompt:\ntype nul &gt; .gitignore\n\n# On Windows PowerShell:\nNew-Item .gitignore -ItemType File\nAdd this content to .gitignore:\n## Core LaTeX auxiliary files\n*.aux\n*.lof\n*.log\n*.lot\n*.fls\n*.out\n*.toc\n*.fmt\n*.fot\n*.cb\n*.cb2\n.*.lb\n\n## Bibliography auxiliary files\n*.bbl\n*.bcf\n*.blg\n*-blx.aux\n*-blx.bib\n*.run.xml\n\n## Build tool auxiliary files\n*.fdb_latexmk\n*.synctex\n*.synctex(busy)\n*.synctex.gz\n*.pdfsync\n\n## Build directories\nbuild/\nout/\n\n## Editor backup files\n*~\n*.swp\n*.swo\n\n## OS files\n.DS_Store\nThumbs.db\nCommit the .gitignore:\ngit add .gitignore\ngit commit -m \"Add .gitignore for LaTeX files\"\ngit push origin master\nIf auxiliary files are already tracked:\ngit rm -r --cached .\ngit add .\ngit commit -m \"Remove auxiliary files from tracking\"\ngit push origin master"
   },
   {
-    "objectID": "miscellaneous/quarto-tips.html#academic-badges",
-    "href": "miscellaneous/quarto-tips.html#academic-badges",
-    "title": "Quarto Academic Website Examples and Tips",
-    "section": "Academic Badges",
-    "text": "Academic Badges\nDisplay academic badges like Dimensions Citation badge and Altmetric badge.\n\nEmbedding Badges\n\n\n\n\n\nReplace YOUR-DOI-HERE with your actual DOI.\n\n\nCustom Badges for Highly Cited Papers\nYou can also showcase highly cited and hot papers using custom badges with HTML/CSS styling."
+    "objectID": "miscellaneous/overleaf.html#daily-workflow",
+    "href": "miscellaneous/overleaf.html#daily-workflow",
+    "title": "Overleaf Git Sync Guide",
+    "section": "Daily Workflow",
+    "text": "Daily Workflow\n\nBefore You Start Working\nAlways pull first to get latest changes:\ngit pull origin master\n\n\nWhile Working\nEdit your files normally in your preferred LaTeX editor (VS Code, TeXstudio, etc.)\n\n\nAfter Making Changes\n1. Check what changed:\ngit status\n2. Stage your changes:\n# Stage all changes\ngit add .\n\n# Or stage specific files\ngit add filename.tex\n3. Commit with a descriptive message:\ngit commit -m \"Add introduction section\"\n4. Pull with rebase (safer):\ngit pull --rebase origin master\n5. Push to Overleaf:\ngit push origin master"
   },
   {
-    "objectID": "miscellaneous/quarto-tips.html#the-art-of-listing",
-    "href": "miscellaneous/quarto-tips.html#the-art-of-listing",
-    "title": "Quarto Academic Website Examples and Tips",
-    "section": "The Art of Listing",
-    "text": "The Art of Listing\nListings are a powerful tool in Quarto, offering flexibility for creating visually appealing and organized pages.\n\nListing Types\n\n\n\nType\nDescription\n\n\n\n\ndefault\nStandard list view\n\n\ngrid\nGrid layout with cards\n\n\ntable\nTabular format\n\n\n\n\n\nListing Options\nlisting:\n  contents: posts\n  type: grid\n  grid-columns: 3\n  image-height: 150px\n  grid-item-align: center\n  fields: [image, title, date, description]\n  field-display-names:\n    title: \"Title\"\n    date: \"Published\"\n\n\nListing Specific Categories\nTo display a subset of items, use the include and exclude options:\nlisting:\n  contents: \n    - publications.yml\n  include:\n    categories: \"machine-learning\"\nHere, publications.yml is a YAML file containing a list of publications with predefined categories."
+    "objectID": "miscellaneous/overleaf.html#essential-git-commands",
+    "href": "miscellaneous/overleaf.html#essential-git-commands",
+    "title": "Overleaf Git Sync Guide",
+    "section": "Essential Git Commands",
+    "text": "Essential Git Commands\n\nViewing Status and History\n# See current status\ngit status\n\n# See commit history\ngit log\n\n# See compact history\ngit log --oneline\n\n# See what files changed\ngit diff\n\n# See changes in a specific file\ngit diff filename.tex\n\n\nSyncing\n# Download changes without merging (safe)\ngit fetch origin\n\n# See what is new on remote\ngit log HEAD..origin/master\n\n# Download and merge changes\ngit pull origin master\n\n# Download and rebase (cleaner history)\ngit pull --rebase origin master\n\n# Upload your changes\ngit push origin master\n\n\nUndoing Changes\n# Discard changes in a file (before commit)\ngit checkout -- filename.tex\n\n# Unstage a file (keep changes)\ngit reset filename.tex\n\n# Undo last commit (keep changes)\ngit reset --soft HEAD~1\n\n# Undo last commit (discard changes) - CAREFUL!\ngit reset --hard HEAD~1"
   },
   {
-    "objectID": "miscellaneous/quarto-tips.html#listing-external-items",
-    "href": "miscellaneous/quarto-tips.html#listing-external-items",
-    "title": "Quarto Academic Website Examples and Tips",
-    "section": "Listing External Items",
-    "text": "Listing External Items\nTo list external resources with key metadata:\n- path: https://www.nature.com/articles/example\n  image: /files/images/journal/nature.avif\n  title: \"Article Title Here\"\n  subtitle: \"*Nature*\"\n  description: \"Brief description of the article.\"\n  date: \"2024-10-26\"\nFor efficiency, store multiple items in a YAML (.yml) file and reference it in Quarto:\nlisting:\n  contents: publications.yml\n  type: default"
+    "objectID": "miscellaneous/overleaf.html#conflict-resolution",
+    "href": "miscellaneous/overleaf.html#conflict-resolution",
+    "title": "Overleaf Git Sync Guide",
+    "section": "Conflict Resolution",
+    "text": "Conflict Resolution\n\nWhen Conflicts Occur\nIf you get a conflict during pull or rebase:\n1. Git will show which files have conflicts:\nCONFLICT (content): Merge conflict in main.tex\n2. Open the conflicting file. You will see markers like:\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD\nYour local changes\n=======\nChanges from Overleaf\n&gt;&gt;&gt;&gt;&gt;&gt;&gt; origin/master\n3. Manually edit the file:\n\nRemove the conflict markers (&lt;&lt;&lt;&lt;&lt;&lt;&lt;, =======, &gt;&gt;&gt;&gt;&gt;&gt;&gt;)\nKeep the version you want (or combine both)\nSave the file\n\n4. Mark as resolved:\ngit add main.tex\n5. Continue the operation:\n# If you were rebasing:\ngit rebase --continue\n\n# If you were merging:\ngit commit -m \"Resolve merge conflict\"\n6. Push the resolution:\ngit push origin master\n\n\nAbort If Things Go Wrong\n# Abort a rebase\ngit rebase --abort\n\n# Abort a merge\ngit merge --abort"
   },
   {
-    "objectID": "miscellaneous/quarto-tips.html#publication-page-structure",
-    "href": "miscellaneous/quarto-tips.html#publication-page-structure",
-    "title": "Quarto Academic Website Examples and Tips",
-    "section": "Publication Page Structure",
-    "text": "Publication Page Structure\n\nIndividual Publication Page\n---\ntitle: \"Paper Title\"\ndescription: \"Brief description\"\nsubtitle: \"*Journal Name*\"\nauthor: \n  - name: Author One\n  - name: Author Two\ndate: \"2024-01-15\"\ncategories: [paper, topic1, topic2]\nimage: \"featured.jpg\"\ncitation:\n  type: article-journal\n  container-title: \"Journal Name\"\n  doi: \"10.xxxx/xxxxx\"\n  volume: 1\n  issue: 1\n  page: 1-10\n  url: https://doi.org/10.xxxx/xxxxx\ngoogle-scholar: true\n---"
+    "objectID": "miscellaneous/overleaf.html#best-practices",
+    "href": "miscellaneous/overleaf.html#best-practices",
+    "title": "Overleaf Git Sync Guide",
+    "section": "Best Practices",
+    "text": "Best Practices\n\nConflict Prevention\n\nAlways pull before starting work\nCommit and push frequently (small commits are better)\nAvoid editing the same file in Overleaf and locally simultaneously\nUse descriptive commit messages\nUse git pull --rebase instead of regular pull for cleaner history\n\n\n\nGood Commit Messages\n\n\n\n\n\n\nTipGood Examples ✓\n\n\n\ngit commit -m \"Add methodology section\"\ngit commit -m \"Fix typo in introduction\"\ngit commit -m \"Update bibliography with new sources\"\n\n\n\n\n\n\n\n\nWarningBad Examples ✗\n\n\n\ngit commit -m \"update\"\ngit commit -m \"changes\"\ngit commit -m \"asdf\"\n\n\n\n\nWorking with Branches (Optional)\nFor major changes or experiments:\n# Create and switch to new branch\ngit checkout -b experimental-feature\n\n# Work on your changes...\ngit add .\ngit commit -m \"Experiment with new structure\"\n\n# Switch back to main branch\ngit checkout master\n\n# Get latest changes\ngit pull origin master\n\n# Merge your experimental branch\ngit merge experimental-feature\n\n# Push everything\ngit push origin master"
   },
   {
-    "objectID": "miscellaneous/quarto-tips.html#exporting-revealjs-slides-to-pdf",
-    "href": "miscellaneous/quarto-tips.html#exporting-revealjs-slides-to-pdf",
-    "title": "Quarto Academic Website Examples and Tips",
-    "section": "Exporting Revealjs Slides to PDF",
-    "text": "Exporting Revealjs Slides to PDF\nRevealjs’s default PDF Export omits footnotes. Use decktape instead:\ndecktape reveal https://your-slides-url.html output.pdf\n\nFixing Font Errors\nIf you encounter: &gt; “Cannot extract the embedded font ‘BAAAAA+SourceSansPro-Regular’. Some characters may not display or print correctly.”\nSolution:\n\nOpen the PDF in Adobe Acrobat\nGo to Use print production → Preflight → Analyze and fix it (default options)\nApply the necessary font correction"
+    "objectID": "miscellaneous/overleaf.html#troubleshooting",
+    "href": "miscellaneous/overleaf.html#troubleshooting",
+    "title": "Overleaf Git Sync Guide",
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\n\n“Your branch is ahead of ‘origin/master’”\nMeaning: You have local commits not pushed to Overleaf.\nSolution:\ngit push origin master\n\n\n“Your branch is behind ‘origin/master’”\nMeaning: Overleaf has changes you do not have locally.\nSolution:\ngit pull origin master\n\n\n“Permission denied” or Authentication Failed\nSolution: Check your Overleaf credentials or use a Git credential helper.\n\n\nAccidentally Committed Large Files\n# Remove from last commit\ngit rm --cached largefile.pdf\ngit commit --amend -m \"Remove large file\"\ngit push origin master --force\n\n\nWant to Start Fresh\n# Discard ALL local changes and match Overleaf exactly\ngit fetch origin\ngit reset --hard origin/master\n\n\n\n\n\n\nWarningWarning\n\n\n\nThis deletes all uncommitted local changes!"
   },
   {
-    "objectID": "miscellaneous/quarto-tips.html#social-sharing",
-    "href": "miscellaneous/quarto-tips.html#social-sharing",
-    "title": "Quarto Academic Website Examples and Tips",
-    "section": "Social Sharing",
-    "text": "Social Sharing\nFor easy setup of social sharing buttons, AddToAny is a simple solution.\n\nExample Include File\nCreate _social.qmd:\n&lt;!-- AddToAny BEGIN --&gt;\n&lt;div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"&gt;\n&lt;a class=\"a2a_dd\" href=\"https://www.addtoany.com/share\"&gt;&lt;/a&gt;\n&lt;a class=\"a2a_button_twitter\"&gt;&lt;/a&gt;\n&lt;a class=\"a2a_button_linkedin\"&gt;&lt;/a&gt;\n&lt;a class=\"a2a_button_email\"&gt;&lt;/a&gt;\n&lt;/div&gt;\n&lt;script async src=\"https://static.addtoany.com/menu/page.js\"&gt;&lt;/script&gt;\n&lt;!-- AddToAny END --&gt;\nThen include it in your pages:\n{{&lt; include /files/includes/_social.qmd &gt;}}"
+    "objectID": "miscellaneous/overleaf.html#quick-reference-card",
+    "href": "miscellaneous/overleaf.html#quick-reference-card",
+    "title": "Overleaf Git Sync Guide",
+    "section": "Quick Reference Card",
+    "text": "Quick Reference Card\n\n\n\n\n\n\nNoteDaily Workflow\n\n\n\ngit pull origin master          # Get latest changes\n# ... make edits ...\ngit add .                        # Stage changes\ngit commit -m \"Description\"      # Commit changes\ngit pull --rebase origin master  # Get any new changes\ngit push origin master           # Upload to Overleaf\n\n\n\n\n\n\n\n\nNoteCheck Status\n\n\n\ngit status                       # See what changed\ngit log --oneline                # See history\ngit diff                         # See exact changes\n\n\n\n\n\n\n\n\nNoteUndo\n\n\n\ngit checkout -- file.tex         # Discard changes in file\ngit reset --soft HEAD~1          # Undo last commit\n\n\n\n\n\n\n\n\nCautionEmergency\n\n\n\ngit rebase --abort               # Cancel rebase\ngit reset --hard origin/master   # Match Overleaf exactly"
   },
   {
-    "objectID": "miscellaneous/quarto-tips.html#github-actions-for-auto-deploy",
-    "href": "miscellaneous/quarto-tips.html#github-actions-for-auto-deploy",
-    "title": "Quarto Academic Website Examples and Tips",
-    "section": "GitHub Actions for Auto-Deploy",
-    "text": "GitHub Actions for Auto-Deploy\nname: Render and Publish\n\non:\n  push:\n    branches: [main]\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n        \n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        \n      - name: Publish to GitHub Pages\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}"
+    "objectID": "miscellaneous/overleaf.html#git-fetch-vs-pull",
+    "href": "miscellaneous/overleaf.html#git-fetch-vs-pull",
+    "title": "Overleaf Git Sync Guide",
+    "section": "Git Fetch vs Pull",
+    "text": "Git Fetch vs Pull\ngit fetch - Downloads changes but does not merge them (safe preview)\ngit fetch origin\ngit log HEAD..origin/master  # See what is new\ngit merge origin/master      # Merge when ready\ngit pull - Downloads and merges immediately (fetch + merge)\ngit pull origin master\ngit pull --rebase - Downloads and applies your changes on top (cleanest)\ngit pull --rebase origin master"
   },
   {
-    "objectID": "miscellaneous/quarto-tips.html#useful-resources",
-    "href": "miscellaneous/quarto-tips.html#useful-resources",
-    "title": "Quarto Academic Website Examples and Tips",
-    "section": "Useful Resources",
-    "text": "Useful Resources\n\n\n\nResource\nLink\n\n\n\n\nQuarto Documentation\nquarto.org\n\n\nQuarto Websites Guide\nWebsite Creation\n\n\nAwesome Quarto\nGitHub\n\n\nSamantha Csik Tutorial\nCreating Quarto Websites\n\n\nMarvin Schmitt Tutorial\nComplete Tutorial"
-  },
-  {
-    "objectID": "miscellaneous/quarto-tips.html#quick-reference",
-    "href": "miscellaneous/quarto-tips.html#quick-reference",
-    "title": "Quarto Academic Website Examples and Tips",
-    "section": "Quick Reference",
-    "text": "Quick Reference\n\nCommon YAML Options\nproject:\n  type: website\n  output-dir: docs\n\nwebsite:\n  title: \"Site Title\"\n  navbar:\n    left:\n      - text: \"Home\"\n        href: index.qmd\n      - text: \"Publications\"\n        href: publications.qmd\n  footer:\n    left: \"© 2025 Your Name\"\n\nformat:\n  html:\n    theme: cosmo\n    css: styles.css\n    toc: true\n\n\nFreeze for Efficiency\nexecute:\n  freeze: auto\nThis prevents re-rendering of unchanged content, speeding up builds significantly.\n\n\n\n\n\n\n\nTipPro Tips\n\n\n\n\nUse freeze: auto to speed up rendering\nStore publications in YAML files for easier management\nCreate include files for reusable components\nUse categories for filtering content in listings\nSet up GitHub Actions for automatic deployment"
-  },
-  {
-    "objectID": "miscellaneous/open-access.html",
-    "href": "miscellaneous/open-access.html",
-    "title": "Open Access Journals Having Discount Policy",
-    "section": "",
-    "text": "A carefully selected list of open-access journals with SCIE/SCI/SSCI indexes for researchers in developing nations. This resource includes topics such as public health, IT, electrical engineering, electronics, data science, and computer science. Top publishers such as Elsevier, Springer, BMJ, IEEE, MDPI, SAGE, Frontiers, IOP, and Bentham Open are included, along with APCs, waiver/discount policies, and submission links."
-  },
-  {
-    "objectID": "miscellaneous/open-access.html#what-is-included",
-    "href": "miscellaneous/open-access.html#what-is-included",
-    "title": "Open Access Journals Having Discount Policy",
-    "section": "What is Included",
-    "text": "What is Included\nThe spreadsheet contains information on:\n\nJournal Names - Open access journals indexed in SCIE/SCI/SSCI\nPublishers - Elsevier, Springer, BMJ, IEEE, MDPI, SAGE, Frontiers, IOP, Bentham Open, and more\nSubject Areas - Public health, IT, electrical engineering, electronics, data science, computer science\nAPC (Article Processing Charges) - Current fees for each journal\nWaiver/Discount Policies - Available discounts for researchers from developing countries\nSubmission Links - Direct links to journal submission portals"
-  },
-  {
-    "objectID": "miscellaneous/open-access.html#why-this-resource",
-    "href": "miscellaneous/open-access.html#why-this-resource",
-    "title": "Open Access Journals Having Discount Policy",
-    "section": "Why This Resource?",
-    "text": "Why This Resource?\nMany researchers in developing nations face financial barriers when publishing in high-quality open access journals. This curated list helps identify journals that offer:\n\nFull APC waivers for low-income countries\nPartial discounts based on author country\nInstitutional agreements and memberships\nSpecial funding programs for researchers\n\n\nFor questions or suggestions about this list, please contact the maintainer."
+    "objectID": "miscellaneous/overleaf.html#additional-resources",
+    "href": "miscellaneous/overleaf.html#additional-resources",
+    "title": "Overleaf Git Sync Guide",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nGit Documentation: https://git-scm.com/doc\nOverleaf Git Guide: https://www.overleaf.com/learn/how-to/Using_Git_and_GitHub\nInteractive Git Tutorial: https://learngitbranching.js.org/\n\n\nLast updated: 2025"
   },
   {
     "objectID": "miscellaneous/latex-reference.html",
@@ -1652,291 +1764,179 @@
     "text": "Version History\n\nv1.0 (2025-10-08): Initial documentation with table and equation support\n\n\n\n\n\n\n\n\nTipQuestions or Issues?\n\n\n\nFor more help, consult the latexdiff documentation or LaTeX Stack Exchange.\n\n\n\nLast updated: 2025-10-08"
   },
   {
-    "objectID": "miscellaneous/opensource.html",
-    "href": "miscellaneous/opensource.html",
-    "title": "Open Source Tools",
+    "objectID": "miscellaneous/open-access.html",
+    "href": "miscellaneous/open-access.html",
+    "title": "Open Access Journals Having Discount Policy",
     "section": "",
-    "text": "A curated list of free and open source tools for academic research and teaching. 22 categories, 180+ tools available."
+    "text": "A carefully selected list of open-access journals with SCIE/SCI/SSCI indexes for researchers in developing nations. This resource includes topics such as public health, IT, electrical engineering, electronics, data science, and computer science. Top publishers such as Elsevier, Springer, BMJ, IEEE, MDPI, SAGE, Frontiers, IOP, and Bentham Open are included, along with APCs, waiver/discount policies, and submission links."
   },
   {
-    "objectID": "miscellaneous/opensource.html#reference-management-citations",
-    "href": "miscellaneous/opensource.html#reference-management-citations",
-    "title": "Open Source Tools",
-    "section": "1. Reference Management & Citations",
-    "text": "1. Reference Management & Citations\n\n\n\nTool\nDescription\n\n\n\n\nZotero\nOpen-source citation manager with browser integration\n\n\nJabRef\nBibTeX reference manager for LaTeX users\n\n\nMendeley (basic plan free)\nManage PDFs, annotate, cite easily\n\n\nKBibTeX\nBibTeX editor for KDE (Linux)"
+    "objectID": "miscellaneous/open-access.html#what-is-included",
+    "href": "miscellaneous/open-access.html#what-is-included",
+    "title": "Open Access Journals Having Discount Policy",
+    "section": "What is Included",
+    "text": "What is Included\nThe spreadsheet contains information on:\n\nJournal Names - Open access journals indexed in SCIE/SCI/SSCI\nPublishers - Elsevier, Springer, BMJ, IEEE, MDPI, SAGE, Frontiers, IOP, Bentham Open, and more\nSubject Areas - Public health, IT, electrical engineering, electronics, data science, computer science\nAPC (Article Processing Charges) - Current fees for each journal\nWaiver/Discount Policies - Available discounts for researchers from developing countries\nSubmission Links - Direct links to journal submission portals"
   },
   {
-    "objectID": "miscellaneous/opensource.html#writing-document-preparation",
-    "href": "miscellaneous/opensource.html#writing-document-preparation",
-    "title": "Open Source Tools",
-    "section": "2. Writing & Document Preparation",
-    "text": "2. Writing & Document Preparation\n\n\n\nTool\nDescription\n\n\n\n\nGoogle Docs\nCollaborative writing with cloud sync\n\n\nLibreOffice Writer\nOpen-source word processor\n\n\nGrammarly (basic)\nGrammar and tone checking\n\n\nLaTeX (TeX Live, MiKTeX)\nProfessional typesetting for scientific documents\n\n\nOverleaf (free tier)\nOnline collaborative LaTeX editor\n\n\nTeXstudio\nLaTeX editor with integrated PDF viewer\n\n\nLyX\nDocument processor with LaTeX backend\n\n\nPandoc\nUniversal document converter\n\n\nLanguageTool\nOpen-source grammar and style checker"
+    "objectID": "miscellaneous/open-access.html#why-this-resource",
+    "href": "miscellaneous/open-access.html#why-this-resource",
+    "title": "Open Access Journals Having Discount Policy",
+    "section": "Why This Resource?",
+    "text": "Why This Resource?\nMany researchers in developing nations face financial barriers when publishing in high-quality open access journals. This curated list helps identify journals that offer:\n\nFull APC waivers for low-income countries\nPartial discounts based on author country\nInstitutional agreements and memberships\nSpecial funding programs for researchers\n\n\nFor questions or suggestions about this list, please contact the maintainer."
   },
   {
-    "objectID": "miscellaneous/opensource.html#note-taking-knowledge-management",
-    "href": "miscellaneous/opensource.html#note-taking-knowledge-management",
-    "title": "Open Source Tools",
-    "section": "3. Note-Taking & Knowledge Management",
-    "text": "3. Note-Taking & Knowledge Management\n\n\n\nTool\nDescription\n\n\n\n\nObsidian\nMarkdown-based personal knowledge base (free for personal use)\n\n\nJoplin\nOpen-source Evernote alternative\n\n\nGoogle Keep\nSimple note capture synced across devices\n\n\nZettlr\nMarkdown editor for academic writing\n\n\nTiddlyWiki\nPersonal wiki and note-taking system\n\n\nLogseq\nOpen source note-taking with graph view\n\n\nStandard Notes\nEncrypted note-taking app"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#statistical-analysis-data-science",
-    "href": "miscellaneous/opensource.html#statistical-analysis-data-science",
-    "title": "Open Source Tools",
-    "section": "4. Statistical Analysis & Data Science",
-    "text": "4. Statistical Analysis & Data Science\n\n\n\nTool\nDescription\n\n\n\n\nR & RStudio\nStatistical computing and graphics\n\n\nPython (Anaconda)\nScientific computing with Jupyter notebooks\n\n\nJASP\nUser-friendly statistical software (SPSS alternative)\n\n\nPSPP\nGNU alternative to SPSS\n\n\njamovi\nStatistical spreadsheet built on R\n\n\nGNU Octave\nMATLAB alternative\n\n\nJulia\nHigh-performance language for technical computing\n\n\nOrange\nVisual programming for data analysis and machine learning"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#data-handling-visualization",
-    "href": "miscellaneous/opensource.html#data-handling-visualization",
-    "title": "Open Source Tools",
-    "section": "5. Data Handling & Visualization",
-    "text": "5. Data Handling & Visualization\n\n\n\nTool\nDescription\n\n\n\n\nGoogle Sheets\nOnline spreadsheets with collaboration\n\n\nLibreOffice Calc\nOpen alternative to Excel\n\n\nTableau Public\nFree version for data visualization\n\n\nggplot2 (R)\nGrammar of graphics visualization\n\n\nMatplotlib & Seaborn (Python)\nPlotting libraries\n\n\nPlotly\nInteractive graphing library\n\n\nRAWGraphs\nWeb-based tool for visual data representation\n\n\nGephi\nNetwork analysis and visualization"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#qualitative-research",
-    "href": "miscellaneous/opensource.html#qualitative-research",
-    "title": "Open Source Tools",
-    "section": "6. Qualitative Research",
-    "text": "6. Qualitative Research\n\n\n\nTool\nDescription\n\n\n\n\nQualCoder\nQualitative data analysis (NVivo alternative)\n\n\nTaguette\nQualitative research document tagging\n\n\nRQDA\nR-based qualitative data analysis\n\n\nAquad\nAnalysis of qualitative data\n\n\nCATMA\nComputer-assisted text markup and analysis"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#laboratory-scientific-computing",
-    "href": "miscellaneous/opensource.html#laboratory-scientific-computing",
-    "title": "Open Source Tools",
-    "section": "7. Laboratory & Scientific Computing",
-    "text": "7. Laboratory & Scientific Computing\n\n\n\nTool\nDescription\n\n\n\n\nJupyter Notebook\nInteractive computing environment\n\n\nGNU Octave\nMATLAB alternative for numerical computations\n\n\nSageMath\nMathematics software system\n\n\nLabPlot\nData analysis and visualization\n\n\nSciDAVis\nScientific data analysis and visualization\n\n\nGNU Scientific Library (GSL)\nNumerical library for C/C++"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#image-graphics",
-    "href": "miscellaneous/opensource.html#image-graphics",
-    "title": "Open Source Tools",
-    "section": "8. Image & Graphics",
-    "text": "8. Image & Graphics\n\n\n\nTool\nDescription\n\n\n\n\nImageJ/Fiji\nImage processing for life sciences\n\n\nGIMP\nImage editing and manipulation\n\n\nInkscape\nVector graphics for diagrams and figures\n\n\nCanva (free plan)\nEasy graphics and presentation design\n\n\nKrita\nDigital painting and illustration\n\n\nBlender\n3D modeling, animation, and rendering\n\n\ndarktable\nPhotography workflow and RAW developer\n\n\nRawTherapee\nCross-platform RAW image processing"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#survey-experiment-design",
-    "href": "miscellaneous/opensource.html#survey-experiment-design",
-    "title": "Open Source Tools",
-    "section": "9. Survey & Experiment Design",
-    "text": "9. Survey & Experiment Design\n\n\n\nTool\nDescription\n\n\n\n\nLimeSurvey\nOpen-source survey platform (self-hosted)\n\n\nPsychoPy\nPsychology and neuroscience experiments\n\n\njsPsych\nJavaScript library for behavioral experiments\n\n\nOpenSesame\nPsychology experiment builder\n\n\nFormr\nSurvey framework with R integration\n\n\nSurveyJS\nJavaScript library for surveys"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#mind-mapping-brainstorming",
-    "href": "miscellaneous/opensource.html#mind-mapping-brainstorming",
-    "title": "Open Source Tools",
-    "section": "10. Mind Mapping & Brainstorming",
-    "text": "10. Mind Mapping & Brainstorming\n\n\n\nTool\nDescription\n\n\n\n\nFreeMind\nOpen-source mind-mapping software\n\n\nMindMup\nBrowser-based mind maps with Google Drive\n\n\nFreeplane\nMind mapping and knowledge management\n\n\nCoggle\nCollaborative mind mapping (free tier)\n\n\ndraw.io / diagrams.net\nDiagram and flowchart creator"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#project-management-organization",
-    "href": "miscellaneous/opensource.html#project-management-organization",
-    "title": "Open Source Tools",
-    "section": "11. Project Management & Organization",
-    "text": "11. Project Management & Organization\n\n\n\nTool\nDescription\n\n\n\n\nTrello\nKanban-style task tracking (free plan)\n\n\nTodoist (free plan)\nTask and goal management\n\n\nGoogle Calendar\nScheduling and reminders\n\n\nWekan\nOpen-source kanban board\n\n\nTaiga\nProject management for agile teams\n\n\nOpenProject\nOpen-source project management\n\n\nPlanner\nTask manager for GNOME (Linux)"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#cloud-storage-collaboration",
-    "href": "miscellaneous/opensource.html#cloud-storage-collaboration",
-    "title": "Open Source Tools",
-    "section": "12. Cloud Storage & Collaboration",
-    "text": "12. Cloud Storage & Collaboration\n\n\n\nTool\nDescription\n\n\n\n\nGoogle Drive\nIntegrated with Docs, Sheets, Slides\n\n\nDropbox Basic\nCloud storage and file sharing\n\n\nMEGA\nEnd-to-end encrypted cloud storage\n\n\nNextcloud\nSelf-hosted file sharing (open source)\n\n\nSyncthing\nContinuous file synchronization\n\n\npCloud (free tier)\nCloud storage with sync\n\n\nSeafile\nOpen-source file hosting platform"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#presentation-tools",
-    "href": "miscellaneous/opensource.html#presentation-tools",
-    "title": "Open Source Tools",
-    "section": "13. Presentation Tools",
-    "text": "13. Presentation Tools\n\n\n\nTool\nDescription\n\n\n\n\nGoogle Slides\nCollaborative presentation creation\n\n\nLibreOffice Impress\nFree presentation software\n\n\nBeamer (LaTeX)\nProfessional academic slides\n\n\nreveal.js\nHTML presentation framework\n\n\nMarp\nMarkdown presentation ecosystem\n\n\nSozi\nZooming presentation editor"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#remote-access-login-tools",
-    "href": "miscellaneous/opensource.html#remote-access-login-tools",
-    "title": "Open Source Tools",
-    "section": "14. Remote Access & Login Tools",
-    "text": "14. Remote Access & Login Tools\n\n14.1 Remote Desktop\n\n\n\nTool\nDescription\n\n\n\n\nTigerVNC\nHigh-performance VNC\n\n\nRustDesk\nOpen source TeamViewer alternative\n\n\nApache Guacamole\nWeb-based remote desktop\n\n\nRemmina\nMulti-protocol remote desktop (Linux)\n\n\nTightVNC\nLightweight VNC solution\n\n\nUltraVNC\nWindows VNC with file transfer\n\n\nX2Go\nRemote desktop based on NX technology\n\n\nNoMachine (free tier)\nRemote desktop for Linux, Windows, macOS\n\n\n\n\n\n14.2 File Transfer\n\n\n\nTool\nDescription\n\n\n\n\nFileZilla\nFTP/SFTP client\n\n\nWinSCP\nSFTP/SCP for Windows\n\n\nCyberduck\nCloud storage and FTP client\n\n\nTransmit\nFile transfer client (macOS, free tier)"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#communication-collaboration",
-    "href": "miscellaneous/opensource.html#communication-collaboration",
-    "title": "Open Source Tools",
-    "section": "15. Communication & Collaboration",
-    "text": "15. Communication & Collaboration\n\n\n\nTool\nDescription\n\n\n\n\nZoom (free plan)\nVideo conferencing\n\n\nSlack (free)\nMessaging for study/research groups\n\n\nMicrosoft Teams (education)\nInstitutional collaboration\n\n\nJitsi Meet\nOpen-source video conferencing\n\n\nElement\nDecentralized chat and collaboration (Matrix protocol)\n\n\nRocket.Chat\nOpen-source team communication\n\n\nMattermost\nOpen-source messaging platform\n\n\nBigBlueButton\nOpen-source web conferencing for education"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#productivity-focus",
-    "href": "miscellaneous/opensource.html#productivity-focus",
-    "title": "Open Source Tools",
-    "section": "16. Productivity & Focus",
-    "text": "16. Productivity & Focus\n\n\n\nTool\nDescription\n\n\n\n\nPomofocus\nOnline Pomodoro timer\n\n\nCold Turkey (free version)\nBlock distracting sites\n\n\nLeechBlock\nBrowser extension to block sites\n\n\nForest (basic)\nGamified focus app\n\n\nFocusMe (free tier)\nProductivity and focus tool\n\n\nSelfControl\nBlock distracting websites (macOS)\n\n\nStretchly\nBreak time reminder app"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#screen-recording-screen-capture",
-    "href": "miscellaneous/opensource.html#screen-recording-screen-capture",
-    "title": "Open Source Tools",
-    "section": "17. Screen Recording & Screen Capture",
-    "text": "17. Screen Recording & Screen Capture\n\n17.1 Screen Recording\n\n\n\nTool\nDescription\n\n\n\n\nOBS Studio\nOpen-source screen recording and streaming\n\n\nLoom (free plan)\nSimple screen and webcam recording\n\n\nSimpleScreenRecorder\nFeature-rich screen recorder (Linux)\n\n\nKazam\nSimple screen recording for Linux\n\n\nScreencast-O-Matic (free tier)\nScreen recording\n\n\n\n\n\n17.2 Screen Capture (Screenshots)\n\n\n\nTool\nDescription\n\n\n\n\nGreenshot\nLightweight screenshot tool with annotation (Windows)\n\n\nFlameshot\nPowerful screenshot tool (Linux)\n\n\nLightshot\nQuick screenshot and sharing\n\n\nShareX\nAdvanced screenshot and file sharing tool (Windows)\n\n\nSpectacle\nScreenshot utility for KDE (Linux)\n\n\nShutter\nFeature-rich screenshot tool (Linux)\n\n\nWindows Snipping Tool\nBuilt-in Windows screenshot tool\n\n\nmacOS Screenshot\nBuilt-in Command+Shift+3/4/5 (macOS)\n\n\nKsnip\nCross-platform screenshot tool"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#backup-security-privacy",
-    "href": "miscellaneous/opensource.html#backup-security-privacy",
-    "title": "Open Source Tools",
-    "section": "18. Backup, Security & Privacy",
-    "text": "18. Backup, Security & Privacy\n\n\n\nTool\nDescription\n\n\n\n\nBitwarden\nOpen-source password manager\n\n\nVeraCrypt\nOpen-source file encryption\n\n\nSyncthing\nContinuous file synchronization\n\n\nKeePassXC\nLocal password database\n\n\nDuplicati\nEncrypted backup solution\n\n\nCryptomator\nTransparent client-side encryption for cloud files\n\n\nRestic\nFast and secure backup program\n\n\nBorgBackup\nDeduplicating backup program"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#bibliometrics-research-metrics",
-    "href": "miscellaneous/opensource.html#bibliometrics-research-metrics",
-    "title": "Open Source Tools",
-    "section": "19. Bibliometrics & Research Metrics",
-    "text": "19. Bibliometrics & Research Metrics\n\n\n\nTool\nDescription\n\n\n\n\nVOSviewer\nBibliometric network visualization\n\n\nPublish or Perish\nCitation analysis and metrics\n\n\nBibliometrix\nR package for bibliometrics\n\n\nCiteSpace\nLiterature visualization\n\n\nCitNetExplorer\nCitation network explorer"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#miscellaneous-academic-tools",
-    "href": "miscellaneous/opensource.html#miscellaneous-academic-tools",
-    "title": "Open Source Tools",
-    "section": "20. Miscellaneous Academic Tools",
-    "text": "20. Miscellaneous Academic Tools\n\n\n\nTool\nDescription\n\n\n\n\nAnki\nSpaced repetition flashcard system\n\n\nCalibre\nE-book management\n\n\nAudacity\nAudio recording and editing\n\n\nPandoc\nUniversal document converter\n\n\nPDF-XChange Editor (free version)\nPDF annotation\n\n\nSumatra PDF\nLightweight PDF reader\n\n\nOkular\nUniversal document viewer (Linux)\n\n\nXournal++\nHandwriting and PDF annotation"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#tools-for-screen-annotation-writing",
-    "href": "miscellaneous/opensource.html#tools-for-screen-annotation-writing",
-    "title": "Open Source Tools",
-    "section": "21. Tools for Screen Annotation / Writing",
-    "text": "21. Tools for Screen Annotation / Writing\n\n\n\nTool\nDescription\n\n\n\n\nEpic Pen (free basic version)\nScreen annotation and drawing tool\n\n\nGromit-MPX\nOn-screen annotation tool for Linux\n\n\nXournal++\nHandwriting and PDF annotation\n\n\nOpenBoard\nInteractive whiteboard for teaching\n\n\nZoomIt\nScreen annotation for presentations (Microsoft, free)\n\n\nPylote\nOn-screen annotation (Linux)\n\n\nArdesia\nDigital sketchpad for screen annotations"
-  },
-  {
-    "objectID": "miscellaneous/opensource.html#file-search-system-utilities",
-    "href": "miscellaneous/opensource.html#file-search-system-utilities",
-    "title": "Open Source Tools",
-    "section": "22. File Search & System Utilities",
-    "text": "22. File Search & System Utilities\n\n\n\nTool\nDescription\n\n\n\n\nEverything\nUltra-fast file search for Windows\n\n\nfsearch\nFast file search for Linux (Everything alternative)\n\n\nRecoll\nDesktop full-text search (cross-platform)\n\n\nDocFetcher\nDocument search engine (cross-platform)\n\n\nCerebro\nOpen-source app launcher and search (cross-platform)\n\n\nAlbert\nFast launcher for Linux\n\n\nUlauncher\nApplication launcher for Linux\n\n\nWox\nLauncher for Windows (free, open source)\n\n\nKupfer\nApplication launcher for Linux\n\n\nKeypirinha\nFast launcher for Windows\n\n\nueli\nKeystroke launcher for Windows and macOS\n\n\n\n\nLast updated: October 2025"
-  },
-  {
-    "objectID": "miscellaneous/overleaf.html",
-    "href": "miscellaneous/overleaf.html",
-    "title": "Overleaf Git Sync Guide",
+    "objectID": "miscellaneous/quarto-tips.html",
+    "href": "miscellaneous/quarto-tips.html",
+    "title": "Quarto Academic Website Examples and Tips",
     "section": "",
-    "text": "Complete documentation for safely syncing your Overleaf project with your PC using Git."
+    "text": "Template\nWebsite\nGitHub\n\n\n\n\nAcademic\nDemo\nSource\n\n\nqtwAcademic\nDocs\nSource\n\n\n\n\n\n\n\n\n\nTipRecommendation\n\n\n\nFork the template repository rather than actual websites to avoid receiving notifications on every update. Remember to remove any Google Analytics or tracking IDs from forked templates."
   },
   {
-    "objectID": "miscellaneous/overleaf.html#initial-setup-one-time",
-    "href": "miscellaneous/overleaf.html#initial-setup-one-time",
-    "title": "Overleaf Git Sync Guide",
-    "section": "Initial Setup (One-Time)",
-    "text": "Initial Setup (One-Time)\n\n1. Get Your Overleaf Git URL\n\nOpen your project in Overleaf\nClick Menu (top left)\nClick Git\nCopy the Git URL (looks like: https://git.overleaf.com/1234567890abcdef)\n\n\n\n2. Clone the Project\ncd /path/to/where/you/want/project\ngit clone https://git.overleaf.com/your-project-id\ncd your-project-folder\n\n\n3. Set Up .gitignore\nCreate a .gitignore file to exclude auxiliary LaTeX files:\nCreate the file:\n# On Linux/Mac/Git Bash:\ntouch .gitignore\n\n# On Windows Command Prompt:\ntype nul &gt; .gitignore\n\n# On Windows PowerShell:\nNew-Item .gitignore -ItemType File\nAdd this content to .gitignore:\n## Core LaTeX auxiliary files\n*.aux\n*.lof\n*.log\n*.lot\n*.fls\n*.out\n*.toc\n*.fmt\n*.fot\n*.cb\n*.cb2\n.*.lb\n\n## Bibliography auxiliary files\n*.bbl\n*.bcf\n*.blg\n*-blx.aux\n*-blx.bib\n*.run.xml\n\n## Build tool auxiliary files\n*.fdb_latexmk\n*.synctex\n*.synctex(busy)\n*.synctex.gz\n*.pdfsync\n\n## Build directories\nbuild/\nout/\n\n## Editor backup files\n*~\n*.swp\n*.swo\n\n## OS files\n.DS_Store\nThumbs.db\nCommit the .gitignore:\ngit add .gitignore\ngit commit -m \"Add .gitignore for LaTeX files\"\ngit push origin master\nIf auxiliary files are already tracked:\ngit rm -r --cached .\ngit add .\ngit commit -m \"Remove auxiliary files from tracking\"\ngit push origin master"
-  },
-  {
-    "objectID": "miscellaneous/overleaf.html#daily-workflow",
-    "href": "miscellaneous/overleaf.html#daily-workflow",
-    "title": "Overleaf Git Sync Guide",
-    "section": "Daily Workflow",
-    "text": "Daily Workflow\n\nBefore You Start Working\nAlways pull first to get latest changes:\ngit pull origin master\n\n\nWhile Working\nEdit your files normally in your preferred LaTeX editor (VS Code, TeXstudio, etc.)\n\n\nAfter Making Changes\n1. Check what changed:\ngit status\n2. Stage your changes:\n# Stage all changes\ngit add .\n\n# Or stage specific files\ngit add filename.tex\n3. Commit with a descriptive message:\ngit commit -m \"Add introduction section\"\n4. Pull with rebase (safer):\ngit pull --rebase origin master\n5. Push to Overleaf:\ngit push origin master"
-  },
-  {
-    "objectID": "miscellaneous/overleaf.html#essential-git-commands",
-    "href": "miscellaneous/overleaf.html#essential-git-commands",
-    "title": "Overleaf Git Sync Guide",
-    "section": "Essential Git Commands",
-    "text": "Essential Git Commands\n\nViewing Status and History\n# See current status\ngit status\n\n# See commit history\ngit log\n\n# See compact history\ngit log --oneline\n\n# See what files changed\ngit diff\n\n# See changes in a specific file\ngit diff filename.tex\n\n\nSyncing\n# Download changes without merging (safe)\ngit fetch origin\n\n# See what is new on remote\ngit log HEAD..origin/master\n\n# Download and merge changes\ngit pull origin master\n\n# Download and rebase (cleaner history)\ngit pull --rebase origin master\n\n# Upload your changes\ngit push origin master\n\n\nUndoing Changes\n# Discard changes in a file (before commit)\ngit checkout -- filename.tex\n\n# Unstage a file (keep changes)\ngit reset filename.tex\n\n# Undo last commit (keep changes)\ngit reset --soft HEAD~1\n\n# Undo last commit (discard changes) - CAREFUL!\ngit reset --hard HEAD~1"
-  },
-  {
-    "objectID": "miscellaneous/overleaf.html#conflict-resolution",
-    "href": "miscellaneous/overleaf.html#conflict-resolution",
-    "title": "Overleaf Git Sync Guide",
-    "section": "Conflict Resolution",
-    "text": "Conflict Resolution\n\nWhen Conflicts Occur\nIf you get a conflict during pull or rebase:\n1. Git will show which files have conflicts:\nCONFLICT (content): Merge conflict in main.tex\n2. Open the conflicting file. You will see markers like:\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD\nYour local changes\n=======\nChanges from Overleaf\n&gt;&gt;&gt;&gt;&gt;&gt;&gt; origin/master\n3. Manually edit the file:\n\nRemove the conflict markers (&lt;&lt;&lt;&lt;&lt;&lt;&lt;, =======, &gt;&gt;&gt;&gt;&gt;&gt;&gt;)\nKeep the version you want (or combine both)\nSave the file\n\n4. Mark as resolved:\ngit add main.tex\n5. Continue the operation:\n# If you were rebasing:\ngit rebase --continue\n\n# If you were merging:\ngit commit -m \"Resolve merge conflict\"\n6. Push the resolution:\ngit push origin master\n\n\nAbort If Things Go Wrong\n# Abort a rebase\ngit rebase --abort\n\n# Abort a merge\ngit merge --abort"
-  },
-  {
-    "objectID": "miscellaneous/overleaf.html#best-practices",
-    "href": "miscellaneous/overleaf.html#best-practices",
-    "title": "Overleaf Git Sync Guide",
-    "section": "Best Practices",
-    "text": "Best Practices\n\nConflict Prevention\n\nAlways pull before starting work\nCommit and push frequently (small commits are better)\nAvoid editing the same file in Overleaf and locally simultaneously\nUse descriptive commit messages\nUse git pull --rebase instead of regular pull for cleaner history\n\n\n\nGood Commit Messages\n\n\n\n\n\n\nTipGood Examples ✓\n\n\n\ngit commit -m \"Add methodology section\"\ngit commit -m \"Fix typo in introduction\"\ngit commit -m \"Update bibliography with new sources\"\n\n\n\n\n\n\n\n\nWarningBad Examples ✗\n\n\n\ngit commit -m \"update\"\ngit commit -m \"changes\"\ngit commit -m \"asdf\"\n\n\n\n\nWorking with Branches (Optional)\nFor major changes or experiments:\n# Create and switch to new branch\ngit checkout -b experimental-feature\n\n# Work on your changes...\ngit add .\ngit commit -m \"Experiment with new structure\"\n\n# Switch back to main branch\ngit checkout master\n\n# Get latest changes\ngit pull origin master\n\n# Merge your experimental branch\ngit merge experimental-feature\n\n# Push everything\ngit push origin master"
-  },
-  {
-    "objectID": "miscellaneous/overleaf.html#troubleshooting",
-    "href": "miscellaneous/overleaf.html#troubleshooting",
-    "title": "Overleaf Git Sync Guide",
-    "section": "Troubleshooting",
-    "text": "Troubleshooting\n\n“Your branch is ahead of ‘origin/master’”\nMeaning: You have local commits not pushed to Overleaf.\nSolution:\ngit push origin master\n\n\n“Your branch is behind ‘origin/master’”\nMeaning: Overleaf has changes you do not have locally.\nSolution:\ngit pull origin master\n\n\n“Permission denied” or Authentication Failed\nSolution: Check your Overleaf credentials or use a Git credential helper.\n\n\nAccidentally Committed Large Files\n# Remove from last commit\ngit rm --cached largefile.pdf\ngit commit --amend -m \"Remove large file\"\ngit push origin master --force\n\n\nWant to Start Fresh\n# Discard ALL local changes and match Overleaf exactly\ngit fetch origin\ngit reset --hard origin/master\n\n\n\n\n\n\nWarningWarning\n\n\n\nThis deletes all uncommitted local changes!"
-  },
-  {
-    "objectID": "miscellaneous/overleaf.html#quick-reference-card",
-    "href": "miscellaneous/overleaf.html#quick-reference-card",
-    "title": "Overleaf Git Sync Guide",
-    "section": "Quick Reference Card",
-    "text": "Quick Reference Card\n\n\n\n\n\n\nNoteDaily Workflow\n\n\n\ngit pull origin master          # Get latest changes\n# ... make edits ...\ngit add .                        # Stage changes\ngit commit -m \"Description\"      # Commit changes\ngit pull --rebase origin master  # Get any new changes\ngit push origin master           # Upload to Overleaf\n\n\n\n\n\n\n\n\nNoteCheck Status\n\n\n\ngit status                       # See what changed\ngit log --oneline                # See history\ngit diff                         # See exact changes\n\n\n\n\n\n\n\n\nNoteUndo\n\n\n\ngit checkout -- file.tex         # Discard changes in file\ngit reset --soft HEAD~1          # Undo last commit\n\n\n\n\n\n\n\n\nCautionEmergency\n\n\n\ngit rebase --abort               # Cancel rebase\ngit reset --hard origin/master   # Match Overleaf exactly"
-  },
-  {
-    "objectID": "miscellaneous/overleaf.html#git-fetch-vs-pull",
-    "href": "miscellaneous/overleaf.html#git-fetch-vs-pull",
-    "title": "Overleaf Git Sync Guide",
-    "section": "Git Fetch vs Pull",
-    "text": "Git Fetch vs Pull\ngit fetch - Downloads changes but does not merge them (safe preview)\ngit fetch origin\ngit log HEAD..origin/master  # See what is new\ngit merge origin/master      # Merge when ready\ngit pull - Downloads and merges immediately (fetch + merge)\ngit pull origin master\ngit pull --rebase - Downloads and applies your changes on top (cleanest)\ngit pull --rebase origin master"
-  },
-  {
-    "objectID": "miscellaneous/overleaf.html#additional-resources",
-    "href": "miscellaneous/overleaf.html#additional-resources",
-    "title": "Overleaf Git Sync Guide",
-    "section": "Additional Resources",
-    "text": "Additional Resources\n\nGit Documentation: https://git-scm.com/doc\nOverleaf Git Guide: https://www.overleaf.com/learn/how-to/Using_Git_and_GitHub\nInteractive Git Tutorial: https://learngitbranching.js.org/\n\n\nLast updated: 2025"
-  },
-  {
-    "objectID": "miscellaneous/docx-latex.html",
-    "href": "miscellaneous/docx-latex.html",
-    "title": "DOCX to LaTeX Conversion Guide",
+    "objectID": "miscellaneous/quarto-tips.html#template-resources",
+    "href": "miscellaneous/quarto-tips.html#template-resources",
+    "title": "Quarto Academic Website Examples and Tips",
     "section": "",
-    "text": "NoteOverview\n\n\n\nThis guide provides a systematic approach to converting DOCX files to LaTeX format, specifically tailored for academic papers using the elsarticle document class. The process involves proper preparation, image handling, and automated conversion using Pandoc."
+    "text": "Template\nWebsite\nGitHub\n\n\n\n\nAcademic\nDemo\nSource\n\n\nqtwAcademic\nDocs\nSource\n\n\n\n\n\n\n\n\n\nTipRecommendation\n\n\n\nFork the template repository rather than actual websites to avoid receiving notifications on every update. Remember to remove any Google Analytics or tracking IDs from forked templates."
   },
   {
-    "objectID": "miscellaneous/docx-latex.html#step-1-prepare-your-docx-file",
-    "href": "miscellaneous/docx-latex.html#step-1-prepare-your-docx-file",
-    "title": "DOCX to LaTeX Conversion Guide",
-    "section": "Step 1: Prepare Your DOCX File",
-    "text": "Step 1: Prepare Your DOCX File\nProper document preparation is crucial for successful conversion. Ensure your Word document follows standard formatting conventions.\n\nFormat headings properly using built-in styles (Heading 1, Heading 2, etc.)\nEnsure images and tables are correctly inserted and positioned\nAvoid TIFF images when possible, prefer PNG or JPG formats\nStandardize author names, affiliations, and email addresses\nUse consistent citation and reference formatting"
+    "objectID": "miscellaneous/quarto-tips.html#using-includes-for-reusable-content",
+    "href": "miscellaneous/quarto-tips.html#using-includes-for-reusable-content",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "Using Includes for Reusable Content",
+    "text": "Using Includes for Reusable Content\nTo streamline updates across your site, use Quarto’s includes feature for reusable elements like syllabus statements, social sharing options, academic badges, and other reusable materials.\n{{&lt; include _statement.qmd &gt;}}\n\n\n\n\n\n\nNote\n\n\n\nPrefixing include file names with an underscore (_) ensures they will not be rendered directly by Quarto.\n\n\n\nExample Use Cases\n\nCourse descriptions reused in main page and syllabus\nAcademic badges for publications\nSocial sharing buttons\nFooter information\nAuthor bio sections"
   },
   {
-    "objectID": "miscellaneous/docx-latex.html#step-2-extract-and-convert-images",
-    "href": "miscellaneous/docx-latex.html#step-2-extract-and-convert-images",
-    "title": "DOCX to LaTeX Conversion Guide",
-    "section": "Step 2: Extract and Convert Images",
-    "text": "Step 2: Extract and Convert Images\nImages require special handling during the conversion process. Use these methods to extract and optimize your images.\n\nExtract Images Using Pandoc\nPandoc can automatically extract all images from your DOCX file while preserving references:\npandoc myfile.docx --extract-media=./media -o temp.tex\n\n\nConvert Image Formats\nConvert TIFF images to web-friendly formats using ImageMagick:\nmagick convert input.tiff -resize 50% output.png\nBatch convert multiple images:\ncd media\nmagick mogrify -resize 50% -format png *.tiff\nmagick mogrify -resize 50% -format jpg *.jpg\n\n\nManual Image Extraction\nAlternative method for extracting images manually:\n\nRename your .docx file to .zip\nExtract the ZIP file using any archive utility\nNavigate to the word/media/ folder\nCopy all images to your working media directory\n\n\n\n\n\n\n\nNoteNote\n\n\n\nUsing Pandoc’s --extract-media option automatically preserves image references and file paths in the generated LaTeX code."
+    "objectID": "miscellaneous/quarto-tips.html#academic-badges",
+    "href": "miscellaneous/quarto-tips.html#academic-badges",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "Academic Badges",
+    "text": "Academic Badges\nDisplay academic badges like Dimensions Citation badge and Altmetric badge.\n\nEmbedding Badges\n\n\n\n\n\nReplace YOUR-DOI-HERE with your actual DOI.\n\n\nCustom Badges for Highly Cited Papers\nYou can also showcase highly cited and hot papers using custom badges with HTML/CSS styling."
   },
   {
-    "objectID": "miscellaneous/docx-latex.html#step-3-install-required-software",
-    "href": "miscellaneous/docx-latex.html#step-3-install-required-software",
-    "title": "DOCX to LaTeX Conversion Guide",
-    "section": "Step 3: Install Required Software",
-    "text": "Step 3: Install Required Software\nEnsure you have the necessary tools installed on your system.\n\nInstall Pandoc from the official website: pandoc.org/installing.html\nInstall a LaTeX distribution:\n\nTeX Live (Linux/Windows)\nMikTeX (Windows)\nMacTeX (macOS)\n\nOptional: Install ImageMagick for image processing"
+    "objectID": "miscellaneous/quarto-tips.html#the-art-of-listing",
+    "href": "miscellaneous/quarto-tips.html#the-art-of-listing",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "The Art of Listing",
+    "text": "The Art of Listing\nListings are a powerful tool in Quarto, offering flexibility for creating visually appealing and organized pages.\n\nListing Types\n\n\n\nType\nDescription\n\n\n\n\ndefault\nStandard list view\n\n\ngrid\nGrid layout with cards\n\n\ntable\nTabular format\n\n\n\n\n\nListing Options\nlisting:\n  contents: posts\n  type: grid\n  grid-columns: 3\n  image-height: 150px\n  grid-item-align: center\n  fields: [image, title, date, description]\n  field-display-names:\n    title: \"Title\"\n    date: \"Published\"\n\n\nListing Specific Categories\nTo display a subset of items, use the include and exclude options:\nlisting:\n  contents: \n    - publications.yml\n  include:\n    categories: \"machine-learning\"\nHere, publications.yml is a YAML file containing a list of publications with predefined categories."
   },
   {
-    "objectID": "miscellaneous/docx-latex.html#step-4-obtain-elsarticle-class-template",
-    "href": "miscellaneous/docx-latex.html#step-4-obtain-elsarticle-class-template",
-    "title": "DOCX to LaTeX Conversion Guide",
-    "section": "Step 4: Obtain elsarticle Class Template",
-    "text": "Step 4: Obtain elsarticle Class Template\nThe elsarticle document class is required for Elsevier journal submissions.\n\nDownload the official template from Elsevier LaTeX Instructions\nExtract the template files to your working directory\nEnsure elsarticle.cls is present in your project folder\n\n\n\n\n\n\n\nWarningImportant\n\n\n\nKeep the elsarticle class file in the same directory as your LaTeX document to avoid compilation errors."
+    "objectID": "miscellaneous/quarto-tips.html#listing-external-items",
+    "href": "miscellaneous/quarto-tips.html#listing-external-items",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "Listing External Items",
+    "text": "Listing External Items\nTo list external resources with key metadata:\n- path: https://www.nature.com/articles/example\n  image: /files/images/journal/nature.avif\n  title: \"Article Title Here\"\n  subtitle: \"*Nature*\"\n  description: \"Brief description of the article.\"\n  date: \"2024-10-26\"\nFor efficiency, store multiple items in a YAML (.yml) file and reference it in Quarto:\nlisting:\n  contents: publications.yml\n  type: default"
   },
   {
-    "objectID": "miscellaneous/docx-latex.html#step-5-convert-docx-to-latex",
-    "href": "miscellaneous/docx-latex.html#step-5-convert-docx-to-latex",
-    "title": "DOCX to LaTeX Conversion Guide",
-    "section": "Step 5: Convert DOCX to LaTeX",
-    "text": "Step 5: Convert DOCX to LaTeX\nUse Pandoc to perform the actual conversion from DOCX to LaTeX format.\npandoc myfile.docx -s -o output.tex --from docx --to latex\nFor more control over the output, you can specify additional options:\npandoc myfile.docx -s -o output.tex --from docx --to latex --bibliography=references.bib --citeproc\n\n\n\n\n\n\nTipTip\n\n\n\nThe generated LaTeX file may require minor manual adjustments for figures, tables, and references to ensure proper formatting."
+    "objectID": "miscellaneous/quarto-tips.html#publication-page-structure",
+    "href": "miscellaneous/quarto-tips.html#publication-page-structure",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "Publication Page Structure",
+    "text": "Publication Page Structure\n\nIndividual Publication Page\n---\ntitle: \"Paper Title\"\ndescription: \"Brief description\"\nsubtitle: \"*Journal Name*\"\nauthor: \n  - name: Author One\n  - name: Author Two\ndate: \"2024-01-15\"\ncategories: [paper, topic1, topic2]\nimage: \"featured.jpg\"\ncitation:\n  type: article-journal\n  container-title: \"Journal Name\"\n  doi: \"10.xxxx/xxxxx\"\n  volume: 1\n  issue: 1\n  page: 1-10\n  url: https://doi.org/10.xxxx/xxxxx\ngoogle-scholar: true\n---"
   },
   {
-    "objectID": "miscellaneous/docx-latex.html#step-6-compile-the-latex-document",
-    "href": "miscellaneous/docx-latex.html#step-6-compile-the-latex-document",
-    "title": "DOCX to LaTeX Conversion Guide",
-    "section": "Step 6: Compile the LaTeX Document",
-    "text": "Step 6: Compile the LaTeX Document\nCompile your converted LaTeX document to generate the final PDF.\n\nEnsure all images are properly placed in the media folder\nVerify that the elsarticle class file is in the correct location\nRun the LaTeX compiler\n\npdflatex output.tex\nFor better Unicode support and modern fonts, use XeLaTeX:\nxelatex output.tex\n\n\n\n\n\n\nNoteMultiple Compilations\n\n\n\nYou may need to run the compiler multiple times to resolve cross-references and generate the bibliography correctly."
+    "objectID": "miscellaneous/quarto-tips.html#exporting-revealjs-slides-to-pdf",
+    "href": "miscellaneous/quarto-tips.html#exporting-revealjs-slides-to-pdf",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "Exporting Revealjs Slides to PDF",
+    "text": "Exporting Revealjs Slides to PDF\nRevealjs’s default PDF Export omits footnotes. Use decktape instead:\ndecktape reveal https://your-slides-url.html output.pdf\n\nFixing Font Errors\nIf you encounter: &gt; “Cannot extract the embedded font ‘BAAAAA+SourceSansPro-Regular’. Some characters may not display or print correctly.”\nSolution:\n\nOpen the PDF in Adobe Acrobat\nGo to Use print production → Preflight → Analyze and fix it (default options)\nApply the necessary font correction"
   },
   {
-    "objectID": "miscellaneous/docx-latex.html#summary",
-    "href": "miscellaneous/docx-latex.html#summary",
-    "title": "DOCX to LaTeX Conversion Guide",
-    "section": "Summary",
-    "text": "Summary\nThe complete workflow for DOCX to LaTeX conversion:\n\nPrepare your DOCX file with proper formatting\nExtract images using Pandoc or manual methods\nInstall Pandoc and a LaTeX distribution\nObtain the elsarticle class template\nConvert using Pandoc command\nCompile with pdflatex or xelatex\n\n\n\n\n\n\n\nTipPro Tip\n\n\n\nFor complex documents, consider using Overleaf which provides an online LaTeX editor with the elsarticle template pre-installed."
+    "objectID": "miscellaneous/quarto-tips.html#social-sharing",
+    "href": "miscellaneous/quarto-tips.html#social-sharing",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "Social Sharing",
+    "text": "Social Sharing\nFor easy setup of social sharing buttons, AddToAny is a simple solution.\n\nExample Include File\nCreate _social.qmd:\n&lt;!-- AddToAny BEGIN --&gt;\n&lt;div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\"&gt;\n&lt;a class=\"a2a_dd\" href=\"https://www.addtoany.com/share\"&gt;&lt;/a&gt;\n&lt;a class=\"a2a_button_twitter\"&gt;&lt;/a&gt;\n&lt;a class=\"a2a_button_linkedin\"&gt;&lt;/a&gt;\n&lt;a class=\"a2a_button_email\"&gt;&lt;/a&gt;\n&lt;/div&gt;\n&lt;script async src=\"https://static.addtoany.com/menu/page.js\"&gt;&lt;/script&gt;\n&lt;!-- AddToAny END --&gt;\nThen include it in your pages:\n{{&lt; include /files/includes/_social.qmd &gt;}}"
+  },
+  {
+    "objectID": "miscellaneous/quarto-tips.html#github-actions-for-auto-deploy",
+    "href": "miscellaneous/quarto-tips.html#github-actions-for-auto-deploy",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "GitHub Actions for Auto-Deploy",
+    "text": "GitHub Actions for Auto-Deploy\nname: Render and Publish\n\non:\n  push:\n    branches: [main]\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v4\n        \n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        \n      - name: Publish to GitHub Pages\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}"
+  },
+  {
+    "objectID": "miscellaneous/quarto-tips.html#useful-resources",
+    "href": "miscellaneous/quarto-tips.html#useful-resources",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "Useful Resources",
+    "text": "Useful Resources\n\n\n\nResource\nLink\n\n\n\n\nQuarto Documentation\nquarto.org\n\n\nQuarto Websites Guide\nWebsite Creation\n\n\nAwesome Quarto\nGitHub\n\n\nSamantha Csik Tutorial\nCreating Quarto Websites\n\n\nMarvin Schmitt Tutorial\nComplete Tutorial"
+  },
+  {
+    "objectID": "miscellaneous/quarto-tips.html#quick-reference",
+    "href": "miscellaneous/quarto-tips.html#quick-reference",
+    "title": "Quarto Academic Website Examples and Tips",
+    "section": "Quick Reference",
+    "text": "Quick Reference\n\nCommon YAML Options\nproject:\n  type: website\n  output-dir: docs\n\nwebsite:\n  title: \"Site Title\"\n  navbar:\n    left:\n      - text: \"Home\"\n        href: index.qmd\n      - text: \"Publications\"\n        href: publications.qmd\n  footer:\n    left: \"© 2025 Your Name\"\n\nformat:\n  html:\n    theme: cosmo\n    css: styles.css\n    toc: true\n\n\nFreeze for Efficiency\nexecute:\n  freeze: auto\nThis prevents re-rendering of unchanged content, speeding up builds significantly.\n\n\n\n\n\n\n\nTipPro Tips\n\n\n\n\nUse freeze: auto to speed up rendering\nStore publications in YAML files for easier management\nCreate include files for reusable components\nUse categories for filtering content in listings\nSet up GitHub Actions for automatic deployment"
+  },
+  {
+    "objectID": "miscellaneous/templates.html",
+    "href": "miscellaneous/templates.html",
+    "title": "Journal Templates",
+    "section": "",
+    "text": "This comprehensive guide provides LaTeX templates for major academic journals across various disciplines. Each template is designed to meet specific journal formatting requirements and ensure smooth submission processes."
+  },
+  {
+    "objectID": "miscellaneous/templates.html#ieee-and-engineering-journals",
+    "href": "miscellaneous/templates.html#ieee-and-engineering-journals",
+    "title": "Journal Templates",
+    "section": "IEEE and Engineering Journals",
+    "text": "IEEE and Engineering Journals\n\nIEEE Journals (General)\nTemplates for IEEE transactions and journals. Supports bare formats and Overleaf.\n\nIEEE Conference Templates (Official)\nIEEE Journal Author Center\nIEEE Templates on Overleaf\n\n\n\n\nIEEE Access\nSpecific template for IEEE’s open-access multidisciplinary journal.\n\nIEEE Access on Overleaf\n\n\n\n\nAIAA Journals\nTemplates for journals like Journal of Spacecraft and Rockets.\n\nAIAA Author Resources\n\n\n\n\nASCE Journals\nTemplates for journals like Journal of Structural Engineering.\n\nASCE Library Authors\n\n\n\n\nASME Journals\nTemplates for journals like Journal of Mechanical Design.\n\nASME Author Information"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#major-publishers",
+    "href": "miscellaneous/templates.html#major-publishers",
+    "title": "Journal Templates",
+    "section": "Major Publishers",
+    "text": "Major Publishers\n\nElsevier Journals\nUses elsarticle.cls for journals like Signal Processing, with single- and double-column formats.\n\nElsevier LaTeX Instructions (Official)\nElsevier Templates on Overleaf\nElsevier elsarticle Template\n\n\n\n\nSpringer Nature Journals\nTemplates for Springer, Nature Portfolio, BMC, and LNCS.\n\nSpringer Nature LaTeX Author Support (Official)\nSpringer Nature Template on Overleaf (December 2024)\nSpringer LNCS Conference Proceedings Guidelines\nSpringer LNCS on Overleaf\n\n\n\n\nWiley Journals\nTemplates for Wiley journals, ensuring submission compliance.\n\nWiley LaTeX Template\n\n\n\n\nTaylor and Francis Journals\nTemplates for journals like Journal of Statistical Computation.\n\nTaylor and Francis Author Services"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#nature-and-science",
+    "href": "miscellaneous/templates.html#nature-and-science",
+    "title": "Journal Templates",
+    "section": "Nature and Science",
+    "text": "Nature and Science\n\nNature Journals\nTemplates for Nature, Nature Communications, and other Nature journals.\n\nNature LaTeX Support\nNature Templates on Overleaf\n\n\n\n\nScience Journal\nUses scicite package for Science and Science Advances.\n\nScience Instructions for Authors\n\n\n\n\nPNAS\nTemplate for PNAS, for multidisciplinary scientific research.\n\nPNAS Author Center\n\n\n\n\nScientific Reports\nTemplates for Scientific Reports (Springer Nature).\n\nScientific Reports on Overleaf"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#mathematics-and-physics",
+    "href": "miscellaneous/templates.html#mathematics-and-physics",
+    "title": "Journal Templates",
+    "section": "Mathematics and Physics",
+    "text": "Mathematics and Physics\n\nAMS Journals\nTemplates for journals like Transactions of the AMS.\n\nAMS TeX Resources\n\n\n\n\nSIAM Journals\nTemplates for SIAM Review and other SIAM journals.\n\nSIAM For Authors\n\n\n\n\nAPS Journals\nUses REVTEX for Physical Review Letters and Physical Review X.\n\nAPS Manuscript Preparation\n\n\n\n\nIOP Journals\nTemplates for journals like Journal of Physics.\n\nIOP Article Preparation"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#chemistry-and-materials",
+    "href": "miscellaneous/templates.html#chemistry-and-materials",
+    "title": "Journal Templates",
+    "section": "Chemistry and Materials",
+    "text": "Chemistry and Materials\n\nACS Journals\nTemplates for journals like Journal of the American Chemical Society.\n\nACS Templates\n\n\n\n\nRSC Journals\nTemplates for journals like Chemical Science.\n\nRSC LaTeX Templates"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#open-access-and-computing",
+    "href": "miscellaneous/templates.html#open-access-and-computing",
+    "title": "Journal Templates",
+    "section": "Open Access and Computing",
+    "text": "Open Access and Computing\n\nMDPI Journals\nUnified template for open-access journals like Sensors.\n\nMDPI LaTeX\n\n\n\n\nPLOS Journals\nTemplates for PLOS ONE and other PLOS journals.\n\nPLOS LaTeX\n\n\n\n\nACM Journals\nTemplates for ACM Transactions and proceedings.\n\nACM Templates\n\n\n\n\nJMLR\nTemplate for machine learning research.\n\nJMLR Format"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#specialized-fields",
+    "href": "miscellaneous/templates.html#specialized-fields",
+    "title": "Journal Templates",
+    "section": "Specialized Fields",
+    "text": "Specialized Fields\n\nOptica Journals\nTemplates for journals like Optics Express.\n\nOptica Templates\n\n\n\n\nAGU Journals\nTemplates for journals like Geophysical Research Letters.\n\nAGU LaTeX Template\n\n\n\n\nAAS Journals\nUses AASTeX for journals like The Astrophysical Journal.\n\nAAS LaTeX Resources\n\n\n\n\nOxford University Press\nTemplates for Monthly Notices of the Royal Astronomical Society (MNRAS).\n\nOUP Manuscript Preparation\n\n\n\n\nCambridge University Press\nTemplates for CUP journals.\n\nCUP LaTeX\n\n\n\n\nSAGE Journals\nTemplates for SAGE journals in social sciences and humanities.\n\nSAGE Template on Overleaf"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#quick-reference-table",
+    "href": "miscellaneous/templates.html#quick-reference-table",
+    "title": "Journal Templates",
+    "section": "Quick Reference Table",
+    "text": "Quick Reference Table\n\n\n\nPublisher/Society\nTemplate Source\nDirect Link\n\n\n\n\nIEEE\nIEEE + Overleaf\nOverleaf IEEE\n\n\nElsevier\nelsarticle.cls\nOverleaf Elsevier\n\n\nSpringer Nature\nsn-jnl.cls\nOverleaf Template\n\n\nSpringer LNCS\nllncs.cls\nOverleaf LNCS\n\n\nNature\nsn-nature\nOverleaf Nature\n\n\nACM\nacmart.cls\nACM Official\n\n\nAPS\nREVTEX\nAPS Official\n\n\nACS\nachemso\nACS Official\n\n\nMDPI\nmdpi.cls\nMDPI Official\n\n\nPLOS\nplos.cls\nPLOS Official"
+  },
+  {
+    "objectID": "miscellaneous/templates.html#overleaf-template-gallery",
+    "href": "miscellaneous/templates.html#overleaf-template-gallery",
+    "title": "Journal Templates",
+    "section": "Overleaf Template Gallery",
+    "text": "Overleaf Template Gallery\nOverleaf provides a comprehensive collection of templates for most academic journals. You can browse all available templates organized by publisher:\n\nAll Overleaf Templates\nIEEE Templates\nElsevier Templates\nSpringer Templates\nNature Templates\nACM Templates\n\n\n\n\n\n\n\n\nTipTips for Using Templates\n\n\n\n\nAlways download the latest version of templates from official sources\nCheck journal-specific requirements before submission\nUse Overleaf for collaborative editing and automatic compilation\nKeep a backup of your original manuscript before applying templates\nVerify bibliography style requirements for each journal\nWhen official links fail, Overleaf templates are usually up-to-date alternatives"
   },
   {
     "objectID": "miscellaneous/section-labels.html",
