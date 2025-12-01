@@ -83,7 +83,7 @@ website:
           - text: Latexdiff Configuration Guide
             href: miscellaneous/latexdiff.qmd
           - text: Open source tools
-            href: miscellaneous/opensource.qmd
+            href: miscellaneous/open-source-tools.qmd
           - text: Windows shortcuts & commands
             href: miscellaneous/windows.qmd
           - text: Mathpix PDF to Word
