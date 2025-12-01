@@ -7,8 +7,8 @@
     #   date: "2024-10-15"
     #   categories: [news] 
 
-- path: posts/posts_2025_01_15_thyroid_cancer.qmd
-  image: "posts/placeholder2.JPG"
+- path: posts_2025_01_15_thyroid_cancer.qmd
+  image: "placeholder2.JPG"
   title: "New Publication: Thyroid Cancer Recurrence Prediction"
   author: "Md Abdus Samad"
   description: "We are excited to announce our latest research has been accepted for publication in BioData Mining, a journal ranked in the top 6% of its subject area!"
