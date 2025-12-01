@@ -27,7 +27,7 @@ Fork the template repository rather than actual websites to avoid receiving noti
 To streamline updates across your site, use Quarto's [includes](https://quarto.org/docs/authoring/includes.html){target="_blank"} feature for reusable elements like syllabus statements, social sharing options, academic badges, and other reusable materials.
 
 ```markdown
-{{< include _statement.qmd >}}
+{{{< include _statement.qmd >}}}
 ```
 
 ::: {.callout-note}
@@ -205,7 +205,7 @@ Create `_social.qmd`:
 Then include it in your pages:
 
 ```markdown
-{{< include /files/includes/_social.qmd >}}
+{{{< include /files/includes/_social.qmd >}}}
 ```
 
 ---
