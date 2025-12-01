@@ -7,6 +7,7 @@ categories:
   - machine-learning
   - business-analytics
 draft: false
+image: "/files/images/placeholder2.JPG"
 ---
 
 We’re excited to announce our latest research has been accepted for publication in **_Journal of Big Data_**, a leading open-access journal in big data analytics and applications!

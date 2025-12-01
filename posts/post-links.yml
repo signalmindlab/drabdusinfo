@@ -11,6 +11,7 @@
   image: "files/images/placeholder2.JPG"
   title: "New Publication: Thyroid Cancer Recurrence Prediction"
   author: "Md Abdus Samad"
+  image: "/files/images/placeholder3.JPG"
   description: "We are excited to announce our latest research has been accepted for publication in BioData Mining, a journal ranked in the top 6% of its subject area!"
   date: "2025-01-15"
   categories: [publication, machine-learning, healthcare]
