@@ -4,7 +4,7 @@ subtitle: "Discover 114+ scholarships worldwide"
 author: "Md Abdus Samad"
 date: "2025-12-01"
 toc: false
-page-layout: full
+page-layout: full 
 ---
 
 ```{=html}
