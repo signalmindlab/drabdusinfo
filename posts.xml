@@ -10,7 +10,7 @@
 <atom:link href="https://www.drabdus.info/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Quarto Academic Website Template adapted by Dr. Gang He, further customized by Dr. Md Abdus Samad</description>
 <image>
-<url>https://quarto.org/quarto.png</url>
+<url>https://www.drabdus.info/posts/placeholder2.JPG</url>
 <title>Md Abdus Samad</title>
 <link>https://www.drabdus.info/posts.html</link>
 </image>
@@ -159,6 +159,19 @@ https://quarto.org/docs/authoring/includes.html
   <category>healthcare</category>
   <guid>https://www.drabdus.info/posts/posts_2025_01_15_thyroid_cancer.html</guid>
   <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://www.drabdus.info/files/images/placeholder3.JPG" medium="image"/>
+</item>
+<item>
+  <title>New Publication: Thyroid Cancer Recurrence Prediction</title>
+  <link>https://www.drabdus.info/</link>
+  <description>We are excited to announce our latest research has been accepted for publication in BioData Mining, a journal ranked in the top 6% of its subject area!</description>
+  <category>news</category>
+  <category>publication</category>
+  <category>machine-learning</category>
+  <category>healthcare</category>
+  <guid>https://www.drabdus.info/</guid>
+  <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://www.drabdus.info/files/images/placeholder2.JPG" medium="image"/>
 </item>
 <item>
   <title>Event item</title>
