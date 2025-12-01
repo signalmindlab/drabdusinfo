@@ -7,7 +7,10 @@ categories:
   - machine-learning
   - business-analytics
 draft: false
+featuredImage: "files/images/placeholder1.JPG"
 ---
+
+![Evaluating Business Predictive Models](files/images/placeholder1.JPG)
 
 We’re excited to announce our latest research has been accepted for publication in **_Journal of Big Data_**, a leading open-access journal in big data analytics and applications!
 
