@@ -9,7 +9,7 @@ image: "/files/images/placeholder2.JPG"
 #draft: true
 ---
 
-[![](/files/images/placeholder2.JPG){width="90%"}](https://drganghe.github.io/quarto-academic-website-template/)
+<!-- [![](/files/images/placeholder2.JPG){width="90%"}](https://drganghe.github.io/quarto-academic-website-template/) -->
 
 
 <!--Include social share buttons-->
