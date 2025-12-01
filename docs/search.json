@@ -1337,162 +1337,162 @@
     "text": "Worth It?\nYeah, absolutely - if you work with mathematical documents. Mathpix changed how I handle PDF conversions. The equation recognition is legitimately impressive, and the time savings are real.\nIs it perfect? No. You will still need to review and fix things. But it beats manually retyping equations by a mile, and it is way more accurate than standard OCR tools.\n\n\n\n\n\n\nNoteQuick Summary\n\n\n\n\nBest-in-class equation recognition\nProfessional output quality\nHuge time-saver for technical documents\nFree tier is good enough to test it properly\n\n\n\nGetting started:\n\nDownload Mathpix Snip\nTry the free version first\nUpgrade if you need more conversions\nIntegrate it into your workflow\n\nYou will know pretty quickly if it is worth the money for your use case.\n\nLast updated: October 2025"
   },
   {
-    "objectID": "miscellaneous/opensource.html",
-    "href": "miscellaneous/opensource.html",
+    "objectID": "miscellaneous/open-source-tools.html",
+    "href": "miscellaneous/open-source-tools.html",
     "title": "Open Source Tools",
     "section": "",
     "text": "A curated list of free and open source tools for academic research and teaching. 22 categories, 180+ tools available."
   },
   {
-    "objectID": "miscellaneous/opensource.html#reference-management-citations",
-    "href": "miscellaneous/opensource.html#reference-management-citations",
+    "objectID": "miscellaneous/open-source-tools.html#reference-management-citations",
+    "href": "miscellaneous/open-source-tools.html#reference-management-citations",
     "title": "Open Source Tools",
     "section": "1. Reference Management & Citations",
     "text": "1. Reference Management & Citations\n\n\n\nTool\nDescription\n\n\n\n\nZotero\nOpen-source citation manager with browser integration\n\n\nJabRef\nBibTeX reference manager for LaTeX users\n\n\nMendeley (basic plan free)\nManage PDFs, annotate, cite easily\n\n\nKBibTeX\nBibTeX editor for KDE (Linux)"
   },
   {
-    "objectID": "miscellaneous/opensource.html#writing-document-preparation",
-    "href": "miscellaneous/opensource.html#writing-document-preparation",
+    "objectID": "miscellaneous/open-source-tools.html#writing-document-preparation",
+    "href": "miscellaneous/open-source-tools.html#writing-document-preparation",
     "title": "Open Source Tools",
     "section": "2. Writing & Document Preparation",
     "text": "2. Writing & Document Preparation\n\n\n\nTool\nDescription\n\n\n\n\nGoogle Docs\nCollaborative writing with cloud sync\n\n\nLibreOffice Writer\nOpen-source word processor\n\n\nGrammarly (basic)\nGrammar and tone checking\n\n\nLaTeX (TeX Live, MiKTeX)\nProfessional typesetting for scientific documents\n\n\nOverleaf (free tier)\nOnline collaborative LaTeX editor\n\n\nTeXstudio\nLaTeX editor with integrated PDF viewer\n\n\nLyX\nDocument processor with LaTeX backend\n\n\nPandoc\nUniversal document converter\n\n\nLanguageTool\nOpen-source grammar and style checker"
   },
   {
-    "objectID": "miscellaneous/opensource.html#note-taking-knowledge-management",
-    "href": "miscellaneous/opensource.html#note-taking-knowledge-management",
+    "objectID": "miscellaneous/open-source-tools.html#note-taking-knowledge-management",
+    "href": "miscellaneous/open-source-tools.html#note-taking-knowledge-management",
     "title": "Open Source Tools",
     "section": "3. Note-Taking & Knowledge Management",
     "text": "3. Note-Taking & Knowledge Management\n\n\n\nTool\nDescription\n\n\n\n\nObsidian\nMarkdown-based personal knowledge base (free for personal use)\n\n\nJoplin\nOpen-source Evernote alternative\n\n\nGoogle Keep\nSimple note capture synced across devices\n\n\nZettlr\nMarkdown editor for academic writing\n\n\nTiddlyWiki\nPersonal wiki and note-taking system\n\n\nLogseq\nOpen source note-taking with graph view\n\n\nStandard Notes\nEncrypted note-taking app"
   },
   {
-    "objectID": "miscellaneous/opensource.html#statistical-analysis-data-science",
-    "href": "miscellaneous/opensource.html#statistical-analysis-data-science",
+    "objectID": "miscellaneous/open-source-tools.html#statistical-analysis-data-science",
+    "href": "miscellaneous/open-source-tools.html#statistical-analysis-data-science",
     "title": "Open Source Tools",
     "section": "4. Statistical Analysis & Data Science",
     "text": "4. Statistical Analysis & Data Science\n\n\n\nTool\nDescription\n\n\n\n\nR & RStudio\nStatistical computing and graphics\n\n\nPython (Anaconda)\nScientific computing with Jupyter notebooks\n\n\nJASP\nUser-friendly statistical software (SPSS alternative)\n\n\nPSPP\nGNU alternative to SPSS\n\n\njamovi\nStatistical spreadsheet built on R\n\n\nGNU Octave\nMATLAB alternative\n\n\nJulia\nHigh-performance language for technical computing\n\n\nOrange\nVisual programming for data analysis and machine learning"
   },
   {
-    "objectID": "miscellaneous/opensource.html#data-handling-visualization",
-    "href": "miscellaneous/opensource.html#data-handling-visualization",
+    "objectID": "miscellaneous/open-source-tools.html#data-handling-visualization",
+    "href": "miscellaneous/open-source-tools.html#data-handling-visualization",
     "title": "Open Source Tools",
     "section": "5. Data Handling & Visualization",
     "text": "5. Data Handling & Visualization\n\n\n\nTool\nDescription\n\n\n\n\nGoogle Sheets\nOnline spreadsheets with collaboration\n\n\nLibreOffice Calc\nOpen alternative to Excel\n\n\nTableau Public\nFree version for data visualization\n\n\nggplot2 (R)\nGrammar of graphics visualization\n\n\nMatplotlib & Seaborn (Python)\nPlotting libraries\n\n\nPlotly\nInteractive graphing library\n\n\nRAWGraphs\nWeb-based tool for visual data representation\n\n\nGephi\nNetwork analysis and visualization"
   },
   {
-    "objectID": "miscellaneous/opensource.html#qualitative-research",
-    "href": "miscellaneous/opensource.html#qualitative-research",
+    "objectID": "miscellaneous/open-source-tools.html#qualitative-research",
+    "href": "miscellaneous/open-source-tools.html#qualitative-research",
     "title": "Open Source Tools",
     "section": "6. Qualitative Research",
     "text": "6. Qualitative Research\n\n\n\nTool\nDescription\n\n\n\n\nQualCoder\nQualitative data analysis (NVivo alternative)\n\n\nTaguette\nQualitative research document tagging\n\n\nRQDA\nR-based qualitative data analysis\n\n\nAquad\nAnalysis of qualitative data\n\n\nCATMA\nComputer-assisted text markup and analysis"
   },
   {
-    "objectID": "miscellaneous/opensource.html#laboratory-scientific-computing",
-    "href": "miscellaneous/opensource.html#laboratory-scientific-computing",
+    "objectID": "miscellaneous/open-source-tools.html#laboratory-scientific-computing",
+    "href": "miscellaneous/open-source-tools.html#laboratory-scientific-computing",
     "title": "Open Source Tools",
     "section": "7. Laboratory & Scientific Computing",
     "text": "7. Laboratory & Scientific Computing\n\n\n\nTool\nDescription\n\n\n\n\nJupyter Notebook\nInteractive computing environment\n\n\nGNU Octave\nMATLAB alternative for numerical computations\n\n\nSageMath\nMathematics software system\n\n\nLabPlot\nData analysis and visualization\n\n\nSciDAVis\nScientific data analysis and visualization\n\n\nGNU Scientific Library (GSL)\nNumerical library for C/C++"
   },
   {
-    "objectID": "miscellaneous/opensource.html#image-graphics",
-    "href": "miscellaneous/opensource.html#image-graphics",
+    "objectID": "miscellaneous/open-source-tools.html#image-graphics",
+    "href": "miscellaneous/open-source-tools.html#image-graphics",
     "title": "Open Source Tools",
     "section": "8. Image & Graphics",
     "text": "8. Image & Graphics\n\n\n\nTool\nDescription\n\n\n\n\nImageJ/Fiji\nImage processing for life sciences\n\n\nGIMP\nImage editing and manipulation\n\n\nInkscape\nVector graphics for diagrams and figures\n\n\nCanva (free plan)\nEasy graphics and presentation design\n\n\nKrita\nDigital painting and illustration\n\n\nBlender\n3D modeling, animation, and rendering\n\n\ndarktable\nPhotography workflow and RAW developer\n\n\nRawTherapee\nCross-platform RAW image processing"
   },
   {
-    "objectID": "miscellaneous/opensource.html#survey-experiment-design",
-    "href": "miscellaneous/opensource.html#survey-experiment-design",
+    "objectID": "miscellaneous/open-source-tools.html#survey-experiment-design",
+    "href": "miscellaneous/open-source-tools.html#survey-experiment-design",
     "title": "Open Source Tools",
     "section": "9. Survey & Experiment Design",
     "text": "9. Survey & Experiment Design\n\n\n\nTool\nDescription\n\n\n\n\nLimeSurvey\nOpen-source survey platform (self-hosted)\n\n\nPsychoPy\nPsychology and neuroscience experiments\n\n\njsPsych\nJavaScript library for behavioral experiments\n\n\nOpenSesame\nPsychology experiment builder\n\n\nFormr\nSurvey framework with R integration\n\n\nSurveyJS\nJavaScript library for surveys"
   },
   {
-    "objectID": "miscellaneous/opensource.html#mind-mapping-brainstorming",
-    "href": "miscellaneous/opensource.html#mind-mapping-brainstorming",
+    "objectID": "miscellaneous/open-source-tools.html#mind-mapping-brainstorming",
+    "href": "miscellaneous/open-source-tools.html#mind-mapping-brainstorming",
     "title": "Open Source Tools",
     "section": "10. Mind Mapping & Brainstorming",
     "text": "10. Mind Mapping & Brainstorming\n\n\n\nTool\nDescription\n\n\n\n\nFreeMind\nOpen-source mind-mapping software\n\n\nMindMup\nBrowser-based mind maps with Google Drive\n\n\nFreeplane\nMind mapping and knowledge management\n\n\nCoggle\nCollaborative mind mapping (free tier)\n\n\ndraw.io / diagrams.net\nDiagram and flowchart creator"
   },
   {
-    "objectID": "miscellaneous/opensource.html#project-management-organization",
-    "href": "miscellaneous/opensource.html#project-management-organization",
+    "objectID": "miscellaneous/open-source-tools.html#project-management-organization",
+    "href": "miscellaneous/open-source-tools.html#project-management-organization",
     "title": "Open Source Tools",
     "section": "11. Project Management & Organization",
     "text": "11. Project Management & Organization\n\n\n\nTool\nDescription\n\n\n\n\nTrello\nKanban-style task tracking (free plan)\n\n\nTodoist (free plan)\nTask and goal management\n\n\nGoogle Calendar\nScheduling and reminders\n\n\nWekan\nOpen-source kanban board\n\n\nTaiga\nProject management for agile teams\n\n\nOpenProject\nOpen-source project management\n\n\nPlanner\nTask manager for GNOME (Linux)"
   },
   {
-    "objectID": "miscellaneous/opensource.html#cloud-storage-collaboration",
-    "href": "miscellaneous/opensource.html#cloud-storage-collaboration",
+    "objectID": "miscellaneous/open-source-tools.html#cloud-storage-collaboration",
+    "href": "miscellaneous/open-source-tools.html#cloud-storage-collaboration",
     "title": "Open Source Tools",
     "section": "12. Cloud Storage & Collaboration",
     "text": "12. Cloud Storage & Collaboration\n\n\n\nTool\nDescription\n\n\n\n\nGoogle Drive\nIntegrated with Docs, Sheets, Slides\n\n\nDropbox Basic\nCloud storage and file sharing\n\n\nMEGA\nEnd-to-end encrypted cloud storage\n\n\nNextcloud\nSelf-hosted file sharing (open source)\n\n\nSyncthing\nContinuous file synchronization\n\n\npCloud (free tier)\nCloud storage with sync\n\n\nSeafile\nOpen-source file hosting platform"
   },
   {
-    "objectID": "miscellaneous/opensource.html#presentation-tools",
-    "href": "miscellaneous/opensource.html#presentation-tools",
+    "objectID": "miscellaneous/open-source-tools.html#presentation-tools",
+    "href": "miscellaneous/open-source-tools.html#presentation-tools",
     "title": "Open Source Tools",
     "section": "13. Presentation Tools",
     "text": "13. Presentation Tools\n\n\n\nTool\nDescription\n\n\n\n\nGoogle Slides\nCollaborative presentation creation\n\n\nLibreOffice Impress\nFree presentation software\n\n\nBeamer (LaTeX)\nProfessional academic slides\n\n\nreveal.js\nHTML presentation framework\n\n\nMarp\nMarkdown presentation ecosystem\n\n\nSozi\nZooming presentation editor"
   },
   {
-    "objectID": "miscellaneous/opensource.html#remote-access-login-tools",
-    "href": "miscellaneous/opensource.html#remote-access-login-tools",
+    "objectID": "miscellaneous/open-source-tools.html#remote-access-login-tools",
+    "href": "miscellaneous/open-source-tools.html#remote-access-login-tools",
     "title": "Open Source Tools",
     "section": "14. Remote Access & Login Tools",
     "text": "14. Remote Access & Login Tools\n\n14.1 Remote Desktop\n\n\n\nTool\nDescription\n\n\n\n\nTigerVNC\nHigh-performance VNC\n\n\nRustDesk\nOpen source TeamViewer alternative\n\n\nApache Guacamole\nWeb-based remote desktop\n\n\nRemmina\nMulti-protocol remote desktop (Linux)\n\n\nTightVNC\nLightweight VNC solution\n\n\nUltraVNC\nWindows VNC with file transfer\n\n\nX2Go\nRemote desktop based on NX technology\n\n\nNoMachine (free tier)\nRemote desktop for Linux, Windows, macOS\n\n\n\n\n\n14.2 File Transfer\n\n\n\nTool\nDescription\n\n\n\n\nFileZilla\nFTP/SFTP client\n\n\nWinSCP\nSFTP/SCP for Windows\n\n\nCyberduck\nCloud storage and FTP client\n\n\nTransmit\nFile transfer client (macOS, free tier)"
   },
   {
-    "objectID": "miscellaneous/opensource.html#communication-collaboration",
-    "href": "miscellaneous/opensource.html#communication-collaboration",
+    "objectID": "miscellaneous/open-source-tools.html#communication-collaboration",
+    "href": "miscellaneous/open-source-tools.html#communication-collaboration",
     "title": "Open Source Tools",
     "section": "15. Communication & Collaboration",
     "text": "15. Communication & Collaboration\n\n\n\nTool\nDescription\n\n\n\n\nZoom (free plan)\nVideo conferencing\n\n\nSlack (free)\nMessaging for study/research groups\n\n\nMicrosoft Teams (education)\nInstitutional collaboration\n\n\nJitsi Meet\nOpen-source video conferencing\n\n\nElement\nDecentralized chat and collaboration (Matrix protocol)\n\n\nRocket.Chat\nOpen-source team communication\n\n\nMattermost\nOpen-source messaging platform\n\n\nBigBlueButton\nOpen-source web conferencing for education"
   },
   {
-    "objectID": "miscellaneous/opensource.html#productivity-focus",
-    "href": "miscellaneous/opensource.html#productivity-focus",
+    "objectID": "miscellaneous/open-source-tools.html#productivity-focus",
+    "href": "miscellaneous/open-source-tools.html#productivity-focus",
     "title": "Open Source Tools",
     "section": "16. Productivity & Focus",
     "text": "16. Productivity & Focus\n\n\n\nTool\nDescription\n\n\n\n\nPomofocus\nOnline Pomodoro timer\n\n\nCold Turkey (free version)\nBlock distracting sites\n\n\nLeechBlock\nBrowser extension to block sites\n\n\nForest (basic)\nGamified focus app\n\n\nFocusMe (free tier)\nProductivity and focus tool\n\n\nSelfControl\nBlock distracting websites (macOS)\n\n\nStretchly\nBreak time reminder app"
   },
   {
-    "objectID": "miscellaneous/opensource.html#screen-recording-screen-capture",
-    "href": "miscellaneous/opensource.html#screen-recording-screen-capture",
+    "objectID": "miscellaneous/open-source-tools.html#screen-recording-screen-capture",
+    "href": "miscellaneous/open-source-tools.html#screen-recording-screen-capture",
     "title": "Open Source Tools",
     "section": "17. Screen Recording & Screen Capture",
     "text": "17. Screen Recording & Screen Capture\n\n17.1 Screen Recording\n\n\n\nTool\nDescription\n\n\n\n\nOBS Studio\nOpen-source screen recording and streaming\n\n\nLoom (free plan)\nSimple screen and webcam recording\n\n\nSimpleScreenRecorder\nFeature-rich screen recorder (Linux)\n\n\nKazam\nSimple screen recording for Linux\n\n\nScreencast-O-Matic (free tier)\nScreen recording\n\n\n\n\n\n17.2 Screen Capture (Screenshots)\n\n\n\nTool\nDescription\n\n\n\n\nGreenshot\nLightweight screenshot tool with annotation (Windows)\n\n\nFlameshot\nPowerful screenshot tool (Linux)\n\n\nLightshot\nQuick screenshot and sharing\n\n\nShareX\nAdvanced screenshot and file sharing tool (Windows)\n\n\nSpectacle\nScreenshot utility for KDE (Linux)\n\n\nShutter\nFeature-rich screenshot tool (Linux)\n\n\nWindows Snipping Tool\nBuilt-in Windows screenshot tool\n\n\nmacOS Screenshot\nBuilt-in Command+Shift+3/4/5 (macOS)\n\n\nKsnip\nCross-platform screenshot tool"
   },
   {
-    "objectID": "miscellaneous/opensource.html#backup-security-privacy",
-    "href": "miscellaneous/opensource.html#backup-security-privacy",
+    "objectID": "miscellaneous/open-source-tools.html#backup-security-privacy",
+    "href": "miscellaneous/open-source-tools.html#backup-security-privacy",
     "title": "Open Source Tools",
     "section": "18. Backup, Security & Privacy",
     "text": "18. Backup, Security & Privacy\n\n\n\nTool\nDescription\n\n\n\n\nBitwarden\nOpen-source password manager\n\n\nVeraCrypt\nOpen-source file encryption\n\n\nSyncthing\nContinuous file synchronization\n\n\nKeePassXC\nLocal password database\n\n\nDuplicati\nEncrypted backup solution\n\n\nCryptomator\nTransparent client-side encryption for cloud files\n\n\nRestic\nFast and secure backup program\n\n\nBorgBackup\nDeduplicating backup program"
   },
   {
-    "objectID": "miscellaneous/opensource.html#bibliometrics-research-metrics",
-    "href": "miscellaneous/opensource.html#bibliometrics-research-metrics",
+    "objectID": "miscellaneous/open-source-tools.html#bibliometrics-research-metrics",
+    "href": "miscellaneous/open-source-tools.html#bibliometrics-research-metrics",
     "title": "Open Source Tools",
     "section": "19. Bibliometrics & Research Metrics",
     "text": "19. Bibliometrics & Research Metrics\n\n\n\nTool\nDescription\n\n\n\n\nVOSviewer\nBibliometric network visualization\n\n\nPublish or Perish\nCitation analysis and metrics\n\n\nBibliometrix\nR package for bibliometrics\n\n\nCiteSpace\nLiterature visualization\n\n\nCitNetExplorer\nCitation network explorer"
   },
   {
-    "objectID": "miscellaneous/opensource.html#miscellaneous-academic-tools",
-    "href": "miscellaneous/opensource.html#miscellaneous-academic-tools",
+    "objectID": "miscellaneous/open-source-tools.html#miscellaneous-academic-tools",
+    "href": "miscellaneous/open-source-tools.html#miscellaneous-academic-tools",
     "title": "Open Source Tools",
     "section": "20. Miscellaneous Academic Tools",
     "text": "20. Miscellaneous Academic Tools\n\n\n\nTool\nDescription\n\n\n\n\nAnki\nSpaced repetition flashcard system\n\n\nCalibre\nE-book management\n\n\nAudacity\nAudio recording and editing\n\n\nPandoc\nUniversal document converter\n\n\nPDF-XChange Editor (free version)\nPDF annotation\n\n\nSumatra PDF\nLightweight PDF reader\n\n\nOkular\nUniversal document viewer (Linux)\n\n\nXournal++\nHandwriting and PDF annotation"
   },
   {
-    "objectID": "miscellaneous/opensource.html#tools-for-screen-annotation-writing",
-    "href": "miscellaneous/opensource.html#tools-for-screen-annotation-writing",
+    "objectID": "miscellaneous/open-source-tools.html#tools-for-screen-annotation-writing",
+    "href": "miscellaneous/open-source-tools.html#tools-for-screen-annotation-writing",
     "title": "Open Source Tools",
     "section": "21. Tools for Screen Annotation / Writing",
     "text": "21. Tools for Screen Annotation / Writing\n\n\n\nTool\nDescription\n\n\n\n\nEpic Pen (free basic version)\nScreen annotation and drawing tool\n\n\nGromit-MPX\nOn-screen annotation tool for Linux\n\n\nXournal++\nHandwriting and PDF annotation\n\n\nOpenBoard\nInteractive whiteboard for teaching\n\n\nZoomIt\nScreen annotation for presentations (Microsoft, free)\n\n\nPylote\nOn-screen annotation (Linux)\n\n\nArdesia\nDigital sketchpad for screen annotations"
   },
   {
-    "objectID": "miscellaneous/opensource.html#file-search-system-utilities",
-    "href": "miscellaneous/opensource.html#file-search-system-utilities",
+    "objectID": "miscellaneous/open-source-tools.html#file-search-system-utilities",
+    "href": "miscellaneous/open-source-tools.html#file-search-system-utilities",
     "title": "Open Source Tools",
     "section": "22. File Search & System Utilities",
     "text": "22. File Search & System Utilities\n\n\n\nTool\nDescription\n\n\n\n\nEverything\nUltra-fast file search for Windows\n\n\nfsearch\nFast file search for Linux (Everything alternative)\n\n\nRecoll\nDesktop full-text search (cross-platform)\n\n\nDocFetcher\nDocument search engine (cross-platform)\n\n\nCerebro\nOpen-source app launcher and search (cross-platform)\n\n\nAlbert\nFast launcher for Linux\n\n\nUlauncher\nApplication launcher for Linux\n\n\nWox\nLauncher for Windows (free, open source)\n\n\nKupfer\nApplication launcher for Linux\n\n\nKeypirinha\nFast launcher for Windows\n\n\nueli\nKeystroke launcher for Windows and macOS\n\n\n\n\nLast updated: October 2025"
