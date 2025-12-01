@@ -160,27 +160,6 @@ https://quarto.org/docs/authoring/includes.html
   <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>New Publication: Evaluating Business Predictive Models</title>
-  <dc:creator>md abdus samad</dc:creator>
-  <link>https://www.drabdus.info/posts/posts_2025_01_15_business_models.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>We’re excited to announce our latest research has been accepted for publication in <strong><em>Journal of Big Data</em></strong>, a leading open-access journal in big data analytics and applications!</p>
-<p>This work presents a comprehensive evaluation of business predictive models, exploring their accuracy, interpretability, and practical deployment challenges in real-world analytical environments.</p>
-
-
-
- ]]></description>
-  <category>publication</category>
-  <category>machine-learning</category>
-  <category>business-analytics</category>
-  <guid>https://www.drabdus.info/posts/posts_2025_01_15_business_models.html</guid>
-  <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
-</item>
-<item>
   <title>New Publication: Thyroid Cancer Recurrence Prediction</title>
   <link>https://www.drabdus.info/</link>
   <description>We are excited to announce our latest research has been accepted for publication in BioData Mining, a journal ranked in the top 6% of its subject area!</description>
@@ -200,7 +179,7 @@ https://quarto.org/docs/authoring/includes.html
 
 
 
-<p><a href="https://drganghe.github.io/quarto-academic-website-template/"><img src="https://www.drabdus.info/files/images/placeholder2.JPG" class="img-fluid" style="width:90.0%"></a></p>
+<!-- [![](/files/images/placeholder2.JPG){width="90%"}](https://drganghe.github.io/quarto-academic-website-template/) -->
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
