@@ -94,9 +94,9 @@ website:
     right: 
       - text: CV
         href: files/nsf-biosketch.pdf
-      - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
-        target: _blank
+      # - icon: github
+      #   href: https://github.com/drganghe/quarto-academic-website-template
+      #   target: _blank
       - text: "{{< fa brands bluesky >}}"
         href: https://bsky.app
         target: _blank      
@@ -130,7 +130,7 @@ website:
 
   draft-mode: unlinked
   
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
+  # repo-url: https://github.com/drganghe/quarto-academic-website-template # commented by Abdus Samad
 #  repo-actions: [edit, issue, source]
   
   open-graph: true
