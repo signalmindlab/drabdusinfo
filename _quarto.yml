@@ -9,7 +9,8 @@ author-meta: "Dr. Md Abdus Samad"
 
 website:
   title: "Md Abdus Samad"
-  image: "https://quarto.org/quarto.png"
+  # image: "https://quarto.org/quarto.png"
+  image: "posts/placeholder2.JPG"
   description: "Quarto Academic Website Template adapted by Dr. Gang He, further customized by Dr. Md Abdus Samad"
  
   navbar:
@@ -92,14 +93,14 @@ website:
         # href: people.qmd
 
     right: 
-      - text: CV
-        href: files/nsf-biosketch.pdf
+      # - text: CV
+      #   href: files/nsf-biosketch.pdf
       # - icon: github
       #   href: https://github.com/drganghe/quarto-academic-website-template
       #   target: _blank
-      - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
-        target: _blank      
+      # - text: "{{< fa brands bluesky >}}"
+      #   href: https://bsky.app
+      #   target: _blank      
       - icon: rss
         href: posts.xml
         target: _blank

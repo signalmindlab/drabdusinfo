@@ -1,4 +1,5 @@
 
+   
     # - path: https://drganghe.github.io/quarto-academic-site-examples.html
     #   image: "files/images/placeholder2.JPG"
     #   title: "Quarto Academic Website Examples and Tips"
@@ -6,14 +7,22 @@
     #   description: "Examples and tips for Quarto Academic Website"
     #   date: "2024-10-15"
     #   categories: [news] 
+    - path: "https://signalmindlab.github.io/drabdusinfo/miscellaneous/opensource.html"
+      image: "files/images/placeholder2.JPG"
+      title: "New Publication: Thyroid Cancer Recurrence Prediction"
+      author: "Md Abdus Samad"
+      description: "We are excited to announce our latest research has been accepted for publication in BioData Mining, a journal ranked in the top 6% of its subject area!"
+      date: "2025-01-15"
+      categories: [news, publication, machine-learning, healthcare]
 
-- path: posts_2025_01_15_thyroid_cancer.qmd
-  image: "placeholder2.JPG"
-  title: "New Publication: Thyroid Cancer Recurrence Prediction"
-  author: "Md Abdus Samad"
-  description: "We are excited to announce our latest research has been accepted for publication in BioData Mining, a journal ranked in the top 6% of its subject area!"
-  date: "2025-01-15"
-  categories: [publication, machine-learning, healthcare]
+
+    # - path: posts_2025_01_15_thyroid_cancer.qmd
+    #   image: "placeholder2.JPG"
+    #   title: "New Publication: Thyroid Cancer Recurrence Prediction"
+    #   author: "Md Abdus Samad"
+    #   description: "We are excited to announce our latest research has been accepted for publication in BioData Mining, a journal ranked in the top 6% of its subject area!"
+    #   date: "2025-01-15"
+    #   categories: [news, publication, machine-learning, healthcare]
    
       
 
