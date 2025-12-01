@@ -38,6 +38,8 @@ website:
             # href: posts.qmd#category=paper
           # - text: Grants
             # href: projects.qmd    
+       - text: Top Global Scholarships  
+        href: scholarship-database.qmd 
 
       - text: LaTeX 
         href: latex-guide.qmd
