@@ -13,12 +13,12 @@
       "/people/masters-alumni.yml",
       "/people/undergraduate-alumni.yml"
     ],
-    "projects.qmd": [
-      "projects.yml"
-    ],
     "posts.qmd": [
       "posts",
       "posts/post-links.yml"
+    ],
+    "projects.qmd": [
+      "projects.yml"
     ]
   }
 }

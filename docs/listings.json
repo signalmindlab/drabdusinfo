@@ -9,10 +9,6 @@
     ]
   },
   {
-    "listing": "/projects.html",
-    "items": []
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/posts/paper-title/index.html",
@@ -23,6 +19,10 @@
   },
   {
     "listing": "/people.html",
+    "items": []
+  },
+  {
+    "listing": "/projects.html",
     "items": []
   }
 ]
