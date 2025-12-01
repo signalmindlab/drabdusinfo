@@ -181,12 +181,14 @@ https://quarto.org/docs/authoring/includes.html
   <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Quarto Academic Website Examples and Tips</title>
+  <title>New Publication: Thyroid Cancer Recurrence Prediction</title>
   <link>https://www.drabdus.info/</link>
-  <description>Examples and tips for Quarto Academic Website</description>
-  <category>news</category>
+  <description>We are excited to announce our latest research has been accepted for publication in BioData Mining, a journal ranked in the top 6% of its subject area!</description>
+  <category>publication</category>
+  <category>machine-learning</category>
+  <category>healthcare</category>
   <guid>https://www.drabdus.info/</guid>
-  <pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
   <media:content url="https://www.drabdus.info/files/images/placeholder2.JPG" medium="image"/>
 </item>
 <item>
