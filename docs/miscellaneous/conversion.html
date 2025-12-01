@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Dr.&nbsp;Gang He">
+<meta name="author" content="Dr.&nbsp;Md Abdus Samad">
 <meta name="dcterms.date" content="2025-05-30">
-<meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He">
+<meta name="description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He, further customized by Dr.&nbsp;Md Abdus Samad">
 
-<title>Document Conversion and Figure Tools – Md Abdus Samad</title>
+<title>Document Conversion and Academic Figure Tools – Md Abdus Samad</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -123,12 +158,12 @@ https://badge.dimensions.ai/
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Document Conversion and Figure Tools – Md Abdus Samad">
-<meta property="og:description" content="Tools for Converting Documents and Creating Figures">
+<meta property="og:title" content="Document Conversion and Academic Figure Tools – Md Abdus Samad">
+<meta property="og:description" content="Transform Your Academic Workflow with Pandoc and Professional Illustration Tools">
 <meta property="og:image" content="https://quarto.org/quarto.png">
 <meta property="og:site_name" content="Md Abdus Samad">
-<meta name="twitter:title" content="Document Conversion and Figure Tools – Md Abdus Samad">
-<meta name="twitter:description" content="Tools for Converting Documents and Creating Figures">
+<meta name="twitter:title" content="Document Conversion and Academic Figure Tools – Md Abdus Samad">
+<meta name="twitter:description" content="Transform Your Academic Workflow with Pandoc and Professional Illustration Tools">
 <meta name="twitter:image" content="https://quarto.org/quarto.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -160,37 +195,18 @@ https://badge.dimensions.ai/
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../posts.html#category=event">
- <span class="dropdown-text">Events</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="../contact.html">
  <span class="dropdown-text">Contact</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Research</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
-        <li>
-    <a class="dropdown-item" href="../publications.html">
- <span class="dropdown-text">List of Publications</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../posts.html#category=paper">
- <span class="dropdown-text">Selected Papers</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../projects.html">
- <span class="dropdown-text">Grants</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html"> 
-<span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="../publications60.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../latex-guide.html"> 
+<span class="menu-text">LaTeX</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-miscellaneous" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -271,10 +287,6 @@ https://badge.dimensions.ai/
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../people.html"> 
-<span class="menu-text">Group</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -308,33 +320,34 @@ https://badge.dimensions.ai/
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#document-conversion-tools" id="toc-document-conversion-tools" class="nav-link" data-scroll-target="#document-conversion-tools">Document Conversion Tools</a></li>
-  <li><a href="#figure-creation-tools" id="toc-figure-creation-tools" class="nav-link" data-scroll-target="#figure-creation-tools">Figure Creation Tools</a></li>
-  <li><a href="#image-editing-tools" id="toc-image-editing-tools" class="nav-link" data-scroll-target="#image-editing-tools">Image Editing Tools</a></li>
+  <ul class="collapse">
+  <li><a href="#essential-pandoc-commands" id="toc-essential-pandoc-commands" class="nav-link active" data-scroll-target="#essential-pandoc-commands">Essential Pandoc Commands</a></li>
+  <li><a href="#quick-reference-table" id="toc-quick-reference-table" class="nav-link" data-scroll-target="#quick-reference-table">Quick Reference Table</a></li>
+  <li><a href="#illustration-and-figure-preparation-tools" id="toc-illustration-and-figure-preparation-tools" class="nav-link" data-scroll-target="#illustration-and-figure-preparation-tools">Illustration and Figure Preparation Tools</a></li>
+  <li><a href="#tools-comparison" id="toc-tools-comparison" class="nav-link" data-scroll-target="#tools-comparison">Tools Comparison</a></li>
+  <li><a href="#advanced-pandoc-options" id="toc-advanced-pandoc-options" class="nav-link" data-scroll-target="#advanced-pandoc-options">Advanced Pandoc Options</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Document Conversion and Figure Tools</h1>
-<p class="subtitle lead">Tools for Converting Documents and Creating Figures</p>
+<h1 class="title">Document Conversion and Academic Figure Tools</h1>
+<p class="subtitle lead">Transform Your Academic Workflow with Pandoc and Professional Illustration Tools</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     <div>
     <div class="quarto-title-meta-heading">Author</div>
@@ -358,22 +371,240 @@ https://badge.dimensions.ai/
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Add your content about document conversion and figure tools here…</p>
-</section>
-<section id="document-conversion-tools" class="level2">
-<h2 class="anchored" data-anchor-id="document-conversion-tools">Document Conversion Tools</h2>
-</section>
-<section id="figure-creation-tools" class="level2">
-<h2 class="anchored" data-anchor-id="figure-creation-tools">Figure Creation Tools</h2>
-</section>
-<section id="image-editing-tools" class="level2">
-<h2 class="anchored" data-anchor-id="image-editing-tools">Image Editing Tools</h2>
+<p>Transform your academic workflow with Pandoc — a powerful, free, and open-source document converter that handles Word, LaTeX, PDF, Markdown, HTML, EPUB, and more. Perfect for researchers and students who need seamless format conversion with citation support.</p>
 <hr>
-<p><em>Last updated: 2025</em></p>
+<section id="essential-pandoc-commands" class="level2">
+<h2 class="anchored" data-anchor-id="essential-pandoc-commands">Essential Pandoc Commands</h2>
+<section id="word-to-pdf-conversion" class="level3">
+<h3 class="anchored" data-anchor-id="word-to-pdf-conversion">Word to PDF Conversion</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.docx <span class="at">-o</span> myfile.pdf <span class="at">--pdf-engine</span><span class="op">=</span>xelatex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="markdown-to-word" class="level3">
+<h3 class="anchored" data-anchor-id="markdown-to-word">Markdown to Word</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.md <span class="at">-o</span> myfile.docx</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="latex-to-word" class="level3">
+<h3 class="anchored" data-anchor-id="latex-to-word">LaTeX to Word</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.tex <span class="at">-o</span> myfile.docx</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="word-to-latex" class="level3">
+<h3 class="anchored" data-anchor-id="word-to-latex">Word to LaTeX</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.docx <span class="at">-o</span> myfile.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="markdown-to-pdf" class="level3">
+<h3 class="anchored" data-anchor-id="markdown-to-pdf">Markdown to PDF</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.md <span class="at">-o</span> myfile.pdf <span class="at">--pdf-engine</span><span class="op">=</span>xelatex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="html-to-word" class="level3">
+<h3 class="anchored" data-anchor-id="html-to-word">HTML to Word</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.html <span class="at">-o</span> myfile.docx</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="word-to-html" class="level3">
+<h3 class="anchored" data-anchor-id="word-to-html">Word to HTML</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.docx <span class="at">-o</span> myfile.html</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="with-bibliography-citations" class="level3">
+<h3 class="anchored" data-anchor-id="with-bibliography-citations">With Bibliography (Citations)</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.md <span class="at">-o</span> myfile.pdf <span class="at">--bibliography</span><span class="op">=</span>refs.bib <span class="at">--csl</span><span class="op">=</span>apa.csl</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="multiple-input-files" class="level3">
+<h3 class="anchored" data-anchor-id="multiple-input-files">Multiple Input Files</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> chapter1.md chapter2.md chapter3.md <span class="at">-o</span> thesis.pdf</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="extract-text-from-pdf" class="level3">
+<h3 class="anchored" data-anchor-id="extract-text-from-pdf">Extract Text from PDF</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.pdf <span class="at">-o</span> myfile.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="quick-reference-table" class="level2">
+<h2 class="anchored" data-anchor-id="quick-reference-table">Quick Reference Table</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Conversion</th>
+<th>Command</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Word → PDF</td>
+<td><code>pandoc file.docx -o file.pdf --pdf-engine=xelatex</code></td>
+</tr>
+<tr class="even">
+<td>Word → LaTeX</td>
+<td><code>pandoc file.docx -o file.tex</code></td>
+</tr>
+<tr class="odd">
+<td>LaTeX → Word</td>
+<td><code>pandoc file.tex -o file.docx</code></td>
+</tr>
+<tr class="even">
+<td>Markdown → Word</td>
+<td><code>pandoc file.md -o file.docx</code></td>
+</tr>
+<tr class="odd">
+<td>Markdown → PDF</td>
+<td><code>pandoc file.md -o file.pdf --pdf-engine=xelatex</code></td>
+</tr>
+<tr class="even">
+<td>HTML → Word</td>
+<td><code>pandoc file.html -o file.docx</code></td>
+</tr>
+<tr class="odd">
+<td>Word → HTML</td>
+<td><code>pandoc file.docx -o file.html</code></td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Download Pandoc
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Get Pandoc from the official website: <a href="https://pandoc.org" target="_blank">pandoc.org</a></p>
+</div>
+</div>
+<hr>
+</section>
+<section id="illustration-and-figure-preparation-tools" class="level2">
+<h2 class="anchored" data-anchor-id="illustration-and-figure-preparation-tools">Illustration and Figure Preparation Tools</h2>
+<section id="microsoft-powerpoint" class="level3">
+<h3 class="anchored" data-anchor-id="microsoft-powerpoint">Microsoft PowerPoint</h3>
+<p>Good for simple vector illustrations and quick academic diagrams with built-in templates and smart graphics.</p>
+</section>
+<section id="microsoft-visio" class="level3">
+<h3 class="anchored" data-anchor-id="microsoft-visio">Microsoft Visio</h3>
+<p>Professional tool for flowcharts, system diagrams, and complex technical illustrations with extensive shape libraries.</p>
+</section>
+<section id="figma" class="level3">
+<h3 class="anchored" data-anchor-id="figma">Figma</h3>
+<p>Collaborative interface design tool perfect for creating modern, professional academic figures and presentations.</p>
+<p><a href="https://www.figma.com" target="_blank">Visit Figma</a></p>
+</section>
+<section id="lucidchart" class="level3">
+<h3 class="anchored" data-anchor-id="lucidchart">Lucidchart</h3>
+<p>Web-based diagramming platform with templates for research workflows, process diagrams, and organizational charts.</p>
+<p><a href="https://www.lucidchart.com" target="_blank">Visit Lucidchart</a></p>
+</section>
+<section id="draw.io-diagrams.net" class="level3">
+<h3 class="anchored" data-anchor-id="draw.io-diagrams.net">Draw.io (diagrams.net)</h3>
+<p>Free, open-source tool for flowcharts, network diagrams, and structured illustrations with cloud storage integration.</p>
+<p><a href="https://www.drawio.com" target="_blank">Visit Draw.io</a></p>
+</section>
+<section id="gimp" class="level3">
+<h3 class="anchored" data-anchor-id="gimp">GIMP</h3>
+<p>Powerful open-source image editor similar to Photoshop, ideal for photo manipulation and raster graphics editing.</p>
+<p><a href="https://www.gimp.org" target="_blank">Visit GIMP</a></p>
+<hr>
+</section>
+</section>
+<section id="tools-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="tools-comparison">Tools Comparison</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 35%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Type</th>
+<th>Best For</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>PowerPoint</td>
+<td>Desktop</td>
+<td>Quick diagrams, presentations</td>
+<td>Paid (Microsoft 365)</td>
+</tr>
+<tr class="even">
+<td>Visio</td>
+<td>Desktop</td>
+<td>Flowcharts, technical diagrams</td>
+<td>Paid</td>
+</tr>
+<tr class="odd">
+<td>Figma</td>
+<td>Web/Desktop</td>
+<td>Modern figures, collaboration</td>
+<td>Free tier available</td>
+</tr>
+<tr class="even">
+<td>Lucidchart</td>
+<td>Web</td>
+<td>Research workflows, org charts</td>
+<td>Free tier available</td>
+</tr>
+<tr class="odd">
+<td>Draw.io</td>
+<td>Web/Desktop</td>
+<td>Flowcharts, network diagrams</td>
+<td>Free</td>
+</tr>
+<tr class="even">
+<td>GIMP</td>
+<td>Desktop</td>
+<td>Image editing, raster graphics</td>
+<td>Free</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="advanced-pandoc-options" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-pandoc-options">Advanced Pandoc Options</h2>
+<section id="custom-pdf-styling" class="level3">
+<h3 class="anchored" data-anchor-id="custom-pdf-styling">Custom PDF Styling</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.md <span class="at">-o</span> myfile.pdf <span class="at">--pdf-engine</span><span class="op">=</span>xelatex <span class="at">--template</span><span class="op">=</span>custom.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="table-of-contents" class="level3">
+<h3 class="anchored" data-anchor-id="table-of-contents">Table of Contents</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.md <span class="at">-o</span> myfile.pdf <span class="at">--toc</span> <span class="at">--toc-depth</span><span class="op">=</span>3</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="numbered-sections" class="level3">
+<h3 class="anchored" data-anchor-id="numbered-sections">Numbered Sections</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.md <span class="at">-o</span> myfile.pdf <span class="at">--number-sections</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="extract-media-from-word" class="level3">
+<h3 class="anchored" data-anchor-id="extract-media-from-word">Extract Media from Word</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.docx <span class="at">--extract-media</span><span class="op">=</span>./media <span class="at">-o</span> myfile.md</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="standalone-html" class="level3">
+<h3 class="anchored" data-anchor-id="standalone-html">Standalone HTML</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.md <span class="at">-o</span> myfile.html <span class="at">--standalone</span> <span class="at">--self-contained</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Pro Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Combine multiple options for complex conversions:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> myfile.md <span class="at">-o</span> myfile.pdf <span class="dt">\</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">--pdf-engine</span><span class="op">=</span>xelatex <span class="dt">\</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">--bibliography</span><span class="op">=</span>refs.bib <span class="dt">\</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">--csl</span><span class="op">=</span>ieee.csl <span class="dt">\</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">--toc</span> <span class="dt">\</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">--number-sections</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -786,32 +1017,13 @@ https://badge.dimensions.ai/
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<a href="http://www.github.com">Dr.&nbsp;Md Abdus Samad</a> ©
-<script>document.write(new Date().getFullYear())</script>
-</div>   
+      &nbsp;
+    </div>   
     <div class="nav-footer-center">
-<p>Build on <a href="https://github.com/drganghe/quarto-academic-website-template">Quart Academic Website Template</a> adapted by <a href="http://drganghe.github.io">Dr.&nbsp;Gang He</a></p>
+<p>© 2025 Dr.&nbsp;Md Abdus Samad. All rights reserved.</p>
 </div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app" target="_blank">
-<p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></p>
-</a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="../posts.xml" target="_blank">
-      <i class="bi bi-rss" role="img">
-</i> 
-    </a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>

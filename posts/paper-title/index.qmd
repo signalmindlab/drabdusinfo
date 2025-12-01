@@ -1,44 +1,68 @@
 ---
-title: "Can quantum-mechanical description of physical reality be considered complete?"
-description: "One is thus led to conclude that the description of reality as given by a wave function is not complete."
-subtitle: "*Physical Review*"
+title: "Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images"
+description: "An interpretable deep ensemble model for tumor detection in MRI by integrating pre-trained CNNs with a Light Gradient Boosting Machine meta-learner."
+subtitle: "*Cancers*"
 author: 
-  - name: Albert Einstein
-  - name: Boris Podolsky
-  - name: Nathan Rosen
-date: "1935-05-15"
-categories: [paper]
+  - name: S. Kakon
+  - name: S. Chakrabarty
+  - name: Z. Al Sazid
+  - name: I. A. Begum
+  - name: Md Abdus Samad
+  - name: A. S. M. S. Hosen
+date: "2025-08-30"
+categories: [paper, deep learning, brain tumor, MRI, explainable AI]
 image: "featured.jpg"
 citation:
   type: article-journal
-  container-title: "Physical Review"
-  doi: "10.1103/PhysRev.47.777"
-  available-date: "1935-05-15"
-  issued: "1935-05-15"
-  volume: 47
-  issue: 7938
-  page: 777-80
-  url: https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777
+  container-title: "Cancers"
+  doi: "10.3390/cancers17172853"
+  available-date: "2025-08-30"
+  issued: "2025-08-30"
+  volume: 17
+  issue: 17
+  page: 2853
+  url: https://www.mdpi.com/2072-6694/17/17/2853
 google-scholar: true
 ---
 
-<!--Include academic icons or bottons-->
+<!--Include academic icons or buttons-->
 
 {{< include /files/includes/_academic.qmd >}}
 
 
 ## Abstract
 
-In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.
+**Background:** Brain tumors can severely impair neurological function, leading to symptoms such as headaches, memory loss, motor coordination deficits, and visual disturbances. In severe cases, they may cause permanent cognitive damage or become life-threatening without early detection.
+
+**Methods:** To address this, we propose an interpretable deep ensemble model for tumor detection in Magnetic Resonance Imaging (MRI) by integrating pre-trained Convolutional Neural Networks—EfficientNetB7, InceptionV3, and Xception—using a soft voting ensemble to improve classification accuracy. The framework is further enhanced with a Light Gradient Boosting Machine as a meta-learner to increase prediction accuracy and robustness within a stacking architecture. Hyperparameter tuning is conducted using Optuna, and overfitting is mitigated through batch normalization, L2 weight decay, dropout, early stopping, and extensive data augmentation.
+
+**Results:** The proposed model integrates extensive data augmentation and advanced regularization techniques to enhance generalization. Explainable Artificial Intelligence (XAI) methods are incorporated to strengthen clinical trust: Gradient-Weighted Class Activation Mapping++ (Grad-CAM++) provides spatial localization by highlighting MRI regions most influential to predictions. Local Interpretable Model-Agnostic Explanations (LIME) and Shapley Additive Explanations (SHAP) provide complementary interpretability.
+
+**Conclusions:** This transparent and reproducible framework aims to serve as a foundation for the research community, supporting the development of reliable tools for screening, review, and follow-up while reducing diagnostic workload and prioritizing patient safety.
+
+
+## Keywords
+
+Brain tumor detection, MRI images, deep learning, explainable artificial intelligence, ensemble learning, meta-learning, Grad-CAM++, SHAP, LIME
+
+
+## Highlights
+
+- Integrates EfficientNetB7, InceptionV3, and Xception using soft voting ensemble
+- Light Gradient Boosting Machine (LightGBM) as meta-learner in stacking architecture
+- Hyperparameter optimization using Optuna framework
+- Explainable AI methods: Grad-CAM++, LIME, and SHAP for clinical interpretability
+- Comprehensive regularization: batch normalization, L2 weight decay, dropout, early stopping
 
 
 ## Links
 
-Published [paper](https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777)
+- Published [paper](https://www.mdpi.com/2072-6694/17/17/2853){target="_blank"}
+- [PDF](https://www.mdpi.com/2072-6694/17/17/2853/pdf){target="_blank"}
 
 
 ```{=html}
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1103/PhysRev.47.777"></div>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.3390/cancers17172853"></div>
 
-<span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-hide-zero-citations="true" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<span class="__dimensions_badge_embed__" data-doi="10.3390/cancers17172853" data-hide-zero-citations="true" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 ```

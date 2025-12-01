@@ -82,5 +82,14 @@
   },
   "contact.qmd": {
     "contact.html": "2c4c4248"
+  },
+  "latex-guide.qmd": {
+    "latex-guide.html": "30154d3b"
+  },
+  "posts/posts_2025_01_15_business_models.qmd": {
+    "posts_2025_01_15_business_models.html": "cd4eb439"
+  },
+  "posts/posts_2025_01_15_thyroid_cancer.qmd": {
+    "posts_2025_01_15_thyroid_cancer.html": "fbf2dcac"
   }
 }
