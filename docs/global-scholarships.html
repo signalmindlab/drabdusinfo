@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./favicon.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -40,10 +41,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5e6bd0f431d9db1b2e65cd770f46ab1a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f22cdf64c810c887d8ac059dc91ab5d3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c77af4844fd2de9a2fc136011a44ebe5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-f22cdf64c810c887d8ac059dc91ab5d3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -131,7 +136,169 @@ https://badge.dimensions.ai/
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -264,6 +431,7 @@ https://badge.dimensions.ai/
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
   <i class="bi"></i>
@@ -280,6 +448,7 @@ https://badge.dimensions.ai/
     
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -314,17 +483,43 @@ https://badge.dimensions.ai/
 
 
 <style>
+    /* Theme-aware color variables */
+    :root {
+        --bg-primary: white;
+        --bg-secondary: #f8f9fa;
+        --bg-card: white;
+        --text-primary: #1f2937;
+        --text-secondary: #333;
+        --border-color: #e5e7eb;
+        --border-light: #e0e7ff;
+        --accent-color: #667eea;
+        --hover-shadow: rgba(102, 126, 234, 0.15);
+    }
+    
+    /* Dark mode colors */
+    [data-bs-theme="dark"] {
+        --bg-primary: #1a1a1a;
+        --bg-secondary: #2d2d2d;
+        --bg-card: #252525;
+        --text-primary: #e5e7eb;
+        --text-secondary: #d1d5db;
+        --border-color: #404040;
+        --border-light: #3a3a5a;
+        --accent-color: #818cf8;
+        --hover-shadow: rgba(129, 140, 248, 0.25);
+    }
+    
     .scholarship-container {
         max-width: 1400px;
         margin: 0 auto;
-        background: white;
+        background: var(--bg-primary);
         border-radius: 8px;
         overflow: hidden;
         box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
     
     .scholarship-header {
-        background: #667eea;
+        background: var(--accent-color);
         color: white;
         padding: 25px;
         text-align: center;
@@ -346,7 +541,7 @@ https://badge.dimensions.ai/
     }
     
     .filters-section {
-        background: #f8f9fa;
+        background: var(--bg-secondary);
         border-radius: 8px;
         padding: 20px;
         margin-bottom: 20px;
@@ -355,7 +550,7 @@ https://badge.dimensions.ai/
     .section-title {
         font-size: 1.3em;
         font-weight: 700;
-        color: #1f2937;
+        color: var(--text-primary);
         margin-bottom: 15px;
     }
     
@@ -367,8 +562,8 @@ https://badge.dimensions.ai/
     }
     
     .region-block {
-        background: white;
-        border: 2px solid #e0e7ff;
+        background: var(--bg-card);
+        border: 2px solid var(--border-light);
         border-radius: 8px;
         padding: 20px 15px;
         text-align: center;
@@ -378,13 +573,13 @@ https://badge.dimensions.ai/
     }
     
     .region-block:hover {
-        border-color: #667eea;
-        box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
+        border-color: var(--accent-color);
+        box-shadow: 0 2px 8px var(--hover-shadow);
     }
     
     .region-block.active {
-        background: #667eea;
-        border-color: #667eea;
+        background: var(--accent-color);
+        border-color: var(--accent-color);
         color: white;
     }
     
@@ -408,7 +603,7 @@ https://badge.dimensions.ai/
     .filter-group label {
         display: block;
         font-weight: 600;
-        color: #333;
+        color: var(--text-secondary);
         margin-bottom: 6px;
         font-size: 0.95em;
     }
@@ -417,15 +612,17 @@ https://badge.dimensions.ai/
     .filter-group select {
         width: 100%;
         padding: 10px;
-        border: 2px solid #e0e7ff;
+        border: 2px solid var(--border-light);
         border-radius: 5px;
         font-size: 14px;
+        background: var(--bg-card);
+        color: var(--text-primary);
     }
     
     .filter-group input:focus,
     .filter-group select:focus {
         outline: none;
-        border-color: #667eea;
+        border-color: var(--accent-color);
     }
     
     .results-header {
@@ -440,7 +637,7 @@ https://badge.dimensions.ai/
     .results-count {
         font-size: 1.1em;
         font-weight: 600;
-        color: #667eea;
+        color: var(--accent-color);
     }
     
     .clear-btn {
@@ -465,16 +662,16 @@ https://badge.dimensions.ai/
     }
     
     .scholarship-card {
-        background: white;
-        border: 2px solid #e5e7eb;
+        background: var(--bg-card);
+        border: 2px solid var(--border-color);
         border-radius: 8px;
         padding: 18px;
         transition: all 0.2s;
     }
     
     .scholarship-card:hover {
-        border-color: #667eea;
-        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+        border-color: var(--accent-color);
+        box-shadow: 0 4px 12px var(--hover-shadow);
     }
     
     .scholarship-card-header {
@@ -488,13 +685,107 @@ https://badge.dimensions.ai/
     .scholarship-name {
         font-size: 1.2em;
         font-weight: 700;
-        color: #1f2937;
+        color: var(--text-primary);
         flex: 1;
     }
     
     .classification-badge {
         padding: 4px 10px;
-        border-radius: 12px;
+        border-radius: 4px;
+        font-size: 0.8em;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+    
+    .badge-government {
+        background: #10b981;
+        color: white;
+    }
+    
+    .badge-international {
+        background: #3b82f6;
+        color: white;
+    }
+    
+    .badge-other {
+        background: #8b5cf6;
+        color: white;
+    }
+    
+    .scholarship-details {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+        margin-bottom: 12px;
+    }
+    
+    .detail-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .detail-label {
+        font-weight: 600;
+        color: var(--text-secondary);
+        min-width: 110px;
+        flex-shrink: 0;
+    }
+    
+    .detail-value {
+        color: var(--text-primary);
+        flex: 1;
+    }
+    
+    .website-link {
+        display: inline-block;
+        padding: 8px 16px;
+        background: var(--accent-color);
+        color: white !important;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 0.9em;
+        transition: all 0.2s;
+        margin-top: 8px;
+    }
+    
+    .website-link:hover {
+        background: #5568d3;
+        transform: translateY(-1px);
+    }
+    
+    .no-results {
+        text-align: center;
+        padding: 40px;
+        color: var(--text-secondary);
+        font-size: 1.1em;
+        grid-column: 1 / -1;
+    }
+    
+    @media (max-width: 768px) {
+        .regions-grid {
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        }
+        
+        .region-block {
+            padding: 15px 10px;
+            min-height: 90px;
+        }
+        
+        .filters-grid {
+            grid-template-columns: 1fr;
+        }
+        
+        .scholarship-grid {
+            grid-template-columns: 1fr;
+        }
+        
+        .detail-label {
+            min-width: 90px;
+        }
+    }
+</style>
         font-size: 0.8em;
         font-weight: 600;
         white-space: nowrap;
@@ -575,7 +866,7 @@ https://badge.dimensions.ai/
             flex-direction: column;
         }
     }
-</style>
+
 
 <div class="scholarship-container">
     <div class="scholarship-header">
@@ -966,6 +1257,19 @@ https://badge.dimensions.ai/
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
