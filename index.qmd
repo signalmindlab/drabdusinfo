@@ -22,7 +22,7 @@ about:
     # target: _blank
     - icon: envelope
       text: E-mail
-      href: write@drabdus.info    
+      href: mailto:write@drabdus.info   
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/drabdus/
