@@ -30,6 +30,7 @@
 
 
 
+
 <!--Include academic icons or buttons-->
 <!-- 
 Load Academicons v1: https://jpswalsh.github.io/academicons/
@@ -116,6 +117,7 @@ Framework for Brain Tumor Classification Using MRI Images.”</span>
 
 
 
+
 <p>We’re excited to announce our latest research has been accepted for publication in <strong><em>Journal of Big Data</em></strong>, a leading open-access journal in big data analytics and applications!</p>
 <p>This work presents a comprehensive evaluation of business predictive models, exploring their accuracy, interpretability, and practical deployment challenges in real-world analytical environments.</p>
 <!--Include social share buttons-->
@@ -144,6 +146,7 @@ https://quarto.org/docs/authoring/includes.html
   <dc:creator>md abdus samad</dc:creator>
   <link>https://www.drabdus.info/posts/posts_2025_01_15_thyroid_cancer.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -178,6 +181,7 @@ https://quarto.org/docs/authoring/includes.html
   <dc:creator>Event </dc:creator>
   <link>https://www.drabdus.info/posts/event-title/</link>
   <description><![CDATA[ 
+
 
 
 
