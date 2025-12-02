@@ -1,7 +1,10 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - CNAME  # This ensures CNAME is copied to docs folder
   # site-path: /drabdusinfo/ 
+
 
 # Meta
 description-meta: "Quarto Academic Website Template adapted by Dr. Gang He, further customized by Dr. Md Abdus Samad"
