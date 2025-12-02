@@ -157,7 +157,9 @@ format:
   html:
     page-layout: full
     cache: true
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: darkly
     css: styles.css
     toc: true
     footnotes-hover: true
