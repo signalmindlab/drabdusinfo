@@ -10,6 +10,7 @@ author-meta: "Dr. Md Abdus Samad"
 website:
   title: "Md Abdus Samad"
   # image: "https://quarto.org/quarto.png"
+  favicon: favicon.ico    # Add this line
   image: "posts/placeholder2.JPG"
   description: "Quarto Academic Website Template adapted by Dr. Gang He, further customized by Dr. Md Abdus Samad"
  
