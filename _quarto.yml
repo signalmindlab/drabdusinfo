@@ -15,7 +15,7 @@ website:
   description: "Quarto Academic Website Template adapted by Dr. Gang He, further customized by Dr. Md Abdus Samad"
  
   navbar:
-    background: light  # You can change the background color here
+    background: dark  # You can change the background color here
 
     left:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home
