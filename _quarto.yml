@@ -45,6 +45,9 @@ website:
       - text: Top Global Scholarships  
         href: global-scholarships.qmd
 
+      - text: University Information  
+        href: admission-portals.qmd
+
       - text: LaTeX 
         href: latex-guide.qmd
 

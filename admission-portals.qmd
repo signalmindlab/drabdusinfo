@@ -1,0 +1,163 @@
+---
+title: "International University Admission Portals"
+subtitle: "Comprehensive Guide for International Students"
+date: "2025-12-03"
+date-modified: last-modified
+toc: true
+toc-depth: 3
+page-layout: article
+---
+
+::: {.callout-note}
+## About This Guide
+This comprehensive guide compiles official government-run portals for international student admissions across developed countries worldwide. Each portal provides authentic information about universities, programs, scholarships, visa requirements, and application procedures.
+:::
+
+## Quick Reference: Tuition-Free/Low-Cost Countries {#tuition-free}
+
+| Country | Tuition Policy |
+|---------|----------------|
+| **Norway** | Tuition-free for ALL international students at public universities |
+| **Germany** | Mostly tuition-free at public universities (small semester fees only) |
+| **Finland** | Free for EU/EEA students; Non-EU €5,000-18,000/year with scholarship opportunities |
+| **Sweden** | Free for EU/EEA/Switzerland students; Non-EU €7,500-25,500/year |
+| **Czech Republic** | Tuition-free programs taught in Czech language |
+
+: Countries with Free or Low-Cost Higher Education {.striped .hover}
+
+---
+
+## Asia-Pacific Region {#asia-pacific}
+
+| Country | Portal | Organization | Key Features & Scholarships |
+|---------|--------|--------------|----------------------------|
+| **South Korea** | [Study in Korea](https://www.studyinkorea.go.kr/) | NIIED / Ministry of Education | GKS scholarships; Online application system; Korean language programs; 400+ programs in English |
+| **Japan** | [Study in Japan](https://www.studyinjapan.go.jp/) | JASSO / MEXT | MEXT Government Scholarships; 7 program types; EJU admission exam; 1,200+ English programs |
+| **Australia** | [Study Australia](https://www.studyaustralia.gov.au/) | Austrade | CRICOS registered courses; Australia Awards scholarships; Post-study work rights (2-4 years) |
+| **New Zealand** | [Study with New Zealand](https://www.studywithnewzealand.govt.nz/) | Education New Zealand | NauMai NZ support; NZ Excellence Awards; Post-study work visa (up to 3 years) |
+| **Singapore** | [MOE International Students](https://www.moe.gov.sg/international-students) | Ministry of Education | ASEAN Scholarships; MOE Tuition Grant; SINGA PhD program; EduTrust certified institutions |
+| **Taiwan** | [Study in Taiwan](https://www.studyintaiwan.org/) | MOE Taiwan | Taiwan Scholarship; TaiwanICDF Scholarships; Huayu Enrichment Scholarship; 150+ English programs |
+| **Malaysia** | [Education Malaysia](https://educationmalaysia.gov.my/) | EMGS / Ministry of Higher Education | Official visa gateway; ISAC arrival service; Graduate Pass for employment; Affordable tuition |
+| **Israel** | [Study in Israel](https://studyisrael.org.il/) | Council for Higher Education | Excellence Fellowship; Startup Nation innovation ecosystem; 350+ English programs |
+
+: Asia-Pacific Region Admission Portals {.striped .hover}
+
+---
+
+## North America {#north-america}
+
+| Country | Portal | Organization | Key Features & Scholarships |
+|---------|--------|--------------|----------------------------|
+| **United States** | [EducationUSA](https://educationusa.state.gov/) | U.S. Department of State | 430+ advising centers in 175+ countries; Fulbright Program; Free guidance and resources |
+| **United States** | [Study in the States](https://studyinthestates.dhs.gov/) | DHS / SEVP | SEVIS system information; F-1 and M-1 visa guidance; OPT work authorization |
+| **Canada** | [EduCanada](https://www.educanada.ca/) | Government of Canada | Designated Learning Institutions; Post-Graduation Work Permit; Provincial nominee programs |
+
+: North America Admission Portals {.striped .hover}
+
+---
+
+## Western Europe {#western-europe}
+
+| Country | Portal | Organization | Key Features & Scholarships |
+|---------|--------|--------------|----------------------------|
+| **United Kingdom** | [Study UK](https://study-uk.britishcouncil.org/) | British Council | UCAS application (up to 5 universities); Chevening Scholarships; Graduate Route (2-year work) |
+| **Germany** | [Study in Germany](https://www.study-in-germany.de/) | DAAD | Mostly tuition-free public universities; DAAD scholarships; 1,800+ international programs |
+| **France** | [Campus France](https://www.campusfrance.org/) | Campus France | Études en France procedure; Eiffel Excellence Scholarships; CampusArt for arts programs |
+| **Netherlands** | [Study in NL](https://www.studyinholland.nl/) | Nuffic | Studyfinder database; Orange Tulip Scholarship; Holland Scholarship; 2,100+ English programs |
+| **Switzerland** | [Study in Switzerland](https://www.studyinswitzerland.plus/) | swissuniversities | Excellence scholarships; World-class research; Multilingual environment |
+| **Austria** | [Study in Austria](https://studyinaustria.at/) | OeAD | Ernst Mach Grant; CEEPUS network; Affordable living costs |
+| **Belgium** | [Study in Belgium](https://www.studyinbelgium.be/) | Wallonie-Bruxelles International | ARES scholarships; Flanders scholarships; EU institutions hub |
+| **Ireland** | [Education in Ireland](https://www.educationinireland.com/) | Enterprise Ireland | Government of Ireland Scholarships; Strong tech sector; English-speaking |
+| **Italy** | [Study in Italy](https://www.studiare-in-italia.it/) | Uni-Italia | DSU regional scholarships; Universitaly portal; Rich cultural heritage |
+
+: Western Europe Admission Portals {.striped .hover}
+
+---
+
+## Nordic Countries {#nordic}
+
+| Country | Portal | Organization | Key Features & Scholarships |
+|---------|--------|--------------|----------------------------|
+| **Norway** | [Study in Norway](https://www.studyinnorway.no/) | DIKU | Tuition-free for all; Quota Scheme scholarships; Erasmus+ | 
+| **Sweden** | [Study in Sweden](https://studyinsweden.se/) | Swedish Institute | SI scholarships; universityadmissions.se portal; 1,000+ English programs |
+| **Denmark** | [Study in Denmark](https://studyindenmark.dk/) | Danish Agency for Higher Education | Government Scholarships; High quality of life |
+| **Finland** | [Study in Finland](https://www.studyinfinland.fi/) | Finnish National Agency for Education | Studyinfo.fi admissions; Finland Scholarships; 600+ English programs; Free for EU/EEA |
+
+: Nordic Countries Admission Portals {.striped .hover}
+
+---
+
+## Central & Eastern Europe {#central-eastern-europe}
+
+| Country | Portal | Organization | Key Features & Scholarships |
+|---------|--------|--------------|----------------------------|
+| **Poland** | [Study in Poland](https://study.gov.pl/) | NAWA / Ministry of Education | NAWA scholarships (Banach, Poland My First Choice); 500+ English programs; Affordable living |
+| **Czech Republic** | [Study in Czechia](https://www.studyin.cz/) | DZS | Tuition-free in Czech language; Government scholarships; 55,000+ international students |
+| **Hungary** | [Study in Hungary](https://studyinhungary.hu/) | Tempus Public Foundation | Stipendium Hungaricum (fully funded); 600+ programs; 94 partner countries |
+
+: Central & Eastern Europe Admission Portals {.striped .hover}
+
+---
+
+## Major Government Scholarship Programs {#scholarships}
+
+Below are some of the most prestigious fully-funded scholarship programs available to international students:
+
+| Scholarship | Country | Coverage |
+|-------------|---------|----------|
+| **Fulbright Program** | USA | Full funding for graduate study, research, and teaching |
+| **Chevening Scholarships** | UK | Fully-funded master's degrees for future leaders |
+| **DAAD Scholarships** | Germany | Extensive scholarships and grants for all levels |
+| **GKS/KGSP** | South Korea | Tuition, living costs, and airfare covered |
+| **MEXT Scholarships** | Japan | Government scholarships via embassy or university |
+| **Stipendium Hungaricum** | Hungary | Tuition, accommodation, and monthly stipend |
+| **Swedish Institute Scholarships** | Sweden | SISGP for master's students from developing countries |
+| **Erasmus Mundus** | EU | Joint master's degrees at multiple European universities |
+| **Australia Awards** | Australia | For students from participating Asia-Pacific countries |
+| **TaiwanICDF Scholarships** | Taiwan | Full funding for students from partner countries |
+| **NAWA Scholarships** | Poland | Banach and Poland My First Choice programs |
+
+: Major Government Scholarship Programs {.striped .hover}
+
+---
+
+## Centralized Application Systems {#application-systems}
+
+Several countries offer centralized application portals that streamline the admission process:
+
+| Country | Portal | Description |
+|---------|--------|-------------|
+| **Sweden** | [universityadmissions.se](https://www.universityadmissions.se/) | Apply to up to 4 programs through one portal |
+| **UK** | [UCAS](https://www.ucas.com/) | Apply to up to 5 universities through unified system |
+| **Finland** | [studyinfo.fi](https://studyinfo.fi/) | Central admissions for polytechnics and universities |
+| **Denmark** | [optagelse.dk](https://www.optagelse.dk/) | Apply to up to 8 programs in priority order |
+| **France** | Études en France | Campus France platform for up to 7 programs |
+| **Italy** | [Universitaly](https://www.universitaly.it/) | Mandatory pre-enrollment portal for all international students |
+| **Malaysia** | [EMGS](https://educationmalaysia.gov.my/) | Official gateway for all student visa applications |
+
+: Centralized Application Systems {.striped .hover}
+
+---
+
+## Important Notes {#notes}
+
+::: {.callout-important}
+## Key Information
+
+- All URLs listed are official government or government-authorized portals verified as of 2025
+- Application deadlines vary by country and program; typically 3-12 months before intended start
+- Most countries accept IELTS (6.0-7.0) or TOEFL (80-100) for English proficiency
+- Scholarship deadlines are often earlier than general admission deadlines
+- Post-study work permits are available in most developed countries (1-4 years depending on country)
+- Always verify current information directly on the official portals before applying
+:::
+
+---
+
+::: {.text-center}
+<!-- **Compiled by Dr. Md Abdus Samad**
+
+[drabdus.info](https://www.drabdus.info) -->
+
+*Last Updated: December 2025*
+:::
