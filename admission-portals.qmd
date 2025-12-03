@@ -139,9 +139,9 @@ Several countries offer centralized application portals that streamline the admi
 
 ---
 
-## Important Notes {#notes}
+<!-- ## Important Notes {#notes} -->
 
-::: {.callout-success}
+::: {.callout-tip}
 ## Key Information
 
 All URLs included are **official government** or **government-authorized portals** verified as of **2025**. Application timelines differ by country and program, but most require submission **3–12 months** before the intended start date. Many destinations accept standard English proficiency tests such as **IELTS (6.0–7.0)** or **TOEFL iBT (80–100)**. **Scholarship deadlines** often fall earlier than general admission deadlines, so applicants should plan accordingly. Most developed countries also offer **post-study work permits** lasting **1–4 years**, depending on local immigration policies. Because requirements can change, applicants should always verify the **most current information** directly on the **official portals** before applying.
