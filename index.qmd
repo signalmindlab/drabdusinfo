@@ -96,19 +96,15 @@ I'm a template that you can fork to build your own website with easy adaptation 
 
 - PhD, Univerisity -->
 
-Dr. Md Abdus Samad is a telecommunications scholar, researcher, and educator whose research focuses on the intersection of wireless communications, artificial intelligence, and next-generation network technologies. He is a Research Professor in the **Department of Information and Communication Engineering** at Yeungnam University, Gyeongsan, South Korea. He is also a registered **Korean Researcher** and an active **IEEE member**, contributing to the advancement of telecommunications standards and research.
+**Dr. Md Abdus Samad** is a Research Professor in the Department of Information and Communication Engineering at Yeungnam University, Gyeongsan, South Korea. He is a registered Korean Researcher and active IEEE member.
 
-He previously taught at the undergraduate and graduate levels in the **Department of Electronics and Telecommunication Engineering** at International Islamic University Chittagong, where he served as an Assistant Professor from 2013 to 2017, contributing to the development of future telecommunications engineers through teaching, mentoring, and curriculum development.
+His research focuses on next-generation wireless networks, addressing challenges in millimeter-wave propagation, atmospheric interference, and signal quality. He also explores how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. His work has appeared in over 55 publications in SCIE and SSCI-indexed journals, including high-impact telecommunications, computer science and engineering outlets.
 
-His research explores how next-generation wireless networks (5G and beyond 6G) can overcome challenges related to millimeter-wave propagation, atmospheric interference, and signal quality—and how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. His leading and collaborative **work** has appeared in over 55 reputable journals indexed in **SCIE** (Science Citation Index Expanded) and **SSCI** (Social Sciences Citation Index), including publications in high-impact telecommunications and engineering journals.
+Previously, he served as Assistant Professor in the Department of Electronics and Telecommunication Engineering at International Islamic University Chittagong (2013–2017), where he contributed to curriculum development and mentored future telecommunications engineers.
 
-His research has been **supported** by prestigious funding sources, including the **Korean Government Scholarship (Global Korea Scholarship)** during his doctoral studies and the **National Research Foundation of Korea**, underscoring the significance and quality of his work in advancing wireless communication technologies.
+He earned his Ph.D. in Information and Communication Engineering from Chosun University, South Korea (2022), fully supported by the prestigious Korean Government Scholarship (Global Korea Scholarship). His research has also received funding from the National Research Foundation of Korea.
 
-His work has **contributed** to the global understanding of advanced wireless communication systems. His research findings address critical challenges in millimeter-wave frequencies, atmospheric effects on signal propagation, and AI-enhanced network optimization. He actively serves the academic community as a **peer reviewer** for multiple international journals indexed in the **Web of Science**.
-
-He has been recognized through the highly competitive **Korean Government Scholarship (Global Korea Scholarship)**, which supports outstanding international students, and has established research metrics demonstrating his scholarly impact: **Scopus Author ID: 57220375948**, **Web of Science ResearcherID: JPL-7257-2023**.
-
-He has worked for the **Department of Electronics and Telecommunication Engineering** at International Islamic University Chittagong (2013-2017), where he contributed significantly to developing telecommunications engineering education. He received his Ph.D. in **Information and Communication Engineering** from Chosun University, Gwangju, South Korea in 2022. His doctoral studies were fully supported by the prestigious Korean Government Scholarship, recognizing his academic excellence and research potential.
+He actively serves the academic community as a peer reviewer for multiple Web of Science-indexed journals. His scholarly impact is reflected in his research metrics: Scopus Author ID: 57220375948, Web of Science ResearcherID: JPL-7257-2023.
 
 :::
 
