@@ -23,7 +23,7 @@ This comprehensive guide compiles official government-run portals for internatio
 | **Sweden** | Free for EU/EEA/Switzerland students; Non-EU €7,500-25,500/year |
 | **Czech Republic** | Tuition-free programs taught in Czech language |
 
-: Countries with Free or Low-Cost Higher Education {.striped .hover}
+<!-- : Countries with Free or Low-Cost Higher Education {.striped .hover} -->
 
 ---
 
