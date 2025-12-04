@@ -46,7 +46,7 @@ about:
 #    - text: "{{< ai researchgate >}} Research Gate"
 #      href: https://www.researchgate.net/profile/Md-Abdus-Samad-3?ev=hdr_xprf
 #      target: _blank
-    - text: "{{< ai dblp >}} DBLP"
+    - text: "{{< fa database >}} DBLP"
       href: https://dblp.org/pid/04/11471.html
       target: _blank
 
