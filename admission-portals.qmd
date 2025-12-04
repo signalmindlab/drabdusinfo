@@ -39,7 +39,7 @@ This comprehensive guide compiles official government-run portals for internatio
 | **Taiwan** | [Study in Taiwan](https://www.studyintaiwan.org/) | MOE Taiwan | Taiwan Scholarship; TaiwanICDF Scholarships; Huayu Enrichment Scholarship; 150+ English programs |
 | **Malaysia** | [Education Malaysia](https://educationmalaysia.gov.my/) | EMGS / Ministry of Higher Education | Official visa gateway; ISAC arrival service; Graduate Pass for employment; Affordable tuition |
 
-: Asia-Pacific Region Admission Portals {.striped .hover}
+<!-- : Asia-Pacific Region Admission Portals {.striped .hover} -->
 
 ---
 
@@ -51,7 +51,7 @@ This comprehensive guide compiles official government-run portals for internatio
 | **United States** | [Study in the States](https://studyinthestates.dhs.gov/) | DHS / SEVP | SEVIS system information; F-1 and M-1 visa guidance; OPT work authorization |
 | **Canada** | [EduCanada](https://www.educanada.ca/) | Government of Canada | Designated Learning Institutions; Post-Graduation Work Permit; Provincial nominee programs |
 
-: North America Admission Portals {.striped .hover}
+<!-- : North America Admission Portals {.striped .hover} -->
 
 ---
 
@@ -69,7 +69,7 @@ This comprehensive guide compiles official government-run portals for internatio
 | **Ireland** | [Education in Ireland](https://www.educationinireland.com/) | Enterprise Ireland | Government of Ireland Scholarships; Strong tech sector; English-speaking |
 | **Italy** | [Study in Italy](https://www.studiare-in-italia.it/) | Uni-Italia | DSU regional scholarships; Universitaly portal; Rich cultural heritage |
 
-: Western Europe Admission Portals {.striped .hover}
+<!-- : Western Europe Admission Portals {.striped .hover} -->
 
 ---
 
@@ -81,7 +81,7 @@ This comprehensive guide compiles official government-run portals for internatio
 | **Sweden** | [Study in Sweden](https://studyinsweden.se/) | Swedish Institute | SI scholarships; universityadmissions.se portal; 1,000+ English programs |
 | **Denmark** | [Study in Denmark](https://studyindenmark.dk/) | Danish Agency for Higher Education | Government Scholarships; High quality of life |
 | **Finland** | [Study in Finland](https://www.studyinfinland.fi/) | Finnish National Agency for Education | Studyinfo.fi admissions; Finland Scholarships; 600+ English programs; Free for EU/EEA |
-: Nordic Countries Admission Portals {.striped .hover}
+<!-- : Nordic Countries Admission Portals {.striped .hover} -->
 
 ---
 
@@ -93,7 +93,7 @@ This comprehensive guide compiles official government-run portals for internatio
 | **Czech Republic** | [Study in Czechia](https://www.studyin.cz/) | DZS | Tuition-free in Czech language; Government scholarships; 55,000+ international students |
 | **Hungary** | [Study in Hungary](https://studyinhungary.hu/) | Tempus Public Foundation | Stipendium Hungaricum (fully funded); 600+ programs; 94 partner countries |
 
-: Central & Eastern Europe Admission Portals {.striped .hover}
+<!-- : Central & Eastern Europe Admission Portals {.striped .hover} -->
 
 ---
 
@@ -115,7 +115,7 @@ Below are some of the most prestigious fully-funded scholarship programs availab
 | **TaiwanICDF Scholarships** | Taiwan | Full funding for students from partner countries |
 | **NAWA Scholarships** | Poland | Banach and Poland My First Choice programs |
 
-: Major Government Scholarship Programs {.striped .hover}
+<!-- : Major Government Scholarship Programs {.striped .hover} -->
 
 ---
 
@@ -133,7 +133,7 @@ Several countries offer centralized application portals that streamline the admi
 | **Italy** | [Universitaly](https://www.universitaly.it/) | Mandatory pre-enrollment portal for all international students |
 | **Malaysia** | [EMGS](https://educationmalaysia.gov.my/) | Official gateway for all student visa applications |
 
-: Centralized Application Systems {.striped .hover}
+<!-- : Centralized Application Systems {.striped .hover} -->
 
 ---
 
