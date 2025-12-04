@@ -46,6 +46,9 @@ about:
 #    - text: "{{< ai researchgate >}} Research Gate"
 #      href: https://www.researchgate.net/profile/Md-Abdus-Samad-3?ev=hdr_xprf
 #      target: _blank
+    - text: "{{< ai dblp >}} DBLP"
+      href: https://dblp.org/pid/04/11471.html
+      target: _blank
 
 listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
   - id: recent-posts
