@@ -47,11 +47,18 @@ website:
             # href: posts.qmd#category=paper
           # - text: Grants
             # href: projects.qmd    
-      - text: Top Global Scholarships  
-        href: global-scholarships.qmd
+      - text: Study Abroad
+        menu:
+          - text: Top Global Scholarships
+            href: global-scholarships.qmd
+          - text: University Portal
+            href: admission-portals.qmd
 
-      - text: University Information  
-        href: admission-portals.qmd
+      # - text: Top Global Scholarships  
+      #   href: global-scholarships.qmd
+
+      # - text: University Information  
+      #   href: admission-portals.qmd
 
       - text: LaTeX 
         href: latex-guide.qmd
