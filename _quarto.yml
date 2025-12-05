@@ -101,6 +101,10 @@ website:
       # - text: Group   # Comment the Group part out to remove the Group page
         # href: people.qmd
 
+      - text: Scholar's Note
+        href: https://www.scholarsnote.org/
+        target: _blank
+
     right: 
       # - text: CV
       #   href: files/nsf-biosketch.pdf
