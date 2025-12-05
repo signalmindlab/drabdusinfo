@@ -6,8 +6,12 @@ project:
   # site-path: /drabdusinfo/ 
 
 
+# # Meta
+# description-meta: "Quarto Academic Website Template adapted by Dr. Gang He, further customized by Dr. Md Abdus Samad"
+# author-meta: "Dr. Md Abdus Samad"
+
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He, further customized by Dr. Md Abdus Samad"
+description-meta: "Quarto Academic Website Template, customized by Dr. Md Abdus Samad"
 author-meta: "Dr. Md Abdus Samad"
 
 website:
@@ -15,7 +19,8 @@ website:
   # image: "https://quarto.org/quarto.png"
   favicon: favicon.ico    # Add this line
   image: "posts/placeholder2.JPG"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He, further customized by Dr. Md Abdus Samad"
+  # description: "Quarto Academic Website Template adapted by Dr. Gang He, further customized by Dr. Md Abdus Samad"
+  description: "Developed by Dr. Md Abdus Samad"
  
   navbar:
     background: dark  # You can change the background color here
