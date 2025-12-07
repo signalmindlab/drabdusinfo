@@ -38,7 +38,13 @@ website:
             href: contact.qmd 
 
       - text: Publications  
-        href: publications60.qmd               
+        href: publications60.qmd   
+
+      - text: LaTeX 
+        href: latex-guide.qmd
+
+      - text: Blog 
+        href: https://www.blog.drabdus.info/            
       # - text: Research
         # menu:
           # - text: List of Publications
@@ -60,8 +66,8 @@ website:
       # - text: University Information  
       #   href: admission-portals.qmd
 
-      - text: LaTeX 
-        href: latex-guide.qmd
+      # - text: LaTeX 
+      #   href: latex-guide.qmd
 
       # - text: Teaching # Comment the Teaching part out to remove the Teaching page
         # href: teaching.qmd
