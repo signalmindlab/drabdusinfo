@@ -127,6 +127,9 @@ website:
           - text: SignalMind Lab
             href: https://www.signalmindlab.org/
             target: _blank
+          - text: Quick Access Links
+            href: hhttps://hub.drabdus.info/
+            target: _blank
 
     right: 
       # - text: CV
