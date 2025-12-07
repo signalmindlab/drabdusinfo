@@ -115,7 +115,7 @@ website:
 
       - text: Related Sites
         menu:
-          - text: Scholar's Note [open in new tab]
+          - text: Scholar's Note
             href: https://www.scholarsnote.org/
             target: _blank
           - text: SignalMind Lab
