@@ -43,8 +43,8 @@ website:
       - text: LaTeX 
         href: latex-guide.qmd
 
-      # - text: Blog 
-      #   href: https://blog.drabdus.info/            
+      - text: Blog 
+        href: https://blog.drabdus.info/            
       # - text: Research
         # menu:
           # - text: List of Publications
