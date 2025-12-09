@@ -43,8 +43,8 @@ website:
       - text: LaTeX 
         href: latex-guide.qmd
 
-      - text: My Blog 
-        href: https://blog.drabdus.info/            
+      # - text: My Blog 
+      #   href: https://blog.drabdus.info/            
       # - text: Research
         # menu:
           # - text: List of Publications
@@ -119,12 +119,15 @@ website:
       # - text: Group   # Comment the Group part out to remove the Group page
         # href: people.qmd
 
+      - text: "My Blog ↗"
+        href: https://blog.drabdus.info/ 
+
       - text: Explore My Sites
         menu:
-          - text: Scholar's Note
+          - text: "Scholar's Note ↗"
             href: https://www.scholarsnote.org/
             target: _blank
-          - text: SignalMind Lab
+          - text: "SignalMind Lab ↗"
             href: https://www.signalmindlab.org/
             target: _blank
           # - text: Quick Access Links
