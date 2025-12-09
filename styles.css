@@ -1,1 +1,32 @@
 /* css styles */
+/* css styles */
+
+/* Profile picture size customization */
+.quarto-title .quarto-title-meta-contents img,
+.quarto-title-block .quarto-title-meta img,
+img.profile,
+img.rounded {
+  max-width: 200px !important;  /* Adjust this value to make it smaller or larger */
+  width: 200px !important;
+  height: auto !important;
+}
+
+/* Alternative: if the above doesn't work, try this more specific selector */
+.column-page img[src*="placeholder"],
+.column-body img[src*="placeholder"] {
+  max-width: 200px !important;
+  width: 200px !important;
+  height: auto !important;
+}
+
+/* For about page profile images */
+.about-entity img {
+  max-width: 200px !important;
+  width: 200px !important;
+  height: auto !important;
+}
+
+/* Ensure image stays circular/rounded if that style is applied */
+img.rounded {
+  border-radius: 50%;
+}
