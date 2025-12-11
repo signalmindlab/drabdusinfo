@@ -51,6 +51,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-f22cdf64c810c887d8ac059dc91ab5d3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -87,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 3,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
@@ -188,16 +190,16 @@ window.Quarto = {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Md Abdus Samad, PhD – Md Abdus Samad">
-<meta property="og:description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He, further customized by Dr.&nbsp;Md Abdus Samad">
+<meta property="og:description" content="Developed by Dr.&nbsp;Md Abdus Samad">
 <meta property="og:image" content="https://www.drabdus.info/files/images/profile.png">
 <meta property="og:site_name" content="Md Abdus Samad">
-<meta property="og:image:height" content="768">
-<meta property="og:image:width" content="768">
+<meta property="og:image:height" content="150">
+<meta property="og:image:width" content="150">
 <meta name="twitter:title" content="Md Abdus Samad, PhD – Md Abdus Samad">
-<meta name="twitter:description" content="Quarto Academic Website Template adapted by Dr.&nbsp;Gang He, further customized by Dr.&nbsp;Md Abdus Samad">
+<meta name="twitter:description" content="Developed by Dr.&nbsp;Md Abdus Samad">
 <meta name="twitter:image" content="https://www.drabdus.info/files/images/profile.png">
-<meta name="twitter:image-height" content="768">
-<meta name="twitter:image-width" content="768">
+<meta name="twitter:image-height" content="150">
+<meta name="twitter:image-width" content="150">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -390,6 +392,10 @@ window.Quarto = {
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="./posts.html#category=event">
+ <span class="dropdown-text">Events</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./contact.html">
  <span class="dropdown-text">Contact</span></a>
   </li>  
@@ -400,17 +406,24 @@ window.Quarto = {
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./global-scholarships.html"> 
-<span class="menu-text">Top Global Scholarships</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./admission-portals.html"> 
-<span class="menu-text">University Information</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./latex-guide.html"> 
 <span class="menu-text">LaTeX</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-explore-global-study-paths" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Explore Global Study Paths</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-explore-global-study-paths">    
+        <li>
+    <a class="dropdown-item" href="./global-scholarships.html">
+ <span class="dropdown-text">Top Global Scholarships</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./admission-portals.html">
+ <span class="dropdown-text">University Portal</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-miscellaneous" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Miscellaneous</span>
@@ -490,6 +503,25 @@ window.Quarto = {
   </li>  
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://blog.drabdus.info/" target="_blank"> 
+<span class="menu-text">My Blog</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-explore-my-sites" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Explore My Sites</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-explore-my-sites">    
+        <li>
+    <a class="dropdown-item" href="https://www.scholarsnote.org/" target="_blank">
+ <span class="dropdown-text">Scholar’s Note</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.signalmindlab.org/" target="_blank">
+ <span class="dropdown-text">SignalMind Lab</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -525,7 +557,7 @@ window.Quarto = {
 <div class="quarto-about-trestles column-page">
   <div class="about-entity">
     <img src="files/images/profile.png" class="about-image
-  rounded " style="width: 70%;">
+  round " style="height: 200px; width: 200px;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Md Abdus Samad, PhD</h1>
@@ -562,6 +594,9 @@ window.Quarto = {
   <a href="https://scholar.google.com/citations?user=NmUWfQIAAAAJ&amp;hl=en" class="about-link" rel="" target="_blank">
      <span class="about-link-text"><i class="ai  ai-google-scholar"></i> Google Scholar</span>
   </a>
+  <a href="https://dblp.org/pid/04/11471.html" class="about-link" rel="" target="_blank">
+     <span class="about-link-text"><i class="fa-solid fa-database" aria-label="database"></i> DBLP</span>
+  </a>
 </div>
   </div>
   <div class="about-contents"><div id="hero-heading">
@@ -585,13 +620,11 @@ I'm a template that you can fork to build your own website with easy adaptation 
 - Researcher, Univerisity
 ## Education
 - PhD, Univerisity -->
-<p>Dr.&nbsp;Md Abdus Samad is a telecommunications scholar, researcher, and educator whose research focuses on the intersection of wireless communications, artificial intelligence, and next-generation network technologies. He is a Research Professor in the <strong>Department of Information and Communication Engineering</strong> at Yeungnam University, Gyeongsan, South Korea. He is also a registered <strong>Korean Researcher</strong> and an active <strong>IEEE member</strong>, contributing to the advancement of telecommunications standards and research.</p>
-<p>He previously taught at the undergraduate and graduate levels in the <strong>Department of Electronics and Telecommunication Engineering</strong> at International Islamic University Chittagong, where he served as an Assistant Professor from 2013 to 2017, contributing to the development of future telecommunications engineers through teaching, mentoring, and curriculum development.</p>
-<p>His research explores how next-generation wireless networks (5G and beyond 6G) can overcome challenges related to millimeter-wave propagation, atmospheric interference, and signal quality—and how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. His leading and collaborative <strong>work</strong> has appeared in over 55 reputable journals indexed in <strong>SCIE</strong> (Science Citation Index Expanded) and <strong>SSCI</strong> (Social Sciences Citation Index), including publications in high-impact telecommunications and engineering journals.</p>
-<p>His research has been <strong>supported</strong> by prestigious funding sources, including the <strong>Korean Government Scholarship (Global Korea Scholarship)</strong> during his doctoral studies and the <strong>National Research Foundation of Korea</strong>, underscoring the significance and quality of his work in advancing wireless communication technologies.</p>
-<p>His work has <strong>contributed</strong> to the global understanding of advanced wireless communication systems. His research findings address critical challenges in millimeter-wave frequencies, atmospheric effects on signal propagation, and AI-enhanced network optimization. He actively serves the academic community as a <strong>peer reviewer</strong> for multiple international journals indexed in the <strong>Web of Science</strong>.</p>
-<p>He has been recognized through the highly competitive <strong>Korean Government Scholarship (Global Korea Scholarship)</strong>, which supports outstanding international students, and has established research metrics demonstrating his scholarly impact: <strong>Scopus Author ID: 57220375948</strong>, <strong>Web of Science ResearcherID: JPL-7257-2023</strong>.</p>
-<p>He has worked for the <strong>Department of Electronics and Telecommunication Engineering</strong> at International Islamic University Chittagong (2013-2017), where he contributed significantly to developing telecommunications engineering education. He received his Ph.D.&nbsp;in <strong>Information and Communication Engineering</strong> from Chosun University, Gwangju, South Korea in 2022. His doctoral studies were fully supported by the prestigious Korean Government Scholarship, recognizing his academic excellence and research potential.</p>
+<p><strong>Dr.&nbsp;Md Abdus Samad</strong> is a Research Professor in the Department of Information and Communication Engineering at Yeungnam University, Gyeongsan, South Korea. He is a registered Korean Researcher and active IEEE member.</p>
+<p>His research focuses on next-generation wireless networks, addressing challenges in millimeter-wave propagation, atmospheric interference, and signal quality. He also explores how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. His work has appeared in over 55 publications in SCIE and SSCI-indexed journals, including high-impact telecommunications, computer science and engineering outlets.</p>
+<p>Previously, he served as Assistant Professor in the Department of Electronics and Telecommunication Engineering at International Islamic University Chittagong (2013–2017), where he contributed to curriculum development and mentored future telecommunications engineers.</p>
+<p>He earned his Ph.D.&nbsp;in Information and Communication Engineering from Chosun University, South Korea (2022), fully supported by the prestigious Korean Government Scholarship (Global Korea Scholarship). His research has also received funding from the National Research Foundation of Korea.</p>
+<p>He actively serves the academic community as a peer reviewer for multiple Web of Science-indexed journals. His scholarly impact is reflected in his research metrics: Scopus Author ID: 57220375948, Web of Science ResearcherID: JPL-7257-2023.</p>
 </div></div>
 </div>
 
@@ -601,7 +634,7 @@ I'm a template that you can fork to build your own website with easy adaptation 
 <p>Check out the latest &nbsp;<a href="./posts.html#category=paper">Papers</a>&nbsp;, &nbsp;<a href="./posts.html#category=news">News</a>&nbsp;, &nbsp;<a href="./posts.html#category=event">Events</a>&nbsp;, and &nbsp;<a href="./posts.html">More »</a></p>
 <div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cGFwZXIlMkNkZWVwJTIwbGVhcm5pbmclMkNicmFpbiUyMHR1bW9yJTJDTVJJJTJDZXhwbGFpbmFibGUlMjBBSQ==" data-listing-date-sort="1756479600000" data-listing-file-modified-sort="1764556182265" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="292">
+<div class="g-col-1" data-index="0" data-categories="cGFwZXI=" data-listing-date-sort="1756479600000" data-listing-file-modified-sort="1765457307542" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="292">
 <a href="./posts/paper-title/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -614,6 +647,11 @@ Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification
 <div class="card-subtitle listing-subtitle">
 <em>Cancers</em>
 </div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
+
+</div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 Aug 30, 2025
@@ -622,7 +660,7 @@ Aug 30, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="cHVibGljYXRpb24lMkNtYWNoaW5lLWxlYXJuaW5nJTJDYnVzaW5lc3MtYW5hbHl0aWNz" data-listing-date-sort="1736866800000" data-listing-file-modified-sort="1764562149541" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<div class="g-col-1" data-index="1" data-categories="bmV3cw==" data-listing-date-sort="1736866800000" data-listing-file-modified-sort="1765457307503" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
 <a href="./posts/news-title/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -632,6 +670,11 @@ Aug 30, 2025
 <h5 class="no-anchor card-title listing-title">
 New Publication: Evaluating Business Predictive Models
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
+
+</div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 Jan 15, 2025
@@ -640,8 +683,8 @@ Jan 15, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="cHVibGljYXRpb24lMkNtYWNoaW5lLWxlYXJuaW5nJTJDaGVhbHRoY2FyZQ==" data-listing-date-sort="1736866800000" data-listing-file-modified-sort="1764564278493" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
-<a href="./posts/posts_2025_01_15_thyroid_cancer.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="bmV3cw==" data-listing-date-sort="1736866800000" data-listing-file-modified-sort="1765457307659" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
+<a href="./posts/thyroid-cancer-2025/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./files/images/placeholder3.JPG" class="thumbnail-image card-img" style="height: 150px;">
@@ -650,6 +693,11 @@ Jan 15, 2025
 <h5 class="no-anchor card-title listing-title">
 New Publication: Thyroid Cancer Recurrence Prediction
 </h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
+
+</div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 Jan 15, 2025
