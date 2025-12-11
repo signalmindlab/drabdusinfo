@@ -99,7 +99,7 @@ I'm a template that you can fork to build your own website with easy adaptation 
 
 **Dr. Md Abdus Samad** is a Research Professor in the Department of Information and Communication Engineering at Yeungnam University, Gyeongsan, South Korea. He is a registered Korean Researcher and active IEEE member.
 
-His research focuses on next-generation wireless networks, addressing challenges in millimeter-wave propagation, atmospheric interference, and signal quality. He also explores how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. His work has appeared in over 55 publications in SCIE and SSCI-indexed journals, including high-impact telecommunications, computer science and engineering outlets.
+His research focuses on next-generation wireless networks, addressing challenges in millimeter-wave propagation, atmospheric interference, and signal quality. He also explores how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. His work has appeared in over 60+ publications in SCIE and SSCI-indexed journals, including high-impact telecommunications, computer science and engineering outlets.
 
 Previously, he served as Assistant Professor in the Department of Electronics and Telecommunication Engineering at International Islamic University Chittagong (2013–2017), where he contributed to curriculum development and mentored future telecommunications engineers.
 
