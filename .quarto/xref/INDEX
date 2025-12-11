@@ -1,116 +1,107 @@
 {
-  "index.qmd": {
-    "index.html": "09513193"
-  },
-  "miscellaneous/anonymization.qmd": {
-    "anonymization.html": "901a681d"
-  },
-  "miscellaneous/author-services.qmd": {
-    "author-services.html": "edba0ab5"
-  },
-  "miscellaneous/conversion.qmd": {
-    "conversion.html": "c84cc9ee"
-  },
-  "miscellaneous/docx-latex.qmd": {
-    "docx-latex.html": "39fbf2d4"
-  },
-  "miscellaneous/elsevier.qmd": {
-    "elsevier.html": "672ec8c1"
-  },
-  "miscellaneous/indexing.qmd": {
-    "indexing.html": "abd7f15c"
-  },
-  "miscellaneous/latex-converter.qmd": {
-    "latex-converter.html": "a5607f85"
-  },
-  "miscellaneous/latex-reference.qmd": {
-    "latex-reference.html": "69c35caa"
-  },
-  "miscellaneous/latexdiff.qmd": {
-    "latexdiff.html": "4122cccd"
-  },
-  "miscellaneous/mathpix.qmd": {
-    "mathpix.html": "c6cd8eda"
-  },
-  "miscellaneous/open-access.qmd": {
-    "open-access.html": "a74cba39"
-  },
-  "miscellaneous/opensource.qmd": {
-    "opensource.html": "c2929993"
-  },
-  "miscellaneous/overleaf.qmd": {
-    "overleaf.html": "28e7cedf"
-  },
-  "miscellaneous/publishers.qmd": {
-    "publishers.html": "17c48ebf"
-  },
-  "miscellaneous/reference.qmd": {
-    "reference.html": "81e8afb9"
-  },
-  "miscellaneous/section-labels.qmd": {
-    "section-labels.html": "e6d04a1b"
-  },
-  "miscellaneous/templates.qmd": {
-    "templates.html": "384b534d"
-  },
-  "miscellaneous/windows.qmd": {
-    "windows.html": "9be1f9c2"
-  },
-  "people.qmd": {
-    "people.html": "326f50a7"
-  },
-  "posts/event-title/index.qmd": {
-    "index.html": "237fea18"
-  },
-  "posts/news-title/index.qmd": {
-    "index.html": "d33a52e6"
-  },
-  "posts/paper-title/index.qmd": {
-    "index.html": "57f1291c"
-  },
-  "posts.qmd": {
-    "posts.html": "6560cfc2"
-  },
-  "projects.qmd": {
-    "projects.html": "6988a077"
-  },
-  "publications.qmd": {
-    "publications.html": "791a9e11"
-  },
-  "teaching.qmd": {
-    "teaching.html": "7912a6fb"
-  },
-  "contact.qmd": {
-    "contact.html": "2c4c4248"
-  },
-  "latex-guide.qmd": {
-    "latex-guide.html": "30154d3b"
-  },
-  "posts/posts_2025_01_15_business_models.qmd": {
-    "posts_2025_01_15_business_models.html": "cd4eb439"
-  },
-  "posts/posts_2025_01_15_thyroid_cancer.qmd": {
-    "posts_2025_01_15_thyroid_cancer.html": "fbf2dcac"
-  },
-  "miscellaneous/quarto-tips.qmd": {
-    "quarto-tips.html": "8e93216a"
-  },
-  "publications60.qmd": {
-    "publications60.html": "fcf78e8c"
-  },
   "404.qmd": {
-    "404.html": "e5583b46"
-  },
-  "global-scholarships.qmd": {
-    "global-scholarships.html": "a607ed4c"
-  },
-  "miscellaneous/open-source-tools.qmd": {
-    "open-source-tools.html": "fbc90b15"
+    "404.html": "b486b815"
   },
   "admission-portals.qmd": {
-    "admission-portals.html": "a0dc23a2"
+    "admission-portals.html": "ecf6a81d"
+  },
+  "contact.qmd": {
+    "contact.html": "e086b720"
+  },
+  "global-scholarships.qmd": {
+    "global-scholarships.html": "e8dd5489"
+  },
+  "index.qmd": {
+    "index.html": "3df1387c"
+  },
+  "latex-guide.qmd": {
+    "latex-guide.html": "41069fd1"
+  },
+  "miscellaneous/anonymization.qmd": {
+    "anonymization.html": "a3e34fd6"
+  },
+  "miscellaneous/author-services.qmd": {
+    "author-services.html": "f4be6678"
+  },
+  "miscellaneous/conversion.qmd": {
+    "conversion.html": "a6600d54"
+  },
+  "miscellaneous/docx-latex.qmd": {
+    "docx-latex.html": "ee50bc95"
+  },
+  "miscellaneous/elsevier.qmd": {
+    "elsevier.html": "63c7b92e"
+  },
+  "miscellaneous/indexing.qmd": {
+    "indexing.html": "dc7821fd"
+  },
+  "miscellaneous/latex-converter.qmd": {
+    "latex-converter.html": "0d9d34c1"
+  },
+  "miscellaneous/latex-reference.qmd": {
+    "latex-reference.html": "03285fdb"
+  },
+  "miscellaneous/latexdiff.qmd": {
+    "latexdiff.html": "696147c0"
+  },
+  "miscellaneous/mathpix.qmd": {
+    "mathpix.html": "d4e2bb27"
+  },
+  "miscellaneous/open-access.qmd": {
+    "open-access.html": "2c1e22e9"
+  },
+  "miscellaneous/open-source-tools.qmd": {
+    "open-source-tools.html": "57b84386"
+  },
+  "miscellaneous/overleaf.qmd": {
+    "overleaf.html": "f71ec60f"
+  },
+  "miscellaneous/publishers.qmd": {
+    "publishers.html": "cf9e851e"
+  },
+  "miscellaneous/quarto-tips.qmd": {
+    "quarto-tips.html": "942487df"
+  },
+  "miscellaneous/reference.qmd": {
+    "reference.html": "de0586c6"
+  },
+  "miscellaneous/section-labels.qmd": {
+    "section-labels.html": "c0063f9f"
+  },
+  "miscellaneous/templates.qmd": {
+    "templates.html": "da00763a"
+  },
+  "miscellaneous/windows.qmd": {
+    "windows.html": "7df09735"
+  },
+  "people.qmd": {
+    "people.html": "15e6467e"
+  },
+  "posts/event-title/index.qmd": {
+    "index.html": "f0be0069"
+  },
+  "posts/news-title/index.qmd": {
+    "index.html": "4ce3ceda"
+  },
+  "posts/paper-title/index.qmd": {
+    "index.html": "a2a30c7e"
   },
   "posts/thyroid-cancer-2025/index.qmd": {
-    "index.html": "b56184d4"
+    "index.html": "c39added"
+  },
+  "posts.qmd": {
+    "posts.html": "52521491"
+  },
+  "projects.qmd": {
+    "projects.html": "142826b7"
+  },
+  "publications.qmd": {
+    "publications.html": "5752f018"
+  },
+  "publications60.qmd": {
+    "publications60.html": "bda77a3b"
+  },
+  "teaching.qmd": {
+    "teaching.html": "a8b314d9"
   }
 }
