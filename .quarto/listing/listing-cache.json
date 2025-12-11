@@ -1,8 +1,7 @@
 {
   "listingMap": {
     "index.qmd": [
-      "posts",
-      "posts/post-links.yml"
+      "posts"
     ],
     "people.qmd": [
       "/people/pi.yml",
@@ -14,8 +13,7 @@
       "/people/undergraduate-alumni.yml"
     ],
     "posts.qmd": [
-      "posts",
-      "posts/post-links.yml"
+      "posts"
     ],
     "projects.qmd": [
       "projects.yml"

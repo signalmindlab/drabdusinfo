@@ -1,107 +1,104 @@
 {
   "404.qmd": {
-    "404.html": "148caf8a"
+    "404.html": "323256dc"
   },
   "admission-portals.qmd": {
-    "admission-portals.html": "287ef2d6"
+    "admission-portals.html": "5f64e86f"
   },
   "contact.qmd": {
-    "contact.html": "dc53d16b"
+    "contact.html": "bb3cc46a"
   },
   "global-scholarships.qmd": {
-    "global-scholarships.html": "f0346c06"
+    "global-scholarships.html": "4d480ace"
   },
   "index.qmd": {
-    "index.html": "314a0f6b"
+    "index.html": "4d306da1"
   },
   "latex-guide.qmd": {
-    "latex-guide.html": "49bc9525"
+    "latex-guide.html": "960938da"
   },
   "miscellaneous/anonymization.qmd": {
-    "anonymization.html": "a950b695"
+    "anonymization.html": "3f900eef"
   },
   "miscellaneous/author-services.qmd": {
-    "author-services.html": "f6abfba4"
+    "author-services.html": "84a2a034"
   },
   "miscellaneous/conversion.qmd": {
-    "conversion.html": "67615314"
+    "conversion.html": "65e3196c"
   },
   "miscellaneous/docx-latex.qmd": {
-    "docx-latex.html": "64851813"
+    "docx-latex.html": "21f8e6d1"
   },
   "miscellaneous/elsevier.qmd": {
-    "elsevier.html": "e1d67090"
+    "elsevier.html": "a072e31c"
   },
   "miscellaneous/indexing.qmd": {
-    "indexing.html": "307c1b00"
+    "indexing.html": "c4c2c5e4"
   },
   "miscellaneous/latex-converter.qmd": {
-    "latex-converter.html": "7b3c70dd"
+    "latex-converter.html": "ba44ed8d"
   },
   "miscellaneous/latex-reference.qmd": {
-    "latex-reference.html": "5c630390"
+    "latex-reference.html": "01315520"
   },
   "miscellaneous/latexdiff.qmd": {
-    "latexdiff.html": "9348d18b"
+    "latexdiff.html": "9c61f32a"
   },
   "miscellaneous/mathpix.qmd": {
-    "mathpix.html": "be0977b8"
+    "mathpix.html": "1cea5ecc"
   },
   "miscellaneous/open-access.qmd": {
-    "open-access.html": "01126294"
+    "open-access.html": "b7e52c2f"
   },
   "miscellaneous/open-source-tools.qmd": {
-    "open-source-tools.html": "0fdea589"
+    "open-source-tools.html": "1e855039"
   },
   "miscellaneous/overleaf.qmd": {
-    "overleaf.html": "9885f6ee"
+    "overleaf.html": "f87f1de3"
   },
   "miscellaneous/publishers.qmd": {
-    "publishers.html": "f86ba007"
+    "publishers.html": "7a03ba8c"
   },
   "miscellaneous/quarto-tips.qmd": {
-    "quarto-tips.html": "b39e48c2"
+    "quarto-tips.html": "2f7868f3"
   },
   "miscellaneous/reference.qmd": {
-    "reference.html": "3d1b55f1"
+    "reference.html": "6285ab7a"
   },
   "miscellaneous/section-labels.qmd": {
-    "section-labels.html": "48fa83ac"
+    "section-labels.html": "5f286a02"
   },
   "miscellaneous/templates.qmd": {
-    "templates.html": "b26a21ed"
+    "templates.html": "1c4cc31e"
   },
   "miscellaneous/windows.qmd": {
-    "windows.html": "4351a0a4"
+    "windows.html": "e48d4c1d"
   },
   "people.qmd": {
-    "people.html": "7b6b88c2"
+    "people.html": "72afd9fc"
   },
   "posts/event-title/index.qmd": {
-    "index.html": "f32707c2"
+    "index.html": "6ab5f228"
   },
   "posts/news-title/index.qmd": {
-    "index.html": "314dcec0"
+    "index.html": "0d8676f7"
   },
   "posts/paper-title/index.qmd": {
-    "index.html": "fe7f32af"
-  },
-  "posts/thyroid-cancer-2025/index.qmd": {
-    "index.html": "9a4c62d4"
+    "index.html": "c3999946"
   },
   "posts.qmd": {
-    "posts.html": "8dd81389"
+    "posts.html": "0c3babe3"
   },
   "projects.qmd": {
-    "projects.html": "513f770d"
+    "projects.html": "2b0bcd4e"
   },
   "publications.qmd": {
-    "publications.html": "d4f5600f"
+    "publications.html": "2a5c6d65"
   },
   "publications60.qmd": {
-    "publications60.html": "a3ea43ae"
+    "publications60.html": "103234e8"
   },
   "teaching.qmd": {
-    "teaching.html": "1d5a8951"
+    "teaching.html": "6550b4ff"
   }
 }

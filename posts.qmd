@@ -11,9 +11,8 @@ listing:
   sort-ui: true
   filter-ui: true
   feed: true
-  contents: 
-      - posts
-      - posts/post-links.yml  # Use this file to add external links
+  contents: posts
+      #- posts/post-links.yml  # Use this file to add external links
 #      categories: [] 
 
 #page-layout: full
