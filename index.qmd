@@ -60,9 +60,9 @@ listing:   # Comment the listing section and delete corresponding lines in the i
     exclude:
       title: ""
     type: grid
-    max-items: 6
+    max-items: 2
     image-height: 150px
-    page-size: 6 #set same as max-times to remove the page number setting
+    page-size: 2 #set same as max-times to remove the page number setting
     fields: [image, date, title, subtitle, categories]
     max-description-length: 75
     sort: 
