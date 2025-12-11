@@ -100,10 +100,6 @@ Framework for Brain Tumor Classification Using MRI Images.”</span>
 <em>Cancers</em> 17 (17): 2853. <a href="https://doi.org/10.3390/cancers17172853">https://doi.org/10.3390/cancers17172853</a>.
 </div></div></section></div> ]]></description>
   <category>paper</category>
-  <category>deep learning</category>
-  <category>brain tumor</category>
-  <category>MRI</category>
-  <category>explainable AI</category>
   <guid>https://www.drabdus.info/posts/paper-title/</guid>
   <pubDate>Sat, 30 Aug 2025 00:00:00 GMT</pubDate>
   <media:content url="https://www.drabdus.info/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
@@ -134,9 +130,7 @@ https://quarto.org/docs/authoring/includes.html
 
 
  ]]></description>
-  <category>publication</category>
-  <category>machine-learning</category>
-  <category>business-analytics</category>
+  <category>news</category>
   <guid>https://www.drabdus.info/posts/news-title/</guid>
   <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
   <media:content url="https://www.drabdus.info/files/images/placeholder2.JPG" medium="image"/>
@@ -157,9 +151,7 @@ https://quarto.org/docs/authoring/includes.html
 
 
  ]]></description>
-  <category>publication</category>
-  <category>machine-learning</category>
-  <category>healthcare</category>
+  <category>news</category>
   <guid>https://www.drabdus.info/posts/posts_2025_01_15_thyroid_cancer.html</guid>
   <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
   <media:content url="https://www.drabdus.info/files/images/placeholder3.JPG" medium="image"/>
