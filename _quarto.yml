@@ -33,7 +33,7 @@ website:
           - text: News
             href: posts.qmd#category=news
           - text: Events
-            href: posts.qmd#category=event      
+            # href: posts.qmd#category=event      
           - text: Contact
             href: contact.qmd 
 

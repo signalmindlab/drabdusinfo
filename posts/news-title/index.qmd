@@ -1,5 +1,5 @@
 ---
-title: "New Publication: Evaluating Business Predictive Models"
+title: "New Publication: Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models"
 author: "md abdus samad"
 date: "2025-01-15"
 categories: [news]  # or [event], [paper], etc.
