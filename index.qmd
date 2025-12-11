@@ -52,22 +52,31 @@ about:
       href: https://dblp.org/pid/04/11471.html
       target: _blank
 
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
+# listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
+#   - id: recent-posts
+#     contents: 
+#       - posts
+#       - posts/post-links.yml
+#     exclude:
+#       title: ""
+listing:   
   - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
+    contents: posts
     type: grid
     max-items: 6
-    image-height: 150px
-    page-size: 6 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle, categories]
-    max-description-length: 75
+    categories: [paper]  # Filter to show only papers
+    fields: [image, date, title, categories]
     sort: 
       - "date desc"
-      - "title asc"
+    # type: grid
+    # max-items: 6
+    # image-height: 150px
+    # page-size: 6 #set same as max-times to remove the page number setting
+    # fields: [image, date, title, subtitle, categories]
+    # max-description-length: 75
+    # sort: 
+    #   - "date desc"
+    #   - "title asc"
 ---
 
 :::{#hero-heading}
