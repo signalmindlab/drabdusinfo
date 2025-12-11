@@ -2,10 +2,7 @@
 title: "New Publication: Evaluating Business Predictive Models"
 author: "md abdus samad"
 date: "2025-01-15"
-categories: 
-  - publication
-  - machine-learning
-  - business-analytics
+categories: categories: [news]  # or [event], [paper], etc.
 draft: false
 image: "/files/images/placeholder2.JPG"
 ---

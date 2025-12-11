@@ -2,6 +2,7 @@
 title: "Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images"
 description: "An interpretable deep ensemble model for tumor detection in MRI by integrating pre-trained CNNs with a Light Gradient Boosting Machine meta-learner."
 subtitle: "*Cancers*"
+# categories: [paper]
 author: 
   - name: S. Kakon
   - name: S. Chakrabarty
@@ -10,7 +11,7 @@ author:
   - name: Md Abdus Samad
   - name: A. S. M. S. Hosen
 date: "2025-08-30"
-categories: [paper, deep learning, brain tumor, MRI, explainable AI]
+categories: [paper]
 image: "featured.jpg"
 citation:
   type: article-journal
