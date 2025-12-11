@@ -30,3 +30,11 @@ img.rounded {
 img.rounded {
   border-radius: 50%;
 }
+
+/* Make listing images cover full area */
+#recent-posts .listing-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 16/9;  /* or 4/3, 1/1, etc. */
+}
