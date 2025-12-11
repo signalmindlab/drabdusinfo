@@ -7,7 +7,7 @@ categories: [news]  # or [event], [paper], etc.
   # - machine-learning
   # - healthcare
 draft: false
-image: "/files/images/placeholder3.JPG"
+image: "/files/images/placeholder3.jpg"
 ---
 
 We’re excited to announce our latest research has been accepted for publication in **_BioData Mining_**, a journal ranked in the top 6% of its subject area!
