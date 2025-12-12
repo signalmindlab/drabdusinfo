@@ -3,14 +3,12 @@ project:
   output-dir: docs
   resources:
     - CNAME  # This ensures CNAME is copied to docs folder
-  # site-path: /drabdusinfo/ 
- resources:
-    - CNAME
- render:
+  render:
     - "*.qmd"
     - "posts/**/*.qmd"
     - "miscellaneous/**/*.qmd"
     - "!files/BLOG-FEED-COMPARISON.md"  # Exclude from rendering
+  # site-path: /drabdusinfo/
 
 # # Meta
 # description-meta: "Quarto Academic Website Template adapted by Dr. Gang He, further customized by Dr. Md Abdus Samad"
