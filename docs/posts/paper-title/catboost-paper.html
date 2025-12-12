@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Dr.&nbsp;Md Abdus Samad">
-<meta name="dcterms.date" content="2025-08-30">
+<meta name="dcterms.date" content="2025-12-09">
 <meta name="description" content="Quarto Academic Website Template, customized by Dr.&nbsp;Md Abdus Samad">
 
-<title>Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images – Md Abdus Samad</title>
+<title>CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction – Md Abdus Samad</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -126,32 +126,29 @@ https://badge.dimensions.ai/
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images – Md Abdus Samad">
-<meta property="og:description" content="An interpretable deep ensemble model for tumor detection in MRI by integrating pre-trained CNNs with a Light Gradient Boosting Machine meta-learner.">
+<meta property="og:title" content="CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction – Md Abdus Samad">
+<meta property="og:description" content="Machine learning approach combining CatBoost classifier with physics-based metaheuristic algorithms for efficient thyroid cancer recurrence prediction with feature optimization.">
 <meta property="og:image" content="https://www.drabdus.info/posts/paper-title/featured.jpg">
 <meta property="og:site_name" content="Md Abdus Samad">
-<meta name="twitter:title" content="Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images – Md Abdus Samad">
-<meta name="twitter:description" content="An interpretable deep ensemble model for tumor detection in MRI by integrating pre-trained CNNs with a Light Gradient Boosting Machine meta-learner.">
+<meta name="twitter:title" content="CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction – Md Abdus Samad">
+<meta name="twitter:description" content="Machine learning approach combining CatBoost classifier with physics-based metaheuristic algorithms for efficient thyroid cancer recurrence prediction with feature optimization.">
 <meta name="twitter:image" content="https://www.drabdus.info/posts/paper-title/featured.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="citation_title" content="Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images">
-<meta name="citation_author" content="S. Kakon">
-<meta name="citation_author" content="S. Chakrabarty">
-<meta name="citation_author" content="Z. Al Sazid">
-<meta name="citation_author" content="I. A. Begum">
+<meta name="citation_title" content="CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction">
+<meta name="citation_author" content="Proshenjit Sarker">
+<meta name="citation_author" content="Kwonhue Choi">
+<meta name="citation_author" content="Abdullah-Al Nahid">
 <meta name="citation_author" content="Md Abdus Samad">
-<meta name="citation_author" content="A. S. M. S. Hosen">
-<meta name="citation_publication_date" content="2025-08-30">
-<meta name="citation_cover_date" content="2025-08-30">
+<meta name="citation_publication_date" content="2025-12-09">
+<meta name="citation_cover_date" content="2025-12-09">
 <meta name="citation_year" content="2025">
-<meta name="citation_online_date" content="2025-08-30">
-<meta name="citation_fulltext_html_url" content="https://www.mdpi.com/2072-6694/17/17/2853">
-<meta name="citation_issue" content="17">
-<meta name="citation_doi" content="10.3390/cancers17172853">
-<meta name="citation_volume" content="17">
+<meta name="citation_online_date" content="2025-12-09">
+<meta name="citation_fulltext_html_url" content="https://biodatamining.biomedcentral.com/articles/10.1186/s13040-025-00494-1">
+<meta name="citation_issue" content="84">
+<meta name="citation_doi" content="10.1186/s13040-025-00494-1">
+<meta name="citation_volume" content="18">
 <meta name="citation_language" content="en">
-<meta name="citation_firstpage" content="2853">
-<meta name="citation_journal_title" content="Cancers">
+<meta name="citation_journal_title" content="BioData Mining">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -343,10 +340,6 @@ https://badge.dimensions.ai/
  <span class="dropdown-text">News</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../posts.html#category=event">
- <span class="dropdown-text">Events</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="../../contact.html">
  <span class="dropdown-text">Contact</span></a>
   </li>  
@@ -504,8 +497,11 @@ https://badge.dimensions.ai/
   <ul>
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   <li><a href="#keywords" id="toc-keywords" class="nav-link" data-scroll-target="#keywords">Keywords</a></li>
-  <li><a href="#highlights" id="toc-highlights" class="nav-link" data-scroll-target="#highlights">Highlights</a></li>
+  <li><a href="#key-contributions" id="toc-key-contributions" class="nav-link" data-scroll-target="#key-contributions">Key Contributions</a></li>
   <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
+  <li><a href="#dataset-methods" id="toc-dataset-methods" class="nav-link" data-scroll-target="#dataset-methods">Dataset &amp; Methods</a></li>
+  <li><a href="#performance-comparison" id="toc-performance-comparison" class="nav-link" data-scroll-target="#performance-comparison">Performance Comparison</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key Findings</a></li>
   </ul>
 </nav>
     </div>
@@ -515,8 +511,8 @@ https://badge.dimensions.ai/
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images</h1>
-<p class="subtitle lead"><em>Cancers</em></p>
+<h1 class="title">CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction</h1>
+<p class="subtitle lead"><em>BioData Mining</em></p>
   <div class="quarto-categories">
     <div class="quarto-category">paper</div>
   </div>
@@ -524,7 +520,7 @@ https://badge.dimensions.ai/
 
 <div>
   <div class="description">
-    An interpretable deep ensemble model for tumor detection in MRI by integrating pre-trained CNNs with a Light Gradient Boosting Machine meta-learner.
+    Machine learning approach combining CatBoost classifier with physics-based metaheuristic algorithms for efficient thyroid cancer recurrence prediction with feature optimization.
   </div>
 </div>
 
@@ -534,19 +530,17 @@ https://badge.dimensions.ai/
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p>S. Kakon </p>
-             <p>S. Chakrabarty </p>
-             <p>Z. Al Sazid </p>
-             <p>I. A. Begum </p>
+             <p>Proshenjit Sarker </p>
+             <p>Kwonhue Choi </p>
+             <p>Abdullah-Al Nahid </p>
              <p>Md Abdus Samad </p>
-             <p>A. S. M. S. Hosen </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 30, 2025</p>
+      <p class="date">December 9, 2025</p>
     </div>
   </div>
   
@@ -574,57 +568,133 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p><strong>Background:</strong> Brain tumors can severely impair neurological function, leading to symptoms such as headaches, memory loss, motor coordination deficits, and visual disturbances. In severe cases, they may cause permanent cognitive damage or become life-threatening without early detection.</p>
-<p><strong>Methods:</strong> To address this, we propose an interpretable deep ensemble model for tumor detection in Magnetic Resonance Imaging (MRI) by integrating pre-trained Convolutional Neural Networks—EfficientNetB7, InceptionV3, and Xception—using a soft voting ensemble to improve classification accuracy. The framework is further enhanced with a Light Gradient Boosting Machine as a meta-learner to increase prediction accuracy and robustness within a stacking architecture. Hyperparameter tuning is conducted using Optuna, and overfitting is mitigated through batch normalization, L2 weight decay, dropout, early stopping, and extensive data augmentation.</p>
-<p><strong>Results:</strong> The proposed model integrates extensive data augmentation and advanced regularization techniques to enhance generalization. Explainable Artificial Intelligence (XAI) methods are incorporated to strengthen clinical trust: Gradient-Weighted Class Activation Mapping++ (Grad-CAM++) provides spatial localization by highlighting MRI regions most influential to predictions. Local Interpretable Model-Agnostic Explanations (LIME) and Shapley Additive Explanations (SHAP) provide complementary interpretability.</p>
-<p><strong>Conclusions:</strong> This transparent and reproducible framework aims to serve as a foundation for the research community, supporting the development of reliable tools for screening, review, and follow-up while reducing diagnostic workload and prioritizing patient safety.</p>
+<p>Thyroid Cancer (TC) is the uncontrolled growth of carcinogenic cells in the thyroid gland, with a higher recurrence rate than other cancers. Early detection of TC recurrence (TCR) is crucial for timely intervention. This study develops machine-learning algorithms that reduce features while maintaining high performance. Previous studies on the Differentiated Thyroid Cancer Recurrence (DTCR) dataset struggled to improve performance with feature reduction, and misclassification causes remained unexplored.</p>
+<p>This work proposes three Physics-based Metaheuristic Algorithms (PBMHAs)—Energy Valley Optimization (EVOA), Equilibrium Optimization (EOA), and Electromagnetic Field Optimization (EFOA)—combined with the Categorical Boosting (CatBoost) classifier. SHAP is used to analyze feature importance. CatBoost without optimization (Only CB) achieved 95.83% Accuracy, 92.42% F-score, 96.29% Precision, and 89.27% Recall using all 16 features. After optimization, EVOA_CB reached 96.35% mean accuracy, while EOA_CB and EFOA_CB achieved 96.17%. EOA_CB excluded 11 less important features, and EFOA_CB attained the highest mean AUC of 0.994 with the lowest computational times. Additionally, this work provides insights into the factors contributing to misclassification. Using a 30:70 train-test split over 5 folds, EVOA_CB performed best on six selected features, with 96.35% Accuracy, 93.34% F-score, and 96.19% Precision. SHAP highlighted response, risk, and N as the most important features. These findings support early, efficient detection of TC recurrence with fewer features.</p>
 </section>
 <section id="keywords" class="level2">
 <h2 class="anchored" data-anchor-id="keywords">Keywords</h2>
-<p>Brain tumor detection, MRI images, deep learning, explainable artificial intelligence, ensemble learning, meta-learning, Grad-CAM++, SHAP, LIME</p>
+<p>Thyroid cancer, Cancer recurrence, Feature selection, Physics-based metaheuristic algorithms, Energy valley optimization, Equilibrium optimization, Electromagnetic field optimization, CatBoost, Explainable AI, SHAP</p>
 </section>
-<section id="highlights" class="level2">
-<h2 class="anchored" data-anchor-id="highlights">Highlights</h2>
+<section id="key-contributions" class="level2">
+<h2 class="anchored" data-anchor-id="key-contributions">Key Contributions</h2>
 <ul>
-<li>Integrates EfficientNetB7, InceptionV3, and Xception using soft voting ensemble</li>
-<li>Light Gradient Boosting Machine (LightGBM) as meta-learner in stacking architecture</li>
-<li>Hyperparameter optimization using Optuna framework</li>
-<li>Explainable AI methods: Grad-CAM++, LIME, and SHAP for clinical interpretability</li>
-<li>Comprehensive regularization: batch normalization, L2 weight decay, dropout, early stopping</li>
+<li><p><strong>Optimized Feature Selection:</strong> Applied three PBMHAs (EVOA, EOA, and EFOA) to select the most relevant features, resulting in reduced and informative feature sets (5-9 features vs.&nbsp;16 original)</p></li>
+<li><p><strong>Enhanced Classification Performance:</strong> Using CatBoost with optimized hyperparameters achieved high predictive accuracy (96.35% for EVOA_CB) for distinguishing recurred and non-recurred patients</p></li>
+<li><p><strong>Explainability and Feature Insights:</strong> Utilized SHAP to interpret model predictions, identifying response, risk, and N as the most influential features for TCR outcomes</p></li>
+<li><p><strong>Analysis of Misclassified Cases:</strong> Investigated misclassified instances to uncover potential anomalies and understand model limitations</p></li>
+<li><p><strong>Model Efficiency:</strong> Achieved accurate TCR prediction using compact feature sets without compromising performance</p></li>
 </ul>
 </section>
 <section id="links" class="level2">
 <h2 class="anchored" data-anchor-id="links">Links</h2>
 <ul>
-<li>Published <a href="https://www.mdpi.com/2072-6694/17/17/2853" target="_blank">paper</a></li>
-<li><a href="https://www.mdpi.com/2072-6694/17/17/2853/pdf" target="_blank">PDF</a></li>
+<li>Published <a href="https://biodatamining.biomedcentral.com/articles/10.1186/s13040-025-00494-1" target="_blank">paper</a></li>
+<li><a href="https://biodatamining.biomedcentral.com/track/pdf/10.1186/s13040-025-00494-1" target="_blank">Full Text PDF</a></li>
+<li><a href="https://doi.org/10.24432/C5632J" target="_blank">Data Repository</a></li>
+<li><a href="https://github.com/prosensarker4/Thyroid" target="_blank">GitHub Repository</a></li>
 </ul>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.3390/cancers17172853"></div>
-
-<span class="__dimensions_badge_embed__" data-doi="10.3390/cancers17172853" data-hide-zero-citations="true" data-style="small_circle"></span><script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+</section>
+<section id="dataset-methods" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-methods">Dataset &amp; Methods</h2>
+<p><strong>Dataset:</strong> DTCR (Differentiated Thyroid Cancer Recurrence) - 383 patients (115 recurred, 268 non-recurred) - 16 clinicopathological features - 15-year follow-up period (minimum 10 years observation)</p>
+<p><strong>Algorithms:</strong> - <strong>CatBoost:</strong> Gradient boosting with categorical feature support - <strong>Feature Selection Methods:</strong> EVOA, EOA, EFOA (physics-based metaheuristics) - <strong>Evaluation:</strong> 5-fold cross-validation with 70:30 train-test split - <strong>Explainability:</strong> SHAP (Shapley Additive Explanations)</p>
+</section>
+<section id="performance-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="performance-comparison">Performance Comparison</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 13%">
+<col style="width: 18%">
+<col style="width: 17%">
+<col style="width: 19%">
+<col style="width: 15%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Features</th>
+<th>Accuracy (%)</th>
+<th>F-score (%)</th>
+<th>Precision (%)</th>
+<th>Recall (%)</th>
+<th>AUC</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Only_CB</td>
+<td>16</td>
+<td>95.83</td>
+<td>92.42</td>
+<td>96.29</td>
+<td>89.27</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>EVOA_CB</td>
+<td>6</td>
+<td><strong>96.35</strong></td>
+<td><strong>93.34</strong></td>
+<td><strong>96.19</strong></td>
+<td>90.94</td>
+<td>0.989</td>
+</tr>
+<tr class="odd">
+<td>EOA_CB</td>
+<td>5</td>
+<td>96.17</td>
+<td>93.12</td>
+<td>94.31</td>
+<td><strong>92.21</strong></td>
+<td>0.989</td>
+</tr>
+<tr class="even">
+<td>EFOA_CB</td>
+<td>9</td>
+<td>96.17</td>
+<td>93.09</td>
+<td>95.78</td>
+<td>91.15</td>
+<td><strong>0.994</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
+<ul>
+<li><strong>EVOA_CB</strong> achieved the highest accuracy (96.35%) with only 6 selected features</li>
+<li><strong>EOA_CB</strong> demonstrated greatest feature reduction (5 features) with highest recall (92.21%)</li>
+<li><strong>EFOA_CB</strong> achieved the highest AUC (0.994) with lowest testing time (1.51 ms)</li>
+<li><strong>Most Important Features:</strong> Response, Risk, N (lymph node involvement)</li>
+<li><strong>Structural Incomplete response</strong> strongly associated with recurrence</li>
+<li><strong>Excellent response</strong> correlated with non-recurrence</li>
+<li><strong>Intermediate risk</strong> and <strong>N1b classification</strong> linked to higher recurrence</li>
+</ul>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{kakon2025,
-  author = {Kakon, S. and Chakrabarty, S. and Al Sazid, Z. and A. Begum,
-    I. and Abdus Samad, Md and S. M. S. Hosen, A.},
-  title = {Explainable {Deep} {Ensemble} {Meta-Learning} {Framework} for
-    {Brain} {Tumor} {Classification} {Using} {MRI} {Images}},
-  journal = {Cancers},
-  volume = {17},
-  number = {17},
-  pages = {2853},
-  date = {2025-08-30},
-  url = {https://www.mdpi.com/2072-6694/17/17/2853},
-  doi = {10.3390/cancers17172853},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{sarker2025,
+  author = {Sarker, Proshenjit and Choi, Kwonhue and Nahid, Abdullah-Al
+    and Abdus Samad, Md},
+  title = {CatBoost with {Physics-Based} {Metaheuristics} for {Thyroid}
+    {Cancer} {Recurrence} {Prediction}},
+  journal = {BioData Mining},
+  volume = {18},
+  number = {84},
+  date = {2025-12-09},
+  url = {https://biodatamining.biomedcentral.com/articles/10.1186/s13040-025-00494-1},
+  doi = {10.1186/s13040-025-00494-1},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-kakon2025" class="csl-entry quarto-appendix-citeas" role="listitem">
-Kakon, S., S. Chakrabarty, Z. Al Sazid, I. A. Begum, Md Abdus Samad, and
-A. S. M. S. Hosen. 2025. <span>“Explainable Deep Ensemble Meta-Learning
-Framework for Brain Tumor Classification Using MRI Images.”</span>
-<em>Cancers</em> 17 (17): 2853. <a href="https://doi.org/10.3390/cancers17172853">https://doi.org/10.3390/cancers17172853</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-sarker2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Sarker, Proshenjit, Kwonhue Choi, Abdullah-Al Nahid, and Md Abdus Samad.
+2025. <span>“CatBoost with Physics-Based Metaheuristics for Thyroid
+Cancer Recurrence Prediction.”</span> <em>BioData Mining</em> 18 (84).
+<a href="https://doi.org/10.1186/s13040-025-00494-1">https://doi.org/10.1186/s13040-025-00494-1</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {

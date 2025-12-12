@@ -1,0 +1,95 @@
+---
+title: "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction"
+description: "Machine learning approach combining CatBoost classifier with physics-based metaheuristic algorithms for efficient thyroid cancer recurrence prediction with feature optimization."
+subtitle: "*BioData Mining*"
+author: 
+  - name: Proshenjit Sarker
+  - name: Kwonhue Choi
+  - name: Abdullah-Al Nahid
+  - name: Md Abdus Samad
+date: "2025-12-09"
+categories: [paper]
+image: "featured.jpg"
+citation:
+  type: article-journal
+  container-title: "BioData Mining"
+  doi: "10.1186/s13040-025-00494-1"
+  available-date: "2025-12-09"
+  issued: "2025-12-09"
+  volume: 18
+  issue: 84
+  url: https://biodatamining.biomedcentral.com/articles/10.1186/s13040-025-00494-1
+google-scholar: true 
+---
+
+<!--Include academic icons or buttons-->
+
+{{< include /files/includes/_academic.qmd >}}
+
+
+## Abstract
+
+Thyroid Cancer (TC) is the uncontrolled growth of carcinogenic cells in the thyroid gland, with a higher recurrence rate than other cancers. Early detection of TC recurrence (TCR) is crucial for timely intervention. This study develops machine-learning algorithms that reduce features while maintaining high performance. Previous studies on the Differentiated Thyroid Cancer Recurrence (DTCR) dataset struggled to improve performance with feature reduction, and misclassification causes remained unexplored. 
+
+This work proposes three Physics-based Metaheuristic Algorithms (PBMHAs)—Energy Valley Optimization (EVOA), Equilibrium Optimization (EOA), and Electromagnetic Field Optimization (EFOA)—combined with the Categorical Boosting (CatBoost) classifier. SHAP is used to analyze feature importance. CatBoost without optimization (Only CB) achieved 95.83% Accuracy, 92.42% F-score, 96.29% Precision, and 89.27% Recall using all 16 features. After optimization, EVOA_CB reached 96.35% mean accuracy, while EOA_CB and EFOA_CB achieved 96.17%. EOA_CB excluded 11 less important features, and EFOA_CB attained the highest mean AUC of 0.994 with the lowest computational times. Additionally, this work provides insights into the factors contributing to misclassification. Using a 30:70 train-test split over 5 folds, EVOA_CB performed best on six selected features, with 96.35% Accuracy, 93.34% F-score, and 96.19% Precision. SHAP highlighted response, risk, and N as the most important features. These findings support early, efficient detection of TC recurrence with fewer features.
+
+
+## Keywords
+
+Thyroid cancer, Cancer recurrence, Feature selection, Physics-based metaheuristic algorithms, Energy valley optimization, Equilibrium optimization, Electromagnetic field optimization, CatBoost, Explainable AI, SHAP
+
+
+## Key Contributions
+
+- **Optimized Feature Selection:** Applied three PBMHAs (EVOA, EOA, and EFOA) to select the most relevant features, resulting in reduced and informative feature sets (5-9 features vs. 16 original)
+
+- **Enhanced Classification Performance:** Using CatBoost with optimized hyperparameters achieved high predictive accuracy (96.35% for EVOA_CB) for distinguishing recurred and non-recurred patients
+
+- **Explainability and Feature Insights:** Utilized SHAP to interpret model predictions, identifying response, risk, and N as the most influential features for TCR outcomes
+
+- **Analysis of Misclassified Cases:** Investigated misclassified instances to uncover potential anomalies and understand model limitations
+
+- **Model Efficiency:** Achieved accurate TCR prediction using compact feature sets without compromising performance
+
+
+## Links
+
+- Published [paper](https://biodatamining.biomedcentral.com/articles/10.1186/s13040-025-00494-1){target="_blank"}
+- [Full Text PDF](https://biodatamining.biomedcentral.com/track/pdf/10.1186/s13040-025-00494-1){target="_blank"}
+- [Data Repository](https://doi.org/10.24432/C5632J){target="_blank"}
+- [GitHub Repository](https://github.com/prosensarker4/Thyroid){target="_blank"}
+
+
+## Dataset & Methods
+
+**Dataset:** DTCR (Differentiated Thyroid Cancer Recurrence)
+- 383 patients (115 recurred, 268 non-recurred)
+- 16 clinicopathological features
+- 15-year follow-up period (minimum 10 years observation)
+
+**Algorithms:**
+- **CatBoost:** Gradient boosting with categorical feature support
+- **Feature Selection Methods:** EVOA, EOA, EFOA (physics-based metaheuristics)
+- **Evaluation:** 5-fold cross-validation with 70:30 train-test split
+- **Explainability:** SHAP (Shapley Additive Explanations)
+
+
+## Performance Comparison
+
+| Model | Features | Accuracy (%) | F-score (%) | Precision (%) | Recall (%) | AUC |
+|-------|----------|--------------|-------------|---------------|------------|-----|
+| Only_CB | 16 | 95.83 | 92.42 | 96.29 | 89.27 | - |
+| EVOA_CB | 6 | **96.35** | **93.34** | **96.19** | 90.94 | 0.989 |
+| EOA_CB | 5 | 96.17 | 93.12 | 94.31 | **92.21** | 0.989 |
+| EFOA_CB | 9 | 96.17 | 93.09 | 95.78 | 91.15 | **0.994** |
+
+
+## Key Findings
+
+- **EVOA_CB** achieved the highest accuracy (96.35%) with only 6 selected features
+- **EOA_CB** demonstrated greatest feature reduction (5 features) with highest recall (92.21%)
+- **EFOA_CB** achieved the highest AUC (0.994) with lowest testing time (1.51 ms)
+- **Most Important Features:** Response, Risk, N (lymph node involvement)
+- **Structural Incomplete response** strongly associated with recurrence
+- **Excellent response** correlated with non-recurrence
+- **Intermediate risk** and **N1b classification** linked to higher recurrence

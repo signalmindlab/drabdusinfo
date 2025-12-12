@@ -32,7 +32,7 @@ website:
         menu:
           - text: News
             href: posts.qmd#category=news
-          - text: Events
+          # - text: Events
             # href: posts.qmd#category=event      
           - text: Contact
             href: contact.qmd 

@@ -15,7 +15,169 @@
 <link>https://www.drabdus.info/posts.html</link>
 </image>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Fri, 29 Aug 2025 15:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 08 Dec 2025 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction</title>
+  <dc:creator>Proshenjit Sarker</dc:creator>
+  <dc:creator>Kwonhue Choi</dc:creator>
+  <dc:creator>Abdullah-Al Nahid</dc:creator>
+  <dc:creator>Md Abdus Samad</dc:creator>
+  <link>https://www.drabdus.info/posts/paper-title/catboost-paper.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<!--Include academic icons or buttons-->
+<!-- 
+Load Academicons v1: https://jpswalsh.github.io/academicons/
+-->
+<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></p>
+<p><link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></p>
+<!---
+The following code are needed to show dimension citation and altmetrics.
+https://api.altmetric.com/embeds.html
+https://badge.dimensions.ai/
+--->
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Thyroid Cancer (TC) is the uncontrolled growth of carcinogenic cells in the thyroid gland, with a higher recurrence rate than other cancers. Early detection of TC recurrence (TCR) is crucial for timely intervention. This study develops machine-learning algorithms that reduce features while maintaining high performance. Previous studies on the Differentiated Thyroid Cancer Recurrence (DTCR) dataset struggled to improve performance with feature reduction, and misclassification causes remained unexplored.</p>
+<p>This work proposes three Physics-based Metaheuristic Algorithms (PBMHAs)—Energy Valley Optimization (EVOA), Equilibrium Optimization (EOA), and Electromagnetic Field Optimization (EFOA)—combined with the Categorical Boosting (CatBoost) classifier. SHAP is used to analyze feature importance. CatBoost without optimization (Only CB) achieved 95.83% Accuracy, 92.42% F-score, 96.29% Precision, and 89.27% Recall using all 16 features. After optimization, EVOA_CB reached 96.35% mean accuracy, while EOA_CB and EFOA_CB achieved 96.17%. EOA_CB excluded 11 less important features, and EFOA_CB attained the highest mean AUC of 0.994 with the lowest computational times. Additionally, this work provides insights into the factors contributing to misclassification. Using a 30:70 train-test split over 5 folds, EVOA_CB performed best on six selected features, with 96.35% Accuracy, 93.34% F-score, and 96.19% Precision. SHAP highlighted response, risk, and N as the most important features. These findings support early, efficient detection of TC recurrence with fewer features.</p>
+</section>
+<section id="keywords" class="level2">
+<h2 class="anchored" data-anchor-id="keywords">Keywords</h2>
+<p>Thyroid cancer, Cancer recurrence, Feature selection, Physics-based metaheuristic algorithms, Energy valley optimization, Equilibrium optimization, Electromagnetic field optimization, CatBoost, Explainable AI, SHAP</p>
+</section>
+<section id="key-contributions" class="level2">
+<h2 class="anchored" data-anchor-id="key-contributions">Key Contributions</h2>
+<ul>
+<li><p><strong>Optimized Feature Selection:</strong> Applied three PBMHAs (EVOA, EOA, and EFOA) to select the most relevant features, resulting in reduced and informative feature sets (5-9 features vs.&nbsp;16 original)</p></li>
+<li><p><strong>Enhanced Classification Performance:</strong> Using CatBoost with optimized hyperparameters achieved high predictive accuracy (96.35% for EVOA_CB) for distinguishing recurred and non-recurred patients</p></li>
+<li><p><strong>Explainability and Feature Insights:</strong> Utilized SHAP to interpret model predictions, identifying response, risk, and N as the most influential features for TCR outcomes</p></li>
+<li><p><strong>Analysis of Misclassified Cases:</strong> Investigated misclassified instances to uncover potential anomalies and understand model limitations</p></li>
+<li><p><strong>Model Efficiency:</strong> Achieved accurate TCR prediction using compact feature sets without compromising performance</p></li>
+</ul>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<ul>
+<li>Published <a href="https://biodatamining.biomedcentral.com/articles/10.1186/s13040-025-00494-1" target="_blank">paper</a></li>
+<li><a href="https://biodatamining.biomedcentral.com/track/pdf/10.1186/s13040-025-00494-1" target="_blank">Full Text PDF</a></li>
+<li><a href="https://doi.org/10.24432/C5632J" target="_blank">Data Repository</a></li>
+<li><a href="https://github.com/prosensarker4/Thyroid" target="_blank">GitHub Repository</a></li>
+</ul>
+</section>
+<section id="dataset-methods" class="level2">
+<h2 class="anchored" data-anchor-id="dataset-methods">Dataset &amp; Methods</h2>
+<p><strong>Dataset:</strong> DTCR (Differentiated Thyroid Cancer Recurrence) - 383 patients (115 recurred, 268 non-recurred) - 16 clinicopathological features - 15-year follow-up period (minimum 10 years observation)</p>
+<p><strong>Algorithms:</strong> - <strong>CatBoost:</strong> Gradient boosting with categorical feature support - <strong>Feature Selection Methods:</strong> EVOA, EOA, EFOA (physics-based metaheuristics) - <strong>Evaluation:</strong> 5-fold cross-validation with 70:30 train-test split - <strong>Explainability:</strong> SHAP (Shapley Additive Explanations)</p>
+</section>
+<section id="performance-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="performance-comparison">Performance Comparison</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 13%">
+<col style="width: 18%">
+<col style="width: 17%">
+<col style="width: 19%">
+<col style="width: 15%">
+<col style="width: 6%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Features</th>
+<th>Accuracy (%)</th>
+<th>F-score (%)</th>
+<th>Precision (%)</th>
+<th>Recall (%)</th>
+<th>AUC</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Only_CB</td>
+<td>16</td>
+<td>95.83</td>
+<td>92.42</td>
+<td>96.29</td>
+<td>89.27</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>EVOA_CB</td>
+<td>6</td>
+<td><strong>96.35</strong></td>
+<td><strong>93.34</strong></td>
+<td><strong>96.19</strong></td>
+<td>90.94</td>
+<td>0.989</td>
+</tr>
+<tr class="odd">
+<td>EOA_CB</td>
+<td>5</td>
+<td>96.17</td>
+<td>93.12</td>
+<td>94.31</td>
+<td><strong>92.21</strong></td>
+<td>0.989</td>
+</tr>
+<tr class="even">
+<td>EFOA_CB</td>
+<td>9</td>
+<td>96.17</td>
+<td>93.09</td>
+<td>95.78</td>
+<td>91.15</td>
+<td><strong>0.994</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
+<ul>
+<li><strong>EVOA_CB</strong> achieved the highest accuracy (96.35%) with only 6 selected features</li>
+<li><strong>EOA_CB</strong> demonstrated greatest feature reduction (5 features) with highest recall (92.21%)</li>
+<li><strong>EFOA_CB</strong> achieved the highest AUC (0.994) with lowest testing time (1.51 ms)</li>
+<li><strong>Most Important Features:</strong> Response, Risk, N (lymph node involvement)</li>
+<li><strong>Structural Incomplete response</strong> strongly associated with recurrence</li>
+<li><strong>Excellent response</strong> correlated with non-recurrence</li>
+<li><strong>Intermediate risk</strong> and <strong>N1b classification</strong> linked to higher recurrence</li>
+</ul>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{sarker2025,
+  author = {Sarker, Proshenjit and Choi, Kwonhue and Nahid, Abdullah-Al
+    and Abdus Samad, Md},
+  title = {CatBoost with {Physics-Based} {Metaheuristics} for {Thyroid}
+    {Cancer} {Recurrence} {Prediction}},
+  journal = {BioData Mining},
+  volume = {18},
+  number = {84},
+  date = {2025-12-09},
+  url = {https://biodatamining.biomedcentral.com/articles/10.1186/s13040-025-00494-1},
+  doi = {10.1186/s13040-025-00494-1},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-sarker2025" class="csl-entry quarto-appendix-citeas">
+Sarker, Proshenjit, Kwonhue Choi, Abdullah-Al Nahid, and Md Abdus Samad.
+2025. <span>“CatBoost with Physics-Based Metaheuristics for Thyroid
+Cancer Recurrence Prediction.”</span> <em>BioData Mining</em> 18 (84).
+<a href="https://doi.org/10.1186/s13040-025-00494-1">https://doi.org/10.1186/s13040-025-00494-1</a>.
+</div></div></section></div> ]]></description>
+  <category>paper</category>
+  <guid>https://www.drabdus.info/posts/paper-title/catboost-paper.html</guid>
+  <pubDate>Mon, 08 Dec 2025 15:00:00 GMT</pubDate>
+  <media:content url="https://www.drabdus.info/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images</title>
   <dc:creator>S. Kakon</dc:creator>
@@ -24,7 +186,7 @@
   <dc:creator>I. A. Begum</dc:creator>
   <dc:creator>Md Abdus Samad</dc:creator>
   <dc:creator>A. S. M. S. Hosen</dc:creator>
-  <link>https://www.drabdus.info/posts/paper-title/</link>
+  <link>https://www.drabdus.info/posts/paper-title/explainable-deep-paper.html</link>
   <description><![CDATA[ 
 
 
@@ -100,7 +262,7 @@ Framework for Brain Tumor Classification Using MRI Images.”</span>
 <em>Cancers</em> 17 (17): 2853. <a href="https://doi.org/10.3390/cancers17172853">https://doi.org/10.3390/cancers17172853</a>.
 </div></div></section></div> ]]></description>
   <category>paper</category>
-  <guid>https://www.drabdus.info/posts/paper-title/</guid>
+  <guid>https://www.drabdus.info/posts/paper-title/explainable-deep-paper.html</guid>
   <pubDate>Fri, 29 Aug 2025 15:00:00 GMT</pubDate>
   <media:content url="https://www.drabdus.info/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
 </item>

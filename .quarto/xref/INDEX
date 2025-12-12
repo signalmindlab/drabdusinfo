@@ -100,5 +100,11 @@
   },
   "teaching.qmd": {
     "teaching.html": "6550b4ff"
+  },
+  "posts/paper-title/catboost-paper.qmd": {
+    "catboost-paper.html": "830a55e7"
+  },
+  "posts/paper-title/explainable-deep-paper.qmd": {
+    "explainable-deep-paper.html": "09f1545d"
   }
 }
