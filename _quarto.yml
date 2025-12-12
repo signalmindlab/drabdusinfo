@@ -38,7 +38,7 @@ website:
             href: contact.qmd 
 
       - text: Publications  
-        href: publications60.qmd   
+        href: my-publications.qmd   
 
       - text: LaTeX 
         href: latex-guide.qmd
@@ -84,7 +84,7 @@ website:
           - text: Verifying Journal Indexing
             href: miscellaneous/indexing.qmd
           - text: Reference, Image Quality, and Detexify
-            href: miscellaneous/reference.qmd
+            href: miscellaneous/reference-management.qmd
           - text: Author Services by Major Publishers
             href: miscellaneous/author-services.qmd
           - text: Document Conversion and Figure Tools

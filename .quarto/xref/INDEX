@@ -106,5 +106,14 @@
   },
   "posts/paper-title/explainable-deep-paper.qmd": {
     "explainable-deep-paper.html": "09f1545d"
+  },
+  "posts/paper-title/evaluation-metrics-paper.qmd": {
+    "evaluation-metrics-paper.html": "e01d2fae"
+  },
+  "miscellaneous/reference-management.qmd": {
+    "reference-management.html": "190d9c8e"
+  },
+  "my-publications.qmd": {
+    "my-publications.html": "6e75bc17"
   }
 }

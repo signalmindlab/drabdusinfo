@@ -1,0 +1,132 @@
+---
+title: "Accuracy, Precision, Recall, F1-Score, or MCC? Empirical Evidence from Advanced Statistics, ML, and XAI for Evaluating Business Predictive Models"
+description: "Comprehensive empirical analysis of evaluation metrics for imbalanced datasets in business applications, combining statistical methods, machine learning, and explainable AI."
+subtitle: "*Journal of Big Data*"
+author: 
+  - name: Khaled Mahmud Sujon
+  - name: Rohayanti Hassan
+  - name: Kwonhue Choi
+  - name: Md Abdus Samad
+date: "2025-12-01"
+categories: [paper]
+image: "evaluation-paper.jpg"
+citation:
+  type: article-journal
+  container-title: "Journal of Big Data"
+  doi: "10.1186/s40537-025-01313-4"
+  available-date: "2025-12-01"
+  issued: "2025-12-01"
+  volume: 12
+  number: 268
+  url: https://journalofbigdata.springeropen.com/articles/10.1186/s40537-025-01313-4
+google-scholar: true 
+---
+
+<!--Include academic icons or buttons-->
+
+{{< include /files/includes/_academic.qmd >}}
+
+
+## Abstract
+
+Imbalanced datasets pose a persistent challenge in business data mining, particularly in high-stakes domains such as financial risk prediction and customer churn analysis, where the minority class often carries disproportionate operational and financial consequences. Although widely used evaluation metrics–such as accuracy, precision, recall, F1-score, and Matthews Correlation Coefficient (MCC)–are commonly applied in practice, there remains no empirical consensus on which metric offers the most reliable performance under real-world conditions. Existing studies lack a unified, statistically validated framework that accounts for threshold sensitivity, input noise, and interpretability–factors critical to business decision-making.
+
+This study addresses this gap by conducting a comprehensive empirical evaluation of five commonly used machine learning models–Logistic Regression (LR), Decision Tree (DT), Random Forest (RF), Extreme Gradient Boosting (XGBoost), and k-Nearest Neighbors (KNN)–on two benchmark datasets with distinct sizes and imbalance ratios: the Default of Credit Card Clients dataset and the Telco Customer Churn dataset. Our methodology incorporates static and dynamic threshold analysis, Gaussian noise robustness testing, bootstrap confidence intervals, McNemar's test, Cohen's kappa, and analysis of variance (ANOVA) to assess the statistical reliability of performance metrics. A novel two-stage explainable artificial intelligence (XAI) framework utilizing SHapley Additive exPlanations (SHAP) provides enhanced model interpretability through standard visualizations (bar and beeswarm plots) and advanced three-dimensional SHAP analysis across threshold variations.
+
+Our findings reveal that F1-score and MCC emerge as the most stable and balanced metrics for business classification under class imbalance, while Accuracy and Precision may be preferable when robustness or specificity are prioritized. These insights empower practitioners to align metric choice with both performance goals and feature behavior, providing a statistically validated framework for metric selection in real-world business applications.
+
+
+## Keywords
+
+Evaluation metrics, Imbalanced datasets, Business classification, F1-score, Matthews Correlation Coefficient, SHAP explainability, Financial risk prediction, Customer churn analysis, Machine learning, Threshold sensitivity
+
+
+## Key Contributions
+
+- **Comprehensive Metric Comparison:** Empirical evaluation of five evaluation metrics (Accuracy, Precision, Recall, F1-score, and MCC) across multiple machine learning algorithms and datasets with varying imbalance ratios
+
+- **Statistically Validated Framework:** Integration of advanced statistical methods including bootstrap confidence intervals, McNemar's test, Cohen's kappa, and ANOVA to assess reliability and significance of metric differences
+
+- **Threshold Sensitivity Analysis:** Dynamic threshold analysis revealing how each metric responds to decision boundary variations, critical for understanding metric behavior in real-world business scenarios
+
+- **Noise Robustness Testing:** Systematic evaluation of metric robustness under Gaussian noise injection, ensuring recommendations are valid under noisy business conditions
+
+- **Novel Two-Stage XAI Framework:** First-stage standard SHAP visualizations combined with second-stage 3D SHAP analysis to understand feature behavior across metric variations and thresholds
+
+- **Practical Decision Support:** Clear guidance on metric selection based on business priorities (robustness, specificity, balance, or balanced recall)
+
+
+## Methodology
+
+**Datasets:**
+- Default of Credit Card Clients Dataset: Financial risk prediction with significant class imbalance
+- Telco Customer Churn Dataset: 7,043 instances and 20+ features for customer retention prediction
+
+**Machine Learning Models:**
+- Logistic Regression (LR)
+- Decision Tree (DT)
+- Random Forest (RF)
+- Extreme Gradient Boosting (XGBoost)
+- k-Nearest Neighbors (KNN)
+
+**Evaluation Approach:**
+- Evaluation metrics: Accuracy, Precision, Recall, F1-score, Matthews Correlation Coefficient (MCC)
+- Static threshold analysis (fixed decision boundaries)
+- Dynamic threshold analysis (varying decision thresholds)
+- Gaussian noise robustness testing
+- Bootstrap confidence intervals for reliability assessment
+- Statistical significance tests: McNemar's test, Cohen's kappa, ANOVA
+- Cross-validation: Multiple folds for robust estimation
+
+**Explainability Framework:**
+- Stage 1: Standard SHAP visualizations (bar plots, beeswarm plots)
+- Stage 2: 3D SHAP analysis showing feature impact across thresholds and metrics
+- Provides actionable insights into feature behavior under different evaluation metrics
+
+
+## Key Findings
+
+- **F1-Score and MCC as Balanced Metrics:** F1-score and MCC emerge as the most stable and balanced metrics for business classification, particularly under class imbalance conditions
+
+- **Metric-Specific Strengths:**
+  - **F1-Score:** Most stable under threshold variations, balanced precision-recall trade-off
+  - **MCC:** Robust across all confusion matrix categories, reliable under severe imbalance
+  - **Accuracy:** Best for robustness when specificity is prioritized
+  - **Precision:** Preferable when false positives carry high business costs
+
+- **Threshold Sensitivity:** Each metric exhibits distinct sensitivity to decision boundary shifts; understanding these patterns is crucial for business applications
+
+- **Noise Robustness:** F1-score and MCC demonstrate superior robustness when predictions contain noise or uncertainty
+
+- **Feature Behavior Analysis:** 3D SHAP visualizations reveal how different features impact each evaluation metric, enabling metric-specific feature engineering
+
+- **Statistical Validation:** ANOVA and McNemar's test results provide confidence in metric superiority claims, supporting evidence-based metric selection
+
+
+## Practical Recommendations
+
+The analysis empowers practitioners to:
+
+1. **Align metric choice with business priorities:** Select F1-score or MCC for balanced performance; choose Accuracy or Precision for specific business constraints
+
+2. **Consider threshold optimization:** Use dynamic threshold analysis to maximize desired metrics based on operational requirements
+
+3. **Validate under real-world conditions:** Test metrics under noise injection to ensure reliability in production environments
+
+4. **Interpret with SHAP:** Leverage feature impact analysis to understand not just what models predict, but why they make specific decisions
+
+5. **Account for class imbalance:** Apply appropriate metrics (F1, MCC) rather than relying solely on Accuracy when dealing with imbalanced business data
+
+
+## Links
+
+- Published [paper](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-025-01313-4){target="_blank"}
+- [Full Text PDF](https://journalofbigdata.springeropen.com/articles/10.1186/s40537-025-01313-4/pdf){target="_blank"}
+- Springer Open Access Journal: [Journal of Big Data](https://journalofbigdata.springeropen.com/){target="_blank"}
+
+
+```{=html}
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1186/s40537-025-01313-4"></div>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1186/s40537-025-01313-4" data-hide-zero-citations="true" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+```

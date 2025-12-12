@@ -3,15 +3,7 @@
     "listing": "/posts.html",
     "items": [
       "/posts/paper-title/catboost-paper.html",
-      "/posts/paper-title/explainable-deep-paper.html",
-      "/posts/news-title/index.html",
-      "/posts/event-title/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/posts/paper-title/catboost-paper.html",
+      "/posts/paper-title/evaluation-metrics-paper.html",
       "/posts/paper-title/explainable-deep-paper.html",
       "/posts/news-title/index.html",
       "/posts/event-title/index.html"
@@ -20,6 +12,16 @@
   {
     "listing": "/people.html",
     "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/paper-title/catboost-paper.html",
+      "/posts/paper-title/evaluation-metrics-paper.html",
+      "/posts/paper-title/explainable-deep-paper.html",
+      "/posts/news-title/index.html",
+      "/posts/event-title/index.html"
+    ]
   },
   {
     "listing": "/projects.html",

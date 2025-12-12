@@ -5,20 +5,20 @@
     <lastmod>2025-12-11T12:48:27.744Z</lastmod>
   </url>
   <url>
-    <loc>https://www.drabdus.info/publications.html</loc>
-    <lastmod>2025-12-11T12:48:27.728Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.drabdus.info/posts.html</loc>
     <lastmod>2025-12-11T14:38:49.497Z</lastmod>
   </url>
   <url>
-    <loc>https://www.drabdus.info/posts/paper-title/catboost-paper.html</loc>
-    <lastmod>2025-12-12T01:31:37.228Z</lastmod>
+    <loc>https://www.drabdus.info/posts/paper-title/evaluation-metrics-paper.html</loc>
+    <lastmod>2025-12-12T02:28:59.944Z</lastmod>
   </url>
   <url>
-    <loc>https://www.drabdus.info/posts/event-title/index.html</loc>
-    <lastmod>2025-12-11T12:48:27.494Z</lastmod>
+    <loc>https://www.drabdus.info/posts/news-title/index.html</loc>
+    <lastmod>2025-12-11T15:04:54.521Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.drabdus.info/people.html</loc>
+    <lastmod>2025-12-11T12:48:27.435Z</lastmod>
   </url>
   <url>
     <loc>https://www.drabdus.info/miscellaneous/windows.html</loc>
@@ -109,7 +109,7 @@
     <lastmod>2025-12-11T12:48:27.409Z</lastmod>
   </url>
   <url>
-    <loc>https://www.drabdus.info/miscellaneous/reference.html</loc>
+    <loc>https://www.drabdus.info/miscellaneous/reference-management.html</loc>
     <lastmod>2025-12-11T12:48:27.427Z</lastmod>
   </url>
   <url>
@@ -117,12 +117,16 @@
     <lastmod>2025-12-11T12:48:27.431Z</lastmod>
   </url>
   <url>
-    <loc>https://www.drabdus.info/people.html</loc>
-    <lastmod>2025-12-11T12:48:27.435Z</lastmod>
+    <loc>https://www.drabdus.info/my-publications.html</loc>
+    <lastmod>2025-12-11T12:48:27.730Z</lastmod>
   </url>
   <url>
-    <loc>https://www.drabdus.info/posts/news-title/index.html</loc>
-    <lastmod>2025-12-11T15:04:54.521Z</lastmod>
+    <loc>https://www.drabdus.info/posts/event-title/index.html</loc>
+    <lastmod>2025-12-11T12:48:27.494Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.drabdus.info/posts/paper-title/catboost-paper.html</loc>
+    <lastmod>2025-12-12T02:32:09.535Z</lastmod>
   </url>
   <url>
     <loc>https://www.drabdus.info/posts/paper-title/explainable-deep-paper.html</loc>
@@ -131,9 +135,5 @@
   <url>
     <loc>https://www.drabdus.info/projects.html</loc>
     <lastmod>2025-12-11T12:48:27.661Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.drabdus.info/publications60.html</loc>
-    <lastmod>2025-12-11T12:48:27.730Z</lastmod>
   </url>
 </urlset>
