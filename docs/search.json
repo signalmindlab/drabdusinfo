@@ -886,14 +886,14 @@
     "href": "latex-guide.html",
     "title": "LaTeX Reference Guide",
     "section": "",
-    "text": "latexdiff --append-context2cmd=\"abstract\" old.tex new.tex &gt; diff.tex\nGenerates diff.tex with additions underlined in red.\n\n\n\n\\providecommand{\\DIFdel}[1]{}\n\\providecommand{\\DIFadd}[1]{{\\color{red}\\uline{#1}}}"
+    "text": "VS Code: Open integrated terminal with Ctrl+ ` (backtick)\nlatexdiff --append-context2cmd=\"abstract\" old.tex new.tex &gt; diff.tex\nGenerates diff.tex with additions underlined in red.\n\n\n\n\\providecommand{\\DIFdel}[1]{}\n\\providecommand{\\DIFadd}[1]{{\\color{red}\\uline{#1}}}"
   },
   {
     "objectID": "latex-guide.html#document-comparison-and-track-changes",
     "href": "latex-guide.html#document-comparison-and-track-changes",
     "title": "LaTeX Reference Guide",
     "section": "",
-    "text": "latexdiff --append-context2cmd=\"abstract\" old.tex new.tex &gt; diff.tex\nGenerates diff.tex with additions underlined in red.\n\n\n\n\\providecommand{\\DIFdel}[1]{}\n\\providecommand{\\DIFadd}[1]{{\\color{red}\\uline{#1}}}"
+    "text": "VS Code: Open integrated terminal with Ctrl+ ` (backtick)\nlatexdiff --append-context2cmd=\"abstract\" old.tex new.tex &gt; diff.tex\nGenerates diff.tex with additions underlined in red.\n\n\n\n\\providecommand{\\DIFdel}[1]{}\n\\providecommand{\\DIFadd}[1]{{\\color{red}\\uline{#1}}}"
   },
   {
     "objectID": "latex-guide.html#table-design-and-layout",
@@ -928,28 +928,28 @@
     "href": "latex-guide.html#compilation-and-debugging",
     "title": "LaTeX Reference Guide",
     "section": "Compilation and Debugging",
-    "text": "Compilation and Debugging\n\nShow Loaded Packages\n\\listfiles\n\n\nDelete Aux Files (Bash)\nrm -f *.aux *.log *.toc *.out *.lof *.lot *.fls *.fdb_latexmk *.synctex.gz *.nav *.snm *.bbl *.blg *.vrb *.xdv\n\n\nFull Compile Sequence (with BibTeX)\nlatexmk -pdf main.tex\n# or manual:\npdflatex main.tex \nbibtex main\npdflatex main.tex\npdflatex main.tex"
+    "text": "Compilation and Debugging\n\nShow Loaded Packages\n\\listfiles\n\n\nDelete Aux Files (Bash)\nVS Code: Open integrated terminal with Ctrl+ ` (backtick)\nrm -f *.aux *.log *.toc *.out *.lof *.lot *.fls *.fdb_latexmk *.synctex.gz *.nav *.snm *.bbl *.blg *.vrb *.xdv\n\n\nFull Compile Sequence (with BibTeX)\nVS Code: Open integrated terminal with Ctrl+ ` (backtick) or use LaTeX Workshop extension\nlatexmk -pdf main.tex\n# or manual:\npdflatex main.tex \nbibtex main\npdflatex main.tex\npdflatex main.tex"
   },
   {
     "objectID": "latex-guide.html#git-integration-with-overleaf",
     "href": "latex-guide.html#git-integration-with-overleaf",
     "title": "LaTeX Reference Guide",
     "section": "Git Integration with Overleaf",
-    "text": "Git Integration with Overleaf\n\n\n\n\n\n\nTipGetting Started\n\n\n\nIn Overleaf: Menu → Git → Enable Git\n\n\n\nClone Overleaf Project\nCopy URL like: https://git.overleaf.com/project-id\ncd ~/Documents\ngit clone https://git.overleaf.com/project-id\ncd project-id\n\n\nPush Local Changes to Overleaf\ngit add .\ngit commit -m \"Update\"\ngit push\n\n\nPull Before Push to Avoid Conflict\ngit pull --rebase\n\n\nCommand Summary\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit pull origin master\nPull changes from Overleaf (remote: origin, branch: master)\n\n\ngit push origin master\nPush your local changes to Overleaf\n\n\ngit pull overleaf master\nSame as above, but only if your remote is named overleaf"
+    "text": "Git Integration with Overleaf\n\n\n\n\n\n\nTipGetting Started\n\n\n\nIn Overleaf: Menu → Git → Enable Git\nVS Code: Open integrated terminal with Ctrl+ (backtick) or use Source Control panel (Ctrl+Shift+G`)\n\n\n\nClone Overleaf Project\nVS Code Command: Use Command Palette (Ctrl+Shift+P) → “Git: Clone”\nCopy URL like: https://git.overleaf.com/project-id\ncd ~/Documents\ngit clone https://git.overleaf.com/project-id\ncd project-id\n\n\nPush Local Changes to Overleaf\nVS Code: - Open Source Control panel (Ctrl+Shift+G) - Stage changes, add commit message, click “Commit and Push” - Or use integrated terminal:\ngit add .\ngit commit -m \"Update\"\ngit push\n\n\nPull Before Push to Avoid Conflict\nVS Code: Command Palette (Ctrl+Shift+P) → “Git: Pull (Rebase)”\ngit pull --rebase\n\n\nCommand Summary\n\n\n\n\n\n\n\n\nCommand\nDescription\nVS Code Shortcut\n\n\n\n\ngit pull origin master\nPull changes from Overleaf (remote: origin, branch: master)\nCtrl+Shift+P → “Git: Pull”\n\n\ngit push origin master\nPush your local changes to Overleaf\nCtrl+Shift+P → “Git: Push”\n\n\ngit pull overleaf master\nSame as above, but only if your remote is named overleaf\nCtrl+Shift+P → “Git: Pull”"
   },
   {
     "objectID": "latex-guide.html#opening-pdfs-from-git-bash-on-windows",
     "href": "latex-guide.html#opening-pdfs-from-git-bash-on-windows",
     "title": "LaTeX Reference Guide",
     "section": "Opening PDFs from Git Bash on Windows",
-    "text": "Opening PDFs from Git Bash on Windows\n\nNavigate to Directory\ncd /c/Users/YourName/Documents/latex-project\n\n\nOpen PDF in Default Viewer\nstart \"\" \"main.pdf\"\n# or\nexplorer.exe \"main.pdf\"\n\n\nAutomate Compile and Open\npdflatex main.tex && start \"\" \"main.pdf\""
+    "text": "Opening PDFs from Git Bash on Windows\n\nNavigate to Directory\ncd /c/Users/YourName/Documents/latex-project\n\n\nOpen PDF in Default Viewer\nstart \"\" \"main.pdf\"\n# or\nexplorer.exe \"main.pdf\"\n\n\nAutomate Compile and Open\nVS Code: Open integrated terminal with Ctrl+ ` (backtick)\npdflatex main.tex && start \"\" \"main.pdf\""
   },
   {
     "objectID": "latex-guide.html#word-counting-in-latex",
     "href": "latex-guide.html#word-counting-in-latex",
     "title": "LaTeX Reference Guide",
     "section": "Word Counting in LaTeX",
-    "text": "Word Counting in LaTeX\nUse texcount for accurate word count:\ntexcount yourfile.tex\ntexcount -sum yourfile.tex\ntexcount -inc yourfile.tex\ntexcount -1 yourfile.tex\ntexcount -brief yourfile.tex\ntexcount -inc -sum -total main.tex"
+    "text": "Word Counting in LaTeX\nVS Code: Open integrated terminal with Ctrl+ ` (backtick)\nUse texcount for accurate word count:\ntexcount yourfile.tex\ntexcount -sum yourfile.tex\ntexcount -inc yourfile.tex\ntexcount -1 yourfile.tex\ntexcount -brief yourfile.tex\ntexcount -inc -sum -total main.tex"
   },
   {
     "objectID": "latex-guide.html#creating-latex-tables-with-merged-headers",
@@ -977,14 +977,14 @@
     "href": "latex-guide.html#texstudio-search-and-replace-with-regex",
     "title": "LaTeX Reference Guide",
     "section": "TeXstudio Search and Replace with Regex",
-    "text": "TeXstudio Search and Replace with Regex\n\nRemove Asterisks from Section Headers\nSearch:\n\\\\((?:sub){0,2})section\\*\\{([^}]+)\\}\nReplace:\n\\\\\\1section{\\2}\nAlternative (if the above doesn’t work in your TeXstudio version):\nSome versions might need escaped parentheses:\nSearch:\n\\\\\\((?:sub){0,2}\\)section\\*\\{([^}]+)\\}\nReplace:\n\\\\\\1section{\\2}\n\n\nAdd Asterisks to Section Headers (Reverse Operation)\nSearch:\n\\\\((?:sub){0,2})section\\{([^}]+)\\}\nReplace:\n\\\\\\1section*{\\2}\nAlternative (if the above doesn’t work in your TeXstudio version):\nSome versions might need escaped parentheses:\nSearch:\n\\\\\\((?:sub){0,2}\\)section\\{([^}]+)\\}\nReplace:\n\\\\\\1section*{\\2}"
+    "text": "TeXstudio Search and Replace with Regex\n\nRemove Asterisks from Section Headers\nVS Code: Open Find and Replace with Ctrl+H\nTeXstudio: Use Find & Replace with Ctrl+H\nSearch:\n\\\\((?:sub){0,2})section\\*\\{([^}]+)\\}\nReplace:\n\\\\\\1section{\\2}\nAlternative (if the above doesn’t work in your TeXstudio version):\nSome versions might need escaped parentheses:\nSearch:\n\\\\\\((?:sub){0,2}\\)section\\*\\{([^}]+)\\}\nReplace:\n\\\\\\1section{\\2}\n\n\nAdd Asterisks to Section Headers (Reverse Operation)\nVS Code: Open Find and Replace with Ctrl+H → Enable Regex mode (Alt+R)\nTeXstudio: Use Find & Replace with Ctrl+H → Enable Regular Expressions\nSearch:\n\\\\((?:sub){0,2})section\\{([^}]+)\\}\nReplace:\n\\\\\\1section*{\\2}\nAlternative (if the above doesn’t work in your TeXstudio version):\nSome versions might need escaped parentheses:\nSearch:\n\\\\\\((?:sub){0,2}\\)section\\{([^}]+)\\}\nReplace:\n\\\\\\1section*{\\2}"
   },
   {
     "objectID": "latex-guide.html#quick-reference-table",
     "href": "latex-guide.html#quick-reference-table",
     "title": "LaTeX Reference Guide",
     "section": "Quick Reference Table",
-    "text": "Quick Reference Table\n\n\n\n\n\n\n\n\nCategory\nCommand\nPurpose\n\n\n\n\nComparison\nlatexdiff old.tex new.tex &gt; diff.tex\nCompare documents\n\n\nTables\n\\multicolumn{2}{c}{Text}\nMerge columns\n\n\nTables\n\\multirow{2}{*}{Text}\nMerge rows\n\n\nTables\n\\resizebox{\\linewidth}{!}{...}\nFit table to page\n\n\nAlgorithm\n\\algorithmautorefname\nAutoref support\n\n\nLinks\n\\hypersetup{colorlinks=true}\nColor hyperlinks\n\n\nCitations\n\\setcitestyle{numbers}\nNumbered citations\n\n\nCompile\nlatexmk -pdf main.tex\nFull compilation\n\n\nGit\ngit pull --rebase\nSync with Overleaf\n\n\nWord Count\ntexcount -inc -sum main.tex\nCount words"
+    "text": "Quick Reference Table\n\n\n\n\n\n\n\n\n\nCategory\nCommand\nPurpose\nVS Code\n\n\n\n\nComparison\nlatexdiff old.tex new.tex &gt; diff.tex\nCompare documents\nTerminal: Ctrl+| | Tables || Merge columns | — | | Tables || Merge rows | — | | Tables || Fit table to page | — | | Algorithm || Autoref support | — | | Links || Color hyperlinks | — | | Citations || Numbered citations | — | | Compile |latexmk -pdf main.tex| Full compilation | Terminal: Ctrl+\n\n\nGit\ngit pull --rebase\nSync with Overleaf\nCtrl+Shift+G\n\n\nWord Count\ntexcount -inc -sum main.tex\nCount words\nTerminal: Ctrl+`"
   },
   {
     "objectID": "miscellaneous/author-services.html",
@@ -2238,5 +2238,12 @@
     "title": "Projects",
     "section": "",
     "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "latex-guide.html#vs-code-keyboard-shortcuts-for-latex",
+    "href": "latex-guide.html#vs-code-keyboard-shortcuts-for-latex",
+    "title": "LaTeX Reference Guide",
+    "section": "VS Code Keyboard Shortcuts for LaTeX",
+    "text": "VS Code Keyboard Shortcuts for LaTeX\n\n\n\n\n\n\n\nAction\nShortcut\n\n\n\n\nOpen Integrated Terminal\nCtrl+ (backtick) | | Open Find and Replace |Ctrl+H| | Quick Open File |Ctrl+P| | Command Palette |Ctrl+Shift+P| | Source Control (Git) |Ctrl+Shift+G| | Go to Line |Ctrl+G| | Format Document |Ctrl+Shift+I| | Comment Line |Ctrl+/| | Multi-cursor Selection |Ctrl+D(select next occurrence) | | Toggle Preview (Markdown) |Ctrl+Shift+V`"
   }
 ]

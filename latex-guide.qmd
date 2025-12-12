@@ -402,31 +402,37 @@ Sometimes you need placeholder figures while drafting. Here is how to generate 2
 
 **VS Code:** Open Find and Replace with `Ctrl+H`
 
-**TeXstudio:** Use Find & Replace with `Ctrl+H`
+**TeXstudio:** Use Find & Replace with `Ctrl+H` → Enable Regular Expressions
 
-Search:
+::: {.callout-note}
+## Method 1: Standard Syntax (Try This First)
+:::
+
+**Search Pattern:**
 ```regex
 \\((?:sub){0,2})section\*\{([^}]+)\}
 ```
 
-Replace:
+**Replace Pattern:**
 ```regex
 \\\1section{\2}
 ```
 
-**Alternative (if the above doesn't work in your TeXstudio version):**
+::: {.callout-warning}
+## Method 2: Escaped Parentheses (If Method 1 Doesn't Work)
+:::
 
-Some versions might need escaped parentheses:
-
-Search:
+**Search Pattern:**
 ```regex
 \\\((?:sub){0,2}\)section\*\{([^}]+)\}
 ```
 
-Replace:
+**Replace Pattern:**
 ```regex
 \\\1section{\2}
 ```
+
+---
 
 ### Add Asterisks to Section Headers (Reverse Operation)
 
@@ -434,26 +440,30 @@ Replace:
 
 **TeXstudio:** Use Find & Replace with `Ctrl+H` → Enable Regular Expressions
 
-Search:
+::: {.callout-note}
+## Method 1: Standard Syntax (Try This First)
+:::
+
+**Search Pattern:**
 ```regex
 \\((?:sub){0,2})section\{([^}]+)\}
 ```
 
-Replace:
+**Replace Pattern:**
 ```regex
 \\\1section*{\2}
 ```
 
-**Alternative (if the above doesn't work in your TeXstudio version):**
+::: {.callout-warning}
+## Method 2: Escaped Parentheses (If Method 1 Doesn't Work)
+:::
 
-Some versions might need escaped parentheses:
-
-Search:
+**Search Pattern:**
 ```regex
 \\\((?:sub){0,2}\)section\{([^}]+)\}
 ```
 
-Replace:
+**Replace Pattern:**
 ```regex
 \\\1section*{\2}
 ```
@@ -462,32 +472,81 @@ Replace:
 
 ## VS Code Keyboard Shortcuts for LaTeX
 
-| Action | Shortcut |
-|--------|----------|
-| Open Integrated Terminal | `Ctrl+` ` (backtick) |
-| Open Find and Replace | `Ctrl+H` |
-| Quick Open File | `Ctrl+P` |
-| Command Palette | `Ctrl+Shift+P` |
-| Source Control (Git) | `Ctrl+Shift+G` |
-| Go to Line | `Ctrl+G` |
-| Format Document | `Ctrl+Shift+I` |
-| Comment Line | `Ctrl+/` |
-| Multi-cursor Selection | `Ctrl+D` (select next occurrence) |
-| Toggle Preview (Markdown) | `Ctrl+Shift+V` |
+### Essential Shortcuts by Category
+
+**Editing & Navigation**
+
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+P` | Quick Open File |
+| `Ctrl+G` | Go to Line |
+| `Ctrl+/` | Comment Line / Toggle Comments |
+| `Ctrl+D` | Multi-cursor Selection (select next occurrence) |
+| `Ctrl+Shift+I` | Format Document |
+
+**Search & Replace**
+
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+F` | Find |
+| `Ctrl+H` | Find and Replace |
+| `Alt+R` | Toggle Regex Mode in Find/Replace |
+
+**Version Control & Terminal**
+
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+Shift+G` | Open Source Control (Git) Panel |
+| `Ctrl+` ` (backtick) | Open Integrated Terminal |
+
+**Command & Feature Access**
+
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+Shift+P` | Open Command Palette |
+| `Ctrl+Shift+V` | Toggle Markdown Preview |
+| `Ctrl+K Ctrl+0` | Fold All |
+| `Ctrl+K Ctrl+J` | Unfold All |
 
 ---
 
 ## Quick Reference Table
 
-| Category | Command | Purpose | VS Code |
-|----------|---------|---------|---------|
-| Comparison | `latexdiff old.tex new.tex > diff.tex` | Compare documents | Terminal: Ctrl+` |
-| Tables | `\multicolumn{2}{c}{Text}` | Merge columns | — |
-| Tables | `\multirow{2}{*}{Text}` | Merge rows | — |
-| Tables | `\resizebox{\linewidth}{!}{...}` | Fit table to page | — |
-| Algorithm | `\algorithmautorefname` | Autoref support | — |
-| Links | `\hypersetup{colorlinks=true}` | Color hyperlinks | — |
-| Citations | `\setcitestyle{numbers}` | Numbered citations | — |
-| Compile | `latexmk -pdf main.tex` | Full compilation | Terminal: Ctrl+` |
-| Git | `git pull --rebase` | Sync with Overleaf | Ctrl+Shift+G |
-| Word Count | `texcount -inc -sum main.tex` | Count words | Terminal: Ctrl+` |
+### Document Comparison
+
+| Command | Purpose |
+|---------|---------|
+| `latexdiff old.tex new.tex > diff.tex` | Compare two LaTeX files |
+
+### Table Operations
+
+| Command | Purpose |
+|---------|---------|
+| `\multicolumn{2}{c}{Text}` | Merge columns in tables |
+| `\multirow{2}{*}{Text}` | Merge rows in tables |
+| `\resizebox{\linewidth}{!}{...}` | Fit table to page width |
+
+### Cross-References & Citations
+
+| Command | Purpose |
+|---------|---------|
+| `\algorithmautorefname` | Enable autoref support for algorithms |
+| `\setcitestyle{numbers}` | Use numbered citation style |
+| `\hypersetup{colorlinks=true}` | Enable colored hyperlinks |
+
+### Compilation & Debugging
+
+| Command | Purpose | VS Code Terminal |
+|---------|---------|------------------|
+| `latexmk -pdf main.tex` | Full compilation with latexmk | `Ctrl+` ` |
+| `texcount -inc -sum main.tex` | Count words in document | `Ctrl+` ` |
+| `rm -f *.aux *.log ...` | Clean auxiliary files | `Ctrl+` ` |
+
+### Version Control (Git)
+
+| Command | Purpose | VS Code Shortcut |
+|---------|---------|------------------|
+| `git pull --rebase` | Sync changes from Overleaf | `Ctrl+Shift+G` |
+| `git add .` | Stage all changes | `Ctrl+Shift+G` |
+| `git commit -m "message"` | Create commit | `Ctrl+Shift+G` |
+| `git push` | Push to Overleaf | `Ctrl+Shift+G` |
