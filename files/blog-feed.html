@@ -1,0 +1,187 @@
+<div id="blog-posts-container" class="blog-loading">
+  <p>Loading recent blog posts...</p>
+</div>
+
+<script>
+async function loadBlogPosts() {
+  try {
+    // RSS feed from blog.drabdus.info
+    const rssUrl = 'https://blog.drabdus.info/feed.xml';
+    
+    // Use rss2json API to convert RSS to JSON
+    const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+    
+    if (data.status !== 'ok') {
+      throw new Error('RSS feed fetch failed');
+    }
+    
+    const container = document.getElementById('blog-posts-container');
+    const posts = data.items.slice(0, 3); // Latest 3 posts
+    
+    let html = '<div class="blog-preview-grid">';
+    
+    posts.forEach(post => {
+      // Extract first image from content (only use real images, not placeholders)
+      let thumbnail = post.thumbnail || post.enclosure?.link || '';
+      
+      // Clean description (remove HTML tags)
+      let description = post.description.replace(/<[^>]*>/g, '').substring(0, 150);
+      
+      // Format date
+      let postDate = new Date(post.pubDate).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric'
+      });
+      
+      // Build card HTML - only include image if it exists
+      let imageHtml = thumbnail ? `<img src="${thumbnail}" alt="${post.title}" loading="lazy">` : '';
+      
+      html += `
+        <div class="blog-card ${thumbnail ? '' : 'no-image'}">
+          <a href="${post.link}" target="_blank" rel="noopener">
+            ${imageHtml}
+            <div class="blog-card-content">
+              <p class="blog-date">${postDate}</p>
+              <h3>${post.title}</h3>
+              <p class="blog-description">${description}...</p>
+              <span class="blog-read-more">Read more →</span>
+            </div>
+          </a>
+        </div>
+      `;
+    });
+    
+    html += '</div>';
+    container.innerHTML = html;
+    
+  } catch (error) {
+    console.error('Error loading blog posts:', error);
+    document.getElementById('blog-posts-container').innerHTML = 
+      `<p>Unable to load blog posts. <a href="https://blog.drabdus.info" target="_blank">Visit my blog</a> directly.</p>`;
+  }
+}
+
+// Load posts when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', loadBlogPosts);
+} else {
+  loadBlogPosts();
+}
+</script>
+
+<style>
+.blog-loading {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.blog-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.blog-card {
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: var(--bs-body-bg, #fff);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.blog-card a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.blog-card.no-image {
+  /* Cards without images get a subtle background */
+  border-left: 4px solid var(--bs-primary, #007bff);
+}
+
+.blog-card.no-image .blog-card-content {
+  padding: 2rem;
+}
+
+.blog-card-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-date {
+  color: var(--bs-secondary, #6c757d);
+  font-size: 0.875rem;
+  margin: 0 0 0.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.blog-card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: var(--bs-body-color);
+}
+
+.blog-description {
+  color: var(--bs-secondary, #6c757d);
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+  flex-grow: 1;
+}
+
+.blog-read-more {
+  color: var(--bs-primary, #007bff);
+  font-weight: 500;
+  font-size: 0.875rem;
+  margin-top: auto;
+}
+
+.blog-card:hover .blog-read-more {
+  text-decoration: underline;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .blog-card {
+    border-color: #444;
+    background: #1a1a1a;
+  }
+  
+  .blog-loading {
+    color: #999;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .blog-preview-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
