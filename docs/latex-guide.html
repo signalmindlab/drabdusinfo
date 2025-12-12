@@ -583,8 +583,18 @@ https://badge.dimensions.ai/
   <li><a href="#remove-asterisks-from-section-headers" id="toc-remove-asterisks-from-section-headers" class="nav-link" data-scroll-target="#remove-asterisks-from-section-headers">Remove Asterisks from Section Headers</a></li>
   <li><a href="#add-asterisks-to-section-headers-reverse-operation" id="toc-add-asterisks-to-section-headers-reverse-operation" class="nav-link" data-scroll-target="#add-asterisks-to-section-headers-reverse-operation">Add Asterisks to Section Headers (Reverse Operation)</a></li>
   </ul></li>
-  <li><a href="#vs-code-keyboard-shortcuts-for-latex" id="toc-vs-code-keyboard-shortcuts-for-latex" class="nav-link" data-scroll-target="#vs-code-keyboard-shortcuts-for-latex">VS Code Keyboard Shortcuts for LaTeX</a></li>
-  <li><a href="#quick-reference-table" id="toc-quick-reference-table" class="nav-link" data-scroll-target="#quick-reference-table">Quick Reference Table</a></li>
+  <li><a href="#vs-code-keyboard-shortcuts-for-latex" id="toc-vs-code-keyboard-shortcuts-for-latex" class="nav-link" data-scroll-target="#vs-code-keyboard-shortcuts-for-latex">VS Code Keyboard Shortcuts for LaTeX</a>
+  <ul class="collapse">
+  <li><a href="#essential-shortcuts-by-category" id="toc-essential-shortcuts-by-category" class="nav-link" data-scroll-target="#essential-shortcuts-by-category">Essential Shortcuts by Category</a></li>
+  </ul></li>
+  <li><a href="#quick-reference-table" id="toc-quick-reference-table" class="nav-link" data-scroll-target="#quick-reference-table">Quick Reference Table</a>
+  <ul class="collapse">
+  <li><a href="#document-comparison" id="toc-document-comparison" class="nav-link" data-scroll-target="#document-comparison">Document Comparison</a></li>
+  <li><a href="#table-operations" id="toc-table-operations" class="nav-link" data-scroll-target="#table-operations">Table Operations</a></li>
+  <li><a href="#cross-references-citations" id="toc-cross-references-citations" class="nav-link" data-scroll-target="#cross-references-citations">Cross-References &amp; Citations</a></li>
+  <li><a href="#compilation-debugging" id="toc-compilation-debugging" class="nav-link" data-scroll-target="#compilation-debugging">Compilation &amp; Debugging</a></li>
+  <li><a href="#version-control-with-overleaf-git" id="toc-version-control-with-overleaf-git" class="nav-link" data-scroll-target="#version-control-with-overleaf-git">Version Control with Overleaf (Git)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -1008,97 +1018,350 @@ https://badge.dimensions.ai/
 <section id="remove-asterisks-from-section-headers" class="level3">
 <h3 class="anchored" data-anchor-id="remove-asterisks-from-section-headers">Remove Asterisks from Section Headers</h3>
 <p><strong>VS Code:</strong> Open Find and Replace with <code>Ctrl+H</code></p>
-<p><strong>TeXstudio:</strong> Use Find &amp; Replace with <code>Ctrl+H</code></p>
-<p>Search:</p>
+<p><strong>TeXstudio:</strong> Use Find &amp; Replace with <code>Ctrl+H</code> → Enable Regular Expressions</p>
+<div class="callout callout-style-default callout-note callout-empty-content callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Method 1: Standard Syntax (Try This First)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p><strong>Search Pattern:</strong></p>
 <pre class="regex"><code>\\((?:sub){0,2})section\*\{([^}]+)\}</code></pre>
-<p>Replace:</p>
+<p><strong>Replace Pattern:</strong></p>
 <pre class="regex"><code>\\\1section{\2}</code></pre>
-<p><strong>Alternative (if the above doesn’t work in your TeXstudio version):</strong></p>
-<p>Some versions might need escaped parentheses:</p>
-<p>Search:</p>
+<div class="callout callout-style-default callout-warning callout-empty-content callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Method 2: Escaped Parentheses (If Method 1 Doesn’t Work)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p><strong>Search Pattern:</strong></p>
 <pre class="regex"><code>\\\((?:sub){0,2}\)section\*\{([^}]+)\}</code></pre>
-<p>Replace:</p>
+<p><strong>Replace Pattern:</strong></p>
 <pre class="regex"><code>\\\1section{\2}</code></pre>
+<hr>
 </section>
 <section id="add-asterisks-to-section-headers-reverse-operation" class="level3">
 <h3 class="anchored" data-anchor-id="add-asterisks-to-section-headers-reverse-operation">Add Asterisks to Section Headers (Reverse Operation)</h3>
 <p><strong>VS Code:</strong> Open Find and Replace with <code>Ctrl+H</code> → Enable Regex mode (Alt+R)</p>
 <p><strong>TeXstudio:</strong> Use Find &amp; Replace with <code>Ctrl+H</code> → Enable Regular Expressions</p>
-<p>Search:</p>
+<div class="callout callout-style-default callout-note callout-empty-content callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Method 1: Standard Syntax (Try This First)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p><strong>Search Pattern:</strong></p>
 <pre class="regex"><code>\\((?:sub){0,2})section\{([^}]+)\}</code></pre>
-<p>Replace:</p>
+<p><strong>Replace Pattern:</strong></p>
 <pre class="regex"><code>\\\1section*{\2}</code></pre>
-<p><strong>Alternative (if the above doesn’t work in your TeXstudio version):</strong></p>
-<p>Some versions might need escaped parentheses:</p>
-<p>Search:</p>
+<div class="callout callout-style-default callout-warning callout-empty-content callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Method 2: Escaped Parentheses (If Method 1 Doesn’t Work)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p><strong>Search Pattern:</strong></p>
 <pre class="regex"><code>\\\((?:sub){0,2}\)section\{([^}]+)\}</code></pre>
-<p>Replace:</p>
+<p><strong>Replace Pattern:</strong></p>
 <pre class="regex"><code>\\\1section*{\2}</code></pre>
 <hr>
 </section>
 </section>
 <section id="vs-code-keyboard-shortcuts-for-latex" class="level2">
 <h2 class="anchored" data-anchor-id="vs-code-keyboard-shortcuts-for-latex">VS Code Keyboard Shortcuts for LaTeX</h2>
+<section id="essential-shortcuts-by-category" class="level3">
+<h3 class="anchored" data-anchor-id="essential-shortcuts-by-category">Essential Shortcuts by Category</h3>
+<p><strong>Editing &amp; Navigation</strong></p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 44%">
-<col style="width: 55%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Action</th>
 <th>Shortcut</th>
+<th>Action</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td><code>Ctrl+P</code></td>
+<td>Quick Open File</td>
+</tr>
+<tr class="even">
+<td><code>Ctrl+G</code></td>
+<td>Go to Line</td>
+</tr>
+<tr class="odd">
+<td><code>Ctrl+/</code></td>
+<td>Comment Line / Toggle Comments</td>
+</tr>
+<tr class="even">
+<td><code>Ctrl+D</code></td>
+<td>Multi-cursor Selection (select next occurrence)</td>
+</tr>
+<tr class="odd">
+<td><code>Ctrl+Shift+I</code></td>
+<td>Format Document</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Search &amp; Replace</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Shortcut</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>Ctrl+F</code></td>
+<td>Find</td>
+</tr>
+<tr class="even">
+<td><code>Ctrl+H</code></td>
+<td>Find and Replace</td>
+</tr>
+<tr class="odd">
+<td><code>Alt+R</code></td>
+<td>Toggle Regex Mode in Find/Replace</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Version Control &amp; Terminal</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Shortcut</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>Ctrl+Shift+G</code></td>
+<td>Open Source Control (Git) Panel</td>
+</tr>
+<tr class="even">
+<td><code>Ctrl+</code> ` (backtick)</td>
 <td>Open Integrated Terminal</td>
-<td><code>Ctrl+</code> <code>(backtick) | | Open Find and Replace |</code>Ctrl+H<code>| | Quick Open File |</code>Ctrl+P<code>| | Command Palette |</code>Ctrl+Shift+P<code>| | Source Control (Git) |</code>Ctrl+Shift+G<code>| | Go to Line |</code>Ctrl+G<code>| | Format Document |</code>Ctrl+Shift+I<code>| | Comment Line |</code>Ctrl+/<code>| | Multi-cursor Selection |</code>Ctrl+D<code>(select next occurrence) | | Toggle Preview (Markdown) |</code>Ctrl+Shift+V`</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Command &amp; Feature Access</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Shortcut</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>Ctrl+Shift+P</code></td>
+<td>Open Command Palette</td>
+</tr>
+<tr class="even">
+<td><code>Ctrl+Shift+V</code></td>
+<td>Toggle Markdown Preview</td>
+</tr>
+<tr class="odd">
+<td><code>Ctrl+K Ctrl+0</code></td>
+<td>Fold All</td>
+</tr>
+<tr class="even">
+<td><code>Ctrl+K Ctrl+J</code></td>
+<td>Unfold All</td>
 </tr>
 </tbody>
 </table>
 <hr>
 </section>
+</section>
 <section id="quick-reference-table" class="level2">
 <h2 class="anchored" data-anchor-id="quick-reference-table">Quick Reference Table</h2>
+<section id="document-comparison" class="level3">
+<h3 class="anchored" data-anchor-id="document-comparison">Document Comparison</h3>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 27%">
-<col style="width: 24%">
-<col style="width: 24%">
-<col style="width: 24%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Category</th>
 <th>Command</th>
 <th>Purpose</th>
-<th>VS Code</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Comparison</td>
 <td><code>latexdiff old.tex new.tex &gt; diff.tex</code></td>
-<td>Compare documents</td>
-<td>Terminal: Ctrl+<code>| | Tables |</code><code>| Merge columns | — | | Tables |</code><code>| Merge rows | — | | Tables |</code><code>| Fit table to page | — | | Algorithm |</code><code>| Autoref support | — | | Links |</code><code>| Color hyperlinks | — | | Citations |</code><code>| Numbered citations | — | | Compile |</code>latexmk -pdf main.tex<code>| Full compilation | Terminal: Ctrl+</code></td>
-</tr>
-<tr class="even">
-<td>Git</td>
-<td><code>git pull --rebase</code></td>
-<td>Sync with Overleaf</td>
-<td>Ctrl+Shift+G</td>
-</tr>
-<tr class="odd">
-<td>Word Count</td>
-<td><code>texcount -inc -sum main.tex</code></td>
-<td>Count words</td>
-<td>Terminal: Ctrl+`</td>
+<td>Compare two LaTeX files</td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="table-operations" class="level3">
+<h3 class="anchored" data-anchor-id="table-operations">Table Operations</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>\multicolumn{2}{c}{Text}</code></td>
+<td>Merge columns in tables</td>
+</tr>
+<tr class="even">
+<td><code>\multirow{2}{*}{Text}</code></td>
+<td>Merge rows in tables</td>
+</tr>
+<tr class="odd">
+<td><code>\resizebox{\linewidth}{!}{...}</code></td>
+<td>Fit table to page width</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cross-references-citations" class="level3">
+<h3 class="anchored" data-anchor-id="cross-references-citations">Cross-References &amp; Citations</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>\algorithmautorefname</code></td>
+<td>Enable autoref support for algorithms</td>
+</tr>
+<tr class="even">
+<td><code>\setcitestyle{numbers}</code></td>
+<td>Use numbered citation style</td>
+</tr>
+<tr class="odd">
+<td><code>\hypersetup{colorlinks=true}</code></td>
+<td>Enable colored hyperlinks</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="compilation-debugging" class="level3">
+<h3 class="anchored" data-anchor-id="compilation-debugging">Compilation &amp; Debugging</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 59%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>What It Does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>latexmk -pdf main.tex</code></td>
+<td>✓ <strong>Recommended</strong> – Single command, handles everything (PDF output)</td>
+</tr>
+<tr class="even">
+<td><code>pdflatex main.tex &amp;&amp; bibtex main &amp;&amp; pdflatex main.tex x2</code></td>
+<td>Manual sequence for fine control or debugging</td>
+</tr>
+<tr class="odd">
+<td><code>texcount -inc -sum main.tex</code></td>
+<td>Count words including external files + show summary</td>
+</tr>
+<tr class="even">
+<td><code>rm -f *.aux *.log *.toc *.out *.lof *.lot *.fls *.fdb_latexmk *.synctex.gz *.nav *.snm *.bbl *.blg *.vrb *.xdv</code></td>
+<td>Remove ALL temporary files and caches</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Access via:</strong> Terminal (<code>Ctrl+</code> `)</p>
+<hr>
+</section>
+<section id="version-control-with-overleaf-git" class="level3">
+<h3 class="anchored" data-anchor-id="version-control-with-overleaf-git">Version Control with Overleaf (Git)</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Best Practice: Pull → Modify → Commit → Push
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Always pull before starting work to avoid conflicts!</p>
+</div>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 32%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Task</th>
+<th>VS Code UI</th>
+<th>Terminal Command</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Pull changes</strong></td>
+<td><code>Ctrl+Shift+G</code> → <code>···</code> → “Pull (Rebase)”</td>
+<td><code>git pull --rebase</code></td>
+</tr>
+<tr class="even">
+<td><strong>Stage changes</strong></td>
+<td><code>Ctrl+Shift+G</code> → Click <code>+</code> icon</td>
+<td><code>git add .</code></td>
+</tr>
+<tr class="odd">
+<td><strong>Commit</strong></td>
+<td>Enter message → <code>Ctrl+Enter</code></td>
+<td><code>git commit -m "message"</code></td>
+</tr>
+<tr class="even">
+<td><strong>Push to Overleaf</strong></td>
+<td><code>Ctrl+Shift+G</code> → <code>···</code> → “Push”</td>
+<td><code>git push</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Terminal access:</strong> <code>Ctrl+</code> ` (backtick)</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
