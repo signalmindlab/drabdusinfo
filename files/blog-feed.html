@@ -1,67 +1,108 @@
 <div id="blog-posts-container" class="blog-loading">
   <p>Loading recent blog posts...</p>
-</div> 
+</div>
 
 <script>
 async function loadBlogPosts() {
+  const container = document.getElementById('blog-posts-container');
+  
   try {
-    // RSS feed from blog.drabdus.info
+    // Direct RSS feed URL (no third-party API)
     const rssUrl = 'https://blog.drabdus.info/feed.xml';
     
-    // Use rss2json API to convert RSS to JSON
-    const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
-    const response = await fetch(apiUrl);
-    const data = await response.json();
-    // const posts = data.items.slice(0, 3); // Change 3 to any number
-    if (data.status !== 'ok') {
-      throw new Error('RSS feed fetch failed');
+    console.log('Fetching RSS feed directly:', rssUrl);
+    const response = await fetch(rssUrl);
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
     }
     
-    const container = document.getElementById('blog-posts-container');
-    const posts = data.items.slice(0, 3); // Latest 3 posts
+    const xmlText = await response.text();
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
     
-    let html = '<div class="blog-preview-grid">';
+    // Parse RSS items
+    const items = xmlDoc.querySelectorAll('item');
+    console.log('Total posts found:', items.length);
     
-    posts.forEach(post => {
-      // Extract first image from content (only use real images, not placeholders)
-      let thumbnail = post.thumbnail || post.enclosure?.link || '';
-      
-      // Clean description (remove HTML tags)
-      let description = post.description.replace(/<[^>]*>/g, '').substring(0, 150);
-      
-      // Format date
-      let postDate = new Date(post.pubDate).toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric'
-      });
-      
-      // Build card HTML - only include image if it exists
-      let imageHtml = thumbnail ? `<img src="${thumbnail}" alt="${post.title}" loading="lazy">` : '';
-      
-      html += `
-        <div class="blog-card ${thumbnail ? '' : 'no-image'}">
-          <a href="${post.link}" target="_blank" rel="noopener">
-            ${imageHtml}
-            <div class="blog-card-content">
-              <p class="blog-date">${postDate}</p>
-              <h3>${post.title}</h3>
-              <p class="blog-description">${description}...</p>
-              <span class="blog-read-more">Read more →</span>
-            </div>
-          </a>
-        </div>
-      `;
-    });
+    if (items.length === 0) {
+      throw new Error('No blog posts found in RSS feed');
+    }
     
-    html += '</div>';
-    container.innerHTML = html;
+    // Convert to array and take first 3 (or change number here)
+    const posts = Array.from(items).slice(0, 3).map(item => ({
+      title: item.querySelector('title')?.textContent || 'Untitled',
+      link: item.querySelector('link')?.textContent || '#',
+      pubDate: item.querySelector('pubDate')?.textContent || '',
+      description: item.querySelector('description')?.textContent || ''
+    }));
+    
+    console.log('Posts to display:', posts.length);
+    displayPosts(posts);
     
   } catch (error) {
-    console.error('Error loading blog posts:', error);
-    document.getElementById('blog-posts-container').innerHTML = 
-      `<p>Unable to load blog posts. <a href="https://blog.drabdus.info" target="_blank">Visit my blog</a> directly.</p>`;
+    console.error('Blog feed error:', error);
+    
+    // Fallback
+    container.innerHTML = `
+      <div class="blog-fallback">
+        <p>Recent posts from my <a href="https://blog.drabdus.info" target="_blank">blog</a>:</p>
+        <ul class="blog-links">
+          <li><a href="https://blog.drabdus.info/blog/2025-12-09-ai-reference-verification" target="_blank">
+            AI-Powered Reference Verification for Academic Manuscripts
+          </a></li>
+          <li><a href="https://blog.drabdus.info/blog/2025-12-07-korea-parking-fine-alert-advantages" target="_blank">
+            The Korean Parking Fine Hack
+          </a></li>
+          <li><a href="https://blog.drabdus.info" target="_blank">
+            View all posts →
+          </a></li>
+        </ul>
+      </div>
+    `;
   }
+}
+
+function displayPosts(posts) {
+  const container = document.getElementById('blog-posts-container');
+  let html = '<div class="blog-list">';
+  
+  posts.forEach((post, index) => {
+    // Clean description (remove HTML/CDATA tags)
+    let description = post.description
+      .replace(/<!\[CDATA\[|\]\]>/g, '')
+      .replace(/<[^>]*>/g, '')
+      .substring(0, 200);
+    
+    // Format date
+    let postDate = 'Recently';
+    try {
+      postDate = new Date(post.pubDate).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+      });
+    } catch (e) {
+      console.warn('Date parsing error:', e);
+    }
+    
+    html += `
+      <article class="blog-list-item">
+        <a href="${post.link}" target="_blank" rel="noopener">
+          <div class="blog-item-header">
+            <time class="blog-date">${postDate}</time>
+          </div>
+          <h3 class="blog-title">${post.title}</h3>
+          <p class="blog-description">${description}...</p>
+          <span class="blog-read-more">Read full article →</span>
+        </a>
+      </article>
+      ${index < posts.length - 1 ? '<hr class="blog-divider">' : ''}
+    `;
+  });
+  
+  html += '</div>';
+  container.innerHTML = html;
 }
 
 // Load posts when DOM is ready
@@ -79,109 +120,125 @@ if (document.readyState === 'loading') {
   color: #666;
 }
 
-.blog-preview-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+.blog-fallback {
+  padding: 1.5rem;
+  background: var(--bs-light, #f8f9fa);
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.blog-fallback p {
+  margin: 0 0 1rem 0;
+}
+
+.blog-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-links li {
+  margin: 0.75rem 0;
+}
+
+.blog-links a {
+  color: var(--bs-primary, #007bff);
+  text-decoration: none;
+}
+
+.blog-links a:hover {
+  text-decoration: underline;
+}
+
+.blog-list {
   margin: 2rem 0;
 }
 
-.blog-card {
-  border: 1px solid var(--bs-border-color, #dee2e6);
-  border-radius: 8px;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  background: var(--bs-body-bg, #fff);
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+.blog-list-item {
+  margin: 0;
+  padding: 1.5rem 0;
 }
 
-.blog-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.blog-card a {
+.blog-list-item a {
   text-decoration: none;
   color: inherit;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.blog-card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
   display: block;
+  transition: all 0.2s ease;
 }
 
-.blog-card.no-image {
-  /* Cards without images get a subtle background */
-  border-left: 4px solid var(--bs-primary, #007bff);
+.blog-list-item a:hover {
+  transform: translateX(5px);
 }
 
-.blog-card.no-image .blog-card-content {
-  padding: 2rem;
-}
-
-.blog-card-content {
-  padding: 1.5rem;
-  flex-grow: 1;
+.blog-item-header {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .blog-date {
   color: var(--bs-secondary, #6c757d);
   font-size: 0.875rem;
-  margin: 0 0 0.5rem 0;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  font-weight: 500;
 }
 
-.blog-card h3 {
+.blog-title {
   margin: 0 0 1rem 0;
-  font-size: 1.25rem;
-  line-height: 1.4;
+  font-size: 1.5rem;
+  line-height: 1.3;
   color: var(--bs-body-color);
+  font-weight: 600;
+}
+
+.blog-list-item a:hover .blog-title {
+  color: var(--bs-primary, #007bff);
 }
 
 .blog-description {
   color: var(--bs-secondary, #6c757d);
   line-height: 1.6;
   margin: 0 0 1rem 0;
-  flex-grow: 1;
+  font-size: 1rem;
 }
 
 .blog-read-more {
   color: var(--bs-primary, #007bff);
   font-weight: 500;
   font-size: 0.875rem;
-  margin-top: auto;
 }
 
-.blog-card:hover .blog-read-more {
+.blog-list-item a:hover .blog-read-more {
   text-decoration: underline;
 }
 
-/* Dark mode support */
+.blog-divider {
+  border: none;
+  border-top: 1px solid var(--bs-border-color, #dee2e6);
+  margin: 0;
+}
+
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
-  .blog-card {
-    border-color: #444;
-    background: #1a1a1a;
-  }
-  
   .blog-loading {
     color: #999;
+  }
+  
+  .blog-fallback {
+    background: #2a2a2a;
+  }
+  
+  .blog-divider {
+    border-top-color: #444;
   }
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-  .blog-preview-grid {
-    grid-template-columns: 1fr;
+  .blog-title {
+    font-size: 1.25rem;
   }
 }
 </style>
