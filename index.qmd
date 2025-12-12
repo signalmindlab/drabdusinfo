@@ -59,6 +59,7 @@ listing:   # Comment the listing section and delete corresponding lines in the i
     exclude:
       title: ""
     type: grid
+    grid-columns: 1  # Add this line
     max-items: 3
     image-height: 150px
     page-size: 3 #set same as max-times to remove the page number setting
