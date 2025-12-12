@@ -564,6 +564,7 @@ https://badge.dimensions.ai/
   <li><a href="#remove-asterisks-from-section-headers" id="toc-remove-asterisks-from-section-headers" class="nav-link" data-scroll-target="#remove-asterisks-from-section-headers">Remove Asterisks from Section Headers</a></li>
   <li><a href="#add-asterisks-to-section-headers-reverse-operation" id="toc-add-asterisks-to-section-headers-reverse-operation" class="nav-link" data-scroll-target="#add-asterisks-to-section-headers-reverse-operation">Add Asterisks to Section Headers (Reverse Operation)</a></li>
   </ul></li>
+  <li><a href="#vs-code-keyboard-shortcuts-for-latex" id="toc-vs-code-keyboard-shortcuts-for-latex" class="nav-link" data-scroll-target="#vs-code-keyboard-shortcuts-for-latex">VS Code Keyboard Shortcuts for LaTeX</a></li>
   <li><a href="#quick-reference-table" id="toc-quick-reference-table" class="nav-link" data-scroll-target="#quick-reference-table">Quick Reference Table</a></li>
   </ul>
 </nav>
@@ -608,6 +609,7 @@ https://badge.dimensions.ai/
 <h2 class="anchored" data-anchor-id="document-comparison-and-track-changes">Document Comparison and Track Changes</h2>
 <section id="compare-two-.tex-files-with-latexdiff" class="level3">
 <h3 class="anchored" data-anchor-id="compare-two-.tex-files-with-latexdiff">Compare Two .tex Files with latexdiff</h3>
+<p><strong>VS Code:</strong> Open integrated terminal with <code>Ctrl+</code> ` (backtick)</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">latexdiff</span> <span class="at">--append-context2cmd</span><span class="op">=</span><span class="st">"abstract"</span> old.tex new.tex <span class="op">&gt;</span> diff.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Generates diff.tex with additions underlined in red.</p>
 </section>
@@ -723,10 +725,12 @@ https://badge.dimensions.ai/
 </section>
 <section id="delete-aux-files-bash" class="level3">
 <h3 class="anchored" data-anchor-id="delete-aux-files-bash">Delete Aux Files (Bash)</h3>
+<p><strong>VS Code:</strong> Open integrated terminal with <code>Ctrl+</code> ` (backtick)</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> <span class="at">-f</span> <span class="pp">*</span>.aux <span class="pp">*</span>.log <span class="pp">*</span>.toc <span class="pp">*</span>.out <span class="pp">*</span>.lof <span class="pp">*</span>.lot <span class="pp">*</span>.fls <span class="pp">*</span>.fdb_latexmk <span class="pp">*</span>.synctex.gz <span class="pp">*</span>.nav <span class="pp">*</span>.snm <span class="pp">*</span>.bbl <span class="pp">*</span>.blg <span class="pp">*</span>.vrb <span class="pp">*</span>.xdv</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="full-compile-sequence-with-bibtex" class="level3">
 <h3 class="anchored" data-anchor-id="full-compile-sequence-with-bibtex">Full Compile Sequence (with BibTeX)</h3>
+<p><strong>VS Code:</strong> Open integrated terminal with <code>Ctrl+</code> ` (backtick) or use LaTeX Workshop extension</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="ex">latexmk</span> <span class="at">-pdf</span> main.tex</span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="co"># or manual:</span></span>
 <span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> main.tex </span>
@@ -749,10 +753,12 @@ https://badge.dimensions.ai/
 </div>
 <div class="callout-body-container callout-body">
 <p>In Overleaf: Menu → Git → Enable Git</p>
+<p><strong>VS Code:</strong> Open integrated terminal with <code>Ctrl+</code> <code>(backtick) or use Source Control panel (</code>Ctrl+Shift+G`)</p>
 </div>
 </div>
 <section id="clone-overleaf-project" class="level3">
 <h3 class="anchored" data-anchor-id="clone-overleaf-project">Clone Overleaf Project</h3>
+<p><strong>VS Code Command:</strong> Use Command Palette (<code>Ctrl+Shift+P</code>) → “Git: Clone”</p>
 <p>Copy URL like: <code>https://git.overleaf.com/project-id</code></p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/Documents</span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://git.overleaf.com/project-id</span>
@@ -760,39 +766,46 @@ https://badge.dimensions.ai/
 </section>
 <section id="push-local-changes-to-overleaf" class="level3">
 <h3 class="anchored" data-anchor-id="push-local-changes-to-overleaf">Push Local Changes to Overleaf</h3>
+<p><strong>VS Code:</strong> - Open Source Control panel (<code>Ctrl+Shift+G</code>) - Stage changes, add commit message, click “Commit and Push” - Or use integrated terminal:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Update"</span></span>
 <span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="pull-before-push-to-avoid-conflict" class="level3">
 <h3 class="anchored" data-anchor-id="pull-before-push-to-avoid-conflict">Pull Before Push to Avoid Conflict</h3>
+<p><strong>VS Code:</strong> Command Palette (<code>Ctrl+Shift+P</code>) → “Git: Pull (Rebase)”</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull <span class="at">--rebase</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="command-summary" class="level3">
 <h3 class="anchored" data-anchor-id="command-summary">Command Summary</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 40%">
-<col style="width: 59%">
+<col style="width: 23%">
+<col style="width: 33%">
+<col style="width: 43%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Command</th>
 <th>Description</th>
+<th>VS Code Shortcut</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><code>git pull origin master</code></td>
 <td>Pull changes from Overleaf (remote: origin, branch: master)</td>
+<td>Ctrl+Shift+P → “Git: Pull”</td>
 </tr>
 <tr class="even">
 <td><code>git push origin master</code></td>
 <td>Push your local changes to Overleaf</td>
+<td>Ctrl+Shift+P → “Git: Push”</td>
 </tr>
 <tr class="odd">
 <td><code>git pull overleaf master</code></td>
 <td>Same as above, but only if your remote is named overleaf</td>
+<td>Ctrl+Shift+P → “Git: Pull”</td>
 </tr>
 </tbody>
 </table>
@@ -813,12 +826,14 @@ https://badge.dimensions.ai/
 </section>
 <section id="automate-compile-and-open" class="level3">
 <h3 class="anchored" data-anchor-id="automate-compile-and-open">Automate Compile and Open</h3>
+<p><strong>VS Code:</strong> Open integrated terminal with <code>Ctrl+</code> ` (backtick)</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> main.tex <span class="kw">&amp;&amp;</span> <span class="ex">start</span> <span class="st">""</span> <span class="st">"main.pdf"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <hr>
 </section>
 </section>
 <section id="word-counting-in-latex" class="level2">
 <h2 class="anchored" data-anchor-id="word-counting-in-latex">Word Counting in LaTeX</h2>
+<p><strong>VS Code:</strong> Open integrated terminal with <code>Ctrl+</code> ` (backtick)</p>
 <p>Use texcount for accurate word count:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> yourfile.tex</span>
 <span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-sum</span> yourfile.tex</span>
@@ -973,6 +988,8 @@ https://badge.dimensions.ai/
 <h2 class="anchored" data-anchor-id="texstudio-search-and-replace-with-regex">TeXstudio Search and Replace with Regex</h2>
 <section id="remove-asterisks-from-section-headers" class="level3">
 <h3 class="anchored" data-anchor-id="remove-asterisks-from-section-headers">Remove Asterisks from Section Headers</h3>
+<p><strong>VS Code:</strong> Open Find and Replace with <code>Ctrl+H</code></p>
+<p><strong>TeXstudio:</strong> Use Find &amp; Replace with <code>Ctrl+H</code></p>
 <p>Search:</p>
 <pre class="regex"><code>\\((?:sub){0,2})section\*\{([^}]+)\}</code></pre>
 <p>Replace:</p>
@@ -986,6 +1003,8 @@ https://badge.dimensions.ai/
 </section>
 <section id="add-asterisks-to-section-headers-reverse-operation" class="level3">
 <h3 class="anchored" data-anchor-id="add-asterisks-to-section-headers-reverse-operation">Add Asterisks to Section Headers (Reverse Operation)</h3>
+<p><strong>VS Code:</strong> Open Find and Replace with <code>Ctrl+H</code> → Enable Regex mode (Alt+R)</p>
+<p><strong>TeXstudio:</strong> Use Find &amp; Replace with <code>Ctrl+H</code> → Enable Regular Expressions</p>
 <p>Search:</p>
 <pre class="regex"><code>\\((?:sub){0,2})section\{([^}]+)\}</code></pre>
 <p>Replace:</p>
@@ -999,19 +1018,43 @@ https://badge.dimensions.ai/
 <hr>
 </section>
 </section>
+<section id="vs-code-keyboard-shortcuts-for-latex" class="level2">
+<h2 class="anchored" data-anchor-id="vs-code-keyboard-shortcuts-for-latex">VS Code Keyboard Shortcuts for LaTeX</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 44%">
+<col style="width: 55%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Action</th>
+<th>Shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Open Integrated Terminal</td>
+<td><code>Ctrl+</code> <code>(backtick) | | Open Find and Replace |</code>Ctrl+H<code>| | Quick Open File |</code>Ctrl+P<code>| | Command Palette |</code>Ctrl+Shift+P<code>| | Source Control (Git) |</code>Ctrl+Shift+G<code>| | Go to Line |</code>Ctrl+G<code>| | Format Document |</code>Ctrl+Shift+I<code>| | Comment Line |</code>Ctrl+/<code>| | Multi-cursor Selection |</code>Ctrl+D<code>(select next occurrence) | | Toggle Preview (Markdown) |</code>Ctrl+Shift+V`</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
 <section id="quick-reference-table" class="level2">
 <h2 class="anchored" data-anchor-id="quick-reference-table">Quick Reference Table</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 35%">
-<col style="width: 32%">
-<col style="width: 32%">
+<col style="width: 27%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 24%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Category</th>
 <th>Command</th>
 <th>Purpose</th>
+<th>VS Code</th>
 </tr>
 </thead>
 <tbody>
@@ -1019,51 +1062,19 @@ https://badge.dimensions.ai/
 <td>Comparison</td>
 <td><code>latexdiff old.tex new.tex &gt; diff.tex</code></td>
 <td>Compare documents</td>
+<td>Terminal: Ctrl+<code>| | Tables |</code><code>| Merge columns | — | | Tables |</code><code>| Merge rows | — | | Tables |</code><code>| Fit table to page | — | | Algorithm |</code><code>| Autoref support | — | | Links |</code><code>| Color hyperlinks | — | | Citations |</code><code>| Numbered citations | — | | Compile |</code>latexmk -pdf main.tex<code>| Full compilation | Terminal: Ctrl+</code></td>
 </tr>
 <tr class="even">
-<td>Tables</td>
-<td><code>\multicolumn{2}{c}{Text}</code></td>
-<td>Merge columns</td>
-</tr>
-<tr class="odd">
-<td>Tables</td>
-<td><code>\multirow{2}{*}{Text}</code></td>
-<td>Merge rows</td>
-</tr>
-<tr class="even">
-<td>Tables</td>
-<td><code>\resizebox{\linewidth}{!}{...}</code></td>
-<td>Fit table to page</td>
-</tr>
-<tr class="odd">
-<td>Algorithm</td>
-<td><code>\algorithmautorefname</code></td>
-<td>Autoref support</td>
-</tr>
-<tr class="even">
-<td>Links</td>
-<td><code>\hypersetup{colorlinks=true}</code></td>
-<td>Color hyperlinks</td>
-</tr>
-<tr class="odd">
-<td>Citations</td>
-<td><code>\setcitestyle{numbers}</code></td>
-<td>Numbered citations</td>
-</tr>
-<tr class="even">
-<td>Compile</td>
-<td><code>latexmk -pdf main.tex</code></td>
-<td>Full compilation</td>
-</tr>
-<tr class="odd">
 <td>Git</td>
 <td><code>git pull --rebase</code></td>
 <td>Sync with Overleaf</td>
+<td>Ctrl+Shift+G</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Word Count</td>
 <td><code>texcount -inc -sum main.tex</code></td>
 <td>Count words</td>
+<td>Terminal: Ctrl+`</td>
 </tr>
 </tbody>
 </table>
