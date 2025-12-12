@@ -3,6 +3,7 @@ title: "LaTeX Reference Guide"
 subtitle: "Essential Commands and Tips for Academic Writing"
 author: "Dr. Md Abdus Samad"
 date: "2025-05-30"
+lastdraft: today
 toc: true
 toc-depth: 3
 code-copy: true
@@ -11,6 +12,8 @@ code-copy: true
 ## Document Comparison and Track Changes
 
 ### Compare Two .tex Files with latexdiff
+
+**VS Code:** Open integrated terminal with `Ctrl+` ` (backtick)
 
 ```bash
 latexdiff --append-context2cmd="abstract" old.tex new.tex > diff.tex
@@ -160,11 +163,15 @@ allcolors=blue}
 
 ### Delete Aux Files (Bash)
 
+**VS Code:** Open integrated terminal with `Ctrl+` ` (backtick)
+
 ```bash
 rm -f *.aux *.log *.toc *.out *.lof *.lot *.fls *.fdb_latexmk *.synctex.gz *.nav *.snm *.bbl *.blg *.vrb *.xdv
 ```
 
 ### Full Compile Sequence (with BibTeX)
+
+**VS Code:** Open integrated terminal with `Ctrl+` ` (backtick) or use LaTeX Workshop extension
 
 ```bash
 latexmk -pdf main.tex
@@ -181,10 +188,15 @@ pdflatex main.tex
 
 ::: {.callout-tip}
 ## Getting Started
+
 In Overleaf: Menu → Git → Enable Git
+
+**VS Code:** Open integrated terminal with `Ctrl+` ` (backtick) or use Source Control panel (`Ctrl+Shift+G`)
 :::
 
 ### Clone Overleaf Project
+
+**VS Code Command:** Use Command Palette (`Ctrl+Shift+P`) → "Git: Clone"
 
 Copy URL like: `https://git.overleaf.com/project-id`
 
@@ -196,6 +208,11 @@ cd project-id
 
 ### Push Local Changes to Overleaf
 
+**VS Code:** 
+- Open Source Control panel (`Ctrl+Shift+G`)
+- Stage changes, add commit message, click "Commit and Push"
+- Or use integrated terminal:
+
 ```bash
 git add .
 git commit -m "Update"
@@ -204,17 +221,19 @@ git push
 
 ### Pull Before Push to Avoid Conflict
 
+**VS Code:** Command Palette (`Ctrl+Shift+P`) → "Git: Pull (Rebase)"
+
 ```bash
 git pull --rebase
 ```
 
 ### Command Summary
 
-| Command | Description |
-|---------|-------------|
-| `git pull origin master` | Pull changes from Overleaf (remote: origin, branch: master) |
-| `git push origin master` | Push your local changes to Overleaf |
-| `git pull overleaf master` | Same as above, but only if your remote is named overleaf |
+| Command | Description | VS Code Shortcut |
+|---------|-------------|-----------------|
+| `git pull origin master` | Pull changes from Overleaf (remote: origin, branch: master) | Ctrl+Shift+P → "Git: Pull" |
+| `git push origin master` | Push your local changes to Overleaf | Ctrl+Shift+P → "Git: Push" |
+| `git pull overleaf master` | Same as above, but only if your remote is named overleaf | Ctrl+Shift+P → "Git: Pull" |
 
 ---
 
@@ -236,6 +255,8 @@ explorer.exe "main.pdf"
 
 ### Automate Compile and Open
 
+**VS Code:** Open integrated terminal with `Ctrl+` ` (backtick)
+
 ```bash
 pdflatex main.tex && start "" "main.pdf"
 ```
@@ -243,6 +264,8 @@ pdflatex main.tex && start "" "main.pdf"
 ---
 
 ## Word Counting in LaTeX
+
+**VS Code:** Open integrated terminal with `Ctrl+` ` (backtick)
 
 Use texcount for accurate word count:
 
@@ -283,6 +306,7 @@ texcount -inc -sum -total main.tex
 
 ::: {.callout-warning}
 ## Problem
+
 Reducing column spacing with `\setlength{\tabcolsep}{4pt}` may lead to inconsistent column widths.
 :::
 
@@ -376,6 +400,10 @@ Sometimes you need placeholder figures while drafting. Here is how to generate 2
 
 ### Remove Asterisks from Section Headers
 
+**VS Code:** Open Find and Replace with `Ctrl+H`
+
+**TeXstudio:** Use Find & Replace with `Ctrl+H`
+
 Search:
 ```regex
 \\((?:sub){0,2})section\*\{([^}]+)\}
@@ -401,6 +429,10 @@ Replace:
 ```
 
 ### Add Asterisks to Section Headers (Reverse Operation)
+
+**VS Code:** Open Find and Replace with `Ctrl+H` → Enable Regex mode (Alt+R)
+
+**TeXstudio:** Use Find & Replace with `Ctrl+H` → Enable Regular Expressions
 
 Search:
 ```regex
@@ -428,17 +460,34 @@ Replace:
 
 ---
 
+## VS Code Keyboard Shortcuts for LaTeX
+
+| Action | Shortcut |
+|--------|----------|
+| Open Integrated Terminal | `Ctrl+` ` (backtick) |
+| Open Find and Replace | `Ctrl+H` |
+| Quick Open File | `Ctrl+P` |
+| Command Palette | `Ctrl+Shift+P` |
+| Source Control (Git) | `Ctrl+Shift+G` |
+| Go to Line | `Ctrl+G` |
+| Format Document | `Ctrl+Shift+I` |
+| Comment Line | `Ctrl+/` |
+| Multi-cursor Selection | `Ctrl+D` (select next occurrence) |
+| Toggle Preview (Markdown) | `Ctrl+Shift+V` |
+
+---
+
 ## Quick Reference Table
 
-| Category | Command | Purpose |
-|----------|---------|---------|
-| Comparison | `latexdiff old.tex new.tex > diff.tex` | Compare documents |
-| Tables | `\multicolumn{2}{c}{Text}` | Merge columns |
-| Tables | `\multirow{2}{*}{Text}` | Merge rows |
-| Tables | `\resizebox{\linewidth}{!}{...}` | Fit table to page |
-| Algorithm | `\algorithmautorefname` | Autoref support |
-| Links | `\hypersetup{colorlinks=true}` | Color hyperlinks |
-| Citations | `\setcitestyle{numbers}` | Numbered citations |
-| Compile | `latexmk -pdf main.tex` | Full compilation |
-| Git | `git pull --rebase` | Sync with Overleaf |
-| Word Count | `texcount -inc -sum main.tex` | Count words |
+| Category | Command | Purpose | VS Code |
+|----------|---------|---------|---------|
+| Comparison | `latexdiff old.tex new.tex > diff.tex` | Compare documents | Terminal: Ctrl+` |
+| Tables | `\multicolumn{2}{c}{Text}` | Merge columns | — |
+| Tables | `\multirow{2}{*}{Text}` | Merge rows | — |
+| Tables | `\resizebox{\linewidth}{!}{...}` | Fit table to page | — |
+| Algorithm | `\algorithmautorefname` | Autoref support | — |
+| Links | `\hypersetup{colorlinks=true}` | Color hyperlinks | — |
+| Citations | `\setcitestyle{numbers}` | Numbered citations | — |
+| Compile | `latexmk -pdf main.tex` | Full compilation | Terminal: Ctrl+` |
+| Git | `git pull --rebase` | Sync with Overleaf | Ctrl+Shift+G |
+| Word Count | `texcount -inc -sum main.tex` | Count words | Terminal: Ctrl+` |
