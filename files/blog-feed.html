@@ -12,7 +12,7 @@ async function loadBlogPosts() {
     const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
     const response = await fetch(apiUrl);
     const data = await response.json();
-    const posts = data.items.slice(0, 3); // Change 3 to any number
+    // const posts = data.items.slice(0, 3); // Change 3 to any number
     if (data.status !== 'ok') {
       throw new Error('RSS feed fetch failed');
     }
