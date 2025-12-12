@@ -23,14 +23,14 @@
 #   date: "2025-01-15"
 #   categories: [news, publication, machine-learning, healthcare]
 
-# Blog posts from blog.drabdus.info
-- path: "https://blog.drabdus.info/blog/2025-12-07-korea-parking-fine-alert-advantages"
-  image: "files/images/placeholder2.JPG"
-  title: "The Korean Parking Fine Hack: How to Get a Warning Text Before the Ticket"
-  author: "Md Abdus Samad"
-  description: "In South Korea, drivers can legally receive a warning text message before an illegal parking fine is issued, offering a 5-10 minute grace period to move the vehicle and avoid the penalty (typically 40,000 KRW). The system's advantages are avoiding fines and encouraging voluntary compliance. How to get the alerts: Register with Whistle (010car.kr) for nationwide coverage. Alternatively, register directly with your local government's parking alert system. Critical Exceptions (Where you get an immediate fine): Warnings do not apply in high-risk zones like School Zones, near Fire Hydrants, on Crosswalks, or when a violation is reported by a citizen using the Safety e-Report App."
-  date: "2025-12-07"
-  categories: [blog]
+# # Blog posts from blog.drabdus.info
+# - path: "https://blog.drabdus.info/blog/2025-12-07-korea-parking-fine-alert-advantages"
+#   image: "files/images/placeholder2.JPG"
+#   title: "The Korean Parking Fine Hack: How to Get a Warning Text Before the Ticket"
+#   author: "Md Abdus Samad"
+#   description: "In South Korea, drivers can legally receive a warning text message before an illegal parking fine is issued, offering a 5-10 minute grace period to move the vehicle and avoid the penalty (typically 40,000 KRW). The system's advantages are avoiding fines and encouraging voluntary compliance. How to get the alerts: Register with Whistle (010car.kr) for nationwide coverage. Alternatively, register directly with your local government's parking alert system. Critical Exceptions (Where you get an immediate fine): Warnings do not apply in high-risk zones like School Zones, near Fire Hydrants, on Crosswalks, or when a violation is reported by a citizen using the Safety e-Report App."
+#   date: "2025-12-07"
+#   categories: [blog]
   
 # - path: "https://blog.drabdus.info/posts/your-blog-post-2/"
 #   image: "files/images/blog-preview-2.jpg"
@@ -40,8 +40,8 @@
 #   date: "2025-01-05"
 #   categories: [blog]
 
-# Your existing posts...
-- path: posts_2025_01_15_thyroid_cancer.qmd
-  image: "placeholder2.JPG"
-  title: "New Publication: Thyroid Cancer Recurrence Prediction"
-  # ... rest of your existing posts
+# # Your existing posts...
+# - path: posts_2025_01_15_thyroid_cancer.qmd
+#   image: "placeholder2.JPG"
+#   title: "New Publication: Thyroid Cancer Recurrence Prediction"
+#   # ... rest of your existing posts
