@@ -7,6 +7,12 @@ toc: true
 toc-depth: 2 
 ---
 
+::: {.callout-note}
+## Total Publications: 60
+:::
+
+---
+
 ## 2025
 
 62. P. Sarker, K. Choi, A. A. Nahid, **M. A. Samad**, et al., "CatBoost with physics-based metaheuristics for thyroid cancer recurrence prediction." *BioData Mining* 18: 84 (2025). [doi.org/10.1186/s13040-025-00494-1](https://doi.org/10.1186/s13040-025-00494-1){target="_blank"}
