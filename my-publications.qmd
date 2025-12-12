@@ -7,13 +7,11 @@ toc: true
 toc-depth: 2 
 ---
 
-::: {.callout-note}
-## Total Publications: 60
-:::
-
----
-
 ## 2025
+
+62. P. Sarker, K. Choi, A. A. Nahid, **M. A. Samad**, et al., "CatBoost with physics-based metaheuristics for thyroid cancer recurrence prediction." *BioData Mining* 18: 84 (2025). [doi.org/10.1186/s13040-025-00494-1](https://doi.org/10.1186/s13040-025-00494-1){target="_blank"}
+
+61. K. M. Sujon, R. Hassan, K. Choi, **M. A. Samad**, et al., "Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models." *Journal of Big Data* 12: 268 (2025). [doi.org/10.1186/s40537-025-01313-4](https://doi.org/10.1186/s40537-025-01313-4){target="_blank"}
 
 60. Kakon, S. Chakrabarty, Z. Al Sazid, I. A. Begum, **M. A. Samad**, and A. S. M. S. Hosen, "Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images." *Cancers* 17, no. 17: 2853 (2025). [doi.org/10.3390/cancers17172853](https://doi.org/10.3390/cancers17172853){target="_blank"}
 
