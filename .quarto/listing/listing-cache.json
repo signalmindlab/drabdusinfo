@@ -1,7 +1,8 @@
 {
   "listingMap": {
     "index.qmd": [
-      "posts"
+      "posts",
+      "posts/post-links.yml"
     ],
     "people.qmd": [
       "/people/pi.yml",

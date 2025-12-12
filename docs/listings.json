@@ -1,6 +1,10 @@
 [
   {
-    "listing": "/posts.html",
+    "listing": "/people.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
     "items": [
       "/posts/paper-title/catboost-paper.html",
       "/posts/paper-title/evaluation-metrics-paper.html",
@@ -10,11 +14,7 @@
     ]
   },
   {
-    "listing": "/people.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
+    "listing": "/posts.html",
     "items": [
       "/posts/paper-title/catboost-paper.html",
       "/posts/paper-title/evaluation-metrics-paper.html",

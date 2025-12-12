@@ -89,14 +89,42 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 3,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-recent-posts'] = new List('listing-recent-posts', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-recent-blog .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-title","listing-author","listing-description","listing-date","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-recent-blog'] = new List('listing-recent-blog', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -542,15 +570,16 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(9)</span></div><div class="category" data-category="YmxvZw==">blog <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZXZlbnQ=">event <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGFwZXI=">paper <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cHJlc2VudGF0aW9u">presentation <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 
 
 
 
-<div class="quarto-about-trestles column-page">
+<div class="quarto-about-trestles column-page-left">
   <div class="about-entity">
     <img src="files/images/profile.png" class="about-image
   round " style="height: 200px; width: 200px;">
@@ -558,7 +587,7 @@ window.Quarto = {
 <div class="quarto-title">
 <h1 class="title">Md Abdus Samad, PhD</h1>
 </div>
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
   </div>
 </header>
     <div class="about-links">
@@ -596,26 +625,6 @@ window.Quarto = {
 </div>
   </div>
   <div class="about-contents"><div id="hero-heading">
-<!--
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
-1. **Star** this repository to bookmark it for future reference.  
-1. **Fork** this repository and rename it to `YourGitHubUserName.github.io`.  
-1. **Update** the `_quarto.yml` file to configure your site’s basic settings.  
-1. **Add or edit content** in the following files and folders:
-   - `/posts/` – posts about publications, news, events  
-   - `teaching.qmd` – teaching information  
-   - `projects.yml` – research or other projects  
-   - `people.qmd` and `/people/` – team or collaborators  
-   - `/files/` - profiles, images, pdfs, and includes 
-1. [**Render and preview**](https://quarto.org/docs/websites/) your site locally.  
-1. [**Publish**](https://quarto.org/docs/publishing/github-pages.html) your site using GitHub Pages (make sure [configuring](https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png) your GitHub repository to publish from the `docs` directory, not the `root` folder). 
-1. **Refine and polish** your content and design as needed.  
-1. ✅ Enjoy your new website!
-## Experience
-- Researcher, Univerisity
-## Education
-- PhD, Univerisity -->
 <p><strong>Dr.&nbsp;Md Abdus Samad</strong> is a Research Professor in the Department of Information and Communication Engineering at Yeungnam University, Gyeongsan, South Korea. He is a registered Korean Researcher and active IEEE member.</p>
 <p>His research focuses on next-generation wireless networks, addressing challenges in millimeter-wave propagation, atmospheric interference, and signal quality. He also explores how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. His work has appeared in over 60+ publications in SCIE and SSCI-indexed journals, including high-impact telecommunications, computer science and engineering outlets.</p>
 <p>Previously, he served as Assistant Professor in the Department of Electronics and Telecommunication Engineering at International Islamic University Chittagong (2013–2017), where he contributed to curriculum development and mentored future telecommunications engineers.</p>
@@ -624,11 +633,89 @@ I'm a template that you can fork to build your own website with easy adaptation 
 </div></div>
 </div>
 
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
+<section id="recent-blog-posts" class="level2">
+<h2 data-anchor-id="recent-blog-posts">Recent Blog Posts</h2>
+<p>From my <a href="https://blog.drabdus.info" target="_blank">blog</a></p>
+<div id="listing-recent-blog" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="YmxvZw==" data-listing-date-sort="1765465200000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://blog.drabdus.info/blog/Essential%20VS%20Code%20LaTeX%20Workshop%20Keyboard%20Shortcuts" class="no-external">Essential VS Code LaTeX Workshop Keyboard Shortcuts for Faster PDF Workflow</a>
+</h3>
+<div class="delink listing-description"><a href="https://blog.drabdus.info/blog/Essential%20VS%20Code%20LaTeX%20Workshop%20Keyboard%20Shortcuts" class="no-external">
+<p>Master VS Code LaTeX Workshop with these essential keyboard shortcuts to streamline your academic writing and PDF compilation workflow.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="https://blog.drabdus.info/blog/Essential%20VS%20Code%20LaTeX%20Workshop%20Keyboard%20Shortcuts" class="no-external">
+<div class="listing-date">
+Dec 12, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="YmxvZw==" data-listing-date-sort="1765465200000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://blog.drabdus.info/blog/cheap-shopping-korea-danawa-naver" class="no-external">How to Find Cheaper Prices in Korea: A Complete Guide to Danawa and Naver Shopping</a>
+</h3>
+<div class="delink listing-description"><a href="https://blog.drabdus.info/blog/cheap-shopping-korea-danawa-naver" class="no-external">
+<p>Learn how to save money shopping in Korea by using Danawa and Naver Shopping to compare prices across hundreds of retailers and find the best deals.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="https://blog.drabdus.info/blog/cheap-shopping-korea-danawa-naver" class="no-external">
+<div class="listing-date">
+Dec 12, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="YmxvZw==" data-listing-date-sort="1765206000000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://blog.drabdus.info/blog/ai-powered-reference-verification" class="no-external">AI-Powered Reference Verification for Academic Manuscripts</a>
+</h3>
+<div class="delink listing-description"><a href="https://blog.drabdus.info/blog/ai-powered-reference-verification" class="no-external">
+<p>Discover how large language models can automatically verify every citation in your manuscript, catching errors in references, checking DOIs, and validating quotes against source PDFs in minutes instead of hours.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="https://blog.drabdus.info/blog/ai-powered-reference-verification" class="no-external">
+<div class="listing-date">
+Dec 9, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="YmxvZw==" data-listing-date-sort="1765033200000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://blog.drabdus.info/blog/2025-12-07-korea-parking-fine-alert-advantages" class="no-external">The Korean Parking Fine Hack: How to Get a Warning Text Before the Ticket</a>
+</h3>
+<div class="delink listing-description"><a href="https://blog.drabdus.info/blog/2025-12-07-korea-parking-fine-alert-advantages" class="no-external">
+<p>Learn how Whistle and local parking enforcement alert systems give you a legal warning text before a fine is issued in South Korea.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="https://blog.drabdus.info/blog/2025-12-07-korea-parking-fine-alert-advantages" class="no-external">
+<div class="listing-date">
+Dec 7, 2025
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p align="right">
+<a href="https://blog.drabdus.info" target="_blank">Visit Full Blog »</a>
+</p>
+</section>
 <section id="recent-posts" class="level2">
 <h2 data-anchor-id="recent-posts">Recent Posts</h2>
-<!--Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd) -->
-<p>Check out the latest &nbsp;<a href="./posts.html#category=paper">Papers</a>&nbsp;, &nbsp;<a href="./posts.html#category=news">News</a>&nbsp;, and &nbsp;<a href="./posts.html">More »</a></p>
+<p>Check out the latest &nbsp;<a href="./posts.html#category=paper">Papers</a>&nbsp;, &nbsp;<a href="./posts.html#category=news">News</a>&nbsp;, &nbsp;<a href="./posts.html#category=event">Events</a>&nbsp;, and &nbsp;<a href="./posts.html">More »</a></p>
 <div id="listing-recent-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="cGFwZXI=" data-listing-date-sort="1765206000000" data-listing-file-modified-sort="1765509007340" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="541">
@@ -641,9 +728,6 @@ I'm a template that you can fork to build your own website with easy adaptation 
 <h5 class="no-anchor card-title listing-title">
 CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction
 </h5>
-<div class="card-subtitle listing-subtitle">
-<em>BioData Mining</em>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
@@ -667,9 +751,6 @@ Dec 9, 2025
 <h5 class="no-anchor card-title listing-title">
 Accuracy, Precision, Recall, F1-Score, or MCC? Empirical Evidence from Advanced Statistics, ML, and XAI for Evaluating Business Predictive Models
 </h5>
-<div class="card-subtitle listing-subtitle">
-<em>Journal of Big Data</em>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
@@ -693,9 +774,6 @@ Dec 1, 2025
 <h5 class="no-anchor card-title listing-title">
 Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images
 </h5>
-<div class="card-subtitle listing-subtitle">
-<em>Cancers</em>
-</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>

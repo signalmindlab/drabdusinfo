@@ -1,20 +1,37 @@
-# - path: https://drganghe.github.io/quarto-academic-site-examples.html
-#   image: "files/images/placeholder2.JPG"
-#   title: "Quarto Academic Website Examples and Tips"
-#   author: "Dr. Gang He"
-#   description: "Examples and tips for Quarto Academic Website"
-#   date: "2024-10-15"
-#   categories: [news]
+# Blog posts from blog.drabdus.info
+- path: "https://blog.drabdus.info/blog/Essential%20VS%20Code%20LaTeX%20Workshop%20Keyboard%20Shortcuts"
+  image: "files/images/placeholder2.JPG"
+  title: "Essential VS Code LaTeX Workshop Keyboard Shortcuts for Faster PDF Workflow"
+  author: "Md Abdus Samad"
+  description: "Master VS Code LaTeX Workshop with these essential keyboard shortcuts to streamline your academic writing and PDF compilation workflow."
+  date: "2025-12-12"
+  categories: [blog]
 
-# Commented out - wrong URL
-# - path: "https://signalmindlab.github.io/drabdusinfo/miscellaneous/opensource.html"
-#   image: "files/images/placeholder2.JPG"
-#   title: "New Publication: Thyroid Cancer Recurrence Prediction"
-#   author: "Md Abdus Samad"
-#   description: "We are excited to announce our latest research has been accepted for publication in BioData Mining, a journal ranked in the top 6% of its subject area!"
-#   date: "2025-01-15"
-#   categories: [news, publication, machine-learning, healthcare]
+- path: "https://blog.drabdus.info/blog/cheap-shopping-korea-danawa-naver"
+  image: "files/images/placeholder2.JPG"
+  title: "How to Find Cheaper Prices in Korea: A Complete Guide to Danawa and Naver Shopping"
+  author: "Md Abdus Samad"
+  description: "Learn how to save money shopping in Korea by using Danawa and Naver Shopping to compare prices across hundreds of retailers and find the best deals."
+  date: "2025-12-12"
+  categories: [blog]
 
+- path: "https://blog.drabdus.info/blog/ai-powered-reference-verification"
+  image: "files/images/placeholder2.JPG"
+  title: "AI-Powered Reference Verification for Academic Manuscripts"
+  author: "Md Abdus Samad"
+  description: "Discover how large language models can automatically verify every citation in your manuscript, catching errors in references, checking DOIs, and validating quotes against source PDFs in minutes instead of hours."
+  date: "2025-12-09"
+  categories: [blog]
+
+- path: "https://blog.drabdus.info/blog/2025-12-07-korea-parking-fine-alert-advantages"
+  image: "files/images/placeholder2.JPG"
+  title: "The Korean Parking Fine Hack: How to Get a Warning Text Before the Ticket"
+  author: "Md Abdus Samad"
+  description: "Learn how Whistle and local parking enforcement alert systems give you a legal warning text before a fine is issued in South Korea."
+  date: "2025-12-07"
+  categories: [blog]
+
+# # Academic posts (example - keep your existing ones)
 # - path: posts_2025_01_15_thyroid_cancer.qmd
 #   image: "placeholder2.JPG"
 #   title: "New Publication: Thyroid Cancer Recurrence Prediction"
@@ -22,26 +39,3 @@
 #   description: "We are excited to announce our latest research has been accepted for publication in BioData Mining, a journal ranked in the top 6% of its subject area!"
 #   date: "2025-01-15"
 #   categories: [news, publication, machine-learning, healthcare]
-
-# # Blog posts from blog.drabdus.info
-# - path: "https://blog.drabdus.info/blog/2025-12-07-korea-parking-fine-alert-advantages"
-#   image: "files/images/placeholder2.JPG"
-#   title: "The Korean Parking Fine Hack: How to Get a Warning Text Before the Ticket"
-#   author: "Md Abdus Samad"
-#   description: "In South Korea, drivers can legally receive a warning text message before an illegal parking fine is issued, offering a 5-10 minute grace period to move the vehicle and avoid the penalty (typically 40,000 KRW). The system's advantages are avoiding fines and encouraging voluntary compliance. How to get the alerts: Register with Whistle (010car.kr) for nationwide coverage. Alternatively, register directly with your local government's parking alert system. Critical Exceptions (Where you get an immediate fine): Warnings do not apply in high-risk zones like School Zones, near Fire Hydrants, on Crosswalks, or when a violation is reported by a citizen using the Safety e-Report App."
-#   date: "2025-12-07"
-#   categories: [blog]
-  
-# - path: "https://blog.drabdus.info/posts/your-blog-post-2/"
-#   image: "files/images/blog-preview-2.jpg"
-#   title: "Your Blog Post Title 2"
-#   author: "Md Abdus Samad"
-#   description: "Another blog post description..."
-#   date: "2025-01-05"
-#   categories: [blog]
-
-# # Your existing posts...
-# - path: posts_2025_01_15_thyroid_cancer.qmd
-#   image: "placeholder2.JPG"
-#   title: "New Publication: Thyroid Cancer Recurrence Prediction"
-#   # ... rest of your existing posts
