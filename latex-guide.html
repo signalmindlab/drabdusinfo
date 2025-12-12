@@ -559,6 +559,11 @@ https://badge.dimensions.ai/
   <ul class="collapse">
   <li><a href="#what-this-code-does" id="toc-what-this-code-does" class="nav-link" data-scroll-target="#what-this-code-does">What this code does</a></li>
   </ul></li>
+  <li><a href="#texstudio-search-and-replace-with-regex" id="toc-texstudio-search-and-replace-with-regex" class="nav-link" data-scroll-target="#texstudio-search-and-replace-with-regex">TeXstudio Search and Replace with Regex</a>
+  <ul class="collapse">
+  <li><a href="#remove-asterisks-from-section-headers" id="toc-remove-asterisks-from-section-headers" class="nav-link" data-scroll-target="#remove-asterisks-from-section-headers">Remove Asterisks from Section Headers</a></li>
+  <li><a href="#add-asterisks-to-section-headers-reverse-operation" id="toc-add-asterisks-to-section-headers-reverse-operation" class="nav-link" data-scroll-target="#add-asterisks-to-section-headers-reverse-operation">Add Asterisks to Section Headers (Reverse Operation)</a></li>
+  </ul></li>
   <li><a href="#quick-reference-table" id="toc-quick-reference-table" class="nav-link" data-scroll-target="#quick-reference-table">Quick Reference Table</a></li>
   </ul>
 </nav>
@@ -961,6 +966,36 @@ https://badge.dimensions.ai/
 </ul>
 </div>
 </div>
+<hr>
+</section>
+</section>
+<section id="texstudio-search-and-replace-with-regex" class="level2">
+<h2 class="anchored" data-anchor-id="texstudio-search-and-replace-with-regex">TeXstudio Search and Replace with Regex</h2>
+<section id="remove-asterisks-from-section-headers" class="level3">
+<h3 class="anchored" data-anchor-id="remove-asterisks-from-section-headers">Remove Asterisks from Section Headers</h3>
+<p>Search:</p>
+<pre class="regex"><code>\\((?:sub){0,2})section\*\{([^}]+)\}</code></pre>
+<p>Replace:</p>
+<pre class="regex"><code>\\\1section{\2}</code></pre>
+<p><strong>Alternative (if the above doesn’t work in your TeXstudio version):</strong></p>
+<p>Some versions might need escaped parentheses:</p>
+<p>Search:</p>
+<pre class="regex"><code>\\\((?:sub){0,2}\)section\*\{([^}]+)\}</code></pre>
+<p>Replace:</p>
+<pre class="regex"><code>\\\1section{\2}</code></pre>
+</section>
+<section id="add-asterisks-to-section-headers-reverse-operation" class="level3">
+<h3 class="anchored" data-anchor-id="add-asterisks-to-section-headers-reverse-operation">Add Asterisks to Section Headers (Reverse Operation)</h3>
+<p>Search:</p>
+<pre class="regex"><code>\\((?:sub){0,2})section\{([^}]+)\}</code></pre>
+<p>Replace:</p>
+<pre class="regex"><code>\\\1section*{\2}</code></pre>
+<p><strong>Alternative (if the above doesn’t work in your TeXstudio version):</strong></p>
+<p>Some versions might need escaped parentheses:</p>
+<p>Search:</p>
+<pre class="regex"><code>\\\((?:sub){0,2}\)section\{([^}]+)\}</code></pre>
+<p>Replace:</p>
+<pre class="regex"><code>\\\1section*{\2}</code></pre>
 <hr>
 </section>
 </section>
