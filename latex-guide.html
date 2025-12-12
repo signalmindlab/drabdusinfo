@@ -574,7 +574,7 @@ https://badge.dimensions.ai/
   <li><a href="#table-operations" id="toc-table-operations" class="nav-link" data-scroll-target="#table-operations">Table Operations</a></li>
   <li><a href="#cross-references-citations" id="toc-cross-references-citations" class="nav-link" data-scroll-target="#cross-references-citations">Cross-References &amp; Citations</a></li>
   <li><a href="#compilation-debugging" id="toc-compilation-debugging" class="nav-link" data-scroll-target="#compilation-debugging">Compilation &amp; Debugging</a></li>
-  <li><a href="#version-control-git" id="toc-version-control-git" class="nav-link" data-scroll-target="#version-control-git">Version Control (Git)</a></li>
+  <li><a href="#version-control-with-overleaf-git" id="toc-version-control-with-overleaf-git" class="nav-link" data-scroll-target="#version-control-with-overleaf-git">Version Control with Overleaf (Git)</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -1257,64 +1257,89 @@ https://badge.dimensions.ai/
 <h3 class="anchored" data-anchor-id="compilation-debugging">Compilation &amp; Debugging</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 50%">
+<col style="width: 40%">
+<col style="width: 59%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Command</th>
-<th>Purpose</th>
-<th>VS Code Terminal</th>
+<th>What It Does</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><code>latexmk -pdf main.tex</code></td>
-<td>Full compilation with latexmk</td>
-<td><code>Ctrl+</code> <code>| |</code>texcount -inc -sum main.tex<code>| Count words in document |</code>Ctrl+<code></code></td>
+<td>✓ <strong>Recommended</strong> – Single command, handles everything (PDF output)</td>
 </tr>
 <tr class="even">
-<td><code>rm -f *.aux *.log ...</code></td>
-<td>Clean auxiliary files</td>
-<td><code>Ctrl+</code> `</td>
+<td><code>pdflatex main.tex &amp;&amp; bibtex main &amp;&amp; pdflatex main.tex x2</code></td>
+<td>Manual sequence for fine control or debugging</td>
+</tr>
+<tr class="odd">
+<td><code>texcount -inc -sum main.tex</code></td>
+<td>Count words including external files + show summary</td>
+</tr>
+<tr class="even">
+<td><code>rm -f *.aux *.log *.toc *.out *.lof *.lot *.fls *.fdb_latexmk *.synctex.gz *.nav *.snm *.bbl *.blg *.vrb *.xdv</code></td>
+<td>Remove ALL temporary files and caches</td>
 </tr>
 </tbody>
 </table>
+<p><strong>Access via:</strong> Terminal (<code>Ctrl+</code> `)</p>
+<hr>
 </section>
-<section id="version-control-git" class="level3">
-<h3 class="anchored" data-anchor-id="version-control-git">Version Control (Git)</h3>
+<section id="version-control-with-overleaf-git" class="level3">
+<h3 class="anchored" data-anchor-id="version-control-with-overleaf-git">Version Control with Overleaf (Git)</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Best Practice: Pull → Modify → Commit → Push
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Always pull before starting work to avoid conflicts!</p>
+</div>
+</div>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 32%">
+<col style="width: 50%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Command</th>
-<th>Purpose</th>
-<th>VS Code Shortcut</th>
+<th>Task</th>
+<th>VS Code UI</th>
+<th>Terminal Command</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td><strong>Pull changes</strong></td>
+<td><code>Ctrl+Shift+G</code> → <code>···</code> → “Pull (Rebase)”</td>
 <td><code>git pull --rebase</code></td>
-<td>Sync changes from Overleaf</td>
-<td><code>Ctrl+Shift+G</code></td>
 </tr>
 <tr class="even">
+<td><strong>Stage changes</strong></td>
+<td><code>Ctrl+Shift+G</code> → Click <code>+</code> icon</td>
 <td><code>git add .</code></td>
-<td>Stage all changes</td>
-<td><code>Ctrl+Shift+G</code></td>
 </tr>
 <tr class="odd">
+<td><strong>Commit</strong></td>
+<td>Enter message → <code>Ctrl+Enter</code></td>
 <td><code>git commit -m "message"</code></td>
-<td>Create commit</td>
-<td><code>Ctrl+Shift+G</code></td>
 </tr>
 <tr class="even">
+<td><strong>Push to Overleaf</strong></td>
+<td><code>Ctrl+Shift+G</code> → <code>···</code> → “Push”</td>
 <td><code>git push</code></td>
-<td>Push to Overleaf</td>
-<td><code>Ctrl+Shift+G</code></td>
 </tr>
 </tbody>
 </table>
+<p><strong>Terminal access:</strong> <code>Ctrl+</code> ` (backtick)</p>
 
 
 </section>
