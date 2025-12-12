@@ -9,7 +9,7 @@ author:
   - name: Md Abdus Samad
 date: "2025-12-09"
 categories: [paper]
-image: "placeholder3.jpg"
+image: "catboost-paper.jpg"
 citation:
   type: article-journal
   container-title: "BioData Mining"
