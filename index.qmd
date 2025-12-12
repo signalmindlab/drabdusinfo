@@ -68,7 +68,36 @@ listing:   # Comment the listing section and delete corresponding lines in the i
     sort: 
       - "date desc"
       - "title asc"
+
+
+# New blog preview section
+  - id: recent-blog
+    contents: posts/post-links.yml
+    type: grid
+    max-items: 3
+    categories: true
+    fields: [image, date, title, reading-time]
+    sort: "date desc"
 ---
+
+
+:::{#hero-heading}
+# Your bio content...
+:::
+
+## Recent Posts
+Check out the latest [Papers](posts.qmd#category=paper), [News](posts.qmd#category=news), and [More »](/posts.qmd)
+
+:::{#recent-posts}
+:::
+
+## Recent Blog Posts
+From my [blog](https://blog.drabdus.info){target="_blank"}
+
+:::{#recent-blog}
+:::
+
+<p align="right">[Visit Full Blog »](https://blog.drabdus.info){target="_blank"}</p>
 
 :::{#hero-heading}
 <!--
