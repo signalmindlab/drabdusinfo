@@ -1246,32 +1246,179 @@
     "text": "Centralized Application Systems\nSeveral countries offer centralized application portals that streamline the admission process:\n\n\n\nCountry\nPortal\nDescription\n\n\n\n\nSweden\nuniversityadmissions.se\nApply to up to 4 programs through one portal\n\n\nUK\nUCAS\nApply to up to 5 universities through unified system\n\n\nFinland\nstudyinfo.fi\nCentral admissions for polytechnics and universities\n\n\nDenmark\noptagelse.dk\nApply to up to 8 programs in priority order\n\n\nFrance\nÉtudes en France\nCampus France platform for up to 7 programs\n\n\nItaly\nUniversitaly\nMandatory pre-enrollment portal for all international students\n\n\nMalaysia\nEMGS\nOfficial gateway for all student visa applications\n\n\n\n\n\n\n\n\n\n\n\n\nTipKey Information\n\n\n\nAll URLs included are official government or government-authorized portals verified as of 2025. Application timelines differ by country and program, but most require submission 3–12 months before the intended start date. Many destinations accept standard English proficiency tests such as IELTS (6.0–7.0) or TOEFL iBT (80–100). Scholarship deadlines often fall earlier than general admission deadlines, so applicants should plan accordingly. Most developed countries also offer post-study work permits lasting 1–4 years, depending on local immigration policies. Because requirements can change, applicants should always verify the most current information directly on the official portals before applying.\n\n\n\n\n\nLast Updated: December 2025"
   },
   {
-    "objectID": "posts/paper-title/index.html#abstract",
-    "href": "posts/paper-title/index.html#abstract",
-    "title": "Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images",
+    "objectID": "posts/paper-title/catboost-paper.html#abstract",
+    "href": "posts/paper-title/catboost-paper.html#abstract",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
     "section": "Abstract",
-    "text": "Abstract\nBackground: Brain tumors can severely impair neurological function, leading to symptoms such as headaches, memory loss, motor coordination deficits, and visual disturbances. In severe cases, they may cause permanent cognitive damage or become life-threatening without early detection.\nMethods: To address this, we propose an interpretable deep ensemble model for tumor detection in Magnetic Resonance Imaging (MRI) by integrating pre-trained Convolutional Neural Networks—EfficientNetB7, InceptionV3, and Xception—using a soft voting ensemble to improve classification accuracy. The framework is further enhanced with a Light Gradient Boosting Machine as a meta-learner to increase prediction accuracy and robustness within a stacking architecture. Hyperparameter tuning is conducted using Optuna, and overfitting is mitigated through batch normalization, L2 weight decay, dropout, early stopping, and extensive data augmentation.\nResults: The proposed model integrates extensive data augmentation and advanced regularization techniques to enhance generalization. Explainable Artificial Intelligence (XAI) methods are incorporated to strengthen clinical trust: Gradient-Weighted Class Activation Mapping++ (Grad-CAM++) provides spatial localization by highlighting MRI regions most influential to predictions. Local Interpretable Model-Agnostic Explanations (LIME) and Shapley Additive Explanations (SHAP) provide complementary interpretability.\nConclusions: This transparent and reproducible framework aims to serve as a foundation for the research community, supporting the development of reliable tools for screening, review, and follow-up while reducing diagnostic workload and prioritizing patient safety."
+    "text": "Abstract\nThyroid Cancer (TC) is the uncontrolled growth of carcinogenic cells in the thyroid gland, with a higher recurrence rate than other cancers. Early detection of TC recurrence (TCR) is crucial for timely intervention. This study develops machine-learning algorithms that reduce features while maintaining high performance. Previous studies on the Differentiated Thyroid Cancer Recurrence (DTCR) dataset struggled to improve performance with feature reduction, and misclassification causes remained unexplored.\nThis work proposes three Physics-based Metaheuristic Algorithms (PBMHAs)—Energy Valley Optimization (EVOA), Equilibrium Optimization (EOA), and Electromagnetic Field Optimization (EFOA)—combined with the Categorical Boosting (CatBoost) classifier. SHAP is used to analyze feature importance. CatBoost without optimization (Only CB) achieved 95.83% Accuracy, 92.42% F-score, 96.29% Precision, and 89.27% Recall using all 16 features. After optimization, EVOA_CB reached 96.35% mean accuracy, while EOA_CB and EFOA_CB achieved 96.17%. EOA_CB excluded 11 less important features, and EFOA_CB attained the highest mean AUC of 0.994 with the lowest computational times. Additionally, this work provides insights into the factors contributing to misclassification. Using a 30:70 train-test split over 5 folds, EVOA_CB performed best on six selected features, with 96.35% Accuracy, 93.34% F-score, and 96.19% Precision. SHAP highlighted response, risk, and N as the most important features. These findings support early, efficient detection of TC recurrence with fewer features."
   },
   {
-    "objectID": "posts/paper-title/index.html#keywords",
-    "href": "posts/paper-title/index.html#keywords",
-    "title": "Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images",
+    "objectID": "posts/paper-title/catboost-paper.html#keywords",
+    "href": "posts/paper-title/catboost-paper.html#keywords",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
     "section": "Keywords",
-    "text": "Keywords\nBrain tumor detection, MRI images, deep learning, explainable artificial intelligence, ensemble learning, meta-learning, Grad-CAM++, SHAP, LIME"
+    "text": "Keywords\nThyroid cancer, Cancer recurrence, Feature selection, Physics-based metaheuristic algorithms, Energy valley optimization, Equilibrium optimization, Electromagnetic field optimization, CatBoost, Explainable AI, SHAP"
   },
   {
-    "objectID": "posts/paper-title/index.html#highlights",
-    "href": "posts/paper-title/index.html#highlights",
-    "title": "Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images",
-    "section": "Highlights",
-    "text": "Highlights\n\nIntegrates EfficientNetB7, InceptionV3, and Xception using soft voting ensemble\nLight Gradient Boosting Machine (LightGBM) as meta-learner in stacking architecture\nHyperparameter optimization using Optuna framework\nExplainable AI methods: Grad-CAM++, LIME, and SHAP for clinical interpretability\nComprehensive regularization: batch normalization, L2 weight decay, dropout, early stopping"
+    "objectID": "posts/paper-title/catboost-paper.html#key-contributions",
+    "href": "posts/paper-title/catboost-paper.html#key-contributions",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "section": "Key Contributions",
+    "text": "Key Contributions\n\nOptimized Feature Selection: Applied three PBMHAs (EVOA, EOA, and EFOA) to select the most relevant features, resulting in reduced and informative feature sets (5-9 features vs. 16 original)\nEnhanced Classification Performance: Using CatBoost with optimized hyperparameters achieved high predictive accuracy (96.35% for EVOA_CB) for distinguishing recurred and non-recurred patients\nExplainability and Feature Insights: Utilized SHAP to interpret model predictions, identifying response, risk, and N as the most influential features for TCR outcomes\nAnalysis of Misclassified Cases: Investigated misclassified instances to uncover potential anomalies and understand model limitations\nModel Efficiency: Achieved accurate TCR prediction using compact feature sets without compromising performance"
   },
   {
-    "objectID": "posts/paper-title/index.html#links",
-    "href": "posts/paper-title/index.html#links",
-    "title": "Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images",
+    "objectID": "posts/paper-title/catboost-paper.html#links",
+    "href": "posts/paper-title/catboost-paper.html#links",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
     "section": "Links",
-    "text": "Links\n\nPublished paper\nPDF"
+    "text": "Links\n\nPublished paper\nFull Text PDF\nData Repository\nGitHub Repository"
+  },
+  {
+    "objectID": "posts/paper-title/catboost-paper.html#dataset-methods",
+    "href": "posts/paper-title/catboost-paper.html#dataset-methods",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "section": "Dataset & Methods",
+    "text": "Dataset & Methods\nDataset: DTCR (Differentiated Thyroid Cancer Recurrence) - 383 patients (115 recurred, 268 non-recurred) - 16 clinicopathological features - 15-year follow-up period (minimum 10 years observation)\nAlgorithms: - CatBoost: Gradient boosting with categorical feature support - Feature Selection Methods: EVOA, EOA, EFOA (physics-based metaheuristics) - Evaluation: 5-fold cross-validation with 70:30 train-test split - Explainability: SHAP (Shapley Additive Explanations)"
+  },
+  {
+    "objectID": "posts/paper-title/catboost-paper.html#performance-comparison",
+    "href": "posts/paper-title/catboost-paper.html#performance-comparison",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "section": "Performance Comparison",
+    "text": "Performance Comparison\n\n\n\n\n\n\n\n\n\n\n\n\nModel\nFeatures\nAccuracy (%)\nF-score (%)\nPrecision (%)\nRecall (%)\nAUC\n\n\n\n\nOnly_CB\n16\n95.83\n92.42\n96.29\n89.27\n-\n\n\nEVOA_CB\n6\n96.35\n93.34\n96.19\n90.94\n0.989\n\n\nEOA_CB\n5\n96.17\n93.12\n94.31\n92.21\n0.989\n\n\nEFOA_CB\n9\n96.17\n93.09\n95.78\n91.15\n0.994"
+  },
+  {
+    "objectID": "posts/paper-title/catboost-paper.html#key-findings",
+    "href": "posts/paper-title/catboost-paper.html#key-findings",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nEVOA_CB achieved the highest accuracy (96.35%) with only 6 selected features\nEOA_CB demonstrated greatest feature reduction (5 features) with highest recall (92.21%)\nEFOA_CB achieved the highest AUC (0.994) with lowest testing time (1.51 ms)\nMost Important Features: Response, Risk, N (lymph node involvement)\nStructural Incomplete response strongly associated with recurrence\nExcellent response correlated with non-recurrence\nIntermediate risk and N1b classification linked to higher recurrence"
+  },
+  {
+    "objectID": "posts/news-title/index.html",
+    "href": "posts/news-title/index.html",
+    "title": "New Publication: Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models",
+    "section": "",
+    "text": "We’re excited to announce our latest research has been accepted for publication in Journal of Big Data, a leading open-access journal in big data analytics and applications!\nThis work presents a comprehensive evaluation of business predictive models, exploring their accuracy, interpretability, and practical deployment challenges in real-world analytical environments."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+  },
+  {
+    "objectID": "teaching.html#class-1",
+    "href": "teaching.html#class-1",
+    "title": "Teaching",
+    "section": "",
+    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+  },
+  {
+    "objectID": "teaching.html#class-2",
+    "href": "teaching.html#class-2",
+    "title": "Teaching",
+    "section": "Class 2",
+    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
+  },
+  {
+    "objectID": "teaching.html#class-3",
+    "href": "teaching.html#class-3",
+    "title": "Teaching",
+    "section": "Class 3",
+    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
+  },
+  {
+    "objectID": "publications60.html",
+    "href": "publications60.html",
+    "title": "Publications",
+    "section": "",
+    "text": "NoteTotal Publications: 60"
+  },
+  {
+    "objectID": "publications60.html#section",
+    "href": "publications60.html#section",
+    "title": "Publications",
+    "section": "2025",
+    "text": "2025\n\nKakon, S. Chakrabarty, Z. Al Sazid, I. A. Begum, M. A. Samad, and A. S. M. S. Hosen, “Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images.” Cancers 17, no. 17: 2853 (2025). doi.org/10.3390/cancers17172853\nP. Sarker, A. Ksibi, M. M. Jamjoom, K. Choi, A. A. Nahid and M. A. Samad, “Breast cancer prediction with feature-selected XGB classifier, optimized by metaheuristic algorithms.” J Big Data 12, 78 (2025). doi.org/10.1186/s40537-025-01132-7\nI. A. Talin, M. Z. Amin, and M. A. Samad, “Numerical modeling of gain-switched dysprosium-doped yellow fiber lasers.” J. Korean Phys. Soc. (2025). doi.org/10.1007/s40042-025-01303-y\nN. Saeed, I. Shafi, S. Pervez, E. B. Thompson, A. K. Castilla, M. A. Samad, and I. Ashraf, “Intelligent Decision Making for Commodities Price Prediction: Opportunities, Challenges and Future Avenues.” Comput Econ (2025). doi.org/10.1007/s10614-024-10837-5"
+  },
+  {
+    "objectID": "publications60.html#section-1",
+    "href": "publications60.html#section-1",
+    "title": "Publications",
+    "section": "2024",
+    "text": "2024\n\nA. U. Hussna, R. Islam, M. R. Alam, J. Uddin, I. Ashraf, M. A. Samad, “A graph mining-based approach to analyze the dynamics of the Twitter community of COVID-19 misinformation disseminators,” ICT Express, 2024. doi.org/10.1016/j.icte.2024.10.006\nTuhin IA, Mia MR, Islam MM, Mahmud I, Gongora HF, M. A. Samad, “StackIL10: A stacking ensemble model for the improved prediction of IL-10 inducing peptides.” PLOS ONE 19(11): e0313835. doi.org/10.1371/journal.pone.0313835\nFaruqui N, Achar S, Racherla S, Dhanawat V, Sripathi P, Islam MM, Uddin J, Othman MA, M. A. Samad, Choi K. “Cloud IaaS Optimization Using Machine Vision at the IoT Edge and the Grid Sensing Algorithm.” Sensors. 2024; 24(21):6895. doi.org/10.3390/s24216895\nDipto, S. M., Reza, M. T., Mim, N. T., M. A. Samad. “An analysis of decipherable red blood cell abnormality detection under federated environment leveraging XAI incorporated deep learning.” Sci Rep 14, 25664 (2024). doi.org/10.1038/s41598-024-76359-0\nK. M. Sujon, R. B. Hassan, Z. T. Towshi, M. A. Othman, M. A. Samad and K. Choi, “When to Use Standardization and Normalization: Empirical Evidence From Machine Learning Models and XAI,” IEEE Access, vol. 12, pp. 135300-135314, 2024, doi: 10.1109/ACCESS.2024.3462434.\nMahnoor, I. Shafi, M. Chaudhury, E. C. Montero, E. S. Alvarado, I. D. L. T. Diez, M. A. Samad, and I. Imran “A Review of Approaches for Rapid Data Clustering: Challenges, Opportunities, and Future Directions,” IEEE Access, vol. 12, pp. 138086-138120, 2024, doi:10.1109/ACCESS.2024.3461798.\nM. N. U. Alam, I. Hasnine, E. H. Bahadur, A. K. M. Masum, M. B. Urbano, M. M. Vergara, J. Uddin, I. Ashraf, M. A. Samad, “DiabSense: Early Diagnosis of Non-Insulin-Dependent Diabetes Mellitus Using Smartphone-Based Human Activity Recognition and Diabetic Retinopathy Analysis with Graph Neural Network” J Big Data. doi.org/10.1186/s40537-024-00959-w\nM. Shahroz, M. Ali, A. Tahir, H. F. Gongora, C. U. Rios, M. A. Samad, and I. Ashraf, “Hierarchical Attention Module-Based Hotspot Detection in Wafer Fabrication Using Convolutional Neural Network Model,” IEEE Access, vol. 12, pp. 92840-92855, 2024, doi: 10.1109/ACCESS.2024.3422616.\nM. K. Baowaly, B. C. Sarkar, M. A. A. Walid, M. M. Ahamad, B. C. Singh, E. S. Alvarado, I. Ashraf, M. A. Samad, “Deep Transfer Learning-Based Bird Species Classification Using Mel Spectrogram Images,” PloS One. doi.org/10.1371/journal.pone.0305708\nT. R. Shaha, M. Begum, J. Uddin, V. Y. Torres. J. A. Iturriaga, I. Ashraf. M. A. Samad, “Feature group partitioning: an approach for depression severity prediction with class balancing using machine learning algorithms,” BMC Medical Research Methodology, 2024 Jun 3;24(1). doi.org/10.1186/s12874-024-02249-8\nK. A. Alavee, M. H. Zillanee, M. Mostakim, J. Uddin, E. S. Alvarado, I. T. Diez, I. Ashraf, and M. A. Samad, “Enhancing Early Detection of Diabetic Retinopathy Through the Integration of Deep Learning Models and Explainable Artificial Intelligence.” IEEE Access. doi.org/10.1109/access.2024.3405570\nM. Begum, M. H. Shuvo, M. K. Nasir, A. Hossain, M. J. Hossain, I. Ashraf and M. A. Samad, “LCNN: Lightweight CNN Architecture for Software Defect Feature Identification Using Explainable AI.” IEEE Access. doi.org/10.1109/access.2024.3388489\nI. Raza, M. H. Jamal, R. Qureshi, A. K. Shahid, A. O. R. Vistorte, M. A. Samad, and I. Ashraf, “Adaptive neighborhood rough set model for hybrid data processing: a case study on Parkinson’s disease behavioral analysis,” Scientific Reports, vol. 14, no. 1, Apr. 2024, doi: 10.1038/s41598-024-57547-4.\nF. Md. Siraj, S. T. K. Ayon, Md. A. Samad, J. Uddin, and K. Choi, “Few-Shot Lightweight SqueezeNet Architecture for Induction Motor Fault Diagnosis Using Limited Thermal Image Dataset,” IEEE Access, vol. 12, pp. 50986–50997, 2024, doi: 10.1109/access.2024.3385430.\nM. T. Islam, W. Rahman, M. S. Hossain, K. Roksana, I. D. Azpíroz, R. M. Diaz, I. Ashraf, and M. A. Samad, “Medicinal Plant Classification Using Particle Swarm Optimized Cascaded Network,” IEEE Access, vol. 12. doi.org/10.1109/ACCESS.2024.3378262 [SCIE (Q2), JIF:3.90]\nM. A. Kader, M. A. Ullah, M. S. Islam, F. F. Sánchez, M. A. Samad, “A Real-Time Air-Writing Model to Recognize Bengali Character,” AIMS Mathematics (2024). doi.org/10.3934/math.2024325 [SCIE (Q1), JIF:2.2]"
+  },
+  {
+    "objectID": "publications60.html#section-2",
+    "href": "publications60.html#section-2",
+    "title": "Publications",
+    "section": "2023",
+    "text": "2023\n\nI. A. Talin, M. H. Abid, M. A. Samad et al. “Exploring factors influencing the severity of pregnancy anemia in India: a study using proportional odds model.” Sci Rep 13, 22816 (2023). doi.org/10.1038/s41598-023-49872-x [SCIE (Q2), JIF:4.60]\nZ. Aoujil, M. Hanine, E. S. Flores, M. A. Samad “Artificial Intelligence and Behavioral Economics: A Bibliographic Analysis of Research Field,” IEEE Access. doi.org/10.1109/ACCESS.2023.3339778 [SCIE (Q2), JIF:3.90]\nM. M. Hossain, M. A. Kashem, M. M. Islam, M. Sahidullah, S. H. Mumu, J. Uddin and M. A. Samad. “Internet of Things in Pregnancy Care Coordination and Management: A Systematic Review.” Sensors 2023, 23, 8958. doi.org/10.3390/s23239367 [SCIE (Q2), JIF:3.90]\nAA Alarfaj, A. Altamimi, T. Aljrees, S. Basheer, M. Umer, M. A. Samad et al. “Multi-Step Preprocessing with UNet Segmentation and Transfer Learning Model for Pepper Bell Leaf Disease Detection,” IEEE Access. doi.org/10.1109/ACCESS.2023.3334428 [SCIE (Q2), JIF:3.90]\nHossain, P. S.; Kim, K.; Uddin, J.; Samad, M. A.; Choi, K. “Enhancing Taxonomic Categorization of DNA Sequences with Deep Learning: A Multi-Label Approach.” Bioengineering 2023, 10, 1293. doi.org/10.3390/bioengineering10111293 [SCIE (Q2), JIF:4.60]\nB. H. A. Khattak, I. Shafi, A. S. Khan, E. S. Flores, R. G. Lara, M. A. Samad “A Systematic Survey of AI Models in Financial Market Forecasting for Profitability Analysis,” IEEE Access, doi: 10.1109/ACCESS.2023.3330156. [SCIE (Q2), JIF:3.90]\nFarooq, M. S.; Abdullah, M.; Riaz, S.; Alvi, A.; Rustam, F.; Samad, M. A. “A Survey on the Role of Industrial IoT in Manufacturing for Implementation of Smart Industry.” Sensors 2023, 23, 8958. doi.org/10.3390/s23218958 [SCIE (Q2), JIF:3.90]\nIslam, M. M.; Alam, K. M. R.; Uddin, J.; Ashraf, I.; Samad, M. A. “Benign and Malignant Oral Lesion Image Classification Using Fine-Tuned Transfer Learning Techniques.” Diagnostics 2023, 13, 3360. doi.org/10.3390/diagnostics13213360 [SCIE (Q2), JIF:3.60]\nM. Begum, M. H. Shuvo, I. Ashraf, A. A. Mamun, J. Uddin and M. A. Samad, “Software Defects Identification: Results Using Machine Learning and Explainable Artificial Intelligence Techniques,” IEEE Access, doi: 10.1109/ACCESS.2023.3329051. [SCIE (Q2), JIF:3.90]\nK. R. Hasan, A. B. Tuli, M. A. -M. Khan, S. -H. Kee, M. A. Samad and A. -A. Nahid, “Deep Learning-Based Semantic Segmentation for Remote Sensing: A Bibliometric Literature Review,” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, doi: 10.1109/JSTARS.2023.3328315. [SCIE (Q1), JIF:5.5]\nRahman, Shakila, Jahid Hasan Rony, Jia Uddin, and M. A. Samad. “Real-Time Obstacle Detection with YOLOv8 in a WSN Using UAV Aerial Photography,” Journal of Imaging. 2023; 9(10):216. doi.org/10.3390/jimaging9100216 [ESCI, JIF:3.2, Q3]\nWalid, Md. Abul Ala, Swarnali Mollick, Pintu Chandra Shill, Mrinal Kanti Baowaly, M. A. Samad “Adapted Deep Ensemble Learning-Based Voting Classifier for Osteosarcoma Cancer Classification” Diagnostics 2023, 13, 3155. doi.org/10.3390/diagnostics13193155 [SCIE (Q2), JIF:3.6]\nShahzadi, Turrnum, Muhammad Usman Ali, Fiaz Majeed, Muhammad Usman Sana, M. A. Samad “Nerve Root Compression Analysis to Find Lumbar Spine Stenosis on MRI Using CNN.” Diagnostics 13, no. 18 (September 18, 2023): 2975. doi.org/10.3390/diagnostics13182975 [SCIE (Q2), JIF:3.6]\nPinki, Farhana Tazmim, Md Abdul Awal, Khondoker Mirazul Mumenin, Md. Shahadat Hossain, Jabed Al Faysal, Rajib Rana, and M. A. Samad. “HGSOXGB: Hunger-Games-Search-Optimization-Based Framework to Predict the Need for ICU Admission for COVID-19 Patients Using EXtreme Gradient Boosting.” Mathematics 11, no. 18 (September 18, 2023): 3960. doi.org/10.3390/math11183960 [SCIE (Q1), JIF:4.4]\nHossain, Md Shakhawat, Md. Mahmudur Rahman, M. Mahbubul Syeed, Mohammad Faisal Uddin, Mahady Hasan, M. A. Samad. “DeepPoly: Deep Learning-Based Polyps Segmentation and Classification for Autonomous Colonoscopy Examination.” IEEE Access 11 (2023): 95889–902. doi.org/10.1109/access.2023.3310541 [SCIE (Q2), JIF:3.9]\nU. U. Gronthy, U. Biswas, S. Tipu, M. A. Samad, A. A. Nahid, “A Bibliometric Analysis on Arrhythmia Detection and Classification from 2005 to 2022,” Diagnostics 2023, 13(10), 1732. doi.org/10.3390/diagnostics13101732 [SCIE (Q2), JIF:3.6]\nM. A. Samad, D. -Y. Choi, H. Son and K. Choi, “Analysis of Centimeter and Millimeter-Wave Path Loss at Emergency Exit,” IEEE Access, vol. 11, pp. 34217-34226, 2023. doi.org/10.1109/ACCESS.2023.3264648 [SCIE (Q2), JIF:3.9]\nM. A. Samad, D.-Y. Choi, and K. Choi, “Path loss measurement and modeling of 5G network in emergency indoor stairwell at 3.7 and 28 GHz,” PLOS ONE, vol. 18, no. 3, p. e0282781, Mar. 2023. doi.org/10.1371/journal.pone.0282781 [SCIE (Q2), JIF:3.7]\nM. A. Samad, S. -W. Choi, C. -S. Kim and K. Choi, “Wave Propagation Modeling Techniques in Tunnel Environments: A Survey,” IEEE Access, vol. 11, pp. 2199-2225, 2023. doi.org/10.1109/ACCESS.2022.3233877 [SCIE (Q2), JIF:3.9]"
+  },
+  {
+    "objectID": "publications60.html#section-3",
+    "href": "publications60.html#section-3",
+    "title": "Publications",
+    "section": "2022",
+    "text": "2022\n\nM. S. Hossain, N. Hasan, M. A. Samad, H. M. Shakhawat, J. Karmoker, F. Ahmed, K. F. M. N. Fuad, and K. Choi. “Android Ransomware Detection From Traffic Analysis Using Metaheuristic Feature Selection.” IEEE Access 10 (2022): 128754–63. doi.org/10.1109/access.2022.3227579 [SCIE (Q2), JIF:3.9]\nM. A. Samad, D. -Y. Choi, K. Choi, “Path Loss Investigation in Hall Environment at Centimeter and Millimeter-Wave Bands,” Sensors, vol. 22, p. 6593, aug 2022. doi.org/10.3390/s22176593 [SCIE (Q2), JIF:3.9]\nM. A. Samad, and D.-Y. Choi, “Analysis and Modeling of Propagation in Tunnel at 3.7 and 28 GHz,” CMC-Computers, Materials and Continua, 71(2), pp. 3127–3143, 2022. doi.org/10.32604/cmc.2022.023086 [SCIE (Q3), JIF:3.1]"
+  },
+  {
+    "objectID": "publications60.html#section-4",
+    "href": "publications60.html#section-4",
+    "title": "Publications",
+    "section": "2021",
+    "text": "2021\n\nM. A. Samad, F. D. Diba, Y. J. Kim, and D.-Y. Choi, “Results of Large-Scale Propagation Models in Campus Corridor at 3.7 and 28 GHz,” Sensors, vol. 21, no. 22, p. 7747, nov 2021. doi.org/10.3390/s21227747 [SCIE (Q2), JIF:3.9]\nM. A. Samad, and D.-Y. Choi, “Radiowave Propagation in Tunnel: Experimental Results,” 7th International Conference on Advanced Engineering and ICT-convergence, July 7-9, 2021 [online].\nM. A. Samad, and D.-Y. Choi, “5G Vertical Services in Korea,” 6th International Conference on Advanced Engineering and ICT-convergence, 7 January 2021 [online].\nM. A. Samad, and D.-Y. Choi, “Scaling of Rain Attenuation Models: A Survey,” Applied Sciences, vol. 11, no. 18, p. 8360, aug 2021. doi.org/10.3390/app11188360 [SCIE (Q3), JIF:2.7]\nM. A. Samad, F. D. Diba, and D.-Y. Choi, “Rain attenuation scaling in South Korea: Experimental results and artificial neural network,” Electronics, vol. 10, no. 16, p. 2030, aug 2021. doi.org/10.3390/electronics10162030 [SCIE (Q2), JIF:2.9]\nF. D. Diba, M. A. Samad, and D.-Y. Choi, “Centimeter and Millimeter-Wave Propagation Characteristics for Indoor Corridors at 3.7 and 28 GHz: Results from Measurements and Models,” IEEE Access, vol. 9, pp. 158726-158737, 2021. doi.org/10.1109/ACCESS.2021.3130293 [SCIE (Q2), JIF:3.9]\nM. A. Samad, M. R. Ahmed, and S. Z. Rashid, “An overview of rain attenuation research in Bangladesh,” Indonesian Journal of Electrical Engineering and Computer Science, vol. 23, no. 2, p. 902, Aug. 2021. doi.org/10.11591/ijeecs.v23.i2.pp902-909 [SCOPUS]\nM. A. Samad, F. D. Diba, and D.-Y. Choi, “A survey of rain fade models for earth–space telecommunication links—taxonomy, methods, and comparative study,” Remote Sensing, vol. 13, no. 10, p. 1965, may 2021. doi.org/10.3390/rs13101965 [SCIE (Q2), JIF:5.0]\nF. D. Diba, M. A. Samad, J. Ghimire, and D.-Y. Choi, “Wireless telecommunication links for rainfall monitoring: Deep learning approach and experimental results,” IEEE Access, vol. 9, pp. 66 769–66 780, 2021. doi.org/10.1109/access.2021.3076781 [SCIE (Q2), JIF:3.9]\nM. A. Samad, F. D. Diba, and D.-Y. Choi, “A survey of rain attenuation prediction models for terrestrial links—current research challenges and state-of-the-art,” Sensors, vol. 21, no. 4, p. 1207, feb 2021. doi.org/10.3390/s21041207 [SCIE (Q2), JIF:3.9]\nF. D. Diba, M. A. Samad, and D.-Y. Choi, “The effects of rain on terrestrial links at K, Ka and E-bands in South Korea: Based on supervised learning,” IEEE Access, vol. 9, pp. 9345–9355, 2021. doi.org/10.1109/access.2021.3049825 [SCIE (Q2), JIF:3.9]"
+  },
+  {
+    "objectID": "publications60.html#section-5",
+    "href": "publications60.html#section-5",
+    "title": "Publications",
+    "section": "2020",
+    "text": "2020\n\nM. A. Samad, and D.-Y. Choi, “Learning-assisted rain attenuation prediction models,” Applied Sciences, vol. 10, no. 17, p. 6017, aug 2020. doi.org/10.3390/app10176017 [SCIE (Q2), JIF:2.7]"
+  },
+  {
+    "objectID": "publications60.html#section-6",
+    "href": "publications60.html#section-6",
+    "title": "Publications",
+    "section": "2015",
+    "text": "2015\n\nM. S. Hossain, and M. A. Samad, “The tropospheric scintillation prediction of earth-to-satellite link for Bangladeshi climatic condition,” Serbian Journal of Electrical Engineering, vol. 12, no. 3, pp. 263–273, 2015. doi.org/10.2298/SJEE1503263H"
+  },
+  {
+    "objectID": "publications60.html#section-7",
+    "href": "publications60.html#section-7",
+    "title": "Publications",
+    "section": "2014",
+    "text": "2014\n\nA. G. Abshir, M. M. Abdullahi, and M. A. Samad, “A Comparative Study of Carrier Frequency Offset (CFO) Estimation Techniques for OFDM Systems,” IOSR Journal of Electronics and Communication Engineering, vol. 9, no. 4, pp. 01–06, 2014.\nM. A. Samad and M. I. Huq, “Correlation between brain’s adjoin and diverse hemisphere for motor imagery task relating to central and peripheral nervous system,” International Conference on Informatics, Electronics and Vision (ICIEV), 2014, pp. 1-6, doi: 10.1109/ICIEV.2014.6850828."
+  },
+  {
+    "objectID": "publications60.html#section-8",
+    "href": "publications60.html#section-8",
+    "title": "Publications",
+    "section": "2012",
+    "text": "2012\n\nM. A. Samad, J. Uddin, and M. R. Ahmed, “FIR Filter Design Using Modified Lanczos Window Function,” Advanced Materials Research, vol. 566, pp. 49–56, Sep. 2012. doi.org/10.4028/www.scientific.net/AMR.566.49\nM. A. Samad and M. I. Huq, “Correlation between Sensorimotor Area of Central Nervous System with Peripheral Nervous System by EEG and NCV for Motor Imagery Task,” International Conference on Electrical, Computer and Telecommunication Engineering, 01-02 December 2012 (ICECTE2012), RUET, Rajshahi-6204, Bangladesh.\nM. A. Samad, “A Novel Window Function Yielding Suppressed Mainlobe Width and Minimum Sidelobe Peak,” International Journal of Computer Science, Engineering and Information Technology, vol. 2, no. 2, pp. 91–103, Apr. 2012. doi.org/10.5121/ijcseit.2012.2209"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Md Abdus Samad, PhD",
+    "section": "",
+    "text": "Lab\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n  \n      DBLP\n  \n\n  \n  \n\nDr. Md Abdus Samad is a Research Professor in the Department of Information and Communication Engineering at Yeungnam University, Gyeongsan, South Korea. He is a registered Korean Researcher and active IEEE member.\nHis research focuses on next-generation wireless networks, addressing challenges in millimeter-wave propagation, atmospheric interference, and signal quality. He also explores how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. His work has appeared in over 60+ publications in SCIE and SSCI-indexed journals, including high-impact telecommunications, computer science and engineering outlets.\nPreviously, he served as Assistant Professor in the Department of Electronics and Telecommunication Engineering at International Islamic University Chittagong (2013–2017), where he contributed to curriculum development and mentored future telecommunications engineers.\nHe earned his Ph.D. in Information and Communication Engineering from Chosun University, South Korea (2022), fully supported by the prestigious Korean Government Scholarship (Global Korea Scholarship). His research has also received funding from the National Research Foundation of Korea.\nHe actively serves the academic community as a peer reviewer for multiple Web of Science-indexed journals. His scholarly impact is reflected in his research metrics: Scopus Author ID: 57220375948, Web of Science ResearcherID: JPL-7257-2023."
+  },
+  {
+    "objectID": "index.html#recent-posts",
+    "href": "index.html#recent-posts",
+    "title": "Md Abdus Samad, PhD",
+    "section": "Recent Posts",
+    "text": "Recent Posts\n\nCheck out the latest  Papers ,  News , and  More »\n\n\n\n\n\n\n\n\n\n\nCatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction\n\n\nBioData Mining\n\n\n\npaper\n\n\n\n\nDec 9, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nExplainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images\n\n\nCancers\n\n\n\npaper\n\n\n\n\nAug 30, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Publication: Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models\n\n\n\nnews\n\n\n\n\nJan 15, 2025\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Md Abdus Samad\nDepartment of Information and Communication Engineering\nYeungnam University\nGyeongsan, Gyeongbuk, South Korea\nEmail:\n- ✉️ Official: masamad at yu dot ac dot kr\n- ✉️ Personal: write at drabdus dot info\n- ✉️ Personal/Official: write at drabdus dot com\nWebsite:\n- 🌐 https://www.drabdus.info\n- 🌐 https://www.drabdus.com"
   },
   {
     "objectID": "latex-guide.html",
@@ -1372,130 +1519,32 @@
     "text": "Quick Reference Table\n\n\n\n\n\n\n\n\nCategory\nCommand\nPurpose\n\n\n\n\nComparison\nlatexdiff old.tex new.tex &gt; diff.tex\nCompare documents\n\n\nTables\n\\multicolumn{2}{c}{Text}\nMerge columns\n\n\nTables\n\\multirow{2}{*}{Text}\nMerge rows\n\n\nTables\n\\resizebox{\\linewidth}{!}{...}\nFit table to page\n\n\nAlgorithm\n\\algorithmautorefname\nAutoref support\n\n\nLinks\n\\hypersetup{colorlinks=true}\nColor hyperlinks\n\n\nCitations\n\\setcitestyle{numbers}\nNumbered citations\n\n\nCompile\nlatexmk -pdf main.tex\nFull compilation\n\n\nGit\ngit pull --rebase\nSync with Overleaf\n\n\nWord Count\ntexcount -inc -sum main.tex\nCount words"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Md Abdus Samad\nDepartment of Information and Communication Engineering\nYeungnam University\nGyeongsan, Gyeongbuk, South Korea\nEmail:\n- ✉️ Official: masamad at yu dot ac dot kr\n- ✉️ Personal: write at drabdus dot info\n- ✉️ Personal/Official: write at drabdus dot com\nWebsite:\n- 🌐 https://www.drabdus.info\n- 🌐 https://www.drabdus.com"
+    "objectID": "posts/paper-title/explainable-deep-paper.html#abstract",
+    "href": "posts/paper-title/explainable-deep-paper.html#abstract",
+    "title": "Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images",
+    "section": "Abstract",
+    "text": "Abstract\nBackground: Brain tumors can severely impair neurological function, leading to symptoms such as headaches, memory loss, motor coordination deficits, and visual disturbances. In severe cases, they may cause permanent cognitive damage or become life-threatening without early detection.\nMethods: To address this, we propose an interpretable deep ensemble model for tumor detection in Magnetic Resonance Imaging (MRI) by integrating pre-trained Convolutional Neural Networks—EfficientNetB7, InceptionV3, and Xception—using a soft voting ensemble to improve classification accuracy. The framework is further enhanced with a Light Gradient Boosting Machine as a meta-learner to increase prediction accuracy and robustness within a stacking architecture. Hyperparameter tuning is conducted using Optuna, and overfitting is mitigated through batch normalization, L2 weight decay, dropout, early stopping, and extensive data augmentation.\nResults: The proposed model integrates extensive data augmentation and advanced regularization techniques to enhance generalization. Explainable Artificial Intelligence (XAI) methods are incorporated to strengthen clinical trust: Gradient-Weighted Class Activation Mapping++ (Grad-CAM++) provides spatial localization by highlighting MRI regions most influential to predictions. Local Interpretable Model-Agnostic Explanations (LIME) and Shapley Additive Explanations (SHAP) provide complementary interpretability.\nConclusions: This transparent and reproducible framework aims to serve as a foundation for the research community, supporting the development of reliable tools for screening, review, and follow-up while reducing diagnostic workload and prioritizing patient safety."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Md Abdus Samad, PhD",
-    "section": "",
-    "text": "Lab\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n  \n      DBLP\n  \n\n  \n  \n\nDr. Md Abdus Samad is a Research Professor in the Department of Information and Communication Engineering at Yeungnam University, Gyeongsan, South Korea. He is a registered Korean Researcher and active IEEE member.\nHis research focuses on next-generation wireless networks, addressing challenges in millimeter-wave propagation, atmospheric interference, and signal quality. He also explores how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. His work has appeared in over 60+ publications in SCIE and SSCI-indexed journals, including high-impact telecommunications, computer science and engineering outlets.\nPreviously, he served as Assistant Professor in the Department of Electronics and Telecommunication Engineering at International Islamic University Chittagong (2013–2017), where he contributed to curriculum development and mentored future telecommunications engineers.\nHe earned his Ph.D. in Information and Communication Engineering from Chosun University, South Korea (2022), fully supported by the prestigious Korean Government Scholarship (Global Korea Scholarship). His research has also received funding from the National Research Foundation of Korea.\nHe actively serves the academic community as a peer reviewer for multiple Web of Science-indexed journals. His scholarly impact is reflected in his research metrics: Scopus Author ID: 57220375948, Web of Science ResearcherID: JPL-7257-2023."
+    "objectID": "posts/paper-title/explainable-deep-paper.html#keywords",
+    "href": "posts/paper-title/explainable-deep-paper.html#keywords",
+    "title": "Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images",
+    "section": "Keywords",
+    "text": "Keywords\nBrain tumor detection, MRI images, deep learning, explainable artificial intelligence, ensemble learning, meta-learning, Grad-CAM++, SHAP, LIME"
   },
   {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Md Abdus Samad, PhD",
-    "section": "Recent Posts",
-    "text": "Recent Posts\n\nCheck out the latest  Papers ,  News , and  More »\n\n\n\n\n\n\n\n\n\n\nExplainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images\n\n\nCancers\n\n\n\npaper\n\n\n\n\nAug 30, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Publication: Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models\n\n\n\nnews\n\n\n\n\nJan 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nevent\n\npresentation\n\n\n\n\nSep 3, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+    "objectID": "posts/paper-title/explainable-deep-paper.html#highlights",
+    "href": "posts/paper-title/explainable-deep-paper.html#highlights",
+    "title": "Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images",
+    "section": "Highlights",
+    "text": "Highlights\n\nIntegrates EfficientNetB7, InceptionV3, and Xception using soft voting ensemble\nLight Gradient Boosting Machine (LightGBM) as meta-learner in stacking architecture\nHyperparameter optimization using Optuna framework\nExplainable AI methods: Grad-CAM++, LIME, and SHAP for clinical interpretability\nComprehensive regularization: batch normalization, L2 weight decay, dropout, early stopping"
   },
   {
-    "objectID": "publications60.html",
-    "href": "publications60.html",
-    "title": "Publications",
-    "section": "",
-    "text": "NoteTotal Publications: 60"
-  },
-  {
-    "objectID": "publications60.html#section",
-    "href": "publications60.html#section",
-    "title": "Publications",
-    "section": "2025",
-    "text": "2025\n\nKakon, S. Chakrabarty, Z. Al Sazid, I. A. Begum, M. A. Samad, and A. S. M. S. Hosen, “Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images.” Cancers 17, no. 17: 2853 (2025). doi.org/10.3390/cancers17172853\nP. Sarker, A. Ksibi, M. M. Jamjoom, K. Choi, A. A. Nahid and M. A. Samad, “Breast cancer prediction with feature-selected XGB classifier, optimized by metaheuristic algorithms.” J Big Data 12, 78 (2025). doi.org/10.1186/s40537-025-01132-7\nI. A. Talin, M. Z. Amin, and M. A. Samad, “Numerical modeling of gain-switched dysprosium-doped yellow fiber lasers.” J. Korean Phys. Soc. (2025). doi.org/10.1007/s40042-025-01303-y\nN. Saeed, I. Shafi, S. Pervez, E. B. Thompson, A. K. Castilla, M. A. Samad, and I. Ashraf, “Intelligent Decision Making for Commodities Price Prediction: Opportunities, Challenges and Future Avenues.” Comput Econ (2025). doi.org/10.1007/s10614-024-10837-5"
-  },
-  {
-    "objectID": "publications60.html#section-1",
-    "href": "publications60.html#section-1",
-    "title": "Publications",
-    "section": "2024",
-    "text": "2024\n\nA. U. Hussna, R. Islam, M. R. Alam, J. Uddin, I. Ashraf, M. A. Samad, “A graph mining-based approach to analyze the dynamics of the Twitter community of COVID-19 misinformation disseminators,” ICT Express, 2024. doi.org/10.1016/j.icte.2024.10.006\nTuhin IA, Mia MR, Islam MM, Mahmud I, Gongora HF, M. A. Samad, “StackIL10: A stacking ensemble model for the improved prediction of IL-10 inducing peptides.” PLOS ONE 19(11): e0313835. doi.org/10.1371/journal.pone.0313835\nFaruqui N, Achar S, Racherla S, Dhanawat V, Sripathi P, Islam MM, Uddin J, Othman MA, M. A. Samad, Choi K. “Cloud IaaS Optimization Using Machine Vision at the IoT Edge and the Grid Sensing Algorithm.” Sensors. 2024; 24(21):6895. doi.org/10.3390/s24216895\nDipto, S. M., Reza, M. T., Mim, N. T., M. A. Samad. “An analysis of decipherable red blood cell abnormality detection under federated environment leveraging XAI incorporated deep learning.” Sci Rep 14, 25664 (2024). doi.org/10.1038/s41598-024-76359-0\nK. M. Sujon, R. B. Hassan, Z. T. Towshi, M. A. Othman, M. A. Samad and K. Choi, “When to Use Standardization and Normalization: Empirical Evidence From Machine Learning Models and XAI,” IEEE Access, vol. 12, pp. 135300-135314, 2024, doi: 10.1109/ACCESS.2024.3462434.\nMahnoor, I. Shafi, M. Chaudhury, E. C. Montero, E. S. Alvarado, I. D. L. T. Diez, M. A. Samad, and I. Imran “A Review of Approaches for Rapid Data Clustering: Challenges, Opportunities, and Future Directions,” IEEE Access, vol. 12, pp. 138086-138120, 2024, doi:10.1109/ACCESS.2024.3461798.\nM. N. U. Alam, I. Hasnine, E. H. Bahadur, A. K. M. Masum, M. B. Urbano, M. M. Vergara, J. Uddin, I. Ashraf, M. A. Samad, “DiabSense: Early Diagnosis of Non-Insulin-Dependent Diabetes Mellitus Using Smartphone-Based Human Activity Recognition and Diabetic Retinopathy Analysis with Graph Neural Network” J Big Data. doi.org/10.1186/s40537-024-00959-w\nM. Shahroz, M. Ali, A. Tahir, H. F. Gongora, C. U. Rios, M. A. Samad, and I. Ashraf, “Hierarchical Attention Module-Based Hotspot Detection in Wafer Fabrication Using Convolutional Neural Network Model,” IEEE Access, vol. 12, pp. 92840-92855, 2024, doi: 10.1109/ACCESS.2024.3422616.\nM. K. Baowaly, B. C. Sarkar, M. A. A. Walid, M. M. Ahamad, B. C. Singh, E. S. Alvarado, I. Ashraf, M. A. Samad, “Deep Transfer Learning-Based Bird Species Classification Using Mel Spectrogram Images,” PloS One. doi.org/10.1371/journal.pone.0305708\nT. R. Shaha, M. Begum, J. Uddin, V. Y. Torres. J. A. Iturriaga, I. Ashraf. M. A. Samad, “Feature group partitioning: an approach for depression severity prediction with class balancing using machine learning algorithms,” BMC Medical Research Methodology, 2024 Jun 3;24(1). doi.org/10.1186/s12874-024-02249-8\nK. A. Alavee, M. H. Zillanee, M. Mostakim, J. Uddin, E. S. Alvarado, I. T. Diez, I. Ashraf, and M. A. Samad, “Enhancing Early Detection of Diabetic Retinopathy Through the Integration of Deep Learning Models and Explainable Artificial Intelligence.” IEEE Access. doi.org/10.1109/access.2024.3405570\nM. Begum, M. H. Shuvo, M. K. Nasir, A. Hossain, M. J. Hossain, I. Ashraf and M. A. Samad, “LCNN: Lightweight CNN Architecture for Software Defect Feature Identification Using Explainable AI.” IEEE Access. doi.org/10.1109/access.2024.3388489\nI. Raza, M. H. Jamal, R. Qureshi, A. K. Shahid, A. O. R. Vistorte, M. A. Samad, and I. Ashraf, “Adaptive neighborhood rough set model for hybrid data processing: a case study on Parkinson’s disease behavioral analysis,” Scientific Reports, vol. 14, no. 1, Apr. 2024, doi: 10.1038/s41598-024-57547-4.\nF. Md. Siraj, S. T. K. Ayon, Md. A. Samad, J. Uddin, and K. Choi, “Few-Shot Lightweight SqueezeNet Architecture for Induction Motor Fault Diagnosis Using Limited Thermal Image Dataset,” IEEE Access, vol. 12, pp. 50986–50997, 2024, doi: 10.1109/access.2024.3385430.\nM. T. Islam, W. Rahman, M. S. Hossain, K. Roksana, I. D. Azpíroz, R. M. Diaz, I. Ashraf, and M. A. Samad, “Medicinal Plant Classification Using Particle Swarm Optimized Cascaded Network,” IEEE Access, vol. 12. doi.org/10.1109/ACCESS.2024.3378262 [SCIE (Q2), JIF:3.90]\nM. A. Kader, M. A. Ullah, M. S. Islam, F. F. Sánchez, M. A. Samad, “A Real-Time Air-Writing Model to Recognize Bengali Character,” AIMS Mathematics (2024). doi.org/10.3934/math.2024325 [SCIE (Q1), JIF:2.2]"
-  },
-  {
-    "objectID": "publications60.html#section-2",
-    "href": "publications60.html#section-2",
-    "title": "Publications",
-    "section": "2023",
-    "text": "2023\n\nI. A. Talin, M. H. Abid, M. A. Samad et al. “Exploring factors influencing the severity of pregnancy anemia in India: a study using proportional odds model.” Sci Rep 13, 22816 (2023). doi.org/10.1038/s41598-023-49872-x [SCIE (Q2), JIF:4.60]\nZ. Aoujil, M. Hanine, E. S. Flores, M. A. Samad “Artificial Intelligence and Behavioral Economics: A Bibliographic Analysis of Research Field,” IEEE Access. doi.org/10.1109/ACCESS.2023.3339778 [SCIE (Q2), JIF:3.90]\nM. M. Hossain, M. A. Kashem, M. M. Islam, M. Sahidullah, S. H. Mumu, J. Uddin and M. A. Samad. “Internet of Things in Pregnancy Care Coordination and Management: A Systematic Review.” Sensors 2023, 23, 8958. doi.org/10.3390/s23239367 [SCIE (Q2), JIF:3.90]\nAA Alarfaj, A. Altamimi, T. Aljrees, S. Basheer, M. Umer, M. A. Samad et al. “Multi-Step Preprocessing with UNet Segmentation and Transfer Learning Model for Pepper Bell Leaf Disease Detection,” IEEE Access. doi.org/10.1109/ACCESS.2023.3334428 [SCIE (Q2), JIF:3.90]\nHossain, P. S.; Kim, K.; Uddin, J.; Samad, M. A.; Choi, K. “Enhancing Taxonomic Categorization of DNA Sequences with Deep Learning: A Multi-Label Approach.” Bioengineering 2023, 10, 1293. doi.org/10.3390/bioengineering10111293 [SCIE (Q2), JIF:4.60]\nB. H. A. Khattak, I. Shafi, A. S. Khan, E. S. Flores, R. G. Lara, M. A. Samad “A Systematic Survey of AI Models in Financial Market Forecasting for Profitability Analysis,” IEEE Access, doi: 10.1109/ACCESS.2023.3330156. [SCIE (Q2), JIF:3.90]\nFarooq, M. S.; Abdullah, M.; Riaz, S.; Alvi, A.; Rustam, F.; Samad, M. A. “A Survey on the Role of Industrial IoT in Manufacturing for Implementation of Smart Industry.” Sensors 2023, 23, 8958. doi.org/10.3390/s23218958 [SCIE (Q2), JIF:3.90]\nIslam, M. M.; Alam, K. M. R.; Uddin, J.; Ashraf, I.; Samad, M. A. “Benign and Malignant Oral Lesion Image Classification Using Fine-Tuned Transfer Learning Techniques.” Diagnostics 2023, 13, 3360. doi.org/10.3390/diagnostics13213360 [SCIE (Q2), JIF:3.60]\nM. Begum, M. H. Shuvo, I. Ashraf, A. A. Mamun, J. Uddin and M. A. Samad, “Software Defects Identification: Results Using Machine Learning and Explainable Artificial Intelligence Techniques,” IEEE Access, doi: 10.1109/ACCESS.2023.3329051. [SCIE (Q2), JIF:3.90]\nK. R. Hasan, A. B. Tuli, M. A. -M. Khan, S. -H. Kee, M. A. Samad and A. -A. Nahid, “Deep Learning-Based Semantic Segmentation for Remote Sensing: A Bibliometric Literature Review,” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, doi: 10.1109/JSTARS.2023.3328315. [SCIE (Q1), JIF:5.5]\nRahman, Shakila, Jahid Hasan Rony, Jia Uddin, and M. A. Samad. “Real-Time Obstacle Detection with YOLOv8 in a WSN Using UAV Aerial Photography,” Journal of Imaging. 2023; 9(10):216. doi.org/10.3390/jimaging9100216 [ESCI, JIF:3.2, Q3]\nWalid, Md. Abul Ala, Swarnali Mollick, Pintu Chandra Shill, Mrinal Kanti Baowaly, M. A. Samad “Adapted Deep Ensemble Learning-Based Voting Classifier for Osteosarcoma Cancer Classification” Diagnostics 2023, 13, 3155. doi.org/10.3390/diagnostics13193155 [SCIE (Q2), JIF:3.6]\nShahzadi, Turrnum, Muhammad Usman Ali, Fiaz Majeed, Muhammad Usman Sana, M. A. Samad “Nerve Root Compression Analysis to Find Lumbar Spine Stenosis on MRI Using CNN.” Diagnostics 13, no. 18 (September 18, 2023): 2975. doi.org/10.3390/diagnostics13182975 [SCIE (Q2), JIF:3.6]\nPinki, Farhana Tazmim, Md Abdul Awal, Khondoker Mirazul Mumenin, Md. Shahadat Hossain, Jabed Al Faysal, Rajib Rana, and M. A. Samad. “HGSOXGB: Hunger-Games-Search-Optimization-Based Framework to Predict the Need for ICU Admission for COVID-19 Patients Using EXtreme Gradient Boosting.” Mathematics 11, no. 18 (September 18, 2023): 3960. doi.org/10.3390/math11183960 [SCIE (Q1), JIF:4.4]\nHossain, Md Shakhawat, Md. Mahmudur Rahman, M. Mahbubul Syeed, Mohammad Faisal Uddin, Mahady Hasan, M. A. Samad. “DeepPoly: Deep Learning-Based Polyps Segmentation and Classification for Autonomous Colonoscopy Examination.” IEEE Access 11 (2023): 95889–902. doi.org/10.1109/access.2023.3310541 [SCIE (Q2), JIF:3.9]\nU. U. Gronthy, U. Biswas, S. Tipu, M. A. Samad, A. A. Nahid, “A Bibliometric Analysis on Arrhythmia Detection and Classification from 2005 to 2022,” Diagnostics 2023, 13(10), 1732. doi.org/10.3390/diagnostics13101732 [SCIE (Q2), JIF:3.6]\nM. A. Samad, D. -Y. Choi, H. Son and K. Choi, “Analysis of Centimeter and Millimeter-Wave Path Loss at Emergency Exit,” IEEE Access, vol. 11, pp. 34217-34226, 2023. doi.org/10.1109/ACCESS.2023.3264648 [SCIE (Q2), JIF:3.9]\nM. A. Samad, D.-Y. Choi, and K. Choi, “Path loss measurement and modeling of 5G network in emergency indoor stairwell at 3.7 and 28 GHz,” PLOS ONE, vol. 18, no. 3, p. e0282781, Mar. 2023. doi.org/10.1371/journal.pone.0282781 [SCIE (Q2), JIF:3.7]\nM. A. Samad, S. -W. Choi, C. -S. Kim and K. Choi, “Wave Propagation Modeling Techniques in Tunnel Environments: A Survey,” IEEE Access, vol. 11, pp. 2199-2225, 2023. doi.org/10.1109/ACCESS.2022.3233877 [SCIE (Q2), JIF:3.9]"
-  },
-  {
-    "objectID": "publications60.html#section-3",
-    "href": "publications60.html#section-3",
-    "title": "Publications",
-    "section": "2022",
-    "text": "2022\n\nM. S. Hossain, N. Hasan, M. A. Samad, H. M. Shakhawat, J. Karmoker, F. Ahmed, K. F. M. N. Fuad, and K. Choi. “Android Ransomware Detection From Traffic Analysis Using Metaheuristic Feature Selection.” IEEE Access 10 (2022): 128754–63. doi.org/10.1109/access.2022.3227579 [SCIE (Q2), JIF:3.9]\nM. A. Samad, D. -Y. Choi, K. Choi, “Path Loss Investigation in Hall Environment at Centimeter and Millimeter-Wave Bands,” Sensors, vol. 22, p. 6593, aug 2022. doi.org/10.3390/s22176593 [SCIE (Q2), JIF:3.9]\nM. A. Samad, and D.-Y. Choi, “Analysis and Modeling of Propagation in Tunnel at 3.7 and 28 GHz,” CMC-Computers, Materials and Continua, 71(2), pp. 3127–3143, 2022. doi.org/10.32604/cmc.2022.023086 [SCIE (Q3), JIF:3.1]"
-  },
-  {
-    "objectID": "publications60.html#section-4",
-    "href": "publications60.html#section-4",
-    "title": "Publications",
-    "section": "2021",
-    "text": "2021\n\nM. A. Samad, F. D. Diba, Y. J. Kim, and D.-Y. Choi, “Results of Large-Scale Propagation Models in Campus Corridor at 3.7 and 28 GHz,” Sensors, vol. 21, no. 22, p. 7747, nov 2021. doi.org/10.3390/s21227747 [SCIE (Q2), JIF:3.9]\nM. A. Samad, and D.-Y. Choi, “Radiowave Propagation in Tunnel: Experimental Results,” 7th International Conference on Advanced Engineering and ICT-convergence, July 7-9, 2021 [online].\nM. A. Samad, and D.-Y. Choi, “5G Vertical Services in Korea,” 6th International Conference on Advanced Engineering and ICT-convergence, 7 January 2021 [online].\nM. A. Samad, and D.-Y. Choi, “Scaling of Rain Attenuation Models: A Survey,” Applied Sciences, vol. 11, no. 18, p. 8360, aug 2021. doi.org/10.3390/app11188360 [SCIE (Q3), JIF:2.7]\nM. A. Samad, F. D. Diba, and D.-Y. Choi, “Rain attenuation scaling in South Korea: Experimental results and artificial neural network,” Electronics, vol. 10, no. 16, p. 2030, aug 2021. doi.org/10.3390/electronics10162030 [SCIE (Q2), JIF:2.9]\nF. D. Diba, M. A. Samad, and D.-Y. Choi, “Centimeter and Millimeter-Wave Propagation Characteristics for Indoor Corridors at 3.7 and 28 GHz: Results from Measurements and Models,” IEEE Access, vol. 9, pp. 158726-158737, 2021. doi.org/10.1109/ACCESS.2021.3130293 [SCIE (Q2), JIF:3.9]\nM. A. Samad, M. R. Ahmed, and S. Z. Rashid, “An overview of rain attenuation research in Bangladesh,” Indonesian Journal of Electrical Engineering and Computer Science, vol. 23, no. 2, p. 902, Aug. 2021. doi.org/10.11591/ijeecs.v23.i2.pp902-909 [SCOPUS]\nM. A. Samad, F. D. Diba, and D.-Y. Choi, “A survey of rain fade models for earth–space telecommunication links—taxonomy, methods, and comparative study,” Remote Sensing, vol. 13, no. 10, p. 1965, may 2021. doi.org/10.3390/rs13101965 [SCIE (Q2), JIF:5.0]\nF. D. Diba, M. A. Samad, J. Ghimire, and D.-Y. Choi, “Wireless telecommunication links for rainfall monitoring: Deep learning approach and experimental results,” IEEE Access, vol. 9, pp. 66 769–66 780, 2021. doi.org/10.1109/access.2021.3076781 [SCIE (Q2), JIF:3.9]\nM. A. Samad, F. D. Diba, and D.-Y. Choi, “A survey of rain attenuation prediction models for terrestrial links—current research challenges and state-of-the-art,” Sensors, vol. 21, no. 4, p. 1207, feb 2021. doi.org/10.3390/s21041207 [SCIE (Q2), JIF:3.9]\nF. D. Diba, M. A. Samad, and D.-Y. Choi, “The effects of rain on terrestrial links at K, Ka and E-bands in South Korea: Based on supervised learning,” IEEE Access, vol. 9, pp. 9345–9355, 2021. doi.org/10.1109/access.2021.3049825 [SCIE (Q2), JIF:3.9]"
-  },
-  {
-    "objectID": "publications60.html#section-5",
-    "href": "publications60.html#section-5",
-    "title": "Publications",
-    "section": "2020",
-    "text": "2020\n\nM. A. Samad, and D.-Y. Choi, “Learning-assisted rain attenuation prediction models,” Applied Sciences, vol. 10, no. 17, p. 6017, aug 2020. doi.org/10.3390/app10176017 [SCIE (Q2), JIF:2.7]"
-  },
-  {
-    "objectID": "publications60.html#section-6",
-    "href": "publications60.html#section-6",
-    "title": "Publications",
-    "section": "2015",
-    "text": "2015\n\nM. S. Hossain, and M. A. Samad, “The tropospheric scintillation prediction of earth-to-satellite link for Bangladeshi climatic condition,” Serbian Journal of Electrical Engineering, vol. 12, no. 3, pp. 263–273, 2015. doi.org/10.2298/SJEE1503263H"
-  },
-  {
-    "objectID": "publications60.html#section-7",
-    "href": "publications60.html#section-7",
-    "title": "Publications",
-    "section": "2014",
-    "text": "2014\n\nA. G. Abshir, M. M. Abdullahi, and M. A. Samad, “A Comparative Study of Carrier Frequency Offset (CFO) Estimation Techniques for OFDM Systems,” IOSR Journal of Electronics and Communication Engineering, vol. 9, no. 4, pp. 01–06, 2014.\nM. A. Samad and M. I. Huq, “Correlation between brain’s adjoin and diverse hemisphere for motor imagery task relating to central and peripheral nervous system,” International Conference on Informatics, Electronics and Vision (ICIEV), 2014, pp. 1-6, doi: 10.1109/ICIEV.2014.6850828."
-  },
-  {
-    "objectID": "publications60.html#section-8",
-    "href": "publications60.html#section-8",
-    "title": "Publications",
-    "section": "2012",
-    "text": "2012\n\nM. A. Samad, J. Uddin, and M. R. Ahmed, “FIR Filter Design Using Modified Lanczos Window Function,” Advanced Materials Research, vol. 566, pp. 49–56, Sep. 2012. doi.org/10.4028/www.scientific.net/AMR.566.49\nM. A. Samad and M. I. Huq, “Correlation between Sensorimotor Area of Central Nervous System with Peripheral Nervous System by EEG and NCV for Motor Imagery Task,” International Conference on Electrical, Computer and Telecommunication Engineering, 01-02 December 2012 (ICECTE2012), RUET, Rajshahi-6204, Bangladesh.\nM. A. Samad, “A Novel Window Function Yielding Suppressed Mainlobe Width and Minimum Sidelobe Peak,” International Journal of Computer Science, Engineering and Information Technology, vol. 2, no. 2, pp. 91–103, Apr. 2012. doi.org/10.5121/ijcseit.2012.2209"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-1",
-    "href": "teaching.html#class-1",
-    "title": "Teaching",
-    "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-2",
-    "href": "teaching.html#class-2",
-    "title": "Teaching",
-    "section": "Class 2",
-    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
-  },
-  {
-    "objectID": "teaching.html#class-3",
-    "href": "teaching.html#class-3",
-    "title": "Teaching",
-    "section": "Class 3",
-    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
-  },
-  {
-    "objectID": "posts/news-title/index.html",
-    "href": "posts/news-title/index.html",
-    "title": "New Publication: Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models",
-    "section": "",
-    "text": "We’re excited to announce our latest research has been accepted for publication in Journal of Big Data, a leading open-access journal in big data analytics and applications!\nThis work presents a comprehensive evaluation of business predictive models, exploring their accuracy, interpretability, and practical deployment challenges in real-world analytical environments."
+    "objectID": "posts/paper-title/explainable-deep-paper.html#links",
+    "href": "posts/paper-title/explainable-deep-paper.html#links",
+    "title": "Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images",
+    "section": "Links",
+    "text": "Links\n\nPublished paper\nPDF"
   },
   {
     "objectID": "miscellaneous/anonymization.html",
@@ -2118,7 +2167,7 @@
     "href": "posts.html",
     "title": "What’s New & Updated",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nExplainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images\n\n\nCancers\n\n\n\npaper\n\n\n\nAn interpretable deep ensemble model for tumor detection in MRI by integrating pre-trained CNNs with a Light Gradient Boosting Machine meta-learner.\n\n\n\n\n\nAug 30, 2025\n\n\nS. Kakon, S. Chakrabarty, Z. Al Sazid, I. A. Begum, Md Abdus Samad, A. S. M. S. Hosen\n\n\n\n\n\n\n\n\n\n\n\n\nNew Publication: Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\nmd abdus samad\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction\n\n\nBioData Mining\n\n\n\npaper\n\n\n\nMachine learning approach combining CatBoost classifier with physics-based metaheuristic algorithms for efficient thyroid cancer recurrence prediction with feature optimization.\n\n\n\n\n\nDec 9, 2025\n\n\nProshenjit Sarker, Kwonhue Choi, Abdullah-Al Nahid, Md Abdus Samad\n\n\n\n\n\n\n\n\n\n\n\n\nExplainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images\n\n\nCancers\n\n\n\npaper\n\n\n\nAn interpretable deep ensemble model for tumor detection in MRI by integrating pre-trained CNNs with a Light Gradient Boosting Machine meta-learner.\n\n\n\n\n\nAug 30, 2025\n\n\nS. Kakon, S. Chakrabarty, Z. Al Sazid, I. A. Begum, Md Abdus Samad, A. S. M. S. Hosen\n\n\n\n\n\n\n\n\n\n\n\n\nNew Publication: Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\nmd abdus samad\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people.html",
