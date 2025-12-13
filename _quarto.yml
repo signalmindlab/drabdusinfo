@@ -86,7 +86,7 @@ website:
           - text: Journal Templates
             href: miscellaneous/templates.qmd
           - text: Verifying Journal Indexing
-            href: miscellaneous/indexing.qmd
+            href: miscellaneous/verifying-journal-indexing.qmd
           - text: Reference, Image Quality, and Detexify
             href: miscellaneous/reference-management.qmd
           - text: Author Services by Major Publishers
