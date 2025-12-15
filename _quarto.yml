@@ -57,7 +57,7 @@ website:
             # href: posts.qmd#category=paper
           # - text: Grants
             # href: projects.qmd    
-      - text: Explore Global Study Paths
+      - text: Guidance
         menu:
           - text: Top Global Scholarships
             href: global-scholarships.qmd
