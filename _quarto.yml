@@ -47,6 +47,10 @@ website:
       - text: LaTeX 
         href: latex-guide.qmd
 
+      - text: "My Blog"
+        href: https://blog.drabdus.info/ 
+        target: _blank
+
       # - text: My Blog 
       #   href: https://blog.drabdus.info/            
       # - text: Research
@@ -123,9 +127,9 @@ website:
       # - text: Group   # Comment the Group part out to remove the Group page
         # href: people.qmd
 
-      - text: "My Blog"
-        href: https://blog.drabdus.info/ 
-        target: _blank
+      # - text: "My Blog"
+      #   href: https://blog.drabdus.info/ 
+      #   target: _blank
 
       - text: Other Sites
         menu:
