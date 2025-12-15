@@ -5,13 +5,13 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Md Abdus Samad</title>
+<title>Home</title>
 <link>https://www.drabdus.info/posts.html</link>
 <atom:link href="https://www.drabdus.info/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Developed by Dr. Md Abdus Samad</description>
 <image>
 <url>https://www.drabdus.info/posts/placeholder2.JPG</url>
-<title>Md Abdus Samad</title>
+<title>Home</title>
 <link>https://www.drabdus.info/posts.html</link>
 </image>
 <generator>quarto-1.8.26</generator>
