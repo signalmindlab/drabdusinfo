@@ -194,6 +194,19 @@ In Overleaf: Menu → Git → Enable Git
 **VS Code:** Open integrated terminal with `Ctrl+` ` (backtick) or use Source Control panel (`Ctrl+Shift+G`)
 :::
 
+### Get Overleaf Project URL
+
+If you already have a cloned Overleaf project and want to get the web URL:
+
+**VS Code:** Open integrated terminal with `Ctrl+` ` (backtick)
+
+```bash
+# Copy Overleaf web URL to clipboard
+git remote get-url origin | sed 's|https://git@git.overleaf.com/|https://www.overleaf.com/project/|' | clip
+```
+
+This converts the git URL (`https://git@git.overleaf.com/project_ID`) to the proper web URL (`https://www.overleaf.com/project/project_ID`) and copies it to your clipboard.
+
 ### Clone Overleaf Project
 
 **VS Code Command:** Use Command Palette (`Ctrl+Shift+P`) → "Git: Clone"
