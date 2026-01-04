@@ -534,6 +534,7 @@ https://badge.dimensions.ai/
   </ul></li>
   <li><a href="#git-integration-with-overleaf" id="toc-git-integration-with-overleaf" class="nav-link" data-scroll-target="#git-integration-with-overleaf">Git Integration with Overleaf</a>
   <ul class="collapse">
+  <li><a href="#get-overleaf-project-url" id="toc-get-overleaf-project-url" class="nav-link" data-scroll-target="#get-overleaf-project-url">Get Overleaf Project URL</a></li>
   <li><a href="#clone-overleaf-project" id="toc-clone-overleaf-project" class="nav-link" data-scroll-target="#clone-overleaf-project">Clone Overleaf Project</a></li>
   <li><a href="#push-local-changes-to-overleaf" id="toc-push-local-changes-to-overleaf" class="nav-link" data-scroll-target="#push-local-changes-to-overleaf">Push Local Changes to Overleaf</a></li>
   <li><a href="#pull-before-push-to-avoid-conflict" id="toc-pull-before-push-to-avoid-conflict" class="nav-link" data-scroll-target="#pull-before-push-to-avoid-conflict">Pull Before Push to Avoid Conflict</a></li>
@@ -766,25 +767,33 @@ https://badge.dimensions.ai/
 <p><strong>VS Code:</strong> Open integrated terminal with <code>Ctrl+</code> <code>(backtick) or use Source Control panel (</code>Ctrl+Shift+G`)</p>
 </div>
 </div>
+<section id="get-overleaf-project-url" class="level3">
+<h3 class="anchored" data-anchor-id="get-overleaf-project-url">Get Overleaf Project URL</h3>
+<p>If you already have a cloned Overleaf project and want to get the web URL:</p>
+<p><strong>VS Code:</strong> Open integrated terminal with <code>Ctrl+</code> ` (backtick)</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Copy Overleaf web URL to clipboard</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> remote get-url origin <span class="kw">|</span> <span class="fu">sed</span> <span class="st">'s|https://git@git.overleaf.com/|https://www.overleaf.com/project/|'</span> <span class="kw">|</span> <span class="ex">clip</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This converts the git URL (<code>https://git@git.overleaf.com/project_ID</code>) to the proper web URL (<code>https://www.overleaf.com/project/project_ID</code>) and copies it to your clipboard.</p>
+</section>
 <section id="clone-overleaf-project" class="level3">
 <h3 class="anchored" data-anchor-id="clone-overleaf-project">Clone Overleaf Project</h3>
 <p><strong>VS Code Command:</strong> Use Command Palette (<code>Ctrl+Shift+P</code>) → “Git: Clone”</p>
 <p>Copy URL like: <code>https://git.overleaf.com/project-id</code></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/Documents</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://git.overleaf.com/project-id</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> project-id</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/Documents</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://git.overleaf.com/project-id</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> project-id</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="push-local-changes-to-overleaf" class="level3">
 <h3 class="anchored" data-anchor-id="push-local-changes-to-overleaf">Push Local Changes to Overleaf</h3>
 <p><strong>VS Code:</strong> - Open Source Control panel (<code>Ctrl+Shift+G</code>) - Stage changes, add commit message, click “Commit and Push” - Or use integrated terminal:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Update"</span></span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Update"</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="pull-before-push-to-avoid-conflict" class="level3">
 <h3 class="anchored" data-anchor-id="pull-before-push-to-avoid-conflict">Pull Before Push to Avoid Conflict</h3>
 <p><strong>VS Code:</strong> Command Palette (<code>Ctrl+Shift+P</code>) → “Git: Pull (Rebase)”</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull <span class="at">--rebase</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull <span class="at">--rebase</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="command-summary" class="level3">
 <h3 class="anchored" data-anchor-id="command-summary">Command Summary</h3>
@@ -826,18 +835,18 @@ https://badge.dimensions.ai/
 <h2 class="anchored" data-anchor-id="opening-pdfs-from-git-bash-on-windows">Opening PDFs from Git Bash on Windows</h2>
 <section id="navigate-to-directory" class="level3">
 <h3 class="anchored" data-anchor-id="navigate-to-directory">Navigate to Directory</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /c/Users/YourName/Documents/latex-project</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb23"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /c/Users/YourName/Documents/latex-project</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="open-pdf-in-default-viewer" class="level3">
 <h3 class="anchored" data-anchor-id="open-pdf-in-default-viewer">Open PDF in Default Viewer</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb23"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="ex">start</span> <span class="st">""</span> <span class="st">"main.pdf"</span></span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="co"># or</span></span>
-<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="ex">explorer.exe</span> <span class="st">"main.pdf"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="ex">start</span> <span class="st">""</span> <span class="st">"main.pdf"</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="co"># or</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="ex">explorer.exe</span> <span class="st">"main.pdf"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="automate-compile-and-open" class="level3">
 <h3 class="anchored" data-anchor-id="automate-compile-and-open">Automate Compile and Open</h3>
 <p><strong>VS Code:</strong> Open integrated terminal with <code>Ctrl+</code> ` (backtick)</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> main.tex <span class="kw">&amp;&amp;</span> <span class="ex">start</span> <span class="st">""</span> <span class="st">"main.pdf"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pdflatex</span> main.tex <span class="kw">&amp;&amp;</span> <span class="ex">start</span> <span class="st">""</span> <span class="st">"main.pdf"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <hr>
 </section>
 </section>
@@ -845,12 +854,12 @@ https://badge.dimensions.ai/
 <h2 class="anchored" data-anchor-id="word-counting-in-latex">Word Counting in LaTeX</h2>
 <p><strong>VS Code:</strong> Open integrated terminal with <code>Ctrl+</code> ` (backtick)</p>
 <p>Use texcount for accurate word count:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> yourfile.tex</span>
-<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-sum</span> yourfile.tex</span>
-<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-inc</span> yourfile.tex</span>
-<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-1</span> yourfile.tex</span>
-<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-brief</span> yourfile.tex</span>
-<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-inc</span> <span class="at">-sum</span> <span class="at">-total</span> main.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb26"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> yourfile.tex</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-sum</span> yourfile.tex</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-inc</span> yourfile.tex</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-1</span> yourfile.tex</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-brief</span> yourfile.tex</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a><span class="ex">texcount</span> <span class="at">-inc</span> <span class="at">-sum</span> <span class="at">-total</span> main.tex</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <hr>
 </section>
 <section id="creating-latex-tables-with-merged-headers" class="level2">
@@ -913,11 +922,11 @@ https://badge.dimensions.ai/
 <section id="solutions" class="level3">
 <h3 class="anchored" data-anchor-id="solutions">Solutions</h3>
 <p><strong>1. Use Proportional X Columns</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb26"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">tabularx</span>}{<span class="fu">\textwidth</span>}{|&gt;{<span class="fu">\hsize</span>=0.5<span class="fu">\hsize</span>}X|&gt;{<span class="fu">\hsize</span>=1<span class="fu">\hsize</span>}X|c|}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">tabularx</span>}{<span class="fu">\textwidth</span>}{|&gt;{<span class="fu">\hsize</span>=0.5<span class="fu">\hsize</span>}X|&gt;{<span class="fu">\hsize</span>=1<span class="fu">\hsize</span>}X|c|}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><strong>2. Consider tabular* for Precise Control</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">tabular*</span>}{<span class="fu">\textwidth</span>}{<span class="ch">@{\extracolsep{\fill}}</span>|l|l|l|}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">tabular*</span>}{<span class="fu">\textwidth</span>}{<span class="ch">@{\extracolsep{\fill}}</span>|l|l|l|}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p><strong>3. Use Fixed-Width Columns</strong></p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>p{width}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb29"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>p{width}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -941,32 +950,32 @@ https://badge.dimensions.ai/
 <section id="creating-sequential-dummy-figures-in-latex-with-tikz" class="level2">
 <h2 class="anchored" data-anchor-id="creating-sequential-dummy-figures-in-latex-with-tikz">Creating Sequential Dummy Figures in LaTeX with TikZ</h2>
 <p>Sometimes you need placeholder figures while drafting. Here is how to generate 20 numbered dummy figures automatically:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb29"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>{<span class="ex">article</span>}</span>
-<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="bu">\usepackage</span>{<span class="ex">tikz</span>}</span>
-<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">document</span>}</span>
-<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a><span class="kw">\section*</span>{Sequential Dummy Figures with TikZ}</span>
-<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a><span class="co">% Define a command to create a numbered dummy image</span></span>
-<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a><span class="fu">\newcommand</span>{<span class="ex">\numberedimage</span>}[1]{<span class="co">%</span></span>
-<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">\begin</span>{<span class="ex">figure</span>}[h!]</span>
-<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\centering</span></span>
-<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">\begin</span>{<span class="ex">tikzpicture</span>}</span>
-<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>      <span class="fu">\draw</span>[fill=gray!30] (0,0) rectangle (4,3); <span class="co">% gray rectangle</span></span>
-<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a>      <span class="fu">\node</span> at (2,1.5) {<span class="fu">\Huge</span> Image #1};         <span class="co">% centered label</span></span>
-<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a>    <span class="kw">\end</span>{<span class="ex">tikzpicture</span>}</span>
-<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\caption</span>{Dummy figure #1}</span>
-<span id="cb29-17"><a href="#cb29-17" aria-hidden="true" tabindex="-1"></a>  <span class="kw">\end</span>{<span class="ex">figure</span>}</span>
-<span id="cb29-18"><a href="#cb29-18" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb29-19"><a href="#cb29-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb29-20"><a href="#cb29-20" aria-hidden="true" tabindex="-1"></a><span class="co">% Generate 20 dummy figures</span></span>
-<span id="cb29-21"><a href="#cb29-21" aria-hidden="true" tabindex="-1"></a><span class="fu">\numberedimage</span>{1}</span>
-<span id="cb29-22"><a href="#cb29-22" aria-hidden="true" tabindex="-1"></a><span class="fu">\numberedimage</span>{2}</span>
-<span id="cb29-23"><a href="#cb29-23" aria-hidden="true" tabindex="-1"></a><span class="fu">\numberedimage</span>{3}</span>
-<span id="cb29-24"><a href="#cb29-24" aria-hidden="true" tabindex="-1"></a><span class="co">% ...continue to 20</span></span>
-<span id="cb29-25"><a href="#cb29-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb29-26"><a href="#cb29-26" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">document</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb30"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="bu">\documentclass</span>{<span class="ex">article</span>}</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="bu">\usepackage</span>{<span class="ex">tikz</span>}</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">document</span>}</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a><span class="kw">\section*</span>{Sequential Dummy Figures with TikZ}</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a><span class="co">% Define a command to create a numbered dummy image</span></span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a><span class="fu">\newcommand</span>{<span class="ex">\numberedimage</span>}[1]{<span class="co">%</span></span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">\begin</span>{<span class="ex">figure</span>}[h!]</span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\centering</span></span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">\begin</span>{<span class="ex">tikzpicture</span>}</span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>      <span class="fu">\draw</span>[fill=gray!30] (0,0) rectangle (4,3); <span class="co">% gray rectangle</span></span>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a>      <span class="fu">\node</span> at (2,1.5) {<span class="fu">\Huge</span> Image #1};         <span class="co">% centered label</span></span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a>    <span class="kw">\end</span>{<span class="ex">tikzpicture</span>}</span>
+<span id="cb30-16"><a href="#cb30-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">\caption</span>{Dummy figure #1}</span>
+<span id="cb30-17"><a href="#cb30-17" aria-hidden="true" tabindex="-1"></a>  <span class="kw">\end</span>{<span class="ex">figure</span>}</span>
+<span id="cb30-18"><a href="#cb30-18" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb30-19"><a href="#cb30-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-20"><a href="#cb30-20" aria-hidden="true" tabindex="-1"></a><span class="co">% Generate 20 dummy figures</span></span>
+<span id="cb30-21"><a href="#cb30-21" aria-hidden="true" tabindex="-1"></a><span class="fu">\numberedimage</span>{1}</span>
+<span id="cb30-22"><a href="#cb30-22" aria-hidden="true" tabindex="-1"></a><span class="fu">\numberedimage</span>{2}</span>
+<span id="cb30-23"><a href="#cb30-23" aria-hidden="true" tabindex="-1"></a><span class="fu">\numberedimage</span>{3}</span>
+<span id="cb30-24"><a href="#cb30-24" aria-hidden="true" tabindex="-1"></a><span class="co">% ...continue to 20</span></span>
+<span id="cb30-25"><a href="#cb30-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-26"><a href="#cb30-26" aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">document</span>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <section id="what-this-code-does" class="level3">
 <h3 class="anchored" data-anchor-id="what-this-code-does">What this code does</h3>
 <ul>
