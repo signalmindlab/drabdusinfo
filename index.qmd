@@ -32,11 +32,11 @@ about:
     - text: "{{< ai scopus >}} Scopus"
       href: https://www.scopus.com/authid/detail.uri?authorId=57220375948
       target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com/citations?user=NmUWfQIAAAAJ&hl=en
-      target: _blank
     - text: '<i class="fas fa-wave-square"></i> Lab'
       href: https://www.signalmindlab.org/
+      target: _blank
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=NmUWfQIAAAAJ&hl=en
       target: _blank
     - text: "{{< fa database >}} DBLP"
       href: https://dblp.org/pid/04/11471.html
