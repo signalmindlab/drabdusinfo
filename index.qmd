@@ -35,8 +35,7 @@ about:
     - text: "{{< ai google-scholar >}} Google Scholar"
       href: https://scholar.google.com/citations?user=NmUWfQIAAAAJ&hl=en
       target: _blank
-    - icon: sun
-      text: Lab
+    - text: '<i class="fas fa-wave-square"></i> Lab'
       href: https://www.signalmindlab.org/
       target: _blank
     - text: "{{< fa database >}} DBLP"
