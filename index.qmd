@@ -12,10 +12,6 @@ about:
   image-width: 200px
   image-shape: round
   links:
-    - icon: sun
-      text: Lab
-      href: https://www.signalmindlab.org/
-      target: _blank
     - icon: envelope
       text: E-mail
       href: mailto:write@drabdus.info   
@@ -38,6 +34,10 @@ about:
       target: _blank
     - text: "{{< ai google-scholar >}} Google Scholar"
       href: https://scholar.google.com/citations?user=NmUWfQIAAAAJ&hl=en
+      target: _blank
+    - icon: sun
+      text: Lab
+      href: https://www.signalmindlab.org/
       target: _blank
     - text: "{{< fa database >}} DBLP"
       href: https://dblp.org/pid/04/11471.html
