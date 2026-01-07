@@ -136,9 +136,9 @@ website:
           - text: "Scholar's Note"
             href: https://www.scholarsnote.org/
             target: _blank
-          - text: "SignalMind Lab"
-            href: https://www.signalmindlab.org/
-            target: _blank
+          # - text: "SignalMind Lab"
+          #   href: https://www.signalmindlab.org/
+          #   target: _blank
           # - text: Quick Access Links
           #   href: https://hub.drabdus.info/
           #   target: _blank
