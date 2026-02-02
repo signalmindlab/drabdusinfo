@@ -112,10 +112,10 @@ website:
           #   href: miscellaneous/section-labels.qmd
           # - text: Open Access Journals having Discount Policy
           #   href: miscellaneous/open-access.qmd
-          - text: Overleaf git sync issues
-            href: miscellaneous/overleaf.qmd
-          - text: Latexdiff Configuration Guide
-            href: miscellaneous/latexdiff.qmd
+          # - text: Overleaf git sync issues
+          #   href: miscellaneous/overleaf.qmd
+          # - text: Latexdiff Configuration Guide
+          #   href: miscellaneous/latexdiff.qmd
           - text: Open source tools
             href: miscellaneous/open-source-tools.qmd
           - text: Windows shortcuts & commands
@@ -160,7 +160,7 @@ website:
   page-navigation: true
   
   page-footer: 
-   center: "© 2025 Dr. Md Abdus Samad. All rights reserved."
+   center: "© 2026 Dr. Md Abdus Samad. All rights reserved."
   #  right: "Built with Quarto"
     # left: "[Dr. Md Abdus Samad](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
     # center: "Build on [Quart Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
