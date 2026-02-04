@@ -15,11 +15,11 @@ Gyeongsan, Gyeongbuk, South Korea
 **Email:**  
 - ✉️ Official: <masamad@yu.ac.kr>  
 - ✉️ Personal: <write@drabdus.info>  
-- ✉️ Personal/Official: <write@drabdus.com>  
+<!-- - ✉️ Personal/Official: <write@drabdus.com>   -->
 
 **Website:**  
 - 🌐 <https://www.drabdus.info>  
-- 🌐 <https://www.drabdus.com>
+<!-- - 🌐 <https://www.drabdus.com> -->
 
 
 </center>
