@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
     - CNAME  # This ensures CNAME is copied to docs folder
+    - _headers  # Cloudflare Pages headers for image protection
   render:
     - "*.qmd"
     - "posts/**/*.qmd"

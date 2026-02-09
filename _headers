@@ -1,0 +1,22 @@
+# Protect images from direct access and hotlinking
+/files/images/*
+  X-Content-Type-Options: nosniff
+  Content-Disposition: inline
+  X-Robots-Tag: noindex
+
+/files/profiles/*
+  X-Content-Type-Options: nosniff
+  Content-Disposition: inline
+  X-Robots-Tag: noindex
+
+/posts/*.JPG
+  X-Content-Type-Options: nosniff
+  X-Robots-Tag: noindex
+
+/posts/*.jpg
+  X-Content-Type-Options: nosniff
+  X-Robots-Tag: noindex
+
+/posts/*.png
+  X-Content-Type-Options: nosniff
+  X-Robots-Tag: noindex

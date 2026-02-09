@@ -18,3 +18,37 @@ https://badge.dimensions.ai/
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+
+<!-- Image Protection: Prevent drag, right-click, and direct access -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Disable dragging on all images
+  document.addEventListener('dragstart', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+
+  // Disable right-click on images
+  document.addEventListener('contextmenu', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+});
+</script>
+<style>
+/* Prevent image selection and dragging */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: auto;
+}
+</style>
