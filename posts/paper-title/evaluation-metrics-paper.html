@@ -105,6 +105,40 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
+<!-- Image Protection: Prevent drag, right-click, and direct access -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Disable dragging on all images
+  document.addEventListener('dragstart', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+
+  // Disable right-click on images
+  document.addEventListener('contextmenu', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+});
+</script>
+<style>
+/* Prevent image selection and dragging */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: auto;
+}
+</style>
+
 
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="Accuracy, Precision, Recall, F1-Score, or MCC? Empirical Evidence from Advanced Statistics, ML, and XAI for Evaluating Business Predictive Models – Md Abdus Samad, PhD">
@@ -463,6 +497,39 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<!-- Image Protection: Prevent drag, right-click, and direct access -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Disable dragging on all images
+  document.addEventListener('dragstart', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+
+  // Disable right-click on images
+  document.addEventListener('contextmenu', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+});
+</script>
+<style>
+/* Prevent image selection and dragging */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: auto;
+}
+</style>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
 <p>Imbalanced datasets pose a persistent challenge in business data mining, particularly in high-stakes domains such as financial risk prediction and customer churn analysis, where the minority class often carries disproportionate operational and financial consequences. Although widely used evaluation metrics–such as accuracy, precision, recall, F1-score, and Matthews Correlation Coefficient (MCC)–are commonly applied in practice, there remains no empirical consensus on which metric offers the most reliable performance under real-world conditions. Existing studies lack a unified, statistically validated framework that accounts for threshold sensitivity, input noise, and interpretability–factors critical to business decision-making.</p>
