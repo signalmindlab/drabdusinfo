@@ -156,9 +156,9 @@ website:
       # - text: "{{< fa brands bluesky >}}"
       #   href: https://bsky.app
       #   target: _blank      
-      - icon: rss
-        href: posts.xml
-        target: _blank
+    - icon: rss
+      href: posts.xml
+      target: _blank
   
   page-navigation: true
   
