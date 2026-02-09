@@ -131,9 +131,9 @@ website:
       # - text: "My Blog"
       #   href: https://blog.drabdus.info/ 
       #   target: _blank
-          - text: "My Blog"
-            href: https://blog.drabdus.info/ 
-            target: _blank
+      - text: "My Blog"
+        href: https://blog.drabdus.info/ 
+        target: _blank
 
       # - text: Other Sites
       #   menu:
