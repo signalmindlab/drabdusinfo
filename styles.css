@@ -26,9 +26,9 @@ img.rounded {
   height: auto !important;
 }
 
-/* Ensure image stays circular/rounded if that style is applied */
+/* Profile image shape */
 img.rounded {
-  border-radius: 50%;
+  border-radius: 0;
 }
 
 /* Show full images without cropping */

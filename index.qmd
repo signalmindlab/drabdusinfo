@@ -10,7 +10,7 @@ about:
   id: hero-heading
   template: trestles
   image-width: 200px
-  image-shape: round
+  image-shape: rectangle
   links:
     - icon: envelope
       text: E-mail
