@@ -70,8 +70,12 @@ img.rounded {
     padding: 0 6px !important;
 }
 
-/* Hide name title under profile picture in about section */
-.about-entity .about-title {
+/* Hide name title under profile picture in about/trestles section */
+.about-entity .about-title,
+.about-entity h1,
+#hero-heading ~ * h1,
+.quarto-about-trestles h1,
+.quarto-about-trestles .about-title {
     display: none !important;
 }
 
