@@ -15,8 +15,6 @@ listing:
     - path: posts
       exclude:
         categories: [event]
-      #- posts/post-links.yml  # Use this file to add external links
-#      categories: [] 
 
 #page-layout: full
 draft-mode: unlinked
