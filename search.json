@@ -116,7 +116,7 @@
     "href": "pgp/index.html#key-information",
     "title": "PGP Public Key",
     "section": "Key Information",
-    "text": "Key Information\n\n\n\nProperty\nValue\n\n\n\n\nUser ID\nMd Abdus Samad &lt;write@drabdus.info&gt;\n\n\n\n\nUsage | Signing, Encryption, Certifying User IDs |\n\nFingerprint | 9B73 2FAD 0CD9 340F E419  39A7 7CC5 674D 41E7 DE24 |\n\n\n\n\n\n\nTipHow to Verify\n\n\n\nAlways verify the fingerprint matches before trusting this key. You can compare it with other sources where I’ve published my key."
+    "text": "Key Information\n\n\n  \n     User ID\n    Md Abdus Samad &lt;write@drabdus.info&gt;\n  \n\n  \n     Algorithm\n    255-bit EdDSA (Ed25519)\n  \n\n  \n     Usage\n    \n      Signing\n      Encryption\n      Certifying User IDs\n    \n  \n\n  \n     Valid From\n    6 February 2026\n  \n\n  \n     Valid Until\n    6 February 2029\n  \n\n  \n     Fingerprint\n    \n      9B73 2FAD\n      0CD9 340F\n      E419  39A7\n      7CC5 674D\n      41E7 DE24\n    \n  \n\n\n\n\n\n\n\n\n\n\nTipHow to Verify\n\n\n\nAlways verify the fingerprint matches before trusting this key. Compare it with other sources where I’ve published my key."
   },
   {
     "objectID": "pgp/index.html#download-public-key",
