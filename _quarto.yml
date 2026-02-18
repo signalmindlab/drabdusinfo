@@ -64,12 +64,12 @@ website:
             # href: posts.qmd#category=paper
           # - text: Grants
             # href: projects.qmd    
-      - text: Guidance
-        menu:
-          - text: Top Global Scholarships
-            href: global-scholarships.qmd
-          - text: University Portal
-            href: admission-portals.qmd
+      # - text: Guidance
+      #   menu:
+      #     - text: Top Global Scholarships
+      #       href: global-scholarships.qmd
+      #     - text: University Portal
+      #       href: admission-portals.qmd
 
       # - text: Top Global Scholarships  
       #   href: global-scholarships.qmd
@@ -86,46 +86,12 @@ website:
         # menu:        
         # - text: Presentations
           # href: posts.qmd#category=presentation 
-      - text: Miscellaneous
-        menu:
-          # - text: List of Publishers
-          #   href: miscellaneous/publishers.qmd
-          # - text: Journal Templates
-          #   href: miscellaneous/templates.qmd
-          # - text: Verifying Journal Indexing
-          #   href: miscellaneous/verifying-journal-indexing.qmd
-          # - text: Reference, Image Quality, and Detexify
-          #   href: miscellaneous/reference-management.qmd
-          # - text: Author Services by Major Publishers
-          #   href: miscellaneous/author-services.qmd
-          # - text: Document Conversion and Figure Tools
-          #   href: miscellaneous/conversion.qmd
-          # - text: Manuscript Anonymization
-          #   href: miscellaneous/anonymization.qmd
-          # - text: Switching Elsevier LaTeX Templates
-          #   href: miscellaneous/elsevier.qmd
-          # - text: DOCX to LaTeX Convert
-          #   href: miscellaneous/docx-latex.qmd
-          # - text: LaTeX Reference and Label Management
-          #   href: miscellaneous/latex-reference.qmd
-          # - text: Latex Reference Converter
-          #   href: miscellaneous/latex-converter.qmd
-          # - text: Sequential Section Labels
-          #   href: miscellaneous/section-labels.qmd
-          # - text: Open Access Journals having Discount Policy
-          #   href: miscellaneous/open-access.qmd
-          # - text: Overleaf git sync issues
-          #   href: miscellaneous/overleaf.qmd
-          # - text: Latexdiff Configuration Guide
-          #   href: miscellaneous/latexdiff.qmd
-          - text: Open source tools
-            href: miscellaneous/open-source-tools.qmd
-          - text: Windows shortcuts & commands
-            href: miscellaneous/windows.qmd
-          # - text: Mathpix PDF to Word
-          #   href: miscellaneous/mathpix.qmd
-          # - text: "Quarto Tips"
-          #   href: miscellaneous/quarto-tips.qmd
+      # - text: Miscellaneous
+      #   menu:
+      #     - text: Open source tools
+      #       href: miscellaneous/open-source-tools.qmd
+      #     - text: Windows shortcuts & commands
+      #       href: miscellaneous/windows.qmd
           
       # - text: Group   # Comment the Group part out to remove the Group page
         # href: people.qmd
