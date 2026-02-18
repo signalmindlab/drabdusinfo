@@ -1,0 +1,68 @@
+---
+title: "PGP Public Key"
+title-block-banner: true
+description: "My PGP public key for encrypted communication"
+toc: false
+---
+
+If you need to send me encrypted messages or verify my digital signatures, you can use my PGP public key below.
+
+## Key Information
+
+| Property | Value |
+|----------|-------|
+| **User ID** | `Md Abdus Samad <write@drabdus.info>` |
+<!-- | **Type** | `255-bit EdDSA` | -->
+| **Usage** | `Signing, Encryption, Certifying User IDs` |
+<!-- | **Valid From** | `2/6/2026` |
+| **Valid Until** | `2/6/2029` | -->
+| **Fingerprint** | `9B73 2FAD 0CD9 340F E419  39A7 7CC5 674D 41E7 DE24` |
+
+::: {.callout-tip}
+## How to Verify
+Always verify the fingerprint matches before trusting this key. You can compare it with other sources where I've published my key.
+:::
+
+## Download Public Key
+
+You can download my public key file: [{{< fa download >}} Download PGP Public Key](/me-write-info_pgp_ath.asc.txt)
+
+<!-- ## Public Key Block
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: User ID:	Md Abdus Samad <write@drabdus.info>
+Comment: Valid from:	2/6/2026 8:03 PM
+Comment: Valid until:	2/6/2029 12:00 PM
+Comment: Type:	255-bit EdDSA (secret key available)
+Comment: Usage:	Signing, Encryption, Certifying User IDs
+Comment: Fingerprint:	9B73 2FAD 0CD9 340F E419  39A7 7CC5 674D 41E7 DE24
+
+
+mDMEaYXKdxYJKwYBBAHaRw8BAQdAiLNbTizsQqsmEPz8zIwOty8Ngc9GKTRrLX/R
+GUfmANu0I01kIEFiZHVzIFNhbWFkIDx3cml0ZUBkcmFiZHVzLmluZm8+iLUEExYK
+AF0WIQSbcy+tDNk0D+QZOad8xWdNQefeJAUCaYXKdxsUgAAAAAAEAA5tYW51Miwy
+LjUrMS4xMSwyLDECGwMFCQWkerkFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AA
+CgkQfMVnTUHn3iSsvQD+II+TGvEUokMjpfUfXhsOOSMDYzxCvMgXahe0d3z2Z3EB
+AO7K5gI5hoJlOT28tpFx2UrTOdOOW2EF+80mJjNZPuECuDgEaYXKdxIKKwYBBAGX
+VQEFAQEHQPpKWKJQcQqUvNd/puvlf0p6x9hlGygfi1ekRYhUIpNwAwEIB4iaBBgW
+CgBCFiEEm3MvrQzZNA/kGTmnfMVnTUHn3iQFAmmFyncbFIAAAAAABAAObWFudTIs
+Mi41KzEuMTEsMiwxAhsMBQkFpHq5AAoJEHzFZ01B594kVgEBALdOyEbdDNQEjWL4
+56bomXLg8QD+8PTD0XMZtWdmY745AQCumJ3m6sTYYLmXKTB87bO0Xzj8Yt92DD1Q
+KowAdNbLBw==
+=wxjz
+-----END PGP PUBLIC KEY BLOCK-----
+``` -->
+
+## How to Use
+
+1. **Import the key** into your PGP software (GPG, Kleopatra, etc.)
+2. **Verify the fingerprint** matches: `9B73 2FAD 0CD9 340F E419  39A7 7CC5 674D 41E7 DE24`
+3. **Encrypt your message** using my public key
+4. **Send the encrypted message** to me via email at `write@drabdus.info`
+
+
+::: {.callout-note}
+## Why Use Encryption?
+Encrypted emails ensure that only the intended recipient can read your message. This is useful for sharing sensitive research data, confidential documents, or private communications.
+:::
