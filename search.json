@@ -105,333 +105,102 @@
     "text": "Key Findings\n\nEVOA_CB achieved the highest accuracy (96.35%) with only 6 selected features\nEOA_CB demonstrated greatest feature reduction (5 features) with highest recall (92.21%)\nEFOA_CB achieved the highest AUC (0.994) with lowest testing time (1.51 ms)\nMost Important Features: Response, Risk, N (lymph node involvement)\nStructural Incomplete response strongly associated with recurrence\nExcellent response correlated with non-recurrence\nIntermediate risk and N1b classification linked to higher recurrence"
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
+    "objectID": "pgp/index.html",
+    "href": "pgp/index.html",
+    "title": "PGP Public Key",
     "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+    "text": "If you need to send me encrypted messages or verify my digital signatures, you can use my PGP public key below."
   },
   {
-    "objectID": "people.html#team",
-    "href": "people.html#team",
-    "title": "People",
+    "objectID": "pgp/index.html#key-information",
+    "href": "pgp/index.html#key-information",
+    "title": "PGP Public Key",
+    "section": "Key Information",
+    "text": "Key Information\n\n\n\nProperty\nValue\n\n\n\n\nUser ID\nMd Abdus Samad &lt;write@drabdus.info&gt;\n\n\n\n\nUsage | Signing, Encryption, Certifying User IDs |\n\nFingerprint | 9B73 2FAD 0CD9 340F E419  39A7 7CC5 674D 41E7 DE24 |\n\n\n\n\n\n\nTipHow to Verify\n\n\n\nAlways verify the fingerprint matches before trusting this key. You can compare it with other sources where I’ve published my key."
+  },
+  {
+    "objectID": "pgp/index.html#download-public-key",
+    "href": "pgp/index.html#download-public-key",
+    "title": "PGP Public Key",
+    "section": "Download Public Key",
+    "text": "Download Public Key\nYou can download my public key file:  Download PGP Public Key"
+  },
+  {
+    "objectID": "pgp/index.html#how-to-use",
+    "href": "pgp/index.html#how-to-use",
+    "title": "PGP Public Key",
+    "section": "How to Use",
+    "text": "How to Use\n\nImport the key into your PGP software (GPG, Kleopatra, etc.)\nVerify the fingerprint matches: 9B73 2FAD 0CD9 340F E419  39A7 7CC5 674D 41E7 DE24\nEncrypt your message using my public key\nSend the encrypted message to me via email at write@drabdus.info\n\n\n\n\n\n\n\nNoteWhy Use Encryption?\n\n\n\nEncrypted emails ensure that only the intended recipient can read your message. This is useful for sharing sensitive research data, confidential documents, or private communications."
+  },
+  {
+    "objectID": "my-publications.html",
+    "href": "my-publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+    "text": "NoteTotal Publications: 62"
   },
   {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "People",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+    "objectID": "my-publications.html#section",
+    "href": "my-publications.html#section",
+    "title": "Publications",
+    "section": "2025",
+    "text": "2025\n\n\nP. Sarker, K. Choi, A. A. Nahid, M. A. Samad, et al., “CatBoost with physics-based metaheuristics for thyroid cancer recurrence prediction.” BioData Mining 18: 84 (2025). doi.org/10.1186/s13040-025-00494-1\n\n\nK. M. Sujon, R. Hassan, K. Choi, M. A. Samad, et al., “Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models.” Journal of Big Data 12: 268 (2025). doi.org/10.1186/s40537-025-01313-4\n\n\nKakon, S. Chakrabarty, Z. Al Sazid, I. A. Begum, M. A. Samad, and A. S. M. S. Hosen, “Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images.” Cancers 17, no. 17: 2853 (2025). doi.org/10.3390/cancers17172853\n\n\nP. Sarker, A. Ksibi, M. M. Jamjoom, K. Choi, A. A. Nahid and M. A. Samad, “Breast cancer prediction with feature-selected XGB classifier, optimized by metaheuristic algorithms.” J Big Data 12, 78 (2025). doi.org/10.1186/s40537-025-01132-7\n\n\nI. A. Talin, M. Z. Amin, and M. A. Samad, “Numerical modeling of gain-switched dysprosium-doped yellow fiber lasers.” J. Korean Phys. Soc. (2025). doi.org/10.1007/s40042-025-01303-y\n\n\nN. Saeed, I. Shafi, S. Pervez, E. B. Thompson, A. K. Castilla, M. A. Samad, and I. Ashraf, “Intelligent Decision Making for Commodities Price Prediction: Opportunities, Challenges and Future Avenues.” Comput Econ (2025). doi.org/10.1007/s10614-024-10837-5"
   },
   {
-    "objectID": "miscellaneous/windows.html",
-    "href": "miscellaneous/windows.html",
-    "title": "Windows Shortcuts & Commands",
-    "section": "",
-    "text": "Shortcut\nDescription\n\n\n\n\nWin + D\nShow/Hide Desktop\n\n\nWin + E\nOpen File Explorer\n\n\nWin + L\nLock Computer\n\n\nWin + I\nOpen Settings\n\n\nWin + X\nPower User Menu\n\n\nWin + R\nRun Dialog\n\n\nWin + S\nOpen Search\n\n\nWin + A\nQuick Settings\n\n\nWin + K\nConnect Wireless\n\n\nWin + U\nAccessibility Settings\n\n\n\n\n\n\n\n\n\nShortcut\nDescription\n\n\n\n\nAlt + Tab\nSwitch Between Apps\n\n\nAlt + F4\nClose Active Window\n\n\nWin + Tab\nTask View (All Windows)\n\n\nWin + , (comma)\nPeek at Desktop\n\n\nWin + B\nFocus System Tray\n\n\nWin + M\nMinimize All Windows\n\n\nCtrl + Shift + Esc\nTask Manager\n\n\nWin + Pause\nSystem Properties"
+    "objectID": "my-publications.html#section-1",
+    "href": "my-publications.html#section-1",
+    "title": "Publications",
+    "section": "2024",
+    "text": "2024\n\n\nA. U. Hussna, R. Islam, M. R. Alam, J. Uddin, I. Ashraf, M. A. Samad, “A graph mining-based approach to analyze the dynamics of the Twitter community of COVID-19 misinformation disseminators,” ICT Express, 2024. doi.org/10.1016/j.icte.2024.10.006\n\n\nTuhin IA, Mia MR, Islam MM, Mahmud I, Gongora HF, M. A. Samad, “StackIL10: A stacking ensemble model for the improved prediction of IL-10 inducing peptides.” PLOS ONE 19(11): e0313835. doi.org/10.1371/journal.pone.0313835\n\n\nFaruqui N, Achar S, Racherla S, Dhanawat V, Sripathi P, Islam MM, Uddin J, Othman MA, M. A. Samad, Choi K. “Cloud IaaS Optimization Using Machine Vision at the IoT Edge and the Grid Sensing Algorithm.” Sensors. 2024; 24(21):6895. doi.org/10.3390/s24216895\n\n\nDipto, S. M., Reza, M. T., Mim, N. T., M. A. Samad. “An analysis of decipherable red blood cell abnormality detection under federated environment leveraging XAI incorporated deep learning.” Sci Rep 14, 25664 (2024). doi.org/10.1038/s41598-024-76359-0\n\n\nK. M. Sujon, R. B. Hassan, Z. T. Towshi, M. A. Othman, M. A. Samad and K. Choi, “When to Use Standardization and Normalization: Empirical Evidence From Machine Learning Models and XAI,” IEEE Access, vol. 12, pp. 135300-135314, 2024, doi: 10.1109/ACCESS.2024.3462434.\n\n\nMahnoor, I. Shafi, M. Chaudhury, E. C. Montero, E. S. Alvarado, I. D. L. T. Diez, M. A. Samad, and I. Imran “A Review of Approaches for Rapid Data Clustering: Challenges, Opportunities, and Future Directions,” IEEE Access, vol. 12, pp. 138086-138120, 2024, doi:10.1109/ACCESS.2024.3461798.\n\n\nM. N. U. Alam, I. Hasnine, E. H. Bahadur, A. K. M. Masum, M. B. Urbano, M. M. Vergara, J. Uddin, I. Ashraf, M. A. Samad, “DiabSense: Early Diagnosis of Non-Insulin-Dependent Diabetes Mellitus Using Smartphone-Based Human Activity Recognition and Diabetic Retinopathy Analysis with Graph Neural Network” J Big Data. doi.org/10.1186/s40537-024-00959-w\n\n\nM. Shahroz, M. Ali, A. Tahir, H. F. Gongora, C. U. Rios, M. A. Samad, and I. Ashraf, “Hierarchical Attention Module-Based Hotspot Detection in Wafer Fabrication Using Convolutional Neural Network Model,” IEEE Access, vol. 12, pp. 92840-92855, 2024, doi: 10.1109/ACCESS.2024.3422616.\n\n\nM. K. Baowaly, B. C. Sarkar, M. A. A. Walid, M. M. Ahamad, B. C. Singh, E. S. Alvarado, I. Ashraf, M. A. Samad, “Deep Transfer Learning-Based Bird Species Classification Using Mel Spectrogram Images,” PloS One. doi.org/10.1371/journal.pone.0305708\n\n\nT. R. Shaha, M. Begum, J. Uddin, V. Y. Torres. J. A. Iturriaga, I. Ashraf. M. A. Samad, “Feature group partitioning: an approach for depression severity prediction with class balancing using machine learning algorithms,” BMC Medical Research Methodology, 2024 Jun 3;24(1). doi.org/10.1186/s12874-024-02249-8\n\n\nK. A. Alavee, M. H. Zillanee, M. Mostakim, J. Uddin, E. S. Alvarado, I. T. Diez, I. Ashraf, and M. A. Samad, “Enhancing Early Detection of Diabetic Retinopathy Through the Integration of Deep Learning Models and Explainable Artificial Intelligence.” IEEE Access. doi.org/10.1109/access.2024.3405570\n\n\nM. Begum, M. H. Shuvo, M. K. Nasir, A. Hossain, M. J. Hossain, I. Ashraf and M. A. Samad, “LCNN: Lightweight CNN Architecture for Software Defect Feature Identification Using Explainable AI.” IEEE Access. doi.org/10.1109/access.2024.3388489\n\n\nI. Raza, M. H. Jamal, R. Qureshi, A. K. Shahid, A. O. R. Vistorte, M. A. Samad, and I. Ashraf, “Adaptive neighborhood rough set model for hybrid data processing: a case study on Parkinson’s disease behavioral analysis,” Scientific Reports, vol. 14, no. 1, Apr. 2024, doi: 10.1038/s41598-024-57547-4.\n\n\nF. Md. Siraj, S. T. K. Ayon, Md. A. Samad, J. Uddin, and K. Choi, “Few-Shot Lightweight SqueezeNet Architecture for Induction Motor Fault Diagnosis Using Limited Thermal Image Dataset,” IEEE Access, vol. 12, pp. 50986–50997, 2024, doi: 10.1109/access.2024.3385430.\n\n\nM. T. Islam, W. Rahman, M. S. Hossain, K. Roksana, I. D. Azpíroz, R. M. Diaz, I. Ashraf, and M. A. Samad, “Medicinal Plant Classification Using Particle Swarm Optimized Cascaded Network,” IEEE Access, vol. 12. doi.org/10.1109/ACCESS.2024.3378262 [SCIE (Q2), JIF:3.90]\n\n\nM. A. Kader, M. A. Ullah, M. S. Islam, F. F. Sánchez, M. A. Samad, “A Real-Time Air-Writing Model to Recognize Bengali Character,” AIMS Mathematics (2024). doi.org/10.3934/math.2024325 [SCIE (Q1), JIF:2.2]"
   },
   {
-    "objectID": "miscellaneous/windows.html#essential-navigation",
-    "href": "miscellaneous/windows.html#essential-navigation",
-    "title": "Windows Shortcuts & Commands",
-    "section": "",
-    "text": "Shortcut\nDescription\n\n\n\n\nWin + D\nShow/Hide Desktop\n\n\nWin + E\nOpen File Explorer\n\n\nWin + L\nLock Computer\n\n\nWin + I\nOpen Settings\n\n\nWin + X\nPower User Menu\n\n\nWin + R\nRun Dialog\n\n\nWin + S\nOpen Search\n\n\nWin + A\nQuick Settings\n\n\nWin + K\nConnect Wireless\n\n\nWin + U\nAccessibility Settings\n\n\n\n\n\n\n\n\n\nShortcut\nDescription\n\n\n\n\nAlt + Tab\nSwitch Between Apps\n\n\nAlt + F4\nClose Active Window\n\n\nWin + Tab\nTask View (All Windows)\n\n\nWin + , (comma)\nPeek at Desktop\n\n\nWin + B\nFocus System Tray\n\n\nWin + M\nMinimize All Windows\n\n\nCtrl + Shift + Esc\nTask Manager\n\n\nWin + Pause\nSystem Properties"
+    "objectID": "my-publications.html#section-2",
+    "href": "my-publications.html#section-2",
+    "title": "Publications",
+    "section": "2023",
+    "text": "2023\n\n\nI. A. Talin, M. H. Abid, M. A. Samad et al. “Exploring factors influencing the severity of pregnancy anemia in India: a study using proportional odds model.” Sci Rep 13, 22816 (2023). doi.org/10.1038/s41598-023-49872-x [SCIE (Q2), JIF:4.60]\n\n\nZ. Aoujil, M. Hanine, E. S. Flores, M. A. Samad “Artificial Intelligence and Behavioral Economics: A Bibliographic Analysis of Research Field,” IEEE Access. doi.org/10.1109/ACCESS.2023.3339778 [SCIE (Q2), JIF:3.90]\n\n\nM. M. Hossain, M. A. Kashem, M. M. Islam, M. Sahidullah, S. H. Mumu, J. Uddin and M. A. Samad. “Internet of Things in Pregnancy Care Coordination and Management: A Systematic Review.” Sensors 2023, 23, 8958. doi.org/10.3390/s23239367 [SCIE (Q2), JIF:3.90]\n\n\nAA Alarfaj, A. Altamimi, T. Aljrees, S. Basheer, M. Umer, M. A. Samad et al. “Multi-Step Preprocessing with UNet Segmentation and Transfer Learning Model for Pepper Bell Leaf Disease Detection,” IEEE Access. doi.org/10.1109/ACCESS.2023.3334428 [SCIE (Q2), JIF:3.90]\n\n\nHossain, P. S.; Kim, K.; Uddin, J.; Samad, M. A.; Choi, K. “Enhancing Taxonomic Categorization of DNA Sequences with Deep Learning: A Multi-Label Approach.” Bioengineering 2023, 10, 1293. doi.org/10.3390/bioengineering10111293 [SCIE (Q2), JIF:4.60]\n\n\nB. H. A. Khattak, I. Shafi, A. S. Khan, E. S. Flores, R. G. Lara, M. A. Samad “A Systematic Survey of AI Models in Financial Market Forecasting for Profitability Analysis,” IEEE Access, doi: 10.1109/ACCESS.2023.3330156. [SCIE (Q2), JIF:3.90]\n\n\nFarooq, M. S.; Abdullah, M.; Riaz, S.; Alvi, A.; Rustam, F.; Samad, M. A. “A Survey on the Role of Industrial IoT in Manufacturing for Implementation of Smart Industry.” Sensors 2023, 23, 8958. doi.org/10.3390/s23218958 [SCIE (Q2), JIF:3.90]\n\n\nIslam, M. M.; Alam, K. M. R.; Uddin, J.; Ashraf, I.; Samad, M. A. “Benign and Malignant Oral Lesion Image Classification Using Fine-Tuned Transfer Learning Techniques.” Diagnostics 2023, 13, 3360. doi.org/10.3390/diagnostics13213360 [SCIE (Q2), JIF:3.60]\n\n\nM. Begum, M. H. Shuvo, I. Ashraf, A. A. Mamun, J. Uddin and M. A. Samad, “Software Defects Identification: Results Using Machine Learning and Explainable Artificial Intelligence Techniques,” IEEE Access, doi: 10.1109/ACCESS.2023.3329051. [SCIE (Q2), JIF:3.90]\n\n\nK. R. Hasan, A. B. Tuli, M. A. -M. Khan, S. -H. Kee, M. A. Samad and A. -A. Nahid, “Deep Learning-Based Semantic Segmentation for Remote Sensing: A Bibliometric Literature Review,” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, doi: 10.1109/JSTARS.2023.3328315. [SCIE (Q1), JIF:5.5]\n\n\nRahman, Shakila, Jahid Hasan Rony, Jia Uddin, and M. A. Samad. “Real-Time Obstacle Detection with YOLOv8 in a WSN Using UAV Aerial Photography,” Journal of Imaging. 2023; 9(10):216. doi.org/10.3390/jimaging9100216 [ESCI, JIF:3.2, Q3]\n\n\nWalid, Md. Abul Ala, Swarnali Mollick, Pintu Chandra Shill, Mrinal Kanti Baowaly, M. A. Samad “Adapted Deep Ensemble Learning-Based Voting Classifier for Osteosarcoma Cancer Classification” Diagnostics 2023, 13, 3155. doi.org/10.3390/diagnostics13193155 [SCIE (Q2), JIF:3.6]\n\n\nShahzadi, Turrnum, Muhammad Usman Ali, Fiaz Majeed, Muhammad Usman Sana, M. A. Samad “Nerve Root Compression Analysis to Find Lumbar Spine Stenosis on MRI Using CNN.” Diagnostics 13, no. 18 (September 18, 2023): 2975. doi.org/10.3390/diagnostics13182975 [SCIE (Q2), JIF:3.6]\n\n\nPinki, Farhana Tazmim, Md Abdul Awal, Khondoker Mirazul Mumenin, Md. Shahadat Hossain, Jabed Al Faysal, Rajib Rana, and M. A. Samad. “HGSOXGB: Hunger-Games-Search-Optimization-Based Framework to Predict the Need for ICU Admission for COVID-19 Patients Using EXtreme Gradient Boosting.” Mathematics 11, no. 18 (September 18, 2023): 3960. doi.org/10.3390/math11183960 [SCIE (Q1), JIF:4.4]\n\n\nHossain, Md Shakhawat, Md. Mahmudur Rahman, M. Mahbubul Syeed, Mohammad Faisal Uddin, Mahady Hasan, M. A. Samad. “DeepPoly: Deep Learning-Based Polyps Segmentation and Classification for Autonomous Colonoscopy Examination.” IEEE Access 11 (2023): 95889–902. doi.org/10.1109/access.2023.3310541 [SCIE (Q2), JIF:3.9]\n\n\nU. U. Gronthy, U. Biswas, S. Tipu, M. A. Samad, A. A. Nahid, “A Bibliometric Analysis on Arrhythmia Detection and Classification from 2005 to 2022,” Diagnostics 2023, 13(10), 1732. doi.org/10.3390/diagnostics13101732 [SCIE (Q2), JIF:3.6]\n\n\nM. A. Samad, D. -Y. Choi, H. Son and K. Choi, “Analysis of Centimeter and Millimeter-Wave Path Loss at Emergency Exit,” IEEE Access, vol. 11, pp. 34217-34226, 2023. doi.org/10.1109/ACCESS.2023.3264648 [SCIE (Q2), JIF:3.9]\n\n\nM. A. Samad, D.-Y. Choi, and K. Choi, “Path loss measurement and modeling of 5G network in emergency indoor stairwell at 3.7 and 28 GHz,” PLOS ONE, vol. 18, no. 3, p. e0282781, Mar. 2023. doi.org/10.1371/journal.pone.0282781 [SCIE (Q2), JIF:3.7]\n\n\nM. A. Samad, S. -W. Choi, C. -S. Kim and K. Choi, “Wave Propagation Modeling Techniques in Tunnel Environments: A Survey,” IEEE Access, vol. 11, pp. 2199-2225, 2023. doi.org/10.1109/ACCESS.2022.3233877 [SCIE (Q2), JIF:3.9]"
   },
   {
-    "objectID": "miscellaneous/windows.html#window-management",
-    "href": "miscellaneous/windows.html#window-management",
-    "title": "Windows Shortcuts & Commands",
-    "section": "Window Management",
-    "text": "Window Management\n\nWindow Snapping\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + Left Arrow\nSnap Window Left\n\n\nWin + Right Arrow\nSnap Window Right\n\n\nWin + Up Arrow\nMaximize Window\n\n\nWin + Down Arrow\nMinimize/Restore Window\n\n\nWin + Shift + Up\nStretch Vertically\n\n\nWin + Shift + Down\nRestore/Minimize Height\n\n\nWin + Home\nMinimize All Except Active\n\n\nWin + Z\nSnap Layouts (Win 11)\n\n\n\n\n\nWindow Control & Multi-Monitor\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + Shift + Left/Right\nMove Window Between Monitors\n\n\nAlt + Space\nWindow Menu\n\n\nAlt + Space + M\nMove Window Mode\n\n\nAlt + Space + S\nResize Window Mode\n\n\n\n\n\nVirtual Desktops\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + Ctrl + D\nCreate New Desktop\n\n\nWin + Ctrl + F4\nClose Current Desktop\n\n\nWin + Ctrl + Left/Right\nSwitch Between Desktops"
+    "objectID": "my-publications.html#section-3",
+    "href": "my-publications.html#section-3",
+    "title": "Publications",
+    "section": "2022",
+    "text": "2022\n\n\nM. S. Hossain, N. Hasan, M. A. Samad, H. M. Shakhawat, J. Karmoker, F. Ahmed, K. F. M. N. Fuad, and K. Choi. “Android Ransomware Detection From Traffic Analysis Using Metaheuristic Feature Selection.” IEEE Access 10 (2022): 128754–63. doi.org/10.1109/access.2022.3227579 [SCIE (Q2), JIF:3.9]\n\n\nM. A. Samad, D. -Y. Choi, K. Choi, “Path Loss Investigation in Hall Environment at Centimeter and Millimeter-Wave Bands,” Sensors, vol. 22, p. 6593, aug 2022. doi.org/10.3390/s22176593 [SCIE (Q2), JIF:3.9]\n\n\nM. A. Samad, and D.-Y. Choi, “Analysis and Modeling of Propagation in Tunnel at 3.7 and 28 GHz,” CMC-Computers, Materials and Continua, 71(2), pp. 3127–3143, 2022. doi.org/10.32604/cmc.2022.023086 [SCIE (Q3), JIF:3.1]"
   },
   {
-    "objectID": "miscellaneous/windows.html#file-explorer",
-    "href": "miscellaneous/windows.html#file-explorer",
-    "title": "Windows Shortcuts & Commands",
-    "section": "File Explorer",
-    "text": "File Explorer\n\nBasic Operations\n\n\n\nShortcut\nDescription\n\n\n\n\nCtrl + N\nNew Window\n\n\nCtrl + W\nClose Window\n\n\nCtrl + Shift + N\nNew Folder\n\n\nF2\nRename Selected Item\n\n\nDelete\nMove to Recycle Bin\n\n\nShift + Delete\nPermanent Delete\n\n\nCtrl + Z\nUndo\n\n\nCtrl + Y\nRedo\n\n\n\n\n\nNavigation & View\n\n\n\nShortcut\nDescription\n\n\n\n\nAlt + Up Arrow\nGo Up One Level\n\n\nAlt + Left/Right\nBack/Forward\n\n\nBackspace\nGo to Parent Folder\n\n\nCtrl + L\nFocus Address Bar\n\n\nAlt + D\nSelect Address Bar\n\n\nF4\nAddress Bar Dropdown\n\n\nCtrl + Mouse Wheel\nChange Icon Size\n\n\nAlt + P\nToggle Preview Pane\n\n\nAlt + Enter\nProperties\n\n\nShift + Right-Click\nExtended Context Menu"
+    "objectID": "my-publications.html#section-4",
+    "href": "my-publications.html#section-4",
+    "title": "Publications",
+    "section": "2021",
+    "text": "2021\n\n\nM. A. Samad, F. D. Diba, Y. J. Kim, and D.-Y. Choi, “Results of Large-Scale Propagation Models in Campus Corridor at 3.7 and 28 GHz,” Sensors, vol. 21, no. 22, p. 7747, nov 2021. doi.org/10.3390/s21227747 [SCIE (Q2), JIF:3.9]\n\n\nM. A. Samad, and D.-Y. Choi, “Radiowave Propagation in Tunnel: Experimental Results,” 7th International Conference on Advanced Engineering and ICT-convergence, July 7-9, 2021 [online].\n\n\nM. A. Samad, and D.-Y. Choi, “5G Vertical Services in Korea,” 6th International Conference on Advanced Engineering and ICT-convergence, 7 January 2021 [online].\n\n\nM. A. Samad, and D.-Y. Choi, “Scaling of Rain Attenuation Models: A Survey,” Applied Sciences, vol. 11, no. 18, p. 8360, aug 2021. doi.org/10.3390/app11188360 [SCIE (Q3), JIF:2.7]\n\n\nM. A. Samad, F. D. Diba, and D.-Y. Choi, “Rain attenuation scaling in South Korea: Experimental results and artificial neural network,” Electronics, vol. 10, no. 16, p. 2030, aug 2021. doi.org/10.3390/electronics10162030 [SCIE (Q2), JIF:2.9]\n\n\nF. D. Diba, M. A. Samad, and D.-Y. Choi, “Centimeter and Millimeter-Wave Propagation Characteristics for Indoor Corridors at 3.7 and 28 GHz: Results from Measurements and Models,” IEEE Access, vol. 9, pp. 158726-158737, 2021. doi.org/10.1109/ACCESS.2021.3130293 [SCIE (Q2), JIF:3.9]\n\n\nM. A. Samad, M. R. Ahmed, and S. Z. Rashid, “An overview of rain attenuation research in Bangladesh,” Indonesian Journal of Electrical Engineering and Computer Science, vol. 23, no. 2, p. 902, Aug. 2021. doi.org/10.11591/ijeecs.v23.i2.pp902-909 [SCOPUS]\n\n\nM. A. Samad, F. D. Diba, and D.-Y. Choi, “A survey of rain fade models for earth–space telecommunication links—taxonomy, methods, and comparative study,” Remote Sensing, vol. 13, no. 10, p. 1965, may 2021. doi.org/10.3390/rs13101965 [SCIE (Q2), JIF:5.0]\n\n\nF. D. Diba, M. A. Samad, J. Ghimire, and D.-Y. Choi, “Wireless telecommunication links for rainfall monitoring: Deep learning approach and experimental results,” IEEE Access, vol. 9, pp. 66 769–66 780, 2021. doi.org/10.1109/access.2021.3076781 [SCIE (Q2), JIF:3.9]\n\n\nM. A. Samad, F. D. Diba, and D.-Y. Choi, “A survey of rain attenuation prediction models for terrestrial links—current research challenges and state-of-the-art,” Sensors, vol. 21, no. 4, p. 1207, feb 2021. doi.org/10.3390/s21041207 [SCIE (Q2), JIF:3.9]\n\n\nF. D. Diba, M. A. Samad, and D.-Y. Choi, “The effects of rain on terrestrial links at K, Ka and E-bands in South Korea: Based on supervised learning,” IEEE Access, vol. 9, pp. 9345–9355, 2021. doi.org/10.1109/access.2021.3049825 [SCIE (Q2), JIF:3.9]"
   },
   {
-    "objectID": "miscellaneous/windows.html#text-editing",
-    "href": "miscellaneous/windows.html#text-editing",
-    "title": "Windows Shortcuts & Commands",
-    "section": "Text Editing",
-    "text": "Text Editing\n\nBasic Editing\n\n\n\nShortcut\nDescription\n\n\n\n\nCtrl + C\nCopy\n\n\nCtrl + X\nCut\n\n\nCtrl + V\nPaste\n\n\nCtrl + Z\nUndo\n\n\nCtrl + Y\nRedo\n\n\nCtrl + A\nSelect All\n\n\nCtrl + F\nFind\n\n\nCtrl + H\nReplace\n\n\n\n\n\nAdvanced Navigation & Selection\n\n\n\nShortcut\nDescription\n\n\n\n\nCtrl + Left/Right\nJump by Word\n\n\nCtrl + Backspace\nDelete Previous Word\n\n\nCtrl + Delete\nDelete Next Word\n\n\nCtrl + Shift + Left/Right\nSelect Word by Word\n\n\nHome\nGo to Start of Line\n\n\nEnd\nGo to End of Line\n\n\nShift + Home\nSelect to Start of Line\n\n\nShift + End\nSelect to End of Line\n\n\nCtrl + Home\nGo to Start of Document\n\n\nCtrl + End\nGo to End of Document"
+    "objectID": "my-publications.html#section-5",
+    "href": "my-publications.html#section-5",
+    "title": "Publications",
+    "section": "2020",
+    "text": "2020\n\nM. A. Samad, and D.-Y. Choi, “Learning-assisted rain attenuation prediction models,” Applied Sciences, vol. 10, no. 17, p. 6017, aug 2020. doi.org/10.3390/app10176017 [SCIE (Q2), JIF:2.7]"
   },
   {
-    "objectID": "miscellaneous/windows.html#browser-shortcuts",
-    "href": "miscellaneous/windows.html#browser-shortcuts",
-    "title": "Windows Shortcuts & Commands",
-    "section": "Browser Shortcuts",
-    "text": "Browser Shortcuts\n\nTab Management\n\n\n\nShortcut\nDescription\n\n\n\n\nCtrl + T\nNew Tab\n\n\nCtrl + Shift + T\nReopen Closed Tab\n\n\nCtrl + W\nClose Current Tab\n\n\nCtrl + Tab\nNext Tab\n\n\nCtrl + Shift + Tab\nPrevious Tab\n\n\nCtrl + 1-8\nSwitch to Tab 1-8\n\n\nCtrl + 9\nSwitch to Last Tab\n\n\n\n\n\nBrowser Navigation\n\n\n\nShortcut\nDescription\n\n\n\n\nCtrl + L\nFocus Address Bar\n\n\nCtrl + D\nBookmark Page\n\n\nF5 / Ctrl + R\nRefresh Page\n\n\nCtrl + Shift + R\nHard Refresh\n\n\nF11\nFull Screen Mode\n\n\nCtrl + +/-\nZoom In/Out"
+    "objectID": "my-publications.html#section-6",
+    "href": "my-publications.html#section-6",
+    "title": "Publications",
+    "section": "2015",
+    "text": "2015\n\nM. S. Hossain, and M. A. Samad, “The tropospheric scintillation prediction of earth-to-satellite link for Bangladeshi climatic condition,” Serbian Journal of Electrical Engineering, vol. 12, no. 3, pp. 263–273, 2015. doi.org/10.2298/SJEE1503263H"
   },
   {
-    "objectID": "miscellaneous/windows.html#productivity-tools",
-    "href": "miscellaneous/windows.html#productivity-tools",
-    "title": "Windows Shortcuts & Commands",
-    "section": "Productivity Tools",
-    "text": "Productivity Tools\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + V\nClipboard History\n\n\nWin + Shift + S\nScreenshot Tool\n\n\nWin + PrintScreen\nFull Screenshot to Pictures\n\n\nWin + Period (.)\nEmoji Panel\n\n\nWin + H\nVoice Typing/Dictation\n\n\nWin + G\nXbox Game Bar\n\n\nWin + Alt + R\nStart/Stop Recording"
+    "objectID": "my-publications.html#section-7",
+    "href": "my-publications.html#section-7",
+    "title": "Publications",
+    "section": "2014",
+    "text": "2014\n\n\nA. G. Abshir, M. M. Abdullahi, and M. A. Samad, “A Comparative Study of Carrier Frequency Offset (CFO) Estimation Techniques for OFDM Systems,” IOSR Journal of Electronics and Communication Engineering, vol. 9, no. 4, pp. 01–06, 2014.\n\n\nM. A. Samad and M. I. Huq, “Correlation between brain’s adjoin and diverse hemisphere for motor imagery task relating to central and peripheral nervous system,” International Conference on Informatics, Electronics and Vision (ICIEV), 2014, pp. 1-6, doi: 10.1109/ICIEV.2014.6850828."
   },
   {
-    "objectID": "miscellaneous/windows.html#run-commands",
-    "href": "miscellaneous/windows.html#run-commands",
-    "title": "Windows Shortcuts & Commands",
-    "section": "Run Commands",
-    "text": "Run Commands\nPress Win + R, type the command, and hit Enter.\n\nSystem Tools\n\n\n\nCommand\nDescription\n\n\n\n\ncmd\nCommand Prompt\n\n\npowershell\nWindows PowerShell\n\n\ntaskmgr\nTask Manager\n\n\nmsconfig\nSystem Configuration\n\n\nmsinfo32\nSystem Information\n\n\nregedit\nRegistry Editor (Use with caution)\n\n\nresmon\nResource Monitor\n\n\nperfmon\nPerformance Monitor\n\n\ncontrol\nControl Panel\n\n\n\n\n\nManagement Consoles (.msc)\n\n\n\nCommand\nDescription\n\n\n\n\ndevmgmt.msc\nDevice Manager\n\n\ndiskmgmt.msc\nDisk Management\n\n\nservices.msc\nWindows Services\n\n\ncompmgmt.msc\nComputer Management\n\n\neventvwr.msc\nEvent Viewer\n\n\nlusrmgr.msc\nLocal Users & Groups\n\n\n\n\n\nControl Panel Items (.cpl)\n\n\n\nCommand\nDescription\n\n\n\n\nncpa.cpl\nNetwork Connections\n\n\nappwiz.cpl\nPrograms & Features\n\n\nfirewall.cpl\nWindows Firewall\n\n\ndesk.cpl\nDisplay Settings\n\n\npowercfg.cpl\nPower Options\n\n\nmain.cpl\nMouse Properties\n\n\nsysdm.cpl\nSystem Properties\n\n\ntimedate.cpl\nDate & Time\n\n\n\n\n\nQuick Launch Applications\n\n\n\nCommand\nDescription\n\n\n\n\ncalc\nCalculator\n\n\nnotepad\nNotepad\n\n\nmspaint\nPaint\n\n\nsnippingtool\nSnipping Tool\n\n\nmagnify\nMagnifier\n\n\nosk\nOn-Screen Keyboard\n\n\ncharmap\nCharacter Map\n\n\nwordpad\nWordPad\n\n\n\n\n\nSystem Utilities\n\n\n\nCommand\nDescription\n\n\n\n\ncleanmgr\nDisk Cleanup\n\n\nmstsc\nRemote Desktop Connection\n\n\nwinver\nWindows Version Info\n\n\ndxdiag\nDirectX Diagnostic Tool\n\n\nsndvol\nVolume Mixer\n\n\n\n\n\nSpecial Folders\n\n\n\nCommand\nDescription\n\n\n\n\n.\nCurrent User Folder\n\n\nshell:startup\nStartup Folder\n\n\nshell:downloads\nDownloads Folder\n\n\nshell:recent\nRecent Items\n\n\nshell:sendto\nSend To Folder\n\n\n%temp%\nTemp Folder\n\n\n%appdata%\nAppData Folder\n\n\n%programfiles%\nProgram Files Folder"
-  },
-  {
-    "objectID": "miscellaneous/windows.html#command-prompt-network",
-    "href": "miscellaneous/windows.html#command-prompt-network",
-    "title": "Windows Shortcuts & Commands",
-    "section": "Command Prompt & Network",
-    "text": "Command Prompt & Network\n\nFile Operations\n\n\n\nCommand\nDescription\n\n\n\n\ndir\nList directory contents\n\n\ncd [path]\nChange directory\n\n\nmkdir [name]\nCreate directory\n\n\ncopy [source] [dest]\nCopy files\n\n\nmove [source] [dest]\nMove files\n\n\ndel [file]\nDelete file\n\n\ntree\nDisplay folder structure as tree\n\n\nattrib +h [file]\nHide file\n\n\nattrib -h [file]\nUnhide file\n\n\n\n\n\nNetwork Commands\n\n\n\nCommand\nDescription\n\n\n\n\nipconfig /all\nDisplay network configuration\n\n\nipconfig /flushdns\nClear DNS cache\n\n\nping [address]\nTest connection to address\n\n\ntracert [address]\nTrace route to destination\n\n\nnetstat -an\nDisplay active connections\n\n\nnslookup [domain]\nQuery DNS records\n\n\narp -a\nDisplay ARP table\n\n\nnetsh wlan show profiles\nShow saved WiFi networks\n\n\n\n\n\nSystem Commands\n\n\n\nCommand\nDescription\n\n\n\n\nsysteminfo\nDisplay system information\n\n\ntasklist\nList all running processes\n\n\ntaskkill /f /im [name]\nForce kill process\n\n\nshutdown /s /t 0\nShutdown immediately\n\n\nshutdown /r /t 0\nRestart immediately\n\n\nhostname\nDisplay computer name\n\n\nwhoami\nDisplay current username\n\n\nver\nDisplay Windows version"
-  },
-  {
-    "objectID": "miscellaneous/windows.html#system-maintenance",
-    "href": "miscellaneous/windows.html#system-maintenance",
-    "title": "Windows Shortcuts & Commands",
-    "section": "System Maintenance",
-    "text": "System Maintenance\n\n\n\n\n\n\nWarningImportant\n\n\n\nRun Command Prompt or PowerShell as Administrator for these commands. Right-click and select “Run as administrator”.\n\n\n\nSystem Repair Commands\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\nsfc /scannow\nScan and repair system files (15-30 minutes)\n\n\nchkdsk /f /r\nCheck disk for errors and repair (requires restart)\n\n\nDISM /Online /Cleanup-Image /RestoreHealth\nRepair Windows system image (run before sfc)\n\n\n\n\n\nUtility Commands\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\npowercfg /batteryreport\nGenerate battery health report\n\n\nnetsh wlan show profile name=\"WiFi-Name\" key=clear\nShow saved WiFi password\n\n\n\n\n\nPowerShell System Commands\n\n\n\nCommand\nDescription\n\n\n\n\nGet-ComputerInfo\nDetailed system information\n\n\nGet-Process\nList running processes\n\n\nGet-Service\nList Windows services\n\n\nGet-Hotfix\nShow installed updates\n\n\nGet-NetAdapter\nDisplay network adapters\n\n\nGet-Volume\nShow disk volumes\n\n\nGet-LocalUser\nList local users\n\n\nTest-Connection google.com\nAdvanced ping command"
-  },
-  {
-    "objectID": "miscellaneous/windows.html#windows-11-features",
-    "href": "miscellaneous/windows.html#windows-11-features",
-    "title": "Windows Shortcuts & Commands",
-    "section": "Windows 11 Features",
-    "text": "Windows 11 Features\n\nWindows 11 Exclusive Shortcuts\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + W\nOpen Widgets Panel\n\n\nWin + C\nOpen Copilot AI\n\n\nWin + N\nNotification Center\n\n\nWin + Z\nSnap Layouts Menu\n\n\n\n\n\nGod Mode - Access All Settings\n\n\n\n\n\n\nTipHow to Enable God Mode\n\n\n\n\nCreate a new folder on your desktop\nRename it to: GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}\nDouble-click to access 200+ Windows settings\n\n\n\n\n\nAccessibility Shortcuts\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + + (Plus)\nOpen Magnifier & Zoom In\n\n\nWin + - (Minus)\nZoom Out\n\n\nWin + Esc\nClose Magnifier\n\n\nWin + Ctrl + Enter\nToggle Narrator\n\n\nWin + H\nVoice Typing\n\n\n\n\n\nAdvanced Graphics\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + Ctrl + Shift + B\nRestart Graphics Driver"
-  },
-  {
-    "objectID": "miscellaneous/windows.html#pro-tips-tricks",
-    "href": "miscellaneous/windows.html#pro-tips-tricks",
-    "title": "Windows Shortcuts & Commands",
-    "section": "Pro Tips & Tricks",
-    "text": "Pro Tips & Tricks\n\nTaskbar Tricks\n\nShift + Click on taskbar icon - Open new instance\nCtrl + Click on taskbar icon - Cycle through windows\nMiddle Click on taskbar icon - Open new instance\nShift + Right-Click on taskbar - Show window menu\n\n\n\nFile Explorer Secrets\n\nAlt + D - Focus address bar instantly\nF4 in address bar - Show recent locations dropdown\nType cmd in address bar - Open Command Prompt in that folder\nType powershell in address bar - Open PowerShell in that folder\nShift + Right-Click on folder - Extended menu with “Copy as path”\n\n\n\nRun Dialog Tricks\n\nCtrl + Shift + Enter in Run Dialog - Run as Administrator\nType \\computer-name - Connect to network computer\nType website URL - Opens in default browser\n\n\n\nMulti-Monitor Magic\n\nWin + Shift + Left/Right Arrow - Move window between monitors\nWin + P - Project/display options (duplicate, extend, etc.)\n\n\n\nQuick Copy Tricks\n\nCtrl + Shift + C/V - Copy/paste in Command Prompt\nWin + V - Open clipboard history (enable in Settings first)\nSelect file in Explorer, Ctrl + Shift + C - Copy file path\n\n\n\n\n\n\n\nTipProductivity Hack\n\n\n\nPin frequently used apps to taskbar and use Win + [1-9] to launch them instantly!"
-  },
-  {
-    "objectID": "miscellaneous/windows.html#safety-notes-best-practices",
-    "href": "miscellaneous/windows.html#safety-notes-best-practices",
-    "title": "Windows Shortcuts & Commands",
-    "section": "Safety Notes & Best Practices",
-    "text": "Safety Notes & Best Practices\n\n\n\n\n\n\nWarningRegistry Editor Warning\n\n\n\nOnly modify the registry if you know exactly what you are doing. Always create a backup before making changes. Incorrect registry edits can make Windows unstable or unbootable.\n\n\n\n\n\n\n\n\nWarningAdministrator Commands\n\n\n\nCommands like sfc /scannow, chkdsk, and DISM require administrator privileges. Right-click Command Prompt/PowerShell and select “Run as administrator”.\n\n\n\n\n\n\n\n\nWarningMaintenance Time\n\n\n\nsfc /scannow takes 15-30 minutes. chkdsk and DISM can take 30+ minutes. Run these when you have time and will not need your computer.\n\n\n\nSafe Practices\n\nLock your PC when leaving: Win + L\nRegularly update Windows via Settings &gt; Windows Update\nEnable BitLocker for drive encryption (if available)\nUse strong passwords and Windows Hello if possible\nKeep important files backed up to cloud or external drive\nRun Windows Defender scans regularly\nOnly download software from trusted sources\n\n\n\nMaintenance Schedule\n\n\n\n\n\n\nNoteRecommended Schedule\n\n\n\n\nMonthly: Run Disk Cleanup (cleanmgr), check for Windows updates\nQuarterly: Run sfc /scannow, review installed programs\nYearly: Full system backup, DISM health check"
-  },
-  {
-    "objectID": "miscellaneous/windows.html#top-20-must-know-shortcuts",
-    "href": "miscellaneous/windows.html#top-20-must-know-shortcuts",
-    "title": "Windows Shortcuts & Commands",
-    "section": "Top 20 Must-Know Shortcuts",
-    "text": "Top 20 Must-Know Shortcuts\nMaster these first - they will save you hours!\n\nWin + E - File Explorer\nWin + D - Show/Hide Desktop\nAlt + Tab - Switch Apps\nWin + L - Lock PC\nWin + V - Clipboard History\nWin + Shift + S - Screenshot\nCtrl + Shift + Esc - Task Manager\nWin + Left/Right - Snap Windows\nWin + I - Settings\nWin + R - Run Dialog\nWin + Tab - Task View\nAlt + F4 - Close Window\nCtrl + Shift + N - New Folder\nWin + Period - Emoji Panel\nWin + X - Power User Menu\nF2 - Rename File\nCtrl + Z - Undo\nWin + S - Search\nWin + Ctrl + D - New Desktop\nCtrl + Shift + T - Reopen Tab\n\nLast Updated: October 2025"
-  },
-  {
-    "objectID": "latex-guide.html",
-    "href": "latex-guide.html",
-    "title": "LaTeX Reference Guide",
-    "section": "",
-    "text": "VS Code: Open integrated terminal with Ctrl+ ` (backtick)\nlatexdiff --append-context2cmd=\"abstract\" old.tex new.tex &gt; diff.tex\nGenerates diff.tex with additions underlined in red.\n\n\n\n\\providecommand{\\DIFdel}[1]{}\n\\providecommand{\\DIFadd}[1]{{\\color{red}\\uline{#1}}}"
-  },
-  {
-    "objectID": "latex-guide.html#document-comparison-and-track-changes",
-    "href": "latex-guide.html#document-comparison-and-track-changes",
-    "title": "LaTeX Reference Guide",
-    "section": "",
-    "text": "VS Code: Open integrated terminal with Ctrl+ ` (backtick)\nlatexdiff --append-context2cmd=\"abstract\" old.tex new.tex &gt; diff.tex\nGenerates diff.tex with additions underlined in red.\n\n\n\n\\providecommand{\\DIFdel}[1]{}\n\\providecommand{\\DIFadd}[1]{{\\color{red}\\uline{#1}}}"
-  },
-  {
-    "objectID": "latex-guide.html#table-design-and-layout",
-    "href": "latex-guide.html#table-design-and-layout",
-    "title": "LaTeX Reference Guide",
-    "section": "Table Design and Layout",
-    "text": "Table Design and Layout\n\nColor Entire Table\n{\\color{red}\n\\begin{tabular}{cc}\na & b \\\\\n1 & 2 \\\\\n\\end{tabular}}\n\n\nAdjust Table Spacing\n\\setlength{\\tabcolsep}{20pt}\n\\renewcommand{\\arraystretch}{1.5}\n\n\nMulti-Column Table Syntax\n\\multicolumn{2}{c}{Merged Cell}\n\n\nMulti-Row Table Syntax\n\\usepackage{multirow}\n\\multirow{2}{*}{Merged Row}\n\n\nResize Table to Fit Page Width\n\\resizebox{\\linewidth}{!}{%\n\\begin{tabular}...\\end{tabular}}"
-  },
-  {
-    "objectID": "latex-guide.html#algorithm-formatting",
-    "href": "latex-guide.html#algorithm-formatting",
-    "title": "LaTeX Reference Guide",
-    "section": "Algorithm Formatting",
-    "text": "Algorithm Formatting\n\nAlgorithm Autoref Support\n\\newcommand{\\algorithmautorefname}{Algorithm}\n\n\nSub-Step Numbering in Algorithms\n\\usepackage{algorithm,algpseudocode}\n\\newcounter{algsubstate}\n\\renewcommand{\\thealgsubstate}{\\alph{algsubstate}}\n\\newenvironment{algsubstates}{\n\\setcounter{algsubstate}{0}\n\\renewcommand{\\State}{\n\\stepcounter{algsubstate}\n\\Statex {\\footnotesize\\thealgsubstate:}\\space}}{}\n\n\nSplit Algorithm Across Pages\n\\usepackage{algorithm, algcompatible}\n\\algstore{blockname}\n...\n\\algrestore{blockname}"
-  },
-  {
-    "objectID": "latex-guide.html#hyperlink-styling",
-    "href": "latex-guide.html#hyperlink-styling",
-    "title": "LaTeX Reference Guide",
-    "section": "Hyperlink Styling",
-    "text": "Hyperlink Styling\n\nCustom Link Colors\n\\usepackage{hyperref}\n\\hypersetup{\ncolorlinks=true,\nlinkcolor=blue,\nfilecolor=blue,\nurlcolor=blue,\nallcolors=blue}\n\\urlstyle{same}"
-  },
-  {
-    "objectID": "latex-guide.html#citations-and-bibliography",
-    "href": "latex-guide.html#citations-and-bibliography",
-    "title": "LaTeX Reference Guide",
-    "section": "Citations and Bibliography",
-    "text": "Citations and Bibliography\n\nForce Numbered Style\n\\setcitestyle{numbers}\n\n\nUse (1) Style Instead of [1]\n\\usepackage[numbers,round]{natbib}\n\\bibliographystyle{vancouver}\n\n\nBack to Square Brackets\n\\usepackage[sort,numbers]{natbib}\n\\setcitestyle{square}\n\n\nShow Citation Keys for Debugging\n\\usepackage{showlabels}\n\\renewcommand{\\showlabelfont}{\\small\\color{blue}}\n\\showlabels[\\small\\color{gray}]{cite}\n\\showlabels[\\small\\color{red}]{bibitem}"
-  },
-  {
-    "objectID": "latex-guide.html#compilation-and-debugging",
-    "href": "latex-guide.html#compilation-and-debugging",
-    "title": "LaTeX Reference Guide",
-    "section": "Compilation and Debugging",
-    "text": "Compilation and Debugging\n\nShow Loaded Packages\n\\listfiles\n\n\nDelete Aux Files (Bash)\nVS Code: Open integrated terminal with Ctrl+ ` (backtick)\nrm -f *.aux *.log *.toc *.out *.lof *.lot *.fls *.fdb_latexmk *.synctex.gz *.nav *.snm *.bbl *.blg *.vrb *.xdv\n\n\nFull Compile Sequence (with BibTeX)\nVS Code: Open integrated terminal with Ctrl+ ` (backtick) or use LaTeX Workshop extension\nlatexmk -pdf main.tex\n# or manual:\npdflatex main.tex \nbibtex main\npdflatex main.tex\npdflatex main.tex"
-  },
-  {
-    "objectID": "latex-guide.html#git-integration-with-overleaf",
-    "href": "latex-guide.html#git-integration-with-overleaf",
-    "title": "LaTeX Reference Guide",
-    "section": "Git Integration with Overleaf",
-    "text": "Git Integration with Overleaf\n\n\n\n\n\n\nTipGetting Started\n\n\n\nIn Overleaf: Menu → Git → Enable Git\nVS Code: Open integrated terminal with Ctrl+ (backtick) or use Source Control panel (Ctrl+Shift+G`)\n\n\n\nGet Overleaf Project URL\nIf you already have a cloned Overleaf project and want to get the web URL:\nVS Code: Open integrated terminal with Ctrl+ ` (backtick)\n# Copy Overleaf web URL to clipboard\ngit remote get-url origin | sed 's|https://git@git.overleaf.com/|https://www.overleaf.com/project/|' | clip\nThis converts the git URL (https://git@git.overleaf.com/project_ID) to the proper web URL (https://www.overleaf.com/project/project_ID) and copies it to your clipboard.\n\n\nClone Overleaf Project\nVS Code Command: Use Command Palette (Ctrl+Shift+P) → “Git: Clone”\nCopy URL like: https://git.overleaf.com/project-id\ncd ~/Documents\ngit clone https://git.overleaf.com/project-id\ncd project-id\n\n\nPush Local Changes to Overleaf\nVS Code: - Open Source Control panel (Ctrl+Shift+G) - Stage changes, add commit message, click “Commit and Push” - Or use integrated terminal:\ngit add .\ngit commit -m \"Update\"\ngit push\n\n\nPull Before Push to Avoid Conflict\nVS Code: Command Palette (Ctrl+Shift+P) → “Git: Pull (Rebase)”\ngit pull --rebase\n\n\nCommand Summary\n\n\n\n\n\n\n\n\nCommand\nDescription\nVS Code Shortcut\n\n\n\n\ngit pull origin master\nPull changes from Overleaf (remote: origin, branch: master)\nCtrl+Shift+P → “Git: Pull”\n\n\ngit push origin master\nPush your local changes to Overleaf\nCtrl+Shift+P → “Git: Push”\n\n\ngit pull overleaf master\nSame as above, but only if your remote is named overleaf\nCtrl+Shift+P → “Git: Pull”"
-  },
-  {
-    "objectID": "latex-guide.html#opening-pdfs-from-git-bash-on-windows",
-    "href": "latex-guide.html#opening-pdfs-from-git-bash-on-windows",
-    "title": "LaTeX Reference Guide",
-    "section": "Opening PDFs from Git Bash on Windows",
-    "text": "Opening PDFs from Git Bash on Windows\n\nNavigate to Directory\ncd /c/Users/YourName/Documents/latex-project\n\n\nOpen PDF in Default Viewer\nstart \"\" \"main.pdf\"\n# or\nexplorer.exe \"main.pdf\"\n\n\nAutomate Compile and Open\nVS Code: Open integrated terminal with Ctrl+ ` (backtick)\npdflatex main.tex && start \"\" \"main.pdf\""
-  },
-  {
-    "objectID": "latex-guide.html#word-counting-in-latex",
-    "href": "latex-guide.html#word-counting-in-latex",
-    "title": "LaTeX Reference Guide",
-    "section": "Word Counting in LaTeX",
-    "text": "Word Counting in LaTeX\nVS Code: Open integrated terminal with Ctrl+ ` (backtick)\nUse texcount for accurate word count:\ntexcount yourfile.tex\ntexcount -sum yourfile.tex\ntexcount -inc yourfile.tex\ntexcount -1 yourfile.tex\ntexcount -brief yourfile.tex\ntexcount -inc -sum -total main.tex"
-  },
-  {
-    "objectID": "latex-guide.html#creating-latex-tables-with-merged-headers",
-    "href": "latex-guide.html#creating-latex-tables-with-merged-headers",
-    "title": "LaTeX Reference Guide",
-    "section": "Creating LaTeX Tables with Merged Headers",
-    "text": "Creating LaTeX Tables with Merged Headers\n\n\n\n\n\n\nNoteRequirements\n\n\n\n\nColumns 1 and 2: vertical merge (2 rows)\nColumns 3–5: under “Group Header” merged in first row, subheaders in second row\nColumn 6: vertical merge (2 rows)\n\n\n\n\nOptional Customizations\n\nUse booktabs for horizontal lines\nUse tabularx with \\textwidth for dynamic width\nCenter-align all columns\nAdd sample data rows\nInclude \\caption{} and \\label{}\nAdd colored headers (requires xcolor)\nEnsure compilation-ready for Overleaf/TeXstudio"
-  },
-  {
-    "objectID": "latex-guide.html#tabularx-column-spacing-issues",
-    "href": "latex-guide.html#tabularx-column-spacing-issues",
-    "title": "LaTeX Reference Guide",
-    "section": "TabularX Column Spacing Issues",
-    "text": "TabularX Column Spacing Issues\n\n\n\n\n\n\nWarningProblem\n\n\n\nReducing column spacing with \\setlength{\\tabcolsep}{4pt} may lead to inconsistent column widths.\n\n\n\nWhy This Happens\n\nAutomatic Column Stretching: tabularx distributes remaining width among X columns proportionally\nReduced Padding: Smaller \\tabcolsep makes differences more noticeable\nMultiple X Columns: Algorithm may leave fractional rounding errors\nComplex Tables: Multirow/multicolumn cells exacerbate uneven widths\n\n\n\nSolutions\n1. Use Proportional X Columns\n\\begin{tabularx}{\\textwidth}{|&gt;{\\hsize=0.5\\hsize}X|&gt;{\\hsize=1\\hsize}X|c|}\n2. Consider tabular* for Precise Control\n\\begin{tabular*}{\\textwidth}{@{\\extracolsep{\\fill}}|l|l|l|}\n3. Use Fixed-Width Columns\np{width}\n\n\n\n\n\n\nTipPro Tips\n\n\n\n\nCombine reduced \\tabcolsep with \\arraystretch for balanced spacing\nAlways test with multiple rows and different content lengths\nFor highly complex tables, consider splitting into smaller subtables"
-  },
-  {
-    "objectID": "latex-guide.html#creating-sequential-dummy-figures-in-latex-with-tikz",
-    "href": "latex-guide.html#creating-sequential-dummy-figures-in-latex-with-tikz",
-    "title": "LaTeX Reference Guide",
-    "section": "Creating Sequential Dummy Figures in LaTeX with TikZ",
-    "text": "Creating Sequential Dummy Figures in LaTeX with TikZ\nSometimes you need placeholder figures while drafting. Here is how to generate 20 numbered dummy figures automatically:\n\\documentclass{article}\n\\usepackage{tikz}\n\n\\begin{document}\n\n\\section*{Sequential Dummy Figures with TikZ}\n\n% Define a command to create a numbered dummy image\n\\newcommand{\\numberedimage}[1]{%\n  \\begin{figure}[h!]\n    \\centering\n    \\begin{tikzpicture}\n      \\draw[fill=gray!30] (0,0) rectangle (4,3); % gray rectangle\n      \\node at (2,1.5) {\\Huge Image #1};         % centered label\n    \\end{tikzpicture}\n    \\caption{Dummy figure #1}\n  \\end{figure}\n}\n\n% Generate 20 dummy figures\n\\numberedimage{1}\n\\numberedimage{2}\n\\numberedimage{3}\n% ...continue to 20\n\n\\end{document}\n\nWhat this code does\n\nDefines a custom command \\numberedimage{n}\nEach dummy figure is a gray rectangle with “Image n” written inside\nFigures are numbered 1 through 20, each with its own caption\n\n\n\n\n\n\n\nNoteUse Cases\n\n\n\n\nTesting figure layouts\nReserving space for future graphics\nCreating mockups in academic papers"
-  },
-  {
-    "objectID": "latex-guide.html#texstudio-search-and-replace-with-regex",
-    "href": "latex-guide.html#texstudio-search-and-replace-with-regex",
-    "title": "LaTeX Reference Guide",
-    "section": "TeXstudio Search and Replace with Regex",
-    "text": "TeXstudio Search and Replace with Regex\n\nRemove Asterisks from Section Headers\nVS Code: Open Find and Replace with Ctrl+H\nTeXstudio: Use Find & Replace with Ctrl+H → Enable Regular Expressions\n\n\n\n\n\n\nNoteMethod 1: Standard Syntax (Try This First)\n\n\n\n\n\n\nSearch Pattern:\n\\\\((?:sub){0,2})section\\*\\{([^}]+)\\}\nReplace Pattern:\n\\\\\\1section{\\2}\n\n\n\n\n\n\nWarningMethod 2: Escaped Parentheses (If Method 1 Doesn’t Work)\n\n\n\n\n\n\nSearch Pattern:\n\\\\\\((?:sub){0,2}\\)section\\*\\{([^}]+)\\}\nReplace Pattern:\n\\\\\\1section{\\2}\n\n\n\nAdd Asterisks to Section Headers (Reverse Operation)\nVS Code: Open Find and Replace with Ctrl+H → Enable Regex mode (Alt+R)\nTeXstudio: Use Find & Replace with Ctrl+H → Enable Regular Expressions\n\n\n\n\n\n\nNoteMethod 1: Standard Syntax (Try This First)\n\n\n\n\n\n\nSearch Pattern:\n\\\\((?:sub){0,2})section\\{([^}]+)\\}\nReplace Pattern:\n\\\\\\1section*{\\2}\n\n\n\n\n\n\nWarningMethod 2: Escaped Parentheses (If Method 1 Doesn’t Work)\n\n\n\n\n\n\nSearch Pattern:\n\\\\\\((?:sub){0,2}\\)section\\{([^}]+)\\}\nReplace Pattern:\n\\\\\\1section*{\\2}"
-  },
-  {
-    "objectID": "latex-guide.html#vs-code-keyboard-shortcuts-for-latex",
-    "href": "latex-guide.html#vs-code-keyboard-shortcuts-for-latex",
-    "title": "LaTeX Reference Guide",
-    "section": "VS Code Keyboard Shortcuts for LaTeX",
-    "text": "VS Code Keyboard Shortcuts for LaTeX\n\nEssential Shortcuts by Category\nEditing & Navigation\n\n\n\nShortcut\nAction\n\n\n\n\nCtrl+P\nQuick Open File\n\n\nCtrl+G\nGo to Line\n\n\nCtrl+/\nComment Line / Toggle Comments\n\n\nCtrl+D\nMulti-cursor Selection (select next occurrence)\n\n\nCtrl+Shift+I\nFormat Document\n\n\n\nSearch & Replace\n\n\n\nShortcut\nAction\n\n\n\n\nCtrl+F\nFind\n\n\nCtrl+H\nFind and Replace\n\n\nAlt+R\nToggle Regex Mode in Find/Replace\n\n\n\nVersion Control & Terminal\n\n\n\nShortcut\nAction\n\n\n\n\nCtrl+Shift+G\nOpen Source Control (Git) Panel\n\n\nCtrl+ ` (backtick)\nOpen Integrated Terminal\n\n\n\nCommand & Feature Access\n\n\n\nShortcut\nAction\n\n\n\n\nCtrl+Shift+P\nOpen Command Palette\n\n\nCtrl+Shift+V\nToggle Markdown Preview\n\n\nCtrl+K Ctrl+0\nFold All\n\n\nCtrl+K Ctrl+J\nUnfold All"
-  },
-  {
-    "objectID": "latex-guide.html#quick-reference-table",
-    "href": "latex-guide.html#quick-reference-table",
-    "title": "LaTeX Reference Guide",
-    "section": "Quick Reference Table",
-    "text": "Quick Reference Table\n\nDocument Comparison\n\n\n\nCommand\nPurpose\n\n\n\n\nlatexdiff old.tex new.tex &gt; diff.tex\nCompare two LaTeX files\n\n\n\n\n\nTable Operations\n\n\n\nCommand\nPurpose\n\n\n\n\n\\multicolumn{2}{c}{Text}\nMerge columns in tables\n\n\n\\multirow{2}{*}{Text}\nMerge rows in tables\n\n\n\\resizebox{\\linewidth}{!}{...}\nFit table to page width\n\n\n\n\n\nCross-References & Citations\n\n\n\nCommand\nPurpose\n\n\n\n\n\\algorithmautorefname\nEnable autoref support for algorithms\n\n\n\\setcitestyle{numbers}\nUse numbered citation style\n\n\n\\hypersetup{colorlinks=true}\nEnable colored hyperlinks\n\n\n\n\n\nCompilation & Debugging\n\n\n\n\n\n\n\nCommand\nWhat It Does\n\n\n\n\nlatexmk -pdf main.tex\n✓ Recommended – Single command, handles everything (PDF output)\n\n\npdflatex main.tex && bibtex main && pdflatex main.tex x2\nManual sequence for fine control or debugging\n\n\ntexcount -inc -sum main.tex\nCount words including external files + show summary\n\n\nrm -f *.aux *.log *.toc *.out *.lof *.lot *.fls *.fdb_latexmk *.synctex.gz *.nav *.snm *.bbl *.blg *.vrb *.xdv\nRemove ALL temporary files and caches\n\n\n\nAccess via: Terminal (Ctrl+ `)\n\n\n\nVersion Control with Overleaf (Git)\n\n\n\n\n\n\nTipBest Practice: Pull → Modify → Commit → Push\n\n\n\nAlways pull before starting work to avoid conflicts!\n\n\n\n\n\n\n\n\n\n\nTask\nVS Code UI\nTerminal Command\n\n\n\n\nPull changes\nCtrl+Shift+G → ··· → “Pull (Rebase)”\ngit pull --rebase\n\n\nStage changes\nCtrl+Shift+G → Click + icon\ngit add .\n\n\nCommit\nEnter message → Ctrl+Enter\ngit commit -m \"message\"\n\n\nPush to Overleaf\nCtrl+Shift+G → ··· → “Push”\ngit push\n\n\n\nTerminal access: Ctrl+ ` (backtick)"
-  },
-  {
-    "objectID": "global-scholarships.html",
-    "href": "global-scholarships.html",
-    "title": "Global Scholarship Database",
-    "section": "",
-    "text": "Select a Region\n            \n                \n                    Global\n                \n                \n                    North America\n                \n                \n                    Europe\n                \n                \n                    Asia\n                \n                \n                    Middle East\n                \n                \n                    Oceania\n                \n                \n                    Latin America\n                \n                \n                    Africa\n                \n            \n            \n            Additional Filters\n            \n                \n                    Search by Name/Country\n                    \n                    \n                \n                \n                \n                    Education Level\n                    \n                        All Levels\n                        Bachelors\n                        Masters\n                        PhD\n                        Research/Fellowship\n                    \n                \n                \n                \n                    Classification\n                    \n                        All Types\n                        Government\n                        International Org\n                        University/Private\n                    \n                \n            \n        \n        \n        \n            Loading scholarships...\n            Clear All Filters"
-  },
-  {
-    "objectID": "admission-portals.html",
-    "href": "admission-portals.html",
-    "title": "International University Admission Portals",
-    "section": "",
-    "text": "NoteAbout This Guide\n\n\n\nThis comprehensive guide compiles official government-run portals for international student admissions across developed countries worldwide. Each portal provides authentic information about universities, programs, scholarships, visa requirements, and application procedures."
-  },
-  {
-    "objectID": "admission-portals.html#tuition-free",
-    "href": "admission-portals.html#tuition-free",
-    "title": "International University Admission Portals",
-    "section": "Quick Reference: Tuition-Free/Low-Cost Countries",
-    "text": "Quick Reference: Tuition-Free/Low-Cost Countries\n\n\n\n\n\n\n\nCountry\nTuition Policy\n\n\n\n\nNorway\nTuition-free for ALL international students at public universities\n\n\nGermany\nMostly tuition-free at public universities (small semester fees only)\n\n\nFinland\nFree for EU/EEA students; Non-EU €5,000-18,000/year with scholarship opportunities\n\n\nSweden\nFree for EU/EEA/Switzerland students; Non-EU €7,500-25,500/year\n\n\nCzech Republic\nTuition-free programs taught in Czech language"
-  },
-  {
-    "objectID": "admission-portals.html#asia-pacific",
-    "href": "admission-portals.html#asia-pacific",
-    "title": "International University Admission Portals",
-    "section": "Asia-Pacific Region",
-    "text": "Asia-Pacific Region\n\n\n\nCountry\nPortal\nOrganization\nKey Features & Scholarships\n\n\n\n\nSouth Korea\nStudy in Korea\nNIIED / Ministry of Education\nGKS scholarships; Online application system; Korean language programs; 400+ programs in English\n\n\nJapan\nStudy in Japan\nJASSO / MEXT\nMEXT Government Scholarships; 7 program types; EJU admission exam; 1,200+ English programs\n\n\nAustralia\nStudy Australia\nAustrade\nCRICOS registered courses; Australia Awards scholarships; Post-study work rights (2-4 years)\n\n\nNew Zealand\nStudy with New Zealand\nEducation New Zealand\nNauMai NZ support; NZ Excellence Awards; Post-study work visa (up to 3 years)\n\n\nSingapore\nMOE International Students\nMinistry of Education\nASEAN Scholarships; MOE Tuition Grant; SINGA PhD program; EduTrust certified institutions\n\n\nTaiwan\nStudy in Taiwan\nMOE Taiwan\nTaiwan Scholarship; TaiwanICDF Scholarships; Huayu Enrichment Scholarship; 150+ English programs\n\n\nMalaysia\nEducation Malaysia\nEMGS / Ministry of Higher Education\nOfficial visa gateway; ISAC arrival service; Graduate Pass for employment; Affordable tuition"
-  },
-  {
-    "objectID": "admission-portals.html#north-america",
-    "href": "admission-portals.html#north-america",
-    "title": "International University Admission Portals",
-    "section": "North America",
-    "text": "North America\n\n\n\nCountry\nPortal\nOrganization\nKey Features & Scholarships\n\n\n\n\nUnited States\nEducationUSA\nU.S. Department of State\n430+ advising centers in 175+ countries; Fulbright Program; Free guidance and resources\n\n\nUnited States\nStudy in the States\nDHS / SEVP\nSEVIS system information; F-1 and M-1 visa guidance; OPT work authorization\n\n\nCanada\nEduCanada\nGovernment of Canada\nDesignated Learning Institutions; Post-Graduation Work Permit; Provincial nominee programs"
-  },
-  {
-    "objectID": "admission-portals.html#western-europe",
-    "href": "admission-portals.html#western-europe",
-    "title": "International University Admission Portals",
-    "section": "Western Europe",
-    "text": "Western Europe\n\n\n\nCountry\nPortal\nOrganization\nKey Features & Scholarships\n\n\n\n\nUnited Kingdom\nStudy UK\nBritish Council\nUCAS application (up to 5 universities); Chevening Scholarships; Graduate Route (2-year work)\n\n\nGermany\nStudy in Germany\nDAAD\nMostly tuition-free public universities; DAAD scholarships; 1,800+ international programs\n\n\nFrance\nCampus France\nCampus France\nÉtudes en France procedure; Eiffel Excellence Scholarships; CampusArt for arts programs\n\n\nNetherlands\nStudy in NL\nNuffic\nStudyfinder database; Orange Tulip Scholarship; Holland Scholarship; 2,100+ English programs\n\n\nSwitzerland\nStudy in Switzerland\nswissuniversities\nExcellence scholarships; World-class research; Multilingual environment\n\n\nAustria\nStudy in Austria\nOeAD\nErnst Mach Grant; CEEPUS network; Affordable living costs\n\n\nBelgium\nStudy in Belgium\nWallonie-Bruxelles International\nARES scholarships; Flanders scholarships; EU institutions hub\n\n\nIreland\nEducation in Ireland\nEnterprise Ireland\nGovernment of Ireland Scholarships; Strong tech sector; English-speaking\n\n\nItaly\nStudy in Italy\nUni-Italia\nDSU regional scholarships; Universitaly portal; Rich cultural heritage"
-  },
-  {
-    "objectID": "admission-portals.html#nordic",
-    "href": "admission-portals.html#nordic",
-    "title": "International University Admission Portals",
-    "section": "Nordic Countries",
-    "text": "Nordic Countries\n\n\n\nCountry\nPortal\nOrganization\nKey Features & Scholarships\n\n\n\n\nNorway\nStudy in Norway\nDIKU\nTuition-free for all; Quota Scheme scholarships; Erasmus+\n\n\nSweden\nStudy in Sweden\nSwedish Institute\nSI scholarships; universityadmissions.se portal; 1,000+ English programs\n\n\nDenmark\nStudy in Denmark\nDanish Agency for Higher Education\nGovernment Scholarships; High quality of life\n\n\nFinland\nStudy in Finland\nFinnish National Agency for Education\nStudyinfo.fi admissions; Finland Scholarships; 600+ English programs; Free for EU/EEA"
-  },
-  {
-    "objectID": "admission-portals.html#central-eastern-europe",
-    "href": "admission-portals.html#central-eastern-europe",
-    "title": "International University Admission Portals",
-    "section": "Central & Eastern Europe",
-    "text": "Central & Eastern Europe\n\n\n\nCountry\nPortal\nOrganization\nKey Features & Scholarships\n\n\n\n\nPoland\nStudy in Poland\nNAWA / Ministry of Education\nNAWA scholarships (Banach, Poland My First Choice); 500+ English programs; Affordable living\n\n\nCzech Republic\nStudy in Czechia\nDZS\nTuition-free in Czech language; Government scholarships; 55,000+ international students\n\n\nHungary\nStudy in Hungary\nTempus Public Foundation\nStipendium Hungaricum (fully funded); 600+ programs; 94 partner countries"
-  },
-  {
-    "objectID": "admission-portals.html#scholarships",
-    "href": "admission-portals.html#scholarships",
-    "title": "International University Admission Portals",
-    "section": "Major Government Scholarship Programs",
-    "text": "Major Government Scholarship Programs\nBelow are some of the most prestigious fully-funded scholarship programs available to international students:\n\n\n\n\n\n\n\n\nScholarship\nCountry\nCoverage\n\n\n\n\nFulbright Program\nUSA\nFull funding for graduate study, research, and teaching\n\n\nChevening Scholarships\nUK\nFully-funded master’s degrees for future leaders\n\n\nDAAD Scholarships\nGermany\nExtensive scholarships and grants for all levels\n\n\nGKS/KGSP\nSouth Korea\nTuition, living costs, and airfare covered\n\n\nMEXT Scholarships\nJapan\nGovernment scholarships via embassy or university\n\n\nStipendium Hungaricum\nHungary\nTuition, accommodation, and monthly stipend\n\n\nSwedish Institute Scholarships\nSweden\nSISGP for master’s students from developing countries\n\n\nErasmus Mundus\nEU\nJoint master’s degrees at multiple European universities\n\n\nAustralia Awards\nAustralia\nFor students from participating Asia-Pacific countries\n\n\nTaiwanICDF Scholarships\nTaiwan\nFull funding for students from partner countries\n\n\nNAWA Scholarships\nPoland\nBanach and Poland My First Choice programs"
-  },
-  {
-    "objectID": "admission-portals.html#application-systems",
-    "href": "admission-portals.html#application-systems",
-    "title": "International University Admission Portals",
-    "section": "Centralized Application Systems",
-    "text": "Centralized Application Systems\nSeveral countries offer centralized application portals that streamline the admission process:\n\n\n\nCountry\nPortal\nDescription\n\n\n\n\nSweden\nuniversityadmissions.se\nApply to up to 4 programs through one portal\n\n\nUK\nUCAS\nApply to up to 5 universities through unified system\n\n\nFinland\nstudyinfo.fi\nCentral admissions for polytechnics and universities\n\n\nDenmark\noptagelse.dk\nApply to up to 8 programs in priority order\n\n\nFrance\nÉtudes en France\nCampus France platform for up to 7 programs\n\n\nItaly\nUniversitaly\nMandatory pre-enrollment portal for all international students\n\n\nMalaysia\nEMGS\nOfficial gateway for all student visa applications\n\n\n\n\n\n\n\n\n\n\n\n\nTipKey Information\n\n\n\nAll URLs included are official government or government-authorized portals verified as of 2025. Application timelines differ by country and program, but most require submission 3–12 months before the intended start date. Many destinations accept standard English proficiency tests such as IELTS (6.0–7.0) or TOEFL iBT (80–100). Scholarship deadlines often fall earlier than general admission deadlines, so applicants should plan accordingly. Most developed countries also offer post-study work permits lasting 1–4 years, depending on local immigration policies. Because requirements can change, applicants should always verify the most current information directly on the official portals before applying.\n\n\n\n\n\nLast Updated: December 2025"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Md Abdus Samad\nDepartment of Information and Communication Engineering\nYeungnam University\nGyeongsan, Gyeongbuk, South Korea\nEmail:\n- ✉️ Official: masamad at yu dot ac dot kr\n- ✉️ Personal: write at drabdus dot info\n\nWebsite:\n- 🌐 https://www.drabdus.info"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Md Abdus Samad, PhD",
-    "section": "",
-    "text": "I am a Research Professor in the Department of Information and Communication Engineering at Yeungnam University, South Korea, specializing in signal processing, deep learning, and explainable AI with applications in wireless networks, medical imaging, IoT sensor networks, and intelligent systems. I am a registered Korean Researcher and active IEEE member. My research addresses challenges in next-generation wireless communications, including millimeter-wave propagation, atmospheric interference, and signal quality optimization, while exploring how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. I have published over 60 papers in SCIE and SSCI-indexed journals and serve as a peer reviewer for multiple Web of Science-indexed journals.\nPreviously, I served as Assistant Professor in the Department of Electronics and Telecommunication Engineering at International Islamic University Chittagong (2013–2017), where I contributed to curriculum development and mentored future telecommunications engineers. I earned my Ph.D. in Information and Communication Engineering from Chosun University, fully supported by the Korean Government Scholarship (Global Korea Scholarship) and funded by the National Research Foundation of Korea."
-  },
-  {
-    "objectID": "index.html#recent-blog-posts",
-    "href": "index.html#recent-blog-posts",
-    "title": "Md Abdus Samad, PhD",
-    "section": "Recent Blog Posts",
-    "text": "Recent Blog Posts\nFrom my blog\n\n\n\n\n\nEssential VS Code LaTeX Workshop Keyboard Shortcuts for Faster PDF Workflow\n\n\nMaster VS Code LaTeX Workshop with these essential keyboard shortcuts to streamline your academic writing and PDF compilation workflow.\n\n\n\n\n\nDec 12, 2025\n\n\n\n\n\n\n\nHow to Find Cheaper Prices in Korea: A Complete Guide to Danawa and Naver Shopping\n\n\nLearn how to save money shopping in Korea by using Danawa and Naver Shopping to compare prices across hundreds of retailers and find the best deals.\n\n\n\n\n\nDec 12, 2025\n\n\n\n\n\n\n\nAI-Powered Reference Verification for Academic Manuscripts\n\n\nDiscover how large language models can automatically verify every citation in your manuscript, catching errors in references, checking DOIs, and validating quotes against source PDFs in minutes instead of hours.\n\n\n\n\n\nDec 9, 2025\n\n\n\n\n\n\n\nThe Korean Parking Fine Hack: How to Get a Warning Text Before the Ticket\n\n\nLearn how Whistle and local parking enforcement alert systems give you a legal warning text before a fine is issued in South Korea.\n\n\n\n\n\nDec 7, 2025\n\n\n\n\n\nNo matching items\n\n\nVisit Full Blog »"
-  },
-  {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Md Abdus Samad, PhD",
-    "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nCatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction\n\n\n\npaper\n\n\n\n\nDec 9, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccuracy, Precision, Recall, F1-Score, or MCC? Empirical Evidence from Advanced Statistics, ML, and XAI for Evaluating Business Predictive Models\n\n\n\npaper\n\n\n\n\nDec 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nExplainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images\n\n\n\npaper\n\n\n\n\nAug 30, 2025\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+    "objectID": "my-publications.html#section-8",
+    "href": "my-publications.html#section-8",
+    "title": "Publications",
+    "section": "2012",
+    "text": "2012\n\n\nM. A. Samad, J. Uddin, and M. R. Ahmed, “FIR Filter Design Using Modified Lanczos Window Function,” Advanced Materials Research, vol. 566, pp. 49–56, Sep. 2012. doi.org/10.4028/www.scientific.net/AMR.566.49\n\n\nM. A. Samad and M. I. Huq, “Correlation between Sensorimotor Area of Central Nervous System with Peripheral Nervous System by EEG and NCV for Motor Imagery Task,” International Conference on Electrical, Computer and Telecommunication Engineering, 01-02 December 2012 (ICECTE2012), RUET, Rajshahi-6204, Bangladesh.\n\n\nM. A. Samad, “A Novel Window Function Yielding Suppressed Mainlobe Width and Minimum Sidelobe Peak,” International Journal of Computer Science, Engineering and Information Technology, vol. 2, no. 2, pp. 91–103, Apr. 2012. doi.org/10.5121/ijcseit.2012.2209"
   },
   {
     "objectID": "miscellaneous/open-source-tools.html",
@@ -595,74 +364,333 @@
     "text": "22. File Search & System Utilities\n\n\n\nTool\nDescription\n\n\n\n\nEverything\nUltra-fast file search for Windows\n\n\nfsearch\nFast file search for Linux (Everything alternative)\n\n\nRecoll\nDesktop full-text search (cross-platform)\n\n\nDocFetcher\nDocument search engine (cross-platform)\n\n\nCerebro\nOpen-source app launcher and search (cross-platform)\n\n\nAlbert\nFast launcher for Linux\n\n\nUlauncher\nApplication launcher for Linux\n\n\nWox\nLauncher for Windows (free, open source)\n\n\nKupfer\nApplication launcher for Linux\n\n\nKeypirinha\nFast launcher for Windows\n\n\nueli\nKeystroke launcher for Windows and macOS\n\n\n\n\nLast updated: October 2025"
   },
   {
-    "objectID": "my-publications.html",
-    "href": "my-publications.html",
-    "title": "Publications",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Md Abdus Samad, PhD",
     "section": "",
-    "text": "NoteTotal Publications: 62"
+    "text": "I am a Research Professor in the Department of Information and Communication Engineering at Yeungnam University, South Korea, specializing in signal processing, deep learning, and explainable AI with applications in wireless networks, medical imaging, IoT sensor networks, and intelligent systems. I am a registered Korean Researcher and active IEEE member. My research addresses challenges in next-generation wireless communications, including millimeter-wave propagation, atmospheric interference, and signal quality optimization, while exploring how artificial intelligence and machine learning can enhance wireless system performance, network optimization, and propagation prediction. I have published over 60 papers in SCIE and SSCI-indexed journals and serve as a peer reviewer for multiple Web of Science-indexed journals.\nPreviously, I served as Assistant Professor in the Department of Electronics and Telecommunication Engineering at International Islamic University Chittagong (2013–2017), where I contributed to curriculum development and mentored future telecommunications engineers. I earned my Ph.D. in Information and Communication Engineering from Chosun University, fully supported by the Korean Government Scholarship (Global Korea Scholarship) and funded by the National Research Foundation of Korea."
   },
   {
-    "objectID": "my-publications.html#section",
-    "href": "my-publications.html#section",
-    "title": "Publications",
-    "section": "2025",
-    "text": "2025\n\n\nP. Sarker, K. Choi, A. A. Nahid, M. A. Samad, et al., “CatBoost with physics-based metaheuristics for thyroid cancer recurrence prediction.” BioData Mining 18: 84 (2025). doi.org/10.1186/s13040-025-00494-1\n\n\nK. M. Sujon, R. Hassan, K. Choi, M. A. Samad, et al., “Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models.” Journal of Big Data 12: 268 (2025). doi.org/10.1186/s40537-025-01313-4\n\n\nKakon, S. Chakrabarty, Z. Al Sazid, I. A. Begum, M. A. Samad, and A. S. M. S. Hosen, “Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images.” Cancers 17, no. 17: 2853 (2025). doi.org/10.3390/cancers17172853\n\n\nP. Sarker, A. Ksibi, M. M. Jamjoom, K. Choi, A. A. Nahid and M. A. Samad, “Breast cancer prediction with feature-selected XGB classifier, optimized by metaheuristic algorithms.” J Big Data 12, 78 (2025). doi.org/10.1186/s40537-025-01132-7\n\n\nI. A. Talin, M. Z. Amin, and M. A. Samad, “Numerical modeling of gain-switched dysprosium-doped yellow fiber lasers.” J. Korean Phys. Soc. (2025). doi.org/10.1007/s40042-025-01303-y\n\n\nN. Saeed, I. Shafi, S. Pervez, E. B. Thompson, A. K. Castilla, M. A. Samad, and I. Ashraf, “Intelligent Decision Making for Commodities Price Prediction: Opportunities, Challenges and Future Avenues.” Comput Econ (2025). doi.org/10.1007/s10614-024-10837-5"
+    "objectID": "index.html#recent-blog-posts",
+    "href": "index.html#recent-blog-posts",
+    "title": "Md Abdus Samad, PhD",
+    "section": "Recent Blog Posts",
+    "text": "Recent Blog Posts\nFrom my blog\n\n\n\n\n\nEssential VS Code LaTeX Workshop Keyboard Shortcuts for Faster PDF Workflow\n\n\nMaster VS Code LaTeX Workshop with these essential keyboard shortcuts to streamline your academic writing and PDF compilation workflow.\n\n\n\n\n\nDec 12, 2025\n\n\n\n\n\n\n\nHow to Find Cheaper Prices in Korea: A Complete Guide to Danawa and Naver Shopping\n\n\nLearn how to save money shopping in Korea by using Danawa and Naver Shopping to compare prices across hundreds of retailers and find the best deals.\n\n\n\n\n\nDec 12, 2025\n\n\n\n\n\n\n\nAI-Powered Reference Verification for Academic Manuscripts\n\n\nDiscover how large language models can automatically verify every citation in your manuscript, catching errors in references, checking DOIs, and validating quotes against source PDFs in minutes instead of hours.\n\n\n\n\n\nDec 9, 2025\n\n\n\n\n\n\n\nThe Korean Parking Fine Hack: How to Get a Warning Text Before the Ticket\n\n\nLearn how Whistle and local parking enforcement alert systems give you a legal warning text before a fine is issued in South Korea.\n\n\n\n\n\nDec 7, 2025\n\n\n\n\n\nNo matching items\n\n\nVisit Full Blog »"
   },
   {
-    "objectID": "my-publications.html#section-1",
-    "href": "my-publications.html#section-1",
-    "title": "Publications",
-    "section": "2024",
-    "text": "2024\n\n\nA. U. Hussna, R. Islam, M. R. Alam, J. Uddin, I. Ashraf, M. A. Samad, “A graph mining-based approach to analyze the dynamics of the Twitter community of COVID-19 misinformation disseminators,” ICT Express, 2024. doi.org/10.1016/j.icte.2024.10.006\n\n\nTuhin IA, Mia MR, Islam MM, Mahmud I, Gongora HF, M. A. Samad, “StackIL10: A stacking ensemble model for the improved prediction of IL-10 inducing peptides.” PLOS ONE 19(11): e0313835. doi.org/10.1371/journal.pone.0313835\n\n\nFaruqui N, Achar S, Racherla S, Dhanawat V, Sripathi P, Islam MM, Uddin J, Othman MA, M. A. Samad, Choi K. “Cloud IaaS Optimization Using Machine Vision at the IoT Edge and the Grid Sensing Algorithm.” Sensors. 2024; 24(21):6895. doi.org/10.3390/s24216895\n\n\nDipto, S. M., Reza, M. T., Mim, N. T., M. A. Samad. “An analysis of decipherable red blood cell abnormality detection under federated environment leveraging XAI incorporated deep learning.” Sci Rep 14, 25664 (2024). doi.org/10.1038/s41598-024-76359-0\n\n\nK. M. Sujon, R. B. Hassan, Z. T. Towshi, M. A. Othman, M. A. Samad and K. Choi, “When to Use Standardization and Normalization: Empirical Evidence From Machine Learning Models and XAI,” IEEE Access, vol. 12, pp. 135300-135314, 2024, doi: 10.1109/ACCESS.2024.3462434.\n\n\nMahnoor, I. Shafi, M. Chaudhury, E. C. Montero, E. S. Alvarado, I. D. L. T. Diez, M. A. Samad, and I. Imran “A Review of Approaches for Rapid Data Clustering: Challenges, Opportunities, and Future Directions,” IEEE Access, vol. 12, pp. 138086-138120, 2024, doi:10.1109/ACCESS.2024.3461798.\n\n\nM. N. U. Alam, I. Hasnine, E. H. Bahadur, A. K. M. Masum, M. B. Urbano, M. M. Vergara, J. Uddin, I. Ashraf, M. A. Samad, “DiabSense: Early Diagnosis of Non-Insulin-Dependent Diabetes Mellitus Using Smartphone-Based Human Activity Recognition and Diabetic Retinopathy Analysis with Graph Neural Network” J Big Data. doi.org/10.1186/s40537-024-00959-w\n\n\nM. Shahroz, M. Ali, A. Tahir, H. F. Gongora, C. U. Rios, M. A. Samad, and I. Ashraf, “Hierarchical Attention Module-Based Hotspot Detection in Wafer Fabrication Using Convolutional Neural Network Model,” IEEE Access, vol. 12, pp. 92840-92855, 2024, doi: 10.1109/ACCESS.2024.3422616.\n\n\nM. K. Baowaly, B. C. Sarkar, M. A. A. Walid, M. M. Ahamad, B. C. Singh, E. S. Alvarado, I. Ashraf, M. A. Samad, “Deep Transfer Learning-Based Bird Species Classification Using Mel Spectrogram Images,” PloS One. doi.org/10.1371/journal.pone.0305708\n\n\nT. R. Shaha, M. Begum, J. Uddin, V. Y. Torres. J. A. Iturriaga, I. Ashraf. M. A. Samad, “Feature group partitioning: an approach for depression severity prediction with class balancing using machine learning algorithms,” BMC Medical Research Methodology, 2024 Jun 3;24(1). doi.org/10.1186/s12874-024-02249-8\n\n\nK. A. Alavee, M. H. Zillanee, M. Mostakim, J. Uddin, E. S. Alvarado, I. T. Diez, I. Ashraf, and M. A. Samad, “Enhancing Early Detection of Diabetic Retinopathy Through the Integration of Deep Learning Models and Explainable Artificial Intelligence.” IEEE Access. doi.org/10.1109/access.2024.3405570\n\n\nM. Begum, M. H. Shuvo, M. K. Nasir, A. Hossain, M. J. Hossain, I. Ashraf and M. A. Samad, “LCNN: Lightweight CNN Architecture for Software Defect Feature Identification Using Explainable AI.” IEEE Access. doi.org/10.1109/access.2024.3388489\n\n\nI. Raza, M. H. Jamal, R. Qureshi, A. K. Shahid, A. O. R. Vistorte, M. A. Samad, and I. Ashraf, “Adaptive neighborhood rough set model for hybrid data processing: a case study on Parkinson’s disease behavioral analysis,” Scientific Reports, vol. 14, no. 1, Apr. 2024, doi: 10.1038/s41598-024-57547-4.\n\n\nF. Md. Siraj, S. T. K. Ayon, Md. A. Samad, J. Uddin, and K. Choi, “Few-Shot Lightweight SqueezeNet Architecture for Induction Motor Fault Diagnosis Using Limited Thermal Image Dataset,” IEEE Access, vol. 12, pp. 50986–50997, 2024, doi: 10.1109/access.2024.3385430.\n\n\nM. T. Islam, W. Rahman, M. S. Hossain, K. Roksana, I. D. Azpíroz, R. M. Diaz, I. Ashraf, and M. A. Samad, “Medicinal Plant Classification Using Particle Swarm Optimized Cascaded Network,” IEEE Access, vol. 12. doi.org/10.1109/ACCESS.2024.3378262 [SCIE (Q2), JIF:3.90]\n\n\nM. A. Kader, M. A. Ullah, M. S. Islam, F. F. Sánchez, M. A. Samad, “A Real-Time Air-Writing Model to Recognize Bengali Character,” AIMS Mathematics (2024). doi.org/10.3934/math.2024325 [SCIE (Q1), JIF:2.2]"
+    "objectID": "index.html#recent-posts",
+    "href": "index.html#recent-posts",
+    "title": "Md Abdus Samad, PhD",
+    "section": "Recent Posts",
+    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nCatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction\n\n\n\npaper\n\n\n\n\nDec 9, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccuracy, Precision, Recall, F1-Score, or MCC? Empirical Evidence from Advanced Statistics, ML, and XAI for Evaluating Business Predictive Models\n\n\n\npaper\n\n\n\n\nDec 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nExplainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images\n\n\n\npaper\n\n\n\n\nAug 30, 2025\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
   },
   {
-    "objectID": "my-publications.html#section-2",
-    "href": "my-publications.html#section-2",
-    "title": "Publications",
-    "section": "2023",
-    "text": "2023\n\n\nI. A. Talin, M. H. Abid, M. A. Samad et al. “Exploring factors influencing the severity of pregnancy anemia in India: a study using proportional odds model.” Sci Rep 13, 22816 (2023). doi.org/10.1038/s41598-023-49872-x [SCIE (Q2), JIF:4.60]\n\n\nZ. Aoujil, M. Hanine, E. S. Flores, M. A. Samad “Artificial Intelligence and Behavioral Economics: A Bibliographic Analysis of Research Field,” IEEE Access. doi.org/10.1109/ACCESS.2023.3339778 [SCIE (Q2), JIF:3.90]\n\n\nM. M. Hossain, M. A. Kashem, M. M. Islam, M. Sahidullah, S. H. Mumu, J. Uddin and M. A. Samad. “Internet of Things in Pregnancy Care Coordination and Management: A Systematic Review.” Sensors 2023, 23, 8958. doi.org/10.3390/s23239367 [SCIE (Q2), JIF:3.90]\n\n\nAA Alarfaj, A. Altamimi, T. Aljrees, S. Basheer, M. Umer, M. A. Samad et al. “Multi-Step Preprocessing with UNet Segmentation and Transfer Learning Model for Pepper Bell Leaf Disease Detection,” IEEE Access. doi.org/10.1109/ACCESS.2023.3334428 [SCIE (Q2), JIF:3.90]\n\n\nHossain, P. S.; Kim, K.; Uddin, J.; Samad, M. A.; Choi, K. “Enhancing Taxonomic Categorization of DNA Sequences with Deep Learning: A Multi-Label Approach.” Bioengineering 2023, 10, 1293. doi.org/10.3390/bioengineering10111293 [SCIE (Q2), JIF:4.60]\n\n\nB. H. A. Khattak, I. Shafi, A. S. Khan, E. S. Flores, R. G. Lara, M. A. Samad “A Systematic Survey of AI Models in Financial Market Forecasting for Profitability Analysis,” IEEE Access, doi: 10.1109/ACCESS.2023.3330156. [SCIE (Q2), JIF:3.90]\n\n\nFarooq, M. S.; Abdullah, M.; Riaz, S.; Alvi, A.; Rustam, F.; Samad, M. A. “A Survey on the Role of Industrial IoT in Manufacturing for Implementation of Smart Industry.” Sensors 2023, 23, 8958. doi.org/10.3390/s23218958 [SCIE (Q2), JIF:3.90]\n\n\nIslam, M. M.; Alam, K. M. R.; Uddin, J.; Ashraf, I.; Samad, M. A. “Benign and Malignant Oral Lesion Image Classification Using Fine-Tuned Transfer Learning Techniques.” Diagnostics 2023, 13, 3360. doi.org/10.3390/diagnostics13213360 [SCIE (Q2), JIF:3.60]\n\n\nM. Begum, M. H. Shuvo, I. Ashraf, A. A. Mamun, J. Uddin and M. A. Samad, “Software Defects Identification: Results Using Machine Learning and Explainable Artificial Intelligence Techniques,” IEEE Access, doi: 10.1109/ACCESS.2023.3329051. [SCIE (Q2), JIF:3.90]\n\n\nK. R. Hasan, A. B. Tuli, M. A. -M. Khan, S. -H. Kee, M. A. Samad and A. -A. Nahid, “Deep Learning-Based Semantic Segmentation for Remote Sensing: A Bibliometric Literature Review,” IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, doi: 10.1109/JSTARS.2023.3328315. [SCIE (Q1), JIF:5.5]\n\n\nRahman, Shakila, Jahid Hasan Rony, Jia Uddin, and M. A. Samad. “Real-Time Obstacle Detection with YOLOv8 in a WSN Using UAV Aerial Photography,” Journal of Imaging. 2023; 9(10):216. doi.org/10.3390/jimaging9100216 [ESCI, JIF:3.2, Q3]\n\n\nWalid, Md. Abul Ala, Swarnali Mollick, Pintu Chandra Shill, Mrinal Kanti Baowaly, M. A. Samad “Adapted Deep Ensemble Learning-Based Voting Classifier for Osteosarcoma Cancer Classification” Diagnostics 2023, 13, 3155. doi.org/10.3390/diagnostics13193155 [SCIE (Q2), JIF:3.6]\n\n\nShahzadi, Turrnum, Muhammad Usman Ali, Fiaz Majeed, Muhammad Usman Sana, M. A. Samad “Nerve Root Compression Analysis to Find Lumbar Spine Stenosis on MRI Using CNN.” Diagnostics 13, no. 18 (September 18, 2023): 2975. doi.org/10.3390/diagnostics13182975 [SCIE (Q2), JIF:3.6]\n\n\nPinki, Farhana Tazmim, Md Abdul Awal, Khondoker Mirazul Mumenin, Md. Shahadat Hossain, Jabed Al Faysal, Rajib Rana, and M. A. Samad. “HGSOXGB: Hunger-Games-Search-Optimization-Based Framework to Predict the Need for ICU Admission for COVID-19 Patients Using EXtreme Gradient Boosting.” Mathematics 11, no. 18 (September 18, 2023): 3960. doi.org/10.3390/math11183960 [SCIE (Q1), JIF:4.4]\n\n\nHossain, Md Shakhawat, Md. Mahmudur Rahman, M. Mahbubul Syeed, Mohammad Faisal Uddin, Mahady Hasan, M. A. Samad. “DeepPoly: Deep Learning-Based Polyps Segmentation and Classification for Autonomous Colonoscopy Examination.” IEEE Access 11 (2023): 95889–902. doi.org/10.1109/access.2023.3310541 [SCIE (Q2), JIF:3.9]\n\n\nU. U. Gronthy, U. Biswas, S. Tipu, M. A. Samad, A. A. Nahid, “A Bibliometric Analysis on Arrhythmia Detection and Classification from 2005 to 2022,” Diagnostics 2023, 13(10), 1732. doi.org/10.3390/diagnostics13101732 [SCIE (Q2), JIF:3.6]\n\n\nM. A. Samad, D. -Y. Choi, H. Son and K. Choi, “Analysis of Centimeter and Millimeter-Wave Path Loss at Emergency Exit,” IEEE Access, vol. 11, pp. 34217-34226, 2023. doi.org/10.1109/ACCESS.2023.3264648 [SCIE (Q2), JIF:3.9]\n\n\nM. A. Samad, D.-Y. Choi, and K. Choi, “Path loss measurement and modeling of 5G network in emergency indoor stairwell at 3.7 and 28 GHz,” PLOS ONE, vol. 18, no. 3, p. e0282781, Mar. 2023. doi.org/10.1371/journal.pone.0282781 [SCIE (Q2), JIF:3.7]\n\n\nM. A. Samad, S. -W. Choi, C. -S. Kim and K. Choi, “Wave Propagation Modeling Techniques in Tunnel Environments: A Survey,” IEEE Access, vol. 11, pp. 2199-2225, 2023. doi.org/10.1109/ACCESS.2022.3233877 [SCIE (Q2), JIF:3.9]"
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Md Abdus Samad\nDepartment of Information and Communication Engineering\nYeungnam University\nGyeongsan, Gyeongbuk, South Korea\nEmail:\n- ✉️ Official: masamad at yu dot ac dot kr\n- ✉️ Personal: write at drabdus dot info\n\nWebsite:\n- 🌐 https://www.drabdus.info"
   },
   {
-    "objectID": "my-publications.html#section-3",
-    "href": "my-publications.html#section-3",
-    "title": "Publications",
-    "section": "2022",
-    "text": "2022\n\n\nM. S. Hossain, N. Hasan, M. A. Samad, H. M. Shakhawat, J. Karmoker, F. Ahmed, K. F. M. N. Fuad, and K. Choi. “Android Ransomware Detection From Traffic Analysis Using Metaheuristic Feature Selection.” IEEE Access 10 (2022): 128754–63. doi.org/10.1109/access.2022.3227579 [SCIE (Q2), JIF:3.9]\n\n\nM. A. Samad, D. -Y. Choi, K. Choi, “Path Loss Investigation in Hall Environment at Centimeter and Millimeter-Wave Bands,” Sensors, vol. 22, p. 6593, aug 2022. doi.org/10.3390/s22176593 [SCIE (Q2), JIF:3.9]\n\n\nM. A. Samad, and D.-Y. Choi, “Analysis and Modeling of Propagation in Tunnel at 3.7 and 28 GHz,” CMC-Computers, Materials and Continua, 71(2), pp. 3127–3143, 2022. doi.org/10.32604/cmc.2022.023086 [SCIE (Q3), JIF:3.1]"
+    "objectID": "admission-portals.html",
+    "href": "admission-portals.html",
+    "title": "International University Admission Portals",
+    "section": "",
+    "text": "NoteAbout This Guide\n\n\n\nThis comprehensive guide compiles official government-run portals for international student admissions across developed countries worldwide. Each portal provides authentic information about universities, programs, scholarships, visa requirements, and application procedures."
   },
   {
-    "objectID": "my-publications.html#section-4",
-    "href": "my-publications.html#section-4",
-    "title": "Publications",
-    "section": "2021",
-    "text": "2021\n\n\nM. A. Samad, F. D. Diba, Y. J. Kim, and D.-Y. Choi, “Results of Large-Scale Propagation Models in Campus Corridor at 3.7 and 28 GHz,” Sensors, vol. 21, no. 22, p. 7747, nov 2021. doi.org/10.3390/s21227747 [SCIE (Q2), JIF:3.9]\n\n\nM. A. Samad, and D.-Y. Choi, “Radiowave Propagation in Tunnel: Experimental Results,” 7th International Conference on Advanced Engineering and ICT-convergence, July 7-9, 2021 [online].\n\n\nM. A. Samad, and D.-Y. Choi, “5G Vertical Services in Korea,” 6th International Conference on Advanced Engineering and ICT-convergence, 7 January 2021 [online].\n\n\nM. A. Samad, and D.-Y. Choi, “Scaling of Rain Attenuation Models: A Survey,” Applied Sciences, vol. 11, no. 18, p. 8360, aug 2021. doi.org/10.3390/app11188360 [SCIE (Q3), JIF:2.7]\n\n\nM. A. Samad, F. D. Diba, and D.-Y. Choi, “Rain attenuation scaling in South Korea: Experimental results and artificial neural network,” Electronics, vol. 10, no. 16, p. 2030, aug 2021. doi.org/10.3390/electronics10162030 [SCIE (Q2), JIF:2.9]\n\n\nF. D. Diba, M. A. Samad, and D.-Y. Choi, “Centimeter and Millimeter-Wave Propagation Characteristics for Indoor Corridors at 3.7 and 28 GHz: Results from Measurements and Models,” IEEE Access, vol. 9, pp. 158726-158737, 2021. doi.org/10.1109/ACCESS.2021.3130293 [SCIE (Q2), JIF:3.9]\n\n\nM. A. Samad, M. R. Ahmed, and S. Z. Rashid, “An overview of rain attenuation research in Bangladesh,” Indonesian Journal of Electrical Engineering and Computer Science, vol. 23, no. 2, p. 902, Aug. 2021. doi.org/10.11591/ijeecs.v23.i2.pp902-909 [SCOPUS]\n\n\nM. A. Samad, F. D. Diba, and D.-Y. Choi, “A survey of rain fade models for earth–space telecommunication links—taxonomy, methods, and comparative study,” Remote Sensing, vol. 13, no. 10, p. 1965, may 2021. doi.org/10.3390/rs13101965 [SCIE (Q2), JIF:5.0]\n\n\nF. D. Diba, M. A. Samad, J. Ghimire, and D.-Y. Choi, “Wireless telecommunication links for rainfall monitoring: Deep learning approach and experimental results,” IEEE Access, vol. 9, pp. 66 769–66 780, 2021. doi.org/10.1109/access.2021.3076781 [SCIE (Q2), JIF:3.9]\n\n\nM. A. Samad, F. D. Diba, and D.-Y. Choi, “A survey of rain attenuation prediction models for terrestrial links—current research challenges and state-of-the-art,” Sensors, vol. 21, no. 4, p. 1207, feb 2021. doi.org/10.3390/s21041207 [SCIE (Q2), JIF:3.9]\n\n\nF. D. Diba, M. A. Samad, and D.-Y. Choi, “The effects of rain on terrestrial links at K, Ka and E-bands in South Korea: Based on supervised learning,” IEEE Access, vol. 9, pp. 9345–9355, 2021. doi.org/10.1109/access.2021.3049825 [SCIE (Q2), JIF:3.9]"
+    "objectID": "admission-portals.html#tuition-free",
+    "href": "admission-portals.html#tuition-free",
+    "title": "International University Admission Portals",
+    "section": "Quick Reference: Tuition-Free/Low-Cost Countries",
+    "text": "Quick Reference: Tuition-Free/Low-Cost Countries\n\n\n\n\n\n\n\nCountry\nTuition Policy\n\n\n\n\nNorway\nTuition-free for ALL international students at public universities\n\n\nGermany\nMostly tuition-free at public universities (small semester fees only)\n\n\nFinland\nFree for EU/EEA students; Non-EU €5,000-18,000/year with scholarship opportunities\n\n\nSweden\nFree for EU/EEA/Switzerland students; Non-EU €7,500-25,500/year\n\n\nCzech Republic\nTuition-free programs taught in Czech language"
   },
   {
-    "objectID": "my-publications.html#section-5",
-    "href": "my-publications.html#section-5",
-    "title": "Publications",
-    "section": "2020",
-    "text": "2020\n\nM. A. Samad, and D.-Y. Choi, “Learning-assisted rain attenuation prediction models,” Applied Sciences, vol. 10, no. 17, p. 6017, aug 2020. doi.org/10.3390/app10176017 [SCIE (Q2), JIF:2.7]"
+    "objectID": "admission-portals.html#asia-pacific",
+    "href": "admission-portals.html#asia-pacific",
+    "title": "International University Admission Portals",
+    "section": "Asia-Pacific Region",
+    "text": "Asia-Pacific Region\n\n\n\nCountry\nPortal\nOrganization\nKey Features & Scholarships\n\n\n\n\nSouth Korea\nStudy in Korea\nNIIED / Ministry of Education\nGKS scholarships; Online application system; Korean language programs; 400+ programs in English\n\n\nJapan\nStudy in Japan\nJASSO / MEXT\nMEXT Government Scholarships; 7 program types; EJU admission exam; 1,200+ English programs\n\n\nAustralia\nStudy Australia\nAustrade\nCRICOS registered courses; Australia Awards scholarships; Post-study work rights (2-4 years)\n\n\nNew Zealand\nStudy with New Zealand\nEducation New Zealand\nNauMai NZ support; NZ Excellence Awards; Post-study work visa (up to 3 years)\n\n\nSingapore\nMOE International Students\nMinistry of Education\nASEAN Scholarships; MOE Tuition Grant; SINGA PhD program; EduTrust certified institutions\n\n\nTaiwan\nStudy in Taiwan\nMOE Taiwan\nTaiwan Scholarship; TaiwanICDF Scholarships; Huayu Enrichment Scholarship; 150+ English programs\n\n\nMalaysia\nEducation Malaysia\nEMGS / Ministry of Higher Education\nOfficial visa gateway; ISAC arrival service; Graduate Pass for employment; Affordable tuition"
   },
   {
-    "objectID": "my-publications.html#section-6",
-    "href": "my-publications.html#section-6",
-    "title": "Publications",
-    "section": "2015",
-    "text": "2015\n\nM. S. Hossain, and M. A. Samad, “The tropospheric scintillation prediction of earth-to-satellite link for Bangladeshi climatic condition,” Serbian Journal of Electrical Engineering, vol. 12, no. 3, pp. 263–273, 2015. doi.org/10.2298/SJEE1503263H"
+    "objectID": "admission-portals.html#north-america",
+    "href": "admission-portals.html#north-america",
+    "title": "International University Admission Portals",
+    "section": "North America",
+    "text": "North America\n\n\n\nCountry\nPortal\nOrganization\nKey Features & Scholarships\n\n\n\n\nUnited States\nEducationUSA\nU.S. Department of State\n430+ advising centers in 175+ countries; Fulbright Program; Free guidance and resources\n\n\nUnited States\nStudy in the States\nDHS / SEVP\nSEVIS system information; F-1 and M-1 visa guidance; OPT work authorization\n\n\nCanada\nEduCanada\nGovernment of Canada\nDesignated Learning Institutions; Post-Graduation Work Permit; Provincial nominee programs"
   },
   {
-    "objectID": "my-publications.html#section-7",
-    "href": "my-publications.html#section-7",
-    "title": "Publications",
-    "section": "2014",
-    "text": "2014\n\n\nA. G. Abshir, M. M. Abdullahi, and M. A. Samad, “A Comparative Study of Carrier Frequency Offset (CFO) Estimation Techniques for OFDM Systems,” IOSR Journal of Electronics and Communication Engineering, vol. 9, no. 4, pp. 01–06, 2014.\n\n\nM. A. Samad and M. I. Huq, “Correlation between brain’s adjoin and diverse hemisphere for motor imagery task relating to central and peripheral nervous system,” International Conference on Informatics, Electronics and Vision (ICIEV), 2014, pp. 1-6, doi: 10.1109/ICIEV.2014.6850828."
+    "objectID": "admission-portals.html#western-europe",
+    "href": "admission-portals.html#western-europe",
+    "title": "International University Admission Portals",
+    "section": "Western Europe",
+    "text": "Western Europe\n\n\n\nCountry\nPortal\nOrganization\nKey Features & Scholarships\n\n\n\n\nUnited Kingdom\nStudy UK\nBritish Council\nUCAS application (up to 5 universities); Chevening Scholarships; Graduate Route (2-year work)\n\n\nGermany\nStudy in Germany\nDAAD\nMostly tuition-free public universities; DAAD scholarships; 1,800+ international programs\n\n\nFrance\nCampus France\nCampus France\nÉtudes en France procedure; Eiffel Excellence Scholarships; CampusArt for arts programs\n\n\nNetherlands\nStudy in NL\nNuffic\nStudyfinder database; Orange Tulip Scholarship; Holland Scholarship; 2,100+ English programs\n\n\nSwitzerland\nStudy in Switzerland\nswissuniversities\nExcellence scholarships; World-class research; Multilingual environment\n\n\nAustria\nStudy in Austria\nOeAD\nErnst Mach Grant; CEEPUS network; Affordable living costs\n\n\nBelgium\nStudy in Belgium\nWallonie-Bruxelles International\nARES scholarships; Flanders scholarships; EU institutions hub\n\n\nIreland\nEducation in Ireland\nEnterprise Ireland\nGovernment of Ireland Scholarships; Strong tech sector; English-speaking\n\n\nItaly\nStudy in Italy\nUni-Italia\nDSU regional scholarships; Universitaly portal; Rich cultural heritage"
   },
   {
-    "objectID": "my-publications.html#section-8",
-    "href": "my-publications.html#section-8",
-    "title": "Publications",
-    "section": "2012",
-    "text": "2012\n\n\nM. A. Samad, J. Uddin, and M. R. Ahmed, “FIR Filter Design Using Modified Lanczos Window Function,” Advanced Materials Research, vol. 566, pp. 49–56, Sep. 2012. doi.org/10.4028/www.scientific.net/AMR.566.49\n\n\nM. A. Samad and M. I. Huq, “Correlation between Sensorimotor Area of Central Nervous System with Peripheral Nervous System by EEG and NCV for Motor Imagery Task,” International Conference on Electrical, Computer and Telecommunication Engineering, 01-02 December 2012 (ICECTE2012), RUET, Rajshahi-6204, Bangladesh.\n\n\nM. A. Samad, “A Novel Window Function Yielding Suppressed Mainlobe Width and Minimum Sidelobe Peak,” International Journal of Computer Science, Engineering and Information Technology, vol. 2, no. 2, pp. 91–103, Apr. 2012. doi.org/10.5121/ijcseit.2012.2209"
+    "objectID": "admission-portals.html#nordic",
+    "href": "admission-portals.html#nordic",
+    "title": "International University Admission Portals",
+    "section": "Nordic Countries",
+    "text": "Nordic Countries\n\n\n\nCountry\nPortal\nOrganization\nKey Features & Scholarships\n\n\n\n\nNorway\nStudy in Norway\nDIKU\nTuition-free for all; Quota Scheme scholarships; Erasmus+\n\n\nSweden\nStudy in Sweden\nSwedish Institute\nSI scholarships; universityadmissions.se portal; 1,000+ English programs\n\n\nDenmark\nStudy in Denmark\nDanish Agency for Higher Education\nGovernment Scholarships; High quality of life\n\n\nFinland\nStudy in Finland\nFinnish National Agency for Education\nStudyinfo.fi admissions; Finland Scholarships; 600+ English programs; Free for EU/EEA"
+  },
+  {
+    "objectID": "admission-portals.html#central-eastern-europe",
+    "href": "admission-portals.html#central-eastern-europe",
+    "title": "International University Admission Portals",
+    "section": "Central & Eastern Europe",
+    "text": "Central & Eastern Europe\n\n\n\nCountry\nPortal\nOrganization\nKey Features & Scholarships\n\n\n\n\nPoland\nStudy in Poland\nNAWA / Ministry of Education\nNAWA scholarships (Banach, Poland My First Choice); 500+ English programs; Affordable living\n\n\nCzech Republic\nStudy in Czechia\nDZS\nTuition-free in Czech language; Government scholarships; 55,000+ international students\n\n\nHungary\nStudy in Hungary\nTempus Public Foundation\nStipendium Hungaricum (fully funded); 600+ programs; 94 partner countries"
+  },
+  {
+    "objectID": "admission-portals.html#scholarships",
+    "href": "admission-portals.html#scholarships",
+    "title": "International University Admission Portals",
+    "section": "Major Government Scholarship Programs",
+    "text": "Major Government Scholarship Programs\nBelow are some of the most prestigious fully-funded scholarship programs available to international students:\n\n\n\n\n\n\n\n\nScholarship\nCountry\nCoverage\n\n\n\n\nFulbright Program\nUSA\nFull funding for graduate study, research, and teaching\n\n\nChevening Scholarships\nUK\nFully-funded master’s degrees for future leaders\n\n\nDAAD Scholarships\nGermany\nExtensive scholarships and grants for all levels\n\n\nGKS/KGSP\nSouth Korea\nTuition, living costs, and airfare covered\n\n\nMEXT Scholarships\nJapan\nGovernment scholarships via embassy or university\n\n\nStipendium Hungaricum\nHungary\nTuition, accommodation, and monthly stipend\n\n\nSwedish Institute Scholarships\nSweden\nSISGP for master’s students from developing countries\n\n\nErasmus Mundus\nEU\nJoint master’s degrees at multiple European universities\n\n\nAustralia Awards\nAustralia\nFor students from participating Asia-Pacific countries\n\n\nTaiwanICDF Scholarships\nTaiwan\nFull funding for students from partner countries\n\n\nNAWA Scholarships\nPoland\nBanach and Poland My First Choice programs"
+  },
+  {
+    "objectID": "admission-portals.html#application-systems",
+    "href": "admission-portals.html#application-systems",
+    "title": "International University Admission Portals",
+    "section": "Centralized Application Systems",
+    "text": "Centralized Application Systems\nSeveral countries offer centralized application portals that streamline the admission process:\n\n\n\nCountry\nPortal\nDescription\n\n\n\n\nSweden\nuniversityadmissions.se\nApply to up to 4 programs through one portal\n\n\nUK\nUCAS\nApply to up to 5 universities through unified system\n\n\nFinland\nstudyinfo.fi\nCentral admissions for polytechnics and universities\n\n\nDenmark\noptagelse.dk\nApply to up to 8 programs in priority order\n\n\nFrance\nÉtudes en France\nCampus France platform for up to 7 programs\n\n\nItaly\nUniversitaly\nMandatory pre-enrollment portal for all international students\n\n\nMalaysia\nEMGS\nOfficial gateway for all student visa applications\n\n\n\n\n\n\n\n\n\n\n\n\nTipKey Information\n\n\n\nAll URLs included are official government or government-authorized portals verified as of 2025. Application timelines differ by country and program, but most require submission 3–12 months before the intended start date. Many destinations accept standard English proficiency tests such as IELTS (6.0–7.0) or TOEFL iBT (80–100). Scholarship deadlines often fall earlier than general admission deadlines, so applicants should plan accordingly. Most developed countries also offer post-study work permits lasting 1–4 years, depending on local immigration policies. Because requirements can change, applicants should always verify the most current information directly on the official portals before applying.\n\n\n\n\n\nLast Updated: December 2025"
+  },
+  {
+    "objectID": "global-scholarships.html",
+    "href": "global-scholarships.html",
+    "title": "Global Scholarship Database",
+    "section": "",
+    "text": "Select a Region\n            \n                \n                    Global\n                \n                \n                    North America\n                \n                \n                    Europe\n                \n                \n                    Asia\n                \n                \n                    Middle East\n                \n                \n                    Oceania\n                \n                \n                    Latin America\n                \n                \n                    Africa\n                \n            \n            \n            Additional Filters\n            \n                \n                    Search by Name/Country\n                    \n                    \n                \n                \n                \n                    Education Level\n                    \n                        All Levels\n                        Bachelors\n                        Masters\n                        PhD\n                        Research/Fellowship\n                    \n                \n                \n                \n                    Classification\n                    \n                        All Types\n                        Government\n                        International Org\n                        University/Private\n                    \n                \n            \n        \n        \n        \n            Loading scholarships...\n            Clear All Filters"
+  },
+  {
+    "objectID": "latex-guide.html",
+    "href": "latex-guide.html",
+    "title": "LaTeX Reference Guide",
+    "section": "",
+    "text": "VS Code: Open integrated terminal with Ctrl+ ` (backtick)\nlatexdiff --append-context2cmd=\"abstract\" old.tex new.tex &gt; diff.tex\nGenerates diff.tex with additions underlined in red.\n\n\n\n\\providecommand{\\DIFdel}[1]{}\n\\providecommand{\\DIFadd}[1]{{\\color{red}\\uline{#1}}}"
+  },
+  {
+    "objectID": "latex-guide.html#document-comparison-and-track-changes",
+    "href": "latex-guide.html#document-comparison-and-track-changes",
+    "title": "LaTeX Reference Guide",
+    "section": "",
+    "text": "VS Code: Open integrated terminal with Ctrl+ ` (backtick)\nlatexdiff --append-context2cmd=\"abstract\" old.tex new.tex &gt; diff.tex\nGenerates diff.tex with additions underlined in red.\n\n\n\n\\providecommand{\\DIFdel}[1]{}\n\\providecommand{\\DIFadd}[1]{{\\color{red}\\uline{#1}}}"
+  },
+  {
+    "objectID": "latex-guide.html#table-design-and-layout",
+    "href": "latex-guide.html#table-design-and-layout",
+    "title": "LaTeX Reference Guide",
+    "section": "Table Design and Layout",
+    "text": "Table Design and Layout\n\nColor Entire Table\n{\\color{red}\n\\begin{tabular}{cc}\na & b \\\\\n1 & 2 \\\\\n\\end{tabular}}\n\n\nAdjust Table Spacing\n\\setlength{\\tabcolsep}{20pt}\n\\renewcommand{\\arraystretch}{1.5}\n\n\nMulti-Column Table Syntax\n\\multicolumn{2}{c}{Merged Cell}\n\n\nMulti-Row Table Syntax\n\\usepackage{multirow}\n\\multirow{2}{*}{Merged Row}\n\n\nResize Table to Fit Page Width\n\\resizebox{\\linewidth}{!}{%\n\\begin{tabular}...\\end{tabular}}"
+  },
+  {
+    "objectID": "latex-guide.html#algorithm-formatting",
+    "href": "latex-guide.html#algorithm-formatting",
+    "title": "LaTeX Reference Guide",
+    "section": "Algorithm Formatting",
+    "text": "Algorithm Formatting\n\nAlgorithm Autoref Support\n\\newcommand{\\algorithmautorefname}{Algorithm}\n\n\nSub-Step Numbering in Algorithms\n\\usepackage{algorithm,algpseudocode}\n\\newcounter{algsubstate}\n\\renewcommand{\\thealgsubstate}{\\alph{algsubstate}}\n\\newenvironment{algsubstates}{\n\\setcounter{algsubstate}{0}\n\\renewcommand{\\State}{\n\\stepcounter{algsubstate}\n\\Statex {\\footnotesize\\thealgsubstate:}\\space}}{}\n\n\nSplit Algorithm Across Pages\n\\usepackage{algorithm, algcompatible}\n\\algstore{blockname}\n...\n\\algrestore{blockname}"
+  },
+  {
+    "objectID": "latex-guide.html#hyperlink-styling",
+    "href": "latex-guide.html#hyperlink-styling",
+    "title": "LaTeX Reference Guide",
+    "section": "Hyperlink Styling",
+    "text": "Hyperlink Styling\n\nCustom Link Colors\n\\usepackage{hyperref}\n\\hypersetup{\ncolorlinks=true,\nlinkcolor=blue,\nfilecolor=blue,\nurlcolor=blue,\nallcolors=blue}\n\\urlstyle{same}"
+  },
+  {
+    "objectID": "latex-guide.html#citations-and-bibliography",
+    "href": "latex-guide.html#citations-and-bibliography",
+    "title": "LaTeX Reference Guide",
+    "section": "Citations and Bibliography",
+    "text": "Citations and Bibliography\n\nForce Numbered Style\n\\setcitestyle{numbers}\n\n\nUse (1) Style Instead of [1]\n\\usepackage[numbers,round]{natbib}\n\\bibliographystyle{vancouver}\n\n\nBack to Square Brackets\n\\usepackage[sort,numbers]{natbib}\n\\setcitestyle{square}\n\n\nShow Citation Keys for Debugging\n\\usepackage{showlabels}\n\\renewcommand{\\showlabelfont}{\\small\\color{blue}}\n\\showlabels[\\small\\color{gray}]{cite}\n\\showlabels[\\small\\color{red}]{bibitem}"
+  },
+  {
+    "objectID": "latex-guide.html#compilation-and-debugging",
+    "href": "latex-guide.html#compilation-and-debugging",
+    "title": "LaTeX Reference Guide",
+    "section": "Compilation and Debugging",
+    "text": "Compilation and Debugging\n\nShow Loaded Packages\n\\listfiles\n\n\nDelete Aux Files (Bash)\nVS Code: Open integrated terminal with Ctrl+ ` (backtick)\nrm -f *.aux *.log *.toc *.out *.lof *.lot *.fls *.fdb_latexmk *.synctex.gz *.nav *.snm *.bbl *.blg *.vrb *.xdv\n\n\nFull Compile Sequence (with BibTeX)\nVS Code: Open integrated terminal with Ctrl+ ` (backtick) or use LaTeX Workshop extension\nlatexmk -pdf main.tex\n# or manual:\npdflatex main.tex \nbibtex main\npdflatex main.tex\npdflatex main.tex"
+  },
+  {
+    "objectID": "latex-guide.html#git-integration-with-overleaf",
+    "href": "latex-guide.html#git-integration-with-overleaf",
+    "title": "LaTeX Reference Guide",
+    "section": "Git Integration with Overleaf",
+    "text": "Git Integration with Overleaf\n\n\n\n\n\n\nTipGetting Started\n\n\n\nIn Overleaf: Menu → Git → Enable Git\nVS Code: Open integrated terminal with Ctrl+ (backtick) or use Source Control panel (Ctrl+Shift+G`)\n\n\n\nGet Overleaf Project URL\nIf you already have a cloned Overleaf project and want to get the web URL:\nVS Code: Open integrated terminal with Ctrl+ ` (backtick)\n# Copy Overleaf web URL to clipboard\ngit remote get-url origin | sed 's|https://git@git.overleaf.com/|https://www.overleaf.com/project/|' | clip\nThis converts the git URL (https://git@git.overleaf.com/project_ID) to the proper web URL (https://www.overleaf.com/project/project_ID) and copies it to your clipboard.\n\n\nClone Overleaf Project\nVS Code Command: Use Command Palette (Ctrl+Shift+P) → “Git: Clone”\nCopy URL like: https://git.overleaf.com/project-id\ncd ~/Documents\ngit clone https://git.overleaf.com/project-id\ncd project-id\n\n\nPush Local Changes to Overleaf\nVS Code: - Open Source Control panel (Ctrl+Shift+G) - Stage changes, add commit message, click “Commit and Push” - Or use integrated terminal:\ngit add .\ngit commit -m \"Update\"\ngit push\n\n\nPull Before Push to Avoid Conflict\nVS Code: Command Palette (Ctrl+Shift+P) → “Git: Pull (Rebase)”\ngit pull --rebase\n\n\nCommand Summary\n\n\n\n\n\n\n\n\nCommand\nDescription\nVS Code Shortcut\n\n\n\n\ngit pull origin master\nPull changes from Overleaf (remote: origin, branch: master)\nCtrl+Shift+P → “Git: Pull”\n\n\ngit push origin master\nPush your local changes to Overleaf\nCtrl+Shift+P → “Git: Push”\n\n\ngit pull overleaf master\nSame as above, but only if your remote is named overleaf\nCtrl+Shift+P → “Git: Pull”"
+  },
+  {
+    "objectID": "latex-guide.html#opening-pdfs-from-git-bash-on-windows",
+    "href": "latex-guide.html#opening-pdfs-from-git-bash-on-windows",
+    "title": "LaTeX Reference Guide",
+    "section": "Opening PDFs from Git Bash on Windows",
+    "text": "Opening PDFs from Git Bash on Windows\n\nNavigate to Directory\ncd /c/Users/YourName/Documents/latex-project\n\n\nOpen PDF in Default Viewer\nstart \"\" \"main.pdf\"\n# or\nexplorer.exe \"main.pdf\"\n\n\nAutomate Compile and Open\nVS Code: Open integrated terminal with Ctrl+ ` (backtick)\npdflatex main.tex && start \"\" \"main.pdf\""
+  },
+  {
+    "objectID": "latex-guide.html#word-counting-in-latex",
+    "href": "latex-guide.html#word-counting-in-latex",
+    "title": "LaTeX Reference Guide",
+    "section": "Word Counting in LaTeX",
+    "text": "Word Counting in LaTeX\nVS Code: Open integrated terminal with Ctrl+ ` (backtick)\nUse texcount for accurate word count:\ntexcount yourfile.tex\ntexcount -sum yourfile.tex\ntexcount -inc yourfile.tex\ntexcount -1 yourfile.tex\ntexcount -brief yourfile.tex\ntexcount -inc -sum -total main.tex"
+  },
+  {
+    "objectID": "latex-guide.html#creating-latex-tables-with-merged-headers",
+    "href": "latex-guide.html#creating-latex-tables-with-merged-headers",
+    "title": "LaTeX Reference Guide",
+    "section": "Creating LaTeX Tables with Merged Headers",
+    "text": "Creating LaTeX Tables with Merged Headers\n\n\n\n\n\n\nNoteRequirements\n\n\n\n\nColumns 1 and 2: vertical merge (2 rows)\nColumns 3–5: under “Group Header” merged in first row, subheaders in second row\nColumn 6: vertical merge (2 rows)\n\n\n\n\nOptional Customizations\n\nUse booktabs for horizontal lines\nUse tabularx with \\textwidth for dynamic width\nCenter-align all columns\nAdd sample data rows\nInclude \\caption{} and \\label{}\nAdd colored headers (requires xcolor)\nEnsure compilation-ready for Overleaf/TeXstudio"
+  },
+  {
+    "objectID": "latex-guide.html#tabularx-column-spacing-issues",
+    "href": "latex-guide.html#tabularx-column-spacing-issues",
+    "title": "LaTeX Reference Guide",
+    "section": "TabularX Column Spacing Issues",
+    "text": "TabularX Column Spacing Issues\n\n\n\n\n\n\nWarningProblem\n\n\n\nReducing column spacing with \\setlength{\\tabcolsep}{4pt} may lead to inconsistent column widths.\n\n\n\nWhy This Happens\n\nAutomatic Column Stretching: tabularx distributes remaining width among X columns proportionally\nReduced Padding: Smaller \\tabcolsep makes differences more noticeable\nMultiple X Columns: Algorithm may leave fractional rounding errors\nComplex Tables: Multirow/multicolumn cells exacerbate uneven widths\n\n\n\nSolutions\n1. Use Proportional X Columns\n\\begin{tabularx}{\\textwidth}{|&gt;{\\hsize=0.5\\hsize}X|&gt;{\\hsize=1\\hsize}X|c|}\n2. Consider tabular* for Precise Control\n\\begin{tabular*}{\\textwidth}{@{\\extracolsep{\\fill}}|l|l|l|}\n3. Use Fixed-Width Columns\np{width}\n\n\n\n\n\n\nTipPro Tips\n\n\n\n\nCombine reduced \\tabcolsep with \\arraystretch for balanced spacing\nAlways test with multiple rows and different content lengths\nFor highly complex tables, consider splitting into smaller subtables"
+  },
+  {
+    "objectID": "latex-guide.html#creating-sequential-dummy-figures-in-latex-with-tikz",
+    "href": "latex-guide.html#creating-sequential-dummy-figures-in-latex-with-tikz",
+    "title": "LaTeX Reference Guide",
+    "section": "Creating Sequential Dummy Figures in LaTeX with TikZ",
+    "text": "Creating Sequential Dummy Figures in LaTeX with TikZ\nSometimes you need placeholder figures while drafting. Here is how to generate 20 numbered dummy figures automatically:\n\\documentclass{article}\n\\usepackage{tikz}\n\n\\begin{document}\n\n\\section*{Sequential Dummy Figures with TikZ}\n\n% Define a command to create a numbered dummy image\n\\newcommand{\\numberedimage}[1]{%\n  \\begin{figure}[h!]\n    \\centering\n    \\begin{tikzpicture}\n      \\draw[fill=gray!30] (0,0) rectangle (4,3); % gray rectangle\n      \\node at (2,1.5) {\\Huge Image #1};         % centered label\n    \\end{tikzpicture}\n    \\caption{Dummy figure #1}\n  \\end{figure}\n}\n\n% Generate 20 dummy figures\n\\numberedimage{1}\n\\numberedimage{2}\n\\numberedimage{3}\n% ...continue to 20\n\n\\end{document}\n\nWhat this code does\n\nDefines a custom command \\numberedimage{n}\nEach dummy figure is a gray rectangle with “Image n” written inside\nFigures are numbered 1 through 20, each with its own caption\n\n\n\n\n\n\n\nNoteUse Cases\n\n\n\n\nTesting figure layouts\nReserving space for future graphics\nCreating mockups in academic papers"
+  },
+  {
+    "objectID": "latex-guide.html#texstudio-search-and-replace-with-regex",
+    "href": "latex-guide.html#texstudio-search-and-replace-with-regex",
+    "title": "LaTeX Reference Guide",
+    "section": "TeXstudio Search and Replace with Regex",
+    "text": "TeXstudio Search and Replace with Regex\n\nRemove Asterisks from Section Headers\nVS Code: Open Find and Replace with Ctrl+H\nTeXstudio: Use Find & Replace with Ctrl+H → Enable Regular Expressions\n\n\n\n\n\n\nNoteMethod 1: Standard Syntax (Try This First)\n\n\n\n\n\n\nSearch Pattern:\n\\\\((?:sub){0,2})section\\*\\{([^}]+)\\}\nReplace Pattern:\n\\\\\\1section{\\2}\n\n\n\n\n\n\nWarningMethod 2: Escaped Parentheses (If Method 1 Doesn’t Work)\n\n\n\n\n\n\nSearch Pattern:\n\\\\\\((?:sub){0,2}\\)section\\*\\{([^}]+)\\}\nReplace Pattern:\n\\\\\\1section{\\2}\n\n\n\nAdd Asterisks to Section Headers (Reverse Operation)\nVS Code: Open Find and Replace with Ctrl+H → Enable Regex mode (Alt+R)\nTeXstudio: Use Find & Replace with Ctrl+H → Enable Regular Expressions\n\n\n\n\n\n\nNoteMethod 1: Standard Syntax (Try This First)\n\n\n\n\n\n\nSearch Pattern:\n\\\\((?:sub){0,2})section\\{([^}]+)\\}\nReplace Pattern:\n\\\\\\1section*{\\2}\n\n\n\n\n\n\nWarningMethod 2: Escaped Parentheses (If Method 1 Doesn’t Work)\n\n\n\n\n\n\nSearch Pattern:\n\\\\\\((?:sub){0,2}\\)section\\{([^}]+)\\}\nReplace Pattern:\n\\\\\\1section*{\\2}"
+  },
+  {
+    "objectID": "latex-guide.html#vs-code-keyboard-shortcuts-for-latex",
+    "href": "latex-guide.html#vs-code-keyboard-shortcuts-for-latex",
+    "title": "LaTeX Reference Guide",
+    "section": "VS Code Keyboard Shortcuts for LaTeX",
+    "text": "VS Code Keyboard Shortcuts for LaTeX\n\nEssential Shortcuts by Category\nEditing & Navigation\n\n\n\nShortcut\nAction\n\n\n\n\nCtrl+P\nQuick Open File\n\n\nCtrl+G\nGo to Line\n\n\nCtrl+/\nComment Line / Toggle Comments\n\n\nCtrl+D\nMulti-cursor Selection (select next occurrence)\n\n\nCtrl+Shift+I\nFormat Document\n\n\n\nSearch & Replace\n\n\n\nShortcut\nAction\n\n\n\n\nCtrl+F\nFind\n\n\nCtrl+H\nFind and Replace\n\n\nAlt+R\nToggle Regex Mode in Find/Replace\n\n\n\nVersion Control & Terminal\n\n\n\nShortcut\nAction\n\n\n\n\nCtrl+Shift+G\nOpen Source Control (Git) Panel\n\n\nCtrl+ ` (backtick)\nOpen Integrated Terminal\n\n\n\nCommand & Feature Access\n\n\n\nShortcut\nAction\n\n\n\n\nCtrl+Shift+P\nOpen Command Palette\n\n\nCtrl+Shift+V\nToggle Markdown Preview\n\n\nCtrl+K Ctrl+0\nFold All\n\n\nCtrl+K Ctrl+J\nUnfold All"
+  },
+  {
+    "objectID": "latex-guide.html#quick-reference-table",
+    "href": "latex-guide.html#quick-reference-table",
+    "title": "LaTeX Reference Guide",
+    "section": "Quick Reference Table",
+    "text": "Quick Reference Table\n\nDocument Comparison\n\n\n\nCommand\nPurpose\n\n\n\n\nlatexdiff old.tex new.tex &gt; diff.tex\nCompare two LaTeX files\n\n\n\n\n\nTable Operations\n\n\n\nCommand\nPurpose\n\n\n\n\n\\multicolumn{2}{c}{Text}\nMerge columns in tables\n\n\n\\multirow{2}{*}{Text}\nMerge rows in tables\n\n\n\\resizebox{\\linewidth}{!}{...}\nFit table to page width\n\n\n\n\n\nCross-References & Citations\n\n\n\nCommand\nPurpose\n\n\n\n\n\\algorithmautorefname\nEnable autoref support for algorithms\n\n\n\\setcitestyle{numbers}\nUse numbered citation style\n\n\n\\hypersetup{colorlinks=true}\nEnable colored hyperlinks\n\n\n\n\n\nCompilation & Debugging\n\n\n\n\n\n\n\nCommand\nWhat It Does\n\n\n\n\nlatexmk -pdf main.tex\n✓ Recommended – Single command, handles everything (PDF output)\n\n\npdflatex main.tex && bibtex main && pdflatex main.tex x2\nManual sequence for fine control or debugging\n\n\ntexcount -inc -sum main.tex\nCount words including external files + show summary\n\n\nrm -f *.aux *.log *.toc *.out *.lof *.lot *.fls *.fdb_latexmk *.synctex.gz *.nav *.snm *.bbl *.blg *.vrb *.xdv\nRemove ALL temporary files and caches\n\n\n\nAccess via: Terminal (Ctrl+ `)\n\n\n\nVersion Control with Overleaf (Git)\n\n\n\n\n\n\nTipBest Practice: Pull → Modify → Commit → Push\n\n\n\nAlways pull before starting work to avoid conflicts!\n\n\n\n\n\n\n\n\n\n\nTask\nVS Code UI\nTerminal Command\n\n\n\n\nPull changes\nCtrl+Shift+G → ··· → “Pull (Rebase)”\ngit pull --rebase\n\n\nStage changes\nCtrl+Shift+G → Click + icon\ngit add .\n\n\nCommit\nEnter message → Ctrl+Enter\ngit commit -m \"message\"\n\n\nPush to Overleaf\nCtrl+Shift+G → ··· → “Push”\ngit push\n\n\n\nTerminal access: Ctrl+ ` (backtick)"
+  },
+  {
+    "objectID": "miscellaneous/windows.html",
+    "href": "miscellaneous/windows.html",
+    "title": "Windows Shortcuts & Commands",
+    "section": "",
+    "text": "Shortcut\nDescription\n\n\n\n\nWin + D\nShow/Hide Desktop\n\n\nWin + E\nOpen File Explorer\n\n\nWin + L\nLock Computer\n\n\nWin + I\nOpen Settings\n\n\nWin + X\nPower User Menu\n\n\nWin + R\nRun Dialog\n\n\nWin + S\nOpen Search\n\n\nWin + A\nQuick Settings\n\n\nWin + K\nConnect Wireless\n\n\nWin + U\nAccessibility Settings\n\n\n\n\n\n\n\n\n\nShortcut\nDescription\n\n\n\n\nAlt + Tab\nSwitch Between Apps\n\n\nAlt + F4\nClose Active Window\n\n\nWin + Tab\nTask View (All Windows)\n\n\nWin + , (comma)\nPeek at Desktop\n\n\nWin + B\nFocus System Tray\n\n\nWin + M\nMinimize All Windows\n\n\nCtrl + Shift + Esc\nTask Manager\n\n\nWin + Pause\nSystem Properties"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#essential-navigation",
+    "href": "miscellaneous/windows.html#essential-navigation",
+    "title": "Windows Shortcuts & Commands",
+    "section": "",
+    "text": "Shortcut\nDescription\n\n\n\n\nWin + D\nShow/Hide Desktop\n\n\nWin + E\nOpen File Explorer\n\n\nWin + L\nLock Computer\n\n\nWin + I\nOpen Settings\n\n\nWin + X\nPower User Menu\n\n\nWin + R\nRun Dialog\n\n\nWin + S\nOpen Search\n\n\nWin + A\nQuick Settings\n\n\nWin + K\nConnect Wireless\n\n\nWin + U\nAccessibility Settings\n\n\n\n\n\n\n\n\n\nShortcut\nDescription\n\n\n\n\nAlt + Tab\nSwitch Between Apps\n\n\nAlt + F4\nClose Active Window\n\n\nWin + Tab\nTask View (All Windows)\n\n\nWin + , (comma)\nPeek at Desktop\n\n\nWin + B\nFocus System Tray\n\n\nWin + M\nMinimize All Windows\n\n\nCtrl + Shift + Esc\nTask Manager\n\n\nWin + Pause\nSystem Properties"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#window-management",
+    "href": "miscellaneous/windows.html#window-management",
+    "title": "Windows Shortcuts & Commands",
+    "section": "Window Management",
+    "text": "Window Management\n\nWindow Snapping\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + Left Arrow\nSnap Window Left\n\n\nWin + Right Arrow\nSnap Window Right\n\n\nWin + Up Arrow\nMaximize Window\n\n\nWin + Down Arrow\nMinimize/Restore Window\n\n\nWin + Shift + Up\nStretch Vertically\n\n\nWin + Shift + Down\nRestore/Minimize Height\n\n\nWin + Home\nMinimize All Except Active\n\n\nWin + Z\nSnap Layouts (Win 11)\n\n\n\n\n\nWindow Control & Multi-Monitor\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + Shift + Left/Right\nMove Window Between Monitors\n\n\nAlt + Space\nWindow Menu\n\n\nAlt + Space + M\nMove Window Mode\n\n\nAlt + Space + S\nResize Window Mode\n\n\n\n\n\nVirtual Desktops\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + Ctrl + D\nCreate New Desktop\n\n\nWin + Ctrl + F4\nClose Current Desktop\n\n\nWin + Ctrl + Left/Right\nSwitch Between Desktops"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#file-explorer",
+    "href": "miscellaneous/windows.html#file-explorer",
+    "title": "Windows Shortcuts & Commands",
+    "section": "File Explorer",
+    "text": "File Explorer\n\nBasic Operations\n\n\n\nShortcut\nDescription\n\n\n\n\nCtrl + N\nNew Window\n\n\nCtrl + W\nClose Window\n\n\nCtrl + Shift + N\nNew Folder\n\n\nF2\nRename Selected Item\n\n\nDelete\nMove to Recycle Bin\n\n\nShift + Delete\nPermanent Delete\n\n\nCtrl + Z\nUndo\n\n\nCtrl + Y\nRedo\n\n\n\n\n\nNavigation & View\n\n\n\nShortcut\nDescription\n\n\n\n\nAlt + Up Arrow\nGo Up One Level\n\n\nAlt + Left/Right\nBack/Forward\n\n\nBackspace\nGo to Parent Folder\n\n\nCtrl + L\nFocus Address Bar\n\n\nAlt + D\nSelect Address Bar\n\n\nF4\nAddress Bar Dropdown\n\n\nCtrl + Mouse Wheel\nChange Icon Size\n\n\nAlt + P\nToggle Preview Pane\n\n\nAlt + Enter\nProperties\n\n\nShift + Right-Click\nExtended Context Menu"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#text-editing",
+    "href": "miscellaneous/windows.html#text-editing",
+    "title": "Windows Shortcuts & Commands",
+    "section": "Text Editing",
+    "text": "Text Editing\n\nBasic Editing\n\n\n\nShortcut\nDescription\n\n\n\n\nCtrl + C\nCopy\n\n\nCtrl + X\nCut\n\n\nCtrl + V\nPaste\n\n\nCtrl + Z\nUndo\n\n\nCtrl + Y\nRedo\n\n\nCtrl + A\nSelect All\n\n\nCtrl + F\nFind\n\n\nCtrl + H\nReplace\n\n\n\n\n\nAdvanced Navigation & Selection\n\n\n\nShortcut\nDescription\n\n\n\n\nCtrl + Left/Right\nJump by Word\n\n\nCtrl + Backspace\nDelete Previous Word\n\n\nCtrl + Delete\nDelete Next Word\n\n\nCtrl + Shift + Left/Right\nSelect Word by Word\n\n\nHome\nGo to Start of Line\n\n\nEnd\nGo to End of Line\n\n\nShift + Home\nSelect to Start of Line\n\n\nShift + End\nSelect to End of Line\n\n\nCtrl + Home\nGo to Start of Document\n\n\nCtrl + End\nGo to End of Document"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#browser-shortcuts",
+    "href": "miscellaneous/windows.html#browser-shortcuts",
+    "title": "Windows Shortcuts & Commands",
+    "section": "Browser Shortcuts",
+    "text": "Browser Shortcuts\n\nTab Management\n\n\n\nShortcut\nDescription\n\n\n\n\nCtrl + T\nNew Tab\n\n\nCtrl + Shift + T\nReopen Closed Tab\n\n\nCtrl + W\nClose Current Tab\n\n\nCtrl + Tab\nNext Tab\n\n\nCtrl + Shift + Tab\nPrevious Tab\n\n\nCtrl + 1-8\nSwitch to Tab 1-8\n\n\nCtrl + 9\nSwitch to Last Tab\n\n\n\n\n\nBrowser Navigation\n\n\n\nShortcut\nDescription\n\n\n\n\nCtrl + L\nFocus Address Bar\n\n\nCtrl + D\nBookmark Page\n\n\nF5 / Ctrl + R\nRefresh Page\n\n\nCtrl + Shift + R\nHard Refresh\n\n\nF11\nFull Screen Mode\n\n\nCtrl + +/-\nZoom In/Out"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#productivity-tools",
+    "href": "miscellaneous/windows.html#productivity-tools",
+    "title": "Windows Shortcuts & Commands",
+    "section": "Productivity Tools",
+    "text": "Productivity Tools\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + V\nClipboard History\n\n\nWin + Shift + S\nScreenshot Tool\n\n\nWin + PrintScreen\nFull Screenshot to Pictures\n\n\nWin + Period (.)\nEmoji Panel\n\n\nWin + H\nVoice Typing/Dictation\n\n\nWin + G\nXbox Game Bar\n\n\nWin + Alt + R\nStart/Stop Recording"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#run-commands",
+    "href": "miscellaneous/windows.html#run-commands",
+    "title": "Windows Shortcuts & Commands",
+    "section": "Run Commands",
+    "text": "Run Commands\nPress Win + R, type the command, and hit Enter.\n\nSystem Tools\n\n\n\nCommand\nDescription\n\n\n\n\ncmd\nCommand Prompt\n\n\npowershell\nWindows PowerShell\n\n\ntaskmgr\nTask Manager\n\n\nmsconfig\nSystem Configuration\n\n\nmsinfo32\nSystem Information\n\n\nregedit\nRegistry Editor (Use with caution)\n\n\nresmon\nResource Monitor\n\n\nperfmon\nPerformance Monitor\n\n\ncontrol\nControl Panel\n\n\n\n\n\nManagement Consoles (.msc)\n\n\n\nCommand\nDescription\n\n\n\n\ndevmgmt.msc\nDevice Manager\n\n\ndiskmgmt.msc\nDisk Management\n\n\nservices.msc\nWindows Services\n\n\ncompmgmt.msc\nComputer Management\n\n\neventvwr.msc\nEvent Viewer\n\n\nlusrmgr.msc\nLocal Users & Groups\n\n\n\n\n\nControl Panel Items (.cpl)\n\n\n\nCommand\nDescription\n\n\n\n\nncpa.cpl\nNetwork Connections\n\n\nappwiz.cpl\nPrograms & Features\n\n\nfirewall.cpl\nWindows Firewall\n\n\ndesk.cpl\nDisplay Settings\n\n\npowercfg.cpl\nPower Options\n\n\nmain.cpl\nMouse Properties\n\n\nsysdm.cpl\nSystem Properties\n\n\ntimedate.cpl\nDate & Time\n\n\n\n\n\nQuick Launch Applications\n\n\n\nCommand\nDescription\n\n\n\n\ncalc\nCalculator\n\n\nnotepad\nNotepad\n\n\nmspaint\nPaint\n\n\nsnippingtool\nSnipping Tool\n\n\nmagnify\nMagnifier\n\n\nosk\nOn-Screen Keyboard\n\n\ncharmap\nCharacter Map\n\n\nwordpad\nWordPad\n\n\n\n\n\nSystem Utilities\n\n\n\nCommand\nDescription\n\n\n\n\ncleanmgr\nDisk Cleanup\n\n\nmstsc\nRemote Desktop Connection\n\n\nwinver\nWindows Version Info\n\n\ndxdiag\nDirectX Diagnostic Tool\n\n\nsndvol\nVolume Mixer\n\n\n\n\n\nSpecial Folders\n\n\n\nCommand\nDescription\n\n\n\n\n.\nCurrent User Folder\n\n\nshell:startup\nStartup Folder\n\n\nshell:downloads\nDownloads Folder\n\n\nshell:recent\nRecent Items\n\n\nshell:sendto\nSend To Folder\n\n\n%temp%\nTemp Folder\n\n\n%appdata%\nAppData Folder\n\n\n%programfiles%\nProgram Files Folder"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#command-prompt-network",
+    "href": "miscellaneous/windows.html#command-prompt-network",
+    "title": "Windows Shortcuts & Commands",
+    "section": "Command Prompt & Network",
+    "text": "Command Prompt & Network\n\nFile Operations\n\n\n\nCommand\nDescription\n\n\n\n\ndir\nList directory contents\n\n\ncd [path]\nChange directory\n\n\nmkdir [name]\nCreate directory\n\n\ncopy [source] [dest]\nCopy files\n\n\nmove [source] [dest]\nMove files\n\n\ndel [file]\nDelete file\n\n\ntree\nDisplay folder structure as tree\n\n\nattrib +h [file]\nHide file\n\n\nattrib -h [file]\nUnhide file\n\n\n\n\n\nNetwork Commands\n\n\n\nCommand\nDescription\n\n\n\n\nipconfig /all\nDisplay network configuration\n\n\nipconfig /flushdns\nClear DNS cache\n\n\nping [address]\nTest connection to address\n\n\ntracert [address]\nTrace route to destination\n\n\nnetstat -an\nDisplay active connections\n\n\nnslookup [domain]\nQuery DNS records\n\n\narp -a\nDisplay ARP table\n\n\nnetsh wlan show profiles\nShow saved WiFi networks\n\n\n\n\n\nSystem Commands\n\n\n\nCommand\nDescription\n\n\n\n\nsysteminfo\nDisplay system information\n\n\ntasklist\nList all running processes\n\n\ntaskkill /f /im [name]\nForce kill process\n\n\nshutdown /s /t 0\nShutdown immediately\n\n\nshutdown /r /t 0\nRestart immediately\n\n\nhostname\nDisplay computer name\n\n\nwhoami\nDisplay current username\n\n\nver\nDisplay Windows version"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#system-maintenance",
+    "href": "miscellaneous/windows.html#system-maintenance",
+    "title": "Windows Shortcuts & Commands",
+    "section": "System Maintenance",
+    "text": "System Maintenance\n\n\n\n\n\n\nWarningImportant\n\n\n\nRun Command Prompt or PowerShell as Administrator for these commands. Right-click and select “Run as administrator”.\n\n\n\nSystem Repair Commands\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\nsfc /scannow\nScan and repair system files (15-30 minutes)\n\n\nchkdsk /f /r\nCheck disk for errors and repair (requires restart)\n\n\nDISM /Online /Cleanup-Image /RestoreHealth\nRepair Windows system image (run before sfc)\n\n\n\n\n\nUtility Commands\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\npowercfg /batteryreport\nGenerate battery health report\n\n\nnetsh wlan show profile name=\"WiFi-Name\" key=clear\nShow saved WiFi password\n\n\n\n\n\nPowerShell System Commands\n\n\n\nCommand\nDescription\n\n\n\n\nGet-ComputerInfo\nDetailed system information\n\n\nGet-Process\nList running processes\n\n\nGet-Service\nList Windows services\n\n\nGet-Hotfix\nShow installed updates\n\n\nGet-NetAdapter\nDisplay network adapters\n\n\nGet-Volume\nShow disk volumes\n\n\nGet-LocalUser\nList local users\n\n\nTest-Connection google.com\nAdvanced ping command"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#windows-11-features",
+    "href": "miscellaneous/windows.html#windows-11-features",
+    "title": "Windows Shortcuts & Commands",
+    "section": "Windows 11 Features",
+    "text": "Windows 11 Features\n\nWindows 11 Exclusive Shortcuts\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + W\nOpen Widgets Panel\n\n\nWin + C\nOpen Copilot AI\n\n\nWin + N\nNotification Center\n\n\nWin + Z\nSnap Layouts Menu\n\n\n\n\n\nGod Mode - Access All Settings\n\n\n\n\n\n\nTipHow to Enable God Mode\n\n\n\n\nCreate a new folder on your desktop\nRename it to: GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}\nDouble-click to access 200+ Windows settings\n\n\n\n\n\nAccessibility Shortcuts\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + + (Plus)\nOpen Magnifier & Zoom In\n\n\nWin + - (Minus)\nZoom Out\n\n\nWin + Esc\nClose Magnifier\n\n\nWin + Ctrl + Enter\nToggle Narrator\n\n\nWin + H\nVoice Typing\n\n\n\n\n\nAdvanced Graphics\n\n\n\nShortcut\nDescription\n\n\n\n\nWin + Ctrl + Shift + B\nRestart Graphics Driver"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#pro-tips-tricks",
+    "href": "miscellaneous/windows.html#pro-tips-tricks",
+    "title": "Windows Shortcuts & Commands",
+    "section": "Pro Tips & Tricks",
+    "text": "Pro Tips & Tricks\n\nTaskbar Tricks\n\nShift + Click on taskbar icon - Open new instance\nCtrl + Click on taskbar icon - Cycle through windows\nMiddle Click on taskbar icon - Open new instance\nShift + Right-Click on taskbar - Show window menu\n\n\n\nFile Explorer Secrets\n\nAlt + D - Focus address bar instantly\nF4 in address bar - Show recent locations dropdown\nType cmd in address bar - Open Command Prompt in that folder\nType powershell in address bar - Open PowerShell in that folder\nShift + Right-Click on folder - Extended menu with “Copy as path”\n\n\n\nRun Dialog Tricks\n\nCtrl + Shift + Enter in Run Dialog - Run as Administrator\nType \\computer-name - Connect to network computer\nType website URL - Opens in default browser\n\n\n\nMulti-Monitor Magic\n\nWin + Shift + Left/Right Arrow - Move window between monitors\nWin + P - Project/display options (duplicate, extend, etc.)\n\n\n\nQuick Copy Tricks\n\nCtrl + Shift + C/V - Copy/paste in Command Prompt\nWin + V - Open clipboard history (enable in Settings first)\nSelect file in Explorer, Ctrl + Shift + C - Copy file path\n\n\n\n\n\n\n\nTipProductivity Hack\n\n\n\nPin frequently used apps to taskbar and use Win + [1-9] to launch them instantly!"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#safety-notes-best-practices",
+    "href": "miscellaneous/windows.html#safety-notes-best-practices",
+    "title": "Windows Shortcuts & Commands",
+    "section": "Safety Notes & Best Practices",
+    "text": "Safety Notes & Best Practices\n\n\n\n\n\n\nWarningRegistry Editor Warning\n\n\n\nOnly modify the registry if you know exactly what you are doing. Always create a backup before making changes. Incorrect registry edits can make Windows unstable or unbootable.\n\n\n\n\n\n\n\n\nWarningAdministrator Commands\n\n\n\nCommands like sfc /scannow, chkdsk, and DISM require administrator privileges. Right-click Command Prompt/PowerShell and select “Run as administrator”.\n\n\n\n\n\n\n\n\nWarningMaintenance Time\n\n\n\nsfc /scannow takes 15-30 minutes. chkdsk and DISM can take 30+ minutes. Run these when you have time and will not need your computer.\n\n\n\nSafe Practices\n\nLock your PC when leaving: Win + L\nRegularly update Windows via Settings &gt; Windows Update\nEnable BitLocker for drive encryption (if available)\nUse strong passwords and Windows Hello if possible\nKeep important files backed up to cloud or external drive\nRun Windows Defender scans regularly\nOnly download software from trusted sources\n\n\n\nMaintenance Schedule\n\n\n\n\n\n\nNoteRecommended Schedule\n\n\n\n\nMonthly: Run Disk Cleanup (cleanmgr), check for Windows updates\nQuarterly: Run sfc /scannow, review installed programs\nYearly: Full system backup, DISM health check"
+  },
+  {
+    "objectID": "miscellaneous/windows.html#top-20-must-know-shortcuts",
+    "href": "miscellaneous/windows.html#top-20-must-know-shortcuts",
+    "title": "Windows Shortcuts & Commands",
+    "section": "Top 20 Must-Know Shortcuts",
+    "text": "Top 20 Must-Know Shortcuts\nMaster these first - they will save you hours!\n\nWin + E - File Explorer\nWin + D - Show/Hide Desktop\nAlt + Tab - Switch Apps\nWin + L - Lock PC\nWin + V - Clipboard History\nWin + Shift + S - Screenshot\nCtrl + Shift + Esc - Task Manager\nWin + Left/Right - Snap Windows\nWin + I - Settings\nWin + R - Run Dialog\nWin + Tab - Task View\nAlt + F4 - Close Window\nCtrl + Shift + N - New Folder\nWin + Period - Emoji Panel\nWin + X - Power User Menu\nF2 - Rename File\nCtrl + Z - Undo\nWin + S - Search\nWin + Ctrl + D - New Desktop\nCtrl + Shift + T - Reopen Tab\n\nLast Updated: October 2025"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#team",
+    "href": "people.html#team",
+    "title": "People",
+    "section": "",
+    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "People",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts.html",
