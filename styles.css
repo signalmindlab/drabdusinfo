@@ -70,6 +70,11 @@ img.rounded {
     padding: 0 6px !important;
 }
 
+/* Hide name title under profile picture in about section */
+.about-entity .about-title {
+    display: none !important;
+}
+
 /* Sticky navbar - stays visible while scrolling */
 .navbar {
     position: sticky !important;
