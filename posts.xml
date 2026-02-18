@@ -43,6 +43,14 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<!-- Default to dark mode if no preference is stored -->
+<script>
+(function() {
+  if (!localStorage.getItem('quarto-color-scheme')) {
+    localStorage.setItem('quarto-color-scheme', 'dark');
+  }
+})();
+</script>
 <!-- Image Protection: Prevent drag, right-click, and direct access -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -238,6 +246,14 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<!-- Default to dark mode if no preference is stored -->
+<script>
+(function() {
+  if (!localStorage.getItem('quarto-color-scheme')) {
+    localStorage.setItem('quarto-color-scheme', 'dark');
+  }
+})();
+</script>
 <!-- Image Protection: Prevent drag, right-click, and direct access -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -396,6 +412,14 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<!-- Default to dark mode if no preference is stored -->
+<script>
+(function() {
+  if (!localStorage.getItem('quarto-color-scheme')) {
+    localStorage.setItem('quarto-color-scheme', 'dark');
+  }
+})();
+</script>
 <!-- Image Protection: Prevent drag, right-click, and direct access -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
