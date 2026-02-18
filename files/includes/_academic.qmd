@@ -19,6 +19,15 @@ https://badge.dimensions.ai/
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
+<!-- Default to dark mode if no preference is stored -->
+<script>
+(function() {
+  if (!localStorage.getItem('quarto-color-scheme')) {
+    localStorage.setItem('quarto-color-scheme', 'dark');
+  }
+})();
+</script>
+
 <!-- Image Protection: Prevent drag, right-click, and direct access -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {

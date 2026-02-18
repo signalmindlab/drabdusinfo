@@ -30,6 +30,7 @@ website:
  
   navbar:
     background: dark  # You can change the background color here
+    pinned: true       # Keeps navbar visible while scrolling
 
     left:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home

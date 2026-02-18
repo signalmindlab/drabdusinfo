@@ -5,16 +5,16 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Home</title>
+<title>Md Abdus Samad, PhD</title>
 <link>https://www.drabdus.info/posts.html</link>
 <atom:link href="https://www.drabdus.info/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Developed by Dr. Md Abdus Samad</description>
 <image>
 <url>https://www.drabdus.info/posts/placeholder2.JPG</url>
-<title>Home</title>
+<title>Md Abdus Samad, PhD</title>
 <link>https://www.drabdus.info/posts.html</link>
 </image>
-<generator>quarto-1.8.26</generator>
+<generator>quarto-1.8.27</generator>
 <lastBuildDate>Mon, 08 Dec 2025 15:00:00 GMT</lastBuildDate>
 <item>
   <title>CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction</title>
@@ -43,6 +43,47 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<!-- Default to dark mode if no preference is stored -->
+<script>
+(function() {
+  if (!localStorage.getItem('quarto-color-scheme')) {
+    localStorage.setItem('quarto-color-scheme', 'dark');
+  }
+})();
+</script>
+<!-- Image Protection: Prevent drag, right-click, and direct access -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Disable dragging on all images
+  document.addEventListener('dragstart', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+
+  // Disable right-click on images
+  document.addEventListener('contextmenu', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+});
+</script>
+<style>
+/* Prevent image selection and dragging */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: auto;
+}
+</style>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
 <p>Thyroid Cancer (TC) is the uncontrolled growth of carcinogenic cells in the thyroid gland, with a higher recurrence rate than other cancers. Early detection of TC recurrence (TCR) is crucial for timely intervention. This study develops machine-learning algorithms that reduce features while maintaining high performance. Previous studies on the Differentiated Thyroid Cancer Recurrence (DTCR) dataset struggled to improve performance with feature reduction, and misclassification causes remained unexplored.</p>
@@ -205,6 +246,47 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<!-- Default to dark mode if no preference is stored -->
+<script>
+(function() {
+  if (!localStorage.getItem('quarto-color-scheme')) {
+    localStorage.setItem('quarto-color-scheme', 'dark');
+  }
+})();
+</script>
+<!-- Image Protection: Prevent drag, right-click, and direct access -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Disable dragging on all images
+  document.addEventListener('dragstart', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+
+  // Disable right-click on images
+  document.addEventListener('contextmenu', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+});
+</script>
+<style>
+/* Prevent image selection and dragging */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: auto;
+}
+</style>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
 <p>Imbalanced datasets pose a persistent challenge in business data mining, particularly in high-stakes domains such as financial risk prediction and customer churn analysis, where the minority class often carries disproportionate operational and financial consequences. Although widely used evaluation metrics–such as accuracy, precision, recall, F1-score, and Matthews Correlation Coefficient (MCC)–are commonly applied in practice, there remains no empirical consensus on which metric offers the most reliable performance under real-world conditions. Existing studies lack a unified, statistically validated framework that accounts for threshold sensitivity, input noise, and interpretability–factors critical to business decision-making.</p>
@@ -330,6 +412,47 @@ https://badge.dimensions.ai/
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<!-- Default to dark mode if no preference is stored -->
+<script>
+(function() {
+  if (!localStorage.getItem('quarto-color-scheme')) {
+    localStorage.setItem('quarto-color-scheme', 'dark');
+  }
+})();
+</script>
+<!-- Image Protection: Prevent drag, right-click, and direct access -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Disable dragging on all images
+  document.addEventListener('dragstart', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+
+  // Disable right-click on images
+  document.addEventListener('contextmenu', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+});
+</script>
+<style>
+/* Prevent image selection and dragging */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: auto;
+}
+</style>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
 <p><strong>Background:</strong> Brain tumors can severely impair neurological function, leading to symptoms such as headaches, memory loss, motor coordination deficits, and visual disturbances. In severe cases, they may cause permanent cognitive damage or become life-threatening without early detection.</p>

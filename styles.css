@@ -38,3 +38,38 @@ img.rounded {
     object-fit: contain;  /* Changed from 'cover' to 'contain' */
     aspect-ratio: unset;  /* Remove fixed aspect ratio */
 }
+
+/* Hide categories sidebar permanently */
+#quarto-margin-sidebar,
+.quarto-listing-category-title,
+.quarto-listing-category {
+    display: none !important;
+}
+
+/* Hide reader mode toggle button */
+.quarto-reader-toggle {
+    display: none !important;
+}
+
+/* Sticky navbar - stays visible while scrolling */
+.navbar {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1030 !important;
+}
+
+/* Footer background matching the dark navbar */
+footer.footer {
+    background-color: #343a40 !important;
+    color: #fff !important;
+}
+
+footer.footer .nav-footer {
+    background-color: #343a40 !important;
+    color: #fff !important;
+}
+
+footer.footer p,
+footer.footer a {
+    color: #fff !important;
+}
