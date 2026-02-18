@@ -149,7 +149,7 @@ Always verify the fingerprint matches before trusting this key. Compare it with 
 
 ## Download Public Key
 
-You can download my public key file: [{{< fa download >}} Download PGP Public Key](/me-write-info_pgp_ath.asc.txt)
+You can download my public key file: [{{< fa download >}} Download PGP Public Key](/pgp/me-write-info_pgp_ath.asc.txt)
 
 ## How to Use
 
