@@ -51,6 +51,25 @@ img.rounded {
     display: none !important;
 }
 
+/* Compact navbar search box */
+.navbar .aa-Autocomplete,
+.navbar .quarto-search {
+    width: 130px !important;
+}
+
+.navbar .aa-Form,
+.navbar .quarto-search input {
+    height: 28px !important;
+    font-size: 0.8rem !important;
+    padding: 0 8px !important;
+    border-radius: 4px !important;
+}
+
+.navbar .aa-SubmitButton,
+.navbar .quarto-search .aa-SubmitButton {
+    padding: 0 6px !important;
+}
+
 /* Sticky navbar - stays visible while scrolling */
 .navbar {
     position: sticky !important;
