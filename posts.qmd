@@ -11,7 +11,10 @@ listing:
   sort-ui: true
   filter-ui: true
   feed: true
-  contents: posts
+  contents:
+    - path: posts
+      exclude:
+        categories: [event]
       #- posts/post-links.yml  # Use this file to add external links
 #      categories: [] 
 
