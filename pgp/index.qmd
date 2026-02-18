@@ -9,50 +9,147 @@ If you need to send me encrypted messages or verify my digital signatures, you c
 
 ## Key Information
 
-| Property | Value |
-|----------|-------|
-| **User ID** | `Md Abdus Samad <write@drabdus.info>` |
-<!-- | **Type** | `255-bit EdDSA` | -->
-| **Usage** | `Signing, Encryption, Certifying User IDs` |
-<!-- | **Valid From** | `2/6/2026` |
-| **Valid Until** | `2/6/2029` | -->
-| **Fingerprint** | `9B73 2FAD 0CD9 340F E419  39A7 7CC5 674D 41E7 DE24` |
+```{=html}
+<div class="pgp-info-grid">
+
+  <div class="pgp-info-card">
+    <span class="pgp-label"><i class="bi bi-person-fill"></i> User ID</span>
+    <span class="pgp-value">Md Abdus Samad &lt;write@drabdus.info&gt;</span>
+  </div>
+
+  <div class="pgp-info-card">
+    <span class="pgp-label"><i class="bi bi-cpu"></i> Algorithm</span>
+    <span class="pgp-value">255-bit EdDSA (Ed25519)</span>
+  </div>
+
+  <div class="pgp-info-card">
+    <span class="pgp-label"><i class="bi bi-shield-check"></i> Usage</span>
+    <span class="pgp-value">
+      <span class="pgp-badge pgp-badge-sign">Signing</span>
+      <span class="pgp-badge pgp-badge-enc">Encryption</span>
+      <span class="pgp-badge pgp-badge-cert">Certifying User IDs</span>
+    </span>
+  </div>
+
+  <div class="pgp-info-card">
+    <span class="pgp-label"><i class="bi bi-calendar-check"></i> Valid From</span>
+    <span class="pgp-value">6 February 2026</span>
+  </div>
+
+  <div class="pgp-info-card">
+    <span class="pgp-label"><i class="bi bi-calendar-x"></i> Valid Until</span>
+    <span class="pgp-value">6 February 2029</span>
+  </div>
+
+  <div class="pgp-info-card pgp-info-card--full">
+    <span class="pgp-label"><i class="bi bi-fingerprint"></i> Fingerprint</span>
+    <span class="pgp-value pgp-fingerprint">
+      <span>9B73 2FAD</span>
+      <span>0CD9 340F</span>
+      <span>E419 &nbsp;39A7</span>
+      <span>7CC5 674D</span>
+      <span>41E7 DE24</span>
+    </span>
+  </div>
+
+</div>
+
+<style>
+/* ── PGP info grid ──────────────────────────────────────────── */
+.pgp-info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.pgp-info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  background: var(--bs-body-bg);
+  transition: border-color 0.2s;
+}
+
+.pgp-info-card:hover {
+  border-color: var(--bs-primary, #0d6efd);
+}
+
+/* Span full row */
+.pgp-info-card--full {
+  grid-column: 1 / -1;
+}
+
+/* Label row */
+.pgp-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color, #6c757d);
+}
+
+.pgp-label i {
+  margin-right: 0.3em;
+}
+
+/* Value */
+.pgp-value {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--bs-body-color);
+  word-break: break-all;
+}
+
+/* Fingerprint – monospaced, spaced groups */
+.pgp-fingerprint {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.6rem;
+  font-family: var(--bs-font-monospace, monospace);
+  font-size: 0.88rem;
+  letter-spacing: 0.04em;
+}
+
+/* Usage badges */
+.pgp-badge {
+  display: inline-block;
+  padding: 0.2em 0.55em;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.pgp-badge-sign  { background: #0d6efd22; color: #4d9dff; border: 1px solid #0d6efd55; }
+.pgp-badge-enc   { background: #19875422; color: #2ecc71; border: 1px solid #19875455; }
+.pgp-badge-cert  { background: #6f42c122; color: #b382f9; border: 1px solid #6f42c155; }
+
+/* Light-mode overrides for badges (ensure readability) */
+@media (prefers-color-scheme: light) {
+  .pgp-badge-sign  { background: #cfe2ff; color: #0a58ca; border-color: #9ec5fe; }
+  .pgp-badge-enc   { background: #d1e7dd; color: #146c43; border-color: #a3cfbb; }
+  .pgp-badge-cert  { background: #e8d5f9; color: #5a23a0; border-color: #c29fec; }
+}
+
+[data-bs-theme="light"] .pgp-badge-sign  { background: #cfe2ff; color: #0a58ca; border-color: #9ec5fe; }
+[data-bs-theme="light"] .pgp-badge-enc   { background: #d1e7dd; color: #146c43; border-color: #a3cfbb; }
+[data-bs-theme="light"] .pgp-badge-cert  { background: #e8d5f9; color: #5a23a0; border-color: #c29fec; }
+</style>
+```
 
 ::: {.callout-tip}
 ## How to Verify
-Always verify the fingerprint matches before trusting this key. You can compare it with other sources where I've published my key.
+Always verify the fingerprint matches before trusting this key. Compare it with other sources where I've published my key.
 :::
 
 ## Download Public Key
 
 You can download my public key file: [{{< fa download >}} Download PGP Public Key](/me-write-info_pgp_ath.asc.txt)
-
-<!-- ## Public Key Block
-
-```
------BEGIN PGP PUBLIC KEY BLOCK-----
-Comment: User ID:	Md Abdus Samad <write@drabdus.info>
-Comment: Valid from:	2/6/2026 8:03 PM
-Comment: Valid until:	2/6/2029 12:00 PM
-Comment: Type:	255-bit EdDSA (secret key available)
-Comment: Usage:	Signing, Encryption, Certifying User IDs
-Comment: Fingerprint:	9B73 2FAD 0CD9 340F E419  39A7 7CC5 674D 41E7 DE24
-
-
-mDMEaYXKdxYJKwYBBAHaRw8BAQdAiLNbTizsQqsmEPz8zIwOty8Ngc9GKTRrLX/R
-GUfmANu0I01kIEFiZHVzIFNhbWFkIDx3cml0ZUBkcmFiZHVzLmluZm8+iLUEExYK
-AF0WIQSbcy+tDNk0D+QZOad8xWdNQefeJAUCaYXKdxsUgAAAAAAEAA5tYW51Miwy
-LjUrMS4xMSwyLDECGwMFCQWkerkFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AA
-CgkQfMVnTUHn3iSsvQD+II+TGvEUokMjpfUfXhsOOSMDYzxCvMgXahe0d3z2Z3EB
-AO7K5gI5hoJlOT28tpFx2UrTOdOOW2EF+80mJjNZPuECuDgEaYXKdxIKKwYBBAGX
-VQEFAQEHQPpKWKJQcQqUvNd/puvlf0p6x9hlGygfi1ekRYhUIpNwAwEIB4iaBBgW
-CgBCFiEEm3MvrQzZNA/kGTmnfMVnTUHn3iQFAmmFyncbFIAAAAAABAAObWFudTIs
-Mi41KzEuMTEsMiwxAhsMBQkFpHq5AAoJEHzFZ01B594kVgEBALdOyEbdDNQEjWL4
-56bomXLg8QD+8PTD0XMZtWdmY745AQCumJ3m6sTYYLmXKTB87bO0Xzj8Yt92DD1Q
-KowAdNbLBw==
-=wxjz
------END PGP PUBLIC KEY BLOCK-----
-``` -->
 
 ## How to Use
 
@@ -60,7 +157,6 @@ KowAdNbLBw==
 2. **Verify the fingerprint** matches: `9B73 2FAD 0CD9 340F E419  39A7 7CC5 674D 41E7 DE24`
 3. **Encrypt your message** using my public key
 4. **Send the encrypted message** to me via email at `write@drabdus.info`
-
 
 ::: {.callout-note}
 ## Why Use Encryption?
