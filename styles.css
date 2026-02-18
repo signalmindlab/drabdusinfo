@@ -39,8 +39,7 @@ img.rounded {
     aspect-ratio: unset;  /* Remove fixed aspect ratio */
 }
 
-/* Hide categories sidebar permanently */
-#quarto-margin-sidebar,
+/* Hide categories sidebar on non-listing pages only */
 .quarto-listing-category-title,
 .quarto-listing-category {
     display: none !important;
