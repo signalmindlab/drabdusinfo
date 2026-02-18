@@ -480,17 +480,6 @@ Commands like `sfc /scannow`, `chkdsk`, and `DISM` require administrator privile
 18. `Win + S` - Search
 19. `Win + Ctrl + D` - New Desktop
 20. `Ctrl + Shift + T` - Reopen Tab
-
-### Learning Path
-
-::: {.callout-tip}
-## Suggested Learning Path
-- **Week 1:** Master the top 5 shortcuts
-- **Week 2:** Add window management shortcuts
-- **Week 3:** Learn File Explorer shortcuts
-- **Week 4:** Explore Run commands and productivity tools
-:::
-
 ---
 
 *Last Updated: October 2025*
