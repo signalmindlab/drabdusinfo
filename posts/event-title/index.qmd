@@ -6,7 +6,7 @@ date: "2024-09-03"
 categories: [event, presentation]
 image: "/files/images/placeholder2.JPG"
 #css: /custom.css
-#draft: true
+draft: true
 ---
 
 <!-- [![](/files/images/placeholder2.JPG){width="90%"}](https://drganghe.github.io/quarto-academic-website-template/) -->
