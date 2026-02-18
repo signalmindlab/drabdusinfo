@@ -11,18 +11,6 @@ about:
   template: trestles
   image-width: 200px
   image-shape: rectangle
-  links:
-    - icon: envelope
-      text: E-mail
-      href: mailto:write@drabdus.info   
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/drabdus/
-      target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com/@drabdus     
-      target: _blank 
 
 listing:
   # Academic posts (papers, news, events)
