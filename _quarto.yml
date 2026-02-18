@@ -149,18 +149,38 @@ website:
           #   href: https://hub.drabdus.info/
           #   target: _blank
 
-    right: 
-      # - text: CV
-      #   href: files/nsf-biosketch.pdf
-      # - icon: github
-      #   href: https://github.com/drganghe/quarto-academic-website-template
-      #   target: _blank
-      # - text: "{{< fa brands bluesky >}}"
-      #   href: https://bsky.app
-      #   target: _blank      
-    - icon: rss
-      href: posts.xml
-      target: _blank
+    right:
+      - text: Profiles
+        menu:
+          - text: "{{< ai orcid >}} ORCID"
+            href: https://orcid.org/0000-0002-1990-6924
+            target: _blank
+          - text: "{{< ai clarivate >}} Web of Science"
+            href: https://www.webofscience.com/wos/author/record/JPL-7257-2023
+            target: _blank
+          - text: "{{< ai scopus >}} Scopus"
+            href: https://www.scopus.com/authid/detail.uri?authorId=57220375948
+            target: _blank
+          - text: '<i class="fas fa-wave-square"></i> Lab'
+            href: https://www.signalmindlab.org/
+            target: _blank
+          - text: "{{< ai google-scholar >}} Google Scholar"
+            href: https://scholar.google.com/citations?user=NmUWfQIAAAAJ&hl=en
+            target: _blank
+          - text: "{{< fa database >}} DBLP"
+            href: https://dblp.org/pid/04/11471.html
+            target: _blank
+      - icon: envelope
+        href: mailto:write@drabdus.info
+      - icon: linkedin
+        href: https://www.linkedin.com/in/drabdus/
+        target: _blank
+      - icon: youtube
+        href: https://www.youtube.com/@drabdus
+        target: _blank
+      - icon: rss
+        href: posts.xml
+        target: _blank
   
   page-navigation: true
   

@@ -12,9 +12,9 @@ listing:
   filter-ui: true
   feed: true
   contents:
-    - path: posts
-      exclude:
-        categories: [event]
+    - posts/**/*.qmd
+  exclude:
+    categories: [event]
 
 #page-layout: full
 draft-mode: unlinked

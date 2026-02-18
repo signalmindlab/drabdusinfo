@@ -9,13 +9,17 @@
       "/posts/paper-title/catboost-paper.html",
       "/posts/paper-title/evaluation-metrics-paper.html",
       "/posts/paper-title/explainable-deep-paper.html",
-      "/posts/news-title/index.html",
-      "/posts/event-title/index.html"
+      "/posts/news-title/index.html"
     ]
   },
   {
     "listing": "/posts.html",
-    "items": []
+    "items": [
+      "/posts/paper-title/catboost-paper.html",
+      "/posts/paper-title/evaluation-metrics-paper.html",
+      "/posts/paper-title/explainable-deep-paper.html",
+      "/posts/news-title/index.html"
+    ]
   },
   {
     "listing": "/projects.html",

@@ -49,6 +49,10 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-f22cdf64c810c887d8ac059dc91ab5d3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-c77af4844fd2de9a2fc136011a44ebe5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-f22cdf64c810c887d8ac059dc91ab5d3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,9 +89,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-exclude','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-exclude","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -272,11 +276,11 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 <link rel="alternate" type="application/rss+xml" title="Md Abdus Samad, PhD" href="posts.xml" data-external="1"><meta property="og:title" content="What’s New &amp; Updated – Md Abdus Samad, PhD">
 <meta property="og:description" content="Posts about papers, events, news, and more">
-<meta property="og:image" content="https://www.drabdus.info/posts/placeholder2.JPG">
+<meta property="og:image" content="https://www.drabdus.info/posts/paper-title/catboost-paper.jpg">
 <meta property="og:site_name" content="Md Abdus Samad, PhD">
 <meta name="twitter:title" content="What’s New &amp; Updated – Md Abdus Samad, PhD">
 <meta name="twitter:description" content="Posts about papers, events, news, and more">
-<meta name="twitter:image" content="https://www.drabdus.info/posts/placeholder2.JPG">
+<meta name="twitter:image" content="https://www.drabdus.info/posts/paper-title/catboost-paper.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -514,6 +518,52 @@ window.Quarto = {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-profiles" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Profiles</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-profiles">    
+        <li>
+    <a class="dropdown-item" href="https://orcid.org/0000-0002-1990-6924" target="_blank">
+ <span class="dropdown-text"><i class="ai  ai-orcid"></i> ORCID</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.webofscience.com/wos/author/record/JPL-7257-2023" target="_blank">
+ <span class="dropdown-text"><i class="ai  ai-clarivate"></i> Web of Science</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.scopus.com/authid/detail.uri?authorId=57220375948" target="_blank">
+ <span class="dropdown-text"><i class="ai  ai-scopus"></i> Scopus</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.signalmindlab.org/" target="_blank">
+ <span class="dropdown-text"><i class="fas fa-wave-square"></i> Lab</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://scholar.google.com/citations?user=NmUWfQIAAAAJ&amp;hl=en" target="_blank">
+ <span class="dropdown-text"><i class="ai  ai-google-scholar"></i> Google Scholar</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://dblp.org/pid/04/11471.html" target="_blank">
+ <span class="dropdown-text"><i class="fa-solid fa-database" aria-label="database"></i> DBLP</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:write@drabdus.info"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/drabdus/" target="_blank"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@drabdus" target="_blank"> <i class="bi bi-youtube" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="./posts.xml" target="_blank"> <i class="bi bi-rss" role="img">
 </i> 
@@ -538,7 +588,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGFwZXI=">paper <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -572,20 +622,159 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Author
+      </option>
+    </select>
+  </div>
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0">
+<div class="quarto-post image-right" data-index="0" data-categories="cGFwZXI=" data-listing-date-sort="1765206000000" data-listing-file-modified-sort="1765697431870" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="541">
+<div class="thumbnail"><a href="./posts/paper-title/catboost-paper.html" class="no-external">
+
+<img loading="lazy" src="./posts/paper-title/catboost-paper.jpg" class="thumbnail-image">
+
+</a></div>
 <div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/paper-title/catboost-paper.html" class="no-external">CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/paper-title/catboost-paper.html" class="no-external"><em>BioData Mining</em></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
 
 </div>
+<div class="delink listing-description"><a href="./posts/paper-title/catboost-paper.html" class="no-external">
+<p>Machine learning approach combining CatBoost classifier with physics-based metaheuristic algorithms for efficient thyroid cancer recurrence prediction with feature optimization.</p>
+</a></div>
+</div>
 <div class="metadata">
-<a href="posts" class="no-external">
-<div class="metadata-value listing-exclude">
-[object Object]
+<a href="./posts/paper-title/catboost-paper.html" class="no-external">
+<div class="listing-date">
+Dec 9, 2025
+</div>
+<div class="listing-author">
+Proshenjit Sarker, Kwonhue Choi, Abdullah-Al Nahid, Md Abdus Samad
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="cGFwZXI=" data-listing-date-sort="1764514800000" data-listing-file-modified-sort="1765697431872" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="828">
+<div class="thumbnail"><a href="./posts/paper-title/evaluation-metrics-paper.html" class="no-external">
+
+<img loading="lazy" src="./posts/paper-title/evaluation-paper.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/paper-title/evaluation-metrics-paper.html" class="no-external">Accuracy, Precision, Recall, F1-Score, or MCC? Empirical Evidence from Advanced Statistics, ML, and XAI for Evaluating Business Predictive Models</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/paper-title/evaluation-metrics-paper.html" class="no-external"><em>Journal of Big Data</em></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/paper-title/evaluation-metrics-paper.html" class="no-external">
+<p>Comprehensive empirical analysis of evaluation metrics for imbalanced datasets in business applications, combining statistical methods, machine learning, and explainable AI.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/paper-title/evaluation-metrics-paper.html" class="no-external">
+<div class="listing-date">
+Dec 1, 2025
+</div>
+<div class="listing-author">
+Khaled Mahmud Sujon, Rohayanti Hassan, Kwonhue Choi, Md Abdus Samad
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="cGFwZXI=" data-listing-date-sort="1756479600000" data-listing-file-modified-sort="1765697431892" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="292">
+<div class="thumbnail"><a href="./posts/paper-title/explainable-deep-paper.html" class="no-external">
+
+<img loading="lazy" src="./posts/paper-title/explainable-deep-dnsemble.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/paper-title/explainable-deep-paper.html" class="no-external">Explainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/paper-title/explainable-deep-paper.html" class="no-external"><em>Cancers</em></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXI='); return false;">paper</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/paper-title/explainable-deep-paper.html" class="no-external">
+<p>An interpretable deep ensemble model for tumor detection in MRI by integrating pre-trained CNNs with a Light Gradient Boosting Machine meta-learner.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/paper-title/explainable-deep-paper.html" class="no-external">
+<div class="listing-date">
+Aug 30, 2025
+</div>
+<div class="listing-author">
+S. Kakon, S. Chakrabarty, Z. Al Sazid, I. A. Begum, Md Abdus Samad, A. S. M. S. Hosen
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="bmV3cw==" data-listing-date-sort="1736866800000" data-listing-file-modified-sort="1765697431769" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<div class="thumbnail"><a href="./posts/news-title/index.html" class="no-external">
+
+<img loading="lazy" src="./files/images/placeholder2.JPG" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/news-title/index.html" class="no-external">New Publication: Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/news-title/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/news-title/index.html" class="no-external">
+We’re excited to announce our latest research has been accepted for publication in <strong><em>Journal of Big Data</em></strong>, a leading open-access journal in big data analytics and applications!
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/news-title/index.html" class="no-external">
+<div class="listing-date">
+Jan 15, 2025
+</div>
+<div class="listing-author">
+md abdus samad
 </div>
 </a>
 </div>

@@ -14,7 +14,7 @@
       "/people/undergraduate-alumni.yml"
     ],
     "posts.qmd": [
-      "posts"
+      "posts/**/*.qmd"
     ],
     "projects.qmd": [
       "projects.yml"
