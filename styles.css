@@ -46,10 +46,6 @@ img.rounded {
     display: none !important;
 }
 
-/* Hide reader mode toggle button */
-.quarto-reader-toggle {
-    display: none !important;
-}
 
 /* Compact navbar search box */
 .navbar .aa-Autocomplete,
