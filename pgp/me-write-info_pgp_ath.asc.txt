@@ -2,7 +2,7 @@
 Comment: User ID:	Md Abdus Samad <write@drabdus.info>
 Comment: Valid from:	2/6/2026 8:03 PM
 Comment: Valid until:	2/6/2029 12:00 PM
-Comment: Type:	255-bit EdDSA (secret key available)
+Comment: Type:	255-bit EdDSA
 Comment: Usage:	Signing, Encryption, Certifying User IDs
 Comment: Fingerprint:	9B73 2FAD 0CD9 340F E419  39A7 7CC5 674D 41E7 DE24
 
