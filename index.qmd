@@ -6,7 +6,7 @@ image: "files/images/profile.png"
 page-navigation: false
 toc: false
 page-layout: full
-reader-mode: true
+reader-mode: false
 
 about:
   id: hero-heading
