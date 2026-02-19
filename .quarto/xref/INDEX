@@ -118,5 +118,8 @@
   },
   "miscellaneous/verifying-journal-indexing.qmd": {
     "verifying-journal-indexing.html": "c120f423"
+  },
+  "pgp/index.qmd": {
+    "index.html": "a432cb97"
   }
 }

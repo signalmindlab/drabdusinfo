@@ -1,6 +1,7 @@
 ---
 title: "Global Scholarship Database"
 subtitle: "Discover 127+ scholarships worldwide"
+title-block-banner: true
 author: "Md Abdus Samad"
 date: "2025-12-01"
 toc: false

@@ -1,6 +1,7 @@
 ---
 title: "LaTeX Reference Guide"
 subtitle: "Essential Commands and Tips for Academic Writing"
+title-block-banner: true
 author: "Dr. Md Abdus Samad"
 date: "2025-05-30"
 lastdraft: today

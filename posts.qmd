@@ -18,7 +18,7 @@ listing:
 #page-layout: full
 draft-mode: unlinked
 page-navigation: false
-title-block-banner: false
+title-block-banner: true
 --- 
 
 

@@ -1,6 +1,7 @@
 ---
 title: "Windows Shortcuts & Commands"
 subtitle: "Complete Reference Guide - 100+ Shortcuts & Commands"
+title-block-banner: true
 author: "Dr. Md Abdus Samad"
 date: "2025-05-30"
 toc: true

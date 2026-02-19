@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 subtitle: "Funded projects"
+title-block-banner: true
 page-layout: full
 listing: 
 - id: projects

@@ -39,23 +39,41 @@ img.rounded {
     aspect-ratio: unset;  /* Remove fixed aspect ratio */
 }
 
-/* Hide categories sidebar permanently */
-#quarto-margin-sidebar,
+/* Hide categories sidebar on non-listing pages only */
 .quarto-listing-category-title,
 .quarto-listing-category {
     display: none !important;
 }
 
-/* Hide reader mode toggle button */
-.quarto-reader-toggle {
+
+/* Search icon (overlay mode) – keep it slim and aligned with other navbar icons */
+.navbar .quarto-search {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.navbar .quarto-search .quarto-search-button {
+    font-size: 1rem !important;
+    padding: 0 6px !important;
+    line-height: 1 !important;
+}
+
+/* Hide name title under profile picture in about/trestles section */
+.about-entity .about-title,
+.about-entity h1,
+#hero-heading ~ * h1,
+.quarto-about-trestles h1,
+.quarto-about-trestles .about-title {
     display: none !important;
 }
 
-/* Sticky navbar - stays visible while scrolling */
-.navbar {
+/* Sticky navbar – only on screens wide enough that the bar stays compact */
+@media (min-width: 992px) {
+  .navbar {
     position: sticky !important;
     top: 0 !important;
     z-index: 1030 !important;
+  }
 }
 
 /* Footer background matching the dark navbar */
