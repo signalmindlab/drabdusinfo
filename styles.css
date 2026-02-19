@@ -61,7 +61,7 @@ img.rounded {
 /* Trestles layout – match the image column to content indent below */
 @media (min-width: 992px) {
   div.quarto-about-trestles .about-entity {
-    flex: 0 0 30% !important;   /* align bio text with page content below */
+    flex: 0 0 33% !important;   /* align bio text with page content below */
   }
 }
 
