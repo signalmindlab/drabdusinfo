@@ -153,9 +153,11 @@ img {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Contact – Md Abdus Samad, PhD">
+<meta property="og:description" content="Get in touch for research collaboration, academic inquiries, or general questions">
 <meta property="og:image" content="https://www.drabdus.info/posts/placeholder2.JPG">
 <meta property="og:site_name" content="Md Abdus Samad, PhD">
 <meta name="twitter:title" content="Contact – Md Abdus Samad, PhD">
+<meta name="twitter:description" content="Get in touch for research collaboration, academic inquiries, or general questions">
 <meta name="twitter:image" content="https://www.drabdus.info/posts/placeholder2.JPG">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -325,7 +327,7 @@ img {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -435,58 +437,181 @@ img {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Contact</h1>
+            <p class="subtitle lead">Get in touch for research collaboration, academic inquiries, or general questions</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Contact</h1>
+
+
+
+
+<div class="contact-grid">
+
+  <div class="contact-card">
+    <span class="contact-label"><i class="bi bi-person-fill"></i> Name</span>
+    <span class="contact-value">Md Abdus Samad, PhD</span>
+  </div>
+
+  <div class="contact-card">
+    <span class="contact-label"><i class="bi bi-building"></i> Department</span>
+    <span class="contact-value">Information and Communication Engineering</span>
+  </div>
+
+  <div class="contact-card">
+    <span class="contact-label"><i class="bi bi-mortarboard-fill"></i> University</span>
+    <span class="contact-value">Yeungnam University</span>
+  </div>
+
+  <div class="contact-card">
+    <span class="contact-label"><i class="bi bi-geo-alt-fill"></i> Location</span>
+    <span class="contact-value">Gyeongsan, Gyeongbuk, South Korea</span>
+  </div>
+
+  <div class="contact-card">
+    <span class="contact-label"><i class="bi bi-envelope-fill"></i> Official Email</span>
+    <span class="contact-value"><a href="mailto:masamad@yu.ac.kr">masamad@yu.ac.kr</a></span>
+  </div>
+
+  <div class="contact-card">
+    <span class="contact-label"><i class="bi bi-envelope-at-fill"></i> Personal Email</span>
+    <span class="contact-value"><a href="mailto:write@drabdus.info">write@drabdus.info</a></span>
+  </div>
+
+  <div class="contact-card contact-card--full">
+    <span class="contact-label"><i class="bi bi-globe2"></i> On the Web</span>
+    <span class="contact-value contact-links">
+      <a href="https://www.drabdus.info" class="contact-link" target="_blank"><i class="bi bi-house-door-fill"></i> Website</a>
+      <a href="https://blog.drabdus.info" class="contact-link" target="_blank"><i class="bi bi-journal-text"></i> Blog</a>
+      <a href="https://scholar.google.com/citations?user=NmUWfQIAAAAJ&amp;hl=en" class="contact-link" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a>
+      <a href="https://orcid.org/0000-0002-1990-6924" class="contact-link" target="_blank"><i class="ai ai-orcid"></i> ORCID</a>
+      <a href="https://www.linkedin.com/in/drabdus/" class="contact-link" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a>
+      <a href="https://www.youtube.com/@drabdus" class="contact-link" target="_blank"><i class="bi bi-youtube"></i> YouTube</a>
+      <a href="./pgp/" class="contact-link"><i class="bi bi-key-fill"></i> PGP Key</a>
+    </span>
+  </div>
+
 </div>
 
+<style>
+/* ── Contact info grid ───────────────────────────────────────── */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
 
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  background: var(--bs-body-bg);
+  transition: border-color 0.2s;
+}
 
-<div class="quarto-title-meta column-page">
+.contact-card:hover {
+  border-color: var(--bs-primary, #0d6efd);
+}
 
-    
-  
-    
-  </div>
-  
+.contact-card--full {
+  grid-column: 1 / -1;
+}
 
+.contact-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color, #6c757d);
+}
 
-</header>
+.contact-label i {
+  margin-right: 0.3em;
+}
 
+.contact-value {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--bs-body-color);
+}
 
-<center>
-<p><strong>Md Abdus Samad</strong></p>
-<p><strong>Department of Information and Communication Engineering</strong><br>
-Yeungnam University<br>
-Gyeongsan, Gyeongbuk, South Korea</p>
-<p><strong>Email:</strong><br>
-- ✉️ Official: <script type="text/javascript">
-<!--
-h='&#x79;&#x75;&#46;&#x61;&#x63;&#46;&#x6b;&#114;';a='&#64;';n='&#x6d;&#x61;&#x73;&#x61;&#x6d;&#x61;&#100;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>masamad at yu dot ac dot kr</noscript><br>
-- ✉️ Personal: <script type="text/javascript">
-<!--
-h='&#100;&#114;&#x61;&#98;&#100;&#x75;&#x73;&#46;&#x69;&#110;&#102;&#x6f;';a='&#64;';n='&#x77;&#114;&#x69;&#116;&#x65;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail email">'+e+'<\/'+'a'+'>');
-// -->
-</script><noscript>write at drabdus dot info</noscript><br>
-<!-- - ✉️ Personal/Official: <write@drabdus.com>   --></p>
-<p><strong>Website:</strong><br>
-- 🌐 <a href="https://www.drabdus.info" class="uri">https://www.drabdus.info</a><br>
-<!-- - 🌐 <https://www.drabdus.com> --></p>
-</center>
+.contact-value a {
+  color: var(--bs-link-color, #0d6efd);
+  text-decoration: none;
+}
+
+.contact-value a:hover {
+  text-decoration: underline;
+}
+
+/* Web links row */
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.3em 0.7em;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  color: var(--bs-body-color) !important;
+  text-decoration: none !important;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.contact-link:hover {
+  border-color: var(--bs-primary, #0d6efd);
+  background: var(--bs-primary, #0d6efd);
+  color: #fff !important;
+}
+
+.contact-link i {
+  font-size: 1em;
+}
+</style>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Prefer Encrypted Communication?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For sensitive or private messages, you can encrypt your email using my <a href="./pgp/">PGP public key</a>. This ensures only I can read your message.</p>
+</div>
+</div>
 
 
 

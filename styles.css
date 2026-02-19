@@ -67,11 +67,13 @@ img.rounded {
     display: none !important;
 }
 
-/* Sticky navbar - stays visible while scrolling */
-.navbar {
+/* Sticky navbar – only on screens wide enough that the bar stays compact */
+@media (min-width: 992px) {
+  .navbar {
     position: sticky !important;
     top: 0 !important;
     z-index: 1030 !important;
+  }
 }
 
 /* Footer background matching the dark navbar */
