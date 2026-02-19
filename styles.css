@@ -58,6 +58,13 @@ img.rounded {
     line-height: 1 !important;
 }
 
+/* Trestles layout – shrink the image column so text sits closer to the photo */
+@media (min-width: 992px) {
+  div.quarto-about-trestles .about-entity {
+    flex: 0 0 22% !important;   /* was 42% */
+  }
+}
+
 /* Hide name title under profile picture in about/trestles section */
 .about-entity .about-title,
 .about-entity h1,
