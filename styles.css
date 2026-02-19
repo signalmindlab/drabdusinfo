@@ -58,10 +58,10 @@ img.rounded {
     line-height: 1 !important;
 }
 
-/* Trestles layout – shrink the image column so text sits closer to the photo */
+/* Trestles layout – match the image column to content indent below */
 @media (min-width: 992px) {
   div.quarto-about-trestles .about-entity {
-    flex: 0 0 22% !important;   /* was 42% */
+    flex: 0 0 30% !important;   /* align bio text with page content below */
   }
 }
 
