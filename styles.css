@@ -74,6 +74,11 @@ img.rounded {
     display: none !important;
 }
 
+/* Banner background color */
+.quarto-title-banner {
+    background: #3A5069 !important;
+}
+
 /* Sticky navbar – only on screens wide enough that the bar stays compact */
 @media (min-width: 992px) {
   .navbar {
