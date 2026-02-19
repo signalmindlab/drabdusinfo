@@ -74,9 +74,18 @@ img.rounded {
     display: none !important;
 }
 
-/* Banner background color */
+/* Banner – consistent size and color on every page */
 .quarto-title-banner {
     background: #3A5069 !important;
+    padding-top: 2.5em !important;
+    padding-bottom: 2.5em !important;
+}
+
+@media (max-width: 991.98px) {
+  .quarto-title-banner {
+    padding-top: 1.5em !important;
+    padding-bottom: 1.5em !important;
+  }
 }
 
 /* Sticky navbar – only on screens wide enough that the bar stays compact */
