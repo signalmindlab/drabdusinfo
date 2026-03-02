@@ -15,7 +15,154 @@
 <link>https://www.drabdus.info/posts.html</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Tue, 09 Dec 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 02 Mar 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>New Publication: Feature reduction using swarm optimization and random forest classifiers for early diabetes risk prediction</title>
+  <dc:creator>md abdus samad</dc:creator>
+  <link>https://www.drabdus.info/posts/diabetes-scireports-2026/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We’re excited to announce our latest research has been accepted for publication in <strong><em>Scientific Reports</em></strong> (Nature Portfolio)!</p>
+<p>This work presents a novel approach to early diabetes risk prediction by combining swarm intelligence-based feature selection with Random Forest classification. The study demonstrates that leveraging swarm optimization to reduce dimensionality can maintain — or even improve — predictive performance while significantly lowering computational complexity.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://www.drabdus.info/posts/diabetes-scireports-2026/</guid>
+  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://www.drabdus.info/files/images/scientific-reports-banner.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Feature Reduction Using Swarm Optimization and Random Forest Classifiers for Early Diabetes Risk Prediction</title>
+  <dc:creator>Md Abdus Samad</dc:creator>
+  <link>https://www.drabdus.info/posts/paper-title/diabetes-scireports-paper.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<!--Include academic icons or buttons-->
+<!-- 
+Load Academicons v1: https://jpswalsh.github.io/academicons/
+-->
+<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></p>
+<p><link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></p>
+<!---
+The following code are needed to show dimension citation and altmetrics.
+https://api.altmetric.com/embeds.html
+https://badge.dimensions.ai/
+--->
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
+<!-- Default to dark mode if no preference is stored -->
+<script>
+(function() {
+  if (!localStorage.getItem('quarto-color-scheme')) {
+    localStorage.setItem('quarto-color-scheme', 'dark');
+  }
+})();
+</script>
+<!-- Image Protection: Prevent drag, right-click, and direct access -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Disable dragging on all images
+  document.addEventListener('dragstart', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+
+  // Disable right-click on images
+  document.addEventListener('contextmenu', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+    }
+  });
+});
+</script>
+<style>
+/* Prevent image selection and dragging */
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: auto;
+}
+</style>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>Early detection of diabetes is critical for reducing the risk of severe complications and improving patient outcomes. However, clinical datasets for diabetes risk prediction often contain redundant or irrelevant features that can hinder classifier performance and interpretability. This study proposes a feature reduction framework that integrates swarm optimization algorithms with a Random Forest (RF) classifier to identify the most discriminative feature subset for early diabetes risk prediction.</p>
+<p>The proposed approach applies swarm intelligence-based metaheuristic search to efficiently explore the feature space, selecting compact subsets that preserve classification accuracy while reducing dimensionality. The Random Forest classifier evaluates candidate subsets, providing feature importance rankings and robust probabilistic predictions. Experiments conducted on publicly available diabetes datasets demonstrate that the optimized feature subsets achieve competitive or superior accuracy compared to using the full feature set, while substantially decreasing computational overhead.</p>
+</section>
+<section id="keywords" class="level2">
+<h2 class="anchored" data-anchor-id="keywords">Keywords</h2>
+<p>Diabetes risk prediction, Feature selection, Swarm optimization, Random Forest, Machine learning, Dimensionality reduction, Early detection, Healthcare informatics</p>
+</section>
+<section id="key-contributions" class="level2">
+<h2 class="anchored" data-anchor-id="key-contributions">Key Contributions</h2>
+<ul>
+<li><p><strong>Swarm-Guided Feature Selection:</strong> Applied swarm optimization metaheuristics to intelligently search the feature space, identifying minimal yet highly informative feature subsets</p></li>
+<li><p><strong>Random Forest Integration:</strong> Combined swarm-selected features with a Random Forest classifier to achieve robust and interpretable predictions for early diabetes risk</p></li>
+<li><p><strong>Dimensionality Reduction:</strong> Demonstrated significant reduction in feature count without compromising — and often improving — classification performance</p></li>
+<li><p><strong>Early Detection Framework:</strong> Proposed a clinically applicable pipeline for early diabetes risk stratification using routinely collected health indicators</p></li>
+</ul>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<ul>
+<li>Published <a href="https://doi.org/10.1038/s41598-026-35984-7" target="_blank">paper</a></li>
+</ul>
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41598-026-35984-7"></div>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1038/s41598-026-35984-7" data-hide-zero-citations="true" data-style="small_circle"></span><script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{abdus_samad2026,
+  author = {Abdus Samad, Md},
+  title = {Feature {Reduction} {Using} {Swarm} {Optimization} and
+    {Random} {Forest} {Classifiers} for {Early} {Diabetes} {Risk}
+    {Prediction}},
+  journal = {Scientific Reports},
+  date = {2026-03-02},
+  url = {https://doi.org/10.1038/s41598-026-35984-7},
+  doi = {10.1038/s41598-026-35984-7},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-abdus_samad2026" class="csl-entry quarto-appendix-citeas">
+Abdus Samad, Md. 2026. <span>“Feature Reduction Using Swarm Optimization
+and Random Forest Classifiers for Early Diabetes Risk
+Prediction.”</span> <em>Scientific Reports</em>, March. <a href="https://doi.org/10.1038/s41598-026-35984-7">https://doi.org/10.1038/s41598-026-35984-7</a>.
+</div></div></section></div> ]]></description>
+  <category>paper</category>
+  <guid>https://www.drabdus.info/posts/paper-title/diabetes-scireports-paper.html</guid>
+  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://www.drabdus.info/files/images/scientific-reports-banner.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction</title>
   <dc:creator>Proshenjit Sarker</dc:creator>

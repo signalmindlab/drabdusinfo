@@ -56,53 +56,46 @@
     "text": "Links\n\nPublished paper\nPDF"
   },
   {
-    "objectID": "posts/paper-title/catboost-paper.html#abstract",
-    "href": "posts/paper-title/catboost-paper.html#abstract",
-    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "objectID": "posts/paper-title/diabetes-scireports-paper.html#abstract",
+    "href": "posts/paper-title/diabetes-scireports-paper.html#abstract",
+    "title": "Feature Reduction Using Swarm Optimization and Random Forest Classifiers for Early Diabetes Risk Prediction",
     "section": "Abstract",
-    "text": "Abstract\nThyroid Cancer (TC) is the uncontrolled growth of carcinogenic cells in the thyroid gland, with a higher recurrence rate than other cancers. Early detection of TC recurrence (TCR) is crucial for timely intervention. This study develops machine-learning algorithms that reduce features while maintaining high performance. Previous studies on the Differentiated Thyroid Cancer Recurrence (DTCR) dataset struggled to improve performance with feature reduction, and misclassification causes remained unexplored.\nThis work proposes three Physics-based Metaheuristic Algorithms (PBMHAs)—Energy Valley Optimization (EVOA), Equilibrium Optimization (EOA), and Electromagnetic Field Optimization (EFOA)—combined with the Categorical Boosting (CatBoost) classifier. SHAP is used to analyze feature importance. CatBoost without optimization (Only CB) achieved 95.83% Accuracy, 92.42% F-score, 96.29% Precision, and 89.27% Recall using all 16 features. After optimization, EVOA_CB reached 96.35% mean accuracy, while EOA_CB and EFOA_CB achieved 96.17%. EOA_CB excluded 11 less important features, and EFOA_CB attained the highest mean AUC of 0.994 with the lowest computational times. Additionally, this work provides insights into the factors contributing to misclassification. Using a 30:70 train-test split over 5 folds, EVOA_CB performed best on six selected features, with 96.35% Accuracy, 93.34% F-score, and 96.19% Precision. SHAP highlighted response, risk, and N as the most important features. These findings support early, efficient detection of TC recurrence with fewer features."
+    "text": "Abstract\nEarly detection of diabetes is critical for reducing the risk of severe complications and improving patient outcomes. However, clinical datasets for diabetes risk prediction often contain redundant or irrelevant features that can hinder classifier performance and interpretability. This study proposes a feature reduction framework that integrates swarm optimization algorithms with a Random Forest (RF) classifier to identify the most discriminative feature subset for early diabetes risk prediction.\nThe proposed approach applies swarm intelligence-based metaheuristic search to efficiently explore the feature space, selecting compact subsets that preserve classification accuracy while reducing dimensionality. The Random Forest classifier evaluates candidate subsets, providing feature importance rankings and robust probabilistic predictions. Experiments conducted on publicly available diabetes datasets demonstrate that the optimized feature subsets achieve competitive or superior accuracy compared to using the full feature set, while substantially decreasing computational overhead."
   },
   {
-    "objectID": "posts/paper-title/catboost-paper.html#keywords",
-    "href": "posts/paper-title/catboost-paper.html#keywords",
-    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "objectID": "posts/paper-title/diabetes-scireports-paper.html#keywords",
+    "href": "posts/paper-title/diabetes-scireports-paper.html#keywords",
+    "title": "Feature Reduction Using Swarm Optimization and Random Forest Classifiers for Early Diabetes Risk Prediction",
     "section": "Keywords",
-    "text": "Keywords\nThyroid cancer, Cancer recurrence, Feature selection, Physics-based metaheuristic algorithms, Energy valley optimization, Equilibrium optimization, Electromagnetic field optimization, CatBoost, Explainable AI, SHAP"
+    "text": "Keywords\nDiabetes risk prediction, Feature selection, Swarm optimization, Random Forest, Machine learning, Dimensionality reduction, Early detection, Healthcare informatics"
   },
   {
-    "objectID": "posts/paper-title/catboost-paper.html#key-contributions",
-    "href": "posts/paper-title/catboost-paper.html#key-contributions",
-    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "objectID": "posts/paper-title/diabetes-scireports-paper.html#key-contributions",
+    "href": "posts/paper-title/diabetes-scireports-paper.html#key-contributions",
+    "title": "Feature Reduction Using Swarm Optimization and Random Forest Classifiers for Early Diabetes Risk Prediction",
     "section": "Key Contributions",
-    "text": "Key Contributions\n\nOptimized Feature Selection: Applied three PBMHAs (EVOA, EOA, and EFOA) to select the most relevant features, resulting in reduced and informative feature sets (5-9 features vs. 16 original)\nEnhanced Classification Performance: Using CatBoost with optimized hyperparameters achieved high predictive accuracy (96.35% for EVOA_CB) for distinguishing recurred and non-recurred patients\nExplainability and Feature Insights: Utilized SHAP to interpret model predictions, identifying response, risk, and N as the most influential features for TCR outcomes\nAnalysis of Misclassified Cases: Investigated misclassified instances to uncover potential anomalies and understand model limitations\nModel Efficiency: Achieved accurate TCR prediction using compact feature sets without compromising performance"
+    "text": "Key Contributions\n\nSwarm-Guided Feature Selection: Applied swarm optimization metaheuristics to intelligently search the feature space, identifying minimal yet highly informative feature subsets\nRandom Forest Integration: Combined swarm-selected features with a Random Forest classifier to achieve robust and interpretable predictions for early diabetes risk\nDimensionality Reduction: Demonstrated significant reduction in feature count without compromising — and often improving — classification performance\nEarly Detection Framework: Proposed a clinically applicable pipeline for early diabetes risk stratification using routinely collected health indicators"
   },
   {
-    "objectID": "posts/paper-title/catboost-paper.html#links",
-    "href": "posts/paper-title/catboost-paper.html#links",
-    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "objectID": "posts/paper-title/diabetes-scireports-paper.html#links",
+    "href": "posts/paper-title/diabetes-scireports-paper.html#links",
+    "title": "Feature Reduction Using Swarm Optimization and Random Forest Classifiers for Early Diabetes Risk Prediction",
     "section": "Links",
-    "text": "Links\n\nPublished paper\nFull Text PDF\nData Repository\nGitHub Repository"
+    "text": "Links\n\nPublished paper"
   },
   {
-    "objectID": "posts/paper-title/catboost-paper.html#dataset-methods",
-    "href": "posts/paper-title/catboost-paper.html#dataset-methods",
-    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
-    "section": "Dataset & Methods",
-    "text": "Dataset & Methods\nDataset: DTCR (Differentiated Thyroid Cancer Recurrence) - 383 patients (115 recurred, 268 non-recurred) - 16 clinicopathological features - 15-year follow-up period (minimum 10 years observation)\nAlgorithms: - CatBoost: Gradient boosting with categorical feature support - Feature Selection Methods: EVOA, EOA, EFOA (physics-based metaheuristics) - Evaluation: 5-fold cross-validation with 70:30 train-test split - Explainability: SHAP (Shapley Additive Explanations)"
+    "objectID": "posts/news-title/index.html",
+    "href": "posts/news-title/index.html",
+    "title": "New Publication: Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models",
+    "section": "",
+    "text": "We’re excited to announce our latest research has been accepted for publication in Journal of Big Data, a leading open-access journal in big data analytics and applications!\nThis work presents a comprehensive evaluation of business predictive models, exploring their accuracy, interpretability, and practical deployment challenges in real-world analytical environments."
   },
   {
-    "objectID": "posts/paper-title/catboost-paper.html#performance-comparison",
-    "href": "posts/paper-title/catboost-paper.html#performance-comparison",
-    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
-    "section": "Performance Comparison",
-    "text": "Performance Comparison\n\n\n\n\n\n\n\n\n\n\n\n\nModel\nFeatures\nAccuracy (%)\nF-score (%)\nPrecision (%)\nRecall (%)\nAUC\n\n\n\n\nOnly_CB\n16\n95.83\n92.42\n96.29\n89.27\n-\n\n\nEVOA_CB\n6\n96.35\n93.34\n96.19\n90.94\n0.989\n\n\nEOA_CB\n5\n96.17\n93.12\n94.31\n92.21\n0.989\n\n\nEFOA_CB\n9\n96.17\n93.09\n95.78\n91.15\n0.994"
-  },
-  {
-    "objectID": "posts/paper-title/catboost-paper.html#key-findings",
-    "href": "posts/paper-title/catboost-paper.html#key-findings",
-    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
-    "section": "Key Findings",
-    "text": "Key Findings\n\nEVOA_CB achieved the highest accuracy (96.35%) with only 6 selected features\nEOA_CB demonstrated greatest feature reduction (5 features) with highest recall (92.21%)\nEFOA_CB achieved the highest AUC (0.994) with lowest testing time (1.51 ms)\nMost Important Features: Response, Risk, N (lymph node involvement)\nStructural Incomplete response strongly associated with recurrence\nExcellent response correlated with non-recurrence\nIntermediate risk and N1b classification linked to higher recurrence"
+    "objectID": "posts/diabetes-scireports-2026/index.html",
+    "href": "posts/diabetes-scireports-2026/index.html",
+    "title": "New Publication: Feature reduction using swarm optimization and random forest classifiers for early diabetes risk prediction",
+    "section": "",
+    "text": "We’re excited to announce our latest research has been accepted for publication in Scientific Reports (Nature Portfolio)!\nThis work presents a novel approach to early diabetes risk prediction by combining swarm intelligence-based feature selection with Random Forest classification. The study demonstrates that leveraging swarm optimization to reduce dimensionality can maintain — or even improve — predictive performance while significantly lowering computational complexity."
   },
   {
     "objectID": "pgp/index.html",
@@ -382,7 +375,7 @@
     "href": "index.html#recent-posts",
     "title": "Hi there!",
     "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nCatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction\n\n\n\npaper\n\n\n\n\nDec 9, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAccuracy, Precision, Recall, F1-Score, or MCC? Empirical Evidence from Advanced Statistics, ML, and XAI for Evaluating Business Predictive Models\n\n\n\npaper\n\n\n\n\nDec 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nExplainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images\n\n\n\npaper\n\n\n\n\nAug 30, 2025\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
+    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nFeature Reduction Using Swarm Optimization and Random Forest Classifiers for Early Diabetes Risk Prediction\n\n\n\npaper\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Publication: Feature reduction using swarm optimization and random forest classifiers for early diabetes risk prediction\n\n\n\nnews\n\n\n\n\nMar 2, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction\n\n\n\npaper\n\n\n\n\nDec 9, 2025\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
   },
   {
     "objectID": "contact.html",
@@ -697,14 +690,56 @@
     "href": "posts.html",
     "title": "What’s New & Updated",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction\n\n\nBioData Mining\n\n\n\npaper\n\n\n\nMachine learning approach combining CatBoost classifier with physics-based metaheuristic algorithms for efficient thyroid cancer recurrence prediction with feature optimization.\n\n\n\n\n\nDec 9, 2025\n\n\nProshenjit Sarker, Kwonhue Choi, Abdullah-Al Nahid, Md Abdus Samad\n\n\n\n\n\n\n\n\n\n\n\n\nAccuracy, Precision, Recall, F1-Score, or MCC? Empirical Evidence from Advanced Statistics, ML, and XAI for Evaluating Business Predictive Models\n\n\nJournal of Big Data\n\n\n\npaper\n\n\n\nComprehensive empirical analysis of evaluation metrics for imbalanced datasets in business applications, combining statistical methods, machine learning, and explainable AI.\n\n\n\n\n\nDec 1, 2025\n\n\nKhaled Mahmud Sujon, Rohayanti Hassan, Kwonhue Choi, Md Abdus Samad\n\n\n\n\n\n\n\n\n\n\n\n\nExplainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images\n\n\nCancers\n\n\n\npaper\n\n\n\nAn interpretable deep ensemble model for tumor detection in MRI by integrating pre-trained CNNs with a Light Gradient Boosting Machine meta-learner.\n\n\n\n\n\nAug 30, 2025\n\n\nS. Kakon, S. Chakrabarty, Z. Al Sazid, I. A. Begum, Md Abdus Samad, A. S. M. S. Hosen\n\n\n\n\n\n\n\n\n\n\n\n\nNew Publication: Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\nmd abdus samad\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNew Publication: Feature reduction using swarm optimization and random forest classifiers for early diabetes risk prediction\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 2, 2026\n\n\nmd abdus samad\n\n\n\n\n\n\n\n\n\n\n\n\nFeature Reduction Using Swarm Optimization and Random Forest Classifiers for Early Diabetes Risk Prediction\n\n\nScientific Reports\n\n\n\npaper\n\n\n\nA swarm intelligence-based feature selection framework combined with Random Forest for efficient and accurate early-stage diabetes risk prediction.\n\n\n\n\n\nMar 2, 2026\n\n\nMd Abdus Samad\n\n\n\n\n\n\n\n\n\n\n\n\nCatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction\n\n\nBioData Mining\n\n\n\npaper\n\n\n\nMachine learning approach combining CatBoost classifier with physics-based metaheuristic algorithms for efficient thyroid cancer recurrence prediction with feature optimization.\n\n\n\n\n\nDec 9, 2025\n\n\nProshenjit Sarker, Kwonhue Choi, Abdullah-Al Nahid, Md Abdus Samad\n\n\n\n\n\n\n\n\n\n\n\n\nAccuracy, Precision, Recall, F1-Score, or MCC? Empirical Evidence from Advanced Statistics, ML, and XAI for Evaluating Business Predictive Models\n\n\nJournal of Big Data\n\n\n\npaper\n\n\n\nComprehensive empirical analysis of evaluation metrics for imbalanced datasets in business applications, combining statistical methods, machine learning, and explainable AI.\n\n\n\n\n\nDec 1, 2025\n\n\nKhaled Mahmud Sujon, Rohayanti Hassan, Kwonhue Choi, Md Abdus Samad\n\n\n\n\n\n\n\n\n\n\n\n\nExplainable Deep Ensemble Meta-Learning Framework for Brain Tumor Classification Using MRI Images\n\n\nCancers\n\n\n\npaper\n\n\n\nAn interpretable deep ensemble model for tumor detection in MRI by integrating pre-trained CNNs with a Light Gradient Boosting Machine meta-learner.\n\n\n\n\n\nAug 30, 2025\n\n\nS. Kakon, S. Chakrabarty, Z. Al Sazid, I. A. Begum, Md Abdus Samad, A. S. M. S. Hosen\n\n\n\n\n\n\n\n\n\n\n\n\nNew Publication: Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 15, 2025\n\n\nmd abdus samad\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/news-title/index.html",
-    "href": "posts/news-title/index.html",
-    "title": "New Publication: Accuracy, precision, recall, f1-score, or MCC? empirical evidence from advanced statistics, ML, and XAI for evaluating business predictive models",
-    "section": "",
-    "text": "We’re excited to announce our latest research has been accepted for publication in Journal of Big Data, a leading open-access journal in big data analytics and applications!\nThis work presents a comprehensive evaluation of business predictive models, exploring their accuracy, interpretability, and practical deployment challenges in real-world analytical environments."
+    "objectID": "posts/paper-title/catboost-paper.html#abstract",
+    "href": "posts/paper-title/catboost-paper.html#abstract",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "section": "Abstract",
+    "text": "Abstract\nThyroid Cancer (TC) is the uncontrolled growth of carcinogenic cells in the thyroid gland, with a higher recurrence rate than other cancers. Early detection of TC recurrence (TCR) is crucial for timely intervention. This study develops machine-learning algorithms that reduce features while maintaining high performance. Previous studies on the Differentiated Thyroid Cancer Recurrence (DTCR) dataset struggled to improve performance with feature reduction, and misclassification causes remained unexplored.\nThis work proposes three Physics-based Metaheuristic Algorithms (PBMHAs)—Energy Valley Optimization (EVOA), Equilibrium Optimization (EOA), and Electromagnetic Field Optimization (EFOA)—combined with the Categorical Boosting (CatBoost) classifier. SHAP is used to analyze feature importance. CatBoost without optimization (Only CB) achieved 95.83% Accuracy, 92.42% F-score, 96.29% Precision, and 89.27% Recall using all 16 features. After optimization, EVOA_CB reached 96.35% mean accuracy, while EOA_CB and EFOA_CB achieved 96.17%. EOA_CB excluded 11 less important features, and EFOA_CB attained the highest mean AUC of 0.994 with the lowest computational times. Additionally, this work provides insights into the factors contributing to misclassification. Using a 30:70 train-test split over 5 folds, EVOA_CB performed best on six selected features, with 96.35% Accuracy, 93.34% F-score, and 96.19% Precision. SHAP highlighted response, risk, and N as the most important features. These findings support early, efficient detection of TC recurrence with fewer features."
+  },
+  {
+    "objectID": "posts/paper-title/catboost-paper.html#keywords",
+    "href": "posts/paper-title/catboost-paper.html#keywords",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "section": "Keywords",
+    "text": "Keywords\nThyroid cancer, Cancer recurrence, Feature selection, Physics-based metaheuristic algorithms, Energy valley optimization, Equilibrium optimization, Electromagnetic field optimization, CatBoost, Explainable AI, SHAP"
+  },
+  {
+    "objectID": "posts/paper-title/catboost-paper.html#key-contributions",
+    "href": "posts/paper-title/catboost-paper.html#key-contributions",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "section": "Key Contributions",
+    "text": "Key Contributions\n\nOptimized Feature Selection: Applied three PBMHAs (EVOA, EOA, and EFOA) to select the most relevant features, resulting in reduced and informative feature sets (5-9 features vs. 16 original)\nEnhanced Classification Performance: Using CatBoost with optimized hyperparameters achieved high predictive accuracy (96.35% for EVOA_CB) for distinguishing recurred and non-recurred patients\nExplainability and Feature Insights: Utilized SHAP to interpret model predictions, identifying response, risk, and N as the most influential features for TCR outcomes\nAnalysis of Misclassified Cases: Investigated misclassified instances to uncover potential anomalies and understand model limitations\nModel Efficiency: Achieved accurate TCR prediction using compact feature sets without compromising performance"
+  },
+  {
+    "objectID": "posts/paper-title/catboost-paper.html#links",
+    "href": "posts/paper-title/catboost-paper.html#links",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "section": "Links",
+    "text": "Links\n\nPublished paper\nFull Text PDF\nData Repository\nGitHub Repository"
+  },
+  {
+    "objectID": "posts/paper-title/catboost-paper.html#dataset-methods",
+    "href": "posts/paper-title/catboost-paper.html#dataset-methods",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "section": "Dataset & Methods",
+    "text": "Dataset & Methods\nDataset: DTCR (Differentiated Thyroid Cancer Recurrence) - 383 patients (115 recurred, 268 non-recurred) - 16 clinicopathological features - 15-year follow-up period (minimum 10 years observation)\nAlgorithms: - CatBoost: Gradient boosting with categorical feature support - Feature Selection Methods: EVOA, EOA, EFOA (physics-based metaheuristics) - Evaluation: 5-fold cross-validation with 70:30 train-test split - Explainability: SHAP (Shapley Additive Explanations)"
+  },
+  {
+    "objectID": "posts/paper-title/catboost-paper.html#performance-comparison",
+    "href": "posts/paper-title/catboost-paper.html#performance-comparison",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "section": "Performance Comparison",
+    "text": "Performance Comparison\n\n\n\n\n\n\n\n\n\n\n\n\nModel\nFeatures\nAccuracy (%)\nF-score (%)\nPrecision (%)\nRecall (%)\nAUC\n\n\n\n\nOnly_CB\n16\n95.83\n92.42\n96.29\n89.27\n-\n\n\nEVOA_CB\n6\n96.35\n93.34\n96.19\n90.94\n0.989\n\n\nEOA_CB\n5\n96.17\n93.12\n94.31\n92.21\n0.989\n\n\nEFOA_CB\n9\n96.17\n93.09\n95.78\n91.15\n0.994"
+  },
+  {
+    "objectID": "posts/paper-title/catboost-paper.html#key-findings",
+    "href": "posts/paper-title/catboost-paper.html#key-findings",
+    "title": "CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nEVOA_CB achieved the highest accuracy (96.35%) with only 6 selected features\nEOA_CB demonstrated greatest feature reduction (5 features) with highest recall (92.21%)\nEFOA_CB achieved the highest AUC (0.994) with lowest testing time (1.51 ms)\nMost Important Features: Response, Risk, N (lymph node involvement)\nStructural Incomplete response strongly associated with recurrence\nExcellent response correlated with non-recurrence\nIntermediate risk and N1b classification linked to higher recurrence"
   },
   {
     "objectID": "posts/paper-title/evaluation-metrics-paper.html#abstract",
