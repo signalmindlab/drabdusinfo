@@ -1,0 +1,57 @@
+---
+title: "Feature Reduction Using Swarm Optimization and Random Forest Classifiers for Early Diabetes Risk Prediction"
+description: "A swarm intelligence-based feature selection framework combined with Random Forest for efficient and accurate early-stage diabetes risk prediction."
+subtitle: "*Scientific Reports*"
+author:
+  - name: Md Abdus Samad
+date: "2026-03-02"
+categories: [paper]
+image: "/files/images/scientific-reports-banner.jpg"
+citation:
+  type: article-journal
+  container-title: "Scientific Reports"
+  doi: "10.1038/s41598-026-35984-7"
+  available-date: "2026-03-02"
+  issued: "2026-03-02"
+  url: https://doi.org/10.1038/s41598-026-35984-7
+google-scholar: true
+---
+
+<!--Include academic icons or buttons-->
+
+{{< include /files/includes/_academic.qmd >}}
+
+
+## Abstract
+
+Early detection of diabetes is critical for reducing the risk of severe complications and improving patient outcomes. However, clinical datasets for diabetes risk prediction often contain redundant or irrelevant features that can hinder classifier performance and interpretability. This study proposes a feature reduction framework that integrates swarm optimization algorithms with a Random Forest (RF) classifier to identify the most discriminative feature subset for early diabetes risk prediction.
+
+The proposed approach applies swarm intelligence-based metaheuristic search to efficiently explore the feature space, selecting compact subsets that preserve classification accuracy while reducing dimensionality. The Random Forest classifier evaluates candidate subsets, providing feature importance rankings and robust probabilistic predictions. Experiments conducted on publicly available diabetes datasets demonstrate that the optimized feature subsets achieve competitive or superior accuracy compared to using the full feature set, while substantially decreasing computational overhead.
+
+
+## Keywords
+
+Diabetes risk prediction, Feature selection, Swarm optimization, Random Forest, Machine learning, Dimensionality reduction, Early detection, Healthcare informatics
+
+
+## Key Contributions
+
+- **Swarm-Guided Feature Selection:** Applied swarm optimization metaheuristics to intelligently search the feature space, identifying minimal yet highly informative feature subsets
+
+- **Random Forest Integration:** Combined swarm-selected features with a Random Forest classifier to achieve robust and interpretable predictions for early diabetes risk
+
+- **Dimensionality Reduction:** Demonstrated significant reduction in feature count without compromising — and often improving — classification performance
+
+- **Early Detection Framework:** Proposed a clinically applicable pipeline for early diabetes risk stratification using routinely collected health indicators
+
+
+## Links
+
+- Published [paper](https://doi.org/10.1038/s41598-026-35984-7){target="_blank"}
+
+
+```{=html}
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41598-026-35984-7"></div>
+
+<span class="__dimensions_badge_embed__" data-doi="10.1038/s41598-026-35984-7" data-hide-zero-citations="true" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+```

@@ -1,0 +1,17 @@
+---
+title: "New Publication: Feature reduction using swarm optimization and random forest classifiers for early diabetes risk prediction"
+author: "md abdus samad"
+date: "2026-03-02"
+categories: [news]
+draft: false
+image: "/files/images/scientific-reports-banner.jpg"
+---
+
+We're excited to announce our latest research has been accepted for publication in **_Scientific Reports_** (Nature Portfolio)!
+
+This work presents a novel approach to early diabetes risk prediction by combining swarm intelligence-based feature selection with Random Forest classification. The study demonstrates that leveraging swarm optimization to reduce dimensionality can maintain — or even improve — predictive performance while significantly lowering computational complexity.
+
+
+<!--Include social share buttons-->
+
+{{< include /files/includes/_socialshare.qmd >}}
