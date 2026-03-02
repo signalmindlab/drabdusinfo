@@ -1,8 +1,7 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/posts.html",
     "items": [
-      "/posts/paper-title/diabetes-scireports-paper.html",
       "/posts/diabetes-scireports-2026/index.html",
       "/posts/paper-title/catboost-paper.html",
       "/posts/paper-title/evaluation-metrics-paper.html",
@@ -15,10 +14,9 @@
     "items": []
   },
   {
-    "listing": "/posts.html",
+    "listing": "/index.html",
     "items": [
       "/posts/diabetes-scireports-2026/index.html",
-      "/posts/paper-title/diabetes-scireports-paper.html",
       "/posts/paper-title/catboost-paper.html",
       "/posts/paper-title/evaluation-metrics-paper.html",
       "/posts/paper-title/explainable-deep-paper.html",
