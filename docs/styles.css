@@ -58,6 +58,13 @@ img.rounded {
     line-height: 1 !important;
 }
 
+/* Trestles layout – match the image column to content indent below */
+@media (min-width: 992px) {
+  div.quarto-about-trestles .about-entity {
+    flex: 0 0 33% !important;   /* align bio text with page content below */
+  }
+}
+
 /* Hide name title under profile picture in about/trestles section */
 .about-entity .about-title,
 .about-entity h1,
@@ -65,6 +72,25 @@ img.rounded {
 .quarto-about-trestles h1,
 .quarto-about-trestles .about-title {
     display: none !important;
+}
+
+/* Banner – consistent size and color on every page */
+.quarto-title-banner {
+    background: #cc3300 !important;
+    padding-top: 2.5em !important;
+    padding-bottom: 1em !important;
+}
+
+@media (max-width: 991.98px) {
+  .quarto-title-banner {
+    padding-top: 1.5em !important;
+    padding-bottom: 0.5em !important;
+  }
+}
+
+/* Reduce gap between banner and content */
+main.content.quarto-banner-title-block {
+    padding-top: 1em !important;
 }
 
 /* Sticky navbar – only on screens wide enough that the bar stays compact */
