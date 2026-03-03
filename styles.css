@@ -74,11 +74,6 @@ img.rounded {
     display: none !important;
 }
 
-/* Move "Hi there!" title to the right */
-.quarto-title h1.title {
-    margin-left: 7cm !important;
-}
-
 /* Banner – consistent size and color on every page */
 .quarto-title-banner {
     background: #9B3A3A !important;
