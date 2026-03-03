@@ -5,17 +5,48 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Md Abdus Samad, PhD</title>
+<title>Md Abdus Samad</title>
 <link>https://www.drabdus.info/posts.html</link>
 <atom:link href="https://www.drabdus.info/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Developed by Dr. Md Abdus Samad</description>
 <image>
 <url>https://www.drabdus.info/posts/placeholder2.JPG</url>
-<title>Md Abdus Samad, PhD</title>
+<title>Md Abdus Samad</title>
 <link>https://www.drabdus.info/posts.html</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Mon, 08 Dec 2025 15:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 01 Mar 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>New Publication: Feature reduction using swarm optimization and random forest classifiers for early diabetes risk prediction</title>
+  <dc:creator>md abdus samad</dc:creator>
+  <link>https://www.drabdus.info/posts/diabetes-scireports-2026/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We’re excited to announce our latest research has been accepted for publication in <strong><em>Scientific Reports</em></strong> (Nature Portfolio)!</p>
+<p>This work presents a novel approach to early diabetes risk prediction by combining swarm intelligence-based feature selection with Random Forest classification. The study demonstrates that leveraging swarm optimization to reduce dimensionality can maintain — or even improve — predictive performance while significantly lowering computational complexity.</p>
+<!--Include social share buttons-->
+<!-- 
+AddToAny check more: https://www.addtoany.com/buttons/for/website 
+Using includes will make edits easier, will only need to add or remove button here if needed.
+https://quarto.org/docs/authoring/includes.html
+-->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+</div>
+<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://www.drabdus.info/posts/diabetes-scireports-2026/</guid>
+  <pubDate>Sun, 01 Mar 2026 15:00:00 GMT</pubDate>
+  <media:content url="https://www.drabdus.info/files/images/scientific-reports-banner.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>CatBoost with Physics-Based Metaheuristics for Thyroid Cancer Recurrence Prediction</title>
   <dc:creator>Proshenjit Sarker</dc:creator>
@@ -541,7 +572,7 @@ https://quarto.org/docs/authoring/includes.html
   <category>news</category>
   <guid>https://www.drabdus.info/posts/news-title/</guid>
   <pubDate>Tue, 14 Jan 2025 15:00:00 GMT</pubDate>
-  <media:content url="https://www.drabdus.info/files/images/placeholder2.JPG" medium="image"/>
+  <media:content url="https://www.drabdus.info/files/images/s40537-025-01313-4.png" medium="image" type="image/png" height="79" width="144"/>
 </item>
 </channel>
 </rss>

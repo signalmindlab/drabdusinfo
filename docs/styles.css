@@ -75,8 +75,17 @@ img.rounded {
 }
 
 /* Banner – consistent size and color on every page */
-.quarto-title-banner {
+#title-block-header.quarto-title-block,
+.quarto-title-banner,
+.quarto-title-meta {
     background: #cc3300 !important;
+}
+
+#title-block-header.quarto-title-block {
+    min-height: 9em !important;
+}
+
+.quarto-title-banner {
     padding-top: 2.5em !important;
     padding-bottom: 1em !important;
 }
@@ -85,6 +94,9 @@ img.rounded {
   .quarto-title-banner {
     padding-top: 1.5em !important;
     padding-bottom: 0.5em !important;
+  }
+  #title-block-header.quarto-title-block {
+    min-height: 7em !important;
   }
 }
 
