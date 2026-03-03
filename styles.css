@@ -75,27 +75,17 @@ img.rounded {
 }
 
 /* Banner – consistent size and color on every page */
-#title-block-header.quarto-title-block,
 .quarto-title-banner {
     background: #9B3A3A !important;
-}
-
-#title-block-header.quarto-title-block {
-    min-height: 9em !important;
-}
-
-.quarto-title-banner {
     padding-top: 2.5em !important;
-    padding-bottom: 1em !important;
+    padding-bottom: 2.5em !important;
+    min-height: 5em !important;
 }
 
 @media (max-width: 991.98px) {
   .quarto-title-banner {
     padding-top: 1.5em !important;
-    padding-bottom: 0.5em !important;
-  }
-  #title-block-header.quarto-title-block {
-    min-height: 7em !important;
+    padding-bottom: 1.5em !important;
   }
 }
 
