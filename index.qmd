@@ -39,7 +39,7 @@ listing:
     include:
       categories: [blog]  # Only show blog posts
     type: default
-    max-items: 4  # Show all 4 blog posts
+    max-items: 5  # Show all 5 blog posts
     categories: false
     fields: [date, title, description]
     sort: "date desc"

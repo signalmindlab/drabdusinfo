@@ -1,4 +1,12 @@
 # Blog posts from blog.drabdus.info
+- path: "https://blog.drabdus.info/blog/top-2-percent-scientists-2026"
+  image: "files/images/placeholder2.JPG"
+  title: "Md Abdus Samad Named Among the World's Top 2% Scientists (2026)"
+  author: "Md Abdus Samad"
+  description: "Included in the 2026 Stanford University / Elsevier Top 2% Scientists list (single-year 2025), ranked 3,626 of 228,312 in Networking & Telecommunications."
+  date: "2026-10-10"
+  categories: [blog]
+
 - path: "https://blog.drabdus.info/blog/Essential%20VS%20Code%20LaTeX%20Workshop%20Keyboard%20Shortcuts"
   image: "files/images/placeholder2.JPG"
   title: "Essential VS Code LaTeX Workshop Keyboard Shortcuts for Faster PDF Workflow"
