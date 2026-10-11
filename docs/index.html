@@ -630,10 +630,10 @@ window.Quarto = {
   </a>
 </div>
 <script>
-  // Move the badge under the profile photo (falls back to its current spot if not found)
+  // Move the badge to the end of the bio at full size (falls back to its current spot if not found)
   document.addEventListener("DOMContentLoaded", function () {
     var badge = document.getElementById("topsci-badge");
-    var entity = document.querySelector(".quarto-about-trestles .about-entity");
+    var entity = document.querySelector(".quarto-about-trestles .about-contents");
     if (badge && entity) entity.appendChild(badge);
   });
 </script>
