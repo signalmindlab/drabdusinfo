@@ -118,3 +118,13 @@ footer.footer p,
 footer.footer a {
     color: #fff !important;
 }
+
+/* Top 2% Scientist badge under the profile photo */
+.topsci-badge {
+  margin-top: 0.75rem;
+  max-width: 200px;
+}
+.topsci-badge img {
+  max-width: 100%;
+  height: auto;
+}

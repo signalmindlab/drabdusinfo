@@ -52,6 +52,24 @@ I am a Research Professor in the Department of Information and Communication Eng
 Previously, I served as Assistant Professor in the Department of Electronics and Telecommunication Engineering at International Islamic University Chittagong (2013–2017), where I contributed to curriculum development and mentored future telecommunications engineers. I earned my Ph.D. in Information and Communication Engineering from Chosun University, fully supported by the Korean Government Scholarship (Global Korea Scholarship) and funded by the National Research Foundation of Korea.
 :::
 
+```{=html}
+<div id="topsci-badge" class="topsci-badge">
+  <a href="https://topscinet.com/scientist_profile/Samad,%20Md%20Abdus/2012/?stype=single_year" target="_blank" rel="noopener">
+    <img src="https://topscinet.com/badge/U16372.png?style=horizontal-blue&type=single&logo=plain"
+         alt="Top 2% Scientist badge, TOPSCINET, 2026"
+         width="380" height="80" loading="lazy">
+  </a>
+</div>
+<script>
+  // Move the badge under the profile photo (falls back to its current spot if not found)
+  document.addEventListener("DOMContentLoaded", function () {
+    var badge = document.getElementById("topsci-badge");
+    var entity = document.querySelector(".quarto-about-trestles .about-entity");
+    if (badge && entity) entity.appendChild(badge);
+  });
+</script>
+```
+
 
 ## Recent Blog Posts
 From my [blog](https://blog.drabdus.info){target="_blank"}
