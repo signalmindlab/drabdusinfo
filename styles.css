@@ -119,10 +119,10 @@ footer.footer a {
     color: #fff !important;
 }
 
-/* Top 2% Scientist badge under the profile photo */
+/* Top 2% Scientist badge below the bio (full size so the right-side text is readable) */
 .topsci-badge {
-  margin-top: 0.75rem;
-  max-width: 200px;
+  margin-top: 1rem;
+  max-width: 380px;
 }
 .topsci-badge img {
   max-width: 100%;
