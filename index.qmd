@@ -53,7 +53,7 @@ Previously, I served as Assistant Professor in the Department of Electronics and
 :::
 
 ```{=html}
-<aside class="topsci-note">
+<div class="topsci-note column-margin">
   <strong>Top 2% Scientist 2026.</strong>
   Included in the Stanford University / Elsevier list of the world's top 2% scientists
   (2026 edition, single-year 2025 data), ranked 3,626 of 228,312 in Networking &amp; Telecommunications.
@@ -64,7 +64,7 @@ Previously, I served as Assistant Professor in the Department of Electronics and
     Elsevier Data Repository, V9.
     <a href="https://doi.org/10.17632/btchxktzyw.9" target="_blank" rel="noopener">doi:10.17632/btchxktzyw.9</a>
   </div>
-</aside>
+</div>
 ```
 
 

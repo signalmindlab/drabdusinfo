@@ -132,3 +132,16 @@ footer.footer a {
   font-size: 0.8rem;
   opacity: 0.8;
 }
+
+/* The empty margin-sidebar layer sits above the main content and swallows clicks/selection
+   meant for the note in the right margin; let pointer events through on pages that have it */
+body:has(.topsci-note) #quarto-margin-sidebar {
+  pointer-events: none;
+}
+
+/* Desktop: note sits in the right margin; line its first text up with the first line of the bio */
+@media (min-width: 992px) {
+  .topsci-note {
+    margin-top: 2.43rem;
+  }
+}
