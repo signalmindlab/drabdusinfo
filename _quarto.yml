@@ -130,12 +130,6 @@ website:
             target: _blank
       - icon: envelope
         href: mailto:write@drabdus.info
-      - icon: linkedin
-        href: https://www.linkedin.com/in/drabdus/
-        target: _blank
-      - icon: youtube
-        href: https://www.youtube.com/@drabdus
-        target: _blank
       - icon: rss
         href: posts.xml
         target: _blank
